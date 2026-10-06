@@ -73,6 +73,20 @@ public class AttributeRegistry {
     public static final Holder<Attribute> RAGE_LOSS_RATE = registerPercentage("rage_loss_rate", 1.0);
     public static final Holder<Attribute> RAGE_REGEN_PER_RAGE_SPENT = registerDouble("rage_regen_per_rage_spent", 0.0);
     public static final Holder<Attribute> RAGE_REGEN_PER_SECOND = registerDouble("rage_regen_per_second", 0.0);
+    /** 怒气效果全局乘子 —— 盛怒Berserk「(40—59)% increased Rage effect」的落点。base=1.0（倍率型，非增量）。
+     *  <p><b>写入侧</b>：盛怒经 {@code ModifierAction}（operation=2 → ADD_MULTIPLIED_BASE，
+     *  {@code SpiritRedGen#berserkRageEffect} 逐等级 0.40—0.59）写入 ⇒ 运行期 1.40—1.59，符合「随等级成长」意图。
+     *  <p><b>消费侧</b>：唯一入口 {@code WirePerScaling#perRage()}（{@code $value * rage * attribute:coe:rage_effect / $per}），
+     *  7 条「每点怒气给 X%」通道（fire/physical/spell/minion 伤害、armor、stun threshold、minion atk speed）全经此读。
+     *  <p><b>曾为死线且症状比「不生效」更重</b>：本属性漏注册时 {@code AttributeValue#evaluate} 走
+     *  {@code orElseThrow}（非回落 0）抛 IllegalArgumentException，经 StatEngine.fold（finally 无 catch）
+     *  一路上抛至 {@code LivingAttributeValue} mixin 的 {@code getAttributeValue}（无 catch）—— 读即崩，非静默为0。
+     *  <p><b>range 依据</b>：用 {@code registerPercentage(name, base)} 2 参重载的 ±999999.0 默认区间
+     *  （同 DAMAGE/PROJECTILE_SPEED 等base=1.0 倍率属性惯例；本仓 63 处 base=1.0 percentage 均走此重载，
+     *  <b>无</b>任何 base=1.0 percentage 显式收窄 min/max 的先例，故不自创区间）。
+     *  取 Percentage 而非 Double：与同为「base=1.0 + 经 {@code attribute:coe:X} 被当原始乘子读」的
+     *  {@code PROJECTILE_SPEED} 同形，且「increased Rage effect」按百分比呈现（1.40 → 140%）。 */
+    public static final Holder<Attribute> RAGE_EFFECT = registerPercentage("rage_effect", 1.0);
     public static final Holder<Attribute> RESERVATION_EFFICIENCY = registerPercentage("reservation_efficiency", 0.0);
     public static final Holder<Attribute> INVOKED_ENERGY_COST_MULT = registerPercentage("invoked_energy_cost_mult", 1.0, "invoked");
     public static final Holder<Attribute> VOLATILITY_DETONATION_TIME = registerDouble("volatility_detonation_time", 5.0);
