@@ -22,6 +22,7 @@ import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.entity.LivingEntity;
 import org.jspecify.annotations.Nullable;
 
+import java.util.List;
 import java.util.function.IntFunction;
 import java.util.Set;
 
@@ -82,6 +83,28 @@ public enum ResourceType implements StringRepresentable {
         return id == null || id.isEmpty() ? "default" : id;
     }
 
+    /**
+     * 连击分槽键：优先本次施放由 ComboAction 灌入的 comboId（保住 per-skill 分槽），
+     * 缺省回落到 {@link ResourceRegistry} 既有的通用默认槽 {@code "default"}
+     * —— 即 GrantOnEventStatEffect 的 GrantTarget.COMBO（param="default"）实际写入的槽，
+     * 不在此处另编键名。
+     */
+    private static String comboKey(SkillContext context) {
+        String id = context == null ? null : context.getComboId();
+        return id == null || id.isEmpty() ? "default" : id;
+    }
+
+    /**
+     * 荣耀分槽键：优先本次施放由 Banner 类技能灌入的 gloryId（保住 per-skill 分槽），
+     * 缺省回落到 {@link ResourceRegistry#BANNER_GLORY}——即 DeathHelper.generateGlory 实际写入的槽。
+     * 注意：不能用 {@code ResourceRegistry.current(living, "glory")}，该泛型入口恒读 "default" 槽，
+     * 与荣耀的真实写入槽 "banner" 不一致，会恒读 0。
+     */
+    private static String gloryKey(SkillContext context) {
+        String id = context == null ? null : context.getGloryId();
+        return id == null || id.isEmpty() ? ResourceRegistry.BANNER_GLORY : id;
+    }
+
     public boolean match(SkillContext context, double value) {
         LivingEntity caster = context.getCaster();
         return switch (this) {
@@ -94,8 +117,10 @@ public enum ResourceType implements StringRepresentable {
             case ENDURANCE_CHARGE -> ResourceRegistry.current(caster, "endurance_charge") >= (int) value;
             case FRENZY_CHARGE -> ResourceRegistry.current(caster, "frenzy_charge") >= (int) value;
             case POWER_CHARGE -> ResourceRegistry.current(caster, "power_charge") >= (int) value;
-            case COMBO -> context.getComboCount() >= (int) value;
-            case GLORY -> context.getGloryAmount() >= (int) value;
+            // 连击/荣耀直读附件持久层（不再依赖 SkillContext 缓存——该缓存仅由 ComboAction 灌入，
+            // 无 ComboAction 的技能恒读 -1/0，使本行恒 false）。分槽键见 comboKey/gloryKey。
+            case COMBO -> ResourceRegistry.getCombo(caster, comboKey(context)).count() >= (int) value;
+            case GLORY -> ResourceRegistry.getGlory(caster, gloryKey(context)) >= (int) value;
             case RAGE -> ResourceRegistry.current(caster, "rage") > value;
             case VOLATILITY -> ResourceRegistry.current(caster, "volatility") >= value;
             case INFUSION -> ResourceRegistry.current(caster, "infusion") >= value;
@@ -119,9 +144,11 @@ public enum ResourceType implements StringRepresentable {
                 ChargeType ct = chargeType(this);
                 ResourceRegistry.consumeCharge(caster, ct, (int) value, null, null, Set.of());
             }
-            // 连击/荣耀按当前技能独立计数消耗（per-skill，落各自持久层）
-            case COMBO -> context.consumeCombo((int) value);
-            case GLORY -> context.consumeGlory((int) value);
+            // 连击/荣耀直扣附件持久层（绕过 SkillContext 缓存的 comboId==null 早退）。
+            // 连击经 ComboSave.consume 发射 COMBO_SPENT（sum:combo_spent 的唯一来源）；
+            // 荣耀经 GlorySave.consume 发射 CONSUME_GLORY（含 GLORY_CONSUME_SKIP_CHANCE 掷骰）。
+            case COMBO -> ResourceRegistry.consumeCombo(caster, comboKey(context), (int) value, List.of(), null, null, null);
+            case GLORY -> ResourceRegistry.consumeGlory(caster, gloryKey(context), (int) value);
             // 怒气经统一资源枢纽（RESOURCE_SPEND 事件 + 转化），后端 spendBackend 落值
             case RAGE -> ResourceRegistry.spendRage(caster, (float) value);
             // 波动经真实消耗通道（钳制下限 0）

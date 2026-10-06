@@ -273,6 +273,11 @@ public class SkillContext {
         return Math.max(0, comboCount);
     }
 
+    /** 本次施放的连击分槽 id（未由 ComboAction 灌入返回 null）。 */
+    public @Nullable String getComboId() {
+        return comboId;
+    }
+
     /** 消耗连击层数作为资源代价（由 ResourceType.COMBO.cost 调用）。 */
     public void consumeCombo(int amount) {
         if (comboId == null || comboCount <= 0 || amount <= 0) return;
@@ -296,6 +301,11 @@ public class SkillContext {
     /** 当前技能的荣耀值（未设置返回 0）。 */
     public int getGloryAmount() {
         return Math.max(0, gloryAmount);
+    }
+
+    /** 本次施放的荣耀分槽 id（未由 Banner 类技能灌入返回 null）。 */
+    public @Nullable String getGloryId() {
+        return gloryId;
     }
 
     /** 消耗荣耀作为资源代价（由 ResourceType.GLORY.cost 调用）。 */
