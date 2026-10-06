@@ -1,0 +1,90 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:attack_elemental_damage_inc"
+      },
+      "tiers": [
+        {
+          "level": 4,
+          "name": "catalysing",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 19.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 16,
+          "name": "infusing",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 52.0,
+              "min": 36.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 33,
+          "name": "empowering",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 62.0,
+              "min": 53.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 46,
+          "name": "unleashed",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 72.0,
+              "min": 63.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 60,
+          "name": "overpowering",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 86.0,
+              "min": 73.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 81,
+          "name": "devastating",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 100.0,
+              "min": 87.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:claw",
+      "coe:dagger",
+      "coe:flail",
+      "coe:one_hand_axe",
+      "coe:one_hand_sword"
+    ]
+  }
+}

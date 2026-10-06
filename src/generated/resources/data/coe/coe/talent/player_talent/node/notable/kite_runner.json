@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "26107",
+    "links": [
+      "33713",
+      "52361"
+    ],
+    "x": 7868.42,
+    "y": -3177.92
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_culling_strike_threshold",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "20467",
+    "links": [
+      "16786",
+      "17702",
+      "58312"
+    ],
+    "x": 4786.73,
+    "y": 9464.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_culling_strike_threshold",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "49497",
+    "links": [
+      "23244",
+      "58312"
+    ],
+    "x": 5036.73,
+    "y": 9130.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_culling_strike_threshold",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "58312",
+    "links": [
+      "20467",
+      "49497"
+    ],
+    "x": 4911.73,
+    "y": 9346.57
+  }
+]

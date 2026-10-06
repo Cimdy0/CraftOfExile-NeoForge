@@ -1,0 +1,437 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "10242",
+    "links": [
+      "38111",
+      "6079"
+    ],
+    "x": 6033.46,
+    "y": -6756.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "21540",
+    "links": [
+      "27658",
+      "40783",
+      "58090"
+    ],
+    "x": 682.785,
+    "y": -5708.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "22141",
+    "links": [
+      "51797",
+      "54521"
+    ],
+    "x": -2447.32,
+    "y": -10245.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "23822",
+    "links": [
+      "58779",
+      "9652"
+    ],
+    "x": 7374.83,
+    "y": -7315.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "2508",
+    "links": [
+      "47168",
+      "59425"
+    ],
+    "x": -2947.32,
+    "y": -10245.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "27658",
+    "links": [
+      "13542",
+      "21540"
+    ],
+    "x": 787.345,
+    "y": -5929.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "34367",
+    "links": [
+      "48774",
+      "58090"
+    ],
+    "x": 275.935,
+    "y": -5926.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkhealthchakra",
+    "id": "38212",
+    "links": [
+      "14267",
+      "57683"
+    ],
+    "x": 10953.7,
+    "y": -715.845
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "38368",
+    "links": [
+      "35966",
+      "4091"
+    ],
+    "x": -7138.53,
+    "y": -5046.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "41105",
+    "links": [
+      "21568",
+      "38835",
+      "54288"
+    ],
+    "x": -7138.53,
+    "y": -4796.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "51797",
+    "links": [
+      "22141",
+      "23939"
+    ],
+    "x": -2480.82,
+    "y": -10120.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "54288",
+    "links": [
+      "35966",
+      "41105"
+    ],
+    "x": -6922.03,
+    "y": -4921.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkhealthchakra",
+    "id": "57683",
+    "links": [
+      "35031",
+      "38212"
+    ],
+    "x": 11138.2,
+    "y": -639.433
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "58090",
+    "links": [
+      "21540",
+      "34367",
+      "57710"
+    ],
+    "x": 399.295,
+    "y": -5702.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "59425",
+    "links": [
+      "23939",
+      "2508"
+    ],
+    "x": -2913.83,
+    "y": -10120.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "59603",
+    "links": [
+      "4203",
+      "62159"
+    ],
+    "x": 2229.99,
+    "y": -3149.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "6079",
+    "links": [
+      "10242",
+      "24165"
+    ],
+    "x": 5749.41,
+    "y": -6756.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "62159",
+    "links": [
+      "57110",
+      "59603"
+    ],
+    "x": 2372.02,
+    "y": -3067.3
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_cannot_be_electrocuted",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_shock_on_you",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamageenergyshieldrecharge",
+    "id": "64770",
+    "links": [
+      "23039"
+    ],
+    "x": -6047.11,
+    "y": -6829.96
+  }
+]

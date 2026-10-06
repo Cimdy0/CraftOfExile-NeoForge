@@ -1,0 +1,673 @@
+{
+  "_source": "https://poe2db.tw/tw/Essence（POE2 0.5 实测语料，2026-09-25 爬取，与 runes.json 同源）",
+  "_mechanics": {
+    "lesser_normal_greater": "将一件[魔法]物品升级成[稀有]物品，且必定新增 1 条保证词缀（堆栈 1/10）",
+    "perfect_corrupted": "移除一条随机词缀，且必定为一件[稀有]物品新增一条保证词缀（堆栈 1/10）",
+    "single_essence_per_item": "0.5 版每件物品仅允许 1 条 essence 词缀",
+    "note": "本模组以 12 概念精髓（Life/Mana/Physical/Defences/Fire/Cold/Lightning/Chaos/Caster/Speed/Attribute/Attack）映射 PoE2 真实精髓家族（Body/Mind/Abrasion/Enhancement/Flames/Ice/Electricity/Ruin/Sorcery/Haste/Infinite/Battle）；只实装 Normal + Greater + Corrupted 三阶（图标即模组既有 26 枚），Lesser/Perfect 阶未做图标故未实装。分支键 = armour/accessory/weapon_1h/weapon_2h/caster，保底词直落 PREFIX（镜像符文 ENCHANT 层，精髓落原生前后缀）。",
+    "data_layout": "每文件 {id,family,tier,level_req,location,branches:{<branch>:[{type,min,max}]}}，type=AdditionType 常量名，经 EssenceAdditionTypes 翻译。"
+  },
+  "essences": [
+    {
+      "id": "life_essence",
+      "en": "Essence of the Body",
+      "tw": "肉體精體",
+      "tier": "normal",
+      "family": "Body",
+      "icon": "item/essence/life_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_MAX_HEALTH",
+            "min": 85,
+            "max": 99
+          }
+        ],
+        "accessory": [
+          {
+            "type": "ADD_MAX_HEALTH",
+            "min": 70,
+            "max": 84
+          }
+        ]
+      }
+    },
+    {
+      "id": "mana_essence",
+      "en": "Essence of the Mind",
+      "tw": "心智精體",
+      "tier": "normal",
+      "family": "Mind",
+      "icon": "item/essence/mana_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_MAX_MANA",
+            "min": 65,
+            "max": 79
+          }
+        ],
+        "accessory": [
+          {
+            "type": "ADD_MAX_MANA",
+            "min": 80,
+            "max": 89
+          }
+        ]
+      }
+    },
+    {
+      "id": "physical_essence",
+      "en": "Essence of Abrasion",
+      "tw": "磨礎精髓",
+      "tier": "normal",
+      "family": "Abrasion",
+      "icon": "item/essence/physical_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_ADD_PHYSICAL_DAMAGE",
+            "min": 10,
+            "max": 15
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_ADD_PHYSICAL_DAMAGE",
+            "min": 14,
+            "max": 21
+          }
+        ]
+      }
+    },
+    {
+      "id": "defences_essence",
+      "en": "Essence of Enhancement",
+      "tw": "強化精髓",
+      "tier": "normal",
+      "family": "Enhancement",
+      "icon": "item/essence/defences_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ARMOR_INC_LOCAL",
+            "min": 56,
+            "max": 67
+          },
+          {
+            "type": "EVASION_INC_LOCAL",
+            "min": 56,
+            "max": 67
+          },
+          {
+            "type": "ENERGY_INC_LOCAL",
+            "min": 56,
+            "max": 67
+          }
+        ]
+      }
+    },
+    {
+      "id": "fire_essence",
+      "en": "Essence of Flames",
+      "tw": "烈焰精髓",
+      "tier": "normal",
+      "family": "Flames",
+      "icon": "item/essence/fire_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_ADD_FIRE_DAMAGE",
+            "min": 20,
+            "max": 24
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_ADD_FIRE_DAMAGE",
+            "min": 30,
+            "max": 37
+          }
+        ]
+      }
+    },
+    {
+      "id": "cold_essence",
+      "en": "Essence of Ice",
+      "tw": "寧冰精髓",
+      "tier": "normal",
+      "family": "Ice",
+      "icon": "item/essence/cold_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_ADD_COLD_DAMAGE",
+            "min": 17,
+            "max": 20
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_ADD_COLD_DAMAGE",
+            "min": 25,
+            "max": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "lightning_essence",
+      "en": "Essence of Electricity",
+      "tw": "電能精髓",
+      "tier": "normal",
+      "family": "Electricity",
+      "icon": "item/essence/lightning_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_ADD_LIGHT_DAMAGE",
+            "min": 1,
+            "max": 3
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_ADD_LIGHT_DAMAGE",
+            "min": 1,
+            "max": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "chaos_essence",
+      "en": "Essence of Ruin",
+      "tw": "毁滅精髓",
+      "tier": "normal",
+      "family": "Ruin",
+      "icon": "item/essence/chaos_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_CHAOS_RESISTANCE",
+            "min": 8,
+            "max": 11
+          }
+        ],
+        "accessory": [
+          {
+            "type": "ADD_CHAOS_RESISTANCE",
+            "min": 8,
+            "max": 11
+          }
+        ]
+      }
+    },
+    {
+      "id": "caster_essence",
+      "en": "Essence of Sorcery",
+      "tw": "導幃精髓",
+      "tier": "normal",
+      "family": "Sorcery",
+      "icon": "item/essence/caster_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "caster": [
+          {
+            "type": "INC_SPELL_DAMAGE",
+            "min": 55,
+            "max": 64
+          }
+        ]
+      }
+    },
+    {
+      "id": "speed_essence",
+      "en": "Essence of Haste",
+      "tw": "捻捻精髓",
+      "tier": "normal",
+      "family": "Haste",
+      "icon": "item/essence/speed_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_SPEED_INC",
+            "min": 17,
+            "max": 19
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_SPEED_INC",
+            "min": 11,
+            "max": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "attribute_essence",
+      "en": "Essence of the Infinite",
+      "tw": "無限精髓",
+      "tier": "normal",
+      "family": "Infinite",
+      "icon": "item/essence/attribute_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_STRENGTH",
+            "min": 17,
+            "max": 20
+          }
+        ],
+        "accessory": [
+          {
+            "type": "ADD_STRENGTH",
+            "min": 17,
+            "max": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "attack_essence",
+      "en": "Essence of Battle",
+      "tw": "戰鬥精髓",
+      "tier": "normal",
+      "family": "Battle",
+      "icon": "item/essence/attack_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ADD_ACCURACY",
+            "min": 124,
+            "max": 167
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ADD_ACCURACY",
+            "min": 124,
+            "max": 167
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_life_essence",
+      "en": "Greater Essence of the Body",
+      "tw": "高階肉體精髓",
+      "tier": "greater",
+      "family": "Body",
+      "icon": "item/essence/greater_life_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_MAX_HEALTH",
+            "min": 100,
+            "max": 119
+          }
+        ],
+        "accessory": [
+          {
+            "type": "ADD_MAX_HEALTH",
+            "min": 85,
+            "max": 99
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_mana_essence",
+      "en": "Greater Essence of the Mind",
+      "tw": "高階心智精髓",
+      "tier": "greater",
+      "family": "Mind",
+      "icon": "item/essence/greater_mana_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_MAX_MANA",
+            "min": 80,
+            "max": 89
+          }
+        ],
+        "accessory": [
+          {
+            "type": "ADD_MAX_MANA",
+            "min": 90,
+            "max": 104
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_defences_essence",
+      "en": "Greater Essence of Enhancement",
+      "tw": "高階強化精髓",
+      "tier": "greater",
+      "family": "Enhancement",
+      "icon": "item/essence/greater_defences_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ARMOR_INC_LOCAL",
+            "min": 68,
+            "max": 79
+          },
+          {
+            "type": "EVASION_INC_LOCAL",
+            "min": 68,
+            "max": 79
+          },
+          {
+            "type": "ENERGY_INC_LOCAL",
+            "min": 68,
+            "max": 79
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_physical_essence",
+      "en": "Greater Essence of Abrasion",
+      "tw": "高階磨礎精髓",
+      "tier": "greater",
+      "family": "Abrasion",
+      "icon": "item/essence/greater_physical_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_ADD_PHYSICAL_DAMAGE",
+            "min": 16,
+            "max": 24
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_ADD_PHYSICAL_DAMAGE",
+            "min": 23,
+            "max": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_fire_essence",
+      "en": "Greater Essence of Flames",
+      "tw": "高階烈焰精髓",
+      "tier": "greater",
+      "family": "Flames",
+      "icon": "item/essence/greater_fire_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_ADD_FIRE_DAMAGE",
+            "min": 35,
+            "max": 44
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_ADD_FIRE_DAMAGE",
+            "min": 56,
+            "max": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_lightning_essence",
+      "en": "Greater Essence of Electricity",
+      "tw": "高階電能精髓",
+      "tier": "greater",
+      "family": "Electricity",
+      "icon": "item/essence/greater_lightning_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_ADD_LIGHT_DAMAGE",
+            "min": 1,
+            "max": 6
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_ADD_LIGHT_DAMAGE",
+            "min": 1,
+            "max": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_caster_essence",
+      "en": "Greater Essence of Sorcery",
+      "tw": "高階導幃精髓",
+      "tier": "greater",
+      "family": "Sorcery",
+      "icon": "item/essence/greater_caster_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "caster": [
+          {
+            "type": "INC_SPELL_DAMAGE",
+            "min": 75,
+            "max": 89
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_attack_essence",
+      "en": "Greater Essence of Battle",
+      "tw": "高階戰鬥精髓",
+      "tier": "greater",
+      "family": "Battle",
+      "icon": "item/essence/greater_attack_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ADD_ACCURACY",
+            "min": 237,
+            "max": 346
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ADD_ACCURACY",
+            "min": 237,
+            "max": 346
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_speed_essence",
+      "en": "Greater Essence of Haste",
+      "tw": "高階捻捻精髓",
+      "tier": "greater",
+      "family": "Haste",
+      "icon": "item/essence/greater_speed_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "weapon_1h": [
+          {
+            "type": "ATTACK_SPEED_INC",
+            "min": 23,
+            "max": 25
+          }
+        ],
+        "weapon_2h": [
+          {
+            "type": "ATTACK_SPEED_INC",
+            "min": 14,
+            "max": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "greater_attribute_essence",
+      "en": "Greater Essence of the Infinite",
+      "tw": "高階無限精髓",
+      "tier": "greater",
+      "family": "Infinite",
+      "icon": "item/essence/greater_attribute_essence",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_STRENGTH",
+            "min": 25,
+            "max": 27
+          }
+        ],
+        "accessory": [
+          {
+            "type": "ADD_STRENGTH",
+            "min": 25,
+            "max": 27
+          }
+        ]
+      }
+    },
+    {
+      "id": "corrupted_essence_hysteria",
+      "en": "Essence of Hysteria",
+      "tw": "浪貴精髓",
+      "tier": "corrupted",
+      "family": "Hysteria",
+      "icon": "item/essence/corrupted_essence_hysteria",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "caster": [
+          {
+            "type": "ENERGY_RECHARGE_RATE_INC",
+            "min": 20,
+            "max": 23
+          }
+        ],
+        "accessory": [
+          {
+            "type": "MANA_REGENERATION_RATE_INC",
+            "min": 50,
+            "max": 59
+          }
+        ],
+        "armour": [
+          {
+            "type": "ADD_STUN_THRESHOLD",
+            "min": 254,
+            "max": 304
+          }
+        ],
+        "weapon_1h": [
+          {
+            "type": "ATTACK_DAMAGE_INC",
+            "min": 43,
+            "max": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "corrupted_essence_delirium",
+      "en": "Essence of Delirium",
+      "tw": "诟忘精髓",
+      "tier": "corrupted",
+      "family": "Delirium",
+      "icon": "item/essence/corrupted_essence_delirium",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_MAX_HEALTH",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "corrupted_essence_horror",
+      "en": "Essence of Horror",
+      "tw": "極恐精髓",
+      "tier": "corrupted",
+      "family": "Horror",
+      "icon": "item/essence/corrupted_essence_horror",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_MAX_HEALTH",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "corrupted_essence_insanity",
+      "en": "Essence of Insanity",
+      "tw": "錯亂精髓",
+      "tier": "corrupted",
+      "family": "Insanity",
+      "icon": "item/essence/corrupted_essence_insanity",
+      "level_req": 1,
+      "location": "prefix",
+      "branches": {
+        "armour": [
+          {
+            "type": "ADD_MAX_HEALTH",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    }
+  ]
+}

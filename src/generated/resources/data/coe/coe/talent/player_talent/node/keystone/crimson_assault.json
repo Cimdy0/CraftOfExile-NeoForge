@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:bleeding_you_inflict_is_aggravated",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:base_bleeding_duration_is_second",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_buff_magnitude_of_bleeding_you_inflict",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_crimsonassaultkeystone",
+    "id": "9085",
+    "links": [
+      "18923"
+    ],
+    "x": 4347.0,
+    "y": 6925.8
+  }
+]

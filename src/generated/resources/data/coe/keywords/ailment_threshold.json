@@ -1,0 +1,30 @@
+{
+  "aliases": [
+    "Ailment Threshold",
+    "异常阈值"
+  ],
+  "description": [
+    [
+      "$[ailment_threshold]",
+      "是异常（",
+      "$[freeze]",
+      "、",
+      "$[shock]",
+      "、",
+      "$[ignite]",
+      "、",
+      "$[bleed]",
+      "、",
+      "$[poison]",
+      "）累积所针对的池。"
+    ],
+    [
+      "阈值越高，需要越重的命中才能施加该异常。"
+    ]
+  ],
+  "id": "ailment_threshold",
+  "keys": [
+    "coe:keyword.ailment_threshold"
+  ],
+  "title": "@coe:keyword.ailment_threshold"
+}

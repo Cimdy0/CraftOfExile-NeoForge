@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:cost_efficiency",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "command"
+      },
+      {
+        "tag": "mana"
+      }
+    ]
+  }
+}

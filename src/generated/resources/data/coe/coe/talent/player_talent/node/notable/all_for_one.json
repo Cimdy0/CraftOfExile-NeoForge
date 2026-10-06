@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": -0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "43854",
+    "links": [
+      "65493"
+    ],
+    "x": -3313.87,
+    "y": -3849.91
+  }
+]

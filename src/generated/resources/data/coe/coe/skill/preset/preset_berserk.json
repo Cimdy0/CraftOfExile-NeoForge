@@ -1,0 +1,49 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 100.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_modifier": {
+                "attribute": "coe:rage_effect",
+                "operation": 2.0,
+                "value": "coe:level_table(0.4, 0.41, 0.42, 0.43, 0.44, 0.45, 0.46, 0.47, 0.48, 0.49, 0.5, 0.51, 0.52, 0.53, 0.54, 0.55, 0.56, 0.57, 0.58, 0.59)"
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "aura",
+    "buff",
+    "persistent"
+  ]
+}

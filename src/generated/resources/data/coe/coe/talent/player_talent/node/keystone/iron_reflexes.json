@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:stat_conversion_all_evasion_to_armor",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystoneironreflexes",
+    "id": "28492",
+    "links": [
+      "54099"
+    ],
+    "x": -1099.85,
+    "y": 11095.7
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_break_taken",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:defend_with_of_armor_while_not_on_low_energy_shield",
+            "vars": {
+              "value": 1.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorandenergyshieldnode",
+    "id": "50062",
+    "links": [
+      "64357"
+    ],
+    "x": -6998.06,
+    "y": -3208.51
+  }
+]

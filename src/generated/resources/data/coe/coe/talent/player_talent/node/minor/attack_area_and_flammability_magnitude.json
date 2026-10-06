@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_for_attacks",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "31626",
+    "links": [
+      "26952",
+      "50516"
+    ],
+    "x": 2973.61,
+    "y": 10843.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_for_attacks",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "41447",
+    "links": [
+      "13610",
+      "2814"
+    ],
+    "x": 3327.57,
+    "y": 11251.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_for_attacks",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "50516",
+    "links": [
+      "2814",
+      "31626"
+    ],
+    "x": 3163.31,
+    "y": 10868.0
+  }
+]

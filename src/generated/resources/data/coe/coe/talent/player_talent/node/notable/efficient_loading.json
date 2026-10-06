@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_when_you_reload_a_crossbow_to_be_immediate",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "53683",
+    "links": [
+      "25807",
+      "30082"
+    ],
+    "x": 1904.34,
+    "y": 11525.0
+  }
+]

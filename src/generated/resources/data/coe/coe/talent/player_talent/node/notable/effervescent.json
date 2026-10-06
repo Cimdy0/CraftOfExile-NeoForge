@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed_for_each_different_spell_you_ve_cast_in_the_last_eight_seconds",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "33093",
+    "links": [
+      "25729"
+    ],
+    "x": 8659.99,
+    "y": -7674.9
+  }
+]

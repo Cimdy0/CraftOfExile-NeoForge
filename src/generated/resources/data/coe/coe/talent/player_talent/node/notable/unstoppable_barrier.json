@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_slowing_potency_of_debuffs_on_you",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "33978",
+    "links": [
+      "30390",
+      "31609"
+    ],
+    "x": -4684.22,
+    "y": 1982.53
+  }
+]

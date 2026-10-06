@@ -1,0 +1,393 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "12208",
+    "links": [
+      "13619",
+      "30871",
+      "32813"
+    ],
+    "x": 5835.72,
+    "y": 4112.97
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "12255",
+    "links": [
+      "27740",
+      "62498",
+      "989"
+    ],
+    "x": -7025.42,
+    "y": 8343.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "13157",
+    "links": [
+      "30392",
+      "58388"
+    ],
+    "x": 4960.97,
+    "y": 10132.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "23343",
+    "links": [
+      "45244",
+      "58388"
+    ],
+    "x": 4758.56,
+    "y": 10339.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "24339",
+    "links": [
+      "58295",
+      "7060"
+    ],
+    "x": -7459.86,
+    "y": 207.685
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "26416",
+    "links": [
+      "35792",
+      "989"
+    ],
+    "x": -7167.44,
+    "y": 8589.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "30871",
+    "links": [
+      "12208",
+      "49466",
+      "63566"
+    ],
+    "x": 5835.73,
+    "y": 4513.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "31855",
+    "links": [
+      "37408",
+      "65009"
+    ],
+    "x": 4159.64,
+    "y": 514.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "32813",
+    "links": [
+      "12208",
+      "35809",
+      "59600"
+    ],
+    "x": 5658.94,
+    "y": 4168.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "49466",
+    "links": [
+      "30871",
+      "9411"
+    ],
+    "x": 5658.96,
+    "y": 4587.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "58388",
+    "links": [
+      "13157",
+      "17702",
+      "23343"
+    ],
+    "x": 4788.08,
+    "y": 10132.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks_used_when_on_low_health",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "59600",
+    "links": [
+      "13619",
+      "32813",
+      "9411"
+    ],
+    "x": 5482.17,
+    "y": 4112.97
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "60738",
+    "links": [
+      "24825",
+      "37408"
+    ],
+    "x": 3759.74,
+    "y": 406.979
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "7060",
+    "links": [
+      "24339",
+      "53131"
+    ],
+    "x": -7601.89,
+    "y": 289.685
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks_used_when_on_low_health",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "9411",
+    "links": [
+      "49466",
+      "59600",
+      "64434"
+    ],
+    "x": 5482.18,
+    "y": 4513.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "989",
+    "links": [
+      "12255",
+      "26416"
+    ],
+    "x": -7167.44,
+    "y": 8425.21
+  }
+]

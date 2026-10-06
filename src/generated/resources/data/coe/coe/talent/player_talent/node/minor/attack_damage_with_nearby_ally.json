@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_you_have_an_allies_in_your_presence",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "21871",
+    "links": [
+      "25213",
+      "37872",
+      "51847"
+    ],
+    "x": 946.211,
+    "y": 7138.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_you_have_an_allies_in_your_presence",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "25213",
+    "links": [
+      "19223",
+      "21871"
+    ],
+    "x": 729.705,
+    "y": 7263.94
+  }
+]

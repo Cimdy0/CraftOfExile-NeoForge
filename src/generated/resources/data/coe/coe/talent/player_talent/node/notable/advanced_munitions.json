@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments_with_projectiles",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "43829",
+    "links": [
+      "51944"
+    ],
+    "x": 541.375,
+    "y": 9564.7
+  }
+]

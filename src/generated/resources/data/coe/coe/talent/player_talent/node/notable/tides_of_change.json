@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "42813",
+    "links": [
+      "35787"
+    ],
+    "x": -4902.18,
+    "y": 158.96
+  }
+]

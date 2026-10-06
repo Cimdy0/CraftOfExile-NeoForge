@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "pin"
+  },
+  "effect": "coe:stat/effect/inline_culling_804",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_958"
+}

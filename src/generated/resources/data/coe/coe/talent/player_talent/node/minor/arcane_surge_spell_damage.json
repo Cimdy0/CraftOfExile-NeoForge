@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_while_you_have_arcane_surge",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "32078",
+    "links": [
+      "16940",
+      "34327"
+    ],
+    "x": -5482.4,
+    "y": -3727.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_while_you_have_arcane_surge",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "34327",
+    "links": [
+      "20499",
+      "32078"
+    ],
+    "x": -5547.11,
+    "y": -3486.0
+  }
+]

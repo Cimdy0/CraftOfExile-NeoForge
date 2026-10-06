@@ -1,0 +1,153 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_physical_damage_minmax"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "glinting",
+        "tier": 1,
+        "values": {
+          "max": {
+            "max": 3.0,
+            "min": 3.0
+          },
+          "min": {
+            "min": 1.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 8,
+        "name": "burnished",
+        "tier": 2,
+        "values": {
+          "max": {
+            "max": 6.0,
+            "min": 4.0
+          },
+          "min": {
+            "max": 3.0,
+            "min": 2.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "polished",
+        "tier": 3,
+        "values": {
+          "max": {
+            "max": 8.0,
+            "min": 5.0
+          },
+          "min": {
+            "max": 4.0,
+            "min": 2.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "honed",
+        "tier": 4,
+        "values": {
+          "max": {
+            "max": 11.0,
+            "min": 8.0
+          },
+          "min": {
+            "max": 6.0,
+            "min": 4.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "gleaming",
+        "tier": 5,
+        "values": {
+          "max": {
+            "max": 13.0,
+            "min": 9.0
+          },
+          "min": {
+            "max": 7.0,
+            "min": 5.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "annealed",
+        "tier": 6,
+        "values": {
+          "max": {
+            "max": 17.0,
+            "min": 12.0
+          },
+          "min": {
+            "max": 10.0,
+            "min": 6.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "razor_sharp",
+        "tier": 7,
+        "values": {
+          "max": {
+            "max": 20.0,
+            "min": 14.0
+          },
+          "min": {
+            "max": 11.0,
+            "min": 7.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 65,
+        "name": "tempered",
+        "tier": 8,
+        "values": {
+          "max": {
+            "max": 26.0,
+            "min": 18.0
+          },
+          "min": {
+            "max": 15.0,
+            "min": 10.0
+          }
+        },
+        "weight": 600
+      },
+      {
+        "level": 75,
+        "name": "flaring",
+        "tier": 9,
+        "values": {
+          "max": {
+            "max": 32.0,
+            "min": 22.0
+          },
+          "min": {
+            "max": 19.0,
+            "min": 12.0
+          }
+        },
+        "weight": 400
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "color": -13377312,
+  "display_name": {
+    "translate": "talent.type.coe.jewel"
+  },
+  "id": "jewel",
+  "radius": 32,
+  "socket": true
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_swords",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "59263",
+    "links": [
+      "37963"
+    ],
+    "x": -3188.37,
+    "y": 12405.9
+  }
+]

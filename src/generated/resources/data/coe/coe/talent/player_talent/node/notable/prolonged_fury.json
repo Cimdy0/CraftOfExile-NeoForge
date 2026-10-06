@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_loss_of_rage_is_slower",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "49550",
+    "links": [
+      "4624"
+    ],
+    "x": -3484.73,
+    "y": 4375.9
+  }
+]

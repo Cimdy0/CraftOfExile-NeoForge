@@ -1,0 +1,124 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "modifiers": [
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_chance": {
+                  "actions": [
+                    {
+                      "coe:action_delivery": {
+                        "delivery": {
+                          "coe:delivery_remnant": {
+                            "lifetime": 160.0
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "chance": 0.25
+                }
+              },
+              "trigger": "on_listen"
+            },
+            {
+              "action": {
+                "coe:action_recover": {
+                  "amount": "28 + 13.31578947368421 * (skill.level - 1)",
+                  "overflow": true,
+                  "resource": "mana"
+                }
+              },
+              "trigger": "on_pickup"
+            }
+          ],
+          "event_name": "kill",
+          "event_type": "custom",
+          "require_tags": [
+            "elemental"
+          ]
+        }
+      }
+    },
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_chance": {
+                  "actions": [
+                    {
+                      "coe:action_delivery": {
+                        "delivery": {
+                          "coe:delivery_remnant": {
+                            "lifetime": 160.0
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "chance": 1.0
+                }
+              },
+              "trigger": "on_listen"
+            },
+            {
+              "action": {
+                "coe:action_recover": {
+                  "amount": "28 + 13.31578947368421 * (skill.level - 1)",
+                  "overflow": true,
+                  "resource": "mana"
+                }
+              },
+              "trigger": "on_pickup"
+            }
+          ],
+          "event_name": "caused_crit",
+          "event_type": "custom",
+          "internal_cooldown": 40.0,
+          "require_tags": [
+            "elemental"
+          ]
+        }
+      }
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "buff",
+    "persistent",
+    "remnant"
+  ]
+}

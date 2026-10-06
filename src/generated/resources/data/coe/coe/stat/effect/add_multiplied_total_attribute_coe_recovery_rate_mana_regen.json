@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:recovery_rate",
+  "operation": "add_multiplied_total",
+  "tags": {
+    "and": [
+      {
+        "tag": "regen"
+      },
+      {
+        "tag": "mana"
+      }
+    ]
+  }
+}

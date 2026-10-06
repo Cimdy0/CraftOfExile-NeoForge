@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:convert_extra_phys_to_fire"
+    }
+  ]
+}

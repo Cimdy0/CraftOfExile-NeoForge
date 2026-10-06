@@ -1,0 +1,11 @@
+{
+  "coe:item_template": {
+    "extend": "coe:armor",
+    "reqs": {
+      "dex": "dexterity",
+      "int": "intelligence",
+      "l": "level",
+      "str": "strength"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "13708",
+    "links": [
+      "51825"
+    ],
+    "x": -587.031,
+    "y": 5300.9
+  }
+]

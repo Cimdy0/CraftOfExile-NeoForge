@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_fire_damage_for_every_different_grenade_fired_in_the_past_seconds",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mineareaofeffectnode",
+    "id": "38570",
+    "links": [
+      "47623",
+      "53895"
+    ],
+    "x": -2274.07,
+    "y": 11775.3
+  }
+]

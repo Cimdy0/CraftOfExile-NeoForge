@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup_with_melee_damage",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_meleeaoenode",
+    "id": "49968",
+    "links": [
+      "20008",
+      "64345"
+    ],
+    "x": 5126.86,
+    "y": 7557.58
+  }
+]

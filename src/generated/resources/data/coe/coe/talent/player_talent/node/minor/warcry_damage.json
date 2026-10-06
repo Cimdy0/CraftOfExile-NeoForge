@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_warcries",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "47722",
+    "links": [
+      "51832",
+      "6514"
+    ],
+    "x": -8358.1,
+    "y": 4483.55
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_warcries",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "51832",
+    "links": [
+      "12418",
+      "3988",
+      "47722"
+    ],
+    "x": -8483.35,
+    "y": 4650.55
+  }
+]

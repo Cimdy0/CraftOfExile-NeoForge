@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_and_evasion",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorandevasionnode",
+    "id": "44836",
+    "links": [
+      "38779",
+      "47150"
+    ],
+    "x": 1.945,
+    "y": 2993.7
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_poisons_you_inflict_against_slowed_enemies",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "261",
+    "links": [
+      "1073",
+      "5048"
+    ],
+    "x": 9563.0,
+    "y": 6182.58
+  }
+]

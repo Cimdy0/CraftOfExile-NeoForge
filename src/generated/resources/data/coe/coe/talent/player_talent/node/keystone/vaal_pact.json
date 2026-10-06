@@ -1,0 +1,58 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_amount_of_health_leeched",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:leech_health_more_quickly",
+            "vars": {
+              "value": -0.67
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:cannot_recover_health_other_than_from_health_leech"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_leech_effects_are_not_add_when_reservation_health_is_filled",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_vaalpact",
+    "id": "33369",
+    "links": [
+      "2864"
+    ],
+    "x": -1760.47,
+    "y": 8417.92
+  }
+]

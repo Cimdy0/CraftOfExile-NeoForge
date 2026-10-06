@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_freeze_duration_on_you",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_freeze_threshold",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "12998",
+    "links": [
+      "30463",
+      "58971"
+    ],
+    "x": 7530.37,
+    "y": 5774.45
+  }
+]

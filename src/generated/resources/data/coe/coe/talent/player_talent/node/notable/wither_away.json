@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:unwithered_enemies_are_withered_for_seconds_when_they_enter_your_presence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_withered_buff_magnitude",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "44373",
+    "links": [
+      "35380"
+    ],
+    "x": 7501.94,
+    "y": -8629.84
+  }
+]

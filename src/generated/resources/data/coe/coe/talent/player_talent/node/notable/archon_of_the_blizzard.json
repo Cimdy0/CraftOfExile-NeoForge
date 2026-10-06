@@ -1,0 +1,23 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_elemental_archon_when_your_energy_shield_recharge_begins"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongenericnotable",
+    "id": "42045",
+    "links": [
+      "50535",
+      "61863"
+    ],
+    "x": -455.981,
+    "y": -11082.1
+  }
+]

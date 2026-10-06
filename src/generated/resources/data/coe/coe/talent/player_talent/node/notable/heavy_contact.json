@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hits_that_heavy_stun_enemies_have_culling_strike",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "56997",
+    "links": [
+      "23861",
+      "54886"
+    ],
+    "x": -4469.07,
+    "y": 5221.32
+  }
+]

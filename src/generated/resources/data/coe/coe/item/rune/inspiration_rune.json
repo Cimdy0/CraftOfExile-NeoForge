@@ -1,0 +1,152 @@
+{
+  "ladders": {
+    "armor~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:mana_regeneration_rate_inc"
+        },
+        "max": 12.0,
+        "min": 12.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:mana_regeneration_rate_inc"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:mana_regeneration_rate_inc"
+        },
+        "max": 18.0,
+        "min": 18.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:mana_regeneration_rate_inc"
+        },
+        "max": 21.0,
+        "min": 21.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      }
+    ],
+    "wand|staff~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:mana_regeneration_rate_inc"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:mana_regeneration_rate_inc"
+        },
+        "max": 25.0,
+        "min": 25.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:mana_regeneration_rate_inc"
+        },
+        "max": 30.0,
+        "min": 30.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:mana_regeneration_rate_inc"
+        },
+        "max": 35.0,
+        "min": 35.0,
+        "tier": "perfect"
+      }
+    ]
+  }
+}

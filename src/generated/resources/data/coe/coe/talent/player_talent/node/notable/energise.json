@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_trigger_skills_to_refund_half_of_energy_spent",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "40399",
+    "links": [
+      "61056"
+    ],
+    "x": 6653.08,
+    "y": -9950.52
+  }
+]

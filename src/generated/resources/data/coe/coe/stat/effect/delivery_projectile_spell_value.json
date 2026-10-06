@@ -1,0 +1,10 @@
+{
+  "type": "delivery",
+  "delivery": "projectile",
+  "params": {
+    "additional_projectiles": "$value"
+  },
+  "tags": {
+    "tag": "spell"
+  }
+}

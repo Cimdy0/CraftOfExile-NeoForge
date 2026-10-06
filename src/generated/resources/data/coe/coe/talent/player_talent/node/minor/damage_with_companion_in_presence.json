@@ -1,0 +1,99 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "24178",
+    "links": [
+      "32655",
+      "40333"
+    ],
+    "x": 7184.38,
+    "y": 2827.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "40333",
+    "links": [
+      "24178",
+      "42998"
+    ],
+    "x": 7300.34,
+    "y": 2961.86
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "42998",
+    "links": [
+      "40333",
+      "43102"
+    ],
+    "x": 7416.31,
+    "y": 2827.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "43102",
+    "links": [
+      "30197",
+      "42118",
+      "42998"
+    ],
+    "x": 7550.34,
+    "y": 2711.86
+  }
+]

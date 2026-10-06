@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:warcries_have_chance_to_empowered_additional_attacks",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "46683",
+    "links": [
+      "15247"
+    ],
+    "x": -9561.93,
+    "y": 2828.92
+  }
+]

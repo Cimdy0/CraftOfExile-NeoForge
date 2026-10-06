@@ -1,0 +1,803 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "10944",
+    "links": [
+      "33366",
+      "55193"
+    ],
+    "x": 5924.32,
+    "y": -789.865
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "12249",
+    "links": [
+      "12761",
+      "19156"
+    ],
+    "x": 4293.35,
+    "y": -1974.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "12761",
+    "links": [
+      "12249",
+      "17367"
+    ],
+    "x": 4577.4,
+    "y": -1974.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "13711",
+    "links": [
+      "30562",
+      "8908"
+    ],
+    "x": 4395.4,
+    "y": -7109.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "15975",
+    "links": [
+      "48198",
+      "62984"
+    ],
+    "x": 2893.12,
+    "y": -1536.43
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "17366",
+    "links": [
+      "18970",
+      "29361"
+    ],
+    "x": 2083.85,
+    "y": -761.639
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "17367",
+    "links": [
+      "12761",
+      "53941",
+      "62841"
+    ],
+    "x": 4724.63,
+    "y": -2059.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "18314",
+    "links": [
+      "58593",
+      "60239"
+    ],
+    "x": 9171.16,
+    "y": -2379.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_evasion",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_energy_shield",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "18970",
+    "links": [
+      "11938",
+      "17366",
+      "52980"
+    ],
+    "x": 1742.35,
+    "y": -853.145
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "21336",
+    "links": [
+      "49220",
+      "62984"
+    ],
+    "x": 2777.15,
+    "y": -1737.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "26034",
+    "links": [
+      "42805",
+      "45631",
+      "57821"
+    ],
+    "x": 7916.73,
+    "y": -5172.91
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "29361",
+    "links": [
+      "17366",
+      "48198"
+    ],
+    "x": 2200.34,
+    "y": -913.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "327",
+    "links": [
+      "58779",
+      "9652"
+    ],
+    "x": 7374.83,
+    "y": -6987.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "33366",
+    "links": [
+      "10944",
+      "26598"
+    ],
+    "x": 5799.32,
+    "y": -409.359
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "42805",
+    "links": [
+      "26034",
+      "56838"
+    ],
+    "x": 7999.73,
+    "y": -5462.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_evasion",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_energy_shield",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "52980",
+    "links": [
+      "18970",
+      "44343",
+      "44683"
+    ],
+    "x": 1536.23,
+    "y": -734.145
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "56838",
+    "links": [
+      "34324",
+      "42805",
+      "62624"
+    ],
+    "x": 7916.73,
+    "y": -5751.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "58593",
+    "links": [
+      "18314",
+      "26556",
+      "33463"
+    ],
+    "x": 8688.63,
+    "y": -2373.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "60239",
+    "links": [
+      "15343",
+      "18314",
+      "49356"
+    ],
+    "x": 9580.22,
+    "y": -2615.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_evasion",
+            "vars": {
+              "value": 30.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_energy_shield",
+            "vars": {
+              "value": 15.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "62624",
+    "links": [
+      "3630",
+      "56838"
+    ],
+    "x": 7624.73,
+    "y": -5678.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "62841",
+    "links": [
+      "17367",
+      "53941",
+      "56045"
+    ],
+    "x": 4146.12,
+    "y": -2059.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "8908",
+    "links": [
+      "13711",
+      "24165",
+      "28464"
+    ],
+    "x": 4770.4,
+    "y": -6892.55
+  }
+]

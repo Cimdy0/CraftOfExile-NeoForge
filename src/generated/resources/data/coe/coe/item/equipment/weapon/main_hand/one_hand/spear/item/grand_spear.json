@@ -1,0 +1,15 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/one_hand/spear/template/strength_dexterity",
+    "reqs": {
+      "dex": 109.0,
+      "l": 79.0,
+      "str": 68.0
+    },
+    "skills": {
+      "coe:preset_spear_throw": {
+        "id": "coe:preset_spear_throw"
+      }
+    }
+  }
+}

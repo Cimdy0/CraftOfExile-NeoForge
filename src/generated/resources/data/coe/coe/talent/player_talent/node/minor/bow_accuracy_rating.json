@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy_with_bows",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "25992",
+    "links": [
+      "328"
+    ],
+    "x": 11163.5,
+    "y": 3861.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy_with_bows",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "328",
+    "links": [
+      "21112",
+      "25992",
+      "60764"
+    ],
+    "x": 11202.4,
+    "y": 4037.83
+  }
+]

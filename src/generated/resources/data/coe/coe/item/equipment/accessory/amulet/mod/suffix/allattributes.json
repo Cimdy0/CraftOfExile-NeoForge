@@ -1,0 +1,117 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:all_attributes"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_the_clouds",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 2.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 11,
+        "name": "of_the_sky",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 7.0,
+            "min": 5.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 22,
+        "name": "of_the_meteor",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 10.0,
+            "min": 8.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 33,
+        "name": "of_the_comet",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 11.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 44,
+        "name": "of_the_heavens",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 14.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 55,
+        "name": "of_the_galaxy",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 18.0,
+            "min": 17.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 66,
+        "name": "of_the_universe",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 19.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 75,
+        "name": "of_the_multiverse",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 22.0,
+            "min": 21.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 82,
+        "name": "of_the_infinite",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 23.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_pierce_an_enemy",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_chance_to_chain_an_additional_time_from_terrain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "55060",
+    "links": [
+      "33037",
+      "6505"
+    ],
+    "x": 1005.94,
+    "y": 9100.13
+  }
+]

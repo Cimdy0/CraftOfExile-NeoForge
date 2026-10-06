@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:archon_recovery_period_expires_faster",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongeneric",
+    "id": "17061",
+    "links": [
+      "28092",
+      "31773"
+    ],
+    "x": -3190.96,
+    "y": -10011.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:archon_recovery_period_expires_faster",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongeneric",
+    "id": "28092",
+    "links": [
+      "17061",
+      "43842",
+      "44344"
+    ],
+    "x": -3263.71,
+    "y": -9719.83
+  }
+]

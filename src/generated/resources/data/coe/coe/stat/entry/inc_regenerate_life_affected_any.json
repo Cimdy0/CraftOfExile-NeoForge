@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "recently_took_dot"
+  },
+  "effect": "coe:stat/effect/inline_attribute_487",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1113"
+}

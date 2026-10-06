@@ -1,0 +1,74 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:damage_taken_gained_as_life"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 30,
+        "name": "of_mending",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 10.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 44,
+        "name": "of_bandaging",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 15.0,
+            "min": 13.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 56,
+        "name": "of_stitching",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 18.0,
+            "min": 16.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 68,
+        "name": "of_suturing",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 21.0,
+            "min": 19.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 79,
+        "name": "of_fleshbinding",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 22.0
+          }
+        },
+        "weight": 500
+      }
+    ]
+  }
+}

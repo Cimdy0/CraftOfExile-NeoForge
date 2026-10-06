@@ -1,0 +1,6 @@
+{
+  "type": "damage",
+  "tags": {
+    "tag": "taken_hit"
+  }
+}

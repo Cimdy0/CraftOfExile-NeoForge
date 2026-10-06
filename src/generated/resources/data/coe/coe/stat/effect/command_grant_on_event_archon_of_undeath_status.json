@@ -1,0 +1,9 @@
+{
+  "type": "grant_on_event",
+  "base_duration": 200.0,
+  "param": "archon_of_undeath",
+  "tags": {
+    "tag": "command"
+  },
+  "target": "status"
+}

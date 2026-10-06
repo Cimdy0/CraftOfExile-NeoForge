@@ -1,0 +1,58 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": "coe:level_table(8, 9, 11, 13, 15, 17, 19, 22, 25, 28, 32, 36, 40, 45, 50, 55, 61, 68, 75, 83, 92, 101, 112, 123, 135, 148, 162, 178, 195, 213, 233, 254, 278, 303, 330, 360, 392, 427, 464, 505)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(16, 21.5, 29.5, 38.5, 48.5, 60, 73, 88.5, 105.5, 124, 146.5, 171, 199, 231, 268, 309.5, 357, 410.5, 472.5, 543, 624, 717, 823, 946, 1086.5, 1248, 1434.5, 1650.5, 1899.5, 2187.5, 2521, 2908.5, 3359, 3882, 4492, 5203.5, 6035.5, 7008, 8147.5, 9484)",
+                "can_crit": 1.0,
+                "damage_type": "lightning"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": []
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_create_ground": {
+                "duration": 160.0,
+                "ground_status": "on_shocked_ground"
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 2.5
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

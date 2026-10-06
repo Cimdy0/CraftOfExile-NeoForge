@@ -1,0 +1,126 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ballista_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "23153",
+    "links": [
+      "23996",
+      "39298"
+    ],
+    "x": 1957.55,
+    "y": 7848.28
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ballista_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "23996",
+    "links": [
+      "23153",
+      "57785",
+      "63828"
+    ],
+    "x": 2082.55,
+    "y": 7631.77
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ballista_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "24368",
+    "links": [
+      "37302",
+      "40597",
+      "40975"
+    ],
+    "x": -2756.41,
+    "y": 9774.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ballista_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "40975",
+    "links": [
+      "24368",
+      "52860"
+    ],
+    "x": -2756.41,
+    "y": 10024.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ballista_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "52860",
+    "links": [
+      "3282",
+      "40975",
+      "45494",
+      "8493"
+    ],
+    "x": -2756.41,
+    "y": 10274.9
+  }
+]

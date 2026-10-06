@@ -1,0 +1,44 @@
+{
+  "bonuses": {
+    "ladders": {
+      "wand|staff|sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:spell_damage_inc"
+          },
+          "max": 42.0,
+          "min": 36.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:spell_damage_inc"
+          },
+          "max": 64.0,
+          "min": 55.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:spell_damage_inc"
+          },
+          "max": 89.0,
+          "min": 75.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:spell_damage_inc"
+          },
+          "max": 89.0,
+          "min": 75.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

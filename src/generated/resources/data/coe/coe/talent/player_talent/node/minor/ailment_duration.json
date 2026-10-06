@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_ailments_on_beasts",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_witchhunter_witchunternode",
+    "id": "15839",
+    "links": [
+      "48617",
+      "60085"
+    ],
+    "x": 1711.41,
+    "y": 10366.6
+  }
+]

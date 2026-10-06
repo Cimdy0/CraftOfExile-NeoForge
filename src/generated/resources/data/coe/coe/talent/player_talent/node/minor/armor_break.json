@@ -1,0 +1,341 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "12465",
+    "links": [
+      "30040",
+      "58814"
+    ],
+    "x": 2670.71,
+    "y": 10656.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "25300",
+    "links": [
+      "10100",
+      "38066",
+      "61796"
+    ],
+    "x": -8308.16,
+    "y": 504.355
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "26437",
+    "links": [
+      "42111",
+      "51129"
+    ],
+    "x": -9022.09,
+    "y": 5418.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "28860",
+    "links": [
+      "14091",
+      "56104"
+    ],
+    "x": -2262.02,
+    "y": 4750.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "30040",
+    "links": [
+      "12465",
+      "56016"
+    ],
+    "x": 2754.71,
+    "y": 10511.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "42111",
+    "links": [
+      "21387",
+      "26437",
+      "45227"
+    ],
+    "x": -8639.23,
+    "y": 5196.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "45227",
+    "links": [
+      "22626",
+      "42111"
+    ],
+    "x": -8249.22,
+    "y": 4970.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "4948",
+    "links": [
+      "20350",
+      "62785"
+    ],
+    "x": -5164.11,
+    "y": 8167.23
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "56104",
+    "links": [
+      "28860",
+      "42981"
+    ],
+    "x": -2301.28,
+    "y": 4917.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "62785",
+    "links": [
+      "28542",
+      "4948"
+    ],
+    "x": -5373.11,
+    "y": 7950.72
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_inc_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "65498",
+    "links": [
+      "37026",
+      "7294"
+    ],
+    "x": 9517.38,
+    "y": -256.505
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_against_enemies_with_fully_broken_armor",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "20350",
+    "links": [
+      "28304",
+      "47006",
+      "4948"
+    ],
+    "x": -5331.11,
+    "y": 8456.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_armor_on_critical_hit_with_spells_equal_to_of_physical_damage_dealt",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "32727",
+    "links": [
+      "12851",
+      "53524"
+    ],
+    "x": -1724.79,
+    "y": -9305.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_armor_on_critical_hit_with_spells_equal_to_of_physical_damage_dealt",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "53524",
+    "links": [
+      "32727",
+      "37608"
+    ],
+    "x": -1923.83,
+    "y": -9211.96
+  }
+]

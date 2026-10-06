@@ -1,0 +1,45 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:block_chance_inc_local"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "steadfast",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "unrelenting",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 20.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "adamant",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

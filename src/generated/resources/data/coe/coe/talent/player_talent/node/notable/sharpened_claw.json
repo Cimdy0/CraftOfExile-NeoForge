@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_physical_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnotable",
+    "id": "61703",
+    "links": [
+      "57608",
+      "9037"
+    ],
+    "x": -6340.93,
+    "y": -813.185
+  }
+]

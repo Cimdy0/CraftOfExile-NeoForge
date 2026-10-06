@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_have_inc_attack_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeed",
+    "id": "27108",
+    "links": [
+      "47796"
+    ],
+    "x": -1533.68,
+    "y": 3136.54
+  }
+]

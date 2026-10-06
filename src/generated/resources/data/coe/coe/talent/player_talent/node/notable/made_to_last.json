@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_physical_damage_prevented_recouped_as_health",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "44952",
+    "links": [
+      "6153",
+      "9163"
+    ],
+    "x": -9276.88,
+    "y": 4722.91
+  }
+]

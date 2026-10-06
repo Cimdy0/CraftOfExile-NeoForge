@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_lightning_infusions",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnotable1",
+    "id": "29800",
+    "links": [
+      "29391"
+    ],
+    "x": -606.772,
+    "y": -9312.53
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed_for_spell_skills",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "2335",
+    "links": [
+      "26135",
+      "51565"
+    ],
+    "x": 5741.87,
+    "y": -10081.4
+  }
+]

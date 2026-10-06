@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_crossbows",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_with_crossbows",
+            "vars": {
+              "value": 0.8
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "6178",
+    "links": [
+      "33415"
+    ],
+    "x": 1900.19,
+    "y": 11910.0
+  }
+]

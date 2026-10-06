@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_buffs_linger_on_you_for_seconds_after_you_leave_the_area",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerareanotable",
+    "id": "62455",
+    "links": [
+      "11752",
+      "62258"
+    ],
+    "x": -1626.68,
+    "y": 7851.58
+  }
+]

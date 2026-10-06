@@ -1,0 +1,12 @@
+{
+  "parent": "non_damaging",
+  "children": [
+    "heavy_stun",
+    "electrocuted",
+    "shock",
+    "stun",
+    "pin",
+    "chill",
+    "freeze"
+  ]
+}

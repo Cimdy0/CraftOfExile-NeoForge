@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:minion_revive_speed",
+  "operation": "add_multiplied_base"
+}

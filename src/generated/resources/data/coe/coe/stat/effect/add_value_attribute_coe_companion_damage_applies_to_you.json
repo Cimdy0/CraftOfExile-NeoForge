@@ -1,0 +1,8 @@
+{
+  "type": "ally_damage_applies_to_self",
+  "identity_tags": [
+    "companion"
+  ],
+  "kind": "ally_damage_applies_to_self",
+  "variant": "gate"
+}

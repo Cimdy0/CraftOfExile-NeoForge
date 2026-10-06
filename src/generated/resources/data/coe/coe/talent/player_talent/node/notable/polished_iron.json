@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_item_armor_on_equipped_armor_items",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "27950",
+    "links": [
+      "26324"
+    ],
+    "x": -4335.51,
+    "y": 3123.25
+  }
+]

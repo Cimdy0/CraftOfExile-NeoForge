@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "kind": "damaging",
+    "output": "flag"
+  },
+  "effect": "coe:stat/effect/inline_immune_549",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

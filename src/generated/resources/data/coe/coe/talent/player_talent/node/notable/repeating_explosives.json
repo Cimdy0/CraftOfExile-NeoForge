@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:grenades_have_chance_to_activate_a_second_time",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mineareaofeffectnode",
+    "id": "65468",
+    "links": [
+      "25807",
+      "35653"
+    ],
+    "x": 1366.53,
+    "y": 11380.9
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_cooldown_recovery_rate_for_command_skills",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archonofundeathnode",
+    "id": "14598",
+    "links": [
+      "4345",
+      "50837"
+    ],
+    "x": -1411.57,
+    "y": -10511.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_cooldown_recovery_rate_for_command_skills",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archonofundeathnode",
+    "id": "4345",
+    "links": [
+      "14598",
+      "45885"
+    ],
+    "x": -1175.39,
+    "y": -10609.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_cooldown_recovery_rate_for_command_skills",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archonofundeathnode",
+    "id": "50837",
+    "links": [
+      "14598",
+      "43979"
+    ],
+    "x": -1647.74,
+    "y": -10609.7
+  }
+]

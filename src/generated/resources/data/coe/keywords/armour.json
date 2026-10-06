@@ -1,0 +1,26 @@
+{
+  "aliases": [
+    "Armour",
+    "护甲"
+  ],
+  "description": [
+    [
+      "$[armour]",
+      "可减免命中造成的",
+      "$[physical]",
+      "，对较小",
+      "$[damage]",
+      "的效果更佳。"
+    ],
+    [
+      "它不提供对",
+      "$[chaos]",
+      "的保护。"
+    ]
+  ],
+  "id": "armour",
+  "keys": [
+    "coe:keyword.armour"
+  ],
+  "title": "@coe:keyword.armour"
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miraclemaker",
+    "id": "34493",
+    "links": [
+      "17229",
+      "49593",
+      "54964",
+      "65328"
+    ],
+    "x": -7234.2,
+    "y": -6261.18
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miraclemaker",
+    "id": "4725",
+    "links": [
+      "4140",
+      "49593"
+    ],
+    "x": -7695.23,
+    "y": -6722.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miraclemaker",
+    "id": "49593",
+    "links": [
+      "34493",
+      "4725"
+    ],
+    "x": -7526.94,
+    "y": -6553.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miraclemaker",
+    "id": "54964",
+    "links": [
+      "23078",
+      "34493"
+    ],
+    "x": -7492.19,
+    "y": -6295.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miraclemaker",
+    "id": "65328",
+    "links": [
+      "34493",
+      "48565"
+    ],
+    "x": -7268.17,
+    "y": -6519.17
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:armor/legs/template/dexterity_intelligence",
+    "reqs": {
+      "dex": 24.0,
+      "int": 24.0,
+      "l": 33.0
+    }
+  }
+}

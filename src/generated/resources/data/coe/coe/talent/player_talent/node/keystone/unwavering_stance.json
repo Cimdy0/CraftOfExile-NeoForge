@@ -1,0 +1,34 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:cannot_be_light_stunned",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:cannot_dodge_roll_or_sprint"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystoneunwaveringstance",
+    "id": "14540",
+    "links": [
+      "31903"
+    ],
+    "x": -4431.15,
+    "y": 7184.65
+  }
+]

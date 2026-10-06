@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_fire_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_fireresist",
+    "id": "55931",
+    "links": [
+      "62034",
+      "62313"
+    ],
+    "x": -10099.3,
+    "y": 710.665
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_fire_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_fireresist",
+    "id": "62313",
+    "links": [
+      "1200",
+      "55931"
+    ],
+    "x": -10412.3,
+    "y": 824.752
+  }
+]

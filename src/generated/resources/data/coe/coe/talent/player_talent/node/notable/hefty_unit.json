@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_stun_threshold_per_strength",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "48418",
+    "links": [
+      "34671",
+      "61934"
+    ],
+    "x": -3060.09,
+    "y": 7913.29
+  }
+]

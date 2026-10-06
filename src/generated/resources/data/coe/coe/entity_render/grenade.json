@@ -1,0 +1,22 @@
+{
+  "layers": [
+    {
+      "coe:particle_point": {
+        "count": 1,
+        "interval": 3,
+        "particle": {
+          "type": "minecraft:smoke"
+        },
+        "spread": 0.15,
+        "y_offset": 0.2
+      }
+    },
+    {
+      "coe:model": {
+        "scale": 0.15,
+        "spin_deg_per_tick": 8.0,
+        "texture": "coe:textures/entity/prop/grenade"
+      }
+    }
+  ]
+}

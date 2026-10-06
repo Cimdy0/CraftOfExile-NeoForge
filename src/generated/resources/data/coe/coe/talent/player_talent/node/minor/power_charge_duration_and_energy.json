@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_power_charge_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "13777",
+    "links": [
+      "20791",
+      "38532"
+    ],
+    "x": -8282.51,
+    "y": -4427.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_power_charge_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "20791",
+    "links": [
+      "11741",
+      "13777"
+    ],
+    "x": -8084.54,
+    "y": -4401.76
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "fire"
+  ],
+  "mode": "replace",
+  "tags": {
+    "and": [
+      {
+        "tag": "ignite"
+      },
+      {
+        "tag": "ailment"
+      },
+      {
+        "tag": "fire"
+      }
+    ]
+  },
+  "to": "cold"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_warcries",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:warcry_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "6514",
+    "links": [
+      "47722"
+    ],
+    "x": -8441.12,
+    "y": 4208.28
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hit_damage_against_you_have_inc_critical_damage_bonus",
+            "vars": {
+              "value": -0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_ailments_on_you",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildoxnotable",
+    "id": "45370",
+    "links": [
+      "37568"
+    ],
+    "x": 6223.73,
+    "y": 6071.65
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate_while_stationary",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifepercentage",
+    "id": "31159",
+    "links": [
+      "11741",
+      "46017"
+    ],
+    "x": -7739.54,
+    "y": -4638.11
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate_while_stationary",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifepercentage",
+    "id": "46017",
+    "links": [
+      "31159",
+      "54962"
+    ],
+    "x": -7523.03,
+    "y": -4763.11
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate_while_stationary",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifepercentage",
+    "id": "54962",
+    "links": [
+      "35849",
+      "46017"
+    ],
+    "x": -7306.53,
+    "y": -4638.11
+  }
+]

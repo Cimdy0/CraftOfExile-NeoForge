@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:flask_num_charges"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_the_wide",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 23.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 12,
+        "name": "of_the_copious",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 31.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 32,
+        "name": "of_the_plentiful",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 39.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 47,
+        "name": "of_the_bountiful",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 47.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 62,
+        "name": "of_the_abundant",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 62.0,
+            "min": 55.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 81,
+        "name": "of_the_ample",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 70.0,
+            "min": 63.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

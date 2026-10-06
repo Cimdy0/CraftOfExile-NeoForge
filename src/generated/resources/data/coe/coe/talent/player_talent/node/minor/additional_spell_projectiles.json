@@ -1,0 +1,168 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_spell_skills_to_fire_additional_projectiles",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "22682",
+    "links": [
+      "51565",
+      "65310"
+    ],
+    "x": 5741.87,
+    "y": -10415.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_spell_skills_to_fire_additional_projectiles",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "25827",
+    "links": [
+      "41029",
+      "55241"
+    ],
+    "x": 3338.58,
+    "y": -6251.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_spell_skills_to_fire_additional_projectiles",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "27662",
+    "links": [
+      "38614"
+    ],
+    "x": 2967.32,
+    "y": -6276.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_spell_skills_to_fire_additional_projectiles",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "44201",
+    "links": [
+      "38614"
+    ],
+    "x": 3131.32,
+    "y": -6560.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_spell_skills_to_fire_additional_projectiles",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "51565",
+    "links": [
+      "22682",
+      "2335"
+    ],
+    "x": 5786.61,
+    "y": -10248.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_spell_skills_to_fire_additional_projectiles",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "55241",
+    "links": [
+      "25827",
+      "38614"
+    ],
+    "x": 3120.34,
+    "y": -6377.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_spell_skills_to_fire_additional_projectiles",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "65310",
+    "links": [
+      "22682",
+      "35564"
+    ],
+    "x": 5619.61,
+    "y": -10537.7
+  }
+]

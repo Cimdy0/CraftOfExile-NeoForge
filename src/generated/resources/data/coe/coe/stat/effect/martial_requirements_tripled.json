@@ -1,0 +1,5 @@
+{
+  "type": "requirement",
+  "martial_multiplier": 3.0,
+  "operation": "add_value"
+}

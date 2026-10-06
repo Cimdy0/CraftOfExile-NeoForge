@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_critical_damage_bonus_when_on_full_health",
+            "vars": {
+              "value": -0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_critical_damage_bonus_when_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystonepainattunement",
+    "id": "55048",
+    "links": [
+      "33722"
+    ],
+    "x": -8287.77,
+    "y": -6378.53
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_cold_resistance",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamagenode",
+    "id": "18086",
+    "links": [
+      "62844"
+    ],
+    "x": -1437.03,
+    "y": -5546.35
+  }
+]

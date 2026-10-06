@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_accuracy_equal_to_your_intelligence",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_accuracydex",
+    "id": "38969",
+    "links": [
+      "13367",
+      "50588",
+      "6010"
+    ],
+    "x": 4944.98,
+    "y": -2386.46
+  }
+]

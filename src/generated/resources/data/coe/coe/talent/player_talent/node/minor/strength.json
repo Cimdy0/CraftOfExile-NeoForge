@@ -1,0 +1,267 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 12.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "13075",
+    "links": [
+      "50392",
+      "61409"
+    ],
+    "x": -8021.19,
+    "y": 6127.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 12.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "24646",
+    "links": [
+      "27082",
+      "61409"
+    ],
+    "x": -8445.51,
+    "y": 6128.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "34202",
+    "links": [
+      "32976",
+      "49285"
+    ],
+    "x": -678.325,
+    "y": 11065.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "49285",
+    "links": [
+      "34202",
+      "364"
+    ],
+    "x": -426.325,
+    "y": 10923.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "51702",
+    "links": [
+      "22975",
+      "25482"
+    ],
+    "x": -5674.31,
+    "y": 4487.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "54485",
+    "links": [
+      "25482",
+      "57703"
+    ],
+    "x": -5582.8,
+    "y": 4145.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "60203",
+    "links": [
+      "5332",
+      "7218"
+    ],
+    "x": 706.445,
+    "y": 11086.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "60620",
+    "links": [
+      "25482",
+      "45992"
+    ],
+    "x": -5241.3,
+    "y": 4237.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 12.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "61409",
+    "links": [
+      "13075",
+      "24646"
+    ],
+    "x": -8236.51,
+    "y": 5912.43
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "61472",
+    "links": [
+      "25482",
+      "36389",
+      "9417"
+    ],
+    "x": -5332.8,
+    "y": 4578.85
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "7218",
+    "links": [
+      "34813",
+      "60203"
+    ],
+    "x": 457.445,
+    "y": 10939.2
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:charm_slot",
+  "operation": "add_value"
+}

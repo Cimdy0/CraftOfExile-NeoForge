@@ -1,0 +1,18 @@
+{
+  "effects": [
+    {
+      "coe:effect_mod": {
+        "execute_threshold": 0.1
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.3,
+  "max_level": 20.0,
+  "require": {
+    "intelligence": 5.0
+  },
+  "reservation_multiplier": 1.3,
+  "tag": "culling_strike",
+  "tier": 4
+}

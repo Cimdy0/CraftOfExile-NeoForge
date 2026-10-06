@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_gain_your_strength",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 15.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "8791",
+    "links": [
+      "23961",
+      "59647"
+    ],
+    "x": 4249.44,
+    "y": 9803.3
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health_while_channelling",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingdamage",
+    "id": "55033",
+    "links": [
+      "17059",
+      "33203"
+    ],
+    "x": -9235.31,
+    "y": -1176.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health_while_channelling",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingdamage",
+    "id": "6874",
+    "links": [
+      "17059",
+      "34940"
+    ],
+    "x": -8986.31,
+    "y": -1607.4
+  }
+]

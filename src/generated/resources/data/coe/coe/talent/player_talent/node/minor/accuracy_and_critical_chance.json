@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_attacks",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_accuracydex",
+    "id": "22208",
+    "links": [
+      "15207",
+      "59503",
+      "60034"
+    ],
+    "x": 7512.38,
+    "y": 6434.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_attacks",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_accuracydex",
+    "id": "59503",
+    "links": [
+      "22208",
+      "4378"
+    ],
+    "x": 7697.67,
+    "y": 6676.15
+  }
+]

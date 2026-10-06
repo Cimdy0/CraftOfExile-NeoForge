@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_you_have_shapeshifted_to_human_form_recently",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnode",
+    "id": "21567",
+    "links": [
+      "18822",
+      "59710"
+    ],
+    "x": -6303.98,
+    "y": -3464.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_you_have_shapeshifted_to_human_form_recently",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnode",
+    "id": "59710",
+    "links": [
+      "21567",
+      "52618"
+    ],
+    "x": -6416.05,
+    "y": -3399.5
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "type": "attribute",
+  "attribute": "coe:charge_duration",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "frenzy"
+      },
+      {
+        "not": {
+          "tag": "taken"
+        }
+      },
+      {
+        "tag": "charge"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": 10.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(2.5, 3, 4, 5, 6.5, 7.5, 9.5, 11.5, 13, 14.5, 17.5, 20, 23, 26.5, 30, 33.5, 38.5, 43.5, 49, 55.5, 62, 70, 79, 89, 99.5, 112, 126, 141, 158.5, 178, 200, 224.5, 252.5, 283.5, 319.5, 359.5, 404.5, 456, 514, 580)",
+                "can_crit": 1.0,
+                "damage_type": "lightning"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_ignite",
+                    "vars": {
+                      "value": 0.2
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_create_ground": {
+                "duration": 80.0,
+                "ground_status": "on_ignited_ground",
+                "radius": 0.9
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_ball": {
+            "ref": {
+              "ref": "coe:ball",
+              "render": "coe:blue/ball_lightning"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

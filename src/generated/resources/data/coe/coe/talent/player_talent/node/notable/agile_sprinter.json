@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_sprinting",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_movementspeedandevasion",
+    "id": "8896",
+    "links": [
+      "12800"
+    ],
+    "x": 8629.29,
+    "y": 605.385
+  }
+]

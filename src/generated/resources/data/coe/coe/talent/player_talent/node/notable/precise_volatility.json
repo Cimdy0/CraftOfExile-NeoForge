@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:volatile_power_also_grants_inc_critical_hit_chance_per_volatility_exploded",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "34425",
+    "links": [
+      "47021",
+      "51774"
+    ],
+    "x": 9817.3,
+    "y": -2539.79
+  }
+]

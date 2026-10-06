@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments_with_projectiles",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectiledmgnotable",
+    "id": "55308",
+    "links": [
+      "28800",
+      "30701",
+      "38313"
+    ],
+    "x": -5085.88,
+    "y": -2315.83
+  }
+]

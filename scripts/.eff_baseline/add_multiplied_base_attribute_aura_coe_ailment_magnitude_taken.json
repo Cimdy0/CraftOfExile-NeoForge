@@ -1,0 +1,9 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_magnitude",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "aura",
+    "taken"
+  ]
+}

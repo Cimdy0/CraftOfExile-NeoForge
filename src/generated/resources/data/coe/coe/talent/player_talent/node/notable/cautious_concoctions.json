@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_effect_duration",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flasknotableflaskslastlonger",
+    "id": "44527",
+    "links": [
+      "40630",
+      "55397"
+    ],
+    "x": 2809.45,
+    "y": 1882.63
+  }
+]

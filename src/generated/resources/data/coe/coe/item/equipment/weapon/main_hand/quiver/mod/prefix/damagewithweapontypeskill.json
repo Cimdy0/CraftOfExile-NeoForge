@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_damage_with_bow_skills"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "acute",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 11.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "trenchant",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 21.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "perforating",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 36.0,
+            "min": 31.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 46,
+        "name": "incisive",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 37.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 60,
+        "name": "lacerating",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 43.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 81,
+        "name": "impaling",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 59.0,
+            "min": 51.0
+          }
+        },
+        "weight": 500
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_traps",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapdamage",
+    "id": "63659",
+    "links": [
+      "27834",
+      "33964"
+    ],
+    "x": 9171.85,
+    "y": -6835.22
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_recovery",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstunchakra",
+    "id": "58157",
+    "links": [
+      "15424",
+      "61149"
+    ],
+    "x": 7143.3,
+    "y": -3711.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_recovery",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "59213",
+    "links": [
+      "48240",
+      "60886"
+    ],
+    "x": -4538.14,
+    "y": -1355.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_recovery",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "60886",
+    "links": [
+      "55933",
+      "59213"
+    ],
+    "x": -4381.17,
+    "y": -1400.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_recovery",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstunchakra",
+    "id": "61149",
+    "links": [
+      "42760",
+      "58157"
+    ],
+    "x": 7342.34,
+    "y": -3617.46
+  }
+]

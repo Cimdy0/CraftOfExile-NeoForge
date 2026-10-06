@@ -1,0 +1,22 @@
+{
+  "allow_type": [
+    "attack",
+    "damage",
+    "crossbow"
+  ],
+  "effects": [
+    {
+      "coe:effect_mod": {
+        "crit_damage_multiplier": 1.15
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.2,
+  "max_level": 20.0,
+  "require": {
+    "dexterity": 5.0
+  },
+  "reservation_multiplier": 1.2,
+  "tag": "blindside"
+}

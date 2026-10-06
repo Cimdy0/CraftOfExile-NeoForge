@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "minecraft:entity_interaction_range",
+  "operation": "add_value"
+}

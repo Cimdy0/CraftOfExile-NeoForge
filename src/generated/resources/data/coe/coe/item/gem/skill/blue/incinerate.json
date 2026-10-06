@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_incinerate",
+  "vars": {
+    "tier": 9.0
+  }
+}

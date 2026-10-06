@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_daze_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_lightning_damage_against_dazed_enemies",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "56767",
+    "links": [
+      "19461",
+      "43338"
+    ],
+    "x": 8292.8,
+    "y": -5919.16
+  }
+]

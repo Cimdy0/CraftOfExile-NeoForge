@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:warcries_inflict_critical_weakness_on_enemies",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnotable",
+    "id": "30395",
+    "links": [
+      "37260"
+    ],
+    "x": -7117.38,
+    "y": -2467.53
+  }
+]

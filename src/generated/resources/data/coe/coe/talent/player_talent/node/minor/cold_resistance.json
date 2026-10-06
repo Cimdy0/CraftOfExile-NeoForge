@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_cold_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_coldresistnode",
+    "id": "35404",
+    "links": [
+      "43250",
+      "8421"
+    ],
+    "x": -9610.55,
+    "y": -2272.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_cold_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_coldresist",
+    "id": "41414",
+    "links": [
+      "4547",
+      "62518"
+    ],
+    "x": -7677.07,
+    "y": 7960.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_cold_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_coldresistnode",
+    "id": "8421",
+    "links": [
+      "35404",
+      "53123"
+    ],
+    "x": -9817.55,
+    "y": -2197.81
+  }
+]

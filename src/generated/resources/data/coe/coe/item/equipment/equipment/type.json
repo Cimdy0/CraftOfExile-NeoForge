@@ -1,0 +1,20 @@
+{
+  "coe:item_weight": [
+    {
+      "type": "coe:weapon",
+      "weight": 1000
+    },
+    {
+      "type": "coe:armor",
+      "weight": 1000
+    },
+    {
+      "type": "coe:accessory",
+      "weight": 1000
+    },
+    {
+      "type": "coe:flask",
+      "weight": 1000
+    }
+  ]
+}

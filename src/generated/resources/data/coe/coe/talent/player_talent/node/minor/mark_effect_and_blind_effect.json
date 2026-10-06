@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_your_mark_skills",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_blind_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "21279",
+    "links": [
+      "23305",
+      "35534"
+    ],
+    "x": 8249.13,
+    "y": 1654.03
+  }
+]

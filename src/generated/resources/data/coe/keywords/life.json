@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "Life",
+    "生命"
+  ],
+  "description": [
+    [
+      "$[life]",
+      "是主要的生命值池；对",
+      "$[life]",
+      "的",
+      "$[damage]",
+      "可由",
+      "$[energy_shield]",
+      "、",
+      "$[armour]",
+      "与",
+      "$[ward]",
+      "来避免。"
+    ]
+  ],
+  "id": "life",
+  "keys": [
+    "coe:keyword.life"
+  ],
+  "title": "@coe:keyword.life"
+}

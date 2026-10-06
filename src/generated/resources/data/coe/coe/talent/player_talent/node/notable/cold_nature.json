@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chill_duration_on_enemies",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "26518",
+    "links": [
+      "43653"
+    ],
+    "x": -7273.08,
+    "y": -1197.4
+  }
+]

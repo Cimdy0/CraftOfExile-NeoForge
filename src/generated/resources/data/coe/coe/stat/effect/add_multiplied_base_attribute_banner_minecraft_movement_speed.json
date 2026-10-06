@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "minecraft:movement_speed",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "banner"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "entry": "group",
+  "members": [
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "conditions": {
+        "type": "count",
+        "mode": "recently",
+        "name": "use_totem"
+      },
+      "effect": "coe:stat/effect/inline_attribute_495",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    },
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "conditions": {
+        "type": "count",
+        "mode": "recently",
+        "name": "use_totem"
+      },
+      "effect": "coe:stat/effect/inline_attribute_496",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    }
+  ]
+}

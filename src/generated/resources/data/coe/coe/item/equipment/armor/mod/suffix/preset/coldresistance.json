@@ -1,0 +1,107 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_cold_resistance"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "of_the_seal",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 6.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 14,
+          "name": "of_the_penguin",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 15.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 26,
+          "name": "of_the_narwhal",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 16.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 38,
+          "name": "of_the_yeti",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 25.0,
+              "min": 21.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 50,
+          "name": "of_the_walrus",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 30.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "of_the_polar_bear",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 35.0,
+              "min": 31.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 71,
+          "name": "of_the_ice",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 40.0,
+              "min": 36.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 82,
+          "name": "of_haast",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 45.0,
+              "min": 41.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    }
+  }
+}

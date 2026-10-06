@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_archon_buff_duration",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_archon_buffs_on_you",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongeneric",
+    "id": "40313",
+    "links": [
+      "3251",
+      "56844",
+      "58363"
+    ],
+    "x": 4405.42,
+    "y": -9374.35
+  }
+]

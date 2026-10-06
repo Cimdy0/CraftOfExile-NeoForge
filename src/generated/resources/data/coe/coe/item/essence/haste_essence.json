@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "one_hand, !wand, !staff, !sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_speed_inc"
+          },
+          "max": 12.0,
+          "min": 11.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_speed_inc"
+          },
+          "max": 19.0,
+          "min": 17.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_speed_inc"
+          },
+          "max": 25.0,
+          "min": 23.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_speed_inc"
+          },
+          "max": 25.0,
+          "min": 23.0,
+          "tier": "perfect"
+        }
+      ],
+      "two_hand~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_speed_inc"
+          },
+          "max": 8.0,
+          "min": 7.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_speed_inc"
+          },
+          "max": 13.0,
+          "min": 11.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_speed_inc"
+          },
+          "max": 16.0,
+          "min": 14.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_speed_inc"
+          },
+          "max": 16.0,
+          "min": 14.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

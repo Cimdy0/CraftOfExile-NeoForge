@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_archon_of_undeath_when_you_use_a_command_skill",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archonofundeathnoteble",
+    "id": "26926",
+    "links": [
+      "43979",
+      "45333"
+    ],
+    "x": -1647.74,
+    "y": -11082.0
+  }
+]

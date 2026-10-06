@@ -1,0 +1,3884 @@
+{
+ "scope_dictionary_size": 302,
+ "stattag_consts": 145,
+ "event_tags": 77,
+ "status_ids": 100,
+ "skill_ids": 0,
+ "literal_scope_tags": [
+  "ailment",
+  "archon",
+  "bleed",
+  "chaos",
+  "physical",
+  "status",
+  "threshold",
+  "volatility_detonated"
+ ],
+ "write_points": [
+  {
+   "line": 204,
+   "id": "ADD_ACCURACY",
+   "attr": "ACCURACY",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 206,
+   "id": "ADD_AILMENT_CHANCE_BLEED",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "bleed"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 208,
+   "id": "ADD_AILMENT_CHANCE_MAIM",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "maim"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 210,
+   "id": "ADD_AILMENT_CHANCE_POISON",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "poison"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 214,
+   "id": "?",
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 224,
+   "id": "ADD_BLOCK_CHANCE",
+   "attr": "BLOCK_CHANCE",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 226,
+   "id": "ADD_CAST_CRIT_DAMAGE",
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "spell",
+    "crit"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 228,
+   "id": "ADD_CHAOS_DAMAGE",
+   "attr": "ADDED_DAMAGE",
+   "tags": [
+    "chaos"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 230,
+   "id": "ADD_CHAOS_RESISTANCE",
+   "attr": "RESISTANCES",
+   "tags": [
+    "chaos"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 232,
+   "id": "ADD_COLD_DAMAGE",
+   "attr": "ADDED_DAMAGE",
+   "tags": [
+    "cold"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 234,
+   "id": "ADD_COLD_RESISTANCE",
+   "attr": "RESISTANCES",
+   "tags": [
+    "cold"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 236,
+   "id": "ADD_CRIT_CHANCE",
+   "attr": "CRIT_CHANCE",
+   "tags": [
+    "attack",
+    "crit"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 238,
+   "id": "ADD_CRIT_DAMAGE",
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "attack",
+    "crit"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 240,
+   "id": "ADD_DEXTERITY",
+   "attr": "DEXTERITY",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 242,
+   "id": "ADD_ELEMENTAL_DAMAGE",
+   "attr": "ADDED_DAMAGE",
+   "tags": [
+    "elemental"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 244,
+   "id": "ADD_ENERGY_RECHARGE",
+   "attr": "ENERGY_RECHARGE",
+   "tags": [
+    "energy"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 246,
+   "id": "ADD_EVASION",
+   "attr": "EVASION",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 248,
+   "id": "ADD_EXPOSURE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "exposure",
+    "taken"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 250,
+   "id": "ADD_FIRE_DAMAGE",
+   "attr": "ADDED_DAMAGE",
+   "tags": [
+    "fire"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 253,
+   "id": "ADD_FIRE_RESISTANCE",
+   "attr": "RESISTANCES",
+   "tags": [
+    "fire"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 255,
+   "id": "ADD_FOUND_ITEM_NUMBER",
+   "attr": "FOUND_ITEM_NUMBER",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 258,
+   "id": "ADD_FOUND_ITEM_RARITY",
+   "attr": "FOUND_ITEM_RARITY",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 260,
+   "id": "ADD_HEALTH_REGENERATION_RATE",
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "health",
+    "regen"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 262,
+   "id": "ADD_INTELLIGENCE",
+   "attr": "INTELLIGENCE",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 264,
+   "id": "ADD_LAUNCH_ADDITIONAL_PROJECTILE_BOLT",
+   "attr": "LAUNCH_ADDITIONAL_PROJECTILE",
+   "tags": [
+    "projectile",
+    "arrow",
+    "crossbow"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 267,
+   "id": "ADD_LAUNCH_ADDITIONAL_PROJECTILE_BOW",
+   "attr": "LAUNCH_ADDITIONAL_PROJECTILE",
+   "tags": [
+    "projectile",
+    "arrow",
+    "bow"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 269,
+   "id": "ADD_LIGHT_DAMAGE",
+   "attr": "ADDED_DAMAGE",
+   "tags": [
+    "lightning"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 272,
+   "id": "ADD_LIGHTNING_RESISTANCE",
+   "attr": "RESISTANCES",
+   "tags": [
+    "lightning"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 274,
+   "id": "ADD_MAX_BANNER",
+   "attr": "MAX_BANNER",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 277,
+   "id": "ADD_BANNER_LINGER",
+   "attr": "BANNER_LINGER",
+   "tags": [
+    "!taken",
+    "banner",
+    "taken"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 279,
+   "id": "ADD_MAX_CHAOS_RESISTANCE",
+   "attr": "MAX_RESISTANCES",
+   "tags": [
+    "chaos"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 281,
+   "id": "ADD_MAX_COLD_RESISTANCE",
+   "attr": "MAX_RESISTANCES",
+   "tags": [
+    "cold"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 283,
+   "id": "ADD_MAX_ENDURANCE",
+   "attr": "MAX_ENDURANCE_CHARGES",
+   "tags": [
+    "endurance"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 285,
+   "id": "ADD_MAX_ENERGY_SHIELD",
+   "attr": "MAX_ENERGY_SHIELD",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 287,
+   "id": "ADD_MAX_FIRE_RESISTANCE",
+   "attr": "MAX_RESISTANCES",
+   "tags": [
+    "fire"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 289,
+   "id": "ADD_MAX_FISSURE",
+   "attr": "MAX_FISSURE",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 291,
+   "id": "ADD_MAX_FRENZY",
+   "attr": "MAX_FRENZY_CHARGES",
+   "tags": [
+    "frenzy"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 296,
+   "id": "ADD_MAX_HEALTH_REGENERATION",
+   "attr": "MAX_REGENERATION",
+   "tags": [
+    "health",
+    "regen"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 298,
+   "id": "ADD_MAX_LIGHTNING_RESISTANCE",
+   "attr": "MAX_RESISTANCES",
+   "tags": [
+    "lightning"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 300,
+   "id": "ADD_MAX_MANA",
+   "attr": "MAX_MANA",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 302,
+   "id": "ADD_MAX_MINION",
+   "attr": "MAX_MINION",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 304,
+   "id": "ADD_MAX_ORB",
+   "attr": "MAX_ORB",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 306,
+   "id": "ADD_MAX_POWER",
+   "attr": "MAX_POWER_CHARGES",
+   "tags": [
+    "power"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 308,
+   "id": "TO_MAX_RAGE",
+   "attr": "MAX_RAGE",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 310,
+   "id": "ADD_MAX_RESISTANCES",
+   "attr": "MAX_RESISTANCES",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 312,
+   "id": "ADD_MAX_SPIRIT",
+   "attr": "MAX_SPIRIT",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 315,
+   "id": "INCREASED_SPIRIT",
+   "attr": "MAX_SPIRIT",
+   "tags": [],
+   "kind": "helper:more"
+  },
+  {
+   "line": 318,
+   "id": "ADD_MAX_TOTEM",
+   "attr": "MAX_TOTEM",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 320,
+   "id": "ADD_PHYSICAL_DAMAGE",
+   "attr": "ADDED_DAMAGE",
+   "tags": [
+    "physical"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 322,
+   "id": "ADD_PROJECTILE_PIERCE",
+   "attr": "PROJECTILE_PIERCE",
+   "tags": [
+    "projectile"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 324,
+   "id": "ADD_PROJECTILE_PIERCE_CHANCE",
+   "attr": "PROJECTILE_PIERCE_CHANCE",
+   "tags": [
+    "projectile"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 328,
+   "id": "SURPASSING_CHANCE_TO_GAIN_A_PUPPET_MASTER_STACK_WHENEVER_YOU_USE_A_COMMAND_SKILL",
+   "attr": "PUPPET_MASTER_CHANCE",
+   "tags": [
+    "puppet_master"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 329,
+   "id": "INCREASED_EFFECT_OF_PUPPET_MASTER",
+   "attr": "PUPPET_MASTER_EFFECT",
+   "tags": [
+    "puppet_master"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 330,
+   "id": "INCREASED_DURATION_OF_PUPPET_MASTER",
+   "attr": "PUPPET_MASTER_DURATION",
+   "tags": [
+    "puppet_master"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 333,
+   "id": "ADD_STRENGTH",
+   "attr": "STRENGTH",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 336,
+   "id": "?",
+   "attr": "AILMENT_THRESHOLD_ADD",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 376,
+   "id": "INCREASED_BALLISTA_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "ballista"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 378,
+   "id": "INCREASED_DAMAGE_WITH_BOWS",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "bow"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 384,
+   "id": "CHANCE_CHILL",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "chill"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 395,
+   "id": "EMPOWERED_ATTACKS_DEAL_INCREASED_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 456,
+   "id": "CHANCE_DODGE",
+   "attr": "DODGE_CHANCE",
+   "tags": [
+    "dodge"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 459,
+   "id": "CHANCE_TO_CREATE_AN_ADDITIONAL_REMNANT",
+   "attr": "REMNANT_EXTRA_CHANCE",
+   "tags": [
+    "remnant"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 461,
+   "id": "CHANCE_FREEZE",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "freeze"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 467,
+   "id": "CHANCE_IGNITE",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "ignite"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 483,
+   "id": "INCREASED_CHANCE_TO_SHOCK",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "shock"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 543,
+   "id": "INCREASED_AREA_OF_EFFECT_OF_CURSES",
+   "attr": "CAST_SPEED",
+   "tags": [
+    "curse",
+    "area"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 560,
+   "id": "?",
+   "attr": "RAGE_LOSS_RATE",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 647,
+   "id": "FLASK_MANA_RECOVERY",
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "mana",
+    "flask"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 649,
+   "id": "FLASK_NO_CONSUME",
+   "attr": "FLASK_NO_CONSUME_CHANCE",
+   "tags": [
+    "flask"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 650,
+   "id": "SLAM_SKILLS_YOU_USE_YOURSELF_HAVE_INCREASED_AFTERSHOCK_AREA_OF_EFFECT",
+   "attr": "AFTERSHOCK_AREA",
+   "tags": [
+    "slam"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 728,
+   "id": "GRENADE_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "grenade"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 730,
+   "id": "HAZARD_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "hazard"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 732,
+   "id": "HERALD_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "herald"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 751,
+   "id": "INC_ACCURACY",
+   "attr": "ACCURACY",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 753,
+   "id": "INCREASED_FREEZE_BUILDUP_WITH_EMPOWERED_ATTACKS",
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "ailment"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 755,
+   "id": "INC_AILMENT_CHANCE",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "ailment"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 759,
+   "id": "ATTACKS_WITH_ONE_HANDED_MARTIAL_WEAPON_HAVE_INCREASED_CHANCE_TO_INFLICT_AILMENTS",
+   "attr": "AILMENT_CHANCE",
+   "tags": [
+    "ailment",
+    "one_handed"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 761,
+   "id": "INC_AILMENT_DAMAGE_RATE_BLEED",
+   "attr": "AILMENT_DAMAGE_RATE",
+   "tags": [
+    "bleed"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 763,
+   "id": "INC_AILMENT_DAMAGE_RATE_POISON",
+   "attr": "AILMENT_DAMAGE_RATE",
+   "tags": [
+    "poison"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 765,
+   "id": "INC_AILMENT_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "ailment",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 780,
+   "id": "INC_AILMENT_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "ailment",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 783,
+   "id": "INC_SHOCK_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "shock",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 784,
+   "id": "INCREASED_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "chill",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 785,
+   "id": "INC_POISON_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "poison",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 787,
+   "id": "INCREASED_IGNITE_BUFF_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "ignite",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 790,
+   "id": "INCREASED_BUFF_EFFECT_OF_ARCANE_SURGE_ON_YOU",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "arcane_surge",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 792,
+   "id": "INCREASED_ARCHON_BUFF_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "archon",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 794,
+   "id": "INCREASED_ATTACK_AREA_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "attack",
+    "area"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 800,
+   "id": "INCREASED_AREA_OF_EFFECT_FOR_ATTACKS",
+   "attr": "AREA_OF_EFFECT",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 815,
+   "id": "INC_ATTACK_ELEMENTAL_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "elemental",
+    "attack"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 821,
+   "id": "BANNER_SKILLS_HAVE_INCREASED_AURA_BUFF_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "aura",
+    "banner",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 823,
+   "id": "BANNER_SKILLS_HAVE_INCREASED_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "banner",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 825,
+   "id": "INC_BEAST_AILMENT_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "beast",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 832,
+   "id": "INC_BLEED_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "bleed",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 835,
+   "id": "INCREASED_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "taken",
+    "ailment",
+    "bleed"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 838,
+   "id": "INC_BLEEDING_DURATION_TAKEN",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "taken",
+    "bleed",
+    "ailment"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 840,
+   "id": "INCREASED_BLIND_EFFECT",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "blind",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 842,
+   "id": "INC_BLOCK_CHANCE",
+   "attr": "BLOCK_CHANCE",
+   "tags": [],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 844,
+   "id": "INCREASED_BOLT_SPEED",
+   "attr": "PROJECTILE_SPEED",
+   "tags": [
+    "bolt"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 848,
+   "id": "INC_BUFF_EFFECT_TAKEN",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "aura",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 852,
+   "id": "INC_BUFF_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "aura",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 854,
+   "id": "INCREASED_CAST_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 857,
+   "id": "INCREASED_SKILL_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 861,
+   "id": "?",
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 864,
+   "id": "INC_CHAOS_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "chaos"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 866,
+   "id": "TO_CHAOS_RESISTANCE_2",
+   "attr": "RESISTANCES",
+   "tags": [
+    "chaos"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 868,
+   "id": "INCREASED_FRENZY_CHARGE_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "charge",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 870,
+   "id": "INCREASED_CHARM_CHARGES_GAIN",
+   "attr": "CHARM_CHARGES_GAINED",
+   "tags": [
+    "charm"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 872,
+   "id": "INC_CHARM_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "charm",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 874,
+   "id": "INC_CHARM_EFFECT",
+   "attr": "CHARM_EFFECT",
+   "tags": [
+    "charm"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 877,
+   "id": "INC_FLASK_MANA_RECOVERY",
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "mana",
+    "flask"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 878,
+   "id": "INCREASED_CHARM_CHARGES_USED",
+   "attr": "CHARM_CHARGES_USED",
+   "tags": [
+    "charm"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 880,
+   "id": "INCREASED_BUFF_EFFECT_OF_CURSES_ON_YOU",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "curse",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 881,
+   "id": "INC_AURA_MAGNITUDE",
+   "attr": "AURA_MAGNITUDE",
+   "tags": [
+    "aura"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 884,
+   "id": "INCREASED_EFFECT_OF_ARCHON_BUFFS_ON_YOU",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "archon",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 887,
+   "id": "INCREASED_BUFF_EFFECT_OF_SHOCK_ON_YOU",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "taken",
+    "ailment",
+    "shock"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 888,
+   "id": "INC_TRAP_THROWING_SPEED",
+   "attr": "TRAP_THROWING_SPEED",
+   "tags": [
+    "trap"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 889,
+   "id": "INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS",
+   "attr": "ES_FROM_FOCUS",
+   "tags": [
+    "focus"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 890,
+   "id": "INC_QUIVER_BONUSES",
+   "attr": "QUIVER_BONUSES",
+   "tags": [
+    "quiver"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 891,
+   "id": "INCREASED_TOTEM_PLACEMENT_RANGE",
+   "attr": "TOTEM_PLACEMENT_RANGE",
+   "tags": [
+    "totem"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 896,
+   "id": "INCREASED_DURATION_OF_AILMENTS_ON_YOU",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "taken",
+    "ailment"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 897,
+   "id": "INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_HELMET",
+   "attr": "ES_FROM_HELMET",
+   "tags": [
+    "helmet"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 898,
+   "id": "INCREASED_BUFF_EFFECT_OF_WITHERED_ON_YOU",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "taken",
+    "withered"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 907,
+   "id": "CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY",
+   "attr": "DAMAGE_LUCKY",
+   "tags": [],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 908,
+   "id": "CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION",
+   "attr": "ATTACK_TEN_INCISION",
+   "tags": [
+    "attack",
+    "incision"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 910,
+   "id": "CHANCE_FOR_ATTACKS_TO_MAIM_ON_HIT_DAMAGE_AGAINST_POISONED_ENEMIES",
+   "attr": "ATTACKS_MAIM_POISONED",
+   "tags": [
+    "attack",
+    "maim"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 911,
+   "id": "CHANCE_FOR_MACE_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK",
+   "attr": "MACE_SLAM_CAUSE_ADDITIONAL",
+   "tags": [
+    "mace"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 912,
+   "id": "CHANCE_TO_DEFEND_WITH_OF_ARMOR",
+   "attr": "DEFEND_ARMOUR",
+   "tags": [],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 913,
+   "id": "CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY",
+   "attr": "RECOVER_ALL_LIFE_KILL",
+   "tags": [
+    "health",
+    "kill"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 920,
+   "id": "CHANCE_WHEN_YOU_RELOAD_A_CROSSBOW_TO_BE_IMMEDIATE",
+   "attr": "RELOAD_CROSSBOW_IMMEDIATE",
+   "tags": [
+    "crossbow"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 921,
+   "id": "FASTER_CURSE_ACTIVATION",
+   "attr": "FASTER_CURSE_ACTIVATION",
+   "tags": [
+    "curse"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 922,
+   "id": "FASTER_START_OF_INHERENT_RAGE_LOSS",
+   "attr": "FASTER_START_INHERENT_RAGE",
+   "tags": [
+    "rage"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 923,
+   "id": "INCREASED_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS",
+   "attr": "MAGNITUDE_IMPALES_INFLICTED_SPELLS",
+   "tags": [
+    "impale",
+    "spell"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 926,
+   "id": "INCREASED_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+   "attr": "ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED",
+   "tags": [
+    "elemental",
+    "shapeshifted"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 927,
+   "id": "INCREASED_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES",
+   "attr": "SHOCK_ELECTROCUTED",
+   "tags": [
+    "shock"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 928,
+   "id": "INC_DAMAGE_IS_TAKEN_MANA",
+   "attr": "MANA_TAKE_OF_DAMAGE",
+   "tags": [],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 929,
+   "id": "OF_DAMAGE_TAKEN_BYPASSES_ENERGY_SHIELD",
+   "attr": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+   "tags": [
+    "taken",
+    "energy_shield"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 930,
+   "id": "OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD",
+   "attr": "LIFE_CONVERTED_ENERGY_SHIELD",
+   "tags": [
+    "health",
+    "energy_shield"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 931,
+   "id": "HEALTH_PER_DEXTERITY",
+   "attr": "LIFE_DEXTERITY",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 933,
+   "id": "MAX_STACKS_OF_PUPPET_MASTER",
+   "attr": "STACKS_PUPPET_MASTER",
+   "tags": [
+    "companion"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 934,
+   "id": "METRES_TO_DODGE_ROLL_DISTANCE_WHILE_SURROUNDED",
+   "attr": "METRES_DODGE_ROLL_DISTANCE",
+   "tags": [
+    "dodge",
+    "surrounded"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 935,
+   "id": "METRES_TO_MELEE_STRIKE_RANGE",
+   "attr": "METRES_MELEE_STRIKE_RANGE",
+   "tags": [
+    "melee"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 936,
+   "id": "TO_LEVEL_OF_ALL_CHAOS_SKILLS",
+   "attr": "LEVEL_ALL_CHAOS",
+   "tags": [
+    "chaos"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 937,
+   "id": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+   "attr": "LEVEL_ALL_COLD",
+   "tags": [
+    "cold"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 939,
+   "id": "TO_STUN_THRESHOLD_PER_STRENGTH",
+   "attr": "STUN_THRESHOLD_STRENGTH",
+   "tags": [
+    "stun"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 940,
+   "id": "TO_MAX_LIGHTNING_INFUSIONS",
+   "attr": "LIGHTNING_INFUSIONS",
+   "tags": [
+    "lightning",
+    "infusion"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 941,
+   "id": "TO_THORNS_CRITICAL_HIT_CHANCE",
+   "attr": "THORNS_CRITICAL",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 943,
+   "id": "TO_CRITICAL_HIT_CHANCE_OF_HERALD_SKILLS",
+   "attr": "CRIT_CHANCE",
+   "tags": [
+    "herald"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 944,
+   "id": "TO_MAX_BLOCK_CHANCE",
+   "attr": "BLOCK_CHANCE",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 945,
+   "id": "ARROWS_PIERCE_AN_ADDITIONAL_TARGET",
+   "attr": "ARROWS_PIERCE_ADDITIONAL_TARGET",
+   "tags": [
+    "arrow",
+    "pierce"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 946,
+   "id": "CHANCE_ATTACKS_ACCURACY_RATING_EQUAL",
+   "attr": "ACCURACY",
+   "tags": [],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 947,
+   "id": "BLEEDING_YOU_INFLICT_DEALS_DAMAGE_FASTER",
+   "attr": "AILMENT_DAMAGE_RATE",
+   "tags": [
+    "ailment",
+    "bleed"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 954,
+   "id": "CANNOT_BE_CRITICALLY_HIT_WHILE_PARRYING",
+   "attr": "CANNOT_CRITICALLY_PARRYING",
+   "tags": [
+    "parry"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 955,
+   "id": "DAMAGE_PENETRATES_OF_ENEMY_ELEMENTAL_RESISTANCES",
+   "attr": "RESISTANCE_PENETRATION",
+   "tags": [
+    "resistance",
+    "elemental"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 956,
+   "id": "DAMAGE_PENETRATION_ELEMENTAL_DAMAGE_RESISTANCES",
+   "attr": "RESISTANCE_PENETRATION",
+   "tags": [
+    "resistance",
+    "elemental"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 958,
+   "id": "DEFEND_WITH_OF_ARMOR_AGAINST_CRITICAL_HITS",
+   "attr": "DEFEND_ARMOUR",
+   "tags": [
+    "crit"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 959,
+   "id": "ENEMIES_NEAR_ENEMIES_YOU_MARK_ARE_BLINDED",
+   "attr": "MARK_BLINDED",
+   "tags": [
+    "mark"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 960,
+   "id": "ENEMIES_YOU_MARK_CANNOT_DEAL_CRITICAL_HITS",
+   "attr": "MARK_CANNOT_CRITICAL",
+   "tags": [
+    "mark"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 961,
+   "id": "ENEMIES_YOU_INFLICT_BLEEDING_ON_CANNOT_REGENERATE_HEALTH",
+   "attr": "INFLICT_BLEEDING_CANNOT_REGENERATE",
+   "tags": [
+    "bleed"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 964,
+   "id": "GAIN_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK",
+   "attr": "RAGE_LIFE_FLASK",
+   "tags": [
+    "flask",
+    "rage"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 965,
+   "id": "GAIN_ACCURACY_EQUAL_TO_YOUR_INTELLIGENCE",
+   "attr": "ACCURACY",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 966,
+   "id": "GAIN_ACCURACY_EQUAL_TO_YOUR_STRENGTH",
+   "attr": "ACCURACY",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 967,
+   "id": "INC_DEFLECTION_RATING_EQUAL_EVASION",
+   "attr": "EVASION",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 981,
+   "id": "INC_INCREASES_REDUCTIONS_PROJECTILE_SPEED",
+   "attr": "PROJECTILE_SPEED",
+   "tags": [
+    "projectile"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 982,
+   "id": "HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND",
+   "attr": "LIFE_FLASKS_CHARGES",
+   "tags": [
+    "flask",
+    "health"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 983,
+   "id": "MANA_FLASKS_GAIN_CHARGES_PER_SECOND",
+   "attr": "MANA_FLASKS_CHARGES",
+   "tags": [
+    "flask",
+    "mana"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 984,
+   "id": "INC_MINIONS_COOLDOWN_RECOVERY_RATE",
+   "attr": "COOLDOWN_RECOVERY_RATE",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 985,
+   "id": "MINIONS_HAVE_INCREASED_CAST_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 986,
+   "id": "MINIONS_HAVE_INCREASED_HEALTH_RECOVERY_RATE",
+   "attr": "RECOVERY_RATE",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1072,
+   "id": "ADD_IGNITE_WHEN_YOU_WARCRY",
+   "attr": "REMOVE_IGNITE_WARCRY",
+   "tags": [
+    "warcry",
+    "ignite"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1074,
+   "id": "ADD_A_CURSE_AFTER_CHANNELLING_FOR_SECONDS",
+   "attr": "ADD_CURSE",
+   "tags": [
+    "curse",
+    "channeling"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1076,
+   "id": "ADD_A_CURSE_WHEN_YOU_USE_A_MANA_FLASK",
+   "attr": "ADD_CURSE",
+   "tags": [
+    "curse",
+    "flask"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1077,
+   "id": "SKILLS_HAVE_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM",
+   "attr": "REMOVE_ELEMENTAL_INFUSIONS_BUT",
+   "tags": [
+    "elemental",
+    "infusion"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1078,
+   "id": "SKILLS_HAVE_A_CHANCE_TO_NOT_CONSUME_GLORY",
+   "attr": "GLORY",
+   "tags": [
+    "glory"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1079,
+   "id": "SKILLS_GAIN_COMBO_SLOWER",
+   "attr": "LOSE_COMBO_SLOWER",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1080,
+   "id": "SKILLS_WHICH_CREATE_FISSURES_HAVE_A_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE",
+   "attr": "WHICH_CREATE_FISSURES_ADDITIONAL",
+   "tags": [],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1082,
+   "id": "UNAFFECTED_BY_CHILLED_GROUND",
+   "attr": "UNAFFECTED",
+   "tags": [
+    "chilled_ground"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1083,
+   "id": "UNAFFECTED_BY_ELEMENTAL_WEAKNESS",
+   "attr": "UNAFFECTED",
+   "tags": [
+    "elemental_weakness"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1084,
+   "id": "UNAFFECTED_BY_SHOCKED_GROUND",
+   "attr": "UNAFFECTED",
+   "tags": [
+    "shocked_ground"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1085,
+   "id": "WARCRIES_HAVE_A_MINIMUM_OF_POWER",
+   "attr": "WARCRIES_MINIMUM_POWER",
+   "tags": [
+    "power"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1086,
+   "id": "YOU_CAN_APPLY_AN_ADDITIONAL_CURSE",
+   "attr": "ADDITIONAL_CURSE",
+   "tags": [
+    "curse"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1097,
+   "id": "YOUR_MINIONS_ARE_GIGANTIC",
+   "attr": "MINIONS_GIGANTIC",
+   "tags": [
+    "minion"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1098,
+   "id": "YOUR_AURA_BUFFS_DO_NOT_AFFECT_ALLIES",
+   "attr": "AURA_BUFFS_AFFECT_ALLIES",
+   "tags": [
+    "aura"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1099,
+   "id": "ARCHON_RECOVERY_PERIOD_EXPIRES_SLOWER",
+   "attr": "ARCHON_RECOVERY_RATE",
+   "tags": [
+    "archon"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1100,
+   "id": "ATTACK_DAMAGE_PENETRATES_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES",
+   "attr": "RESISTANCE_PENETRATION",
+   "tags": [
+    "resistance",
+    "elemental",
+    "attack"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 1102,
+   "id": "ATTACKS_HAVE_TO_CRITICAL_HIT_CHANCE",
+   "attr": "CRIT_CHANCE",
+   "tags": [
+    "attack"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1104,
+   "id": "BLIND_ENEMIES_WHEN_THEY_STUN_YOU",
+   "attr": "BLIND_THEY_STUN",
+   "tags": [
+    "blind",
+    "stun"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1105,
+   "id": "BUFFS_ON_YOU_EXPIRE_SLOWER",
+   "attr": "BUFFS_EXPIRE_SLOWER",
+   "tags": [
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1107,
+   "id": "CULLING_STRIKE_AGAINST_ENEMIES_YOU_MARK",
+   "attr": "CULLING_STRIKE_MARK",
+   "tags": [
+    "mark"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1108,
+   "id": "DAMAGING_AILMENTS_DEAL_DAMAGE_FASTER",
+   "attr": "AILMENT_DAMAGE_RATE",
+   "tags": [
+    "ailment"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1109,
+   "id": "GAIN_OF_EVASION_AS_EXTRA_ARMOR",
+   "attr": "EVASION",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1110,
+   "id": "GRENADE_SKILLS_HAVE_COOLDOWN_USE",
+   "attr": "COOLDOWN_RECOVERY_RATE",
+   "tags": [
+    "grenade"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1111,
+   "id": "GRENADES_HAVE_CHANCE_TO_ACTIVATE_A_SECOND_TIME",
+   "attr": "GRENADES_ACTIVATE_TIME",
+   "tags": [
+    "grenade"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1112,
+   "id": "IGNITES_YOU_CAUSE_ARE_REFLECTED_BACK_TO_YOU",
+   "attr": "IGNITES_CAUSE_REFLECTED_BACK",
+   "tags": [
+    "ignite"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1113,
+   "id": "INVOCATED_SKILLS_HAVE_INCREASED_MAX_ENERGY",
+   "attr": "INVOCATED_ENERGY",
+   "tags": [
+    "energy"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1114,
+   "id": "HEALTH_LEECH_HEALTH_FASTER",
+   "attr": "LEECH_LIFE_FASTER",
+   "tags": [
+    "leeching"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1115,
+   "id": "HEALTH_LEECH_HEALTH_SLOWER",
+   "attr": "LEECH_LIFE_SLOWER",
+   "tags": [
+    "leeching"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1131,
+   "id": "MINIONS_HAVE_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE",
+   "attr": "MINIONS_INFLICT_WITHERED",
+   "tags": [
+    "minion",
+    "withered"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1132,
+   "id": "INC_MINIONS_ATTACK_CAST_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [
+    "attack"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1133,
+   "id": "INC_MINIONS_COOLDOWN_RECOVERY_RATE_COMMAND",
+   "attr": "COOLDOWN_RECOVERY_RATE",
+   "tags": [
+    "command"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1135,
+   "id": "MINIONS_HAVE_INCREASED_CRITICAL_HIT_CHANCE",
+   "attr": "CRIT_CHANCE",
+   "tags": [
+    "minion"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1136,
+   "id": "MINIONS_HAVE_INCREASED_EVASION",
+   "attr": "EVASION",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1137,
+   "id": "PLANTS_HAVE_A_CHANCE_TO_IMMEDIATELY_OVERGROW",
+   "attr": "PLANTS_IMMEDIATELY_OVERGROW",
+   "tags": [
+    "plant"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1145,
+   "id": "REMNANTS_CAN_BE_COLLECTED_FROM_FURTHER_AWAY",
+   "attr": "REMNANTS_COLLECTED_FURTHER_AWAY",
+   "tags": [
+    "remnant"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1146,
+   "id": "CONVERTS_ALL_EVASION_RATING",
+   "attr": "EVASION",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1150,
+   "id": "STRIKES_DEAL_SPLASH_DAMAGE",
+   "attr": "AREA_OF_EFFECT",
+   "tags": [
+    "melee",
+    "area"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1151,
+   "id": "THORNS_DAMAGE_HAS_CHANCE_TO_IGNORE_ENEMY_ARMOR",
+   "attr": "ADDED_DAMAGE",
+   "tags": [
+    "armor",
+    "thorns"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1155,
+   "id": "UNAFFECTED_BY_CHILL_DURING_DODGE_ROLL",
+   "attr": "UNAFFECTED",
+   "tags": [
+    "chill",
+    "dodge"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1156,
+   "id": "UNAFFECTED_BY_CHILL_WHILE_MANA_LEECH_MANA",
+   "attr": "UNAFFECTED",
+   "tags": [
+    "chill",
+    "leeching"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1157,
+   "id": "WARCRIES_DEBILITATE_ENEMIES",
+   "attr": "WARCRIES_DEBILITATE",
+   "tags": [
+    "warcry",
+    "debilitate"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1158,
+   "id": "WARCRIES_EMPOWERED_AN_ADDITIONAL_ATTACK",
+   "attr": "ADD_EMPOWERED_ATTACKS",
+   "tags": [
+    "!taken",
+    "warcry",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1159,
+   "id": "CHANCE_FLASK_NO_CONSUME",
+   "attr": "FLASK_NO_CONSUME_CHANCE",
+   "tags": [
+    "flask"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1160,
+   "id": "CHANCE_WHEN_A_CHARM_IS_USED_TO_USE_ANOTHER_CHARM_WITHOUT_CONSUMING_CHARGES",
+   "attr": "CHARM_ACTIVATION_CHANCE",
+   "tags": [
+    "charm"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1161,
+   "id": "CHANCE_TO_KNOCK_ENEMIES_BACK_WITH_HIT_DAMAGE_AT_CLOSE_RANGE",
+   "attr": "KNOCKBACK",
+   "tags": [
+    "knockback"
+   ],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1172,
+   "id": "?",
+   "attr": "METRES_MELEE_STRIKE_RANGE",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1181,
+   "id": "ALL_BONUSES_FROM_EQUIPPED_AMULET_APPLY_TO_YOUR_MINIONS_INSTEAD_OF_YOU",
+   "attr": "BONUSES_AMULET_MINIONS",
+   "tags": [
+    "minion",
+    "jewellery"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1182,
+   "id": "CHANCE_ATTACKS_ACCURACY_RATING_EQUAL_CRITICAL",
+   "attr": "ACCURACY",
+   "tags": [],
+   "kind": "helper:chance"
+  },
+  {
+   "line": 1184,
+   "id": "CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_OF_MAX_HEALTH_PER_RAGE_CONSUMED",
+   "attr": "RAGE_SHAPESHIFTING_HUMAN_FORM",
+   "tags": [
+    "rage",
+    "shapeshifted"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1185,
+   "id": "DAMAGE_PENETRATES_ELEMENTAL_DAMAGE_RESISTANCES_FOR_EACH_TIME_YOU_VE_USED_A_SKILL_THAT_REQUIRES_GLORY_IN_THE_PAST_SECONDS",
+   "attr": "RESISTANCE_PENETRATION",
+   "tags": [
+    "resistance",
+    "elemental",
+    "glory"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 1186,
+   "id": "DAMAGE_PENETRATION_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES_WHILE_SHAPESHIFTED",
+   "attr": "RESISTANCE_PENETRATION",
+   "tags": [
+    "resistance",
+    "elemental"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 1187,
+   "id": "INC_DEFLECTION_RATING_EQUAL_EVASION_DEFLECT",
+   "attr": "EVASION",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1188,
+   "id": "GAIN_PHYSICAL_THORNS_DAMAGE_EQUAL_TO_OF_MAX_HEALTH_WHILE_SHAPESHIFTED",
+   "attr": "THORNS",
+   "tags": [
+    "physical"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1189,
+   "id": "GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS",
+   "attr": "ADDITIONAL_STUN_THRESHOLD_EQUAL_2",
+   "tags": [
+    "stun",
+    "armor"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1190,
+   "id": "IGNORE_ALL_MOVEMENT_PENALTIES_FROM_EQUIP_ARMOR",
+   "attr": "IGNORE_MOVEMENT_PENALTIES_ARMOUR",
+   "tags": [
+    "movement",
+    "armor"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1191,
+   "id": "INC_INCREASES_REDUCTIONS_PROJECTILE_SPEED_BOW",
+   "attr": "PROJECTILE_SPEED",
+   "tags": [
+    "projectile"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1225,
+   "id": "INC_CHILL_DURATION_TAKEN",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "taken",
+    "chill",
+    "ailment"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1229,
+   "id": "INCREASED_EFFECT_OF_CHILL_ON_YOU",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "taken",
+    "ailment",
+    "chill"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1231,
+   "id": "INC_COLD_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "cold"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1233,
+   "id": "INC_COLD_DAMAGE_SPELL",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "spell",
+    "cold"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1235,
+   "id": "COMPANIONS_DEAL_INCREASED_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "companion"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1241,
+   "id": "INCREASED_COOLDOWN_RECOVERY_RATE",
+   "attr": "COOLDOWN_RECOVERY_RATE",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1243,
+   "id": "INCREASED_MANA_COST_EFFICIENCY",
+   "attr": "COST_EFFICIENCY",
+   "tags": [
+    "cost"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1247,
+   "id": "INCREASED_HEALTH_COST_OF_SKILLS",
+   "attr": "SKILL_COST_LIFE",
+   "tags": [
+    "spell",
+    "health",
+    "cost"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1248,
+   "id": "INCREASED_MANA_COST_OF_SKILLS",
+   "attr": "SKILL_COST_MANA",
+   "tags": [
+    "spell",
+    "mana",
+    "cost"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1250,
+   "id": "INC_CRIT_CHANCE",
+   "attr": "CRIT_CHANCE",
+   "tags": [
+    "attack",
+    "crit"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1252,
+   "id": "INCREASED_CRITICAL_DAMAGE_BONUS",
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "attack",
+    "crit"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1254,
+   "id": "INC_CROSSBOW_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "crossbow"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1255,
+   "id": "INCREASED_DAMAGE_WITH_AXES",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "axe"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1256,
+   "id": "INCREASED_DAMAGE_WITH_MACES",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "mace"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1257,
+   "id": "INCREASED_DAMAGE_WITH_SPEARS",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "spear"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1258,
+   "id": "INC_TRAP_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "trap"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1259,
+   "id": "INCREASED_DAMAGE_WITH_HITS_AGAINST_CHILLED_ENEMIES",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1263,
+   "id": "INCREASED_CULLING_STRIKE_THRESHOLD",
+   "attr": "CULLING_STRIKE_THRESHOLD",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1265,
+   "id": "INCREASED_CURSE_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "curse",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1268,
+   "id": "INCREASED_CURSE_BUFF_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "curse",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1270,
+   "id": "INC_DAMAGE_ATTACK",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "attack"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1274,
+   "id": "INC_DAMAGE_EMPOWERED_ATTACKS",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "attack",
+    "empowered"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1285,
+   "id": "INC_DAMAGE_OVER_TIME",
+   "attr": "DAMAGE_OVER_TIME_MULTIPLIER",
+   "tags": [
+    "damage_over_time"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1312,
+   "id": "INCREASED_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "damage_over_time",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1315,
+   "id": "INCREASED_DURATION_OF_DAMAGING_AILMENTS_ON_ENEMIES",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "damage_over_time",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1319,
+   "id": "MORE_BLEEDING_MAGNITUDE_INFLICTED",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "ailment",
+    "bleed",
+    "taken"
+   ],
+   "kind": "helper:more"
+  },
+  {
+   "line": 1321,
+   "id": "INC_DAZE_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "daze",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1324,
+   "id": "INCREASED_BUFF_MAGNITUDE_OF_DAZE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "daze",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1335,
+   "id": "INC_DEBUFF_EXPIRY",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "taken",
+    "ailment"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1337,
+   "id": "INCREASED_DEFLECTION_RATING_WHILE_SURROUNDED",
+   "attr": "DEFLECTION_RATING",
+   "tags": [
+    "deflect",
+    "surrounded"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1341,
+   "id": "?",
+   "attr": "DEFLECTION_RATING",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1347,
+   "id": "INC_DEXTERITY",
+   "attr": "DEXTERITY",
+   "tags": [],
+   "kind": "helper:more"
+  },
+  {
+   "line": 1348,
+   "id": "INC_INTELLIGENCE",
+   "attr": "INTELLIGENCE",
+   "tags": [],
+   "kind": "helper:more"
+  },
+  {
+   "line": 1350,
+   "id": "INCREASED_ELECTROCUTE_BUILDUP",
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "electrocuted"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1354,
+   "id": "?",
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1357,
+   "id": "INCREASED_ELEMENTAL_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "elemental"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1361,
+   "id": "ADD_EMPOWERED_ATTACKS",
+   "attr": "ADD_EMPOWERED_ATTACKS",
+   "tags": [
+    "!taken",
+    "warcry",
+    "taken"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 1367,
+   "id": "INCREASED_DAMAGE_IF_YOU_HAVE_CONSUMED_A_CORPSE_RECENTLY",
+   "attr": "RECENTLY_CONSUMED_DAMAGE",
+   "tags": [
+    "corpse"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 1369,
+   "id": "ADD_CORPSE_RETAIN_CHANCE",
+   "attr": "CORPSE_RETAIN_CHANCE",
+   "tags": [
+    "corpse"
+   ],
+   "kind": "helper:add"
+  },
+  {
+   "line": 1371,
+   "id": "ADD_RECENTLY_CONSUMED_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "!taken",
+    "damage",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1374,
+   "id": "INC_ENERGY_REGENERATION_RATE",
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "energy",
+    "regen"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1376,
+   "id": "INC_EVASION",
+   "attr": "EVASION",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1378,
+   "id": "INCREASED_EXPOSURE_EFFECT",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "exposure",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1381,
+   "id": "INC_FASTER_AILMENTS",
+   "attr": "AILMENT_DAMAGE_RATE",
+   "tags": [
+    "damage_over_time"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1383,
+   "id": "INC_FIRE_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "fire"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1385,
+   "id": "INC_FIRE_DAMAGE_SPELL",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "spell",
+    "fire"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1388,
+   "id": "INC_FLAMMABILITY_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "curse",
+    "fire",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1392,
+   "id": "?",
+   "attr": "FLASK_CHARGES_GAINED",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1395,
+   "id": "INCREASED_FLASK_CHARGES_USED_FROM_MANA_FLASKS",
+   "attr": "FLASK_CHARGES_GAINED",
+   "tags": [
+    "flask"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1398,
+   "id": "INC_FLASK_EFFECT_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "flask",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1404,
+   "id": "INC_FLASK_LIFE_RECOVERY",
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "health",
+    "flask"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1406,
+   "id": "INCREASED_HEALTH_RECOVERY_FROM_FLASKS_USED_WHEN_ON_LOW_HEALTH",
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "flask"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1408,
+   "id": "INC_FOUND_QUANTITY",
+   "attr": "FOUND_ITEM_NUMBER",
+   "tags": [],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 1410,
+   "id": "INC_FOUND_RARITY",
+   "attr": "FOUND_ITEM_RARITY",
+   "tags": [],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 1412,
+   "id": "INC_FREEZE_BUILDUP",
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "freeze"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1415,
+   "id": "?",
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1418,
+   "id": "INC_FREEZE_DURATION_TAKEN",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "taken",
+    "freeze",
+    "ailment"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1421,
+   "id": "INC_GLORY_GENERATION",
+   "attr": "GLORY_GENERATION",
+   "tags": [
+    "glory"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1423,
+   "id": "INCREASED_GRENADE_DETONATION_TIME",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "grenade",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1425,
+   "id": "INCREASED_HAZARD_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "hazard",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1429,
+   "id": "INCREASED_IGNITE_DURATION_ON_ENEMIES",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "ignite",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1431,
+   "id": "INC_IGNITE_DURATION_TAKEN",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "taken",
+    "ignite",
+    "ailment"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1435,
+   "id": "INC_IGNITE_FASTER",
+   "attr": "AILMENT_DAMAGE_RATE",
+   "tags": [
+    "ignite"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1440,
+   "id": "INC_IGNITE_MAGNITUDE_TAKEN",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "taken",
+    "ailment",
+    "ignite"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1442,
+   "id": "INCREASED_IMMOBILISATION_BUILDUP",
+   "attr": "AILMENT_BUILDUP",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1447,
+   "id": "INC_INCISION_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "incision",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1449,
+   "id": "INC_INFUSION_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "infusion",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1451,
+   "id": "INC_INFUSION_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "infusion",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1453,
+   "id": "INCREASED_INTELLIGENCE",
+   "attr": "INTELLIGENCE",
+   "tags": [],
+   "kind": "helper:more"
+  },
+  {
+   "line": 1455,
+   "id": "INC_JAGGED_GROUND_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "jagged_ground",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1458,
+   "id": "INCREASED_BUFF_MAGNITUDE_OF_JAGGED_GROUND_YOU_CREATE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "jagged_ground",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1460,
+   "id": "INCREASED_KNOCKBACK_DISTANCE",
+   "attr": "KNOCKBACK",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1464,
+   "id": "?",
+   "attr": "LEECH",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1468,
+   "id": "INC_LIGHT_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "lightning"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1470,
+   "id": "INC_LIGHT_DAMAGE_SPELL",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "spell",
+    "lightning"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1472,
+   "id": "INCREASED_LIGHT_RADIUS",
+   "attr": "LIGHT_RADIUS",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1475,
+   "id": "INC_MANA_REGENERATION_RATE",
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "mana",
+    "regen"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1480,
+   "id": "INC_MANA_TAKE",
+   "attr": "MANA_TAKE_OF_DAMAGE",
+   "tags": [
+    "mana_take"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 1482,
+   "id": "INC_MARK_EFFECT",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "mark",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1484,
+   "id": "INC_MAX_ENERGY",
+   "attr": "MAX_ENERGY_SHIELD",
+   "tags": [],
+   "kind": "helper:more"
+  },
+  {
+   "line": 1486,
+   "id": "INC_ARMOUR_ENERGY",
+   "attr": "MAX_ENERGY_SHIELD",
+   "tags": [],
+   "kind": "helper:more"
+  },
+  {
+   "line": 1496,
+   "id": "INCREASED_MAX_MANA",
+   "attr": "MAX_MANA",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1498,
+   "id": "INC_MAX_RAGE",
+   "attr": "MAX_RAGE",
+   "tags": [],
+   "kind": "helper:add"
+  },
+  {
+   "line": 1503,
+   "id": "MORE_MAX_RAGE",
+   "attr": "MAX_RAGE",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1507,
+   "id": "INC_MAX_VOLATILITY",
+   "attr": "MAX_VOLATILITY",
+   "tags": [
+    "volatility"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1509,
+   "id": "INC_META_ENERGY",
+   "attr": "META_ENERGY_GAIN",
+   "tags": [
+    "meta"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1514,
+   "id": "?",
+   "attr": "MOVEMENT_PENALTY_REDUCTION",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1601,
+   "id": "INC_MINION_REVIVE",
+   "attr": "CAST_SPEED",
+   "tags": [
+    "minion"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1610,
+   "id": "INC_NON_DAMAGING_AILMENT_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "non_damaging",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1612,
+   "id": "INC_OFFERING_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "offering",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1614,
+   "id": "OFFERING_SKILLS_HAVE_INCREASED_BUFF_EFFECT",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "offering",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1616,
+   "id": "INCREASED_DAMAGE_WITH_ONE_HANDED_WEAPONS",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "one_handed"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1624,
+   "id": "INCREASED_PARRIED_DEBUFF_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "parry",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1628,
+   "id": "INCREASED_PARRIED_DEBUFF_BUFF_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "parry",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1630,
+   "id": "INCREASED_PARRY_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "parry"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1633,
+   "id": "INCREASED_PARRY_RANGE",
+   "attr": "PARRY_RANGE",
+   "tags": [
+    "parry"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1635,
+   "id": "INC_PHYSICAL_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "physical"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1637,
+   "id": "INCREASED_PHYSICAL_DAMAGE_WHILE_SHAPESHIFTED",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "physical",
+    "form"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1640,
+   "id": "INC_PIN_BUILDUP",
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "pin"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1642,
+   "id": "INCREASED_PINNED_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "pin",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1644,
+   "id": "INCREASED_POISON_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "poison",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1646,
+   "id": "INC_POISON_DURATION_TAKEN",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "taken",
+    "poison",
+    "ailment"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1648,
+   "id": "INC_PROJECTILE_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "projectile"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1650,
+   "id": "INC_PROJECTILE_PIERCE",
+   "attr": "PROJECTILE_PIERCE_CHANCE",
+   "tags": [
+    "projectile"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 1653,
+   "id": "INC_PROJECTILE_SPEED",
+   "attr": "PROJECTILE_SPEED",
+   "tags": [
+    "projectile"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1658,
+   "id": "?",
+   "attr": "RAGE_LOSS_GRACE",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1667,
+   "id": "INCREASED_SPEED_OF_RECOUP_EFFECTS",
+   "attr": "RECOVERY_RATE",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1669,
+   "id": "INC_RELOAD_SPEED",
+   "attr": "CROSS_BOW_RELOAD_TIME",
+   "tags": [
+    "crossbow"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1674,
+   "id": "INC_RESERVATION_EFFICIENCY",
+   "attr": "RESERVATION_EFFICIENCY",
+   "tags": [
+    "reservation"
+   ],
+   "kind": "helper:pctAdd"
+  },
+  {
+   "line": 1676,
+   "id": "INC_SHOCK_DURATION_TAKEN",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "taken",
+    "shock",
+    "ailment"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1678,
+   "id": "INC_SKILL_EFFECT_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1684,
+   "id": "INCREASED_SLOWING_POTENCY_OF_DEBUFFS_ON_YOU",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "taken",
+    "slow"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1686,
+   "id": "INC_SPELL_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "spell"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1689,
+   "id": "INC_STRENGTH",
+   "attr": "STRENGTH",
+   "tags": [],
+   "kind": "helper:more"
+  },
+  {
+   "line": 1691,
+   "id": "INC_STUN_BUILDUP",
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "stun"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1693,
+   "id": "INC_STUN_DURATION",
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "!taken",
+    "stun",
+    "taken"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1696,
+   "id": "INCREASED_STUN_RECOVERY",
+   "attr": "STUN_RECOVERY",
+   "tags": [
+    "stun"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1699,
+   "id": "?",
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1702,
+   "id": "INCREASED_DAMAGE_WITH_SWORDS",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "sword"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1704,
+   "id": "INC_TAKEN_CRIT_DAMAGE",
+   "attr": "TAKEN_CRIT_DAMAGE",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1707,
+   "id": "INC_TAKEN_DAMAGE",
+   "attr": "TAKEN_DAMAGE",
+   "tags": [],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1721,
+   "id": "INCREASED_THORNS_DAMAGE",
+   "attr": "THORNS",
+   "tags": [],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1727,
+   "id": "INCREASED_TOTEM_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "totem"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1729,
+   "id": "INCREASED_TOTEM_PLACEMENT_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [
+    "totem"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1731,
+   "id": "INC_TRAP_THROW_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [
+    "trap"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1733,
+   "id": "INCREASED_DAMAGE_WITH_TWO_HANDED_WEAPONS",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "two_handed"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1735,
+   "id": "INCREASED_VOLATILITY_EXPLOSION_DELAY",
+   "attr": "VOLATILITY_DETONATION_TIME",
+   "tags": [
+    "volatility"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1737,
+   "id": "INC_VOLATILITY_GENERATION",
+   "attr": "VOLATILITY_GENERATION",
+   "tags": [
+    "volatility"
+   ],
+   "kind": "helper:valueMod"
+  },
+  {
+   "line": 1741,
+   "id": "?",
+   "attr": "VOLATILITY_GENERATION",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1744,
+   "id": "INCREASED_TOTAL_POWER_COUNTED_BY_WARCRIES",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "warcry",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1747,
+   "id": "INCREASED_WITHERED_BUFF_MAGNITUDE",
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "!taken",
+    "withered",
+    "taken"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1751,
+   "id": "?",
+   "attr": "LEECH",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1755,
+   "id": "?",
+   "attr": "LEECH",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1761,
+   "id": "?",
+   "attr": "AMOUNT_LEECHED",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1765,
+   "id": "?",
+   "attr": "AMOUNT_LEECHED",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1772,
+   "id": "?",
+   "attr": "LEECH_RATE",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1778,
+   "id": "?",
+   "attr": "AMOUNT_LEECHED",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 1785,
+   "id": "MORE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES_WITH_MACES",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "mace"
+   ],
+   "kind": "helper:more"
+  },
+  {
+   "line": 1792,
+   "id": "MARK_USE_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [
+    "mark"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1794,
+   "id": "INCREASED_MELEE_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "melee"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1797,
+   "id": "META_ENERGY",
+   "attr": "META_ENERGY_MAX",
+   "tags": [
+    "meta"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1813,
+   "id": "MINION_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "minion"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1890,
+   "id": "SEAL_GAIN_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [
+    "seal"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1892,
+   "id": "TRAP_DAMAGE",
+   "attr": "DAMAGE",
+   "tags": [
+    "damage",
+    "trap"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 1912,
+   "id": "WARCRY_SPEED",
+   "attr": "CAST_SPEED",
+   "tags": [
+    "warcry"
+   ],
+   "kind": "helper:inc"
+  },
+  {
+   "line": 2089,
+   "id": "?",
+   "attr": "MANA_TAKE_OF_DAMAGE",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 2093,
+   "id": "?",
+   "attr": "ACCURACY",
+   "tags": [],
+   "kind": "direct"
+  },
+  {
+   "line": 2113,
+   "id": "?",
+   "attr": "MAX_MANA",
+   "tags": [],
+   "kind": "direct"
+  }
+ ],
+ "orphan_tags": {},
+ "global_attr_review": {
+  "BLOCK_CHANCE": {
+   "read_sites": [
+    {
+     "file": "BlockHelper.java",
+     "line": 27,
+     "method": "getBlock",
+     "in_scope": false
+    }
+   ],
+   "read_under_scope": false,
+   "write_points_with_tags": [],
+   "positive_tagged_write_points": [],
+   "risk": false
+  },
+  "ACCURACY": {
+   "read_sites": [
+    {
+     "file": "DamageHelper.java",
+     "line": 214,
+     "method": "isHit",
+     "in_scope": false
+    }
+   ],
+   "read_under_scope": false,
+   "write_points_with_tags": [],
+   "positive_tagged_write_points": [],
+   "risk": false
+  },
+  "EVASION": {
+   "read_sites": [
+    {
+     "file": "DamageHelper.java",
+     "line": 213,
+     "method": "isHit",
+     "in_scope": false
+    }
+   ],
+   "read_under_scope": false,
+   "write_points_with_tags": [],
+   "positive_tagged_write_points": [],
+   "risk": false
+  },
+  "MAX_RAGE": {
+   "read_sites": [
+    {
+     "file": "RageHelper.java",
+     "line": 33,
+     "method": "getMaxRage",
+     "in_scope": false
+    }
+   ],
+   "read_under_scope": false,
+   "write_points_with_tags": [],
+   "positive_tagged_write_points": [],
+   "risk": false
+  },
+  "MAX_ENERGY_SHIELD": {
+   "read_sites": [
+    {
+     "file": "EnergyShieldHelper.java",
+     "line": 27,
+     "method": "getMaxEnergyShield",
+     "in_scope": false
+    }
+   ],
+   "read_under_scope": false,
+   "write_points_with_tags": [],
+   "positive_tagged_write_points": [],
+   "risk": false
+  }
+ },
+ "attr_in_scope_heuristic": {
+  "addModifier": [],
+  "applyReduction": [],
+  "consume": [
+   "glory"
+  ],
+  "getArrowCount": [
+   "arrow",
+   "projectile"
+  ],
+  "getBallCount": [
+   "projectile"
+  ],
+  "getLabels": [
+   "attack",
+   "spell"
+  ],
+  "statTags": [
+   "aoe",
+   "area",
+   "aura",
+   "beam",
+   "chaos",
+   "cold",
+   "fire",
+   "lightning",
+   "physical",
+   "projectile",
+   "self"
+  ],
+  "execute": [
+   "aura",
+   "banner"
+  ],
+  "resolveDamageTargets": [
+   "cold",
+   "fire",
+   "lightning"
+  ],
+  "getType": [],
+  "of": [],
+  "Result": [],
+  "setSubscribedEvents": [],
+  "damageConvert": [],
+  "buildBuiltin": [
+   "arrow",
+   "bleed",
+   "chill",
+   "cold",
+   "electrocuted",
+   "fire",
+   "freeze",
+   "heavy_stun",
+   "ignite",
+   "lightning",
+   "pin",
+   "poison",
+   "shock",
+   "stun"
+  ],
+  "applyHierarchy": [],
+  "childrenOf": [],
+  "parentsOf": [],
+  "entry": [],
+  "Mode": [
+   "bleed",
+   "ignite",
+   "poison"
+  ],
+  "ImmuneStatEffect": [],
+  "elementTagsDescription": [],
+  "speedPerStack": [],
+  "damageTaken": [],
+  "damageDealt": [],
+  "damageDealtKey": [
+   "elemental",
+   "spell"
+  ],
+  "elementDamageMult": [
+   "damage"
+  ],
+  "scopedStacks": [
+   "status"
+  ],
+  "activeTags": [],
+  "scopedArchonRate": [
+   "archon"
+  ],
+  "archonBuffDurationMultiplier": [
+   "archon"
+  ],
+  "archonBuffEffectMultiplier": [
+   "archon"
+  ],
+  "scopedAilmentAdaptation": [
+   "ailment",
+   "threshold"
+  ],
+  "StatusType": [],
+  "tagsOf": [],
+  "tags": [],
+  "fireChargeEvent": [],
+  "effectMult": [
+   "charm"
+  ],
+  "registerEntityMod": [
+   "armor_break",
+   "attack",
+   "bleed",
+   "chaos",
+   "cold",
+   "crit",
+   "damage",
+   "fire",
+   "health",
+   "lightning",
+   "mana_take",
+   "poison",
+   "regen",
+   "stun"
+  ],
+  "buildEntries": [
+   "amount",
+   "chaos",
+   "chill",
+   "cold",
+   "deflect",
+   "elemental",
+   "fire",
+   "flask",
+   "freeze",
+   "gain_charge",
+   "gain_endurance",
+   "gain_frenzy",
+   "gain_power",
+   "grenade",
+   "health",
+   "leeching",
+   "lightning",
+   "mana",
+   "minion",
+   "movement",
+   "physical",
+   "spell",
+   "stun",
+   "volatility_detonated"
+  ],
+  "registerKeystoneEntries": [
+   "chaos",
+   "cold",
+   "energy",
+   "fire",
+   "lightning",
+   "physical",
+   "spell"
+  ],
+  "registerAilmentFaces": [
+   "status"
+  ],
+  "esRechargeMod": [
+   "energy"
+  ],
+  "dtcArmour": [],
+  "recoup": [],
+  "recoverPct": [],
+  "extraDamage": [],
+  "extraDamageFrom": [],
+  "extraDamageOnGround": [],
+  "extraDamageVsStatus": [],
+  "extraDamageWhileShapeshifted": [],
+  "registerStatusBehaviorEntries": [
+   "chaos",
+   "physical"
+  ],
+  "registerStatusTypeEntries": [
+   "ignite"
+  ],
+  "channelingTags": [
+   "channeling"
+  ],
+  "ailmentDurationMul": [
+   "ailment",
+   "status"
+  ],
+  "AILMENT_DURATION": [],
+  "ailmentThresholdMul": [
+   "ailment",
+   "threshold"
+  ],
+  "AILMENT_THRESHOLD": [],
+  "ailmentThresholdAdd": [
+   "ailment",
+   "threshold"
+  ],
+  "AILMENT_THRESHOLD_ADD": [],
+  "buildupMultiplier": [
+   "ailment"
+  ],
+  "AILMENT_BUILDUP": [],
+  "ailmentMagnitude": [
+   "ailment"
+  ],
+  "AILMENT_MAGNITUDE": [],
+  "takenDurationMul": [
+   "ailment",
+   "taken"
+  ],
+  "takenMagnitude": [
+   "ailment",
+   "taken"
+  ],
+  "avoidsPublic": [
+   "ailment"
+  ],
+  "AVOID_AILMENT_CHANCE": [],
+  "contributionDamage": [
+   "ailment"
+  ],
+  "getBleedingDamage": [
+   "ailment",
+   "bleed",
+   "physical"
+  ],
+  "getBleedingChance": [
+   "attack",
+   "bleed"
+  ],
+  "AILMENT_CHANCE": [],
+  "getPoisonDamage": [
+   "chaos",
+   "physical"
+  ],
+  "getIgniteDamage": [
+   "fire"
+  ],
+  "getChillDamage": [
+   "cold"
+  ],
+  "getShockDamage": [
+   "lightning"
+  ],
+  "applyDamageMultipliers": [
+   "damage",
+   "empowered"
+  ],
+  "applyDamageReductions": [
+   "chaos",
+   "cold",
+   "fire",
+   "lightning"
+  ],
+  "isCriticalHit": [
+   "taken_crit"
+  ],
+  "getCritChance": [
+   "attack",
+   "crit"
+  ],
+  "slotDamageTags": [
+   "chaos",
+   "cold",
+   "fire",
+   "lightning",
+   "physical"
+  ],
+  "applyAddedDamages": [],
+  "applyCriticalDamage": [
+   "attack",
+   "crit"
+  ],
+  "getEnergyShieldRegeneration": [
+   "energy_shield",
+   "regen"
+  ],
+  "getHealthRegeneration": [
+   "health",
+   "regen"
+  ],
+  "getManaRegeneration": [
+   "mana",
+   "regen"
+  ],
+  "HoldGoal": [],
+  "EntityTickEvent": [],
+  "register": [],
+  "stageParry": [
+   "parry"
+  ],
+  "stageBlock": [
+   "dodge"
+  ],
+  "stageEnergy": [
+   "guard"
+  ],
+  "stageMana": [
+   "mana_take"
+  ],
+  "onJoinLevel": [],
+  "onUseItemStart": [],
+  "onKnockBack": [],
+  "onHeal": [],
+  "record": [],
+  "cleanup": [],
+  "ofPlain": [],
+  "fireCaused": [],
+  "fireTaken": [],
+  "detonate": [
+   "volatility_detonated"
+  ],
+  "ServerGatherDataEvent": [],
+  "registerModifier": [
+   "melee"
+  ],
+  "onKillCharge": [
+   "charm"
+  ],
+  "triggerCharm": [
+   "charm"
+  ],
+  "charmDuration": [
+   "charm"
+  ],
+  "drink": [
+   "flask"
+  ],
+  "onKill": [
+   "flask"
+  ],
+  "doSweepAttack": [],
+  "modifyArgs": [
+   "projectile"
+  ]
+ },
+ "attr_global_heuristic": [
+  "ACCURACY",
+  "AILMENT_DURATION",
+  "AILMENT_MAGNITUDE",
+  "AILMENT_THRESHOLD_ADAPTATION",
+  "ARCHON_RECOVERY_RATE",
+  "BASE_ENERGY_SHIELD_RECHARGE",
+  "BLOCK_CHANCE",
+  "CAST_SPEED",
+  "CORRUPTION_ENDURES_CHANCE",
+  "CURRENT_ENERGY_SHIELD_RECHARGE",
+  "DARKNESS_RESERVATION_LASTS",
+  "DEFLECTION_RATING",
+  "DEXTERITY",
+  "ENERGY_RECHARGE",
+  "EVASION",
+  "INTELLIGENCE",
+  "ITEM_CAPACITY",
+  "MAX_DARKNESS",
+  "MAX_ENERGY_SHIELD",
+  "MAX_INFUSION",
+  "MAX_MANA",
+  "MAX_RAGE",
+  "MAX_RESISTANCES",
+  "MAX_SPIRIT",
+  "MAX_VOLATILITY",
+  "META_ENERGY_MAX",
+  "NO_SPIRIT_BASE_DARKNESS",
+  "PRESENCE_RANGE",
+  "PUPPET_MASTER_CHANCE",
+  "PUPPET_MASTER_DURATION",
+  "RAGE_LOSS_GRACE",
+  "RAGE_LOSS_RATE",
+  "REMNANTS_COLLECTED_FURTHER_AWAY",
+  "REMNANT_DOUBLE_CHANCE",
+  "REMNANT_EXTRA_CHANCE",
+  "REMNANT_MAGNITUDE",
+  "RESISTANCES",
+  "SKILL_SLOT_COUNT",
+  "STRENGTH",
+  "TAKE_NO_DAMAGE_VOLATILITY",
+  "VOLATILITY_DETONATION_TIME",
+  "VOLATILITY_GENERATION",
+  "WORK_APTITUDE",
+  "WORK_SPEED"
+ ],
+ "unused_literal_scope_tags": []
+}

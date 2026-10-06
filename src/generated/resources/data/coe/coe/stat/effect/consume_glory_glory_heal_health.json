@@ -1,0 +1,14 @@
+{
+  "type": "heal",
+  "resource": "health",
+  "tags": {
+    "and": [
+      {
+        "tag": "glory"
+      },
+      {
+        "tag": "consume_glory"
+      }
+    ]
+  }
+}

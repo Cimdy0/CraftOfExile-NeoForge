@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_slam_skills_to_cause_an_additional_aftershock",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "37619",
+    "links": [
+      "290",
+      "34331"
+    ],
+    "x": -6598.9,
+    "y": -4269.04
+  }
+]

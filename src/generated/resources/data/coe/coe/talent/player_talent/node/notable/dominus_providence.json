@@ -1,0 +1,59 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:immune_to_exposure",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:unaffected_by_elemental_weakness"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamageenergyshieldrecharge",
+    "id": "58894",
+    "links": [
+      "25648",
+      "26592"
+    ],
+    "x": -8807.73,
+    "y": -2227.88
+  }
+]

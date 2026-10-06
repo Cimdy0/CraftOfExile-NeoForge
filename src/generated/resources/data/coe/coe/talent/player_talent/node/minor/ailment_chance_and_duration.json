@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_damaging_ailments_on_enemies",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "33838",
+    "links": [
+      "46182",
+      "64747"
+    ],
+    "x": 4589.23,
+    "y": 4072.43
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_damaging_ailments_on_enemies",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "64747",
+    "links": [
+      "33838",
+      "51213"
+    ],
+    "x": 4639.7,
+    "y": 4367.03
+  }
+]

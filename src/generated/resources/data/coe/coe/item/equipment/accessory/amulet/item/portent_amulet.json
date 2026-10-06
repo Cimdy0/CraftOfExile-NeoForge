@@ -1,0 +1,31 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:accessory/amulet/template/none",
+    "reqs": {
+      "l": 42.0
+    },
+    "skills": {
+      "coe:preset_blink": {
+        "id": "coe:preset_blink"
+      },
+      "coe:preset_elemental_conflux": {
+        "id": "coe:preset_elemental_conflux"
+      },
+      "coe:preset_elemental_invocation": {
+        "id": "coe:preset_elemental_invocation"
+      },
+      "coe:preset_feral_invocation": {
+        "id": "coe:preset_feral_invocation"
+      },
+      "coe:preset_mirage_archer": {
+        "id": "coe:preset_mirage_archer"
+      },
+      "coe:preset_sacrifice": {
+        "id": "coe:preset_sacrifice"
+      },
+      "coe:preset_wolf_pack": {
+        "id": "coe:preset_wolf_pack"
+      }
+    }
+  }
+}

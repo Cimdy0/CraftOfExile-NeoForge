@@ -1,0 +1,7 @@
+{
+  "type": "coe:dot_cold",
+  "convert": {
+    "cold": 1,
+    "replace": true
+  }
+}

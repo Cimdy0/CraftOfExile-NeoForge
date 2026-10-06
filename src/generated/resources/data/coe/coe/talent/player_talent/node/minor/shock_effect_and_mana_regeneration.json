@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "35503",
+    "links": [
+      "23764",
+      "4850"
+    ],
+    "x": 2744.59,
+    "y": -3760.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "4850",
+    "links": [
+      "35503",
+      "7405"
+    ],
+    "x": 2577.55,
+    "y": -4030.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "7405",
+    "links": [
+      "31950",
+      "4850"
+    ],
+    "x": 2886.7,
+    "y": -4100.44
+  }
+]

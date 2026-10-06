@@ -1,0 +1,105 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:armor_inc_local"
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "shade_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "ghost_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "spectre_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 43.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "wraith_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 67.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "phantasm_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 68.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "nightmare_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 91.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "mirage_s",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 92.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "illusion_s",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 101.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

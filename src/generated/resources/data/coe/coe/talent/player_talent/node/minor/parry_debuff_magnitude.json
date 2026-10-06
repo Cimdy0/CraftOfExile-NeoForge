@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parried_debuff_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "33080",
+    "links": [
+      "41770",
+      "43254"
+    ],
+    "x": 3343.9,
+    "y": 5460.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parried_debuff_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "43254",
+    "links": [
+      "33080",
+      "33400"
+    ],
+    "x": 3425.9,
+    "y": 5318.55
+  }
+]

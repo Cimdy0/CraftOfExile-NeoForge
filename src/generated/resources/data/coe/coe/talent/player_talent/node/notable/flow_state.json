@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_harrier",
+    "id": "34233",
+    "links": [
+      "14725",
+      "32545"
+    ],
+    "x": 2671.29,
+    "y": -2143.98
+  }
+]

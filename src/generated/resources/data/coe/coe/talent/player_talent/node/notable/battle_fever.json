@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_physical_damage",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "64240",
+    "links": [
+      "54228"
+    ],
+    "x": -7951.09,
+    "y": -155.255
+  }
+]

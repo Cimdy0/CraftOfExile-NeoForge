@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:flask_recovery_rate",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "flask"
+      },
+      {
+        "tag": "mana"
+      }
+    ]
+  }
+}

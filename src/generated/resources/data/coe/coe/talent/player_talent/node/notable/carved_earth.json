@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed_if_you_ve_summoned_a_totem_recently",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "52348",
+    "links": [
+      "51206",
+      "60568"
+    ],
+    "x": -3904.0,
+    "y": 4082.42
+  }
+]

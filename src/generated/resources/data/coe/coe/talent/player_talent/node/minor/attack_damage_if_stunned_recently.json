@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_if_you_have_been_heavy_stunned_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "5324",
+    "links": [
+      "2397",
+      "46268",
+      "54437"
+    ],
+    "x": -2172.38,
+    "y": 11255.6
+  }
+]

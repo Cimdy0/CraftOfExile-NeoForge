@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spells_cast_by_totems_have_inc_cast_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "22484",
+    "links": [
+      "14110",
+      "5398"
+    ],
+    "x": -7099.4,
+    "y": -7455.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spells_cast_by_totems_have_inc_cast_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "5398",
+    "links": [
+      "22484",
+      "51820"
+    ],
+    "x": -6764.66,
+    "y": -6975.01
+  }
+]

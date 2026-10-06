@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_lightning_resistances_if_on_low_mana",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_lightning_resistance",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "47635",
+    "links": [
+      "53207"
+    ],
+    "x": 5578.23,
+    "y": -7243.44
+  }
+]

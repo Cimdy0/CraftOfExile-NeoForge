@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_with_spells_that_cost_health",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_spell_mana_cost_stat_conversion_to_health_cost",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manastr",
+    "id": "48530",
+    "links": [
+      "1433",
+      "39130",
+      "4623"
+    ],
+    "x": -4288.8,
+    "y": -6962.65
+  }
+]

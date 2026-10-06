@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "surrounded",
+    "window": 0.0
+  },
+  "effect": "coe:stat/effect/inline_attribute_9",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

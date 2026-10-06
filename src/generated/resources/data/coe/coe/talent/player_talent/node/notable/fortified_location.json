@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_and_evasion_per_summoned_totem_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_per_summoned_totem_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "53607",
+    "links": [
+      "40597"
+    ],
+    "x": -2630.11,
+    "y": 9553.52
+  }
+]

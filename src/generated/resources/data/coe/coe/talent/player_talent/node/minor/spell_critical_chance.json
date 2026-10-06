@@ -1,0 +1,224 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "12778",
+    "links": [
+      "26563",
+      "61905"
+    ],
+    "x": 5038.0,
+    "y": -10558.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "21245",
+    "links": [
+      "57178",
+      "58183",
+      "61179"
+    ],
+    "x": -3804.23,
+    "y": -9338.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "22290",
+    "links": [
+      "32404",
+      "36302",
+      "48821"
+    ],
+    "x": 0.005,
+    "y": -4105.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "32404",
+    "links": [
+      "15618",
+      "22290",
+      "5501"
+    ],
+    "x": -163.995,
+    "y": -4439.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "3472",
+    "links": [
+      "26682",
+      "46819",
+      "56640"
+    ],
+    "x": 228.135,
+    "y": -7194.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "46088",
+    "links": [
+      "13823",
+      "55947"
+    ],
+    "x": 3925.63,
+    "y": -9721.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "48805",
+    "links": [
+      "26563",
+      "4810",
+      "7782"
+    ],
+    "x": 4965.25,
+    "y": -10850.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "55947",
+    "links": [
+      "10131",
+      "46088",
+      "62153"
+    ],
+    "x": 3731.9,
+    "y": -10115.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "61179",
+    "links": [
+      "21245",
+      "32745"
+    ],
+    "x": -3955.44,
+    "y": -9600.64
+  }
+]

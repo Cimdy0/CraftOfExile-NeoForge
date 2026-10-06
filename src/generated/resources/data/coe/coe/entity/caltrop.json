@@ -1,0 +1,24 @@
+{
+  "behavior": [
+    {
+      "coe:contact": {
+        "target": "enemy"
+      }
+    }
+  ],
+  "box_height": 0.25,
+  "on_trigger": [
+    {
+      "coe:phase_on_hit": {}
+    },
+    {
+      "coe:record_event": {
+        "event": "hazard_triggered"
+      }
+    }
+  ],
+  "render": "coe:caltrop",
+  "tags": [
+    "hazard"
+  ]
+}

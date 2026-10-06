@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:arrows_gain_critical_hit_chance_as_they_travel_farther_up_to_inc_critical_hit_chance_after_metres",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "11526",
+    "links": [
+      "38993",
+      "8573"
+    ],
+    "x": 11010.8,
+    "y": 5117.5
+  }
+]

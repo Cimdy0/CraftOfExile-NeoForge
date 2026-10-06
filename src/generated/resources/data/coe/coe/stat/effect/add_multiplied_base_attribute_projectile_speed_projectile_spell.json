@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:projectile_speed",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "spell"
+      },
+      {
+        "tag": "projectile"
+      }
+    ]
+  }
+}

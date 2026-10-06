@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "56334",
+    "links": [
+      "16121",
+      "41753",
+      "46171"
+    ],
+    "x": 10280.7,
+    "y": -5291.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "61421",
+    "links": [
+      "16121",
+      "31765",
+      "46171"
+    ],
+    "x": 9797.78,
+    "y": -5420.89
+  }
+]

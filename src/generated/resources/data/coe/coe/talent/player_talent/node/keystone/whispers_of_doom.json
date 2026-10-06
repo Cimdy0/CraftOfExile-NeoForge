@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_can_apply_an_additional_curse",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:double_activation_delay_of_curses",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystonewhispersofdoom",
+    "id": "47759",
+    "links": [
+      "62677"
+    ],
+    "x": 1436.89,
+    "y": -10147.3
+  }
+]

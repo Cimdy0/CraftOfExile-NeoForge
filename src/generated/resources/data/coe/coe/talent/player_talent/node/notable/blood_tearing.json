@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_physical_damage",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "58183",
+    "links": [
+      "21245",
+      "60241"
+    ],
+    "x": -3988.18,
+    "y": -9392.13
+  }
+]

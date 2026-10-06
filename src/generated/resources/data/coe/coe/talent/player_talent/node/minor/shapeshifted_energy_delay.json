@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnode",
+    "id": "27216",
+    "links": [
+      "28489",
+      "30546",
+      "33562",
+      "60619"
+    ],
+    "x": -8004.69,
+    "y": -7955.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnode",
+    "id": "31010",
+    "links": [
+      "60619"
+    ],
+    "x": -7778.92,
+    "y": -7623.93
+  }
+]

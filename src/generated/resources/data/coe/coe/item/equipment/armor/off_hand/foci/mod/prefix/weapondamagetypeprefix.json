@@ -1,0 +1,369 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:chaos_damage_inc"
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "impure",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 25.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 2,
+        "name": "bitter",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 25.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 2,
+        "name": "searing",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 25.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 2,
+        "name": "charged",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 25.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 2,
+        "name": "punishing",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 25.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 8,
+        "name": "tainted",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 35.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 8,
+        "name": "biting",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 35.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 8,
+        "name": "sizzling",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 35.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 8,
+        "name": "hissing",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 35.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 8,
+        "name": "unforgiving",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 35.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "clouded",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 45.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "alpine",
+        "tier": 12,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 45.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "blistering",
+        "tier": 13,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 45.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "bolting",
+        "tier": 14,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 45.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "vengeful",
+        "tier": 15,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 45.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "darkened",
+        "tier": 16,
+        "values": {
+          "value": {
+            "max": 64.0,
+            "min": 55.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 33,
+        "name": "snowy",
+        "tier": 17,
+        "values": {
+          "value": {
+            "max": 64.0,
+            "min": 55.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 33,
+        "name": "cauterising",
+        "tier": 18,
+        "values": {
+          "value": {
+            "max": 64.0,
+            "min": 55.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 33,
+        "name": "coursing",
+        "tier": 19,
+        "values": {
+          "value": {
+            "max": 64.0,
+            "min": 55.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 33,
+        "name": "sadistic",
+        "tier": 20,
+        "values": {
+          "value": {
+            "max": 64.0,
+            "min": 55.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 46,
+        "name": "malignant",
+        "tier": 21,
+        "values": {
+          "value": {
+            "max": 74.0,
+            "min": 65.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 46,
+        "name": "hailing",
+        "tier": 22,
+        "values": {
+          "value": {
+            "max": 74.0,
+            "min": 65.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 46,
+        "name": "smoldering",
+        "tier": 23,
+        "values": {
+          "value": {
+            "max": 74.0,
+            "min": 65.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 46,
+        "name": "striking",
+        "tier": 24,
+        "values": {
+          "value": {
+            "max": 74.0,
+            "min": 65.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 46,
+        "name": "pitiless",
+        "tier": 25,
+        "values": {
+          "value": {
+            "max": 74.0,
+            "min": 65.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 60,
+        "name": "vile",
+        "tier": 26,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 75.0
+          }
+        },
+        "weight": 200
+      },
+      {
+        "level": 60,
+        "name": "arctic",
+        "tier": 27,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 75.0
+          }
+        },
+        "weight": 200
+      },
+      {
+        "level": 60,
+        "name": "magmatic",
+        "tier": 28,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 75.0
+          }
+        },
+        "weight": 200
+      },
+      {
+        "level": 60,
+        "name": "smiting",
+        "tier": 29,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 75.0
+          }
+        },
+        "weight": 200
+      },
+      {
+        "level": 60,
+        "name": "agonising",
+        "tier": 30,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 75.0
+          }
+        },
+        "weight": 200
+      }
+    ]
+  }
+}

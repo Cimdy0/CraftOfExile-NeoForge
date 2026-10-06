@@ -1,0 +1,23 @@
+{
+  "coe:item_template": {
+    "extend": "coe:base",
+    "stats": {
+      "armor": {
+        "entry": "read",
+        "ref": "coe:add_armor"
+      },
+      "block_chance": {
+        "entry": "read",
+        "ref": "coe:add_block_chance"
+      },
+      "energy": {
+        "entry": "read",
+        "ref": "coe:add_max_energy_shield"
+      },
+      "evasion": {
+        "entry": "read",
+        "ref": "coe:add_evasion"
+      }
+    }
+  }
+}

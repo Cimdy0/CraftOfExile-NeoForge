@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration_per_enemy_you_ve_freeze_in_the_last_seconds_up_to",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_avoidchilling",
+    "id": "48925",
+    "links": [
+      "21985",
+      "64572"
+    ],
+    "x": -6160.01,
+    "y": -9759.97
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_for_skills_used_by_totems",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "59908",
+    "links": [
+      "36197",
+      "45400"
+    ],
+    "x": -10662.1,
+    "y": -6708.99
+  }
+]

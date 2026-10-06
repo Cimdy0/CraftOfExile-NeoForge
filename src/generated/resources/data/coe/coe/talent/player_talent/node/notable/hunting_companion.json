@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_culling_strike_threshold",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:culling_strike_against_beasts_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "32655",
+    "links": [
+      "24178",
+      "52415"
+    ],
+    "x": 7050.34,
+    "y": 2711.86
+  }
+]

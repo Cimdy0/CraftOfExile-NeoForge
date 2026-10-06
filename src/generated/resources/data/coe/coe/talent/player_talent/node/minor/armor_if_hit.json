@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_if_you_have_been_hit_damage_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "28589",
+    "links": [
+      "30300",
+      "38670"
+    ],
+    "x": -11158.6,
+    "y": 1108.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_if_you_have_been_hit_damage_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "38670",
+    "links": [
+      "28589",
+      "3188"
+    ],
+    "x": -11188.1,
+    "y": 1314.82
+  }
+]

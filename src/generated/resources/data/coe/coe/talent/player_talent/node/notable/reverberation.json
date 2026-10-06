@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "8660",
+    "links": [
+      "18846"
+    ],
+    "x": -5525.85,
+    "y": -5203.66
+  }
+]

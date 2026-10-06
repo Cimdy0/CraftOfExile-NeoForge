@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "form_wyvern"
+  },
+  "effect": "coe:stat/effect/inline_attribute_217",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

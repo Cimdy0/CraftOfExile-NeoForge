@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:take_more_damage_over_time_if_you_ve_started_taking_damage_over_time_in_the_past_second",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:take_more_damage_over_time_if_you_haven_t_started_taking_damage_over_time_in_the_past_second",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heartstopperkeystone",
+    "id": "34497",
+    "links": [
+      "12253"
+    ],
+    "x": 7768.26,
+    "y": 228.335
+  }
+]

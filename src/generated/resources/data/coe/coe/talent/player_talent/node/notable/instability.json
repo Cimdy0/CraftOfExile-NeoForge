@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_when_volatility_on_you_explodes_you_regain_an_equivalent_amount_of_volatility",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_cursemitigationclusternode",
+    "id": "43944",
+    "links": [
+      "30102",
+      "53177"
+    ],
+    "x": 7034.63,
+    "y": -4489.25
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_chance_to_chain_an_additional_time_from_terrain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "23221",
+    "links": [
+      "45331"
+    ],
+    "x": 7259.38,
+    "y": 1753.08
+  }
+]

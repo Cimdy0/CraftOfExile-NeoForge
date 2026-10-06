@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:warcries_have_a_minimum_of_power",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "28613",
+    "links": [
+      "39598"
+    ],
+    "x": -9769.18,
+    "y": 2853.9
+  }
+]

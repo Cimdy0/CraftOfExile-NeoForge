@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance_while_surrounded",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_deflection_rating_while_surrounded",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ailment_threshold_and_stun_threshold_while_surrounded",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "19546",
+    "links": [
+      "55617"
+    ],
+    "x": -4430.72,
+    "y": 9163.92
+  }
+]

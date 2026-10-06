@@ -1,0 +1,171 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_hit_damage_by_an_enemy",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "11656",
+    "links": [
+      "53822",
+      "9106"
+    ],
+    "x": -9872.82,
+    "y": 1326.49
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_hit_damage_by_an_enemy",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "27980",
+    "links": [
+      "270",
+      "28981",
+      "33722"
+    ],
+    "x": -8664.77,
+    "y": -6630.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_hit_damage_by_an_enemy",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "28981",
+    "links": [
+      "27980",
+      "34871"
+    ],
+    "x": -8828.77,
+    "y": -6794.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_hit_damage_by_an_enemy",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "34871",
+    "links": [
+      "28981",
+      "52764"
+    ],
+    "x": -8789.77,
+    "y": -7010.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_hit_damage_by_an_enemy",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "53822",
+    "links": [
+      "11656",
+      "1200"
+    ],
+    "x": -10214.3,
+    "y": 1418.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_hit_damage_by_an_enemy",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "56342",
+    "links": [
+      "52373",
+      "7341"
+    ],
+    "x": -5952.13,
+    "y": 8688.45
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_hit_damage_by_an_enemy",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "9106",
+    "links": [
+      "11656",
+      "54937"
+    ],
+    "x": -9964.33,
+    "y": 984.989
+  }
+]

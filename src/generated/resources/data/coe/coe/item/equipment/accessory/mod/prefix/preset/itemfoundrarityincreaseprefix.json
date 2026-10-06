@@ -1,0 +1,51 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:found_item_rarity_inc"
+      },
+      "tiers": [
+        {
+          "level": 10,
+          "name": "magpie_s",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 8.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 29,
+          "name": "collector_s",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 15.0,
+              "min": 12.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 47,
+          "name": "hoarder_s",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 19.0,
+              "min": 16.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:amulet",
+      "coe:ring"
+    ]
+  }
+}

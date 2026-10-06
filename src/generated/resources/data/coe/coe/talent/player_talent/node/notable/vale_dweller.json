@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_while_bleeding",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_on_you",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "3896",
+    "links": [
+      "23708"
+    ],
+    "x": -5382.29,
+    "y": 680.34
+  }
+]

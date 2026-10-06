@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "accessory~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "max": 58.0,
+          "min": 52.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "max": 89.0,
+          "min": 80.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "max": 104.0,
+          "min": 90.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:max_mana_inc"
+          },
+          "max": 104.0,
+          "min": 90.0,
+          "tier": "perfect"
+        }
+      ],
+      "armor~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "max": 51.0,
+          "min": 42.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "max": 79.0,
+          "min": 65.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "max": 89.0,
+          "min": 80.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:max_mana_inc"
+          },
+          "max": 89.0,
+          "min": 80.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

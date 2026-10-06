@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_ailment_threshold_per_dexterity",
+            "vars": {
+              "value": 4.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "934",
+    "links": [
+      "12526",
+      "9825"
+    ],
+    "x": -593.443,
+    "y": 7627.68
+  }
+]

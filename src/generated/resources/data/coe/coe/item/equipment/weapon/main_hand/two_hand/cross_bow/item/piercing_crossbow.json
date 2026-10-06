@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/cross_bow/template/strength_dexterity",
+    "reqs": {
+      "dex": 49.0,
+      "l": 50.0,
+      "str": 49.0
+    }
+  }
+}

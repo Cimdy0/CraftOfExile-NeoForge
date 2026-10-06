@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredrabbit",
+    "id": "58513",
+    "links": [
+      "11774",
+      "14418",
+      "9745"
+    ],
+    "x": 7570.75,
+    "y": 8513.71
+  }
+]

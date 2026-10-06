@@ -1,0 +1,694 @@
+{
+  "total": 195,
+  "consumed": 111,
+  "placeholder": [
+    "ADDITIONAL_CURSE",
+    "ADDITIONAL_STUN_THRESHOLD_EQUAL_2",
+    "ADD_CURSE",
+    "AREA_OF_EFFECT",
+    "ARROWS_PIERCE_ADDITIONAL_TARGET",
+    "ATTACKS_MAIM_POISONED",
+    "ATTACK_TEN_INCISION",
+    "AURA_BUFFS_AFFECT_ALLIES",
+    "AURA_MAGNITUDE",
+    "BLIND_THEY_STUN",
+    "BONUSES_AMULET_MINIONS",
+    "BUFFS_EXPIRE_SLOWER",
+    "CANNOT_CRITICALLY_PARRYING",
+    "COOLDOWN_RECOVERY_RATE",
+    "COST_EFFICIENCY",
+    "CULLING_STRIKE_MARK",
+    "CULLING_STRIKE_THRESHOLD",
+    "DAMAGE_LUCKY",
+    "DEFEND_ARMOUR",
+    "ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED",
+    "ELEMENTAL_RESISTANCES_RED_GREEN",
+    "ES_FROM_FOCUS",
+    "ES_FROM_HELMET",
+    "FASTER_CURSE_ACTIVATION",
+    "FASTER_START_INHERENT_RAGE",
+    "FOUND_ITEM_NUMBER",
+    "FOUND_ITEM_RARITY",
+    "GLORY",
+    "GLORY_GENERATION",
+    "GRENADES_ACTIVATE_TIME",
+    "IGNITES_CAUSE_REFLECTED_BACK",
+    "IGNORE_MOVEMENT_PENALTIES_ARMOUR",
+    "INFLICT_BLEEDING_CANNOT_REGENERATE",
+    "INVOCATED_ENERGY",
+    "KNOCKBACK",
+    "LEECH_LIFE_FASTER",
+    "LEECH_LIFE_SLOWER",
+    "LEVEL_ALL_CHAOS",
+    "LEVEL_ALL_COLD",
+    "LIFE_CONVERTED_ENERGY_SHIELD",
+    "LIFE_DEXTERITY",
+    "LIFE_FLASKS_CHARGES",
+    "LIGHTNING_INFUSIONS",
+    "LIGHT_RADIUS",
+    "LOSE_COMBO_SLOWER",
+    "MACE_SLAM_CAUSE_ADDITIONAL",
+    "MAGNITUDE_IMPALES_INFLICTED_SPELLS",
+    "MANA_FLASKS_CHARGES",
+    "MARK_BLINDED",
+    "MARK_CANNOT_CRITICAL",
+    "MAX_BANNER",
+    "MAX_FISSURE",
+    "MAX_MINION",
+    "MAX_ORB",
+    "MAX_TOTEM",
+    "META_ENERGY_GAIN",
+    "METRES_DODGE_ROLL_DISTANCE",
+    "METRES_MELEE_STRIKE_RANGE",
+    "MINIONS_GIGANTIC",
+    "MINIONS_INFLICT_WITHERED",
+    "MOVEMENT_PENALTY_REDUCTION",
+    "PLANTS_IMMEDIATELY_OVERGROW",
+    "QUIVER_BONUSES",
+    "RAGE_LIFE_FLASK",
+    "RAGE_SHAPESHIFTING_HUMAN_FORM",
+    "RECOVER_ALL_LIFE_KILL",
+    "RELOAD_CROSSBOW_IMMEDIATE",
+    "REMOVE_ELEMENTAL_INFUSIONS_BUT",
+    "REMOVE_IGNITE_WARCRY",
+    "REVIVE_SPEED",
+    "SHOCK_ELECTROCUTED",
+    "SKILL_COST_LIFE",
+    "SKILL_COST_MANA",
+    "STACKS_PUPPET_MASTER",
+    "STUN_RECOVERY",
+    "STUN_THRESHOLD_STRENGTH",
+    "THORNS",
+    "THORNS_CRITICAL",
+    "TOTEM_PLACEMENT_RANGE",
+    "TRAP_THROWING_SPEED",
+    "UNAFFECTED",
+    "WARCRIES_DEBILITATE",
+    "WARCRIES_MINIMUM_POWER",
+    "WHICH_CREATE_FISSURES_ADDITIONAL"
+  ],
+  "nonnormal": {
+    "MAX_TOTEM": {
+      "scope": [
+        "TOTEM"
+      ],
+      "cond": []
+    },
+    "MAX_MINION": {
+      "scope": [
+        "MINION"
+      ],
+      "cond": []
+    },
+    "MAX_BANNER": {
+      "scope": [
+        "BANNER"
+      ],
+      "cond": []
+    },
+    "BANNER_LINGER": {
+      "scope": [
+        "BANNER"
+      ],
+      "cond": []
+    },
+    "ADD_EMPOWERED_ATTACKS": {
+      "scope": [
+        "ATTACK"
+      ],
+      "cond": []
+    },
+    "RECENTLY_CONSUMED_DAMAGE": {
+      "scope": [],
+      "cond": [
+        "RECENT"
+      ]
+    },
+    "MAX_FISSURE": {
+      "scope": [
+        "FISSURE"
+      ],
+      "cond": []
+    },
+    "MAX_ORB": {
+      "scope": [
+        "ORB"
+      ],
+      "cond": []
+    },
+    "LAUNCH_ADDITIONAL_PROJECTILE": {
+      "scope": [],
+      "cond": [
+        "ADDITIONAL"
+      ]
+    },
+    "FLASK_RECOVERY_RATE": {
+      "scope": [
+        "FLASK"
+      ],
+      "cond": []
+    },
+    "FLASK_CHARGES_GAINED": {
+      "scope": [
+        "FLASK"
+      ],
+      "cond": []
+    },
+    "FLASK_NO_CONSUME_CHANCE": {
+      "scope": [
+        "FLASK"
+      ],
+      "cond": [
+        "NO_"
+      ]
+    },
+    "CHARM_CHARGES_GAINED": {
+      "scope": [
+        "CHARM"
+      ],
+      "cond": []
+    },
+    "CHARM_ACTIVATION_CHANCE": {
+      "scope": [
+        "CHARM"
+      ],
+      "cond": []
+    },
+    "CHARM_CHARGES_USED": {
+      "scope": [
+        "CHARM"
+      ],
+      "cond": []
+    },
+    "CHARM_DURATION": {
+      "scope": [
+        "CHARM"
+      ],
+      "cond": []
+    },
+    "CHARM_EFFECT": {
+      "scope": [
+        "CHARM"
+      ],
+      "cond": []
+    },
+    "AURA_MAGNITUDE": {
+      "scope": [
+        "AURA"
+      ],
+      "cond": []
+    },
+    "TRAP_THROWING_SPEED": {
+      "scope": [
+        "TRAP"
+      ],
+      "cond": []
+    },
+    "MAX_DARKNESS": {
+      "scope": [
+        "DARKNESS"
+      ],
+      "cond": []
+    },
+    "QUIVER_BONUSES": {
+      "scope": [
+        "QUIVER"
+      ],
+      "cond": []
+    },
+    "TOTEM_PLACEMENT_RANGE": {
+      "scope": [
+        "TOTEM"
+      ],
+      "cond": []
+    },
+    "ADDITIONAL_CURSE": {
+      "scope": [
+        "CURSE"
+      ],
+      "cond": [
+        "ADDITIONAL"
+      ]
+    },
+    "ARROWS_PIERCE_ADDITIONAL_TARGET": {
+      "scope": [],
+      "cond": [
+        "ADDITIONAL"
+      ]
+    },
+    "ATTACK_TEN_INCISION": {
+      "scope": [
+        "ATTACK"
+      ],
+      "cond": []
+    },
+    "ATTACKS_MAIM_POISONED": {
+      "scope": [
+        "ATTACK"
+      ],
+      "cond": [
+        "POISONED"
+      ]
+    },
+    "AURA_BUFFS_AFFECT_ALLIES": {
+      "scope": [
+        "AURA"
+      ],
+      "cond": []
+    },
+    "CANNOT_CRITICALLY_PARRYING": {
+      "scope": [],
+      "cond": [
+        "CRITICALLY",
+        "CANNOT"
+      ]
+    },
+    "CULLING_STRIKE_MARK": {
+      "scope": [
+        "MARK"
+      ],
+      "cond": []
+    },
+    "DAMAGE_LUCKY": {
+      "scope": [],
+      "cond": [
+        "LUCKY"
+      ]
+    },
+    "DAMAGE_TAKEN_BYPASSES_ENERGY": {
+      "scope": [],
+      "cond": [
+        "TAKEN"
+      ]
+    },
+    "DARKNESS_RESERVATION_LASTS": {
+      "scope": [
+        "DARKNESS"
+      ],
+      "cond": []
+    },
+    "ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED": {
+      "scope": [
+        "SHAPESHIFT"
+      ],
+      "cond": [
+        "SHAPESHIFTED"
+      ]
+    },
+    "ELEMENTAL_DAMAGE_CONTRIBUTES_BLEEDING": {
+      "scope": [],
+      "cond": [
+        "BLEEDING"
+      ]
+    },
+    "FASTER_CURSE_ACTIVATION": {
+      "scope": [
+        "CURSE"
+      ],
+      "cond": []
+    },
+    "GRENADES_ACTIVATE_TIME": {
+      "scope": [
+        "GRENADE"
+      ],
+      "cond": []
+    },
+    "IGNITES_CAUSE_REFLECTED_BACK": {
+      "scope": [],
+      "cond": [
+        "REFLECTED",
+        "CAUSE"
+      ]
+    },
+    "INFLICT_BLEEDING_CANNOT_REGENERATE": {
+      "scope": [],
+      "cond": [
+        "BLEEDING",
+        "CANNOT",
+        "INFLICT"
+      ]
+    },
+    "LIFE_FLASKS_CHARGES": {
+      "scope": [
+        "FLASK"
+      ],
+      "cond": []
+    },
+    "LIGHTNING_INFUSIONS": {
+      "scope": [
+        "INFUSION"
+      ],
+      "cond": []
+    },
+    "MACE_SLAM_CAUSE_ADDITIONAL": {
+      "scope": [
+        "SLAM",
+        "MACE"
+      ],
+      "cond": [
+        "ADDITIONAL",
+        "CAUSE"
+      ]
+    },
+    "MAGNITUDE_IMPALES_INFLICTED_SPELLS": {
+      "scope": [
+        "SPELL"
+      ],
+      "cond": [
+        "IMPALES",
+        "INFLICT"
+      ]
+    },
+    "MANA_FLASKS_CHARGES": {
+      "scope": [
+        "FLASK"
+      ],
+      "cond": []
+    },
+    "MARK_BLINDED": {
+      "scope": [
+        "MARK"
+      ],
+      "cond": [
+        "BLINDED"
+      ]
+    },
+    "MARK_CANNOT_CRITICAL": {
+      "scope": [
+        "MARK"
+      ],
+      "cond": [
+        "CANNOT"
+      ]
+    },
+    "MINIONS_GIGANTIC": {
+      "scope": [
+        "MINION"
+      ],
+      "cond": []
+    },
+    "MINIONS_INFLICT_WITHERED": {
+      "scope": [
+        "MINION"
+      ],
+      "cond": [
+        "WITHERED",
+        "INFLICT"
+      ]
+    },
+    "NO_INHERENT_MANA_REGENERATION": {
+      "scope": [],
+      "cond": [
+        "NO_"
+      ]
+    },
+    "NO_SPIRIT_BASE_DARKNESS": {
+      "scope": [
+        "DARKNESS"
+      ],
+      "cond": [
+        "NO_"
+      ]
+    },
+    "PLANTS_IMMEDIATELY_OVERGROW": {
+      "scope": [
+        "PLANT"
+      ],
+      "cond": [
+        "OVERGROW"
+      ]
+    },
+    "RAGE_LIFE_FLASK": {
+      "scope": [
+        "FLASK"
+      ],
+      "cond": []
+    },
+    "REGENERATE_MANA_EQUAL_LIFE": {
+      "scope": [],
+      "cond": [
+        "EQUAL"
+      ]
+    },
+    "REMNANTS_COLLECTED_FURTHER_AWAY": {
+      "scope": [
+        "REMNANT"
+      ],
+      "cond": []
+    },
+    "ADD_CURSE": {
+      "scope": [
+        "CURSE"
+      ],
+      "cond": []
+    },
+    "REMOVE_ELEMENTAL_INFUSIONS_BUT": {
+      "scope": [
+        "INFUSION"
+      ],
+      "cond": [
+        "REMOVE"
+      ]
+    },
+    "REMOVE_IGNITE_WARCRY": {
+      "scope": [
+        "WARCRY"
+      ],
+      "cond": [
+        "REMOVE"
+      ]
+    },
+    "SHOCK_ELECTROCUTED": {
+      "scope": [],
+      "cond": [
+        "ELECTROCUTED"
+      ]
+    },
+    "STACKS_PUPPET_MASTER": {
+      "scope": [
+        "PUPPET"
+      ],
+      "cond": []
+    },
+    "TAKE_NO_DAMAGE_VOLATILITY": {
+      "scope": [
+        "VOLATILITY"
+      ],
+      "cond": [
+        "NO_"
+      ]
+    },
+    "UNAFFECTED": {
+      "scope": [],
+      "cond": [
+        "UNAFFECTED"
+      ]
+    },
+    "WARCRIES_DEBILITATE": {
+      "scope": [],
+      "cond": [
+        "DEBILITATE"
+      ]
+    },
+    "WHICH_CREATE_FISSURES_ADDITIONAL": {
+      "scope": [
+        "FISSURE"
+      ],
+      "cond": [
+        "ADDITIONAL",
+        "CREATE",
+        "WHICH_"
+      ]
+    },
+    "ADDITIONAL_STUN_THRESHOLD_EQUAL_2": {
+      "scope": [],
+      "cond": [
+        "ADDITIONAL",
+        "EQUAL"
+      ]
+    },
+    "BONUSES_AMULET_MINIONS": {
+      "scope": [
+        "MINION",
+        "AMULET"
+      ],
+      "cond": []
+    },
+    "ELEMENTAL_RESISTANCES_RED_GREEN": {
+      "scope": [],
+      "cond": [
+        "RED_GREEN"
+      ]
+    },
+    "IGNORE_MOVEMENT_PENALTIES_ARMOUR": {
+      "scope": [],
+      "cond": [
+        "IGNORE"
+      ]
+    },
+    "RAGE_SHAPESHIFTING_HUMAN_FORM": {
+      "scope": [
+        "SHAPESHIFT",
+        "FORM"
+      ],
+      "cond": [
+        "HUMAN"
+      ]
+    },
+    "ARCHON_RECOVERY_RATE": {
+      "scope": [
+        "ARCHON"
+      ],
+      "cond": []
+    },
+    "MAX_VOLATILITY": {
+      "scope": [
+        "VOLATILITY"
+      ],
+      "cond": []
+    },
+    "VOLATILITY_GENERATION": {
+      "scope": [
+        "VOLATILITY"
+      ],
+      "cond": []
+    },
+    "VOLATILITY_DETONATION_TIME": {
+      "scope": [
+        "VOLATILITY"
+      ],
+      "cond": []
+    },
+    "MAX_INFUSION": {
+      "scope": [
+        "INFUSION"
+      ],
+      "cond": []
+    },
+    "REMNANT_EXTRA_CHANCE": {
+      "scope": [
+        "REMNANT"
+      ],
+      "cond": []
+    },
+    "REMNANT_DOUBLE_CHANCE": {
+      "scope": [
+        "REMNANT"
+      ],
+      "cond": []
+    },
+    "REMNANT_MAGNITUDE": {
+      "scope": [
+        "REMNANT"
+      ],
+      "cond": []
+    },
+    "AFTERSHOCK_CHANCE_MACE_SLAM": {
+      "scope": [
+        "SLAM",
+        "MACE"
+      ],
+      "cond": []
+    },
+    "AFTERSHOCK_CHANCE_SHAPESHIFT_SLAM": {
+      "scope": [
+        "SLAM",
+        "SHAPESHIFT"
+      ],
+      "cond": []
+    },
+    "PUPPET_MASTER_CHANCE": {
+      "scope": [
+        "PUPPET"
+      ],
+      "cond": []
+    },
+    "PUPPET_MASTER_EFFECT": {
+      "scope": [
+        "PUPPET"
+      ],
+      "cond": []
+    },
+    "PUPPET_MASTER_DURATION": {
+      "scope": [
+        "PUPPET"
+      ],
+      "cond": []
+    },
+    "TAKEN_CRIT_DAMAGE": {
+      "scope": [],
+      "cond": [
+        "TAKEN"
+      ]
+    },
+    "TAKEN_CRIT_CHANCE": {
+      "scope": [],
+      "cond": [
+        "TAKEN"
+      ]
+    },
+    "TAKEN_DAMAGE": {
+      "scope": [],
+      "cond": [
+        "TAKEN"
+      ]
+    },
+    "TOTEM_TAKEN_AURA": {
+      "scope": [
+        "TOTEM",
+        "AURA"
+      ],
+      "cond": [
+        "TAKEN"
+      ]
+    }
+  },
+  "cross": [
+    "ADDITIONAL_CURSE",
+    "ADDITIONAL_STUN_THRESHOLD_EQUAL_2",
+    "ADD_CURSE",
+    "ARROWS_PIERCE_ADDITIONAL_TARGET",
+    "ATTACKS_MAIM_POISONED",
+    "ATTACK_TEN_INCISION",
+    "AURA_BUFFS_AFFECT_ALLIES",
+    "AURA_MAGNITUDE",
+    "BONUSES_AMULET_MINIONS",
+    "CANNOT_CRITICALLY_PARRYING",
+    "CULLING_STRIKE_MARK",
+    "DAMAGE_LUCKY",
+    "ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED",
+    "ELEMENTAL_RESISTANCES_RED_GREEN",
+    "FASTER_CURSE_ACTIVATION",
+    "GRENADES_ACTIVATE_TIME",
+    "IGNITES_CAUSE_REFLECTED_BACK",
+    "IGNORE_MOVEMENT_PENALTIES_ARMOUR",
+    "INFLICT_BLEEDING_CANNOT_REGENERATE",
+    "LIFE_FLASKS_CHARGES",
+    "LIGHTNING_INFUSIONS",
+    "MACE_SLAM_CAUSE_ADDITIONAL",
+    "MAGNITUDE_IMPALES_INFLICTED_SPELLS",
+    "MANA_FLASKS_CHARGES",
+    "MARK_BLINDED",
+    "MARK_CANNOT_CRITICAL",
+    "MAX_BANNER",
+    "MAX_FISSURE",
+    "MAX_MINION",
+    "MAX_ORB",
+    "MAX_TOTEM",
+    "MINIONS_GIGANTIC",
+    "MINIONS_INFLICT_WITHERED",
+    "PLANTS_IMMEDIATELY_OVERGROW",
+    "QUIVER_BONUSES",
+    "RAGE_LIFE_FLASK",
+    "RAGE_SHAPESHIFTING_HUMAN_FORM",
+    "REMOVE_ELEMENTAL_INFUSIONS_BUT",
+    "REMOVE_IGNITE_WARCRY",
+    "SHOCK_ELECTROCUTED",
+    "STACKS_PUPPET_MASTER",
+    "TOTEM_PLACEMENT_RANGE",
+    "TRAP_THROWING_SPEED",
+    "UNAFFECTED",
+    "WARCRIES_DEBILITATE",
+    "WHICH_CREATE_FISSURES_ADDITIONAL"
+  ]
+}

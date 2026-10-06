@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:life_gained_from_enemy_death"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_success",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 4.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 11,
+        "name": "of_victory",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 9.0,
+            "min": 7.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 22,
+        "name": "of_triumph",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 18.0,
+            "min": 10.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 33,
+        "name": "of_conquest",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 28.0,
+            "min": 19.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 44,
+        "name": "of_vanquishing",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 29.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 55,
+        "name": "of_valour",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 53.0,
+            "min": 41.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 66,
+        "name": "of_glory",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 68.0,
+            "min": 54.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 77,
+        "name": "of_legend",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 84.0,
+            "min": 69.0
+          }
+        },
+        "weight": 750
+      }
+    ]
+  }
+}

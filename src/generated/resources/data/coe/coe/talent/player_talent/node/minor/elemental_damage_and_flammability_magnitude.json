@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "33729",
+    "links": [
+      "44204",
+      "45712"
+    ],
+    "x": 5337.73,
+    "y": 924.785
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "44204",
+    "links": [
+      "12611",
+      "33729"
+    ],
+    "x": 5581.73,
+    "y": 1097.41
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "45712",
+    "links": [
+      "33729",
+      "65009"
+    ],
+    "x": 5012.75,
+    "y": 1018.91
+  }
+]

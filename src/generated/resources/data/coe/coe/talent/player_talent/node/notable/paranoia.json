@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_surrounded_area_of_effect",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "24766",
+    "links": [
+      "11257",
+      "31566"
+    ],
+    "x": -466.625,
+    "y": 8827.24
+  }
+]

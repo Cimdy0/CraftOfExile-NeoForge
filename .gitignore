@@ -1,0 +1,50 @@
+### 项目参考数据 —— 禁止删除！ ###
+# ⛔ 以下文件为 POE2 技能数据的参考文档和缓存数据，禁止删除！
+!docs/POE2技能数据获取方法.md
+!docs/POE2技能数据.md
+!poe2_levels.json
+!docs/poe2_gem_data.json
+
+### Gradle ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/**/out/
+
+.run/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.eclipse/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/**/bin/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Minecraft Modding ###
+run/
+!**/src/**/run/
+**/src/generated/**/.cache/
+repo/
+!**/src/**/repo/
+
+# Windows del 重定向误产物（内容是"系统找不到文件"乱码消息，与项目无关且git 无法索引）
+nul

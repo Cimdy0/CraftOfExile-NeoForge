@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "coe:item/lesser_jeweller_orb"
+  }
+}

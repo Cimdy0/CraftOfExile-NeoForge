@@ -1,0 +1,129 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_armor_local"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "agile",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 11.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 8,
+        "name": "dancer_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 19.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "acrobat_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 66.0,
+            "min": 47.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "fleet",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 87.0,
+            "min": 67.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "blurred",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 116.0,
+            "min": 88.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "phased",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 146.0,
+            "min": 117.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "vaporous",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 176.0,
+            "min": 147.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "elusory",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 207.0,
+            "min": 177.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "adroit",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 234.0,
+            "min": 208.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "lissome",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 261.0,
+            "min": 235.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

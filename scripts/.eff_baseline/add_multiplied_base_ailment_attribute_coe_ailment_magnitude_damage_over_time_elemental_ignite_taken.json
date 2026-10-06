@@ -1,0 +1,12 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_magnitude",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "damage_over_time",
+    "ignite",
+    "!taken",
+    "elemental",
+    "ailment"
+  ]
+}

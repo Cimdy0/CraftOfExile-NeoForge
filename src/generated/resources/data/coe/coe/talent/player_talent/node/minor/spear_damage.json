@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_spears",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "21225",
+    "links": [
+      "24786",
+      "38369",
+      "9240"
+    ],
+    "x": 8557.89,
+    "y": 7239.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_spears",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "36677",
+    "links": [
+      "9227",
+      "9240"
+    ],
+    "x": 8847.14,
+    "y": 7072.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_spears",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "9240",
+    "links": [
+      "21225",
+      "36677"
+    ],
+    "x": 8705.12,
+    "y": 7154.15
+  }
+]

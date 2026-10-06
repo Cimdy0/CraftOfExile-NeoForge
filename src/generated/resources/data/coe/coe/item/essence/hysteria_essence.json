@@ -1,0 +1,50 @@
+{
+  "bonuses": {
+    "ladders": {
+      "accessory~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:mana_regeneration_rate_inc"
+          },
+          "max": 59.0,
+          "min": 50.0,
+          "tier": "special"
+        }
+      ],
+      "armor~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_stun_threshold"
+          },
+          "max": 304.0,
+          "min": 254.0,
+          "tier": "special"
+        }
+      ],
+      "one_hand, !wand, !staff, !sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_damage_inc"
+          },
+          "max": 50.0,
+          "min": 43.0,
+          "tier": "special"
+        }
+      ],
+      "wand|staff|sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:energy_recharge_rate_inc"
+          },
+          "max": 23.0,
+          "min": 20.0,
+          "tier": "special"
+        }
+      ]
+    }
+  }
+}

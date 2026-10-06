@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_attacks_to_maim_on_hit_damage_against_poisoned_enemies",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "43677",
+    "links": [
+      "4083"
+    ],
+    "x": 4605.3,
+    "y": 1275.23
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "13407",
+    "links": [
+      "23040",
+      "2936"
+    ],
+    "x": 11471.9,
+    "y": 733.091
+  }
+]

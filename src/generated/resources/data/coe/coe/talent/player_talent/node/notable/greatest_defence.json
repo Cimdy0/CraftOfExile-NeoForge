@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_per_item_armor_and_item_evasion_on_equipped_shield",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "27687",
+    "links": [
+      "30371"
+    ],
+    "x": -8655.75,
+    "y": 1787.01
+  }
+]

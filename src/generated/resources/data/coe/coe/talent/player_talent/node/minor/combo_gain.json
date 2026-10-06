@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_build_an_additional_combo_on_hit_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstrengthchakra",
+    "id": "37780",
+    "links": [
+      "3640",
+      "7888"
+    ],
+    "x": 10186.8,
+    "y": -1550.22
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_build_an_additional_combo_on_hit_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstrengthchakra",
+    "id": "7888",
+    "links": [
+      "17101",
+      "28963",
+      "37780"
+    ],
+    "x": 9864.22,
+    "y": -1463.78
+  }
+]

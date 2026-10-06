@@ -1,0 +1,196 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "12418",
+    "links": [
+      "3988",
+      "50561",
+      "51832"
+    ],
+    "x": -8763.32,
+    "y": 4534.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "15247",
+    "links": [
+      "3949",
+      "46683"
+    ],
+    "x": -9528.57,
+    "y": 3082.37
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "3988",
+    "links": [
+      "12418",
+      "21387",
+      "51832"
+    ],
+    "x": -8689.8,
+    "y": 4808.97
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "42059",
+    "links": [
+      "36333",
+      "56112"
+    ],
+    "x": -8412.16,
+    "y": -3896.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "50561",
+    "links": [
+      "12418",
+      "31373"
+    ],
+    "x": -8981.35,
+    "y": 4650.55
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "59466",
+    "links": [
+      "14777",
+      "4015"
+    ],
+    "x": -5387.75,
+    "y": 7174.52
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "62216",
+    "links": [
+      "26070",
+      "38130"
+    ],
+    "x": -5840.71,
+    "y": 2830.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "62360",
+    "links": [
+      "25014",
+      "36333"
+    ],
+    "x": -7822.53,
+    "y": -3941.85
+  }
+]

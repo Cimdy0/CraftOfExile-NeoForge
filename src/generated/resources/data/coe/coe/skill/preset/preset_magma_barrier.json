@@ -1,0 +1,46 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cast_particle": "minecraft:poof",
+  "cast_sound": "minecraft:block.anvil.land",
+  "cost": [
+    {
+      "value": 7.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_stat": {
+                "duration": 200.0,
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:talent_coe_evasion_op_add_value_src_minecraft_armor_0_3"
+                  }
+                ]
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "buff",
+    "persistent"
+  ]
+}

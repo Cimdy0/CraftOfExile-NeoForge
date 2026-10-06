@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_mana",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "3215",
+    "links": [
+      "62436"
+    ],
+    "x": 1600.5,
+    "y": -4006.86
+  }
+]

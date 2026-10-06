@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_lightning_resistance",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_lightning_resistance_if_you_have_at_least_green_support_gems_socketed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "52257",
+    "links": [
+      "57069"
+    ],
+    "x": 9455.83,
+    "y": 2570.72
+  }
+]

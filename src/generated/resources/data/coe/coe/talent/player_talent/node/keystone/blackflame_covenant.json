@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:fire_spells_conversion_of_fire_damage_to_chaos_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chaos_damage_from_fire_spells_contributes_to_flammability_and_ignite_buff_magnitude",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:ignite_inflicted_with_fire_spells_deals_chaos_damage_instead_of_fire_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firespellsbecomechaosspellskeystone",
+    "id": "42680",
+    "links": [
+      "15885"
+    ],
+    "x": -1385.44,
+    "y": -8272.26
+  }
+]

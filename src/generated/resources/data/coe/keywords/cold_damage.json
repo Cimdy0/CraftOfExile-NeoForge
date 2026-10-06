@@ -1,0 +1,30 @@
+{
+  "aliases": [
+    "Cold Damage",
+    "Cold",
+    "冰霜伤害",
+    "冰冷伤害"
+  ],
+  "description": [
+    [
+      "$[cold_damage]",
+      "是一种元素伤害类型，也是",
+      "$[chill]",
+      "与",
+      "$[freeze]",
+      "的基础。"
+    ],
+    [
+      "冰霜",
+      "$[resistance]",
+      "可降低所受的",
+      "$[cold_damage]",
+      "。"
+    ]
+  ],
+  "id": "cold_damage",
+  "keys": [
+    "coe:keyword.cold_damage"
+  ],
+  "title": "@coe:keyword.cold_damage"
+}

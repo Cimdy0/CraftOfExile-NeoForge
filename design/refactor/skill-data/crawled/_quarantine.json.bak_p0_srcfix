@@ -1,0 +1,18 @@
+{
+  "note": "这些条目来自早期「本地 preset 找不到 poe2db 对应页」的兜底匹配，把 HTTP 200 误当命中。建议下游过滤；未从 entries 中删除以保持 sha256 稳定。",
+  "count": 2,
+  "items": [
+    {
+      "id": "blight",
+      "page": "Blight",
+      "reason": "supporter_pack: /us/Blight 是赞助包页面，不是技能",
+      "gem_type": "skill"
+    },
+    {
+      "id": "frost_nova",
+      "page": "Frost_Nova",
+      "reason": "empty_stub: 无 property / 无 Level Effect / 无描述",
+      "gem_type": "skill"
+    }
+  ]
+}

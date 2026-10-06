@@ -1,0 +1,116 @@
+[
+  {
+    "icon": "passives_physicaldamagenode",
+    "id": "19162",
+    "links": [
+      "15141",
+      "21809",
+      "31554",
+      "34143"
+    ],
+    "x": -9303.49,
+    "y": -7638.88
+  },
+  {
+    "icon": "passives_physicaldamagenode",
+    "id": "21809",
+    "links": [
+      "19162",
+      "44452"
+    ],
+    "x": -9391.51,
+    "y": -7310.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_physical_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "27900",
+    "links": [
+      "54640",
+      "6356"
+    ],
+    "x": -4814.41,
+    "y": -4807.39
+  },
+  {
+    "icon": "passives_physicaldamagenode",
+    "id": "44452",
+    "links": [
+      "21809",
+      "61811"
+    ],
+    "x": -9303.49,
+    "y": -6981.88
+  },
+  {
+    "icon": "passives_physicaldamagenode",
+    "id": "61811",
+    "links": [
+      "33722",
+      "44452"
+    ],
+    "x": -9063.01,
+    "y": -6741.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_physical_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "6356",
+    "links": [
+      "15114",
+      "27900"
+    ],
+    "x": -4594.84,
+    "y": -4717.02
+  }
+]

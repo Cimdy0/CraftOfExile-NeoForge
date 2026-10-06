@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_health_leech",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_leech_health_slower",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifeleech",
+    "id": "51535",
+    "links": [
+      "55063",
+      "8852"
+    ],
+    "x": -9970.25,
+    "y": 2520.53
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_health_leech",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_leech_health_slower",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifeleech",
+    "id": "55063",
+    "links": [
+      "18397",
+      "51535"
+    ],
+    "x": -9769.39,
+    "y": 2319.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_health_leech",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_leech_health_slower",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifeleech",
+    "id": "8852",
+    "links": [
+      "51535",
+      "59785"
+    ],
+    "x": -10086.2,
+    "y": 2404.56
+  }
+]

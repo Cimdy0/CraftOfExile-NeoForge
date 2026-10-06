@@ -1,0 +1,8 @@
+{
+  "members": [
+    "coe:add_accuracy",
+    "coe:attack_damage_inc",
+    "coe:physical_damage_inc_local"
+  ],
+  "slot": {}
+}

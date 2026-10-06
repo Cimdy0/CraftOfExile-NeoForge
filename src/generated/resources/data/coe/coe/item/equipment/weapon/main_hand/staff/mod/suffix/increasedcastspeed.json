@@ -1,0 +1,98 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_cast_speed"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_talent",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 14.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 15,
+        "name": "of_nimbleness",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 25.0,
+            "min": 20.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 30,
+        "name": "of_expertise",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 31.0,
+            "min": 26.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 45,
+        "name": "of_sortilege",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 37.0,
+            "min": 32.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "of_legerdemain",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 43.0,
+            "min": 38.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 70,
+        "name": "of_prestidigitation",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 49.0,
+            "min": 44.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 80,
+        "name": "of_finesse",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 52.0,
+            "min": 50.0
+          }
+        },
+        "weight": 250
+      }
+    ]
+  }
+}

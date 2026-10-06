@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_used",
+            "vars": {
+              "value": -0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "14001",
+    "links": [
+      "1631",
+      "56893"
+    ],
+    "x": 6579.76,
+    "y": 104.437
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_used",
+            "vars": {
+              "value": -0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "38497",
+    "links": [
+      "43522",
+      "62803"
+    ],
+    "x": 7659.87,
+    "y": 8739.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_used",
+            "vars": {
+              "value": -0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "43522",
+    "links": [
+      "33099",
+      "38463",
+      "38497"
+    ],
+    "x": 7012.87,
+    "y": 8565.72
+  }
+]

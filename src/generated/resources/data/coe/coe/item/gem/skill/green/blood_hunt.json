@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_blood_hunt",
+  "vars": {
+    "tier": 1.0
+  }
+}

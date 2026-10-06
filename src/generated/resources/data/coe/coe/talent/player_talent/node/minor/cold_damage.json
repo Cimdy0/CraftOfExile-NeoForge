@@ -1,0 +1,601 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "12099",
+    "links": [
+      "44191",
+      "4833"
+    ],
+    "x": -5263.61,
+    "y": -9401.91
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "13333",
+    "links": [
+      "1091",
+      "1700",
+      "45497"
+    ],
+    "x": -1243.05,
+    "y": -9989.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "14310",
+    "links": [
+      "32340",
+      "45377"
+    ],
+    "x": 5569.62,
+    "y": -8962.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "1700",
+    "links": [
+      "13333",
+      "48699"
+    ],
+    "x": -1161.05,
+    "y": -9825.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "19003",
+    "links": [
+      "12166",
+      "22713",
+      "3128"
+    ],
+    "x": 6564.44,
+    "y": -7691.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "22713",
+    "links": [
+      "14446",
+      "19003",
+      "19722",
+      "4959"
+    ],
+    "x": 6814.29,
+    "y": -7691.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "23455",
+    "links": [
+      "47754",
+      "49740",
+      "55847"
+    ],
+    "x": 3668.09,
+    "y": -8216.37
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "32340",
+    "links": [
+      "14310",
+      "24721"
+    ],
+    "x": 5818.69,
+    "y": -9005.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "35387",
+    "links": [
+      "49512",
+      "6554"
+    ],
+    "x": -612.835,
+    "y": -7781.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "37415",
+    "links": [
+      "51328",
+      "8553"
+    ],
+    "x": -6394.63,
+    "y": -4266.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "41669",
+    "links": [
+      "29369",
+      "44455",
+      "55250",
+      "59362"
+    ],
+    "x": 0.435,
+    "y": -11118.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "43653",
+    "links": [
+      "26518",
+      "48171"
+    ],
+    "x": -7134.25,
+    "y": -1100.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "44191",
+    "links": [
+      "12099",
+      "50104"
+    ],
+    "x": -4971.36,
+    "y": -9503.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "44455",
+    "links": [
+      "11337",
+      "41669",
+      "52799",
+      "56649",
+      "60515",
+      "62914"
+    ],
+    "x": 0.435,
+    "y": -11452.5
+  },
+  {
+    "icon": "passives_colddamagenode",
+    "id": "44560",
+    "links": [
+      "12940",
+      "25570"
+    ],
+    "x": -3604.52,
+    "y": -11522.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "45377",
+    "links": [
+      "14310",
+      "61403"
+    ],
+    "x": 5901.0,
+    "y": -8772.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "47754",
+    "links": [
+      "23455",
+      "55668"
+    ],
+    "x": 3451.59,
+    "y": -8091.37
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "48171",
+    "links": [
+      "3218",
+      "43653"
+    ],
+    "x": -7037.04,
+    "y": -961.363
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "4833",
+    "links": [
+      "12099",
+      "33852"
+    ],
+    "x": -5147.0,
+    "y": -9203.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "50121",
+    "links": [
+      "3128",
+      "56914"
+    ],
+    "x": 5988.31,
+    "y": -7475.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "51328",
+    "links": [
+      "37415",
+      "49938"
+    ],
+    "x": -6534.71,
+    "y": -4055.73
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "60515",
+    "links": [
+      "19955",
+      "41972",
+      "44455"
+    ],
+    "x": 289.688,
+    "y": -11619.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "62914",
+    "links": [
+      "23427",
+      "44455",
+      "47270"
+    ],
+    "x": -288.817,
+    "y": -11619.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "6554",
+    "links": [
+      "23907",
+      "35387"
+    ],
+    "x": -477.995,
+    "y": -7622.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "8553",
+    "links": [
+      "13693",
+      "37415"
+    ],
+    "x": -6788.28,
+    "y": -4451.88
+  }
+]

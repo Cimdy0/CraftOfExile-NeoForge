@@ -1,0 +1,144 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_thorns_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "1286",
+    "links": [
+      "17903",
+      "54701"
+    ],
+    "x": -7296.92,
+    "y": 2585.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_thorns_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "17903",
+    "links": [
+      "1286",
+      "40117"
+    ],
+    "x": -7080.42,
+    "y": 2460.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_thorns_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "30007",
+    "links": [
+      "3188",
+      "7395"
+    ],
+    "x": -11113.2,
+    "y": 1501.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_thorns_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "30300",
+    "links": [
+      "1200",
+      "12565",
+      "28589"
+    ],
+    "x": -10990.2,
+    "y": 1288.76
+  },
+  {
+    "icon": "passives_thornsnode1",
+    "id": "47633",
+    "links": [
+      "57002",
+      "62378"
+    ],
+    "x": -4088.15,
+    "y": -871.735
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_thorns_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "54701",
+    "links": [
+      "1286",
+      "21089",
+      "4527"
+    ],
+    "x": -7513.43,
+    "y": 2460.67
+  },
+  {
+    "icon": "passives_thornsnode1",
+    "id": "62378",
+    "links": [
+      "22558",
+      "47633"
+    ],
+    "x": -4372.2,
+    "y": -871.735
+  }
+]

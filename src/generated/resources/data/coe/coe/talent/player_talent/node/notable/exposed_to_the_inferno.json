@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_ailments_against_enemies_with_exposure",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "10423",
+    "links": [
+      "37905",
+      "43867"
+    ],
+    "x": 11025.4,
+    "y": -2697.56
+  }
+]

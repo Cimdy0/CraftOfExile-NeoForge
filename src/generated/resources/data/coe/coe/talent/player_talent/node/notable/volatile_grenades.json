@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_grenade_detonation_time",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mineareaofeffectnode",
+    "id": "17882",
+    "links": [
+      "48856"
+    ],
+    "x": 1450.76,
+    "y": 7527.62
+  }
+]

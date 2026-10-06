@@ -1,0 +1,53 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup_against_enemies_within_metres",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength_and_dexterity",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_newnewattackspeed",
+    "id": "44605",
+    "links": [
+      "13081",
+      "38779",
+      "57039",
+      "59881",
+      "8092"
+    ],
+    "x": 431.178,
+    "y": 2762.72
+  }
+]

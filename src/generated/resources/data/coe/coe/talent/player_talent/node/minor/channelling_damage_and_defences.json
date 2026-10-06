@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:channelling_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_channelling",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingspeed",
+    "id": "12232",
+    "links": [
+      "11087",
+      "39710",
+      "872"
+    ],
+    "x": -7283.82,
+    "y": -3758.64
+  }
+]

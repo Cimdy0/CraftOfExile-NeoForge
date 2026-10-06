@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/one_hand/wand/template/intelligence",
+    "reqs": {
+      "int": 23.0,
+      "l": 11.0
+    },
+    "skills": {
+      "coe:preset_power_siphon": {
+        "id": "coe:preset_power_siphon"
+      }
+    }
+  }
+}

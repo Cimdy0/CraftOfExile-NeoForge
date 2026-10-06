@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_against_dazed_enemies",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "61718",
+    "links": [
+      "21945",
+      "38342"
+    ],
+    "x": 10148.9,
+    "y": -399.595
+  }
+]

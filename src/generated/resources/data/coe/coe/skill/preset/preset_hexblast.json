@@ -1,0 +1,41 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:reverse_portal",
+  "cast_sound": "minecraft:block.beacon.activate",
+  "cost": [
+    {
+      "value": "coe:level_table(12, 14, 17, 20, 23, 26, 30, 34, 38, 43, 49, 55, 61, 68, 76, 84, 94, 104, 115, 127, 140, 154, 170, 187, 205, 225, 247, 270, 296, 324, 354, 387, 422, 460, 502, 547, 596, 649, 706, 768)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(30, 41, 56, 73, 93, 114.5, 140, 168.5, 200.5, 237.5, 279, 326, 380, 441, 510.5, 590, 680, 783, 901.5, 1036, 1190, 1367, 1570, 1803, 2071.5, 2380, 2736, 3147, 3622, 4171.5, 4808.5, 5547, 6405.5, 7404, 8567, 9924, 11509.5, 13364.5, 15537.5, 18087)",
+                "can_crit": 1.0,
+                "damage_type": "chaos"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 2.5
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

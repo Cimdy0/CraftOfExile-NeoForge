@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_curses_on_you",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_non_damaging_ailments_on_you",
+            "vars": {
+              "value": -0.35
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "42078",
+    "links": [
+      "59657"
+    ],
+    "x": 9257.6,
+    "y": -2702.28
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/off_hand/foci/template/intelligence",
+    "reqs": {
+      "int": 11.0,
+      "l": 6.0
+    },
+    "stats": {
+      "energy": 12.0
+    }
+  }
+}

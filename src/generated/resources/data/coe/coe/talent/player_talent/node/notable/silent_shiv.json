@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_daggers",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_daggers",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "56366",
+    "links": [
+      "35755",
+      "52215",
+      "632"
+    ],
+    "x": 10758.7,
+    "y": -5168.92
+  }
+]

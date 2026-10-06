@@ -1,0 +1,121 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "multi",
+      "parts": [
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:energy_inc_local"
+          },
+          "key": "value"
+        },
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "key": "value_2"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 8,
+        "name": "imbued",
+        "tier": 1,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 6.0
+          },
+          "value_2": {
+            "max": 8.0,
+            "min": 6.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "serene",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 14.0
+          },
+          "value_2": {
+            "max": 16.0,
+            "min": 9.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "sacred",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 21.0
+          },
+          "value_2": {
+            "max": 20.0,
+            "min": 17.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "celestial",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 32.0,
+            "min": 27.0
+          },
+          "value_2": {
+            "max": 26.0,
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "heavenly",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 33.0
+          },
+          "value_2": {
+            "max": 32.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 78,
+        "name": "angel_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 39.0
+          },
+          "value_2": {
+            "max": 39.0,
+            "min": 33.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

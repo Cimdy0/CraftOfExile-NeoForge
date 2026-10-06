@@ -1,0 +1,24 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "group",
+    "nodes": [
+      {
+        "type": "status",
+        "output": "flag",
+        "tag": "ailment"
+      },
+      {
+        "type": "status",
+        "kind": "damaging",
+        "output": "flag"
+      }
+    ]
+  },
+  "effect": "coe:stat/effect/inline_attribute_487",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1150"
+}

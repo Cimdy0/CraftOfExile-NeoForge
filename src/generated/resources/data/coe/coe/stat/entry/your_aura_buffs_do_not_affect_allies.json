@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "1"
+  },
+  "effect": "coe:stat/effect/inline_aura_buffs_exclude_allies_514",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

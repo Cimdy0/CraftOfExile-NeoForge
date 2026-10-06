@@ -1,0 +1,25 @@
+{
+  "aliases": [
+    "Sap",
+    "Sapped",
+    "衰弱"
+  ],
+  "description": [
+    [
+      "$[sap]",
+      "是一种强力的闪电异常，会降低目标的闪避值。"
+    ],
+    [
+      "它对应",
+      "$[scorch]",
+      "（火焰）与",
+      "$[brittle]",
+      "（冰霜）。"
+    ]
+  ],
+  "id": "sap",
+  "keys": [
+    "coe:keyword.sap"
+  ],
+  "title": "@coe:keyword.sap"
+}

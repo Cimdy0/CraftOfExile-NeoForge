@@ -1,0 +1,23 @@
+{
+  "allow_type": [
+    "attack",
+    "melee",
+    "AND"
+  ],
+  "effects": [
+    {
+      "coe:effect_mod": {
+        "damage_type": "melee",
+        "more": 1.4
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.2,
+  "max_level": 20.0,
+  "require": {
+    "strength": 5.0
+  },
+  "reservation_multiplier": 1.2,
+  "tag": "clash"
+}

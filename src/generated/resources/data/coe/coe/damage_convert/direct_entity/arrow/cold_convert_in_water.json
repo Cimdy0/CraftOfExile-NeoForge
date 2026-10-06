@@ -1,0 +1,8 @@
+{
+  "convert": {
+    "cold": 6,
+    "physical": 4,
+    "replace": false
+  },
+  "state": "in_water"
+}

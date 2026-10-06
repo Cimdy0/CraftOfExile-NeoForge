@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_in_your_presence_have_onslaught_while_you_are_shapeshifted",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "55450",
+    "links": [
+      "50118",
+      "57089"
+    ],
+    "x": -8012.19,
+    "y": -5902.73
+  }
+]

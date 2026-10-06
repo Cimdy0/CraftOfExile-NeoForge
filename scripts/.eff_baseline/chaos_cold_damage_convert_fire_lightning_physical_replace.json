@@ -1,0 +1,11 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "physical",
+    "cold",
+    "lightning",
+    "chaos"
+  ],
+  "mode": "replace",
+  "to": "fire"
+}

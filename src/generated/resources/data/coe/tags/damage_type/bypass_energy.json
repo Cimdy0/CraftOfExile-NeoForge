@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "coe:bleeding",
+      "required": false
+    },
+    {
+      "id": "coe:poison",
+      "required": false
+    }
+  ]
+}

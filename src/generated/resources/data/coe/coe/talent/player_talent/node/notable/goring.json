@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_health",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_health_leech",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifeleech",
+    "id": "47316",
+    "links": [
+      "2888",
+      "9583"
+    ],
+    "x": -5056.08,
+    "y": 10515.4
+  }
+]

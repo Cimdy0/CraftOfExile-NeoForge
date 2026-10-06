@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:archon_recovery_rate",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "archon"
+  }
+}

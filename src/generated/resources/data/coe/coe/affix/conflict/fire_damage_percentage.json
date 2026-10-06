@@ -1,0 +1,8 @@
+{
+  "members": [
+    "coe:attack_elemental_damage_inc",
+    "coe:fire_damage_inc",
+    "coe:weapon_elemental_damage_percent"
+  ],
+  "slot": {}
+}

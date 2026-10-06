@@ -1,0 +1,9 @@
+{
+  "coe:item_template": {
+    "extend": "coe:armor",
+    "reqs": {
+      "dex": "dexterity",
+      "l": "level"
+    }
+  }
+}

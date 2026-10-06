@@ -1,0 +1,7 @@
+{
+  "convert": {
+    "physical": 1,
+    "replace": false
+  },
+  "tag": "neoforge:is_physical"
+}

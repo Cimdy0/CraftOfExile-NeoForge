@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_create_an_additional_remnant",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:remnants_can_be_collected_from_further_away",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnantnotable",
+    "id": "1506",
+    "links": [
+      "60324",
+      "60974"
+    ],
+    "x": 4272.59,
+    "y": -8369.6
+  }
+]

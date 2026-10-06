@@ -1,0 +1,8 @@
+{
+  "type": "heal",
+  "resource": "mana",
+  "tags": [
+    "collect_remnant",
+    "remnant"
+  ]
+}

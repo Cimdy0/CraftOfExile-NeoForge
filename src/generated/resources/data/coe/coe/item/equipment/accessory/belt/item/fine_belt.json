@@ -1,0 +1,8 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:accessory/belt/template/none",
+    "reqs": {
+      "l": 62.0
+    }
+  }
+}

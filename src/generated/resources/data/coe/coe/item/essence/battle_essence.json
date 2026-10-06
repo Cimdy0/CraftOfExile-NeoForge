@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "one_hand, !wand, !staff, !sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_accuracy"
+          },
+          "max": 109.0,
+          "min": 81.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_accuracy"
+          },
+          "max": 167.0,
+          "min": 124.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_accuracy"
+          },
+          "max": 346.0,
+          "min": 237.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_accuracy"
+          },
+          "max": 346.0,
+          "min": 237.0,
+          "tier": "perfect"
+        }
+      ],
+      "two_hand~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_accuracy"
+          },
+          "max": 109.0,
+          "min": 81.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_accuracy"
+          },
+          "max": 167.0,
+          "min": 124.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_accuracy"
+          },
+          "max": 346.0,
+          "min": 237.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_accuracy"
+          },
+          "max": 346.0,
+          "min": 237.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

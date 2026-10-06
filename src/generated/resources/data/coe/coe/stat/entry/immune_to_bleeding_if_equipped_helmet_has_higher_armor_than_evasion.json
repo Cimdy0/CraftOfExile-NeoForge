@@ -1,0 +1,27 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "equipment",
+      "output": "armor",
+      "slots": [
+        "head"
+      ]
+    },
+    "operator": ">",
+    "right": {
+      "type": "equipment",
+      "output": "evasion",
+      "slots": [
+        "head"
+      ]
+    }
+  },
+  "effect": "coe:stat/effect/inline_immune_548",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

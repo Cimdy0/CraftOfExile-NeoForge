@@ -1,0 +1,18 @@
+{
+  "type": "attribute",
+  "attribute": "coe:resistances",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "resistance"
+      },
+      {
+        "tag": "minion"
+      },
+      {
+        "tag": "elemental"
+      }
+    ]
+  }
+}

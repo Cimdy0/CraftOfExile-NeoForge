@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:charms_gain_charges_per_second",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnotable1",
+    "id": "12750",
+    "links": [
+      "48135"
+    ],
+    "x": 3112.88,
+    "y": 7857.0
+  }
+]

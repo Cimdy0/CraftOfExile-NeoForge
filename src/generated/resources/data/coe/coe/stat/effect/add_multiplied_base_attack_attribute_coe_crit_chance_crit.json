@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:crit_chance",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "crit"
+      },
+      {
+        "tag": "attack"
+      }
+    ]
+  }
+}

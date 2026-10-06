@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_used",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "16329",
+    "links": [
+      "39607",
+      "62542"
+    ],
+    "x": 8257.22,
+    "y": -4239.24
+  }
+]

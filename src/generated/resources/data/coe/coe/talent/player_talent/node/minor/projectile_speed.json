@@ -1,0 +1,144 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "33713",
+    "links": [
+      "26107",
+      "57462"
+    ],
+    "x": 7710.0,
+    "y": -3135.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "33848",
+    "links": [
+      "14045",
+      "47677"
+    ],
+    "x": 3744.91,
+    "y": 4819.86
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectiledmgnode",
+    "id": "38313",
+    "links": [
+      "55308"
+    ],
+    "x": -5227.91,
+    "y": -2483.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "47677",
+    "links": [
+      "33848",
+      "9472"
+    ],
+    "x": 3974.8,
+    "y": 4758.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "57462",
+    "links": [
+      "12078",
+      "33713"
+    ],
+    "x": 7545.8,
+    "y": -3091.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeedbow",
+    "id": "58416",
+    "links": [
+      "30132"
+    ],
+    "x": 7706.83,
+    "y": 1641.5
+  }
+]

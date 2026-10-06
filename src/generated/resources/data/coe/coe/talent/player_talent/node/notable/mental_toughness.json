@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_cost_efficiency_while_on_low_mana",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mana",
+    "id": "24120",
+    "links": [
+      "34717",
+      "52053"
+    ],
+    "x": 7386.63,
+    "y": -380.495
+  }
+]

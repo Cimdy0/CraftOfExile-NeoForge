@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_quarterstaves",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagestaff",
+    "id": "31449",
+    "links": [
+      "326",
+      "9444"
+    ],
+    "x": 10463.3,
+    "y": -2898.28
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_quarterstaves",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagestaff",
+    "id": "326",
+    "links": [
+      "2113",
+      "31449"
+    ],
+    "x": 10504.0,
+    "y": -3050.26
+  }
+]

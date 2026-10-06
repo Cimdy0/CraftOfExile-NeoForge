@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_per_chance_to_block",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "45599",
+    "links": [
+      "32885",
+      "6689"
+    ],
+    "x": -1349.52,
+    "y": 5222.79
+  }
+]

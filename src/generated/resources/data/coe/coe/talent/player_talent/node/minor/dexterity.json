@@ -1,0 +1,269 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividstag",
+    "id": "14769",
+    "links": [
+      "34623",
+      "40471"
+    ],
+    "x": 9644.04,
+    "y": 228.555
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "19338",
+    "links": [
+      "58397",
+      "60"
+    ],
+    "x": 8692.14,
+    "y": 819.215
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "2334",
+    "links": [
+      "3209",
+      "58397",
+      "65091"
+    ],
+    "x": 9027.14,
+    "y": 1153.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "24070",
+    "links": [
+      "35696",
+      "58397"
+    ],
+    "x": 8357.14,
+    "y": 1153.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "31647",
+    "links": [
+      "23305",
+      "58397"
+    ],
+    "x": 8692.14,
+    "y": 1487.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "3744",
+    "links": [
+      "472",
+      "5332"
+    ],
+    "x": 553.431,
+    "y": 11187.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "38776",
+    "links": [
+      "32976",
+      "57816"
+    ],
+    "x": -560.831,
+    "y": 11190.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividstag",
+    "id": "40471",
+    "links": [
+      "14769",
+      "19027",
+      "7847"
+    ],
+    "x": 9644.04,
+    "y": 478.555
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "472",
+    "links": [
+      "34813",
+      "3744"
+    ],
+    "x": 407.939,
+    "y": 11103.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividwolf",
+    "id": "49485",
+    "links": [
+      "12174",
+      "42118",
+      "49107"
+    ],
+    "x": 8389.74,
+    "y": 2712.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "57816",
+    "links": [
+      "364",
+      "38776"
+    ],
+    "x": -415.339,
+    "y": 11106.6
+  }
+]

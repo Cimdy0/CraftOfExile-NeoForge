@@ -1,0 +1,7 @@
+{
+  "convert": {
+    "light": 1,
+    "replace": false
+  },
+  "tag": "minecraft:is_lightning"
+}

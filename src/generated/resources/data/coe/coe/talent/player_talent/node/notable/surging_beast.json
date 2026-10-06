@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_arcane_surge_when_you_shapeshift_to_human_form_after_being_shapeshifted_for_at_least_seconds",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnotable",
+    "id": "29881",
+    "links": [
+      "63402"
+    ],
+    "x": -5376.64,
+    "y": -3509.7
+  }
+]

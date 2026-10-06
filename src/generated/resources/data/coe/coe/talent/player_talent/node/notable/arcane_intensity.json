@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_per_max_mana",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mana",
+    "id": "19044",
+    "links": [
+      "4828"
+    ],
+    "x": 2922.78,
+    "y": -10055.7
+  }
+]

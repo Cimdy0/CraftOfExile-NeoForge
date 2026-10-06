@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 12.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "42077",
+    "links": [
+      "49235",
+      "56564"
+    ],
+    "x": -1279.86,
+    "y": -4132.44
+  }
+]

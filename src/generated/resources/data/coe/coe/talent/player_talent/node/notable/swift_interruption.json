@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_if_you_ve_successfully_parried_recently",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_if_you_ve_successfully_parried_recently",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklersnotable1",
+    "id": "65265",
+    "links": [
+      "17146",
+      "31366",
+      "3843"
+    ],
+    "x": 8122.32,
+    "y": 3085.39
+  }
+]

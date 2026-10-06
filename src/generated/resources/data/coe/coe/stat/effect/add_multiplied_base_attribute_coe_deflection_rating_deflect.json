@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:deflection_rating",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "deflect"
+  }
+}

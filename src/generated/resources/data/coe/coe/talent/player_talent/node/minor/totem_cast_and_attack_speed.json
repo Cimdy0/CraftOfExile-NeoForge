@@ -1,0 +1,94 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spells_cast_by_totems_have_inc_cast_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_used_by_totems_have_inc_attack_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "10534",
+    "links": [
+      "41615",
+      "46205"
+    ],
+    "x": -5503.44,
+    "y": -663.483
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spells_cast_by_totems_have_inc_cast_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_used_by_totems_have_inc_attack_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "33209",
+    "links": [
+      "19249",
+      "46205"
+    ],
+    "x": -5500.69,
+    "y": -1002.04
+  },
+  {
+    "icon": "passives_totemandbrandlife",
+    "id": "33423",
+    "links": [
+      "27096",
+      "65192"
+    ],
+    "x": -10640.4,
+    "y": -6144.89
+  },
+  {
+    "icon": "passives_totemandbrandlife",
+    "id": "65192",
+    "links": [
+      "33423",
+      "63170"
+    ],
+    "x": -10489.2,
+    "y": -6063.76
+  }
+]

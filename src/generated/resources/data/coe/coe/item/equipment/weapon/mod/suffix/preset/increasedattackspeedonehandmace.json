@@ -1,0 +1,114 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:attack_speed_inc"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "of_skill",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 5.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 11,
+          "name": "of_ease",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 10.0,
+              "min": 8.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 22,
+          "name": "of_mastery",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 13.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 30,
+          "name": "of_renown",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 16.0,
+              "min": 14.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 37,
+          "name": "of_acclaim",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 19.0,
+              "min": 17.0
+            }
+          },
+          "weight": 500
+        },
+        {
+          "level": 45,
+          "name": "of_fame",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 22.0,
+              "min": 20.0
+            }
+          },
+          "weight": 500
+        },
+        {
+          "level": 60,
+          "name": "of_infamy",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 25.0,
+              "min": 23.0
+            }
+          },
+          "weight": 200
+        },
+        {
+          "level": 77,
+          "name": "of_celebration",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 28.0,
+              "min": 26.0
+            }
+          },
+          "weight": 100
+        }
+      ]
+    },
+    "types": [
+      "coe:one_hand_mace",
+      "coe:quarterstaff",
+      "coe:spear",
+      "coe:talisman",
+      "coe:two_hand_mace"
+    ]
+  }
+}

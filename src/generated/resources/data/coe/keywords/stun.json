@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "Stun",
+    "Stunned",
+    "眩晕"
+  ],
+  "description": [
+    [
+      "$[stun]",
+      "会打断目标的行动。",
+      "$[stun]",
+      "蓄力会在眩晕阈值下进行累积。"
+    ],
+    [
+      "越重的命中累积越多",
+      "$[stun]",
+      "；",
+      "$[stun]",
+      "可被重眩晕等效果延长。"
+    ]
+  ],
+  "id": "stun",
+  "keys": [
+    "coe:keyword.stun"
+  ],
+  "title": "@coe:keyword.stun"
+}

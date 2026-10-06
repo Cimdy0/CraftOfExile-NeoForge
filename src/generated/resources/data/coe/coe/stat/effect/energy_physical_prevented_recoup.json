@@ -1,0 +1,10 @@
+{
+  "type": "recoup",
+  "basis": "prevented",
+  "from_type": {
+    "tag": "physical"
+  },
+  "resources": [
+    "energy"
+  ]
+}

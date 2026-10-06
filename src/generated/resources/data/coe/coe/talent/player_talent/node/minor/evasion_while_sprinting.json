@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_sprinting",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_movementspeedandevasion",
+    "id": "12800",
+    "links": [
+      "15814",
+      "8896"
+    ],
+    "x": 8433.06,
+    "y": 504.455
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_sprinting",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_movementspeedandevasion",
+    "id": "15814",
+    "links": [
+      "12800",
+      "24656"
+    ],
+    "x": 8660.79,
+    "y": 276.645
+  }
+]

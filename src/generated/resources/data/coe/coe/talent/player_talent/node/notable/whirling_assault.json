@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_quarterstaves",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:knocks_back_enemies_if_you_get_a_critical_hit_with_a_quarterstaff",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagestaff",
+    "id": "37514",
+    "links": [
+      "32442",
+      "4536",
+      "64700"
+    ],
+    "x": 10774.4,
+    "y": -3838.27
+  }
+]

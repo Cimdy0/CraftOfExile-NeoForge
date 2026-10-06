@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_critical_hit_chance",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "11376",
+    "links": [
+      "50720"
+    ],
+    "x": -144.949,
+    "y": -9938.76
+  }
+]

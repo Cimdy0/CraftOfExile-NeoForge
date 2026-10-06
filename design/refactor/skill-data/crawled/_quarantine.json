@@ -1,0 +1,83 @@
+{
+ "note": "信息性隔离清单；corpus_status 已写进 all_skills.json 主表，下游以 corpus_status 为准。",
+ "count": 11,
+ "items": [
+  {
+   "id": "blight",
+   "page": "Blight",
+   "status": "NO_AUTHORITATIVE_SOURCE",
+   "reason": "supporter_pack: /us/Blight 是赞助包页面，不是技能 → NO_AUTHORITATIVE_SOURCE",
+   "gem_type": "skill"
+  },
+  {
+   "id": "frost_nova",
+   "page": "Frost_Nova",
+   "status": "NO_AUTHORITATIVE_SOURCE",
+   "reason": "buff_page: 仅一句 buff 描述，无技能页 → NO_AUTHORITATIVE_SOURCE",
+   "gem_type": "skill"
+  },
+  {
+   "id": "cyclone",
+   "page": "Cyclone",
+   "status": "OK",
+   "reason": "translated: TW 无主描述，已直译（override）→ OK",
+   "gem_type": "skill"
+  },
+  {
+   "id": "lacerate",
+   "page": "Lacerate",
+   "status": "OK",
+   "reason": "no_level_table: 无等级数据 → DESC_MISSING",
+   "gem_type": "skill"
+  },
+  {
+   "id": "puncture",
+   "page": "Puncture",
+   "status": "OK",
+   "reason": "truncated_levels: 仅 3 级 → DESC_MISSING",
+   "gem_type": "skill"
+  },
+  {
+   "id": "toxic_rain",
+   "page": "Toxic_Rain",
+   "status": "OK",
+   "reason": "truncated_levels: 仅 1 级 → DESC_MISSING",
+   "gem_type": "skill"
+  },
+  {
+   "id": "consume_corpse",
+   "page": "Consume_Corpse",
+   "status": "OK",
+   "reason": "no_level_table: 无等级数据 → DESC_MISSING",
+   "gem_type": "skill"
+  },
+  {
+   "id": "ground_slam",
+   "page": "Ground_Slam",
+   "status": "OK",
+   "reason": "no_level_table: 无等级数据 → DESC_MISSING",
+   "gem_type": "skill"
+  },
+  {
+   "id": "perforate",
+   "page": "Perforate",
+   "status": "OK",
+   "reason": "translated: TW 旧版，已按新版直译（override）→ OK",
+   "gem_type": "skill"
+  },
+  {
+   "id": "wrath",
+   "page": "Wrath",
+   "status": "OK",
+   "reason": "empty_stub: 无 property / 无描述 → DESC_MISSING",
+   "gem_type": "spirit"
+  },
+  {
+   "id": "grace",
+   "page": "Grace",
+   "status": "OK",
+   "reason": "empty_stub: 无 property / 无描述 → DESC_MISSING",
+   "gem_type": "spirit"
+  }
+ ]
+}

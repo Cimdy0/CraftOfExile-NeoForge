@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ballista_critical_damage_bonus",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "56897",
+    "links": [
+      "57785"
+    ],
+    "x": 2207.55,
+    "y": 7848.28
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:herald_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "2211",
+    "links": [
+      "38398",
+      "7473"
+    ],
+    "x": -3663.71,
+    "y": 10946.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:herald_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "27859",
+    "links": [
+      "38694",
+      "38763",
+      "57190"
+    ],
+    "x": 1188.06,
+    "y": 8919.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_affected_by_a_herald",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "28835",
+    "links": [
+      "28044",
+      "43088",
+      "56847",
+      "60480",
+      "8157"
+    ],
+    "x": 10451.5,
+    "y": 3456.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:herald_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "38694",
+    "links": [
+      "22188",
+      "27859"
+    ],
+    "x": 1404.56,
+    "y": 8794.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_affected_by_a_herald",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "56847",
+    "links": [
+      "2582",
+      "28835"
+    ],
+    "x": 10326.5,
+    "y": 3239.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:herald_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "7473",
+    "links": [
+      "2211",
+      "64471"
+    ],
+    "x": -3486.93,
+    "y": 10769.2
+  }
+]

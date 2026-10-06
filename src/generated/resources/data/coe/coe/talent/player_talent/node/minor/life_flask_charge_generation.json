@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "26363",
+    "links": [
+      "49291",
+      "52803"
+    ],
+    "x": 6732.33,
+    "y": -819.642
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "49291",
+    "links": [
+      "26363",
+      "57945"
+    ],
+    "x": 6732.33,
+    "y": -450.288
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "57945",
+    "links": [
+      "14658",
+      "49291",
+      "7412"
+    ],
+    "x": 6555.55,
+    "y": -377.065
+  }
+]

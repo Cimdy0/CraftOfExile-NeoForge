@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_if_you_ve_been_hit_recently",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_slowing_potency_of_debuffs_on_you",
+            "vars": {
+              "value": -0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "10774",
+    "links": [
+      "35863",
+      "59367"
+    ],
+    "x": -4801.92,
+    "y": 7670.96
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailments_ailment_application_if_you_have_shapeshifted_to_an_animal_form_recently",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnotable",
+    "id": "35417",
+    "links": [
+      "16506",
+      "28770"
+    ],
+    "x": -5971.84,
+    "y": -2042.77
+  }
+]

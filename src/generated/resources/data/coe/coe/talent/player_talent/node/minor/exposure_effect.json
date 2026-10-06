@@ -1,0 +1,102 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_exposure_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "25101",
+    "links": [
+      "22439",
+      "44498",
+      "52199",
+      "56409"
+    ],
+    "x": -323.552,
+    "y": -8804.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_exposure_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "44498",
+    "links": [
+      "22439",
+      "25101",
+      "38068",
+      "52199"
+    ],
+    "x": -902.057,
+    "y": -8804.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_exposure_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "49804",
+    "links": [
+      "24035",
+      "6950"
+    ],
+    "x": 1423.67,
+    "y": -5688.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_exposure_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "6950",
+    "links": [
+      "33922",
+      "49804"
+    ],
+    "x": 1587.67,
+    "y": -5688.38
+  }
+]

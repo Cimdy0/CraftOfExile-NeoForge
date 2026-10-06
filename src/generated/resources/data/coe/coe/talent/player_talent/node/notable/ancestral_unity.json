@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_used_by_totems_have_inc_attack_speed_per_summoned_totem",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "62609",
+    "links": [
+      "16051",
+      "24259"
+    ],
+    "x": -5960.4,
+    "y": 7289.19
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_infusion",
+  "operation": "add_value"
+}

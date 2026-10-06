@@ -1,0 +1,693 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "1040",
+    "links": [
+      "19936",
+      "21568"
+    ],
+    "x": -6981.11,
+    "y": -4477.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "11433",
+    "links": [
+      "24630",
+      "42390",
+      "44753"
+    ],
+    "x": -10615.2,
+    "y": 2801.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "13326",
+    "links": [
+      "2617",
+      "55188"
+    ],
+    "x": -10676.8,
+    "y": 493.755
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "19936",
+    "links": [
+      "1040",
+      "290"
+    ],
+    "x": -7152.71,
+    "y": -4265.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "23091",
+    "links": [
+      "39515",
+      "45885",
+      "63021"
+    ],
+    "x": -1051.9,
+    "y": -11238.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "23450",
+    "links": [
+      "39515",
+      "558"
+    ],
+    "x": -884.895,
+    "y": -11527.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamage",
+    "id": "25763",
+    "links": [
+      "61170",
+      "62963"
+    ],
+    "x": -1731.48,
+    "y": -9825.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "2617",
+    "links": [
+      "1200",
+      "13326"
+    ],
+    "x": -10463.6,
+    "y": 671.215
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "290",
+    "links": [
+      "19936",
+      "37619"
+    ],
+    "x": -6781.38,
+    "y": -4090.54
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "32845",
+    "links": [
+      "28982",
+      "31746",
+      "64819"
+    ],
+    "x": -11338.9,
+    "y": -1393.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "33397",
+    "links": [
+      "38292",
+      "39594",
+      "53294"
+    ],
+    "x": -3614.38,
+    "y": 205.579
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "3601",
+    "links": [
+      "24430",
+      "47191"
+    ],
+    "x": -7624.97,
+    "y": -684.785
+  },
+  {
+    "icon": "passives_firedamagenode",
+    "id": "37694",
+    "links": [
+      "12940",
+      "25570"
+    ],
+    "x": -3781.3,
+    "y": -11534.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "38696",
+    "links": [
+      "54868",
+      "9884"
+    ],
+    "x": -5557.42,
+    "y": -9213.68
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "39515",
+    "links": [
+      "23091",
+      "23450"
+    ],
+    "x": -929.643,
+    "y": -11360.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "47191",
+    "links": [
+      "3601",
+      "8554"
+    ],
+    "x": -7709.71,
+    "y": -538.011
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamage",
+    "id": "50228",
+    "links": [
+      "20511",
+      "25014"
+    ],
+    "x": -7822.53,
+    "y": -3363.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "51248",
+    "links": [
+      "38292",
+      "39594",
+      "6015"
+    ],
+    "x": -3382.45,
+    "y": 437.511
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "52746",
+    "links": [
+      "54148",
+      "64471",
+      "9796"
+    ],
+    "x": -3408.23,
+    "y": 10080.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "53632",
+    "links": [
+      "28482",
+      "51795"
+    ],
+    "x": -5624.39,
+    "y": -3972.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamage",
+    "id": "53804",
+    "links": [
+      "20511",
+      "56112"
+    ],
+    "x": -8412.16,
+    "y": -3408.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "54868",
+    "links": [
+      "14265",
+      "38696"
+    ],
+    "x": -5431.5,
+    "y": -9013.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "55188",
+    "links": [
+      "13326",
+      "52669"
+    ],
+    "x": -10390.8,
+    "y": 399.025
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "558",
+    "links": [
+      "11366",
+      "23450"
+    ],
+    "x": -929.643,
+    "y": -11694.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamage",
+    "id": "61170",
+    "links": [
+      "25763",
+      "27186",
+      "45497"
+    ],
+    "x": -1649.48,
+    "y": -9989.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "63021",
+    "links": [
+      "23091",
+      "39228",
+      "46300"
+    ],
+    "x": -1385.9,
+    "y": -11238.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "6752",
+    "links": [
+      "29148",
+      "7378",
+      "968"
+    ],
+    "x": -2836.89,
+    "y": -7430.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "7378",
+    "links": [
+      "65016",
+      "6752"
+    ],
+    "x": -3039.7,
+    "y": -7275.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "9884",
+    "links": [
+      "23382",
+      "38696"
+    ],
+    "x": -5779.01,
+    "y": -8993.83
+  }
+]

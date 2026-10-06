@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:shapeshift_skills_have_inc_skill_effect_duration",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnotable",
+    "id": "56890",
+    "links": [
+      "28489"
+    ],
+    "x": -8391.24,
+    "y": -8464.78
+  }
+]

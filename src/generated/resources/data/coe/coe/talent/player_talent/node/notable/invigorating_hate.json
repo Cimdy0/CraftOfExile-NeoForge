@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:consume_all_rage_when_shapeshifting_to_human_form_to_recover_of_max_health_per_rage_consumed",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "28408",
+    "links": [
+      "13845",
+      "21413"
+    ],
+    "x": -8943.24,
+    "y": -835.177
+  }
+]

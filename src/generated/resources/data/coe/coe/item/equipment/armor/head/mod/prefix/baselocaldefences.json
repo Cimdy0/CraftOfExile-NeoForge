@@ -1,0 +1,477 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_armor_local"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "lacquered",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 16.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 1,
+        "name": "supple",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 9.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 1,
+        "name": "blessed",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 9.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 1,
+        "name": "agile",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 18.0,
+            "min": 11.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 1,
+        "name": "will_o_wisp_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 10.0,
+            "min": 6.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 1,
+        "name": "shining",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 17.0,
+            "min": 10.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 8,
+        "name": "studded",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 56.0,
+            "min": 28.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 8,
+        "name": "dancer_s",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 19.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 8,
+        "name": "glimmering",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 18.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "ribbed",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 77.0,
+            "min": 57.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "pliant",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 17.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "anointed",
+        "tier": 12,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 17.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "acrobat_s",
+        "tier": 13,
+        "values": {
+          "value": {
+            "max": 66.0,
+            "min": 47.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "nymph_s",
+        "tier": 14,
+        "values": {
+          "value": {
+            "max": 41.0,
+            "min": 11.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "glittering",
+        "tier": 15,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "fortified",
+        "tier": 16,
+        "values": {
+          "value": {
+            "max": 98.0,
+            "min": 78.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "fleet",
+        "tier": 17,
+        "values": {
+          "value": {
+            "max": 87.0,
+            "min": 67.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "glowing",
+        "tier": 18,
+        "values": {
+          "value": {
+            "max": 35.0,
+            "min": 31.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "plated",
+        "tier": 19,
+        "values": {
+          "value": {
+            "max": 127.0,
+            "min": 99.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "flexible",
+        "tier": 20,
+        "values": {
+          "value": {
+            "max": 71.0,
+            "min": 47.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "sanctified",
+        "tier": 21,
+        "values": {
+          "value": {
+            "max": 71.0,
+            "min": 47.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "blurred",
+        "tier": 22,
+        "values": {
+          "value": {
+            "max": 116.0,
+            "min": 88.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "sylph_s",
+        "tier": 23,
+        "values": {
+          "value": {
+            "max": 64.0,
+            "min": 42.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "radiating",
+        "tier": 24,
+        "values": {
+          "value": {
+            "max": 41.0,
+            "min": 36.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "carapaced",
+        "tier": 25,
+        "values": {
+          "value": {
+            "max": 159.0,
+            "min": 128.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "durable",
+        "tier": 26,
+        "values": {
+          "value": {
+            "max": 85.0,
+            "min": 72.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "hallowed",
+        "tier": 27,
+        "values": {
+          "value": {
+            "max": 85.0,
+            "min": 72.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "phased",
+        "tier": 28,
+        "values": {
+          "value": {
+            "max": 146.0,
+            "min": 117.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "cherub_s",
+        "tier": 29,
+        "values": {
+          "value": {
+            "max": 78.0,
+            "min": 65.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "pulsing",
+        "tier": 30,
+        "values": {
+          "value": {
+            "max": 47.0,
+            "min": 42.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "encased",
+        "tier": 31,
+        "values": {
+          "value": {
+            "max": 190.0,
+            "min": 160.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "sturdy",
+        "tier": 32,
+        "values": {
+          "value": {
+            "max": 102.0,
+            "min": 86.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "beatified",
+        "tier": 33,
+        "values": {
+          "value": {
+            "max": 102.0,
+            "min": 86.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "vaporous",
+        "tier": 34,
+        "values": {
+          "value": {
+            "max": 176.0,
+            "min": 147.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "spirit_s",
+        "tier": 35,
+        "values": {
+          "value": {
+            "max": 94.0,
+            "min": 79.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "blazing",
+        "tier": 36,
+        "values": {
+          "value": {
+            "max": 60.0,
+            "min": 48.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "enveloped",
+        "tier": 37,
+        "values": {
+          "value": {
+            "max": 221.0,
+            "min": 191.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "elusory",
+        "tier": 38,
+        "values": {
+          "value": {
+            "max": 207.0,
+            "min": 177.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "dazzling",
+        "tier": 39,
+        "values": {
+          "value": {
+            "max": 73.0,
+            "min": 61.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_if_you_have_stunned_an_enemy_recently",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "7542",
+    "links": [
+      "28516",
+      "36737"
+    ],
+    "x": -7443.51,
+    "y": -2242.61
+  }
+]

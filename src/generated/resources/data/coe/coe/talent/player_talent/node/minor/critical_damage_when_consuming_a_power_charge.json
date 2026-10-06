@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "30615",
+    "links": [
+      "3336",
+      "65204"
+    ],
+    "x": 9287.51,
+    "y": -4857.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "3336",
+    "links": [
+      "30615",
+      "36231"
+    ],
+    "x": 9171.54,
+    "y": -5057.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "36231",
+    "links": [
+      "31765",
+      "3336"
+    ],
+    "x": 9372.4,
+    "y": -5173.91
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_cost_efficiency_of_command_skills",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:max_stacks_of_puppet_master",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernoteble",
+    "id": "62210",
+    "links": [
+      "53795"
+    ],
+    "x": -4205.88,
+    "y": -8832.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpassing_chance_to_gain_a_puppet_master_stack_whenever_you_use_a_command_skill",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernoteble",
+    "id": "14258",
+    "links": [
+      "13123",
+      "7104"
+    ],
+    "x": 941.901,
+    "y": -8923.15
+  }
+]

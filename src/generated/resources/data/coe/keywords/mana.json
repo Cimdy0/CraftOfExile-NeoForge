@@ -1,0 +1,21 @@
+{
+  "aliases": [
+    "Mana",
+    "魔力"
+  ],
+  "description": [
+    [
+      "$[mana]",
+      "用于施放",
+      "$[skill]",
+      "，并可通过",
+      "$[leech]",
+      "与再生来恢复。"
+    ]
+  ],
+  "id": "mana",
+  "keys": [
+    "coe:keyword.mana"
+  ],
+  "title": "@coe:keyword.mana"
+}

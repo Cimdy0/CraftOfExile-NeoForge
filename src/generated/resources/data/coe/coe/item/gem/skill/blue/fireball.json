@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_fireball",
+  "vars": {
+    "tier": 3.0
+  }
+}

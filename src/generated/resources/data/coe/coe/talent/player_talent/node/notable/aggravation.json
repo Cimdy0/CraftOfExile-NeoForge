@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_aggravate_bleeding_on_targets_you_hit_damage_with_attacks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "6655",
+    "links": [
+      "35015",
+      "40336"
+    ],
+    "x": -1692.62,
+    "y": 9062.14
+  }
+]

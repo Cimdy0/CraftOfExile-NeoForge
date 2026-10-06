@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_to_all_elemental_resistances",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_to_all_max_elemental_resistances",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "61026",
+    "links": [
+      "17378",
+      "41991"
+    ],
+    "x": -4261.32,
+    "y": -6225.9
+  }
+]

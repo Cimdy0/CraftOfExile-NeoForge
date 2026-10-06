@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_health_per_enemy_killed",
+            "vars": {
+              "value": 20.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_recover_all_health_when_you_kill_an_enemy",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hiredkiller2",
+    "id": "40213",
+    "links": [
+      "55846"
+    ],
+    "x": 3682.03,
+    "y": -553.869
+  }
+]

@@ -1,0 +1,958 @@
+{
+  "_meta": {
+    "purpose": "all_skills.json 的字段字典：类型 / 含义 / 实测非空率 / 示例 / 是否参与运行时",
+    "entry_count": 1059,
+    "measured_at": "2026-09-20T20:56:44.049Z",
+    "non_null_rule": "空字符串、空数组、空对象、null、undefined 均计为「空」",
+    "runtime_role_values": {
+      "runtime": "该字段已进入（或可直接映射进） src/generated/resources/data/coe/coe 的运行时产物",
+      "partial": "语义相关但尚未确认接线",
+      "reference_only": "当前仅作真值参考/溯源，无对应运行时产物键"
+    },
+    "runtime_evidence_method": "对每个候选键统计其在 src/generated/resources/data/coe/coe/item/gem/** 与 item/gem/**/preset_*.json 中的出现次数得出；结论为「当前快照」结论，随 datagen 改动会失效",
+    "caveat": "runtime_role 由「运行时产物键并集」反推，不是对 data/gen/gem/GemGen.java 的静态读取结论（该文件处于并发编辑中，本次未触碰）。作者如需最终裁定，请在该并发任务收口后重跑一次本列。"
+  },
+  "fields": {
+    "id": {
+      "type": "string",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "权威 slug（snake_case），源自 poe2db /us/<Page>；tier 变体带 _i/_ii/_iii 后缀",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "boneshatter",
+      "runtime_role": "runtime",
+      "runtime_evidence": "item/gem/<type>/<color>/<id>.json 的资源路径与 preset ref（coe:preset_<id>）由此派生"
+    },
+    "id_coe": {
+      "type": "string",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "本地 CoE preset 资源名的推断值（coe:preset_<id_coe>），由 id 派生",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "preset_boneshatter",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem json 的 ref 键实测为该形状；但本字段由爬取侧派生，非 poe2db 原值"
+    },
+    "name_en": {
+      "type": "string",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "英文显示名",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "Boneshatter",
+      "runtime_role": "runtime",
+      "runtime_evidence": "lang 键值源（item/gem/** 的显示名最终由 lang 提供者消费）"
+    },
+    "name_zh": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "繁体中文名（poe2db.tw/tw 源）",
+      "non_null_count": 793,
+      "non_null_rate": 74.9,
+      "non_null_rate_pct": "74.9%",
+      "non_null_rate_by_gem_type": {
+        "skill": 44.5,
+        "support": 95.4,
+        "spirit": 60
+      },
+      "example": "碎骨",
+      "runtime_role": "runtime",
+      "runtime_evidence": "lang 键值源；简体转换见 zh_cn_names.json"
+    },
+    "gem_type": {
+      "type": "enum",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "skill | support | spirit",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "skill",
+      "runtime_role": "runtime",
+      "runtime_evidence": "决定 item/gem/<type>/<color>/ 目录与该 gem 的行为类型"
+    },
+    "gem_color": {
+      "type": "enum",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "red | green | blue",
+      "non_null_count": 795,
+      "non_null_rate": 75.1,
+      "non_null_rate_pct": "75.1%",
+      "non_null_rate_by_gem_type": {
+        "skill": 44.5,
+        "support": 95.6,
+        "spirit": 61.8
+      },
+      "example": "red",
+      "runtime_role": "runtime",
+      "runtime_evidence": "决定 item/gem/<type>/<color>/ 子目录"
+    },
+    "tags": {
+      "type": "string[]",
+      "observed_types": [
+        "string[]"
+      ],
+      "meaning": "poe2db 索引页显示标签（UI 向）",
+      "non_null_count": 1048,
+      "non_null_rate": 99,
+      "non_null_rate_pct": "99%",
+      "non_null_rate_by_gem_type": {
+        "skill": 97.7,
+        "support": 100,
+        "spirit": 96.4
+      },
+      "example": [
+        "Attack",
+        "AoE",
+        "Melee",
+        "Strike"
+      ],
+      "runtime_role": "runtime",
+      "runtime_evidence": "generated 产物含 tags 键（gem item 129 个文件、preset 含 tags）"
+    },
+    "category_tags": {
+      "type": "string[]",
+      "observed_types": [
+        "string[]"
+      ],
+      "meaning": "索引页 data-filters 原值 = tags + 自身英文名；含去重前的页面噪音",
+      "non_null_count": 962,
+      "non_null_rate": 90.8,
+      "non_null_rate_pct": "90.8%",
+      "non_null_rate_by_gem_type": {
+        "skill": 90.5,
+        "support": 90.6,
+        "spirit": 96.4
+      },
+      "example": [
+        "Attack",
+        "AoE",
+        "Melee",
+        "Strike",
+        "Boneshatter"
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem_dir 中无 category_tags 键"
+    },
+    "type_tags": {
+      "type": "string[]",
+      "observed_types": [
+        "string[]"
+      ],
+      "meaning": "详情页 Skill Type/Category 段，比 tags 更贴近内部机制（如 MeleeSingleTarget、Totemable）",
+      "non_null_count": 444,
+      "non_null_rate": 41.9,
+      "non_null_rate_pct": "41.9%",
+      "non_null_rate_by_gem_type": {
+        "skill": 99.5,
+        "support": 0.3,
+        "spirit": 100
+      },
+      "example": [
+        "Attack",
+        "MeleeSingleTarget",
+        "Melee",
+        "Area",
+        "Totemable"
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 type_tags 键；仅作机制族归类的输入候选，是否接线待作者裁定"
+    },
+    "description_en": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "英文技能描述",
+      "non_null_count": 1056,
+      "non_null_rate": 99.7,
+      "non_null_rate_pct": "99.7%",
+      "non_null_rate_by_gem_type": {
+        "skill": 99.7,
+        "support": 99.7,
+        "spirit": 100
+      },
+      "example": "Attack enemies with a melee Strike. The Strike will cause a Heavy Stun on enemies that are Primed for Stun. Upon causing a Heavy Stun it will also create a Shoc…",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 description 键"
+    },
+    "description_zh": {
+      "type": "null",
+      "observed_types": [],
+      "meaning": "中文技能描述 —— 未抓取（已知缺口 1）",
+      "non_null_count": 0,
+      "non_null_rate": 0,
+      "non_null_rate_pct": "0%",
+      "non_null_rate_by_gem_type": {
+        "skill": 0,
+        "support": 0,
+        "spirit": 0
+      },
+      "example": null,
+      "runtime_role": "reference_only",
+      "runtime_evidence": "全表恒 null"
+    },
+    "level_range": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "等级区间文本，形如 (1-20)",
+      "non_null_count": 432,
+      "non_null_rate": 40.8,
+      "non_null_rate_pct": "40.8%",
+      "non_null_rate_by_gem_type": {
+        "skill": 97.2,
+        "support": 0.2,
+        "spirit": 96.4
+      },
+      "example": "(1-20)",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无同名键；等价于 max_level 的展示形式"
+    },
+    "cost": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "消耗（通常为 Mana）页码文本；辅助宝石页不提供",
+      "non_null_count": 326,
+      "non_null_rate": 30.8,
+      "non_null_rate_pct": "30.8%",
+      "non_null_rate_by_gem_type": {
+        "skill": 77.1,
+        "support": 0.8,
+        "spirit": 38.2
+      },
+      "example": "150",
+      "runtime_role": "runtime",
+      "runtime_evidence": "preset 产物含 cost 键"
+    },
+    "cast_time": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "施法时间文本；辅助宝石页不提供",
+      "non_null_count": 121,
+      "non_null_rate": 11.4,
+      "non_null_rate_pct": "11.4%",
+      "non_null_rate_by_gem_type": {
+        "skill": 30.1,
+        "support": 0.2,
+        "spirit": 5.5
+      },
+      "example": "0.70 sec",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 cast_time 键（preset 的 cast 键为另一概念）"
+    },
+    "crit_chance": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "基础暴击率文本；辅助宝石页不提供",
+      "non_null_count": 101,
+      "non_null_rate": 9.5,
+      "non_null_rate_pct": "9.5%",
+      "non_null_rate_by_gem_type": {
+        "skill": 23.1,
+        "support": 1.1,
+        "spirit": 7.3
+      },
+      "example": "5.00%",
+      "runtime_role": "partial",
+      "runtime_evidence": "preset action 实测含 can_crit 数值，但未出现 crit_chance 键；是否由本字段驱动待确认"
+    },
+    "attack_speed": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "攻击速度修正文本，形如 60% of base",
+      "non_null_count": 81,
+      "non_null_rate": 7.6,
+      "non_null_rate_pct": "7.6%",
+      "non_null_rate_by_gem_type": {
+        "skill": 20.8,
+        "support": 0,
+        "spirit": 0
+      },
+      "example": "60% of base",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 attack_speed 键"
+    },
+    "requirements": {
+      "type": "string",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "需求文本，形如 Level (1-90), (4-157) Str",
+      "non_null_count": 1042,
+      "non_null_rate": 98.4,
+      "non_null_rate_pct": "98.4%",
+      "non_null_rate_by_gem_type": {
+        "skill": 97.9,
+        "support": 98.9,
+        "spirit": 96.4
+      },
+      "example": "Level (1-90), (4-157) Str",
+      "runtime_role": "runtime",
+      "runtime_evidence": "preset 产物含 require 键（level / intelligence 等）"
+    },
+    "req_level_range": {
+      "type": "string",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "等级需求区间 min-max",
+      "non_null_count": 508,
+      "non_null_rate": 48,
+      "non_null_rate_pct": "48%",
+      "non_null_rate_by_gem_type": {
+        "skill": 96.1,
+        "support": 13.2,
+        "spirit": 96.4
+      },
+      "example": "1-90",
+      "runtime_role": "runtime",
+      "runtime_evidence": "preset require.level 的 per_level 表达式来源数据"
+    },
+    "req_attr": {
+      "type": "object|null",
+      "observed_types": [
+        "object"
+      ],
+      "meaning": "{range, attr} 属性需求；attr ∈ Str|Dex|Int",
+      "non_null_count": 296,
+      "non_null_rate": 28,
+      "non_null_rate_pct": "28%",
+      "non_null_rate_by_gem_type": {
+        "skill": 62.7,
+        "support": 0,
+        "spirit": 94.5
+      },
+      "example": {
+        "range": "4-157",
+        "attr": "Str"
+      },
+      "runtime_role": "runtime",
+      "runtime_evidence": "preset require.<attr> 的来源数据"
+    },
+    "quality_bonus": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "品质加成文案，形如 (0-20)% increased Attack Speed",
+      "non_null_count": 395,
+      "non_null_rate": 37.3,
+      "non_null_rate_pct": "37.3%",
+      "non_null_rate_by_gem_type": {
+        "skill": 87.7,
+        "support": 0.2,
+        "spirit": 96.4
+      },
+      "example": "(0-20)% increased Attack Speed | (0-20)% increased Attack Speed",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "实测：generated gem dir 中 quality 出现 0 次 —— 本模组品质完全未接线"
+    },
+    "quality_range": {
+      "type": "number[]|null",
+      "observed_types": [
+        "number[]"
+      ],
+      "meaning": "品质区间 [min, max]",
+      "non_null_count": 259,
+      "non_null_rate": 24.5,
+      "non_null_rate_pct": "24.5%",
+      "non_null_rate_by_gem_type": {
+        "skill": 57.6,
+        "support": 0.2,
+        "spirit": 61.8
+      },
+      "example": [
+        0,
+        20
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 quality 相关键"
+    },
+    "implicits": {
+      "type": "string[]",
+      "observed_types": [
+        "string[]"
+      ],
+      "meaning": "详情页 Implicit 全部条目：含区间伤害、武器限制、隐藏 stat（形如 is area damage [1]）",
+      "non_null_count": 1048,
+      "non_null_rate": 99,
+      "non_null_rate_pct": "99%",
+      "non_null_rate_by_gem_type": {
+        "skill": 99,
+        "support": 99.2,
+        "spirit": 96.4
+      },
+      "example": [
+        "+0.2 metres to Melee Strike Range",
+        "While Dual Wielding, both weapons hit with 30% less damage",
+        "Cannot cause Stun buildup",
+        "Shockwave radius is 2 metres",
+        "50% more damage with Hits for Shockwaves originating from a Unique enemy",
+        "active skill show crush range [1]",
+        "…(+5)"
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 implicits 键；是 Zone 伤害/限制提取的输入，当前未结构化消费"
+    },
+    "stats": {
+      "type": "string[]",
+      "observed_types": [
+        "string[]"
+      ],
+      "meaning": "已展示 stat 子集（implicits 的非隐藏部分）",
+      "non_null_count": 1002,
+      "non_null_rate": 94.6,
+      "non_null_rate_pct": "94.6%",
+      "non_null_rate_by_gem_type": {
+        "skill": 86.4,
+        "support": 99.7,
+        "spirit": 96.4
+      },
+      "example": [
+        "+0.2 metres to Melee Strike Range",
+        "Cannot cause Stun buildup",
+        "While Dual Wielding, both weapons hit with 30% less damage"
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 stats 键"
+    },
+    "level_table": {
+      "type": "object|null",
+      "observed_types": [
+        "object"
+      ],
+      "meaning": "{headers, rows} 逐等级表；辅助宝石多为单行",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": {
+        "_truncated": true,
+        "keys": [
+          "headers",
+          "rows"
+        ]
+      },
+      "runtime_role": "runtime",
+      "runtime_evidence": "preset require/cost 的 coe:per_level_add_value(add/base/per) 三元组只能由本表拟合得出"
+    },
+    "max_level": {
+      "type": "number|null",
+      "observed_types": [
+        "number"
+      ],
+      "meaning": "最大等级",
+      "non_null_count": 1051,
+      "non_null_rate": 99.2,
+      "non_null_rate_pct": "99.2%",
+      "non_null_rate_by_gem_type": {
+        "skill": 98.5,
+        "support": 100,
+        "spirit": 96.4
+      },
+      "example": 40,
+      "runtime_role": "runtime",
+      "runtime_evidence": "generated gem item 顶键实测含 max_level"
+    },
+    "recommended_supports": {
+      "type": "string[]|null",
+      "observed_types": [
+        "array"
+      ],
+      "meaning": "poe2db 推荐辅助宝石",
+      "non_null_count": 817,
+      "non_null_rate": 77.1,
+      "non_null_rate_pct": "77.1%",
+      "non_null_rate_by_gem_type": {
+        "skill": 87.1,
+        "support": 69.1,
+        "spirit": 96.4
+      },
+      "example": [
+        {
+          "tier": 1,
+          "gem": "Brutality I"
+        },
+        {
+          "tier": 1,
+          "gem": "Impact Shockwave"
+        },
+        {
+          "tier": 1,
+          "gem": "Enduring"
+        },
+        {
+          "tier": 1,
+          "gem": "Impact I"
+        },
+        {
+          "tier": 2,
+          "gem": "Brutality II"
+        },
+        {
+          "tier": 2,
+          "gem": "Behead I"
+        },
+        "…(+14)"
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 recommended_supports 键"
+    },
+    "internal_id": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "poe2db Metadata id（如 Boneshatter 的内部名）",
+      "non_null_count": 1047,
+      "non_null_rate": 98.9,
+      "non_null_rate_pct": "98.9%",
+      "non_null_rate_by_gem_type": {
+        "skill": 97.4,
+        "support": 100,
+        "spirit": 96.4
+      },
+      "example": "Boneshatter",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 中 internal_id 出现 0 次；建议作为可追溯 tracing key 候选，尚未接线"
+    },
+    "base_type": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "基础类型",
+      "non_null_count": 1057,
+      "non_null_rate": 99.8,
+      "non_null_rate_pct": "99.8%",
+      "non_null_rate_by_gem_type": {
+        "skill": 99.5,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "Boneshatter",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 base_type 键"
+    },
+    "target_types": {
+      "type": "string[]|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "目标类型",
+      "non_null_count": 441,
+      "non_null_rate": 41.6,
+      "non_null_rate_pct": "41.6%",
+      "non_null_rate_by_gem_type": {
+        "skill": 99,
+        "support": 0.2,
+        "spirit": 100
+      },
+      "example": "Ground, Enemy,",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 target_types 键"
+    },
+    "acronyms": {
+      "type": "string[]|null",
+      "observed_types": [
+        "string[]"
+      ],
+      "meaning": "缩写/别名",
+      "non_null_count": 980,
+      "non_null_rate": 92.5,
+      "non_null_rate_pct": "92.5%",
+      "non_null_rate_by_gem_type": {
+        "skill": 93.3,
+        "support": 91.9,
+        "spirit": 94.5
+      },
+      "example": [
+        "Hit",
+        "Stun",
+        "Melee",
+        "Shock",
+        "Heavy Stun",
+        "Hits"
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 acronyms 键"
+    },
+    "icon_url": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "CDN 图标 URL",
+      "non_null_count": 1057,
+      "non_null_rate": 99.8,
+      "non_null_rate_pct": "99.8%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 99.7,
+        "spirit": 100
+      },
+      "example": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/BruteBoneshatter.webp",
+      "runtime_role": "runtime",
+      "runtime_evidence": "图标资产来源"
+    },
+    "icon_local_path": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "本地已接入的 png 路径",
+      "non_null_count": 1057,
+      "non_null_rate": 99.8,
+      "non_null_rate_pct": "99.8%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 99.7,
+        "spirit": 100
+      },
+      "example": "src/main/resources/assets/coe/textures/item/gem/boneshatter.png",
+      "runtime_role": "runtime",
+      "runtime_evidence": "assets/coe/textures/item/gem/<id>.png"
+    },
+    "source_url_us": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "英文详情页 URL",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "https://poe2db.tw/us/Boneshatter",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "可追溯用，不进产物"
+    },
+    "source_url_tw": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "中文详情页 URL",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "https://poe2db.tw/tw/Boneshatter",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "可追溯用，不进产物"
+    },
+    "crawled_at": {
+      "type": "string",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "该条目抓取时间",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "2026-09-20T20:44:06.154Z",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "审计用"
+    },
+    "gem_class": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "页面自报分类：Skill Gems / Meta Skill Gem / Support Gems",
+      "non_null_count": 1048,
+      "non_null_rate": 99,
+      "non_null_rate_pct": "99%",
+      "non_null_rate_by_gem_type": {
+        "skill": 97.7,
+        "support": 100,
+        "spirit": 96.4
+      },
+      "example": "Skill Gems",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 有 lineage 键但无 gem_class；is_meta/is_lineage 为其布尔投影"
+    },
+    "is_meta": {
+      "type": "boolean",
+      "observed_types": [
+        "boolean"
+      ],
+      "meaning": "是否为 Meta 宝石（在 Meta_Gems 页出现，或 gem_class=Meta Skill Gem）",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": false,
+      "runtime_role": "reference_only",
+      "runtime_evidence": "推断：Meta 语义尚未见独立产物键"
+    },
+    "is_lineage": {
+      "type": "boolean",
+      "observed_types": [
+        "boolean"
+      ],
+      "meaning": "是否为血统（Lineage）宝石",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": false,
+      "runtime_role": "partial",
+      "runtime_evidence": "generated gem item 顶键实测含 lineage"
+    },
+    "index_tier": {
+      "type": "number|null",
+      "observed_types": [
+        "number"
+      ],
+      "meaning": "索引页分组层级（作者使用的排序/分批依据）",
+      "non_null_count": 962,
+      "non_null_rate": 90.8,
+      "non_null_rate_pct": "90.8%",
+      "non_null_rate_by_gem_type": {
+        "skill": 90.5,
+        "support": 90.6,
+        "spirit": 96.4
+      },
+      "example": 1,
+      "runtime_role": "reference_only",
+      "runtime_evidence": "爬取流水线内部用"
+    },
+    "art_name": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "图标 art 名（PascalCase，如 BruteBoneshatter）",
+      "non_null_count": 962,
+      "non_null_rate": 90.8,
+      "non_null_rate_pct": "90.8%",
+      "non_null_rate_by_gem_type": {
+        "skill": 90.5,
+        "support": 90.6,
+        "spirit": 96.4
+      },
+      "example": "BruteBoneshatter",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "generated gem dir 无 art_name 键；仅用于图标映射"
+    },
+    "seen_in": {
+      "type": "string[]",
+      "observed_types": [
+        "string[]"
+      ],
+      "meaning": "该条目出现在哪些索引页；extra:gemless = 无宝石形态的固有技能",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": [
+        "Skill_Gems",
+        "Gems"
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "发现链路证据，不进产物"
+    },
+    "local_id": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "本地 datagen id（由 crosswalk 反向写入）",
+      "non_null_count": 260,
+      "non_null_rate": 24.6,
+      "non_null_rate_pct": "24.6%",
+      "non_null_rate_by_gem_type": {
+        "skill": 33.2,
+        "support": 16.9,
+        "spirit": 49.1
+      },
+      "example": "boneshatter",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "⚠ 反向派生字段，属本地对照，不得作为权威"
+    },
+    "local_cat": {
+      "type": "string|null",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "本地 datagen 分类（反向派生）",
+      "non_null_count": 260,
+      "non_null_rate": 24.6,
+      "non_null_rate_pct": "24.6%",
+      "non_null_rate_by_gem_type": {
+        "skill": 33.2,
+        "support": 16.9,
+        "spirit": 49.1
+      },
+      "example": "skill",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "⚠ 反向派生字段"
+    },
+    "implemented": {
+      "type": "boolean",
+      "observed_types": [
+        "boolean"
+      ],
+      "meaning": "本地 datagen 是否已实现（反向派生自 crosswalk）",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": true,
+      "runtime_role": "reference_only",
+      "runtime_evidence": "⚠ 反向派生字段；实测 260 true / 786 false"
+    },
+    "base_id": {
+      "type": "string",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "派生族键 = id 去掉罗马后缀；多条共享即为同一技能的 tier 家族",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "boneshatter",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "派生字段，用于判定 tier 家族与唯一基础技能数"
+    },
+    "tier_variant": {
+      "type": "boolean",
+      "observed_types": [
+        "boolean"
+      ],
+      "meaning": "id 是否带罗马后缀（即是否为 tier 变体）",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": false,
+      "runtime_role": "reference_only",
+      "runtime_evidence": "派生字段"
+    },
+    "icon_source_candidates": {
+      "type": "string[]",
+      "observed_types": [
+        "string[]"
+      ],
+      "meaning": "可转换的 PascalCase 源资产候选名",
+      "non_null_count": 805,
+      "non_null_rate": 76,
+      "non_null_rate_pct": "76%",
+      "non_null_rate_by_gem_type": {
+        "skill": 90.5,
+        "support": 65,
+        "spirit": 96.4
+      },
+      "example": [
+        "Boneshatter.png"
+      ],
+      "runtime_role": "reference_only",
+      "runtime_evidence": "图标流水线用"
+    },
+    "icon_status": {
+      "type": "enum",
+      "observed_types": [
+        "string"
+      ],
+      "meaning": "existing | source_available | missing",
+      "non_null_count": 1059,
+      "non_null_rate": 100,
+      "non_null_rate_pct": "100%",
+      "non_null_rate_by_gem_type": {
+        "skill": 100,
+        "support": 100,
+        "spirit": 100
+      },
+      "example": "existing",
+      "runtime_role": "reference_only",
+      "runtime_evidence": "图标三态：1045 existing / 1 missing（本层实测）"
+    }
+  }
+}

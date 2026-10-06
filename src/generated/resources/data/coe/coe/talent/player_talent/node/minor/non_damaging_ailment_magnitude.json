@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_non_damaging_ailments_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkelementalchakra",
+    "id": "37164",
+    "links": [
+      "2446",
+      "419"
+    ],
+    "x": 5072.29,
+    "y": -8039.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_non_damaging_ailments_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkelementalchakra",
+    "id": "419",
+    "links": [
+      "37164",
+      "63400"
+    ],
+    "x": 5214.31,
+    "y": -7957.08
+  }
+]

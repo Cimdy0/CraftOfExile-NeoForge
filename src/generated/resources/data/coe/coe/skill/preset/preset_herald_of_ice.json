@@ -1,0 +1,77 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_status": {
+                "status": "coe:herald_of_ice"
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "children": [
+          {
+            "phase": {
+              "actions": [
+                {
+                  "action": {
+                    "coe:action_damage": {
+                      "amount": 12.0,
+                      "can_crit": 1.0,
+                      "damage_type": "cold"
+                    }
+                  },
+                  "trigger": "on_hit"
+                }
+              ],
+              "delivery": {
+                "coe:delivery_area": {
+                  "shape": {
+                    "coe:shape_sphere": {
+                      "radius": 2.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "aura",
+    "herald",
+    "buff",
+    "persistent",
+    "aoe",
+    "cold"
+  ]
+}

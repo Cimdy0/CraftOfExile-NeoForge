@@ -1,0 +1,218 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "11882",
+    "links": [
+      "42460",
+      "63888"
+    ],
+    "x": 4892.31,
+    "y": 3424.28
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsupressionnotable1",
+    "id": "13783",
+    "links": [
+      "28992",
+      "30695"
+    ],
+    "x": 2867.89,
+    "y": 1272.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagenode",
+    "id": "15838",
+    "links": [
+      "15969",
+      "33242"
+    ],
+    "x": -1991.5,
+    "y": -5181.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsupressionnotable1",
+    "id": "19808",
+    "links": [
+      "30695",
+      "60505"
+    ],
+    "x": 3433.98,
+    "y": 1627.23
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "29328",
+    "links": [
+      "43201",
+      "56910"
+    ],
+    "x": -550.051,
+    "y": 3292.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagenode",
+    "id": "33242",
+    "links": [
+      "15838",
+      "48581"
+    ],
+    "x": -1962.16,
+    "y": -5348.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "37450",
+    "links": [
+      "28370",
+      "43383"
+    ],
+    "x": -524.135,
+    "y": 3886.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "42460",
+    "links": [
+      "11882",
+      "46182"
+    ],
+    "x": 4942.78,
+    "y": 3718.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "43201",
+    "links": [
+      "29328",
+      "43383"
+    ],
+    "x": -630.891,
+    "y": 3487.87
+  }
+]

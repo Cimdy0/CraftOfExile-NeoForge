@@ -1,0 +1,6 @@
+{
+  "type": "presence_aura",
+  "duration_ticks": 160,
+  "elemental": "none",
+  "status_id": "wither"
+}

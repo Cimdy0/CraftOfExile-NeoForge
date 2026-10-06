@@ -1,0 +1,341 @@
+{
+  "total": 194,
+  "consumed": 120,
+  "consumed_scope_baked": [
+    {
+      "attr": "AFTERSHOCK_AREA",
+      "scope_kw": "SHOCK",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\skill\\phase\\delivery\\runtime\\AreaDeliveryExecutor.java:134",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:642"
+      ]
+    },
+    {
+      "attr": "AFTERSHOCK_CHANCE",
+      "scope_kw": "SHOCK",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\skill\\phase\\delivery\\runtime\\AreaDeliveryExecutor.java:132",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:645",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:646",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:647"
+      ]
+    },
+    {
+      "attr": "BANNER_LINGER",
+      "scope_kw": "BANNER",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\skill\\phase\\action\\BannerAction.java:78",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:273"
+      ]
+    },
+    {
+      "attr": "BASE_ENERGY_SHIELD_RECHARGE",
+      "scope_kw": "ENERGY_SHIELD_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\EnergyShieldHelper.java:93"
+      ]
+    },
+    {
+      "attr": "CHARM_CHARGES_GAINED",
+      "scope_kw": "ES_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:867",
+        "src\\main\\java\\com\\cimdy\\coe\\item\\charm\\CharmEngine.java:143"
+      ]
+    },
+    {
+      "attr": "CHARM_CHARGES_USED",
+      "scope_kw": "ES_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:875",
+        "src\\main\\java\\com\\cimdy\\coe\\item\\charm\\CharmEngine.java:166"
+      ]
+    },
+    {
+      "attr": "CORRUPTION_ENDURES_CHANCE",
+      "scope_kw": "ES_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\event\\DamagePipeline.java:552"
+      ]
+    },
+    {
+      "attr": "CROSS_BOW_RELOAD_TIME",
+      "scope_kw": "BOW",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1577",
+        "src\\main\\java\\com\\cimdy\\coe\\mixin\\attribute\\projectile\\ProjectileInEnchant.java:47"
+      ]
+    },
+    {
+      "attr": "CURRENT_ENERGY_SHIELD_RECHARGE",
+      "scope_kw": "ENERGY_SHIELD_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\EnergyShieldHelper.java:94"
+      ]
+    },
+    {
+      "attr": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+      "scope_kw": "TAKEN",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:910",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\DamagePipeline.java:514"
+      ]
+    },
+    {
+      "attr": "DEXTERITY",
+      "scope_kw": "DEXTERITY",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\item\\equipment\\instance\\RequirePreset.java:34",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\support\\Require.java:39",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:239",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1265",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\talent\\TalentNodeGen.java:180",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\engine\\AffixGenerator.java:41",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\item\\TooltipEvent.java:407"
+      ]
+    },
+    {
+      "attr": "DODGE_CHANCE",
+      "scope_kw": "DODGE",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:448",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\DamagePipeline.java:472"
+      ]
+    },
+    {
+      "attr": "ELEMENTAL_DAMAGE_CONTRIBUTES_BLEEDING",
+      "scope_kw": "BLEED",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\AilmentHelper.java:728"
+      ]
+    },
+    {
+      "attr": "FLASK_CHARGES_GAINED",
+      "scope_kw": "FLASK",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1310",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1313",
+        "src\\main\\java\\com\\cimdy\\coe\\item\\flask\\FlaskHelper.java:206",
+        "src\\main\\java\\com\\cimdy\\coe\\item\\flask\\FlaskHelper.java:228"
+      ]
+    },
+    {
+      "attr": "FLASK_NO_CONSUME_CHANCE",
+      "scope_kw": "FLASK",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:641",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1094",
+        "src\\main\\java\\com\\cimdy\\coe\\item\\flask\\FlaskHelper.java:64"
+      ]
+    },
+    {
+      "attr": "FLASK_RECOVERY_RATE",
+      "scope_kw": "FLASK",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:639",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:874",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1322",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1324",
+        "src\\main\\java\\com\\cimdy\\coe\\item\\flask\\FlaskHelper.java:71"
+      ]
+    },
+    {
+      "attr": "LEECHES_RESPONSE",
+      "scope_kw": "ES_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\DamageHelper.java:293"
+      ]
+    },
+    {
+      "attr": "MANA_TAKE_OF_DAMAGE",
+      "scope_kw": "MANA_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\support\\stat\\StatTag.java:139",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\entity\\EntityGen.java:82",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:909",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1395",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1997",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\DamagePipeline.java:534"
+      ]
+    },
+    {
+      "attr": "MAX_MANA",
+      "scope_kw": "_MANA",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:295",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1411",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:2021",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\ManaHelper.java:12",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\AttributeEvent.java:226",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\AttributeEvent.java:505",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\AttributeEvent.java:516"
+      ]
+    },
+    {
+      "attr": "MAX_RAGE",
+      "scope_kw": "_RAGE",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:301",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1413",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1418",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\RageHelper.java:33",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\AttributeEvent.java:237"
+      ]
+    },
+    {
+      "attr": "META_ENERGY_MAX",
+      "scope_kw": "META",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\skill\\helper\\MetaEnergyState.java:59",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\support\\math\\context\\nodes\\HealthValue.java:47",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1705",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\ResourceEventHub.java:98"
+      ]
+    },
+    {
+      "attr": "NO_INHERENT_MANA_REGENERATION",
+      "scope_kw": "MANA_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\ManaHelper.java:75"
+      ]
+    },
+    {
+      "attr": "PARRY_RANGE",
+      "scope_kw": "PARRY",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1541",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\DamagePipeline.java:414"
+      ]
+    },
+    {
+      "attr": "PRESENCE_RANGE",
+      "scope_kw": "PRESENCE",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\event\\EntityOperationEvent.java:83",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\EntityOperationEvent.java:84"
+      ]
+    },
+    {
+      "attr": "PUPPET_MASTER_CHANCE",
+      "scope_kw": "PUPPET",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:320",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\SkillEvent.java:166"
+      ]
+    },
+    {
+      "attr": "PUPPET_MASTER_DURATION",
+      "scope_kw": "PUPPET",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:322",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\SkillEvent.java:169"
+      ]
+    },
+    {
+      "attr": "PUPPET_MASTER_EFFECT",
+      "scope_kw": "PUPPET",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\support\\status\\registry\\buff\\BuffStatusTypes.java:49",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:321"
+      ]
+    },
+    {
+      "attr": "RAGE_LOSS_GRACE",
+      "scope_kw": "RAGE_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1566",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\RageHelper.java:61"
+      ]
+    },
+    {
+      "attr": "RAGE_LOSS_RATE",
+      "scope_kw": "RAGE_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:552",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\RageHelper.java:95"
+      ]
+    },
+    {
+      "attr": "RECENTLY_CONSUMED_DAMAGE",
+      "scope_kw": "RECENT",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\support\\status\\registry\\buff\\BuffStatusTypes.java:123",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1285"
+      ]
+    },
+    {
+      "attr": "REGENERATE_MANA_EQUAL_LIFE",
+      "scope_kw": "MANA_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\ManaHelper.java:80"
+      ]
+    },
+    {
+      "attr": "STRENGTH",
+      "scope_kw": "STRENGTH",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\item\\equipment\\instance\\RequirePreset.java:32",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\support\\Require.java:37",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:325",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1054",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1597",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\talent\\TalentNodeGen.java:178",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\engine\\AffixGenerator.java:42",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\item\\TooltipEvent.java:406"
+      ]
+    },
+    {
+      "attr": "STUN_RECOVERY",
+      "scope_kw": "STUN_",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1604"
+      ]
+    },
+    {
+      "attr": "TAKEN_CRIT_CHANCE",
+      "scope_kw": "TAKEN",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:2381",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\helper\\DamageHelper.java:123"
+      ]
+    },
+    {
+      "attr": "TAKEN_CRIT_DAMAGE",
+      "scope_kw": "TAKEN",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\entity\\EntityGen.java:94",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1612"
+      ]
+    },
+    {
+      "attr": "TAKEN_DAMAGE",
+      "scope_kw": "TAKEN",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\codec\\support\\status\\StatusBehavior.java:160",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1615",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1625",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:2374",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:2375",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:2376",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:2412",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\DamagePipeline.java:658"
+      ]
+    },
+    {
+      "attr": "THORNS",
+      "scope_kw": "THORNS",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1113",
+        "src\\main\\java\\com\\cimdy\\coe\\data\\gen\\stat\\StatGen.java:1629"
+      ]
+    },
+    {
+      "attr": "TOTEM_TAKEN_AURA",
+      "scope_kw": "TOTEM",
+      "consumed_by": [
+        "src\\main\\java\\com\\cimdy\\coe\\event\\DamagePipeline.java:672",
+        "src\\main\\java\\com\\cimdy\\coe\\event\\DamagePipeline.java:675"
+      ]
+    }
+  ]
+}

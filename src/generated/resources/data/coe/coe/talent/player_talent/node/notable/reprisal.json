@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parried_debuff_buff_magnitude",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklersnotable1",
+    "id": "20414",
+    "links": [
+      "35043",
+      "52410"
+    ],
+    "x": 10286.7,
+    "y": 5858.72
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.29
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "2138",
+    "links": [
+      "46604"
+    ],
+    "x": -2457.53,
+    "y": -3315.88
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_aura_buff_magnitude",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_break_taken",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamagedeflect",
+    "id": "9863",
+    "links": [
+      "3191",
+      "65324"
+    ],
+    "x": -3201.14,
+    "y": 8928.08
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "aliases": [
+    "Skill",
+    "Skills",
+    "技能"
+  ],
+  "description": [
+    [
+      "$[skill]",
+      "是造成",
+      "$[damage]",
+      "或施加异常的主动能力。"
+    ],
+    [
+      "$[skill]",
+      "可由",
+      "$[support_gem]",
+      "修改，并可能保留",
+      "$[spirit]",
+      "或消耗",
+      "$[mana]",
+      "。"
+    ]
+  ],
+  "id": "skill",
+  "keys": [
+    "coe:keyword.skill"
+  ],
+  "title": "@coe:keyword.skill"
+}

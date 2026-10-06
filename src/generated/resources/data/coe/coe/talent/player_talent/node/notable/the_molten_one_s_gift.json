@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_fire_resistance",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_fully_broken_armor",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:fully_broken_armor_you_inflict_also_inc_fire_damage_taken_from_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "28542",
+    "links": [
+      "43174",
+      "62785"
+    ],
+    "x": -5457.11,
+    "y": 8238.24
+  }
+]

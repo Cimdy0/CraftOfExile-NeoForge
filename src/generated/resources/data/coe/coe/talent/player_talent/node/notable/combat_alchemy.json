@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_flasks_you_use_to_not_consume_charges",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_and_mana_recovery_from_flasks",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flasknotablecritstrikerecharge",
+    "id": "10053",
+    "links": [
+      "19470",
+      "50328"
+    ],
+    "x": 2431.04,
+    "y": 1403.46
+  }
+]

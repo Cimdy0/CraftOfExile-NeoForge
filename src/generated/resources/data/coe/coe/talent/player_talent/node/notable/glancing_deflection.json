@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_deflection_rating",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "56488",
+    "links": [
+      "28038",
+      "48889"
+    ],
+    "x": 5265.67,
+    "y": 5191.09
+  }
+]

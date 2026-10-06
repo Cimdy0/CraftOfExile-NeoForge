@@ -1,0 +1,8 @@
+{
+  "coe:item_weight": [
+    {
+      "item": "coe:mana_flask",
+      "weight": 1000
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_plant_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "12189",
+    "links": [
+      "32859",
+      "56547"
+    ],
+    "x": -3931.92,
+    "y": -4582.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_plant_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "16721",
+    "links": [
+      "18270",
+      "20848",
+      "32239",
+      "34187"
+    ],
+    "x": -6348.3,
+    "y": -6484.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_plant_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "18270",
+    "links": [
+      "16721",
+      "45874"
+    ],
+    "x": -7002.8,
+    "y": -6541.43
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_plant_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "20848",
+    "links": [
+      "16721",
+      "46628"
+    ],
+    "x": -6131.8,
+    "y": -6359.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_plant_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "32239",
+    "links": [
+      "16721",
+      "9009"
+    ],
+    "x": -6261.86,
+    "y": -6806.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_plant_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "32859",
+    "links": [
+      "12189",
+      "15114"
+    ],
+    "x": -4181.89,
+    "y": -4304.07
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_plant_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "34187",
+    "links": [
+      "16721",
+      "7128"
+    ],
+    "x": -6770.93,
+    "y": -6728.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_plant_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "56547",
+    "links": [
+      "12189",
+      "50423"
+    ],
+    "x": -3783.45,
+    "y": -4370.2
+  }
+]

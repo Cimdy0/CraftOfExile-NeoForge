@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "64299",
+    "links": [
+      "12462",
+      "17655"
+    ],
+    "x": -3423.49,
+    "y": -1976.64
+  }
+]

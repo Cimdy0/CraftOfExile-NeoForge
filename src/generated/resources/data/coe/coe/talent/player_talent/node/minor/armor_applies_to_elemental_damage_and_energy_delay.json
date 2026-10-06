@@ -1,0 +1,219 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamageenergyshieldrecharge",
+    "id": "32964",
+    "links": [
+      "34617",
+      "46318"
+    ],
+    "x": -5488.32,
+    "y": -6979.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamageenergyshieldrecharge",
+    "id": "40377",
+    "links": [
+      "46318",
+      "46628",
+      "7554"
+    ],
+    "x": -5557.5,
+    "y": -6454.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamageenergyshieldrecharge",
+    "id": "41384",
+    "links": [
+      "51672",
+      "65509"
+    ],
+    "x": -6780.92,
+    "y": -3242.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamageenergyshieldrecharge",
+    "id": "46318",
+    "links": [
+      "32964",
+      "40377"
+    ],
+    "x": -5401.88,
+    "y": -6657.07
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamageenergyshieldrecharge",
+    "id": "51672",
+    "links": [
+      "31955",
+      "41384"
+    ],
+    "x": -6903.17,
+    "y": -2786.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorelementaldamageenergyshieldrecharge",
+    "id": "65509",
+    "links": [
+      "41384",
+      "51821"
+    ],
+    "x": -7237.17,
+    "y": -3365.02
+  }
+]

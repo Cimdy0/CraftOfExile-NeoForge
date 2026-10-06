@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_you_have_no_health_flask_uses_left",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "46268",
+    "links": [
+      "16111",
+      "2397",
+      "5324"
+    ],
+    "x": -1739.37,
+    "y": 11255.6
+  }
+]

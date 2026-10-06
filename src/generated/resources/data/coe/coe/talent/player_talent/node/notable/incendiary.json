@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_burning_enemies",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "62310",
+    "links": [
+      "36325",
+      "9796"
+    ],
+    "x": -3533.23,
+    "y": 9699.68
+  }
+]

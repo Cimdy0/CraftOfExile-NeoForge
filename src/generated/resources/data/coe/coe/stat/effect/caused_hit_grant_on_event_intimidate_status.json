@@ -1,0 +1,9 @@
+{
+  "type": "grant_on_event",
+  "base_magnitude": 10.0,
+  "param": "intimidate",
+  "tags": {
+    "tag": "caused_hit"
+  },
+  "target": "status"
+}

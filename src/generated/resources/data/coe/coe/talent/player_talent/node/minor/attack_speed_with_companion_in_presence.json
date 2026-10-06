@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "30197",
+    "links": [
+      "43102",
+      "52415"
+    ],
+    "x": 7382.34,
+    "y": 2569.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "52415",
+    "links": [
+      "30197",
+      "32655"
+    ],
+    "x": 7218.34,
+    "y": 2569.84
+  }
+]

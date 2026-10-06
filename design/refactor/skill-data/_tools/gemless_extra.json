@@ -1,0 +1,339 @@
+[
+ {
+  "id": "default_attack",
+  "id_coe": "preset_default_attack",
+  "name_en": "Default Attack",
+  "name_zh": null,
+  "gem_type": "skill",
+  "gem_color": null,
+  "tags": [],
+  "category_tags": [],
+  "type_tags": [
+   "Attack",
+   "RangedAttack",
+   "MirageArcherCanUse",
+   "Projectile",
+   "MeleeSingleTarget",
+   "Melee",
+   "ProjectilesFromUser",
+   "Barrageable",
+   "AttackInPlace",
+   "HasNoCost"
+  ],
+  "description_en": "Strike your foes down with a powerful blow.",
+  "description_zh": null,
+  "level_range": "(1-40)",
+  "cost": null,
+  "cast_time": null,
+  "crit_chance": null,
+  "attack_speed": null,
+  "requirements": null,
+  "req_level_range": null,
+  "req_attr": null,
+  "quality_bonus": null,
+  "quality_range": null,
+  "implicits": [
+   "is area damage [1]",
+   "melee conditional step distance [10]",
+   "precise cursor targeting uses contact point height offset [1]"
+  ],
+  "stats": [],
+  "level_table": {
+   "headers": [
+    "Level",
+    "Requires Level",
+    "Base Damage"
+   ],
+   "rows": [
+    [
+     "1",
+     "",
+     "100%, 100%, 100%"
+    ],
+    [
+     "2",
+     "",
+     "110%, 110%, 110%"
+    ],
+    [
+     "3",
+     "",
+     "121%, 121%, 121%"
+    ],
+    [
+     "4",
+     "",
+     "132%, 132%, 132%"
+    ],
+    [
+     "5",
+     "",
+     "142%, 142%, 142%"
+    ],
+    [
+     "6",
+     "",
+     "153%, 153%, 153%"
+    ],
+    [
+     "7",
+     "",
+     "164%, 164%, 164%"
+    ],
+    [
+     "8",
+     "",
+     "174%, 174%, 174%"
+    ],
+    [
+     "9",
+     "",
+     "182%, 182%, 182%"
+    ],
+    [
+     "10",
+     "",
+     "191%, 191%, 191%"
+    ],
+    [
+     "11",
+     "",
+     "201%, 201%, 201%"
+    ],
+    [
+     "12",
+     "",
+     "211%, 211%, 211%"
+    ],
+    [
+     "13",
+     "",
+     "222%, 222%, 222%"
+    ],
+    [
+     "14",
+     "",
+     "233%, 233%, 233%"
+    ],
+    [
+     "15",
+     "",
+     "244%, 244%, 244%"
+    ],
+    [
+     "16",
+     "",
+     "257%, 257%, 257%"
+    ],
+    [
+     "17",
+     "",
+     "269%, 269%, 269%"
+    ],
+    [
+     "18",
+     "",
+     "283%, 283%, 283%"
+    ],
+    [
+     "19",
+     "",
+     "297%, 297%, 297%"
+    ],
+    [
+     "20",
+     "",
+     "312%, 312%, 312%"
+    ],
+    [
+     "21",
+     "",
+     "327%, 327%, 327%"
+    ],
+    [
+     "22",
+     "",
+     "344%, 344%, 344%"
+    ],
+    [
+     "23",
+     "",
+     "361%, 361%, 361%"
+    ],
+    [
+     "24",
+     "",
+     "379%, 379%, 379%"
+    ],
+    [
+     "25",
+     "",
+     "398%, 398%, 398%"
+    ],
+    [
+     "26",
+     "",
+     "418%, 418%, 418%"
+    ],
+    [
+     "27",
+     "",
+     "439%, 439%, 439%"
+    ],
+    [
+     "28",
+     "",
+     "461%, 461%, 461%"
+    ],
+    [
+     "29",
+     "",
+     "484%, 484%, 484%"
+    ],
+    [
+     "30",
+     "",
+     "508%, 508%, 508%"
+    ],
+    [
+     "31",
+     "",
+     "533%, 533%, 533%"
+    ],
+    [
+     "32",
+     "",
+     "560%, 560%, 560%"
+    ],
+    [
+     "33",
+     "",
+     "588%, 588%, 588%"
+    ],
+    [
+     "34",
+     "",
+     "618%, 618%, 618%"
+    ],
+    [
+     "35",
+     "",
+     "648%, 648%, 648%"
+    ],
+    [
+     "36",
+     "",
+     "681%, 681%, 681%"
+    ],
+    [
+     "37",
+     "",
+     "715%, 715%, 715%"
+    ],
+    [
+     "38",
+     "",
+     "751%, 751%, 751%"
+    ],
+    [
+     "39",
+     "",
+     "788%, 788%, 788%"
+    ],
+    [
+     "40",
+     "",
+     "828%, 828%, 828%"
+    ]
+   ]
+  },
+  "max_level": 40,
+  "recommended_supports": [],
+  "internal_id": "player_melee",
+  "base_type": "Default Attack",
+  "target_types": "Ground, Enemy",
+  "acronyms": [],
+  "icon_url": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/iconbasicattack.webp",
+  "icon_local_path": null,
+  "source_url_us": "https://poe2db.tw/us/Default_Attack",
+  "source_url_tw": "https://poe2db.tw/tw/Default_Attack",
+  "crawled_at": "2026-09-20T21:09:33.976Z",
+  "is_meta": false,
+  "is_lineage": false,
+  "index_tier": null,
+  "art_name": null,
+  "seen_in": [
+   "gemless_probe"
+  ],
+  "gemless_reason": "A:character_base_attack",
+  "is_gemless": true,
+  "active_skills_code": "player_melee"
+ },
+ {
+  "id": "basic_attack",
+  "id_coe": "preset_basic_attack",
+  "name_en": "Basic Attack",
+  "name_zh": null,
+  "gem_type": "skill",
+  "gem_color": null,
+  "tags": [],
+  "category_tags": [],
+  "type_tags": [
+   "Attack",
+   "RangedAttack",
+   "MirageArcherCanUse",
+   "Projectile",
+   "MeleeSingleTarget",
+   "Melee",
+   "ProjectilesFromUser",
+   "AttackInPlace"
+  ],
+  "description_en": "Strike your foes down with a powerful blow.",
+  "description_zh": null,
+  "level_range": null,
+  "cost": null,
+  "cast_time": null,
+  "crit_chance": null,
+  "attack_speed": null,
+  "requirements": null,
+  "req_level_range": null,
+  "req_attr": null,
+  "quality_bonus": null,
+  "quality_range": null,
+  "implicits": [],
+  "stats": [],
+  "level_table": {
+   "headers": [
+    "Level",
+    "Requires Level"
+   ],
+   "rows": [
+    [
+     "1",
+     ""
+    ]
+   ]
+  },
+  "max_level": 1,
+  "recommended_supports": [],
+  "internal_id": "melee",
+  "base_type": "Basic Attack",
+  "target_types": "Ground, Enemy",
+  "acronyms": [],
+  "icon_url": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/iconbasicattack.webp",
+  "icon_local_path": null,
+  "source_url_us": "https://poe2db.tw/us/Basic_Attack",
+  "source_url_tw": "https://poe2db.tw/tw/Basic_Attack",
+  "crawled_at": "2026-09-20T21:09:34.003Z",
+  "is_meta": false,
+  "is_lineage": false,
+  "index_tier": null,
+  "art_name": null,
+  "seen_in": [
+   "gemless_probe"
+  ],
+  "gemless_reason": "A:character_base_attack",
+  "is_gemless": true,
+  "active_skills_code": "melee"
+ }
+]

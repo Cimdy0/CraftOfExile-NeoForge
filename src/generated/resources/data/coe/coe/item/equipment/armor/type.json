@@ -1,0 +1,20 @@
+{
+  "coe:item_weight": [
+    {
+      "type": "coe:chest",
+      "weight": 1000
+    },
+    {
+      "type": "coe:feet",
+      "weight": 1000
+    },
+    {
+      "type": "coe:head",
+      "weight": 1000
+    },
+    {
+      "type": "coe:legs",
+      "weight": 1000
+    }
+  ]
+}

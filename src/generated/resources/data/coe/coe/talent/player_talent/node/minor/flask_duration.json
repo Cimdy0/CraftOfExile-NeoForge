@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "7922",
+    "links": [
+      "45962",
+      "48589"
+    ],
+    "x": -3917.83,
+    "y": 5980.24
+  }
+]

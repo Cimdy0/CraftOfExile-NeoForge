@@ -1,0 +1,72 @@
+{
+  "cast": {
+    "crit": 0.07,
+    "time": 16.0
+  },
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": 5.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(4.5, 6.5, 10, 13.5, 17.5, 22.5, 27.5, 34, 41.5, 50.5, 61, 71, 82.5, 96, 111.5, 128.5, 148.5, 171, 196.5, 226, 259.5, 298, 342.5, 393, 451.5, 519, 596.5, 686, 789.5, 909, 1048, 1209, 1396, 1613.5, 1867.5, 2163, 2508.5, 2912.5, 3386.5, 3942)",
+                "can_crit": 1.0,
+                "damage_type": "fire"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(4.5, 6.5, 10, 13.5, 17.5, 22.5, 27.5, 34, 41.5, 50.5, 61, 71, 82.5, 96, 111.5, 128.5, 148.5, 171, 196.5, 226, 259.5, 298, 342.5, 393, 451.5, 519, 596.5, 686, 789.5, 909, 1048, 1209, 1396, 1613.5, 1867.5, 2163, 2508.5, 2912.5, 3386.5, 3942)",
+                "can_crit": 1.0,
+                "damage_type": "fire"
+              }
+            },
+            "trigger": "on_expire"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_ignite",
+                    "vars": {
+                      "value": 0.2
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_orb": {
+            "lifetime": 200.0,
+            "pulse_interval": 28.0,
+            "radius": 2.5,
+            "ref": {
+              "ref": "coe:sun_orb",
+              "render": "coe:blue/solar_orb"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:every_rage_also_grants_inc_fire_damage",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "32932",
+    "links": [
+      "14205",
+      "7720"
+    ],
+    "x": -4204.37,
+    "y": 5061.4
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:reduced_extra_damage_from_crits"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 33,
+        "name": "of_dulling",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 21.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 45,
+        "name": "of_deadening",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 28.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 58,
+        "name": "of_interference",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 41.0,
+            "min": 35.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 69,
+        "name": "of_obstruction",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 47.0,
+            "min": 42.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 81,
+        "name": "of_the_bastion",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 48.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

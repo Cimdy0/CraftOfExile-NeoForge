@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_max_energy_shield_as_additional_freeze_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "15876",
+    "links": [
+      "46554",
+      "7947"
+    ],
+    "x": 1858.09,
+    "y": -10538.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_max_energy_shield_as_additional_freeze_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "26061",
+    "links": [
+      "4579",
+      "7947"
+    ],
+    "x": 1694.09,
+    "y": -10822.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_max_energy_shield_as_additional_freeze_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "7947",
+    "links": [
+      "15876",
+      "26061"
+    ],
+    "x": 1634.07,
+    "y": -10598.1
+  }
+]

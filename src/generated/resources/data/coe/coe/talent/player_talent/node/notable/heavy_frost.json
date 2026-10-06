@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_freeze_buildup",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hit_damage_ignore_non_negative_elemental_damage_resistances_of_frozen_enemies",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "4959",
+    "links": [
+      "12166",
+      "22713"
+    ],
+    "x": 6689.44,
+    "y": -7908.16
+  }
+]

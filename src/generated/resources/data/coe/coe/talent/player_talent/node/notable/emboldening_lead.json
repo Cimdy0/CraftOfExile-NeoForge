@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage_if_you_ve_hit_damage_recently",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "34553",
+    "links": [
+      "14033"
+    ],
+    "x": -1790.23,
+    "y": -5081.19
+  }
+]

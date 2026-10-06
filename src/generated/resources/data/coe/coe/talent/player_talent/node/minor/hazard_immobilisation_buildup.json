@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_immobilisation_buildup",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "28199",
+    "links": [
+      "46431",
+      "60273"
+    ],
+    "x": 6670.73,
+    "y": 9432.42
+  }
+]

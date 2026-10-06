@@ -1,0 +1,7 @@
+{
+  "members": [
+    "coe:attack_damage_inc",
+    "coe:physical_damage_inc_local"
+  ],
+  "slot": {}
+}

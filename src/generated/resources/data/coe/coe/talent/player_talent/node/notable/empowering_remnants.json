@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_remnants_you_create_to_grant_their_effects_twice",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnantnotable",
+    "id": "40985",
+    "links": [
+      "34866",
+      "62679"
+    ],
+    "x": 801.555,
+    "y": -6943.69
+  }
+]

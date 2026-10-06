@@ -1,0 +1,203 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_mana_leech",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaleechthemednode",
+    "id": "37548",
+    "links": [
+      "17589",
+      "36085",
+      "37742",
+      "8246"
+    ],
+    "x": 9366.38,
+    "y": -801.021
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_mana_leech",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaleechthemednode",
+    "id": "46146",
+    "links": [
+      "15829",
+      "43691"
+    ],
+    "x": 4210.51,
+    "y": -610.915
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_mana_leech",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaleechthemednode",
+    "id": "46601",
+    "links": [
+      "14383",
+      "18568",
+      "43720"
+    ],
+    "x": 5940.56,
+    "y": 8403.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_mana_leech",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaleechthemednode",
+    "id": "46887",
+    "links": [
+      "18568",
+      "38463",
+      "43720"
+    ],
+    "x": 6438.56,
+    "y": 8403.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_mana_leech",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaleechthemednode",
+    "id": "55227",
+    "links": [
+      "15829",
+      "29479"
+    ],
+    "x": 3929.3,
+    "y": -244.434
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_mana_leech",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaleechthemednode",
+    "id": "64462",
+    "links": [
+      "17589",
+      "45012",
+      "53150",
+      "8246"
+    ],
+    "x": 9049.55,
+    "y": -716.129
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_mana_leech",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaleechthemednode",
+    "id": "64927",
+    "links": [
+      "51741",
+      "52464",
+      "54351",
+      "8045"
+    ],
+    "x": 7011.4,
+    "y": -3563.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_mana_leech",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaleechthemednode",
+    "id": "8045",
+    "links": [
+      "51871",
+      "52464",
+      "64927"
+    ],
+    "x": 7388.51,
+    "y": -3237.71
+  }
+]

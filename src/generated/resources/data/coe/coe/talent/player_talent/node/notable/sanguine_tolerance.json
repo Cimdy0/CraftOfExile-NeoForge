@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:immune_to_corrupted_blood",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_bleeding_on_you",
+            "vars": {
+              "value": -0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "4810",
+    "links": [
+      "48805",
+      "64996"
+    ],
+    "x": 4748.75,
+    "y": -10643.2
+  }
+]

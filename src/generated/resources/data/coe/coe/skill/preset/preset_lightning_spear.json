@@ -1,0 +1,40 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:witch",
+  "cast_sound": "minecraft:entity.witch.throw",
+  "cost": [
+    {
+      "value": 9.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 2.5, base = 11, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "lightning"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_projectile": {
+            "ref": {
+              "ref": "coe:arrow",
+              "render": "coe:green/lightning_spear"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "dexterity": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

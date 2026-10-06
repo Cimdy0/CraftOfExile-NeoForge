@@ -1,0 +1,73 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.29
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 13.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_chaos_resistance",
+            "vars": {
+              "value": -0.07
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_light_radius",
+            "vars": {
+              "value": -0.23
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "34473",
+    "links": [
+      "54883"
+    ],
+    "x": 6876.66,
+    "y": -5410.35
+  }
+]

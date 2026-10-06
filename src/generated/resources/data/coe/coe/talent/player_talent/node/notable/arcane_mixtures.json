@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed_if_you_ve_used_a_mana_flask_recently",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:mana_flasks_gain_charges_per_second",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "46972",
+    "links": [
+      "17706"
+    ],
+    "x": 1535.66,
+    "y": -3686.77
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpass_chance_to_fire_an_additional_projectile",
+            "vars": {
+              "value": 0.24
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "47560",
+    "links": [
+      "60323"
+    ],
+    "x": 6269.82,
+    "y": 2075.69
+  }
+]

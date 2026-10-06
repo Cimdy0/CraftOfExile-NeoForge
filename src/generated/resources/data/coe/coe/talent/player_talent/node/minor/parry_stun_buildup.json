@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:parry_has_inc_stun_buildup",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "31366",
+    "links": [
+      "3843",
+      "57518",
+      "65265"
+    ],
+    "x": 8280.74,
+    "y": 3042.95
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:parry_has_inc_stun_buildup",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "3843",
+    "links": [
+      "17146",
+      "31366",
+      "65265"
+    ],
+    "x": 8164.77,
+    "y": 3243.81
+  }
+]

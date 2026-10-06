@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_physical_damage_from_hit_damage_taken_as_damage_of_a_random_elemental_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "31433",
+    "links": [
+      "21495",
+      "42794"
+    ],
+    "x": 6988.3,
+    "y": 4883.0
+  }
+]

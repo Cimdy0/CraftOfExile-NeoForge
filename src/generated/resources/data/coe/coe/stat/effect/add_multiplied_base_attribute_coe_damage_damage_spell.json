@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:damage",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "spell"
+      },
+      {
+        "tag": "damage"
+      }
+    ]
+  }
+}

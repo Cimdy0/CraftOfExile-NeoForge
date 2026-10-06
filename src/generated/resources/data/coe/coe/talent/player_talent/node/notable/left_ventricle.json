@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_speed_of_recoup_effects",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "4091",
+    "links": [
+      "38368",
+      "38835"
+    ],
+    "x": -7355.04,
+    "y": -5171.81
+  }
+]

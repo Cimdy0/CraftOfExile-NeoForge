@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_fire_damage",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_ignite_on_you",
+            "vars": {
+              "value": -0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "372",
+    "links": [
+      "14655"
+    ],
+    "x": -5427.8,
+    "y": 5511.25
+  }
+]

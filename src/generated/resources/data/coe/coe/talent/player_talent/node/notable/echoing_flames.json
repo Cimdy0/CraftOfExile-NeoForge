@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_if_you_ve_ignited_an_enemy_recently",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "60692",
+    "links": [
+      "16367",
+      "22359"
+    ],
+    "x": 3842.13,
+    "y": -4660.29
+  }
+]

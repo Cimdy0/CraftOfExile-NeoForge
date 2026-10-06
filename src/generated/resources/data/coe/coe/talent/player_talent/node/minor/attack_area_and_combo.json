@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_for_attacks",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_build_an_additional_combo_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "24883",
+    "links": [
+      "26211",
+      "44573"
+    ],
+    "x": 7837.88,
+    "y": -1503.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_for_attacks",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_build_an_additional_combo_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "26211",
+    "links": [
+      "24883",
+      "55377"
+    ],
+    "x": 7591.88,
+    "y": -1645.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_for_attacks",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_build_an_additional_combo_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "55377",
+    "links": [
+      "26211",
+      "33463"
+    ],
+    "x": 7755.88,
+    "y": -1809.82
+  }
+]

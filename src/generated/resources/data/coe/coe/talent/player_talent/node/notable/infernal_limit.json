@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_fire_infusions",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnotable1",
+    "id": "61354",
+    "links": [
+      "29391"
+    ],
+    "x": -763.995,
+    "y": -9489.3
+  }
+]

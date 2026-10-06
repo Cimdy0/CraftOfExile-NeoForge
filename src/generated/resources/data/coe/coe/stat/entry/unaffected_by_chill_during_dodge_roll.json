@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "dodge_rolling"
+  },
+  "effect": "coe:stat/effect/inline_immune_468",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,87 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:attack_elemental_damage_inc"
+      },
+      "tiers": [
+        {
+          "level": 4,
+          "name": "catalysing",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 34.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 16,
+          "name": "infusing",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 71.0,
+              "min": 48.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 33,
+          "name": "empowering",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 85.0,
+              "min": 72.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 46,
+          "name": "unleashed",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 99.0,
+              "min": 86.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 60,
+          "name": "overpowering",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 119.0,
+              "min": 100.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 81,
+          "name": "devastating",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 139.0,
+              "min": 120.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

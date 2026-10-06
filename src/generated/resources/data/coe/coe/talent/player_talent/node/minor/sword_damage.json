@@ -1,0 +1,174 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_swords",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "10783",
+    "links": [
+      "38564",
+      "9762"
+    ],
+    "x": -3438.52,
+    "y": 12010.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_swords",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "15855",
+    "links": [
+      "37963",
+      "46565"
+    ],
+    "x": -3592.33,
+    "y": 12530.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_swords",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "20091",
+    "links": [
+      "38564",
+      "46565"
+    ],
+    "x": -3673.33,
+    "y": 12466.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_swords",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "37963",
+    "links": [
+      "15855",
+      "54138",
+      "59263"
+    ],
+    "x": -3401.12,
+    "y": 12257.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_swords",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "38564",
+    "links": [
+      "10783",
+      "20091",
+      "27290",
+      "54138"
+    ],
+    "x": -3532.67,
+    "y": 12164.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_swords",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "45824",
+    "links": [
+      "61441",
+      "8493",
+      "9762"
+    ],
+    "x": -2787.46,
+    "y": 11061.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_swords",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "9762",
+    "links": [
+      "10783",
+      "45824"
+    ],
+    "x": -2941.92,
+    "y": 11167.6
+  }
+]

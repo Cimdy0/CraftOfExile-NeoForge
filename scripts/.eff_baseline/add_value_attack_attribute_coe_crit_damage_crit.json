@@ -1,0 +1,9 @@
+{
+  "type": "attribute",
+  "attribute": "coe:crit_damage",
+  "operation": "add_value",
+  "tags": [
+    "attack",
+    "crit"
+  ]
+}

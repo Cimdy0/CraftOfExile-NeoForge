@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_damage_against_heavy_stunned_enemies",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenotable",
+    "id": "45363",
+    "links": [
+      "19011",
+      "58528"
+    ],
+    "x": -3810.67,
+    "y": 1067.77
+  }
+]

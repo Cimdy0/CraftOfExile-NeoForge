@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:charms_applied_to_you_have_inc_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "11094",
+    "links": [
+      "48462",
+      "59303"
+    ],
+    "x": 7250.85,
+    "y": 9453.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:charms_applied_to_you_have_inc_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "30252",
+    "links": [
+      "20049",
+      "48135"
+    ],
+    "x": 2862.88,
+    "y": 7857.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:charms_applied_to_you_have_inc_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "48462",
+    "links": [
+      "11094",
+      "62803"
+    ],
+    "x": 7724.58,
+    "y": 8980.57
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "59636",
+    "links": [
+      "13769",
+      "3242"
+    ],
+    "x": 0.005,
+    "y": -2781.45
+  }
+]

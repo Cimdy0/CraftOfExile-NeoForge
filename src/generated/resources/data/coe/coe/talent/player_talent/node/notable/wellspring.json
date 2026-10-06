@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_recovery_from_flasks",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed_during_effect_of_any_mana_flask",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "2021",
+    "links": [
+      "17687",
+      "27422"
+    ],
+    "x": 9298.78,
+    "y": 4895.5
+  }
+]

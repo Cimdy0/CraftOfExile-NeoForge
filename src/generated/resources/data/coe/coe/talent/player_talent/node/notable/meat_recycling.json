@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_not_destroy_corpses_when_consuming_corpses",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "25620",
+    "links": [
+      "30539",
+      "55405"
+    ],
+    "x": 3646.31,
+    "y": -6878.38
+  }
+]

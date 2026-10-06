@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_spell_damage"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "apprentice_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 50.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 8,
+        "name": "adept_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 88.0,
+            "min": 69.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "scholar_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 108.0,
+            "min": 89.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "professor_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 128.0,
+            "min": 109.0
+          }
+        },
+        "weight": 600
+      },
+      {
+        "level": 46,
+        "name": "occultist_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 148.0,
+            "min": 129.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 60,
+        "name": "incanter_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 188.0,
+            "min": 149.0
+          }
+        },
+        "weight": 200
+      },
+      {
+        "level": 70,
+        "name": "glyphic",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 208.0,
+            "min": 189.0
+          }
+        },
+        "weight": 100
+      },
+      {
+        "level": 80,
+        "name": "runic",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 238.0,
+            "min": 209.0
+          }
+        },
+        "weight": 50
+      }
+    ]
+  }
+}

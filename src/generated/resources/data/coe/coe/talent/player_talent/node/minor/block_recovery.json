@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_recovery",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "34076",
+    "links": [
+      "36808",
+      "37244"
+    ],
+    "x": 5544.92,
+    "y": 9171.21
+  }
+]

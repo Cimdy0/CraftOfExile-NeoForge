@@ -1,0 +1,403 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldrechargedeflectnode",
+    "id": "15343",
+    "links": [
+      "15775",
+      "58692",
+      "60239"
+    ],
+    "x": 9826.58,
+    "y": -3030.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldrechargedeflectnode",
+    "id": "21227",
+    "links": [
+      "36290",
+      "52971"
+    ],
+    "x": 7239.4,
+    "y": -6236.97
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldrechargedeflectnode",
+    "id": "23046",
+    "links": [
+      "36290",
+      "47976"
+    ],
+    "x": 7710.77,
+    "y": -6363.28
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldrechargedeflectnode",
+    "id": "26556",
+    "links": [
+      "58593",
+      "58692",
+      "59657"
+    ],
+    "x": 8934.99,
+    "y": -2788.73
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "28464",
+    "links": [
+      "3203",
+      "8908"
+    ],
+    "x": 4599.58,
+    "y": -6751.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "3203",
+    "links": [
+      "28464",
+      "30562"
+    ],
+    "x": 4395.4,
+    "y": -6676.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldrechargedeflectnode",
+    "id": "36290",
+    "links": [
+      "21227",
+      "23046"
+    ],
+    "x": 7492.01,
+    "y": -6236.97
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "47831",
+    "links": [
+      "44522",
+      "49996",
+      "8734"
+    ],
+    "x": 8348.95,
+    "y": -1003.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "51040",
+    "links": [
+      "58779",
+      "9652"
+    ],
+    "x": 7374.83,
+    "y": -7151.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldrechargedeflectnode",
+    "id": "58692",
+    "links": [
+      "15343",
+      "26556"
+    ],
+    "x": 9344.05,
+    "y": -3024.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "58779",
+    "links": [
+      "23822",
+      "327",
+      "47976",
+      "51040"
+    ],
+    "x": 7538.83,
+    "y": -7151.38
+  }
+]

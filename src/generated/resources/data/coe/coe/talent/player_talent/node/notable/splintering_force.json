@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_break_armor_equal_to_of_physical_damage_dealt",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "49088",
+    "links": [
+      "17394"
+    ],
+    "x": 1798.44,
+    "y": -7166.71
+  }
+]

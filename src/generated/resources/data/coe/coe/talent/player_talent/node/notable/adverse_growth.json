@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate",
+            "vars": {
+              "value": -0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_mana",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mana",
+    "id": "4295",
+    "links": [
+      "34248",
+      "62122"
+    ],
+    "x": -3593.46,
+    "y": -8544.35
+  }
+]

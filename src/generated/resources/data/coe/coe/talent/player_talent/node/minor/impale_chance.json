@@ -1,0 +1,59 @@
+[
+  {
+    "icon": "passives_physicaldamagenode",
+    "id": "15141",
+    "links": [
+      "19162"
+    ],
+    "x": -9327.78,
+    "y": -7903.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_impale_on_spell_hit_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "52973",
+    "links": [
+      "12851",
+      "57555"
+    ],
+    "x": -1639.9,
+    "y": -8988.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_impale_on_spell_hit_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "57555",
+    "links": [
+      "37608",
+      "52973"
+    ],
+    "x": -1859.12,
+    "y": -8970.48
+  }
+]

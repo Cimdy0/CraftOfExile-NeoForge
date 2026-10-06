@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_axe_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damageaxe",
+    "id": "11306",
+    "links": [
+      "53440",
+      "57880"
+    ],
+    "x": -8881.61,
+    "y": 6681.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_axe_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damageaxe",
+    "id": "52300",
+    "links": [
+      "53440",
+      "62439"
+    ],
+    "x": -8803.85,
+    "y": 6959.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_axe_hit_damage",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damageaxe",
+    "id": "53440",
+    "links": [
+      "11306",
+      "52300"
+    ],
+    "x": -8717.41,
+    "y": 6809.89
+  }
+]

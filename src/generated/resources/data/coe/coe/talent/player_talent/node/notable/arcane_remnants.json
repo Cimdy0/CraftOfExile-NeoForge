@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_mana_when_you_collect_a_remnant",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnantnotable",
+    "id": "46124",
+    "links": [
+      "37593"
+    ],
+    "x": 1185.36,
+    "y": -4903.67
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_galvanic_shards",
+  "vars": {
+    "tier": 5.0
+  }
+}

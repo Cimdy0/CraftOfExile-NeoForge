@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:stat/effect/inline_defend_638",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_637"
+}

@@ -1,0 +1,9 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:armor/head/template/intelligence",
+    "reqs": {
+      "int": 58.0,
+      "l": 40.0
+    }
+  }
+}

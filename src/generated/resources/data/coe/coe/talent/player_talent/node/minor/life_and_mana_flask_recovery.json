@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_and_mana_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "19470",
+    "links": [
+      "10053",
+      "35987"
+    ],
+    "x": 2250.45,
+    "y": 1571.91
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_and_mana_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "50328",
+    "links": [
+      "10053",
+      "28992"
+    ],
+    "x": 2486.62,
+    "y": 1162.85
+  }
+]

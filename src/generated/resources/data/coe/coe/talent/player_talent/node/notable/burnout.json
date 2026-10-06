@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:ignites_you_inflict_deal_damage_faster",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "35324",
+    "links": [
+      "34290",
+      "5084"
+    ],
+    "x": -1218.9,
+    "y": -11861.9
+  }
+]

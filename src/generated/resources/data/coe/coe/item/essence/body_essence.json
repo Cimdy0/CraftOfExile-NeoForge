@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "accessory~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_health"
+          },
+          "max": 55.0,
+          "min": 46.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_health"
+          },
+          "max": 84.0,
+          "min": 70.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_health"
+          },
+          "max": 99.0,
+          "min": 85.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:max_health_inc"
+          },
+          "max": 99.0,
+          "min": 85.0,
+          "tier": "perfect"
+        }
+      ],
+      "armor~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_health"
+          },
+          "max": 64.0,
+          "min": 55.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_health"
+          },
+          "max": 99.0,
+          "min": 85.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_health"
+          },
+          "max": 119.0,
+          "min": 100.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:max_health_inc"
+          },
+          "max": 119.0,
+          "min": 100.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate_for_grenade_skills",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_grenade_damage",
+            "vars": {
+              "value": -0.8
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mineareaofeffectnode",
+    "id": "17303",
+    "links": [
+      "17026",
+      "53895"
+    ],
+    "x": -2149.07,
+    "y": 11558.8
+  }
+]

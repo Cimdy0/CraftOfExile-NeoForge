@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:your_hit_damage_cannot_be_evasion_by_heavy_stunned_enemies",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "64525",
+    "links": [
+      "7204"
+    ],
+    "x": -7494.69,
+    "y": 1310.92
+  }
+]

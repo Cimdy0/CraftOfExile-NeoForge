@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_slowing_potency_of_debuffs_on_you",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "21291",
+    "links": [
+      "32836",
+      "59785"
+    ],
+    "x": -10259.1,
+    "y": 1760.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_slowing_potency_of_debuffs_on_you",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "32836",
+    "links": [
+      "21291",
+      "675"
+    ],
+    "x": -10216.6,
+    "y": 1601.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_slowing_potency_of_debuffs_on_you",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "675",
+    "links": [
+      "13489",
+      "32836"
+    ],
+    "x": -9942.25,
+    "y": 1675.28
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "aliases": [
+    "Shock",
+    "Shocked",
+    "感电"
+  ],
+  "description": [
+    [
+      "$[shock]",
+      "是一种来自",
+      "$[lightning_damage]",
+      "的",
+      "$[elemental_ailment]",
+      "，会提高目标所受的",
+      "$[damage]",
+      "。"
+    ],
+    [
+      "$[shock]",
+      "的强度取决于该次命中移除的敌人",
+      "$[life]",
+      "或",
+      "$[energy_shield]",
+      "的比例。"
+    ]
+  ],
+  "id": "shock",
+  "keys": [
+    "coe:keyword.shock"
+  ],
+  "title": "@coe:keyword.shock"
+}

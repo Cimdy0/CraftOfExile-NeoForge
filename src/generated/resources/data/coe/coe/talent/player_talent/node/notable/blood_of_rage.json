@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_you_use_a_health_flask",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "35792",
+    "links": [
+      "26416",
+      "27740"
+    ],
+    "x": -7025.42,
+    "y": 8671.21
+  }
+]

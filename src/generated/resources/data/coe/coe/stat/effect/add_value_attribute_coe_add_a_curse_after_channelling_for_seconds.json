@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:add_a_curse_after_channelling_for_seconds",
+  "operation": "add_value"
+}

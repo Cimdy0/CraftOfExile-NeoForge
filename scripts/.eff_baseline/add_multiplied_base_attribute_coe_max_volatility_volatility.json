@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_volatility",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "volatility"
+  ]
+}

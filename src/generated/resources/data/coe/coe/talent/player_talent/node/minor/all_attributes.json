@@ -1,0 +1,295 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "10273",
+    "links": [
+      "45272",
+      "49696"
+    ],
+    "x": 132.005,
+    "y": 11726.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "21205",
+    "links": [
+      "42280",
+      "44176"
+    ],
+    "x": -561.974,
+    "y": 11614.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "24511",
+    "links": [
+      "16618",
+      "49696"
+    ],
+    "x": 257.005,
+    "y": 11943.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "34813",
+    "links": [
+      "2847",
+      "472",
+      "62505",
+      "7218"
+    ],
+    "x": 201.825,
+    "y": 10984.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "364",
+    "links": [
+      "2847",
+      "49285",
+      "57816",
+      "6287"
+    ],
+    "x": -202.297,
+    "y": 10983.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "3685",
+    "links": [
+      "32151",
+      "44983"
+    ],
+    "x": -2038.73,
+    "y": 10569.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "42280",
+    "links": [
+      "21205",
+      "45272"
+    ],
+    "x": -117.995,
+    "y": 11726.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "44176",
+    "links": [
+      "21205",
+      "57047"
+    ],
+    "x": -242.995,
+    "y": 11943.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "44983",
+    "links": [
+      "3685",
+      "55700"
+    ],
+    "x": -1870.73,
+    "y": 10427.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "45272",
+    "links": [
+      "10273",
+      "2847",
+      "42280"
+    ],
+    "x": 7.005,
+    "y": 11286.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "49696",
+    "links": [
+      "10273",
+      "24511"
+    ],
+    "x": 575.984,
+    "y": 11614.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_attributes",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "55700",
+    "links": [
+      "44983",
+      "54099"
+    ],
+    "x": -1646.71,
+    "y": 10651.0
+  }
+]

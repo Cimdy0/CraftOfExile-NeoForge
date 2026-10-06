@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed_with_channelling_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingspeed",
+    "id": "30896",
+    "links": [
+      "2653",
+      "49172"
+    ],
+    "x": -4671.03,
+    "y": -2912.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed_with_channelling_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingspeed",
+    "id": "49172",
+    "links": [
+      "30896",
+      "33730"
+    ],
+    "x": -4512.62,
+    "y": -2954.55
+  }
+]

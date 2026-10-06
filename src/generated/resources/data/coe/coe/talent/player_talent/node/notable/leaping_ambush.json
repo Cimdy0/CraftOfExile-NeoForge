@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_against_enemies_that_are_on_full_health",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "8531",
+    "links": [
+      "51534",
+      "59256"
+    ],
+    "x": -3273.57,
+    "y": -4571.19
+  }
+]

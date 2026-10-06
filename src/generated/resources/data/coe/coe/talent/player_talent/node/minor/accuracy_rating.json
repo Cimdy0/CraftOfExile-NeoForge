@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalowl",
+    "id": "60891",
+    "links": [
+      "53185",
+      "64990"
+    ],
+    "x": 10121.1,
+    "y": 1730.1
+  }
+]

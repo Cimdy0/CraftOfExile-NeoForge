@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/talisman/template/strength_intelligence",
+    "reqs": {
+      "int": 16.0,
+      "l": 16.0,
+      "str": 21.0
+    }
+  }
+}

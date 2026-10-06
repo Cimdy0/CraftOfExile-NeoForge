@@ -1,0 +1,40 @@
+{
+  "aliases": [
+    "Attribute",
+    "Attributes",
+    "属性"
+  ],
+  "description": [
+    [
+      "$[attribute]",
+      "分为",
+      "$[strength]",
+      "、",
+      "$[dexterity]",
+      "与",
+      "$[intelligence]",
+      "，可提供防御与进攻属性。"
+    ],
+    [
+      "$[strength]",
+      "提供",
+      "$[life]",
+      "，",
+      "$[dexterity]",
+      "提供",
+      "$[evasion]",
+      "，",
+      "$[intelligence]",
+      "提供",
+      "$[energy_shield]",
+      "与",
+      "$[mana]",
+      "。"
+    ]
+  ],
+  "id": "attribute",
+  "keys": [
+    "coe:keyword.attribute"
+  ],
+  "title": "@coe:keyword.attribute"
+}

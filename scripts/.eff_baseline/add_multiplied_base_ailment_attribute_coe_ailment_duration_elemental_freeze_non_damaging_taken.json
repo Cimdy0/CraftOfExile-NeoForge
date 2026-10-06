@@ -1,0 +1,12 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_duration",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "freeze",
+    "!taken",
+    "non_damaging",
+    "elemental",
+    "ailment"
+  ]
+}

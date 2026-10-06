@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:charm_charges_used",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "charm"
+  ]
+}

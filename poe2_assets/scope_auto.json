@@ -1,0 +1,50 @@
+{
+ "plan": [],
+ "skipped": [
+  {
+   "sid": "CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE_WITH_ATTACKS",
+   "tag": "-",
+   "why": "base EFF is not a ModifierStatEffect"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_WITH_CRITICAL_HITS",
+   "tag": "-",
+   "why": "base TagExpr uses not(...) -- cannot rebuild safely"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+   "tag": "-",
+   "why": "base TagExpr uses not(...) -- cannot rebuild safely"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS",
+   "tag": "-",
+   "why": "base TagExpr uses not(...) -- cannot rebuild safely"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+   "tag": "-",
+   "why": "base TagExpr uses not(...) -- cannot rebuild safely"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT_ON_TARGETS_THAT_ARE_NOT_POISONED",
+   "tag": "-",
+   "why": "base TagExpr uses not(...) -- cannot rebuild safely"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT_WITH_CRITICAL_HITS",
+   "tag": "-",
+   "why": "base TagExpr uses not(...) -- cannot rebuild safely"
+  },
+  {
+   "sid": "OF_DAMAGE_TAKEN_RECOUPED_AS_HEALTH_MANA_AND_ENERGY_SHIELD",
+   "tag": "-",
+   "why": "base EFF is not a ModifierStatEffect"
+  },
+  {
+   "sid": "OF_SKILL_MANA_COSTS_STAT_CONVERSION_TO_HEALTH_COSTS_DURING_ANY_HEALTH_FLASK_EFFECT",
+   "tag": "-",
+   "why": "base EFF is not a ModifierStatEffect"
+  }
+ ]
+}

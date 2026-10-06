@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:skills_have_chance_to_not_add_elemental_infusions_but_still_count_as_consuming_them",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnotable1",
+    "id": "24087",
+    "links": [
+      "33639"
+    ],
+    "x": -1165.53,
+    "y": -7676.31
+  }
+]

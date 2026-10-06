@@ -1,0 +1,43 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": 5.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(11.5, 15.5, 21.5, 27.5, 35.5, 43, 52.5, 62.5, 74, 87, 101.5, 117.5, 136, 157, 180, 206, 235.5, 268.5, 306, 348.5, 396, 450, 511.5, 581, 660, 749.5, 851, 967, 1098.5, 1248.5, 1420, 1616, 1840, 2097, 2391, 2728.5, 3116, 3562.5, 4077, 4669.5)",
+                "can_crit": 1.0,
+                "damage_type": "chaos"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_projectile": {
+            "ref": {
+              "ref": "coe:arrow",
+              "render": "coe:blue/coiling_bolts"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "bolt"
+  ]
+}

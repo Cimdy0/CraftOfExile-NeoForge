@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_comet",
+  "vars": {
+    "tier": 11.0
+  }
+}

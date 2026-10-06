@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:skills_have_chance_to_not_add_elemental_infusions_but_still_count_as_consuming_them",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "24060",
+    "links": [
+      "3091",
+      "51194"
+    ],
+    "x": -760.511,
+    "y": -7717.31
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:skills_have_chance_to_not_add_elemental_infusions_but_still_count_as_consuming_them",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "3091",
+    "links": [
+      "24060",
+      "8782"
+    ],
+    "x": -872.525,
+    "y": -7605.3
+  }
+]

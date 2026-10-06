@@ -1,0 +1,146 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_is_taken_from_mana_before_health",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage_blue",
+    "id": "49976",
+    "links": [
+      "47976",
+      "62936"
+    ],
+    "x": 7607.19,
+    "y": -6773.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_is_taken_from_mana_before_health",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkmanachakra",
+    "id": "50817",
+    "links": [
+      "4552",
+      "61355"
+    ],
+    "x": 6203.89,
+    "y": -5108.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_is_taken_from_mana_before_health",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkmanachakra",
+    "id": "61355",
+    "links": [
+      "29306",
+      "50817"
+    ],
+    "x": 6281.21,
+    "y": -5268.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_is_taken_from_mana_before_health",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage_blue",
+    "id": "62122",
+    "links": [
+      "4295",
+      "6748"
+    ],
+    "x": -3304.21,
+    "y": -8711.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_is_taken_from_mana_before_health",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage_blue",
+    "id": "62936",
+    "links": [
+      "49976",
+      "51891"
+    ],
+    "x": 7408.15,
+    "y": -6549.93
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_is_taken_from_mana_before_health",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage_blue",
+    "id": "6748",
+    "links": [
+      "48618",
+      "62122"
+    ],
+    "x": -3376.96,
+    "y": -8419.35
+  }
+]

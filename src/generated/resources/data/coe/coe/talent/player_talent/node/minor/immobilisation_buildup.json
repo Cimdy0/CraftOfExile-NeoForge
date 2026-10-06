@@ -1,0 +1,122 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_immobilisation_buildup_against_constructs",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_witchhunter_witchunternode",
+    "id": "11667",
+    "links": [
+      "48617",
+      "60085"
+    ],
+    "x": 1599.39,
+    "y": 10254.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_immobilisation_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "16786",
+    "links": [
+      "19001",
+      "20467"
+    ],
+    "x": 4661.73,
+    "y": 9346.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_immobilisation_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "19001",
+    "links": [
+      "16786",
+      "29899"
+    ],
+    "x": 4536.73,
+    "y": 9130.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_immobilisation_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "3365",
+    "links": [
+      "27853",
+      "59289"
+    ],
+    "x": 994.563,
+    "y": 4201.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_immobilisation_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "59289",
+    "links": [
+      "22532",
+      "3365"
+    ],
+    "x": 1037.01,
+    "y": 4042.72
+  }
+]

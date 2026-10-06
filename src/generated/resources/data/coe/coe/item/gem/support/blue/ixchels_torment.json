@@ -1,0 +1,23 @@
+{
+  "allow_type": [
+    "triggers"
+  ],
+  "effects": [
+    {
+      "coe:delivery_mod": {
+        "delivery": "area",
+        "params": {
+          "radius_multiplier": 1.4
+        }
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.2,
+  "max_level": 20.0,
+  "require": {
+    "intelligence": 5.0
+  },
+  "reservation_multiplier": 1.2,
+  "tag": "ixchels_torment"
+}

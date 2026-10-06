@@ -1,0 +1,6061 @@
+[
+ {
+  "line": 204,
+  "helper": "valueMod",
+  "sid": "ADD_ACCURACY",
+  "const": "ACCURACY",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_ACCURACY, AttributeRegister.ACCURACY, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 206,
+  "helper": "valueMod",
+  "sid": "ADD_AILMENT_CHANCE_BLEED",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "BLEED"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_AILMENT_CHANCE_BLEED, AttributeRegister.AILMENT_CHANCE, AttributeModifier.Operation.ADD_VALUE, StatTag.BLEED);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 208,
+  "helper": "valueMod",
+  "sid": "ADD_AILMENT_CHANCE_MAIM",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "MAIM"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_AILMENT_CHANCE_MAIM, AttributeRegister.AILMENT_CHANCE, AttributeModifier.Operation.ADD_VALUE, StatTag.MAIM);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 210,
+  "helper": "valueMod",
+  "sid": "ADD_AILMENT_CHANCE_POISON",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "POISON"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_AILMENT_CHANCE_POISON, AttributeRegister.AILMENT_CHANCE, AttributeModifier.Operation.ADD_VALUE, StatTag.POISON);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 224,
+  "helper": "valueMod",
+  "sid": "ADD_BLOCK_CHANCE",
+  "const": "BLOCK_CHANCE",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_BLOCK_CHANCE, AttributeRegister.BLOCK_CHANCE, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 226,
+  "helper": "valueMod",
+  "sid": "ADD_CAST_CRIT_DAMAGE",
+  "const": "CRIT_DAMAGE",
+  "tags": [
+   "SPELL",
+   "CRIT"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_CAST_CRIT_DAMAGE, AttributeRegister.CRIT_DAMAGE, AttributeModifier.Operation.ADD_VALUE, StatTag.SPELL, StatTag.CRIT);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 228,
+  "helper": "valueMod",
+  "sid": "ADD_CHAOS_DAMAGE",
+  "const": "ADDED_DAMAGE",
+  "tags": [
+   "CHAOS"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_CHAOS_DAMAGE, AttributeRegister.ADDED_DAMAGE, AttributeModifier.Operation.ADD_VALUE, StatTag.CHAOS);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 230,
+  "helper": "valueMod",
+  "sid": "ADD_CHAOS_RESISTANCE",
+  "const": "RESISTANCES",
+  "tags": [
+   "CHAOS"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_CHAOS_RESISTANCE, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.CHAOS);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 232,
+  "helper": "valueMod",
+  "sid": "ADD_COLD_DAMAGE",
+  "const": "ADDED_DAMAGE",
+  "tags": [
+   "COLD"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_COLD_DAMAGE, AttributeRegister.ADDED_DAMAGE, AttributeModifier.Operation.ADD_VALUE, StatTag.COLD);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 234,
+  "helper": "valueMod",
+  "sid": "ADD_COLD_RESISTANCE",
+  "const": "RESISTANCES",
+  "tags": [
+   "COLD"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_COLD_RESISTANCE, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.COLD);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 236,
+  "helper": "add",
+  "sid": "ADD_CRIT_CHANCE",
+  "const": "CRIT_CHANCE",
+  "tags": [
+   "ATTACK",
+   "CRIT"
+  ],
+  "raw": "add(map, StatIds.ADD_CRIT_CHANCE, AttributeRegister.CRIT_CHANCE, StatTag.ATTACK, StatTag.CRIT);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 238,
+  "helper": "add",
+  "sid": "ADD_CRIT_DAMAGE",
+  "const": "CRIT_DAMAGE",
+  "tags": [
+   "ATTACK",
+   "CRIT"
+  ],
+  "raw": "add(map, StatIds.ADD_CRIT_DAMAGE, AttributeRegister.CRIT_DAMAGE, StatTag.ATTACK, StatTag.CRIT);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 240,
+  "helper": "valueMod",
+  "sid": "ADD_DEXTERITY",
+  "const": "DEXTERITY",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_DEXTERITY, AttributeRegister.DEXTERITY, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 242,
+  "helper": "add",
+  "sid": "ADD_ELEMENTAL_DAMAGE",
+  "const": "ADDED_DAMAGE",
+  "tags": [
+   "ELEMENTAL"
+  ],
+  "raw": "add(map, StatIds.ADD_ELEMENTAL_DAMAGE, AttributeRegister.ADDED_DAMAGE, StatTag.ELEMENTAL);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 244,
+  "helper": "valueMod",
+  "sid": "ADD_ENERGY_RECHARGE",
+  "const": "ENERGY_RECHARGE",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_ENERGY_RECHARGE, AttributeRegister.ENERGY_RECHARGE, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:244:        valueMod(map, StatIds.ADD_ENERGY_RECHARGE, AttributeRegister.ENERGY_RECHARGE, AttributeModifier.Operation.ADD_VALUE);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:2124:                        new ModifierStatEffect(AttributeRegister.ENERGY_RECHARGE,"
+  ]
+ },
+ {
+  "line": 246,
+  "helper": "valueMod",
+  "sid": "ADD_EVASION",
+  "const": "EVASION",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_EVASION, AttributeRegister.EVASION, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 248,
+  "helper": "add",
+  "sid": "ADD_EXPOSURE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "EXPOSURE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "add(map, StatIds.ADD_EXPOSURE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.EXPOSURE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 250,
+  "helper": "valueMod",
+  "sid": "ADD_FIRE_DAMAGE",
+  "const": "ADDED_DAMAGE",
+  "tags": [
+   "FIRE"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_FIRE_DAMAGE, AttributeRegister.ADDED_DAMAGE, AttributeModifier.Operation.ADD_VALUE, StatTag.FIRE);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 253,
+  "helper": "valueMod",
+  "sid": "ADD_FIRE_RESISTANCE",
+  "const": "RESISTANCES",
+  "tags": [
+   "FIRE"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_FIRE_RESISTANCE, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.FIRE);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 255,
+  "helper": "valueMod",
+  "sid": "ADD_FOUND_ITEM_NUMBER",
+  "const": "FOUND_ITEM_NUMBER",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_FOUND_ITEM_NUMBER, AttributeRegister.FOUND_ITEM_NUMBER, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 258,
+  "helper": "valueMod",
+  "sid": "ADD_FOUND_ITEM_RARITY",
+  "const": "FOUND_ITEM_RARITY",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_FOUND_ITEM_RARITY, AttributeRegister.FOUND_ITEM_RARITY, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 260,
+  "helper": "valueMod",
+  "sid": "ADD_HEALTH_REGENERATION_RATE",
+  "const": "REGENERATION_RATE",
+  "tags": [
+   "HEALTH",
+   "REGEN"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_HEALTH_REGENERATION_RATE, AttributeRegister.REGENERATION_RATE, AttributeModifier.Operation.ADD_VALUE, StatTag.HEALTH, StatTag.REGEN);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 262,
+  "helper": "valueMod",
+  "sid": "ADD_INTELLIGENCE",
+  "const": "INTELLIGENCE",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_INTELLIGENCE, AttributeRegister.INTELLIGENCE, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 264,
+  "helper": "valueMod",
+  "sid": "ADD_LAUNCH_ADDITIONAL_PROJECTILE_BOLT",
+  "const": "LAUNCH_ADDITIONAL_PROJECTILE",
+  "tags": [
+   "PROJECTILE",
+   "ARROW",
+   "CROSSBOW"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_LAUNCH_ADDITIONAL_PROJECTILE_BOLT, AttributeRegister.LAUNCH_ADDITIONAL_PROJECTILE, AttributeModifier.Operation.ADD_VALUE, StatTag.PROJECTILE, StatTag.ARROW, StatTag.CROSSBOW);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 267,
+  "helper": "valueMod",
+  "sid": "ADD_LAUNCH_ADDITIONAL_PROJECTILE_BOW",
+  "const": "LAUNCH_ADDITIONAL_PROJECTILE",
+  "tags": [
+   "PROJECTILE",
+   "ARROW",
+   "BOW"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_LAUNCH_ADDITIONAL_PROJECTILE_BOW, AttributeRegister.LAUNCH_ADDITIONAL_PROJECTILE, AttributeModifier.Operation.ADD_VALUE, StatTag.PROJECTILE, StatTag.ARROW, StatTag.BOW);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 269,
+  "helper": "valueMod",
+  "sid": "ADD_LIGHT_DAMAGE",
+  "const": "ADDED_DAMAGE",
+  "tags": [
+   "LIGHTNING"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_LIGHT_DAMAGE, AttributeRegister.ADDED_DAMAGE, AttributeModifier.Operation.ADD_VALUE, StatTag.LIGHTNING);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 272,
+  "helper": "valueMod",
+  "sid": "ADD_LIGHTNING_RESISTANCE",
+  "const": "RESISTANCES",
+  "tags": [
+   "LIGHTNING"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_LIGHTNING_RESISTANCE, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.LIGHTNING);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 274,
+  "helper": "add",
+  "sid": "ADD_MAX_BANNER",
+  "const": "MAX_BANNER",
+  "tags": [],
+  "raw": "add(map, StatIds.ADD_MAX_BANNER, AttributeRegister.MAX_BANNER);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:274:        add(map, StatIds.ADD_MAX_BANNER, AttributeRegister.MAX_BANNER);"
+  ]
+ },
+ {
+  "line": 277,
+  "helper": "add",
+  "sid": "ADD_BANNER_LINGER",
+  "const": "BANNER_LINGER",
+  "tags": [
+   "BANNER",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "add(map, StatIds.ADD_BANNER_LINGER, AttributeRegister.BANNER_LINGER, StatTag.BANNER, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/skill/phase/action/BannerAction.java:78:                + StatEngine.fold(caster, AttributeRegister.BANNER_LINGER, 0.0);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:277:        add(map, StatIds.ADD_BANNER_LINGER, AttributeRegister.BANNER_LINGER, StatTag.BANNER, StatTag.not(StatTag.TAKEN));"
+  ]
+ },
+ {
+  "line": 279,
+  "helper": "valueMod",
+  "sid": "ADD_MAX_CHAOS_RESISTANCE",
+  "const": "MAX_RESISTANCES",
+  "tags": [
+   "CHAOS"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_MAX_CHAOS_RESISTANCE, AttributeRegister.MAX_RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.CHAOS);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 281,
+  "helper": "valueMod",
+  "sid": "ADD_MAX_COLD_RESISTANCE",
+  "const": "MAX_RESISTANCES",
+  "tags": [
+   "COLD"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_MAX_COLD_RESISTANCE, AttributeRegister.MAX_RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.COLD);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 283,
+  "helper": "add",
+  "sid": "ADD_MAX_ENDURANCE",
+  "const": "MAX_ENDURANCE_CHARGES",
+  "tags": [
+   "ENDURANCE"
+  ],
+  "raw": "add(map, StatIds.ADD_MAX_ENDURANCE, AttributeRegister.MAX_ENDURANCE_CHARGES, StatTag.ENDURANCE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/status/registry/charge/ChargedState.java:47:            case ENDURANCE -> AttributeRegister.MAX_ENDURANCE_CHARGES;",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:283:        add(map, StatIds.ADD_MAX_ENDURANCE, AttributeRegister.MAX_ENDURANCE_CHARGES, StatTag.ENDURANCE);"
+  ]
+ },
+ {
+  "line": 285,
+  "helper": "valueMod",
+  "sid": "ADD_MAX_ENERGY_SHIELD",
+  "const": "MAX_ENERGY_SHIELD",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_MAX_ENERGY_SHIELD, AttributeRegister.MAX_ENERGY_SHIELD, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 287,
+  "helper": "valueMod",
+  "sid": "ADD_MAX_FIRE_RESISTANCE",
+  "const": "MAX_RESISTANCES",
+  "tags": [
+   "FIRE"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_MAX_FIRE_RESISTANCE, AttributeRegister.MAX_RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.FIRE);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 289,
+  "helper": "add",
+  "sid": "ADD_MAX_FISSURE",
+  "const": "MAX_FISSURE",
+  "tags": [],
+  "raw": "add(map, StatIds.ADD_MAX_FISSURE, AttributeRegister.MAX_FISSURE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:289:        add(map, StatIds.ADD_MAX_FISSURE, AttributeRegister.MAX_FISSURE);"
+  ]
+ },
+ {
+  "line": 291,
+  "helper": "add",
+  "sid": "ADD_MAX_FRENZY",
+  "const": "MAX_FRENZY_CHARGES",
+  "tags": [
+   "FRENZY"
+  ],
+  "raw": "add(map, StatIds.ADD_MAX_FRENZY, AttributeRegister.MAX_FRENZY_CHARGES, StatTag.FRENZY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/status/registry/charge/ChargedState.java:46:            case FRENZY -> AttributeRegister.MAX_FRENZY_CHARGES;",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:291:        add(map, StatIds.ADD_MAX_FRENZY, AttributeRegister.MAX_FRENZY_CHARGES, StatTag.FRENZY);"
+  ]
+ },
+ {
+  "line": 296,
+  "helper": "valueMod",
+  "sid": "ADD_MAX_HEALTH_REGENERATION",
+  "const": "MAX_REGENERATION",
+  "tags": [
+   "HEALTH",
+   "REGEN"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_MAX_HEALTH_REGENERATION, AttributeRegister.MAX_REGENERATION, AttributeModifier.Operation.ADD_VALUE, StatTag.HEALTH, StatTag.REGEN);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/entity/EntityGen.java:90:        registerTaggedMod(bootstrap, \"regenerates_life\", AttributeRegister.MAX_REGENERATION, 0.02,",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:296:        valueMod(map, StatIds.ADD_MAX_HEALTH_REGENERATION, AttributeRegister.MAX_REGENERATION, AttributeModifier.Operation.ADD_VALUE, StatTag.HEALTH, StatTag.REGEN);"
+  ]
+ },
+ {
+  "line": 298,
+  "helper": "valueMod",
+  "sid": "ADD_MAX_LIGHTNING_RESISTANCE",
+  "const": "MAX_RESISTANCES",
+  "tags": [
+   "LIGHTNING"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_MAX_LIGHTNING_RESISTANCE, AttributeRegister.MAX_RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.LIGHTNING);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 300,
+  "helper": "valueMod",
+  "sid": "ADD_MAX_MANA",
+  "const": "MAX_MANA",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_MAX_MANA, AttributeRegister.MAX_MANA, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 302,
+  "helper": "add",
+  "sid": "ADD_MAX_MINION",
+  "const": "MAX_MINION",
+  "tags": [],
+  "raw": "add(map, StatIds.ADD_MAX_MINION, AttributeRegister.MAX_MINION);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:302:        add(map, StatIds.ADD_MAX_MINION, AttributeRegister.MAX_MINION);"
+  ]
+ },
+ {
+  "line": 304,
+  "helper": "add",
+  "sid": "ADD_MAX_ORB",
+  "const": "MAX_ORB",
+  "tags": [],
+  "raw": "add(map, StatIds.ADD_MAX_ORB, AttributeRegister.MAX_ORB);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:304:        add(map, StatIds.ADD_MAX_ORB, AttributeRegister.MAX_ORB);"
+  ]
+ },
+ {
+  "line": 306,
+  "helper": "add",
+  "sid": "ADD_MAX_POWER",
+  "const": "MAX_POWER_CHARGES",
+  "tags": [
+   "POWER"
+  ],
+  "raw": "add(map, StatIds.ADD_MAX_POWER, AttributeRegister.MAX_POWER_CHARGES, StatTag.POWER);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/status/registry/charge/ChargedState.java:45:            case POWER -> AttributeRegister.MAX_POWER_CHARGES;",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:306:        add(map, StatIds.ADD_MAX_POWER, AttributeRegister.MAX_POWER_CHARGES, StatTag.POWER);"
+  ]
+ },
+ {
+  "line": 308,
+  "helper": "add",
+  "sid": "TO_MAX_RAGE",
+  "const": "MAX_RAGE",
+  "tags": [],
+  "raw": "add(map, StatIds.TO_MAX_RAGE, AttributeRegister.MAX_RAGE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 310,
+  "helper": "add",
+  "sid": "ADD_MAX_RESISTANCES",
+  "const": "MAX_RESISTANCES",
+  "tags": [],
+  "raw": "add(map, StatIds.ADD_MAX_RESISTANCES, AttributeRegister.MAX_RESISTANCES);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 312,
+  "helper": "valueMod",
+  "sid": "ADD_MAX_SPIRIT",
+  "const": "MAX_SPIRIT",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_MAX_SPIRIT, AttributeRegister.MAX_SPIRIT, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 315,
+  "helper": "more",
+  "sid": "INCREASED_SPIRIT",
+  "const": "MAX_SPIRIT",
+  "tags": [],
+  "raw": "more(map, StatIds.INCREASED_SPIRIT, AttributeRegister.MAX_SPIRIT);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 318,
+  "helper": "add",
+  "sid": "ADD_MAX_TOTEM",
+  "const": "MAX_TOTEM",
+  "tags": [],
+  "raw": "add(map, StatIds.ADD_MAX_TOTEM, AttributeRegister.MAX_TOTEM);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:318:        add(map, StatIds.ADD_MAX_TOTEM, AttributeRegister.MAX_TOTEM);"
+  ]
+ },
+ {
+  "line": 320,
+  "helper": "add",
+  "sid": "ADD_PHYSICAL_DAMAGE",
+  "const": "ADDED_DAMAGE",
+  "tags": [
+   "PHYSICAL"
+  ],
+  "raw": "add(map, StatIds.ADD_PHYSICAL_DAMAGE, AttributeRegister.ADDED_DAMAGE, StatTag.PHYSICAL);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 322,
+  "helper": "valueMod",
+  "sid": "ADD_PROJECTILE_PIERCE",
+  "const": "PROJECTILE_PIERCE",
+  "tags": [
+   "PROJECTILE"
+  ],
+  "raw": "valueMod(map, StatIds.ADD_PROJECTILE_PIERCE, AttributeRegister.PROJECTILE_PIERCE, AttributeModifier.Operation.ADD_VALUE, StatTag.PROJECTILE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:322:        valueMod(map, StatIds.ADD_PROJECTILE_PIERCE, AttributeRegister.PROJECTILE_PIERCE, AttributeModifier.Operation.ADD_VALUE, StatTag.PROJECTILE);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/mixin/attribute/projectile/ArrowPiercing.java:47:        int i = (int) DamageHelper.readInScopePublic(owner, Set.of(StatTag.PROJECTILE, StatTag.ARROW), AttributeRegister.PROJECTILE_PIERCE);"
+  ]
+ },
+ {
+  "line": 324,
+  "helper": "add",
+  "sid": "ADD_PROJECTILE_PIERCE_CHANCE",
+  "const": "PROJECTILE_PIERCE_CHANCE",
+  "tags": [
+   "PROJECTILE"
+  ],
+  "raw": "add(map, StatIds.ADD_PROJECTILE_PIERCE_CHANCE, AttributeRegister.PROJECTILE_PIERCE_CHANCE, StatTag.PROJECTILE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 328,
+  "helper": "chance",
+  "sid": "SURPASSING_CHANCE_TO_GAIN_A_PUPPET_MASTER_STACK_WHENEVER_YOU_USE_A_COMMAND_SKILL",
+  "const": "PUPPET_MASTER_CHANCE",
+  "tags": [
+   "puppet_master"
+  ],
+  "raw": "chance(map, StatIds.SURPASSING_CHANCE_TO_GAIN_A_PUPPET_MASTER_STACK_WHENEVER_YOU_USE_A_COMMAND_SKILL, AttributeRegister.PUPPET_MASTER_CHANCE, \"puppet_master\");",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:328:        chance(map, StatIds.X_SURPASSING_CHANCE_TO_GAIN_A_PUPPET_MASTER_STACK_WHENEVER_YOU_USE_A_COMMAND_SKILL, AttributeRegister.PUPPET_MASTER_CHANCE, \"puppet_master\");",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/event/SkillEvent.java:166:        double chance = player.getAttributeValue(AttributeRegister.PUPPET_MASTER_CHANCE);"
+  ]
+ },
+ {
+  "line": 329,
+  "helper": "add",
+  "sid": "INCREASED_EFFECT_OF_PUPPET_MASTER",
+  "const": "PUPPET_MASTER_EFFECT",
+  "tags": [
+   "puppet_master"
+  ],
+  "raw": "add(map, StatIds.INCREASED_EFFECT_OF_PUPPET_MASTER, AttributeRegister.PUPPET_MASTER_EFFECT, \"puppet_master\");",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/status/registry/buff/BuffStatusTypes.java:49:                double effect = 1.0 + StatEngine.fold(living, AttributeRegister.PUPPET_MASTER_EFFECT, 0.0);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:329:        add(map, StatIds.X_INCREASED_EFFECT_OF_PUPPET_MASTER, AttributeRegister.PUPPET_MASTER_EFFECT, \"puppet_master\");"
+  ]
+ },
+ {
+  "line": 330,
+  "helper": "add",
+  "sid": "INCREASED_DURATION_OF_PUPPET_MASTER",
+  "const": "PUPPET_MASTER_DURATION",
+  "tags": [
+   "puppet_master"
+  ],
+  "raw": "add(map, StatIds.INCREASED_DURATION_OF_PUPPET_MASTER, AttributeRegister.PUPPET_MASTER_DURATION, \"puppet_master\");",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:330:        add(map, StatIds.X_INCREASED_EFFECT_OF_PUPPET_MASTER, AttributeRegister.PUPPET_MASTER_DURATION, \"puppet_master\");",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/event/SkillEvent.java:169:            double durMul = 1.0 + Math.max(0.0, player.getAttributeValue(AttributeRegister.PUPPET_MASTER_DURATION));"
+  ]
+ },
+ {
+  "line": 333,
+  "helper": "valueMod",
+  "sid": "ADD_STRENGTH",
+  "const": "STRENGTH",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.ADD_STRENGTH, AttributeRegister.STRENGTH, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 376,
+  "helper": "inc",
+  "sid": "INCREASED_BALLISTA_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "BALLISTA"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BALLISTA_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.BALLISTA);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 378,
+  "helper": "inc",
+  "sid": "INCREASED_DAMAGE_WITH_BOWS",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "BOW"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DAMAGE_WITH_BOWS, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.BOW);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 384,
+  "helper": "chance",
+  "sid": "CHANCE_CHILL",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "CHILL"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_CHILL, AttributeRegister.AILMENT_CHANCE, StatTag.CHILL);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 456,
+  "helper": "chance",
+  "sid": "CHANCE_DODGE",
+  "const": "DODGE_CHANCE",
+  "tags": [
+   "DODGE"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_DODGE, AttributeRegister.DODGE_CHANCE, StatTag.DODGE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:455:        chance(map, StatIds.CHANCE_DODGE, AttributeRegister.DODGE_CHANCE, StatTag.DODGE);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/event/DamagePipeline.java:472:            double dodgeChance = DamageHelper.readInScopePublic(living, Set.of(StatTag.DODGE), AttributeRegister.DODGE_CHANCE);"
+  ]
+ },
+ {
+  "line": 459,
+  "helper": "chance",
+  "sid": "CHANCE_TO_CREATE_AN_ADDITIONAL_REMNANT",
+  "const": "REMNANT_EXTRA_CHANCE",
+  "tags": [
+   "REMNANT"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_TO_CREATE_AN_ADDITIONAL_REMNANT, AttributeRegister.REMNANT_EXTRA_CHANCE, StatTag.REMNANT);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:458:        chance(map, StatIds.X_CHANCE_TO_CREATE_AN_ADDITIONAL_REMNANT, AttributeRegister.REMNANT_EXTRA_CHANCE);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/helper/RemnantState.java:52:        double extra = player.getAttributeValue(AttributeRegister.REMNANT_EXTRA_CHANCE);"
+  ]
+ },
+ {
+  "line": 461,
+  "helper": "chance",
+  "sid": "CHANCE_FREEZE",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "FREEZE"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_FREEZE, AttributeRegister.AILMENT_CHANCE, StatTag.FREEZE);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 467,
+  "helper": "chance",
+  "sid": "CHANCE_IGNITE",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "IGNITE"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_IGNITE, AttributeRegister.AILMENT_CHANCE, StatTag.IGNITE);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 483,
+  "helper": "chance",
+  "sid": "INCREASED_CHANCE_TO_SHOCK",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "SHOCK"
+  ],
+  "raw": "chance(map, StatIds.INCREASED_CHANCE_TO_SHOCK, AttributeRegister.AILMENT_CHANCE, StatTag.SHOCK);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 543,
+  "helper": "inc",
+  "sid": "INCREASED_AREA_OF_EFFECT_OF_CURSES",
+  "const": "CAST_SPEED",
+  "tags": [
+   "CURSE",
+   "AREA"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_AREA_OF_EFFECT_OF_CURSES, AttributeRegister.CAST_SPEED, StatTag.CURSE, StatTag.AREA);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 647,
+  "helper": "inc",
+  "sid": "FLASK_MANA_RECOVERY",
+  "const": "FLASK_RECOVERY_RATE",
+  "tags": [
+   "MANA",
+   "FLASK"
+  ],
+  "raw": "inc(map, StatIds.FLASK_MANA_RECOVERY, AttributeRegister.FLASK_RECOVERY_RATE, StatTag.MANA, StatTag.FLASK);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 649,
+  "helper": "chance",
+  "sid": "FLASK_NO_CONSUME",
+  "const": "FLASK_NO_CONSUME_CHANCE",
+  "tags": [
+   "FLASK"
+  ],
+  "raw": "chance(map, StatIds.FLASK_NO_CONSUME, AttributeRegister.FLASK_NO_CONSUME_CHANCE, StatTag.FLASK);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 650,
+  "helper": "inc",
+  "sid": "SLAM_SKILLS_YOU_USE_YOURSELF_HAVE_INCREASED_AFTERSHOCK_AREA_OF_EFFECT",
+  "const": "AFTERSHOCK_AREA",
+  "tags": [
+   "aftershock"
+  ],
+  "raw": "inc(map, StatIds.SLAM_SKILLS_YOU_USE_YOURSELF_HAVE_INCREASED_AFTERSHOCK_AREA_OF_EFFECT, AttributeRegister.AFTERSHOCK_AREA, \"aftershock\");",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/skill/phase/delivery/runtime/AreaDeliveryExecutor.java:129:                    double areaMult = lc.getAttributeValue(AttributeRegister.AFTERSHOCK_AREA);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:629:        inc(map, StatIds.SLAM_SKILLS_YOU_USE_YOURSELF_HAVE_X_INCREASED_AFTERSHOCK_AREA_OF_EFFECT, AttributeRegister.AFTERSHOCK_AREA, \"aftershock\");"
+  ]
+ },
+ {
+  "line": 728,
+  "helper": "inc",
+  "sid": "GRENADE_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "GRENADE"
+  ],
+  "raw": "inc(map, StatIds.GRENADE_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.GRENADE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 730,
+  "helper": "inc",
+  "sid": "HAZARD_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "HAZARD"
+  ],
+  "raw": "inc(map, StatIds.HAZARD_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.HAZARD);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 732,
+  "helper": "inc",
+  "sid": "HERALD_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "HERALD"
+  ],
+  "raw": "inc(map, StatIds.HERALD_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.HERALD);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 751,
+  "helper": "valueMod",
+  "sid": "INC_ACCURACY",
+  "const": "ACCURACY",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.INC_ACCURACY, AttributeRegister.ACCURACY, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 753,
+  "helper": "inc",
+  "sid": "INCREASED_FREEZE_BUILDUP_WITH_EMPOWERED_ATTACKS",
+  "const": "AILMENT_BUILDUP",
+  "tags": [
+   "AILMENT"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_FREEZE_BUILDUP_WITH_EMPOWERED_ATTACKS, AttributeRegister.AILMENT_BUILDUP, StatTag.AILMENT);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 755,
+  "helper": "pctAdd",
+  "sid": "INC_AILMENT_CHANCE",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "AILMENT"
+  ],
+  "raw": "pctAdd(map, StatIds.INC_AILMENT_CHANCE, AttributeRegister.AILMENT_CHANCE, StatTag.AILMENT);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 759,
+  "helper": "pctAdd",
+  "sid": "ATTACKS_WITH_ONE_HANDED_MARTIAL_WEAPON_HAVE_INCREASED_CHANCE_TO_INFLICT_AILMENTS",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "AILMENT",
+   "ONE_HANDED"
+  ],
+  "raw": "pctAdd(map, StatIds.ATTACKS_WITH_ONE_HANDED_MARTIAL_WEAPON_HAVE_INCREASED_CHANCE_TO_INFLICT_AILMENTS, AttributeRegister.AILMENT_CHANCE, StatTag.AILMENT, StatTag.ONE_HANDED);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 761,
+  "helper": "valueMod",
+  "sid": "INC_AILMENT_DAMAGE_RATE_BLEED",
+  "const": "AILMENT_DAMAGE_RATE",
+  "tags": [
+   "BLEED"
+  ],
+  "raw": "valueMod(map, StatIds.INC_AILMENT_DAMAGE_RATE_BLEED, AttributeRegister.AILMENT_DAMAGE_RATE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.BLEED);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 763,
+  "helper": "valueMod",
+  "sid": "INC_AILMENT_DAMAGE_RATE_POISON",
+  "const": "AILMENT_DAMAGE_RATE",
+  "tags": [
+   "POISON"
+  ],
+  "raw": "valueMod(map, StatIds.INC_AILMENT_DAMAGE_RATE_POISON, AttributeRegister.AILMENT_DAMAGE_RATE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.POISON);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 765,
+  "helper": "inc",
+  "sid": "INC_AILMENT_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "AILMENT",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_AILMENT_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.AILMENT, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 770,
+  "helper": "vsExposed",
+  "sid": "INC_AILMENT_DURATION_VS_EXPOSED_FIRE",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "AILMENT",
+   "FIRE"
+  ],
+  "raw": "vsExposed(map, StatIds.INC_AILMENT_DURATION_VS_EXPOSED_FIRE, DebuffStatusTypes.EXPOSURE_FIRE.id, AttributeRegister.AILMENT_DURATION, StatTag.AILMENT, StatTag.FIRE);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 771,
+  "helper": "vsExposed",
+  "sid": "INC_AILMENT_DURATION_VS_EXPOSED_COLD",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "AILMENT",
+   "COLD"
+  ],
+  "raw": "vsExposed(map, StatIds.INC_AILMENT_DURATION_VS_EXPOSED_COLD, DebuffStatusTypes.EXPOSURE_COLD.id, AttributeRegister.AILMENT_DURATION, StatTag.AILMENT, StatTag.COLD);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 772,
+  "helper": "vsExposed",
+  "sid": "INC_AILMENT_DURATION_VS_EXPOSED_LIGHTNING",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "AILMENT",
+   "LIGHTNING"
+  ],
+  "raw": "vsExposed(map, StatIds.INC_AILMENT_DURATION_VS_EXPOSED_LIGHTNING, DebuffStatusTypes.EXPOSURE_LIGHTNING.id, AttributeRegister.AILMENT_DURATION, StatTag.AILMENT, StatTag.LIGHTNING);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 775,
+  "helper": "vsExposed",
+  "sid": "INC_AILMENT_CHANCE_VS_EXPOSED_FIRE",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "AILMENT",
+   "FIRE"
+  ],
+  "raw": "vsExposed(map, StatIds.INC_AILMENT_CHANCE_VS_EXPOSED_FIRE, DebuffStatusTypes.EXPOSURE_FIRE.id, AttributeRegister.AILMENT_CHANCE, AttributeModifier.Operation.ADD_VALUE, StatTag.AILMENT, StatTag.FIRE);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 776,
+  "helper": "vsExposed",
+  "sid": "INC_AILMENT_CHANCE_VS_EXPOSED_COLD",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "AILMENT",
+   "COLD"
+  ],
+  "raw": "vsExposed(map, StatIds.INC_AILMENT_CHANCE_VS_EXPOSED_COLD, DebuffStatusTypes.EXPOSURE_COLD.id, AttributeRegister.AILMENT_CHANCE, AttributeModifier.Operation.ADD_VALUE, StatTag.AILMENT, StatTag.COLD);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 777,
+  "helper": "vsExposed",
+  "sid": "INC_AILMENT_CHANCE_VS_EXPOSED_LIGHTNING",
+  "const": "AILMENT_CHANCE",
+  "tags": [
+   "AILMENT",
+   "LIGHTNING"
+  ],
+  "raw": "vsExposed(map, StatIds.INC_AILMENT_CHANCE_VS_EXPOSED_LIGHTNING, DebuffStatusTypes.EXPOSURE_LIGHTNING.id, AttributeRegister.AILMENT_CHANCE, AttributeModifier.Operation.ADD_VALUE, StatTag.AILMENT, StatTag.LIGHTNING);",
+  "const_wc": 12,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 780,
+  "helper": "valueMod",
+  "sid": "INC_AILMENT_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "AILMENT",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_AILMENT_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.AILMENT, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 783,
+  "helper": "valueMod",
+  "sid": "INC_SHOCK_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "SHOCK",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_SHOCK_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.SHOCK, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 784,
+  "helper": "valueMod",
+  "sid": "INCREASED_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "CHILL",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INCREASED_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.CHILL, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 785,
+  "helper": "valueMod",
+  "sid": "INC_POISON_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "POISON",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_POISON_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.POISON, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 787,
+  "helper": "valueMod",
+  "sid": "INCREASED_IGNITE_BUFF_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "IGNITE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INCREASED_IGNITE_BUFF_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.IGNITE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 790,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_EFFECT_OF_ARCANE_SURGE_ON_YOU",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "ARCANE_SURGE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_EFFECT_OF_ARCANE_SURGE_ON_YOU, AttributeRegister.AILMENT_MAGNITUDE, StatTag.ARCANE_SURGE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 792,
+  "helper": "inc",
+  "sid": "INCREASED_ARCHON_BUFF_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "ARCHON",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_ARCHON_BUFF_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.ARCHON, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 794,
+  "helper": "inc",
+  "sid": "INCREASED_ATTACK_AREA_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "ATTACK",
+   "AREA"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_ATTACK_AREA_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.ATTACK, StatTag.AREA);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 800,
+  "helper": "inc",
+  "sid": "INCREASED_AREA_OF_EFFECT_FOR_ATTACKS",
+  "const": "AREA_OF_EFFECT",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_AREA_OF_EFFECT_FOR_ATTACKS, AttributeRegister.AREA_OF_EFFECT);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 815,
+  "helper": "inc",
+  "sid": "INC_ATTACK_ELEMENTAL_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "ELEMENTAL",
+   "ATTACK"
+  ],
+  "raw": "inc(map, StatIds.INC_ATTACK_ELEMENTAL_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.ELEMENTAL, StatTag.ATTACK);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 821,
+  "helper": "inc",
+  "sid": "BANNER_SKILLS_HAVE_INCREASED_AURA_BUFF_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "AURA",
+   "BANNER",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.BANNER_SKILLS_HAVE_INCREASED_AURA_BUFF_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.AURA, StatTag.BANNER, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 823,
+  "helper": "inc",
+  "sid": "BANNER_SKILLS_HAVE_INCREASED_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "BANNER",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.BANNER_SKILLS_HAVE_INCREASED_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.BANNER, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 825,
+  "helper": "inc",
+  "sid": "INC_BEAST_AILMENT_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "BEAST",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_BEAST_AILMENT_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.BEAST, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 832,
+  "helper": "inc",
+  "sid": "INC_BLEED_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "BLEED",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_BLEED_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.BLEED, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 835,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "TAKEN",
+   "AILMENT",
+   "BLEED"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU, AttributeRegister.AILMENT_MAGNITUDE, StatTag.TAKEN, StatTag.AILMENT, StatTag.BLEED);",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 838,
+  "helper": "valueMod",
+  "sid": "INC_BLEEDING_DURATION_TAKEN",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "TAKEN",
+   "BLEED",
+   "AILMENT"
+  ],
+  "raw": "valueMod(map, StatIds.INC_BLEEDING_DURATION_TAKEN, AttributeRegister.AILMENT_DURATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.TAKEN, StatTag.BLEED, StatTag.AILMENT);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 840,
+  "helper": "inc",
+  "sid": "INCREASED_BLIND_EFFECT",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "BLIND",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BLIND_EFFECT, AttributeRegister.AILMENT_MAGNITUDE, StatTag.BLIND, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 842,
+  "helper": "pctAdd",
+  "sid": "INC_BLOCK_CHANCE",
+  "const": "BLOCK_CHANCE",
+  "tags": [],
+  "raw": "pctAdd(map, StatIds.INC_BLOCK_CHANCE, AttributeRegister.BLOCK_CHANCE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 844,
+  "helper": "inc",
+  "sid": "INCREASED_BOLT_SPEED",
+  "const": "PROJECTILE_SPEED",
+  "tags": [
+   "BOLT"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BOLT_SPEED, AttributeRegister.PROJECTILE_SPEED, StatTag.BOLT);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 848,
+  "helper": "inc",
+  "sid": "INC_BUFF_EFFECT_TAKEN",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "AURA",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_BUFF_EFFECT_TAKEN, AttributeRegister.AILMENT_MAGNITUDE, StatTag.AURA, StatTag.TAKEN);",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 852,
+  "helper": "valueMod",
+  "sid": "INC_BUFF_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "AURA",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_BUFF_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.AURA, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 854,
+  "helper": "inc",
+  "sid": "INCREASED_CAST_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_CAST_SPEED, AttributeRegister.CAST_SPEED);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 857,
+  "helper": "inc",
+  "sid": "INCREASED_SKILL_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_SKILL_SPEED, AttributeRegister.CAST_SPEED);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 864,
+  "helper": "valueMod",
+  "sid": "INC_CHAOS_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "CHAOS"
+  ],
+  "raw": "valueMod(map, StatIds.INC_CHAOS_DAMAGE, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.DAMAGE, StatTag.CHAOS);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 866,
+  "helper": "pctAdd",
+  "sid": "TO_CHAOS_RESISTANCE_2",
+  "const": "RESISTANCES",
+  "tags": [
+   "CHAOS"
+  ],
+  "raw": "pctAdd(map, StatIds.TO_CHAOS_RESISTANCE_2, AttributeRegister.RESISTANCES, StatTag.CHAOS);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 868,
+  "helper": "inc",
+  "sid": "INCREASED_FRENZY_CHARGE_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "CHARGE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_FRENZY_CHARGE_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.CHARGE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 870,
+  "helper": "inc",
+  "sid": "INCREASED_CHARM_CHARGES_GAIN",
+  "const": "CHARM_CHARGES_GAINED",
+  "tags": [
+   "CHARM"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_CHARM_CHARGES_GAIN, AttributeRegister.CHARM_CHARGES_GAINED, StatTag.CHARM);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:849:        inc(map, StatIds.X_INCREASED_CHARM_CHARGES_GAIN, AttributeRegister.CHARM_CHARGES_GAINED, StatTag.CHARM);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/item/charm/CharmEngine.java:143:                player, Set.of(StatTag.CHARM), AttributeRegister.CHARM_CHARGES_GAINED);"
+  ]
+ },
+ {
+  "line": 872,
+  "helper": "inc",
+  "sid": "INC_CHARM_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "CHARM",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_CHARM_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.CHARM, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 874,
+  "helper": "inc",
+  "sid": "INC_CHARM_EFFECT",
+  "const": "CHARM_EFFECT",
+  "tags": [
+   "CHARM"
+  ],
+  "raw": "inc(map, StatIds.INC_CHARM_EFFECT, AttributeRegister.CHARM_EFFECT, StatTag.CHARM);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/status/registry/charm/CharmStatusTypes.java:33:        return DamageHelper.readInScopePublic(living, Set.of(StatTag.CHARM), AttributeRegister.CHARM_EFFECT);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:853:        inc(map, StatIds.INC_CHARM_EFFECT, AttributeRegister.CHARM_EFFECT, StatTag.CHARM);"
+  ]
+ },
+ {
+  "line": 877,
+  "helper": "inc",
+  "sid": "INC_FLASK_MANA_RECOVERY",
+  "const": "FLASK_RECOVERY_RATE",
+  "tags": [
+   "MANA",
+   "FLASK"
+  ],
+  "raw": "inc(map, StatIds.INC_FLASK_MANA_RECOVERY, AttributeRegister.FLASK_RECOVERY_RATE, StatTag.MANA, StatTag.FLASK);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 878,
+  "helper": "inc",
+  "sid": "INCREASED_CHARM_CHARGES_USED",
+  "const": "CHARM_CHARGES_USED",
+  "tags": [
+   "CHARM"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_CHARM_CHARGES_USED, AttributeRegister.CHARM_CHARGES_USED, StatTag.CHARM);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:857:        inc(map, StatIds.X_INCREASED_CHARM_CHARGES_USED, AttributeRegister.CHARM_CHARGES_USED, StatTag.CHARM);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/item/charm/CharmEngine.java:166:                player, Set.of(StatTag.CHARM), AttributeRegister.CHARM_CHARGES_USED);"
+  ]
+ },
+ {
+  "line": 880,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_EFFECT_OF_CURSES_ON_YOU",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "CURSE",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_EFFECT_OF_CURSES_ON_YOU, AttributeRegister.AILMENT_MAGNITUDE, StatTag.CURSE, StatTag.TAKEN);",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 881,
+  "helper": "inc",
+  "sid": "INC_AURA_MAGNITUDE",
+  "const": "AURA_MAGNITUDE",
+  "tags": [
+   "AURA"
+  ],
+  "raw": "inc(map, StatIds.INC_AURA_MAGNITUDE, AttributeRegister.AURA_MAGNITUDE, StatTag.AURA);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:859:        inc(map, StatIds.INC_AURA_MAGNITUDE, AttributeRegister.AURA_MAGNITUDE, StatTag.AURA);"
+  ]
+ },
+ {
+  "line": 884,
+  "helper": "inc",
+  "sid": "INCREASED_EFFECT_OF_ARCHON_BUFFS_ON_YOU",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "ARCHON",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_EFFECT_OF_ARCHON_BUFFS_ON_YOU, AttributeRegister.AILMENT_MAGNITUDE, StatTag.ARCHON, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 887,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_EFFECT_OF_SHOCK_ON_YOU",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "TAKEN",
+   "AILMENT",
+   "SHOCK"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_EFFECT_OF_SHOCK_ON_YOU, AttributeRegister.AILMENT_MAGNITUDE, StatTag.TAKEN, StatTag.AILMENT, StatTag.SHOCK);",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 888,
+  "helper": "inc",
+  "sid": "INC_TRAP_THROWING_SPEED",
+  "const": "TRAP_THROWING_SPEED",
+  "tags": [
+   "TRAP"
+  ],
+  "raw": "inc(map, StatIds.INC_TRAP_THROWING_SPEED, AttributeRegister.TRAP_THROWING_SPEED, StatTag.TRAP);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:864:        inc(map, StatIds.INC_TRAP_THROWING_SPEED, AttributeRegister.TRAP_THROWING_SPEED, StatTag.TRAP);"
+  ]
+ },
+ {
+  "line": 889,
+  "helper": "inc",
+  "sid": "INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS",
+  "const": "ES_FROM_FOCUS",
+  "tags": [
+   "FOCUS"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS, AttributeRegister.ES_FROM_FOCUS, StatTag.FOCUS);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:865:        inc(map, StatIds.X_INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS, AttributeRegister.ES_FROM_FOCUS, StatTag.FOCUS);"
+  ]
+ },
+ {
+  "line": 890,
+  "helper": "inc",
+  "sid": "INC_QUIVER_BONUSES",
+  "const": "QUIVER_BONUSES",
+  "tags": [
+   "QUIVER"
+  ],
+  "raw": "inc(map, StatIds.INC_QUIVER_BONUSES, AttributeRegister.QUIVER_BONUSES, StatTag.QUIVER);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:866:        inc(map, StatIds.INC_QUIVER_BONUSES, AttributeRegister.QUIVER_BONUSES, StatTag.QUIVER);"
+  ]
+ },
+ {
+  "line": 891,
+  "helper": "inc",
+  "sid": "INCREASED_TOTEM_PLACEMENT_RANGE",
+  "const": "TOTEM_PLACEMENT_RANGE",
+  "tags": [
+   "TOTEM"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_TOTEM_PLACEMENT_RANGE, AttributeRegister.TOTEM_PLACEMENT_RANGE, StatTag.TOTEM);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:867:        inc(map, StatIds.X_INCREASED_TOTEM_PLACEMENT_RANGE, AttributeRegister.TOTEM_PLACEMENT_RANGE, StatTag.TOTEM);"
+  ]
+ },
+ {
+  "line": 896,
+  "helper": "inc",
+  "sid": "INCREASED_DURATION_OF_AILMENTS_ON_YOU",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "TAKEN",
+   "AILMENT"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DURATION_OF_AILMENTS_ON_YOU, AttributeRegister.AILMENT_DURATION, StatTag.TAKEN, StatTag.AILMENT);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 897,
+  "helper": "inc",
+  "sid": "INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_HELMET",
+  "const": "ES_FROM_HELMET",
+  "tags": [
+   "HELMET"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_HELMET, AttributeRegister.ES_FROM_HELMET, StatTag.HELMET);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:870:        inc(map, StatIds.X_INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_HELMET, AttributeRegister.ES_FROM_HELMET, StatTag.HELMET);"
+  ]
+ },
+ {
+  "line": 898,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_EFFECT_OF_WITHERED_ON_YOU",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "TAKEN",
+   "WITHERED"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_EFFECT_OF_WITHERED_ON_YOU, AttributeRegister.AILMENT_MAGNITUDE, StatTag.TAKEN, StatTag.WITHERED);",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 907,
+  "helper": "chance",
+  "sid": "CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY",
+  "const": "DAMAGE_LUCKY",
+  "tags": [],
+  "raw": "chance(map, StatIds.CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY, AttributeRegister.DAMAGE_LUCKY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:878:        chance(map, StatIds.X_CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY, AttributeRegister.DAMAGE_LUCKY);"
+  ]
+ },
+ {
+  "line": 908,
+  "helper": "chance",
+  "sid": "CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION",
+  "const": "ATTACK_TEN_INCISION",
+  "tags": [
+   "ATTACK",
+   "INCISION"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION, AttributeRegister.ATTACK_TEN_INCISION, StatTag.ATTACK, StatTag.INCISION);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:879:        chance(map, StatIds.X_CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION, AttributeRegister.ATTACK_TEN_INCISION, StatTag.ATTACK, StatTag.INCISION);"
+  ]
+ },
+ {
+  "line": 910,
+  "helper": "chance",
+  "sid": "CHANCE_FOR_ATTACKS_TO_MAIM_ON_HIT_DAMAGE_AGAINST_POISONED_ENEMIES",
+  "const": "ATTACKS_MAIM_POISONED",
+  "tags": [
+   "ATTACK",
+   "MAIM"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_FOR_ATTACKS_TO_MAIM_ON_HIT_DAMAGE_AGAINST_POISONED_ENEMIES, AttributeRegister.ATTACKS_MAIM_POISONED, StatTag.ATTACK, StatTag.MAIM);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:880:        chance(map, StatIds.X_CHANCE_FOR_ATTACKS_TO_MAIM_ON_HIT_DAMAGE_AGAINST_POISONED_ENEMIES, AttributeRegister.ATTACKS_MAIM_POISONED, StatTag.MAIM);"
+  ]
+ },
+ {
+  "line": 911,
+  "helper": "chance",
+  "sid": "CHANCE_FOR_MACE_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK",
+  "const": "MACE_SLAM_CAUSE_ADDITIONAL",
+  "tags": [
+   "MACE"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_FOR_MACE_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK, AttributeRegister.MACE_SLAM_CAUSE_ADDITIONAL, StatTag.MACE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:881:        chance(map, StatIds.X_CHANCE_FOR_MACE_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK, AttributeRegister.MACE_SLAM_CAUSE_ADDITIONAL, StatTag.MACE);"
+  ]
+ },
+ {
+  "line": 912,
+  "helper": "chance",
+  "sid": "CHANCE_TO_DEFEND_WITH_OF_ARMOR",
+  "const": "DEFEND_ARMOUR",
+  "tags": [],
+  "raw": "chance(map, StatIds.CHANCE_TO_DEFEND_WITH_OF_ARMOR, AttributeRegister.DEFEND_ARMOUR);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 913,
+  "helper": "chance",
+  "sid": "CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY",
+  "const": "RECOVER_ALL_LIFE_KILL",
+  "tags": [
+   "HEALTH",
+   "KILL"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY, AttributeRegister.RECOVER_ALL_LIFE_KILL, StatTag.HEALTH, StatTag.KILL);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:883:        chance(map, StatIds.X_CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY, AttributeRegister.RECOVER_ALL_LIFE_KILL);"
+  ]
+ },
+ {
+  "line": 920,
+  "helper": "chance",
+  "sid": "CHANCE_WHEN_YOU_RELOAD_A_CROSSBOW_TO_BE_IMMEDIATE",
+  "const": "RELOAD_CROSSBOW_IMMEDIATE",
+  "tags": [
+   "CROSSBOW"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_WHEN_YOU_RELOAD_A_CROSSBOW_TO_BE_IMMEDIATE, AttributeRegister.RELOAD_CROSSBOW_IMMEDIATE, StatTag.CROSSBOW);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:886:        chance(map, StatIds.X_CHANCE_WHEN_YOU_RELOAD_A_CROSSBOW_TO_BE_IMMEDIATE, AttributeRegister.RELOAD_CROSSBOW_IMMEDIATE, StatTag.CROSSBOW);"
+  ]
+ },
+ {
+  "line": 921,
+  "helper": "inc",
+  "sid": "FASTER_CURSE_ACTIVATION",
+  "const": "FASTER_CURSE_ACTIVATION",
+  "tags": [
+   "CURSE"
+  ],
+  "raw": "inc(map, StatIds.FASTER_CURSE_ACTIVATION, AttributeRegister.FASTER_CURSE_ACTIVATION, StatTag.CURSE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:887:        inc(map, StatIds.X_FASTER_CURSE_ACTIVATION, AttributeRegister.FASTER_CURSE_ACTIVATION, StatTag.CURSE);"
+  ]
+ },
+ {
+  "line": 922,
+  "helper": "inc",
+  "sid": "FASTER_START_OF_INHERENT_RAGE_LOSS",
+  "const": "FASTER_START_INHERENT_RAGE",
+  "tags": [
+   "RAGE"
+  ],
+  "raw": "inc(map, StatIds.FASTER_START_OF_INHERENT_RAGE_LOSS, AttributeRegister.FASTER_START_INHERENT_RAGE, StatTag.RAGE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:888:        inc(map, StatIds.X_FASTER_START_OF_INHERENT_RAGE_LOSS, AttributeRegister.FASTER_START_INHERENT_RAGE, StatTag.RAGE);"
+  ]
+ },
+ {
+  "line": 923,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS",
+  "const": "MAGNITUDE_IMPALES_INFLICTED_SPELLS",
+  "tags": [
+   "IMPALE",
+   "SPELL"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS, AttributeRegister.MAGNITUDE_IMPALES_INFLICTED_SPELLS, StatTag.IMPALE, StatTag.SPELL);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:889:        inc(map, StatIds.X_INCREASED_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS, AttributeRegister.MAGNITUDE_IMPALES_INFLICTED_SPELLS);"
+  ]
+ },
+ {
+  "line": 926,
+  "helper": "inc",
+  "sid": "INCREASED_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "const": "ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED",
+  "tags": [
+   "ELEMENTAL",
+   "SHAPESHIFTED"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY, AttributeRegister.ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED, StatTag.ELEMENTAL, StatTag.SHAPESHIFTED);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:890:        inc(map, StatIds.X_INCREASED_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY, AttributeRegister.ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED);"
+  ]
+ },
+ {
+  "line": 927,
+  "helper": "chance",
+  "sid": "INCREASED_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES",
+  "const": "SHOCK_ELECTROCUTED",
+  "tags": [
+   "SHOCK"
+  ],
+  "raw": "chance(map, StatIds.INCREASED_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES, AttributeRegister.SHOCK_ELECTROCUTED, StatTag.SHOCK);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:891:        chance(map, StatIds.X_INCREASED_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES, AttributeRegister.SHOCK_ELECTROCUTED, StatTag.SHOCK);"
+  ]
+ },
+ {
+  "line": 928,
+  "helper": "pctAdd",
+  "sid": "INC_DAMAGE_IS_TAKEN_MANA",
+  "const": "MANA_TAKE_OF_DAMAGE",
+  "tags": [],
+  "raw": "pctAdd(map, StatIds.INC_DAMAGE_IS_TAKEN_MANA, AttributeRegister.MANA_TAKE_OF_DAMAGE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 929,
+  "helper": "inc",
+  "sid": "OF_DAMAGE_TAKEN_BYPASSES_ENERGY_SHIELD",
+  "const": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+  "tags": [
+   "TAKEN",
+   "ENERGY_SHIELD"
+  ],
+  "raw": "inc(map, StatIds.OF_DAMAGE_TAKEN_BYPASSES_ENERGY_SHIELD, AttributeRegister.DAMAGE_TAKEN_BYPASSES_ENERGY, StatTag.TAKEN, StatTag.ENERGY_SHIELD);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:893:        inc(map, StatIds.X_OF_DAMAGE_TAKEN_BYPASSES_ENERGY_SHIELD, AttributeRegister.DAMAGE_TAKEN_BYPASSES_ENERGY);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/event/DamagePipeline.java:514:            float esBypass = Math.max(0, (float) s.living.getAttributeValue(AttributeRegister.DAMAGE_TAKEN_BYPASSES_ENERGY) - 1.0F);"
+  ]
+ },
+ {
+  "line": 930,
+  "helper": "inc",
+  "sid": "OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD",
+  "const": "LIFE_CONVERTED_ENERGY_SHIELD",
+  "tags": [
+   "HEALTH",
+   "ENERGY_SHIELD"
+  ],
+  "raw": "inc(map, StatIds.OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD, AttributeRegister.LIFE_CONVERTED_ENERGY_SHIELD, StatTag.HEALTH, StatTag.ENERGY_SHIELD);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:894:        inc(map, StatIds.X_OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD, AttributeRegister.LIFE_CONVERTED_ENERGY_SHIELD);"
+  ]
+ },
+ {
+  "line": 931,
+  "helper": "add",
+  "sid": "HEALTH_PER_DEXTERITY",
+  "const": "LIFE_DEXTERITY",
+  "tags": [],
+  "raw": "add(map, StatIds.HEALTH_PER_DEXTERITY, AttributeRegister.LIFE_DEXTERITY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:895:        add(map, StatIds.X_HEALTH_PER_X_DEXTERITY, AttributeRegister.LIFE_DEXTERITY);"
+  ]
+ },
+ {
+  "line": 933,
+  "helper": "add",
+  "sid": "MAX_STACKS_OF_PUPPET_MASTER",
+  "const": "STACKS_PUPPET_MASTER",
+  "tags": [
+   "COMPANION"
+  ],
+  "raw": "add(map, StatIds.MAX_STACKS_OF_PUPPET_MASTER, AttributeRegister.STACKS_PUPPET_MASTER, StatTag.COMPANION);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:896:        add(map, StatIds.X_MAX_STACKS_OF_PUPPET_MASTER, AttributeRegister.STACKS_PUPPET_MASTER);"
+  ]
+ },
+ {
+  "line": 934,
+  "helper": "add",
+  "sid": "METRES_TO_DODGE_ROLL_DISTANCE_WHILE_SURROUNDED",
+  "const": "METRES_DODGE_ROLL_DISTANCE",
+  "tags": [
+   "DODGE"
+  ],
+  "raw": "add(map, StatIds.METRES_TO_DODGE_ROLL_DISTANCE_WHILE_SURROUNDED, AttributeRegister.METRES_DODGE_ROLL_DISTANCE, StatTag.DODGE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:897:        add(map, StatIds.X_METRES_TO_DODGE_ROLL_DISTANCE_WHILE_SURROUNDED, AttributeRegister.METRES_DODGE_ROLL_DISTANCE, StatTag.DODGE);"
+  ]
+ },
+ {
+  "line": 935,
+  "helper": "add",
+  "sid": "METRES_TO_MELEE_STRIKE_RANGE",
+  "const": "METRES_MELEE_STRIKE_RANGE",
+  "tags": [
+   "MELEE"
+  ],
+  "raw": "add(map, StatIds.METRES_TO_MELEE_STRIKE_RANGE, AttributeRegister.METRES_MELEE_STRIKE_RANGE, StatTag.MELEE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 936,
+  "helper": "add",
+  "sid": "TO_LEVEL_OF_ALL_CHAOS_SKILLS",
+  "const": "LEVEL_ALL_CHAOS",
+  "tags": [
+   "CHAOS"
+  ],
+  "raw": "add(map, StatIds.TO_LEVEL_OF_ALL_CHAOS_SKILLS, AttributeRegister.LEVEL_ALL_CHAOS, StatTag.CHAOS);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:899:        add(map, StatIds.X_TO_LEVEL_OF_ALL_CHAOS_SKILLS, AttributeRegister.LEVEL_ALL_CHAOS);"
+  ]
+ },
+ {
+  "line": 937,
+  "helper": "add",
+  "sid": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+  "const": "LEVEL_ALL_COLD",
+  "tags": [
+   "COLD"
+  ],
+  "raw": "add(map, StatIds.TO_LEVEL_OF_ALL_COLD_SKILLS, AttributeRegister.LEVEL_ALL_COLD, StatTag.COLD);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:900:        add(map, StatIds.X_TO_LEVEL_OF_ALL_COLD_SKILLS, AttributeRegister.LEVEL_ALL_COLD);"
+  ]
+ },
+ {
+  "line": 939,
+  "helper": "add",
+  "sid": "TO_STUN_THRESHOLD_PER_STRENGTH",
+  "const": "STUN_THRESHOLD_STRENGTH",
+  "tags": [
+   "STUN"
+  ],
+  "raw": "add(map, StatIds.TO_STUN_THRESHOLD_PER_STRENGTH, AttributeRegister.STUN_THRESHOLD_STRENGTH, StatTag.STUN);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:901:        add(map, StatIds.X_TO_STUN_THRESHOLD_PER_STRENGTH, AttributeRegister.STUN_THRESHOLD_STRENGTH);"
+  ]
+ },
+ {
+  "line": 940,
+  "helper": "add",
+  "sid": "TO_MAX_LIGHTNING_INFUSIONS",
+  "const": "LIGHTNING_INFUSIONS",
+  "tags": [
+   "LIGHTNING",
+   "INFUSION"
+  ],
+  "raw": "add(map, StatIds.TO_MAX_LIGHTNING_INFUSIONS, AttributeRegister.LIGHTNING_INFUSIONS, StatTag.LIGHTNING, StatTag.INFUSION);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:902:        add(map, StatIds.X_TO_MAX_LIGHTNING_INFUSIONS, AttributeRegister.LIGHTNING_INFUSIONS);"
+  ]
+ },
+ {
+  "line": 941,
+  "helper": "add",
+  "sid": "TO_THORNS_CRITICAL_HIT_CHANCE",
+  "const": "THORNS_CRITICAL",
+  "tags": [],
+  "raw": "add(map, StatIds.TO_THORNS_CRITICAL_HIT_CHANCE, AttributeRegister.THORNS_CRITICAL);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:903:        add(map, StatIds.X_TO_THORNS_CRITICAL_HIT_CHANCE, AttributeRegister.THORNS_CRITICAL);"
+  ]
+ },
+ {
+  "line": 943,
+  "helper": "inc",
+  "sid": "TO_CRITICAL_HIT_CHANCE_OF_HERALD_SKILLS",
+  "const": "CRIT_CHANCE",
+  "tags": [
+   "HERALD"
+  ],
+  "raw": "inc(map, StatIds.TO_CRITICAL_HIT_CHANCE_OF_HERALD_SKILLS, AttributeRegister.CRIT_CHANCE, StatTag.HERALD);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 944,
+  "helper": "add",
+  "sid": "TO_MAX_BLOCK_CHANCE",
+  "const": "BLOCK_CHANCE",
+  "tags": [
+   "BLOCK"
+  ],
+  "raw": "add(map, StatIds.TO_MAX_BLOCK_CHANCE, AttributeRegister.BLOCK_CHANCE, StatTag.BLOCK);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 945,
+  "helper": "inc",
+  "sid": "ARROWS_PIERCE_AN_ADDITIONAL_TARGET",
+  "const": "ARROWS_PIERCE_ADDITIONAL_TARGET",
+  "tags": [
+   "ARROW",
+   "PIERCE"
+  ],
+  "raw": "inc(map, StatIds.ARROWS_PIERCE_AN_ADDITIONAL_TARGET, AttributeRegister.ARROWS_PIERCE_ADDITIONAL_TARGET, StatTag.ARROW, StatTag.PIERCE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:906:        inc(map, StatIds.ARROWS_PIERCE_AN_ADDITIONAL_TARGET, AttributeRegister.ARROWS_PIERCE_ADDITIONAL_TARGET);"
+  ]
+ },
+ {
+  "line": 946,
+  "helper": "chance",
+  "sid": "CHANCE_ATTACKS_ACCURACY_RATING_EQUAL",
+  "const": "ACCURACY",
+  "tags": [],
+  "raw": "chance(map, StatIds.CHANCE_ATTACKS_ACCURACY_RATING_EQUAL, AttributeRegister.ACCURACY);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 947,
+  "helper": "inc",
+  "sid": "BLEEDING_YOU_INFLICT_DEALS_DAMAGE_FASTER",
+  "const": "AILMENT_DAMAGE_RATE",
+  "tags": [
+   "AILMENT",
+   "BLEED"
+  ],
+  "raw": "inc(map, StatIds.BLEEDING_YOU_INFLICT_DEALS_DAMAGE_FASTER, AttributeRegister.AILMENT_DAMAGE_RATE, StatTag.AILMENT, StatTag.BLEED);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 954,
+  "helper": "inc",
+  "sid": "CANNOT_BE_CRITICALLY_HIT_WHILE_PARRYING",
+  "const": "CANNOT_CRITICALLY_PARRYING",
+  "tags": [
+   "PARRY"
+  ],
+  "raw": "inc(map, StatIds.CANNOT_BE_CRITICALLY_HIT_WHILE_PARRYING, AttributeRegister.CANNOT_CRITICALLY_PARRYING, StatTag.PARRY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:911:        inc(map, StatIds.CANNOT_BE_CRITICALLY_HIT_WHILE_PARRYING, AttributeRegister.CANNOT_CRITICALLY_PARRYING);"
+  ]
+ },
+ {
+  "line": 955,
+  "helper": "pctAdd",
+  "sid": "DAMAGE_PENETRATES_OF_ENEMY_ELEMENTAL_RESISTANCES",
+  "const": "RESISTANCE_PENETRATION",
+  "tags": [
+   "RESISTANCE",
+   "ELEMENTAL"
+  ],
+  "raw": "pctAdd(map, StatIds.DAMAGE_PENETRATES_OF_ENEMY_ELEMENTAL_RESISTANCES, AttributeRegister.RESISTANCE_PENETRATION, StatTag.RESISTANCE, StatTag.ELEMENTAL);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 956,
+  "helper": "pctAdd",
+  "sid": "DAMAGE_PENETRATION_ELEMENTAL_DAMAGE_RESISTANCES",
+  "const": "RESISTANCE_PENETRATION",
+  "tags": [
+   "RESISTANCE",
+   "ELEMENTAL"
+  ],
+  "raw": "pctAdd(map, StatIds.DAMAGE_PENETRATION_ELEMENTAL_DAMAGE_RESISTANCES, AttributeRegister.RESISTANCE_PENETRATION, StatTag.RESISTANCE, StatTag.ELEMENTAL);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 958,
+  "helper": "inc",
+  "sid": "DEFEND_WITH_OF_ARMOR_AGAINST_CRITICAL_HITS",
+  "const": "DEFEND_ARMOUR",
+  "tags": [
+   "CRIT"
+  ],
+  "raw": "inc(map, StatIds.DEFEND_WITH_OF_ARMOR_AGAINST_CRITICAL_HITS, AttributeRegister.DEFEND_ARMOUR, StatTag.CRIT);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 959,
+  "helper": "inc",
+  "sid": "ENEMIES_NEAR_ENEMIES_YOU_MARK_ARE_BLINDED",
+  "const": "MARK_BLINDED",
+  "tags": [
+   "MARK"
+  ],
+  "raw": "inc(map, StatIds.ENEMIES_NEAR_ENEMIES_YOU_MARK_ARE_BLINDED, AttributeRegister.MARK_BLINDED, StatTag.MARK);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:917:        inc(map, StatIds.ENEMIES_NEAR_ENEMIES_YOU_MARK_ARE_BLINDED, AttributeRegister.MARK_BLINDED, StatTag.MARK);"
+  ]
+ },
+ {
+  "line": 960,
+  "helper": "inc",
+  "sid": "ENEMIES_YOU_MARK_CANNOT_DEAL_CRITICAL_HITS",
+  "const": "MARK_CANNOT_CRITICAL",
+  "tags": [
+   "MARK"
+  ],
+  "raw": "inc(map, StatIds.ENEMIES_YOU_MARK_CANNOT_DEAL_CRITICAL_HITS, AttributeRegister.MARK_CANNOT_CRITICAL, StatTag.MARK);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:918:        inc(map, StatIds.ENEMIES_YOU_MARK_CANNOT_DEAL_CRITICAL_HITS, AttributeRegister.MARK_CANNOT_CRITICAL, StatTag.MARK);"
+  ]
+ },
+ {
+  "line": 961,
+  "helper": "inc",
+  "sid": "ENEMIES_YOU_INFLICT_BLEEDING_ON_CANNOT_REGENERATE_HEALTH",
+  "const": "INFLICT_BLEEDING_CANNOT_REGENERATE",
+  "tags": [
+   "BLEED"
+  ],
+  "raw": "inc(map, StatIds.ENEMIES_YOU_INFLICT_BLEEDING_ON_CANNOT_REGENERATE_HEALTH, AttributeRegister.INFLICT_BLEEDING_CANNOT_REGENERATE, StatTag.BLEED);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:919:        inc(map, StatIds.ENEMIES_YOU_INFLICT_BLEEDING_ON_CANNOT_REGENERATE_HEALTH, AttributeRegister.INFLICT_BLEEDING_CANNOT_REGENERATE);"
+  ]
+ },
+ {
+  "line": 964,
+  "helper": "inc",
+  "sid": "GAIN_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK",
+  "const": "RAGE_LIFE_FLASK",
+  "tags": [
+   "FLASK",
+   "RAGE"
+  ],
+  "raw": "inc(map, StatIds.GAIN_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK, AttributeRegister.RAGE_LIFE_FLASK, StatTag.FLASK, StatTag.RAGE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:921:        inc(map, StatIds.GAIN_X_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK, AttributeRegister.RAGE_LIFE_FLASK, StatTag.FLASK, StatTag.RAGE);"
+  ]
+ },
+ {
+  "line": 965,
+  "helper": "inc",
+  "sid": "GAIN_ACCURACY_EQUAL_TO_YOUR_INTELLIGENCE",
+  "const": "ACCURACY",
+  "tags": [],
+  "raw": "inc(map, StatIds.GAIN_ACCURACY_EQUAL_TO_YOUR_INTELLIGENCE, AttributeRegister.ACCURACY);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 966,
+  "helper": "inc",
+  "sid": "GAIN_ACCURACY_EQUAL_TO_YOUR_STRENGTH",
+  "const": "ACCURACY",
+  "tags": [],
+  "raw": "inc(map, StatIds.GAIN_ACCURACY_EQUAL_TO_YOUR_STRENGTH, AttributeRegister.ACCURACY);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 967,
+  "helper": "inc",
+  "sid": "INC_DEFLECTION_RATING_EQUAL_EVASION",
+  "const": "EVASION",
+  "tags": [],
+  "raw": "inc(map, StatIds.INC_DEFLECTION_RATING_EQUAL_EVASION, AttributeRegister.EVASION);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 981,
+  "helper": "inc",
+  "sid": "INC_INCREASES_REDUCTIONS_PROJECTILE_SPEED",
+  "const": "PROJECTILE_SPEED",
+  "tags": [
+   "PROJECTILE"
+  ],
+  "raw": "inc(map, StatIds.INC_INCREASES_REDUCTIONS_PROJECTILE_SPEED, AttributeRegister.PROJECTILE_SPEED, StatTag.PROJECTILE);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 982,
+  "helper": "inc",
+  "sid": "HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND",
+  "const": "LIFE_FLASKS_CHARGES",
+  "tags": [
+   "FLASK",
+   "HEALTH"
+  ],
+  "raw": "inc(map, StatIds.HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND, AttributeRegister.LIFE_FLASKS_CHARGES, StatTag.FLASK, StatTag.HEALTH);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:931:        inc(map, StatIds.HEALTH_FLASKS_GAIN_X_CHARGES_PER_SECOND, AttributeRegister.LIFE_FLASKS_CHARGES);"
+  ]
+ },
+ {
+  "line": 983,
+  "helper": "inc",
+  "sid": "MANA_FLASKS_GAIN_CHARGES_PER_SECOND",
+  "const": "MANA_FLASKS_CHARGES",
+  "tags": [
+   "FLASK",
+   "MANA"
+  ],
+  "raw": "inc(map, StatIds.MANA_FLASKS_GAIN_CHARGES_PER_SECOND, AttributeRegister.MANA_FLASKS_CHARGES, StatTag.FLASK, StatTag.MANA);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:932:        inc(map, StatIds.MANA_FLASKS_GAIN_X_CHARGES_PER_SECOND, AttributeRegister.MANA_FLASKS_CHARGES);"
+  ]
+ },
+ {
+  "line": 984,
+  "helper": "inc",
+  "sid": "INC_MINIONS_COOLDOWN_RECOVERY_RATE",
+  "const": "COOLDOWN_RECOVERY_RATE",
+  "tags": [],
+  "raw": "inc(map, StatIds.INC_MINIONS_COOLDOWN_RECOVERY_RATE, AttributeRegister.COOLDOWN_RECOVERY_RATE);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 985,
+  "helper": "inc",
+  "sid": "MINIONS_HAVE_INCREASED_CAST_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [],
+  "raw": "inc(map, StatIds.MINIONS_HAVE_INCREASED_CAST_SPEED, AttributeRegister.CAST_SPEED);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 986,
+  "helper": "inc",
+  "sid": "MINIONS_HAVE_INCREASED_HEALTH_RECOVERY_RATE",
+  "const": "RECOVERY_RATE",
+  "tags": [],
+  "raw": "inc(map, StatIds.MINIONS_HAVE_INCREASED_HEALTH_RECOVERY_RATE, AttributeRegister.RECOVERY_RATE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1072,
+  "helper": "inc",
+  "sid": "ADD_IGNITE_WHEN_YOU_WARCRY",
+  "const": "REMOVE_IGNITE_WARCRY",
+  "tags": [
+   "WARCRY",
+   "IGNITE"
+  ],
+  "raw": "inc(map, StatIds.ADD_IGNITE_WHEN_YOU_WARCRY, AttributeRegister.REMOVE_IGNITE_WARCRY, StatTag.WARCRY, StatTag.IGNITE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1021:        inc(map, StatIds.ADD_IGNITE_WHEN_YOU_WARCRY, AttributeRegister.REMOVE_IGNITE_WARCRY, StatTag.WARCRY, StatTag.IGNITE);"
+  ]
+ },
+ {
+  "line": 1074,
+  "helper": "inc",
+  "sid": "ADD_A_CURSE_AFTER_CHANNELLING_FOR_SECONDS",
+  "const": "ADD_CURSE",
+  "tags": [
+   "CURSE",
+   "CHANNELING"
+  ],
+  "raw": "inc(map, StatIds.ADD_A_CURSE_AFTER_CHANNELLING_FOR_SECONDS, AttributeRegister.ADD_CURSE, StatTag.CURSE, StatTag.CHANNELING);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1076,
+  "helper": "inc",
+  "sid": "ADD_A_CURSE_WHEN_YOU_USE_A_MANA_FLASK",
+  "const": "ADD_CURSE",
+  "tags": [
+   "CURSE",
+   "FLASK"
+  ],
+  "raw": "inc(map, StatIds.ADD_A_CURSE_WHEN_YOU_USE_A_MANA_FLASK, AttributeRegister.ADD_CURSE, StatTag.CURSE, StatTag.FLASK);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1077,
+  "helper": "chance",
+  "sid": "SKILLS_HAVE_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM",
+  "const": "REMOVE_ELEMENTAL_INFUSIONS_BUT",
+  "tags": [
+   "ELEMENTAL",
+   "INFUSION"
+  ],
+  "raw": "chance(map, StatIds.SKILLS_HAVE_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM, AttributeRegister.REMOVE_ELEMENTAL_INFUSIONS_BUT, StatTag.ELEMENTAL, StatTag.INFUSION);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1024:        chance(map, StatIds.SKILLS_HAVE_X_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM, AttributeRegister.REMOVE_ELEMENTAL_INFUSIONS_BUT);"
+  ]
+ },
+ {
+  "line": 1078,
+  "helper": "chance",
+  "sid": "SKILLS_HAVE_A_CHANCE_TO_NOT_CONSUME_GLORY",
+  "const": "GLORY",
+  "tags": [
+   "GLORY"
+  ],
+  "raw": "chance(map, StatIds.SKILLS_HAVE_A_CHANCE_TO_NOT_CONSUME_GLORY, AttributeRegister.GLORY, StatTag.GLORY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1025:        chance(map, StatIds.SKILLS_HAVE_A_X_CHANCE_TO_NOT_CONSUME_GLORY, AttributeRegister.GLORY, StatTag.GLORY);"
+  ]
+ },
+ {
+  "line": 1079,
+  "helper": "inc",
+  "sid": "SKILLS_GAIN_COMBO_SLOWER",
+  "const": "LOSE_COMBO_SLOWER",
+  "tags": [],
+  "raw": "inc(map, StatIds.SKILLS_GAIN_COMBO_SLOWER, AttributeRegister.LOSE_COMBO_SLOWER);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1026:        inc(map, StatIds.SKILLS_GAIN_COMBO_X_SLOWER, AttributeRegister.LOSE_COMBO_SLOWER);"
+  ]
+ },
+ {
+  "line": 1080,
+  "helper": "chance",
+  "sid": "SKILLS_WHICH_CREATE_FISSURES_HAVE_A_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE",
+  "const": "WHICH_CREATE_FISSURES_ADDITIONAL",
+  "tags": [],
+  "raw": "chance(map, StatIds.SKILLS_WHICH_CREATE_FISSURES_HAVE_A_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE, AttributeRegister.WHICH_CREATE_FISSURES_ADDITIONAL);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1027:        chance(map, StatIds.SKILLS_WHICH_CREATE_FISSURES_HAVE_A_X_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE, AttributeRegister.WHICH_CREATE_FISSURES_ADDITIONAL);"
+  ]
+ },
+ {
+  "line": 1082,
+  "helper": "inc",
+  "sid": "UNAFFECTED_BY_CHILLED_GROUND",
+  "const": "UNAFFECTED",
+  "tags": [
+   "CHILLED_GROUND"
+  ],
+  "raw": "inc(map, StatIds.UNAFFECTED_BY_CHILLED_GROUND, AttributeRegister.UNAFFECTED, StatTag.CHILLED_GROUND);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1083,
+  "helper": "inc",
+  "sid": "UNAFFECTED_BY_ELEMENTAL_WEAKNESS",
+  "const": "UNAFFECTED",
+  "tags": [
+   "elemental_weakness"
+  ],
+  "raw": "inc(map, StatIds.UNAFFECTED_BY_ELEMENTAL_WEAKNESS, AttributeRegister.UNAFFECTED, \"elemental_weakness\");",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1084,
+  "helper": "inc",
+  "sid": "UNAFFECTED_BY_SHOCKED_GROUND",
+  "const": "UNAFFECTED",
+  "tags": [
+   "SHOCKED_GROUND"
+  ],
+  "raw": "inc(map, StatIds.UNAFFECTED_BY_SHOCKED_GROUND, AttributeRegister.UNAFFECTED, StatTag.SHOCKED_GROUND);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1085,
+  "helper": "inc",
+  "sid": "WARCRIES_HAVE_A_MINIMUM_OF_POWER",
+  "const": "WARCRIES_MINIMUM_POWER",
+  "tags": [
+   "POWER"
+  ],
+  "raw": "inc(map, StatIds.WARCRIES_HAVE_A_MINIMUM_OF_POWER, AttributeRegister.WARCRIES_MINIMUM_POWER, StatTag.POWER);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1031:        inc(map, StatIds.WARCRIES_HAVE_A_MINIMUM_OF_X_POWER, AttributeRegister.WARCRIES_MINIMUM_POWER, StatTag.POWER);"
+  ]
+ },
+ {
+  "line": 1086,
+  "helper": "inc",
+  "sid": "YOU_CAN_APPLY_AN_ADDITIONAL_CURSE",
+  "const": "ADDITIONAL_CURSE",
+  "tags": [
+   "CURSE"
+  ],
+  "raw": "inc(map, StatIds.YOU_CAN_APPLY_AN_ADDITIONAL_CURSE, AttributeRegister.ADDITIONAL_CURSE, StatTag.CURSE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1032:        inc(map, StatIds.YOU_CAN_APPLY_AN_ADDITIONAL_CURSE, AttributeRegister.ADDITIONAL_CURSE, StatTag.CURSE);"
+  ]
+ },
+ {
+  "line": 1097,
+  "helper": "inc",
+  "sid": "YOUR_MINIONS_ARE_GIGANTIC",
+  "const": "MINIONS_GIGANTIC",
+  "tags": [
+   "MINION"
+  ],
+  "raw": "inc(map, StatIds.YOUR_MINIONS_ARE_GIGANTIC, AttributeRegister.MINIONS_GIGANTIC, StatTag.MINION);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1035:        inc(map, StatIds.YOUR_MINIONS_ARE_GIGANTIC, AttributeRegister.MINIONS_GIGANTIC);"
+  ]
+ },
+ {
+  "line": 1098,
+  "helper": "inc",
+  "sid": "YOUR_AURA_BUFFS_DO_NOT_AFFECT_ALLIES",
+  "const": "AURA_BUFFS_AFFECT_ALLIES",
+  "tags": [
+   "AURA"
+  ],
+  "raw": "inc(map, StatIds.YOUR_AURA_BUFFS_DO_NOT_AFFECT_ALLIES, AttributeRegister.AURA_BUFFS_AFFECT_ALLIES, StatTag.AURA);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1036:        inc(map, StatIds.YOUR_AURA_BUFFS_DO_NOT_AFFECT_ALLIES, AttributeRegister.AURA_BUFFS_AFFECT_ALLIES, StatTag.AURA);"
+  ]
+ },
+ {
+  "line": 1099,
+  "helper": "inc",
+  "sid": "ARCHON_RECOVERY_PERIOD_EXPIRES_SLOWER",
+  "const": "ARCHON_RECOVERY_RATE",
+  "tags": [
+   "ARCHON"
+  ],
+  "raw": "inc(map, StatIds.ARCHON_RECOVERY_PERIOD_EXPIRES_SLOWER, AttributeRegister.ARCHON_RECOVERY_RATE, StatTag.ARCHON);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/status/StatusEngine.java:348:            double rate = target.getAttributeValue(AttributeRegister.ARCHON_RECOVERY_RATE);"
+  ]
+ },
+ {
+  "line": 1100,
+  "helper": "pctAdd",
+  "sid": "ATTACK_DAMAGE_PENETRATES_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES",
+  "const": "RESISTANCE_PENETRATION",
+  "tags": [
+   "RESISTANCE",
+   "ELEMENTAL",
+   "ATTACK"
+  ],
+  "raw": "pctAdd(map, StatIds.ATTACK_DAMAGE_PENETRATES_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES, AttributeRegister.RESISTANCE_PENETRATION, StatTag.RESISTANCE, StatTag.ELEMENTAL, StatTag.ATTACK);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1102,
+  "helper": "inc",
+  "sid": "ATTACKS_HAVE_TO_CRITICAL_HIT_CHANCE",
+  "const": "CRIT_CHANCE",
+  "tags": [
+   "ATTACK"
+  ],
+  "raw": "inc(map, StatIds.ATTACKS_HAVE_TO_CRITICAL_HIT_CHANCE, AttributeRegister.CRIT_CHANCE, StatTag.ATTACK);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1104,
+  "helper": "inc",
+  "sid": "BLIND_ENEMIES_WHEN_THEY_STUN_YOU",
+  "const": "BLIND_THEY_STUN",
+  "tags": [
+   "BLIND",
+   "STUN"
+  ],
+  "raw": "inc(map, StatIds.BLIND_ENEMIES_WHEN_THEY_STUN_YOU, AttributeRegister.BLIND_THEY_STUN, StatTag.BLIND, StatTag.STUN);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1040:        inc(map, StatIds.BLIND_ENEMIES_WHEN_THEY_STUN_YOU, AttributeRegister.BLIND_THEY_STUN, StatTag.BLIND);"
+  ]
+ },
+ {
+  "line": 1105,
+  "helper": "inc",
+  "sid": "BUFFS_ON_YOU_EXPIRE_SLOWER",
+  "const": "BUFFS_EXPIRE_SLOWER",
+  "tags": [
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.BUFFS_ON_YOU_EXPIRE_SLOWER, AttributeRegister.BUFFS_EXPIRE_SLOWER, StatTag.TAKEN);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1041:        inc(map, StatIds.BUFFS_ON_YOU_EXPIRE_X_SLOWER, AttributeRegister.BUFFS_EXPIRE_SLOWER, StatTag.TAKEN);"
+  ]
+ },
+ {
+  "line": 1106,
+  "helper": "entityMod",
+  "sid": "COMPANIONS_GAIN_YOUR_STRENGTH",
+  "const": "STRENGTH",
+  "tags": [
+   "COMPANION"
+  ],
+  "raw": "entityMod(map, StatIds.COMPANIONS_GAIN_YOUR_STRENGTH, AttributeRegister.STRENGTH, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL, TargetSelector.COMPANIONS, StatTag.COMPANION);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1107,
+  "helper": "inc",
+  "sid": "CULLING_STRIKE_AGAINST_ENEMIES_YOU_MARK",
+  "const": "CULLING_STRIKE_MARK",
+  "tags": [
+   "MARK"
+  ],
+  "raw": "inc(map, StatIds.CULLING_STRIKE_AGAINST_ENEMIES_YOU_MARK, AttributeRegister.CULLING_STRIKE_MARK, StatTag.MARK);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1043:        inc(map, StatIds.CULLING_STRIKE_AGAINST_ENEMIES_YOU_MARK, AttributeRegister.CULLING_STRIKE_MARK, StatTag.MARK);"
+  ]
+ },
+ {
+  "line": 1108,
+  "helper": "inc",
+  "sid": "DAMAGING_AILMENTS_DEAL_DAMAGE_FASTER",
+  "const": "AILMENT_DAMAGE_RATE",
+  "tags": [
+   "AILMENT"
+  ],
+  "raw": "inc(map, StatIds.DAMAGING_AILMENTS_DEAL_DAMAGE_FASTER, AttributeRegister.AILMENT_DAMAGE_RATE, StatTag.AILMENT);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1109,
+  "helper": "inc",
+  "sid": "GAIN_OF_EVASION_AS_EXTRA_ARMOR",
+  "const": "EVASION",
+  "tags": [],
+  "raw": "inc(map, StatIds.GAIN_OF_EVASION_AS_EXTRA_ARMOR, AttributeRegister.EVASION);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1110,
+  "helper": "inc",
+  "sid": "GRENADE_SKILLS_HAVE_COOLDOWN_USE",
+  "const": "COOLDOWN_RECOVERY_RATE",
+  "tags": [
+   "GRENADE"
+  ],
+  "raw": "inc(map, StatIds.GRENADE_SKILLS_HAVE_COOLDOWN_USE, AttributeRegister.COOLDOWN_RECOVERY_RATE, StatTag.GRENADE);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1111,
+  "helper": "chance",
+  "sid": "GRENADES_HAVE_CHANCE_TO_ACTIVATE_A_SECOND_TIME",
+  "const": "GRENADES_ACTIVATE_TIME",
+  "tags": [
+   "GRENADE"
+  ],
+  "raw": "chance(map, StatIds.GRENADES_HAVE_CHANCE_TO_ACTIVATE_A_SECOND_TIME, AttributeRegister.GRENADES_ACTIVATE_TIME, StatTag.GRENADE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1047:        chance(map, StatIds.GRENADES_HAVE_X_CHANCE_TO_ACTIVATE_A_SECOND_TIME, AttributeRegister.GRENADES_ACTIVATE_TIME);"
+  ]
+ },
+ {
+  "line": 1112,
+  "helper": "inc",
+  "sid": "IGNITES_YOU_CAUSE_ARE_REFLECTED_BACK_TO_YOU",
+  "const": "IGNITES_CAUSE_REFLECTED_BACK",
+  "tags": [
+   "IGNITE"
+  ],
+  "raw": "inc(map, StatIds.IGNITES_YOU_CAUSE_ARE_REFLECTED_BACK_TO_YOU, AttributeRegister.IGNITES_CAUSE_REFLECTED_BACK, StatTag.IGNITE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1048:        inc(map, StatIds.IGNITES_YOU_CAUSE_ARE_REFLECTED_BACK_TO_YOU, AttributeRegister.IGNITES_CAUSE_REFLECTED_BACK);"
+  ]
+ },
+ {
+  "line": 1113,
+  "helper": "inc",
+  "sid": "INVOCATED_SKILLS_HAVE_INCREASED_MAX_ENERGY",
+  "const": "INVOCATED_ENERGY",
+  "tags": [
+   "ENERGY"
+  ],
+  "raw": "inc(map, StatIds.INVOCATED_SKILLS_HAVE_INCREASED_MAX_ENERGY, AttributeRegister.INVOCATED_ENERGY, StatTag.ENERGY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1049:        inc(map, StatIds.INVOCATED_SKILLS_HAVE_X_INCREASED_MAX_ENERGY, AttributeRegister.INVOCATED_ENERGY);"
+  ]
+ },
+ {
+  "line": 1114,
+  "helper": "inc",
+  "sid": "HEALTH_LEECH_HEALTH_FASTER",
+  "const": "LEECH_LIFE_FASTER",
+  "tags": [
+   "LEECHING"
+  ],
+  "raw": "inc(map, StatIds.HEALTH_LEECH_HEALTH_FASTER, AttributeRegister.LEECH_LIFE_FASTER, StatTag.LEECHING);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1050:        inc(map, StatIds.HEALTH_LEECH_HEALTH_X_FASTER, AttributeRegister.LEECH_LIFE_FASTER);"
+  ]
+ },
+ {
+  "line": 1115,
+  "helper": "inc",
+  "sid": "HEALTH_LEECH_HEALTH_SLOWER",
+  "const": "LEECH_LIFE_SLOWER",
+  "tags": [
+   "LEECHING"
+  ],
+  "raw": "inc(map, StatIds.HEALTH_LEECH_HEALTH_SLOWER, AttributeRegister.LEECH_LIFE_SLOWER, StatTag.LEECHING);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1051:        inc(map, StatIds.HEALTH_LEECH_HEALTH_X_SLOWER, AttributeRegister.LEECH_LIFE_SLOWER);"
+  ]
+ },
+ {
+  "line": 1131,
+  "helper": "chance",
+  "sid": "MINIONS_HAVE_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE",
+  "const": "MINIONS_INFLICT_WITHERED",
+  "tags": [
+   "MINION",
+   "WITHERED"
+  ],
+  "raw": "chance(map, StatIds.MINIONS_HAVE_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE, AttributeRegister.MINIONS_INFLICT_WITHERED, StatTag.MINION, StatTag.WITHERED);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1060:        chance(map, StatIds.MINIONS_HAVE_X_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE, AttributeRegister.MINIONS_INFLICT_WITHERED, StatTag.WITHERED);"
+  ]
+ },
+ {
+  "line": 1132,
+  "helper": "inc",
+  "sid": "INC_MINIONS_ATTACK_CAST_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [
+   "ATTACK"
+  ],
+  "raw": "inc(map, StatIds.INC_MINIONS_ATTACK_CAST_SPEED, AttributeRegister.CAST_SPEED, StatTag.ATTACK);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1133,
+  "helper": "inc",
+  "sid": "INC_MINIONS_COOLDOWN_RECOVERY_RATE_COMMAND",
+  "const": "COOLDOWN_RECOVERY_RATE",
+  "tags": [
+   "COMMAND"
+  ],
+  "raw": "inc(map, StatIds.INC_MINIONS_COOLDOWN_RECOVERY_RATE_COMMAND, AttributeRegister.COOLDOWN_RECOVERY_RATE, StatTag.COMMAND);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1135,
+  "helper": "inc",
+  "sid": "MINIONS_HAVE_INCREASED_CRITICAL_HIT_CHANCE",
+  "const": "CRIT_CHANCE",
+  "tags": [
+   "MINION"
+  ],
+  "raw": "inc(map, StatIds.MINIONS_HAVE_INCREASED_CRITICAL_HIT_CHANCE, AttributeRegister.CRIT_CHANCE, StatTag.MINION);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1136,
+  "helper": "inc",
+  "sid": "MINIONS_HAVE_INCREASED_EVASION",
+  "const": "EVASION",
+  "tags": [],
+  "raw": "inc(map, StatIds.MINIONS_HAVE_INCREASED_EVASION, AttributeRegister.EVASION);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1137,
+  "helper": "chance",
+  "sid": "PLANTS_HAVE_A_CHANCE_TO_IMMEDIATELY_OVERGROW",
+  "const": "PLANTS_IMMEDIATELY_OVERGROW",
+  "tags": [
+   "PLANT"
+  ],
+  "raw": "chance(map, StatIds.PLANTS_HAVE_A_CHANCE_TO_IMMEDIATELY_OVERGROW, AttributeRegister.PLANTS_IMMEDIATELY_OVERGROW, StatTag.PLANT);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1065:        chance(map, StatIds.PLANTS_HAVE_A_X_CHANCE_TO_IMMEDIATELY_OVERGROW, AttributeRegister.PLANTS_IMMEDIATELY_OVERGROW);"
+  ]
+ },
+ {
+  "line": 1145,
+  "helper": "inc",
+  "sid": "REMNANTS_CAN_BE_COLLECTED_FROM_FURTHER_AWAY",
+  "const": "REMNANTS_COLLECTED_FURTHER_AWAY",
+  "tags": [
+   "REMNANT"
+  ],
+  "raw": "inc(map, StatIds.REMNANTS_CAN_BE_COLLECTED_FROM_FURTHER_AWAY, AttributeRegister.REMNANTS_COLLECTED_FURTHER_AWAY, StatTag.REMNANT);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1067:        inc(map, StatIds.REMNANTS_CAN_BE_COLLECTED_FROM_X_FURTHER_AWAY, AttributeRegister.REMNANTS_COLLECTED_FURTHER_AWAY);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/helper/RemnantState.java:78:                double mult = p.getAttributeValue(AttributeRegister.REMNANTS_COLLECTED_FURTHER_AWAY);"
+  ]
+ },
+ {
+  "line": 1146,
+  "helper": "inc",
+  "sid": "CONVERTS_ALL_EVASION_RATING",
+  "const": "EVASION",
+  "tags": [],
+  "raw": "inc(map, StatIds.CONVERTS_ALL_EVASION_RATING, AttributeRegister.EVASION);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1150,
+  "helper": "inc",
+  "sid": "STRIKES_DEAL_SPLASH_DAMAGE",
+  "const": "AREA_OF_EFFECT",
+  "tags": [
+   "MELEE",
+   "AREA"
+  ],
+  "raw": "inc(map, StatIds.STRIKES_DEAL_SPLASH_DAMAGE, AttributeRegister.AREA_OF_EFFECT, StatTag.MELEE, StatTag.AREA);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1151,
+  "helper": "chance",
+  "sid": "THORNS_DAMAGE_HAS_CHANCE_TO_IGNORE_ENEMY_ARMOR",
+  "const": "ADDED_DAMAGE",
+  "tags": [
+   "ARMOR",
+   "thorns"
+  ],
+  "raw": "chance(map, StatIds.THORNS_DAMAGE_HAS_CHANCE_TO_IGNORE_ENEMY_ARMOR, AttributeRegister.ADDED_DAMAGE, \"thorns\", StatTag.ARMOR);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1155,
+  "helper": "inc",
+  "sid": "UNAFFECTED_BY_CHILL_DURING_DODGE_ROLL",
+  "const": "UNAFFECTED",
+  "tags": [
+   "CHILL",
+   "DODGE"
+  ],
+  "raw": "inc(map, StatIds.UNAFFECTED_BY_CHILL_DURING_DODGE_ROLL, AttributeRegister.UNAFFECTED, StatTag.CHILL, StatTag.DODGE);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1156,
+  "helper": "inc",
+  "sid": "UNAFFECTED_BY_CHILL_WHILE_MANA_LEECH_MANA",
+  "const": "UNAFFECTED",
+  "tags": [
+   "CHILL",
+   "LEECHING"
+  ],
+  "raw": "inc(map, StatIds.UNAFFECTED_BY_CHILL_WHILE_MANA_LEECH_MANA, AttributeRegister.UNAFFECTED, StatTag.CHILL, StatTag.LEECHING);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1157,
+  "helper": "inc",
+  "sid": "WARCRIES_DEBILITATE_ENEMIES",
+  "const": "WARCRIES_DEBILITATE",
+  "tags": [
+   "WARCRY",
+   "DEBILITATE"
+  ],
+  "raw": "inc(map, StatIds.WARCRIES_DEBILITATE_ENEMIES, AttributeRegister.WARCRIES_DEBILITATE, StatTag.WARCRY, StatTag.DEBILITATE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1076:        inc(map, StatIds.WARCRIES_DEBILITATE_ENEMIES, AttributeRegister.WARCRIES_DEBILITATE);"
+  ]
+ },
+ {
+  "line": 1158,
+  "helper": "inc",
+  "sid": "WARCRIES_EMPOWERED_AN_ADDITIONAL_ATTACK",
+  "const": "ADD_EMPOWERED_ATTACKS",
+  "tags": [
+   "WARCRY",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.WARCRIES_EMPOWERED_AN_ADDITIONAL_ATTACK, AttributeRegister.ADD_EMPOWERED_ATTACKS, StatTag.WARCRY, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1159,
+  "helper": "chance",
+  "sid": "CHANCE_FLASK_NO_CONSUME",
+  "const": "FLASK_NO_CONSUME_CHANCE",
+  "tags": [
+   "FLASK"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_FLASK_NO_CONSUME, AttributeRegister.FLASK_NO_CONSUME_CHANCE, StatTag.FLASK);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1160,
+  "helper": "chance",
+  "sid": "CHANCE_WHEN_A_CHARM_IS_USED_TO_USE_ANOTHER_CHARM_WITHOUT_CONSUMING_CHARGES",
+  "const": "CHARM_ACTIVATION_CHANCE",
+  "tags": [
+   "CHARM"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_WHEN_A_CHARM_IS_USED_TO_USE_ANOTHER_CHARM_WITHOUT_CONSUMING_CHARGES, AttributeRegister.CHARM_ACTIVATION_CHANCE, StatTag.CHARM);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1079:        chance(map, StatIds.X_CHANCE_WHEN_A_CHARM_IS_USED_TO_USE_ANOTHER_CHARM_WITHOUT_CONSUMING_CHARGES, AttributeRegister.CHARM_ACTIVATION_CHANCE, StatTag.CHARM);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/item/charm/CharmEngine.java:186:                player, Set.of(StatTag.CHARM), AttributeRegister.CHARM_ACTIVATION_CHANCE);"
+  ]
+ },
+ {
+  "line": 1161,
+  "helper": "chance",
+  "sid": "CHANCE_TO_KNOCK_ENEMIES_BACK_WITH_HIT_DAMAGE_AT_CLOSE_RANGE",
+  "const": "KNOCKBACK",
+  "tags": [
+   "KNOCKBACK"
+  ],
+  "raw": "chance(map, StatIds.CHANCE_TO_KNOCK_ENEMIES_BACK_WITH_HIT_DAMAGE_AT_CLOSE_RANGE, AttributeRegister.KNOCKBACK, StatTag.KNOCKBACK);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1169,
+  "helper": "add",
+  "sid": "METRES_TO_MELEE_STRIKE_RANGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "const": "METRES_MELEE_STRIKE_RANGE",
+  "tags": [
+   "ATTACK",
+   "PROJECTILE",
+   "MELEE",
+   "recent_projectile_8s"
+  ],
+  "raw": "add(map, StatIds.METRES_TO_MELEE_STRIKE_RANGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS, AttributeRegister.METRES_MELEE_STRIKE_RANGE, StatTag.ATTACK, StatTag.PROJECTILE, StatTag.MELEE, \"recent_projectile_8s\");",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1170,
+  "helper": "add",
+  "sid": "TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED",
+  "const": "ELEMENTAL_RESISTANCES_RED_GREEN",
+  "tags": [
+   "ELEMENTAL",
+   "RESISTANCE",
+   "rgb_socketed"
+  ],
+  "raw": "add(map, StatIds.TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED, AttributeRegister.ELEMENTAL_RESISTANCES_RED_GREEN, \"rgb_socketed\", StatTag.ELEMENTAL, StatTag.RESISTANCE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1095:        add(map, StatIds.X_TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_X_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED, AttributeRegister.ELEMENTAL_RESISTANCES_RED_GREEN);"
+  ]
+ },
+ {
+  "line": 1172,
+  "helper": "inc",
+  "sid": "ALL_BONUSES_FROM_EQUIPPED_AMULET_APPLY_TO_YOUR_MINIONS_INSTEAD_OF_YOU",
+  "const": "BONUSES_AMULET_MINIONS",
+  "tags": [
+   "MINION",
+   "JEWELLERY"
+  ],
+  "raw": "inc(map, StatIds.ALL_BONUSES_FROM_EQUIPPED_AMULET_APPLY_TO_YOUR_MINIONS_INSTEAD_OF_YOU, AttributeRegister.BONUSES_AMULET_MINIONS, StatTag.MINION, StatTag.JEWELLERY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1096:        inc(map, StatIds.ALL_BONUSES_FROM_EQUIPPED_AMULET_APPLY_TO_YOUR_MINIONS_INSTEAD_OF_YOU, AttributeRegister.BONUSES_AMULET_MINIONS);"
+  ]
+ },
+ {
+  "line": 1173,
+  "helper": "chance",
+  "sid": "CHANCE_ATTACKS_ACCURACY_RATING_EQUAL_CRITICAL",
+  "const": "ACCURACY",
+  "tags": [],
+  "raw": "chance(map, StatIds.CHANCE_ATTACKS_ACCURACY_RATING_EQUAL_CRITICAL, AttributeRegister.ACCURACY);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1175,
+  "helper": "inc",
+  "sid": "CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_OF_MAX_HEALTH_PER_RAGE_CONSUMED",
+  "const": "RAGE_SHAPESHIFTING_HUMAN_FORM",
+  "tags": [
+   "RAGE",
+   "SHAPESHIFTED"
+  ],
+  "raw": "inc(map, StatIds.CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_OF_MAX_HEALTH_PER_RAGE_CONSUMED, AttributeRegister.RAGE_SHAPESHIFTING_HUMAN_FORM, StatTag.RAGE, StatTag.SHAPESHIFTED);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1098:        inc(map, StatIds.CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_X_OF_MAX_HEALTH_PER_RAGE_CONSUMED, AttributeRegister.RAGE_SHAPESHIFTING_HUMAN_FORM, StatTag.RAGE);"
+  ]
+ },
+ {
+  "line": 1176,
+  "helper": "pctAdd",
+  "sid": "DAMAGE_PENETRATES_ELEMENTAL_DAMAGE_RESISTANCES_FOR_EACH_TIME_YOU_VE_USED_A_SKILL_THAT_REQUIRES_GLORY_IN_THE_PAST_SECONDS",
+  "const": "RESISTANCE_PENETRATION",
+  "tags": [
+   "RESISTANCE",
+   "ELEMENTAL",
+   "GLORY"
+  ],
+  "raw": "pctAdd(map, StatIds.DAMAGE_PENETRATES_ELEMENTAL_DAMAGE_RESISTANCES_FOR_EACH_TIME_YOU_VE_USED_A_SKILL_THAT_REQUIRES_GLORY_IN_THE_PAST_SECONDS, AttributeRegister.RESISTANCE_PENETRATION, StatTag.RESISTANCE, StatTag.ELEMENTAL, StatTag.GLORY);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1177,
+  "helper": "pctAdd",
+  "sid": "DAMAGE_PENETRATION_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES_WHILE_SHAPESHIFTED",
+  "const": "RESISTANCE_PENETRATION",
+  "tags": [
+   "RESISTANCE",
+   "ELEMENTAL"
+  ],
+  "raw": "pctAdd(map, StatIds.DAMAGE_PENETRATION_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES_WHILE_SHAPESHIFTED, AttributeRegister.RESISTANCE_PENETRATION, StatTag.RESISTANCE, StatTag.ELEMENTAL);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1178,
+  "helper": "inc",
+  "sid": "INC_DEFLECTION_RATING_EQUAL_EVASION_DEFLECT",
+  "const": "EVASION",
+  "tags": [],
+  "raw": "inc(map, StatIds.INC_DEFLECTION_RATING_EQUAL_EVASION_DEFLECT, AttributeRegister.EVASION);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1179,
+  "helper": "inc",
+  "sid": "GAIN_PHYSICAL_THORNS_DAMAGE_EQUAL_TO_OF_MAX_HEALTH_WHILE_SHAPESHIFTED",
+  "const": "THORNS",
+  "tags": [
+   "PHYSICAL"
+  ],
+  "raw": "inc(map, StatIds.GAIN_PHYSICAL_THORNS_DAMAGE_EQUAL_TO_OF_MAX_HEALTH_WHILE_SHAPESHIFTED, AttributeRegister.THORNS, StatTag.PHYSICAL);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1180,
+  "helper": "inc",
+  "sid": "GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS",
+  "const": "ADDITIONAL_STUN_THRESHOLD_EQUAL_2",
+  "tags": [
+   "STUN",
+   "ARMOR"
+  ],
+  "raw": "inc(map, StatIds.GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS, AttributeRegister.ADDITIONAL_STUN_THRESHOLD_EQUAL_2, StatTag.STUN, StatTag.ARMOR);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1104:        inc(map, StatIds.GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_X_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS, AttributeRegister.ADDITIONAL_STUN_THRESHOLD_EQUAL_2);"
+  ]
+ },
+ {
+  "line": 1181,
+  "helper": "inc",
+  "sid": "IGNORE_ALL_MOVEMENT_PENALTIES_FROM_EQUIP_ARMOR",
+  "const": "IGNORE_MOVEMENT_PENALTIES_ARMOUR",
+  "tags": [
+   "MOVEMENT",
+   "ARMOR"
+  ],
+  "raw": "inc(map, StatIds.IGNORE_ALL_MOVEMENT_PENALTIES_FROM_EQUIP_ARMOR, AttributeRegister.IGNORE_MOVEMENT_PENALTIES_ARMOUR, StatTag.MOVEMENT, StatTag.ARMOR);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1105:        inc(map, StatIds.IGNORE_ALL_MOVEMENT_PENALTIES_FROM_EQUIP_ARMOR, AttributeRegister.IGNORE_MOVEMENT_PENALTIES_ARMOUR);"
+  ]
+ },
+ {
+  "line": 1182,
+  "helper": "inc",
+  "sid": "INC_INCREASES_REDUCTIONS_PROJECTILE_SPEED_BOW",
+  "const": "PROJECTILE_SPEED",
+  "tags": [
+   "PROJECTILE"
+  ],
+  "raw": "inc(map, StatIds.INC_INCREASES_REDUCTIONS_PROJECTILE_SPEED_BOW, AttributeRegister.PROJECTILE_SPEED, StatTag.PROJECTILE);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1214,
+  "helper": "entityMod",
+  "sid": "TOTEMS_GAIN_TO_ALL_MAX_ELEMENTAL_RESISTANCES",
+  "const": "RESISTANCES",
+  "tags": [
+   "ELEMENTAL",
+   "RESISTANCE"
+  ],
+  "raw": "entityMod(map, StatIds.TOTEMS_GAIN_TO_ALL_MAX_ELEMENTAL_RESISTANCES, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, TargetSelector.TOTEMS, StatTag.ELEMENTAL, StatTag.RESISTANCE);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1216,
+  "helper": "valueMod",
+  "sid": "INC_CHILL_DURATION_TAKEN",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "TAKEN",
+   "CHILL",
+   "AILMENT"
+  ],
+  "raw": "valueMod(map, StatIds.INC_CHILL_DURATION_TAKEN, AttributeRegister.AILMENT_DURATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.TAKEN, StatTag.CHILL, StatTag.AILMENT);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1220,
+  "helper": "inc",
+  "sid": "INCREASED_EFFECT_OF_CHILL_ON_YOU",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "TAKEN",
+   "AILMENT",
+   "CHILL"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_EFFECT_OF_CHILL_ON_YOU, AttributeRegister.AILMENT_MAGNITUDE, StatTag.TAKEN, StatTag.AILMENT, StatTag.CHILL);",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1222,
+  "helper": "valueMod",
+  "sid": "INC_COLD_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "COLD"
+  ],
+  "raw": "valueMod(map, StatIds.INC_COLD_DAMAGE, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.DAMAGE, StatTag.COLD);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1224,
+  "helper": "valueMod",
+  "sid": "INC_COLD_DAMAGE_SPELL",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "SPELL",
+   "COLD"
+  ],
+  "raw": "valueMod(map, StatIds.INC_COLD_DAMAGE_SPELL, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.DAMAGE, StatTag.SPELL, StatTag.COLD);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1226,
+  "helper": "inc",
+  "sid": "COMPANIONS_DEAL_INCREASED_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "COMPANION"
+  ],
+  "raw": "inc(map, StatIds.COMPANIONS_DEAL_INCREASED_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.COMPANION);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1232,
+  "helper": "inc",
+  "sid": "INCREASED_COOLDOWN_RECOVERY_RATE",
+  "const": "COOLDOWN_RECOVERY_RATE",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_COOLDOWN_RECOVERY_RATE, AttributeRegister.COOLDOWN_RECOVERY_RATE);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1234,
+  "helper": "inc",
+  "sid": "INCREASED_MANA_COST_EFFICIENCY",
+  "const": "COST_EFFICIENCY",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_MANA_COST_EFFICIENCY, AttributeRegister.COST_EFFICIENCY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1171:        inc(map, StatIds.X_INCREASED_MANA_COST_EFFICIENCY, AttributeRegister.COST_EFFICIENCY);"
+  ]
+ },
+ {
+  "line": 1238,
+  "helper": "inc",
+  "sid": "INCREASED_HEALTH_COST_OF_SKILLS",
+  "const": "SKILL_COST_LIFE",
+  "tags": [
+   "SPELL",
+   "HEALTH",
+   "COST"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_HEALTH_COST_OF_SKILLS, AttributeRegister.SKILL_COST_LIFE, StatTag.SPELL, StatTag.HEALTH, StatTag.COST);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1175:        inc(map, StatIds.X_INCREASED_HEALTH_COST_OF_SKILLS, AttributeRegister.SKILL_COST_LIFE);"
+  ]
+ },
+ {
+  "line": 1239,
+  "helper": "inc",
+  "sid": "INCREASED_MANA_COST_OF_SKILLS",
+  "const": "SKILL_COST_MANA",
+  "tags": [
+   "SPELL",
+   "MANA",
+   "COST"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_MANA_COST_OF_SKILLS, AttributeRegister.SKILL_COST_MANA, StatTag.SPELL, StatTag.MANA, StatTag.COST);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1176:        inc(map, StatIds.X_INCREASED_MANA_COST_OF_SKILLS, AttributeRegister.SKILL_COST_MANA);"
+  ]
+ },
+ {
+  "line": 1241,
+  "helper": "inc",
+  "sid": "INC_CRIT_CHANCE",
+  "const": "CRIT_CHANCE",
+  "tags": [
+   "ATTACK",
+   "CRIT"
+  ],
+  "raw": "inc(map, StatIds.INC_CRIT_CHANCE, AttributeRegister.CRIT_CHANCE, StatTag.ATTACK, StatTag.CRIT);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1243,
+  "helper": "inc",
+  "sid": "INCREASED_CRITICAL_DAMAGE_BONUS",
+  "const": "CRIT_DAMAGE",
+  "tags": [
+   "ATTACK",
+   "CRIT"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_CRITICAL_DAMAGE_BONUS, AttributeRegister.CRIT_DAMAGE, StatTag.ATTACK, StatTag.CRIT);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1245,
+  "helper": "inc",
+  "sid": "INC_CROSSBOW_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "CROSSBOW"
+  ],
+  "raw": "inc(map, StatIds.INC_CROSSBOW_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.CROSSBOW);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1246,
+  "helper": "inc",
+  "sid": "INCREASED_DAMAGE_WITH_AXES",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "AXE"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DAMAGE_WITH_AXES, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.AXE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1247,
+  "helper": "inc",
+  "sid": "INCREASED_DAMAGE_WITH_MACES",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "MACE"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DAMAGE_WITH_MACES, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.MACE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1248,
+  "helper": "inc",
+  "sid": "INCREASED_DAMAGE_WITH_SPEARS",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "SPEAR"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DAMAGE_WITH_SPEARS, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.SPEAR);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1249,
+  "helper": "inc",
+  "sid": "INC_TRAP_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "TRAP"
+  ],
+  "raw": "inc(map, StatIds.INC_TRAP_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.TRAP);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1250,
+  "helper": "inc",
+  "sid": "INCREASED_DAMAGE_WITH_HITS_AGAINST_CHILLED_ENEMIES",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DAMAGE_WITH_HITS_AGAINST_CHILLED_ENEMIES, AttributeRegister.DAMAGE, StatTag.DAMAGE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1252,
+  "helper": "entityMod",
+  "sid": "MINIONS_HAVE_INCREASED_AREA_OF_EFFECT",
+  "const": "AREA_OF_EFFECT",
+  "tags": [
+   "MINION"
+  ],
+  "raw": "entityMod(map, StatIds.MINIONS_HAVE_INCREASED_AREA_OF_EFFECT, AttributeRegister.AREA_OF_EFFECT, TargetSelector.MINIONS, StatTag.MINION);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1254,
+  "helper": "inc",
+  "sid": "INCREASED_CULLING_STRIKE_THRESHOLD",
+  "const": "CULLING_STRIKE_THRESHOLD",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_CULLING_STRIKE_THRESHOLD, AttributeRegister.CULLING_STRIKE_THRESHOLD);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1192:        inc(map, StatIds.X_INCREASED_CULLING_STRIKE_THRESHOLD, AttributeRegister.CULLING_STRIKE_THRESHOLD);"
+  ]
+ },
+ {
+  "line": 1256,
+  "helper": "inc",
+  "sid": "INCREASED_CURSE_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "CURSE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_CURSE_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.CURSE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1259,
+  "helper": "inc",
+  "sid": "INCREASED_CURSE_BUFF_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "CURSE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_CURSE_BUFF_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.CURSE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1261,
+  "helper": "inc",
+  "sid": "INC_DAMAGE_ATTACK",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "ATTACK"
+  ],
+  "raw": "inc(map, StatIds.INC_DAMAGE_ATTACK, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.ATTACK);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1265,
+  "helper": "inc",
+  "sid": "INC_DAMAGE_EMPOWERED_ATTACKS",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "ATTACK",
+   "EMPOWERED"
+  ],
+  "raw": "inc(map, StatIds.INC_DAMAGE_EMPOWERED_ATTACKS, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.ATTACK, StatTag.EMPOWERED);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1276,
+  "helper": "inc",
+  "sid": "INC_DAMAGE_OVER_TIME",
+  "const": "DAMAGE_OVER_TIME_MULTIPLIER",
+  "tags": [
+   "DAMAGE_OVER_TIME"
+  ],
+  "raw": "inc(map, StatIds.INC_DAMAGE_OVER_TIME, AttributeRegister.DAMAGE_OVER_TIME_MULTIPLIER, StatTag.DAMAGE_OVER_TIME);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/status/StatusBehavior.java:402:                    mult = caster.getAttributeValue(AttributeRegister.DAMAGE_OVER_TIME_MULTIPLIER);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1214:        inc(map, StatIds.INC_DAMAGE_OVER_TIME, AttributeRegister.DAMAGE_OVER_TIME_MULTIPLIER, StatTag.DAMAGE_OVER_TIME);"
+  ]
+ },
+ {
+  "line": 1284,
+  "helper": "entityMod",
+  "sid": "INC_DAMAGE_PRESENCE_ALLIES",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE"
+  ],
+  "raw": "entityMod(map, StatIds.INC_DAMAGE_PRESENCE_ALLIES, AttributeRegister.DAMAGE, TargetSelector.PRESENCE_ALLIES, StatTag.DAMAGE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1286,
+  "helper": "entityMod",
+  "sid": "INC_DAMAGE_PRESENCE_ENEMIES",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE"
+  ],
+  "raw": "entityMod(map, StatIds.INC_DAMAGE_PRESENCE_ENEMIES, AttributeRegister.DAMAGE, TargetSelector.PRESENCE_ENEMIES, StatTag.DAMAGE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1303,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "DAMAGE_OVER_TIME",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT, AttributeRegister.AILMENT_MAGNITUDE, StatTag.DAMAGE_OVER_TIME, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1306,
+  "helper": "inc",
+  "sid": "INCREASED_DURATION_OF_DAMAGING_AILMENTS_ON_ENEMIES",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "DAMAGE_OVER_TIME",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DURATION_OF_DAMAGING_AILMENTS_ON_ENEMIES, AttributeRegister.AILMENT_DURATION, StatTag.DAMAGE_OVER_TIME, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1310,
+  "helper": "more",
+  "sid": "MORE_BLEEDING_MAGNITUDE_INFLICTED",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "AILMENT",
+   "BLEED",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "more(map, StatIds.MORE_BLEEDING_MAGNITUDE_INFLICTED, AttributeRegister.AILMENT_MAGNITUDE, StatTag.AILMENT, StatTag.BLEED, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1312,
+  "helper": "inc",
+  "sid": "INC_DAZE_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "DAZE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_DAZE_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.DAZE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1315,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_MAGNITUDE_OF_DAZE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "DAZE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_MAGNITUDE_OF_DAZE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.DAZE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1326,
+  "helper": "inc",
+  "sid": "INC_DEBUFF_EXPIRY",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "TAKEN",
+   "AILMENT"
+  ],
+  "raw": "inc(map, StatIds.INC_DEBUFF_EXPIRY, AttributeRegister.AILMENT_DURATION, StatTag.TAKEN, StatTag.AILMENT);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1328,
+  "helper": "inc",
+  "sid": "INCREASED_DEFLECTION_RATING_WHILE_SURROUNDED",
+  "const": "DEFLECTION_RATING",
+  "tags": [
+   "DEFLECT"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DEFLECTION_RATING_WHILE_SURROUNDED, AttributeRegister.DEFLECTION_RATING, StatTag.DEFLECT);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1266:        inc(map, StatIds.X_INCREASED_DEFLECTION_RATING_WHILE_SURROUNDED, AttributeRegister.DEFLECTION_RATING, StatTag.DEFLECT);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1270:                ModifierStatEffect.entry(AttributeRegister.DEFLECTION_RATING,"
+  ]
+ },
+ {
+  "line": 1338,
+  "helper": "more",
+  "sid": "INC_DEXTERITY",
+  "const": "DEXTERITY",
+  "tags": [],
+  "raw": "more(map, StatIds.INC_DEXTERITY, AttributeRegister.DEXTERITY);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1339,
+  "helper": "more",
+  "sid": "INC_INTELLIGENCE",
+  "const": "INTELLIGENCE",
+  "tags": [],
+  "raw": "more(map, StatIds.INC_INTELLIGENCE, AttributeRegister.INTELLIGENCE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1341,
+  "helper": "inc",
+  "sid": "INCREASED_ELECTROCUTE_BUILDUP",
+  "const": "AILMENT_BUILDUP",
+  "tags": [
+   "ELECTROCUTED"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_ELECTROCUTE_BUILDUP, AttributeRegister.AILMENT_BUILDUP, StatTag.ELECTROCUTED);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1348,
+  "helper": "inc",
+  "sid": "INCREASED_ELEMENTAL_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "ELEMENTAL"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_ELEMENTAL_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.ELEMENTAL);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1352,
+  "helper": "add",
+  "sid": "ADD_EMPOWERED_ATTACKS",
+  "const": "ADD_EMPOWERED_ATTACKS",
+  "tags": [
+   "WARCRY",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "add(map, StatIds.ADD_EMPOWERED_ATTACKS, AttributeRegister.ADD_EMPOWERED_ATTACKS, StatTag.WARCRY, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1358,
+  "helper": "add",
+  "sid": "INCREASED_DAMAGE_IF_YOU_HAVE_CONSUMED_A_CORPSE_RECENTLY",
+  "const": "RECENTLY_CONSUMED_DAMAGE",
+  "tags": [],
+  "raw": "add(map, StatIds.INCREASED_DAMAGE_IF_YOU_HAVE_CONSUMED_A_CORPSE_RECENTLY, AttributeRegister.RECENTLY_CONSUMED_DAMAGE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/status/registry/buff/BuffStatusTypes.java:123:                double points = StatEngine.fold(living, AttributeRegister.RECENTLY_CONSUMED_DAMAGE, 0.0);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1296:        add(map, StatIds.X_INCREASED_DAMAGE_IF_YOU_HAVE_CONSUMED_A_CORPSE_RECENTLY, AttributeRegister.RECENTLY_CONSUMED_DAMAGE);"
+  ]
+ },
+ {
+  "line": 1360,
+  "helper": "add",
+  "sid": "ADD_CORPSE_RETAIN_CHANCE",
+  "const": "CORPSE_RETAIN_CHANCE",
+  "tags": [],
+  "raw": "add(map, StatIds.ADD_CORPSE_RETAIN_CHANCE, AttributeRegister.CORPSE_RETAIN_CHANCE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/skill/helper/CorpseState.java:58:        double retain = StatEngine.fold(living, AttributeRegister.CORPSE_RETAIN_CHANCE, 0.0);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1298:        add(map, StatIds.ADD_CORPSE_RETAIN_CHANCE, AttributeRegister.CORPSE_RETAIN_CHANCE);"
+  ]
+ },
+ {
+  "line": 1362,
+  "helper": "inc",
+  "sid": "ADD_RECENTLY_CONSUMED_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.ADD_RECENTLY_CONSUMED_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1365,
+  "helper": "valueMod",
+  "sid": "INC_ENERGY_REGENERATION_RATE",
+  "const": "REGENERATION_RATE",
+  "tags": [
+   "ENERGY",
+   "REGEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_ENERGY_REGENERATION_RATE, AttributeRegister.REGENERATION_RATE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.ENERGY, StatTag.REGEN);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1367,
+  "helper": "valueMod",
+  "sid": "INC_EVASION",
+  "const": "EVASION",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.INC_EVASION, AttributeRegister.EVASION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1369,
+  "helper": "inc",
+  "sid": "INCREASED_EXPOSURE_EFFECT",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "EXPOSURE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_EXPOSURE_EFFECT, AttributeRegister.AILMENT_MAGNITUDE, StatTag.EXPOSURE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1372,
+  "helper": "inc",
+  "sid": "INC_FASTER_AILMENTS",
+  "const": "AILMENT_DAMAGE_RATE",
+  "tags": [
+   "DAMAGE_OVER_TIME"
+  ],
+  "raw": "inc(map, StatIds.INC_FASTER_AILMENTS, AttributeRegister.AILMENT_DAMAGE_RATE, StatTag.DAMAGE_OVER_TIME);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1374,
+  "helper": "valueMod",
+  "sid": "INC_FIRE_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "FIRE"
+  ],
+  "raw": "valueMod(map, StatIds.INC_FIRE_DAMAGE, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.DAMAGE, StatTag.FIRE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1376,
+  "helper": "valueMod",
+  "sid": "INC_FIRE_DAMAGE_SPELL",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "SPELL",
+   "FIRE"
+  ],
+  "raw": "valueMod(map, StatIds.INC_FIRE_DAMAGE_SPELL, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.DAMAGE, StatTag.SPELL, StatTag.FIRE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1379,
+  "helper": "inc",
+  "sid": "INC_FLAMMABILITY_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "CURSE",
+   "FIRE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_FLAMMABILITY_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.CURSE, StatTag.FIRE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1386,
+  "helper": "inc",
+  "sid": "INCREASED_FLASK_CHARGES_USED_FROM_MANA_FLASKS",
+  "const": "FLASK_CHARGES_GAINED",
+  "tags": [
+   "FLASK"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_FLASK_CHARGES_USED_FROM_MANA_FLASKS, AttributeRegister.FLASK_CHARGES_GAINED, StatTag.FLASK);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1321:                ModifierStatEffect.entry(AttributeRegister.FLASK_CHARGES_GAINED, ExpressionCodec.of(MathParser.parse(\"$value/100\")),",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1324:        inc(map, StatIds.X_INCREASED_FLASK_CHARGES_USED_FROM_MANA_FLASKS, AttributeRegister.FLASK_CHARGES_GAINED, StatTag.FLASK);"
+  ]
+ },
+ {
+  "line": 1389,
+  "helper": "inc",
+  "sid": "INC_FLASK_EFFECT_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "FLASK",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_FLASK_EFFECT_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.FLASK, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1395,
+  "helper": "inc",
+  "sid": "INC_FLASK_LIFE_RECOVERY",
+  "const": "FLASK_RECOVERY_RATE",
+  "tags": [
+   "HEALTH",
+   "FLASK"
+  ],
+  "raw": "inc(map, StatIds.INC_FLASK_LIFE_RECOVERY, AttributeRegister.FLASK_RECOVERY_RATE, StatTag.HEALTH, StatTag.FLASK);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1397,
+  "helper": "inc",
+  "sid": "INCREASED_HEALTH_RECOVERY_FROM_FLASKS_USED_WHEN_ON_LOW_HEALTH",
+  "const": "FLASK_RECOVERY_RATE",
+  "tags": [
+   "FLASK"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_HEALTH_RECOVERY_FROM_FLASKS_USED_WHEN_ON_LOW_HEALTH, AttributeRegister.FLASK_RECOVERY_RATE, StatTag.FLASK);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1399,
+  "helper": "pctAdd",
+  "sid": "INC_FOUND_QUANTITY",
+  "const": "FOUND_ITEM_NUMBER",
+  "tags": [],
+  "raw": "pctAdd(map, StatIds.INC_FOUND_QUANTITY, AttributeRegister.FOUND_ITEM_NUMBER);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1401,
+  "helper": "pctAdd",
+  "sid": "INC_FOUND_RARITY",
+  "const": "FOUND_ITEM_RARITY",
+  "tags": [],
+  "raw": "pctAdd(map, StatIds.INC_FOUND_RARITY, AttributeRegister.FOUND_ITEM_RARITY);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1403,
+  "helper": "inc",
+  "sid": "INC_FREEZE_BUILDUP",
+  "const": "AILMENT_BUILDUP",
+  "tags": [
+   "FREEZE"
+  ],
+  "raw": "inc(map, StatIds.INC_FREEZE_BUILDUP, AttributeRegister.AILMENT_BUILDUP, StatTag.FREEZE);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1409,
+  "helper": "valueMod",
+  "sid": "INC_FREEZE_DURATION_TAKEN",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "TAKEN",
+   "FREEZE",
+   "AILMENT"
+  ],
+  "raw": "valueMod(map, StatIds.INC_FREEZE_DURATION_TAKEN, AttributeRegister.AILMENT_DURATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.TAKEN, StatTag.FREEZE, StatTag.AILMENT);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1412,
+  "helper": "valueMod",
+  "sid": "INC_GLORY_GENERATION",
+  "const": "GLORY_GENERATION",
+  "tags": [
+   "GLORY"
+  ],
+  "raw": "valueMod(map, StatIds.INC_GLORY_GENERATION, AttributeRegister.GLORY_GENERATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.GLORY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1350:        valueMod(map, StatIds.INC_GLORY_GENERATION, AttributeRegister.GLORY_GENERATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.GLORY);"
+  ]
+ },
+ {
+  "line": 1414,
+  "helper": "inc",
+  "sid": "INCREASED_GRENADE_DETONATION_TIME",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "GRENADE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_GRENADE_DETONATION_TIME, AttributeRegister.AILMENT_DURATION, StatTag.GRENADE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1416,
+  "helper": "inc",
+  "sid": "INCREASED_HAZARD_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "HAZARD",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_HAZARD_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.HAZARD, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1420,
+  "helper": "inc",
+  "sid": "INCREASED_IGNITE_DURATION_ON_ENEMIES",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "IGNITE",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_IGNITE_DURATION_ON_ENEMIES, AttributeRegister.AILMENT_DURATION, StatTag.IGNITE, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1422,
+  "helper": "valueMod",
+  "sid": "INC_IGNITE_DURATION_TAKEN",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "TAKEN",
+   "IGNITE",
+   "AILMENT"
+  ],
+  "raw": "valueMod(map, StatIds.INC_IGNITE_DURATION_TAKEN, AttributeRegister.AILMENT_DURATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.TAKEN, StatTag.IGNITE, StatTag.AILMENT);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1426,
+  "helper": "inc",
+  "sid": "INC_IGNITE_FASTER",
+  "const": "AILMENT_DAMAGE_RATE",
+  "tags": [
+   "IGNITE"
+  ],
+  "raw": "inc(map, StatIds.INC_IGNITE_FASTER, AttributeRegister.AILMENT_DAMAGE_RATE, StatTag.IGNITE);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1431,
+  "helper": "inc",
+  "sid": "INC_IGNITE_MAGNITUDE_TAKEN",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "TAKEN",
+   "AILMENT",
+   "IGNITE"
+  ],
+  "raw": "inc(map, StatIds.INC_IGNITE_MAGNITUDE_TAKEN, AttributeRegister.AILMENT_MAGNITUDE, StatTag.TAKEN, StatTag.AILMENT, StatTag.IGNITE);",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1433,
+  "helper": "inc",
+  "sid": "INCREASED_IMMOBILISATION_BUILDUP",
+  "const": "AILMENT_BUILDUP",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_IMMOBILISATION_BUILDUP, AttributeRegister.AILMENT_BUILDUP);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1438,
+  "helper": "inc",
+  "sid": "INC_INCISION_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "INCISION",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_INCISION_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.INCISION, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1440,
+  "helper": "valueMod",
+  "sid": "INC_INFUSION_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "INFUSION",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_INFUSION_DURATION, AttributeRegister.AILMENT_DURATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.INFUSION, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1442,
+  "helper": "valueMod",
+  "sid": "INC_INFUSION_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "INFUSION",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_INFUSION_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.INFUSION, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1444,
+  "helper": "more",
+  "sid": "INCREASED_INTELLIGENCE",
+  "const": "INTELLIGENCE",
+  "tags": [],
+  "raw": "more(map, StatIds.INCREASED_INTELLIGENCE, AttributeRegister.INTELLIGENCE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1446,
+  "helper": "inc",
+  "sid": "INC_JAGGED_GROUND_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "JAGGED_GROUND",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_JAGGED_GROUND_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.JAGGED_GROUND, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1449,
+  "helper": "inc",
+  "sid": "INCREASED_BUFF_MAGNITUDE_OF_JAGGED_GROUND_YOU_CREATE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "JAGGED_GROUND",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_BUFF_MAGNITUDE_OF_JAGGED_GROUND_YOU_CREATE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.JAGGED_GROUND, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1451,
+  "helper": "inc",
+  "sid": "INCREASED_KNOCKBACK_DISTANCE",
+  "const": "KNOCKBACK",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_KNOCKBACK_DISTANCE, AttributeRegister.KNOCKBACK);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1459,
+  "helper": "valueMod",
+  "sid": "INC_LIGHT_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "LIGHTNING"
+  ],
+  "raw": "valueMod(map, StatIds.INC_LIGHT_DAMAGE, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.DAMAGE, StatTag.LIGHTNING);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1461,
+  "helper": "valueMod",
+  "sid": "INC_LIGHT_DAMAGE_SPELL",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "SPELL",
+   "LIGHTNING"
+  ],
+  "raw": "valueMod(map, StatIds.INC_LIGHT_DAMAGE_SPELL, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.DAMAGE, StatTag.SPELL, StatTag.LIGHTNING);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1463,
+  "helper": "inc",
+  "sid": "INCREASED_LIGHT_RADIUS",
+  "const": "LIGHT_RADIUS",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_LIGHT_RADIUS, AttributeRegister.LIGHT_RADIUS);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1401:        inc(map, StatIds.X_INCREASED_LIGHT_RADIUS, AttributeRegister.LIGHT_RADIUS);"
+  ]
+ },
+ {
+  "line": 1466,
+  "helper": "valueMod",
+  "sid": "INC_MANA_REGENERATION_RATE",
+  "const": "REGENERATION_RATE",
+  "tags": [
+   "MANA",
+   "REGEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_MANA_REGENERATION_RATE, AttributeRegister.REGENERATION_RATE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.MANA, StatTag.REGEN);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1471,
+  "helper": "pctAdd",
+  "sid": "INC_MANA_TAKE",
+  "const": "MANA_TAKE_OF_DAMAGE",
+  "tags": [
+   "MANA_TAKE"
+  ],
+  "raw": "pctAdd(map, StatIds.INC_MANA_TAKE, AttributeRegister.MANA_TAKE_OF_DAMAGE, StatTag.MANA_TAKE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1473,
+  "helper": "inc",
+  "sid": "INC_MARK_EFFECT",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "MARK",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_MARK_EFFECT, AttributeRegister.AILMENT_MAGNITUDE, StatTag.MARK, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1475,
+  "helper": "more",
+  "sid": "INC_MAX_ENERGY",
+  "const": "MAX_ENERGY_SHIELD",
+  "tags": [],
+  "raw": "more(map, StatIds.INC_MAX_ENERGY, AttributeRegister.MAX_ENERGY_SHIELD);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1477,
+  "helper": "more",
+  "sid": "INC_ARMOUR_ENERGY",
+  "const": "MAX_ENERGY_SHIELD",
+  "tags": [
+   "EVASION"
+  ],
+  "raw": "more(map, StatIds.INC_ARMOUR_ENERGY, AttributeRegister.MAX_ENERGY_SHIELD, StatTag.EVASION);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1487,
+  "helper": "valueMod",
+  "sid": "INCREASED_MAX_MANA",
+  "const": "MAX_MANA",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.INCREASED_MAX_MANA, AttributeRegister.MAX_MANA, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1489,
+  "helper": "add",
+  "sid": "INC_MAX_RAGE",
+  "const": "MAX_RAGE",
+  "tags": [],
+  "raw": "add(map, StatIds.INC_MAX_RAGE, AttributeRegister.MAX_RAGE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1494,
+  "helper": "valueMod",
+  "sid": "MORE_MAX_RAGE",
+  "const": "MAX_RAGE",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.MORE_MAX_RAGE, AttributeRegister.MAX_RAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1498,
+  "helper": "valueMod",
+  "sid": "INC_MAX_VOLATILITY",
+  "const": "MAX_VOLATILITY",
+  "tags": [
+   "VOLATILITY"
+  ],
+  "raw": "valueMod(map, StatIds.INC_MAX_VOLATILITY, AttributeRegister.MAX_VOLATILITY, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.VOLATILITY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1437:        valueMod(map, StatIds.INC_MAX_VOLATILITY, AttributeRegister.MAX_VOLATILITY, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.VOLATILITY);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/helper/VolatilityHelper.java:24:        return (float) Math.max(0, living.getAttributeValue(AttributeRegister.MAX_VOLATILITY));"
+  ]
+ },
+ {
+  "line": 1500,
+  "helper": "inc",
+  "sid": "INC_META_ENERGY",
+  "const": "META_ENERGY_GAIN",
+  "tags": [],
+  "raw": "inc(map, StatIds.INC_META_ENERGY, AttributeRegister.META_ENERGY_GAIN);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1439:        inc(map, StatIds.INC_META_ENERGY, AttributeRegister.META_ENERGY_GAIN);"
+  ]
+ },
+ {
+  "line": 1518,
+  "helper": "entityMod",
+  "sid": "INC_MINION_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "MINION",
+   "DAMAGE"
+  ],
+  "raw": "entityMod(map, StatIds.INC_MINION_DAMAGE, AttributeRegister.DAMAGE, TargetSelector.MINIONS, StatTag.MINION, StatTag.DAMAGE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1521,
+  "helper": "entityMod",
+  "sid": "INC_MINION_ELEMENTAL_RESIST",
+  "const": "RESISTANCES",
+  "tags": [
+   "MINION",
+   "ELEMENTAL",
+   "RESISTANCE"
+  ],
+  "raw": "entityMod(map, StatIds.INC_MINION_ELEMENTAL_RESIST, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, TargetSelector.MINIONS, StatTag.MINION, StatTag.ELEMENTAL, StatTag.RESISTANCE);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1592,
+  "helper": "inc",
+  "sid": "INC_MINION_REVIVE",
+  "const": "CAST_SPEED",
+  "tags": [
+   "MINION"
+  ],
+  "raw": "inc(map, StatIds.INC_MINION_REVIVE, AttributeRegister.CAST_SPEED, StatTag.MINION);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1601,
+  "helper": "valueMod",
+  "sid": "INC_NON_DAMAGING_AILMENT_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "NON_DAMAGING",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_NON_DAMAGING_AILMENT_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.NON_DAMAGING, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1603,
+  "helper": "inc",
+  "sid": "INC_OFFERING_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "OFFERING",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_OFFERING_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.OFFERING, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1605,
+  "helper": "inc",
+  "sid": "OFFERING_SKILLS_HAVE_INCREASED_BUFF_EFFECT",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "OFFERING",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.OFFERING_SKILLS_HAVE_INCREASED_BUFF_EFFECT, AttributeRegister.AILMENT_MAGNITUDE, StatTag.OFFERING, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1607,
+  "helper": "inc",
+  "sid": "INCREASED_DAMAGE_WITH_ONE_HANDED_WEAPONS",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "ONE_HANDED"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DAMAGE_WITH_ONE_HANDED_WEAPONS, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.ONE_HANDED);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1615,
+  "helper": "inc",
+  "sid": "INCREASED_PARRIED_DEBUFF_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "PARRY",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_PARRIED_DEBUFF_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.PARRY, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1619,
+  "helper": "inc",
+  "sid": "INCREASED_PARRIED_DEBUFF_BUFF_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "PARRY",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_PARRIED_DEBUFF_BUFF_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.PARRY, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1621,
+  "helper": "inc",
+  "sid": "INCREASED_PARRY_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "PARRY"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_PARRY_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.PARRY);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1624,
+  "helper": "inc",
+  "sid": "INCREASED_PARRY_RANGE",
+  "const": "PARRY_RANGE",
+  "tags": [
+   "PARRY"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_PARRY_RANGE, AttributeRegister.PARRY_RANGE, StatTag.PARRY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1559:        inc(map, StatIds.X_INCREASED_PARRY_RANGE, AttributeRegister.PARRY_RANGE);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/event/DamagePipeline.java:414:        double parryRange = readInScope(living, Set.of(StatTag.PARRY), AttributeRegister.PARRY_RANGE);"
+  ]
+ },
+ {
+  "line": 1626,
+  "helper": "inc",
+  "sid": "INC_PHYSICAL_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "PHYSICAL"
+  ],
+  "raw": "inc(map, StatIds.INC_PHYSICAL_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.PHYSICAL);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1628,
+  "helper": "inc",
+  "sid": "INCREASED_PHYSICAL_DAMAGE_WHILE_SHAPESHIFTED",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "PHYSICAL",
+   "FORM"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_PHYSICAL_DAMAGE_WHILE_SHAPESHIFTED, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.PHYSICAL, StatTag.FORM);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1631,
+  "helper": "inc",
+  "sid": "INC_PIN_BUILDUP",
+  "const": "AILMENT_BUILDUP",
+  "tags": [
+   "PIN"
+  ],
+  "raw": "inc(map, StatIds.INC_PIN_BUILDUP, AttributeRegister.AILMENT_BUILDUP, StatTag.PIN);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1633,
+  "helper": "inc",
+  "sid": "INCREASED_PINNED_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "PIN",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_PINNED_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.PIN, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1635,
+  "helper": "inc",
+  "sid": "INCREASED_POISON_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "POISON",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_POISON_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.POISON, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1637,
+  "helper": "valueMod",
+  "sid": "INC_POISON_DURATION_TAKEN",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "TAKEN",
+   "POISON",
+   "AILMENT"
+  ],
+  "raw": "valueMod(map, StatIds.INC_POISON_DURATION_TAKEN, AttributeRegister.AILMENT_DURATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.TAKEN, StatTag.POISON, StatTag.AILMENT);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1639,
+  "helper": "inc",
+  "sid": "INC_PROJECTILE_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "PROJECTILE"
+  ],
+  "raw": "inc(map, StatIds.INC_PROJECTILE_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.PROJECTILE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1641,
+  "helper": "pctAdd",
+  "sid": "INC_PROJECTILE_PIERCE",
+  "const": "PROJECTILE_PIERCE_CHANCE",
+  "tags": [
+   "PROJECTILE"
+  ],
+  "raw": "pctAdd(map, StatIds.INC_PROJECTILE_PIERCE, AttributeRegister.PROJECTILE_PIERCE_CHANCE, StatTag.PROJECTILE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1644,
+  "helper": "inc",
+  "sid": "INC_PROJECTILE_SPEED",
+  "const": "PROJECTILE_SPEED",
+  "tags": [
+   "PROJECTILE"
+  ],
+  "raw": "inc(map, StatIds.INC_PROJECTILE_SPEED, AttributeRegister.PROJECTILE_SPEED, StatTag.PROJECTILE);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1658,
+  "helper": "inc",
+  "sid": "INCREASED_SPEED_OF_RECOUP_EFFECTS",
+  "const": "RECOVERY_RATE",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_SPEED_OF_RECOUP_EFFECTS, AttributeRegister.RECOVERY_RATE);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1660,
+  "helper": "inc",
+  "sid": "INC_RELOAD_SPEED",
+  "const": "CROSS_BOW_RELOAD_TIME",
+  "tags": [
+   "CROSSBOW"
+  ],
+  "raw": "inc(map, StatIds.INC_RELOAD_SPEED, AttributeRegister.CROSS_BOW_RELOAD_TIME, StatTag.CROSSBOW);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1594:        inc(map, StatIds.INC_RELOAD_SPEED, AttributeRegister.CROSS_BOW_RELOAD_TIME, StatTag.CROSSBOW);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/mixin/attribute/projectile/ProjectileInEnchant.java:47:            cir.setReturnValue(1.0F / (float) living.getAttributeValue(AttributeRegister.CROSS_BOW_RELOAD_TIME));"
+  ]
+ },
+ {
+  "line": 1665,
+  "helper": "pctAdd",
+  "sid": "INC_RESERVATION_EFFICIENCY",
+  "const": "RESERVATION_EFFICIENCY",
+  "tags": [],
+  "raw": "pctAdd(map, StatIds.INC_RESERVATION_EFFICIENCY, AttributeRegister.RESERVATION_EFFICIENCY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1599:        valueMod(map, StatIds.INC_RESERVATION_EFFICIENCY, AttributeRegister.RESERVATION_EFFICIENCY, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/helper/SpiritManager.java:65:        float reservationEfficiency = (float) StatEngine.compute(player, AttributeRegister.RESERVATION_EFFICIENCY, StatContext.EMPTY).multBase();"
+  ]
+ },
+ {
+  "line": 1667,
+  "helper": "valueMod",
+  "sid": "INC_SHOCK_DURATION_TAKEN",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "TAKEN",
+   "SHOCK",
+   "AILMENT"
+  ],
+  "raw": "valueMod(map, StatIds.INC_SHOCK_DURATION_TAKEN, AttributeRegister.AILMENT_DURATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.TAKEN, StatTag.SHOCK, StatTag.AILMENT);",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1669,
+  "helper": "inc",
+  "sid": "INC_SKILL_EFFECT_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INC_SKILL_EFFECT_DURATION, AttributeRegister.AILMENT_DURATION, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1675,
+  "helper": "inc",
+  "sid": "INCREASED_SLOWING_POTENCY_OF_DEBUFFS_ON_YOU",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "TAKEN",
+   "SLOW"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_SLOWING_POTENCY_OF_DEBUFFS_ON_YOU, AttributeRegister.AILMENT_MAGNITUDE, StatTag.TAKEN, StatTag.SLOW);",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1677,
+  "helper": "inc",
+  "sid": "INC_SPELL_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "SPELL"
+  ],
+  "raw": "inc(map, StatIds.INC_SPELL_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.SPELL);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1680,
+  "helper": "more",
+  "sid": "INC_STRENGTH",
+  "const": "STRENGTH",
+  "tags": [],
+  "raw": "more(map, StatIds.INC_STRENGTH, AttributeRegister.STRENGTH);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1682,
+  "helper": "valueMod",
+  "sid": "INC_STUN_BUILDUP",
+  "const": "AILMENT_BUILDUP",
+  "tags": [
+   "STUN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_STUN_BUILDUP, AttributeRegister.AILMENT_BUILDUP, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.STUN);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1684,
+  "helper": "valueMod",
+  "sid": "INC_STUN_DURATION",
+  "const": "AILMENT_DURATION",
+  "tags": [
+   "STUN",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "valueMod(map, StatIds.INC_STUN_DURATION, AttributeRegister.AILMENT_DURATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.STUN, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 33,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1687,
+  "helper": "inc",
+  "sid": "INCREASED_STUN_RECOVERY",
+  "const": "STUN_RECOVERY",
+  "tags": [
+   "STUN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_STUN_RECOVERY, AttributeRegister.STUN_RECOVERY, StatTag.STUN);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1620:        inc(map, StatIds.X_INCREASED_STUN_RECOVERY, AttributeRegister.STUN_RECOVERY);"
+  ]
+ },
+ {
+  "line": 1693,
+  "helper": "inc",
+  "sid": "INCREASED_DAMAGE_WITH_SWORDS",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "SWORD"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DAMAGE_WITH_SWORDS, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.SWORD);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1695,
+  "helper": "valueMod",
+  "sid": "INC_TAKEN_CRIT_DAMAGE",
+  "const": "TAKEN_CRIT_DAMAGE",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.INC_TAKEN_CRIT_DAMAGE, AttributeRegister.TAKEN_CRIT_DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/entity/EntityGen.java:94:                AttributeRegister.TAKEN_CRIT_DAMAGE, -0.8);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1628:        valueMod(map, StatIds.INC_TAKEN_CRIT_DAMAGE, AttributeRegister.TAKEN_CRIT_DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);"
+  ]
+ },
+ {
+  "line": 1698,
+  "helper": "valueMod",
+  "sid": "INC_TAKEN_DAMAGE",
+  "const": "TAKEN_DAMAGE",
+  "tags": [],
+  "raw": "valueMod(map, StatIds.INC_TAKEN_DAMAGE, AttributeRegister.TAKEN_DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1712,
+  "helper": "inc",
+  "sid": "INCREASED_THORNS_DAMAGE",
+  "const": "THORNS",
+  "tags": [],
+  "raw": "inc(map, StatIds.INCREASED_THORNS_DAMAGE, AttributeRegister.THORNS);",
+  "const_wc": 2,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1718,
+  "helper": "inc",
+  "sid": "INCREASED_TOTEM_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "TOTEM"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_TOTEM_DAMAGE, AttributeRegister.DAMAGE, StatTag.TOTEM);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1720,
+  "helper": "inc",
+  "sid": "INCREASED_TOTEM_PLACEMENT_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [
+   "TOTEM"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_TOTEM_PLACEMENT_SPEED, AttributeRegister.CAST_SPEED, StatTag.TOTEM);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1722,
+  "helper": "inc",
+  "sid": "INC_TRAP_THROW_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [
+   "TRAP"
+  ],
+  "raw": "inc(map, StatIds.INC_TRAP_THROW_SPEED, AttributeRegister.CAST_SPEED, StatTag.TRAP);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1724,
+  "helper": "inc",
+  "sid": "INCREASED_DAMAGE_WITH_TWO_HANDED_WEAPONS",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "TWO_HANDED"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_DAMAGE_WITH_TWO_HANDED_WEAPONS, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.TWO_HANDED);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1726,
+  "helper": "valueMod",
+  "sid": "INCREASED_VOLATILITY_EXPLOSION_DELAY",
+  "const": "VOLATILITY_DETONATION_TIME",
+  "tags": [
+   "VOLATILITY"
+  ],
+  "raw": "valueMod(map, StatIds.INCREASED_VOLATILITY_EXPLOSION_DELAY, AttributeRegister.VOLATILITY_DETONATION_TIME, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.VOLATILITY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1659:        valueMod(map, StatIds.INC_MAX_VOLATILITY, AttributeRegister.VOLATILITY_DETONATION_TIME, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.VOLATILITY);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/event/VolatilityDetonationManager.java:58:                double seconds = living.getAttributeValue(AttributeRegister.VOLATILITY_DETONATION_TIME);"
+  ]
+ },
+ {
+  "line": 1728,
+  "helper": "valueMod",
+  "sid": "INC_VOLATILITY_GENERATION",
+  "const": "VOLATILITY_GENERATION",
+  "tags": [
+   "VOLATILITY"
+  ],
+  "raw": "valueMod(map, StatIds.INC_VOLATILITY_GENERATION, AttributeRegister.VOLATILITY_GENERATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.VOLATILITY);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1661:        valueMod(map, StatIds.INC_VOLATILITY_GENERATION, AttributeRegister.VOLATILITY_GENERATION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.VOLATILITY);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:1665:                ModifierStatEffect.entry(AttributeRegister.VOLATILITY_GENERATION, ExpressionCodec.of(MathParser.parse(\"$value\")),"
+  ]
+ },
+ {
+  "line": 1735,
+  "helper": "inc",
+  "sid": "INCREASED_TOTAL_POWER_COUNTED_BY_WARCRIES",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "WARCRY",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_TOTAL_POWER_COUNTED_BY_WARCRIES, AttributeRegister.AILMENT_MAGNITUDE, StatTag.WARCRY, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1738,
+  "helper": "inc",
+  "sid": "INCREASED_WITHERED_BUFF_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "WITHERED",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_WITHERED_BUFF_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, StatTag.WITHERED, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1776,
+  "helper": "more",
+  "sid": "MORE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES_WITH_MACES",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "MACE"
+  ],
+  "raw": "more(map, StatIds.MORE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES_WITH_MACES, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.MACE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1783,
+  "helper": "inc",
+  "sid": "MARK_USE_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [
+   "MARK"
+  ],
+  "raw": "inc(map, StatIds.MARK_USE_SPEED, AttributeRegister.CAST_SPEED, StatTag.MARK);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1785,
+  "helper": "inc",
+  "sid": "INCREASED_MELEE_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "MELEE"
+  ],
+  "raw": "inc(map, StatIds.INCREASED_MELEE_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.MELEE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1788,
+  "helper": "inc",
+  "sid": "META_ENERGY",
+  "const": "META_ENERGY_MAX",
+  "tags": [
+   "META"
+  ],
+  "raw": "inc(map, StatIds.META_ENERGY, AttributeRegister.META_ENERGY_MAX, StatTag.META);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/skill/helper/MetaEnergyState.java:59:            int cap = Math.max(1, (int) living.getAttributeValue(AttributeRegister.META_ENERGY_MAX));",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/codec/support/math/context/nodes/HealthValue.java:47:            case \"max_energy\" -> living.getAttributeValue(AttributeRegister.META_ENERGY_MAX);"
+  ]
+ },
+ {
+  "line": 1804,
+  "helper": "inc",
+  "sid": "MINION_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "MINION"
+  ],
+  "raw": "inc(map, StatIds.MINION_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.MINION);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1881,
+  "helper": "inc",
+  "sid": "SEAL_GAIN_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [
+   "SEAL"
+  ],
+  "raw": "inc(map, StatIds.SEAL_GAIN_SPEED, AttributeRegister.CAST_SPEED, StatTag.SEAL);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1883,
+  "helper": "inc",
+  "sid": "TRAP_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [
+   "DAMAGE",
+   "TRAP"
+  ],
+  "raw": "inc(map, StatIds.TRAP_DAMAGE, AttributeRegister.DAMAGE, StatTag.DAMAGE, StatTag.TRAP);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 1903,
+  "helper": "inc",
+  "sid": "WARCRY_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [
+   "WARCRY"
+  ],
+  "raw": "inc(map, StatIds.WARCRY_SPEED, AttributeRegister.CAST_SPEED, StatTag.WARCRY);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2457,
+  "helper": "sbMod",
+  "sid": "DAMAGE_TAKEN",
+  "const": "TAKEN_DAMAGE",
+  "tags": [],
+  "raw": "sbMod(map, StatIds.DAMAGE_TAKEN, AttributeRegister.TAKEN_DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2458,
+  "helper": "sbMod",
+  "sid": "DAMAGE_TAKEN_CHAOS",
+  "const": "TAKEN_DAMAGE",
+  "tags": [
+   "CHAOS"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_TAKEN_CHAOS, AttributeRegister.TAKEN_DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.CHAOS);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2459,
+  "helper": "sbMod",
+  "sid": "DAMAGE_TAKEN_PHYSICAL",
+  "const": "TAKEN_DAMAGE",
+  "tags": [
+   "PHYSICAL"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_TAKEN_PHYSICAL, AttributeRegister.TAKEN_DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.PHYSICAL);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2461,
+  "helper": "sbMod",
+  "sid": "ACCURACY",
+  "const": "ACCURACY",
+  "tags": [],
+  "raw": "sbMod(map, StatIds.ACCURACY, AttributeRegister.ACCURACY, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 7,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2462,
+  "helper": "sbMod",
+  "sid": "EVASION",
+  "const": "EVASION",
+  "tags": [],
+  "raw": "sbMod(map, StatIds.EVASION, AttributeRegister.EVASION, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2464,
+  "helper": "sbMod",
+  "sid": "TAKEN_CRIT",
+  "const": "TAKEN_CRIT_CHANCE",
+  "tags": [],
+  "raw": "sbMod(map, StatIds.TAKEN_CRIT, AttributeRegister.TAKEN_CRIT_CHANCE, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 1,
+  "has_reader": true,
+  "readers": [
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/gen/stat/StatGen.java.step6bak:2333:        sbMod(map, StatIds.TAKEN_CRIT, AttributeRegister.TAKEN_CRIT_CHANCE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+   "E:/McModding/Modding/CraftOfExile-NeoForge\\src/main/java/com/cimdy/coe/data/helper/DamageHelper.java:123:        crit += (int) (readInScopePublic(victim, Set.of(StatTag.TAKEN_CRIT), AttributeRegister.TAKEN_CRIT_CHANCE) * 100);"
+  ]
+ },
+ {
+  "line": 2465,
+  "helper": "sbMod",
+  "sid": "DAMAGE_DEALT_ELEMENTAL_SPELL",
+  "const": "DAMAGE",
+  "tags": [
+   "ELEMENTAL",
+   "SPELL"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_DEALT_ELEMENTAL_SPELL, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.ELEMENTAL, StatTag.SPELL);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2466,
+  "helper": "sbMod",
+  "sid": "DAMAGE_DEALT_BEAR_PHYSICAL",
+  "const": "DAMAGE",
+  "tags": [
+   "FORM",
+   "BEAR",
+   "PHYSICAL"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_DEALT_BEAR_PHYSICAL, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.FORM, StatTag.BEAR, StatTag.PHYSICAL);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2467,
+  "helper": "sbMod",
+  "sid": "DAMAGE_DEALT_BEAR_FIRE",
+  "const": "DAMAGE",
+  "tags": [
+   "FORM",
+   "BEAR",
+   "FIRE"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_DEALT_BEAR_FIRE, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.FORM, StatTag.BEAR, StatTag.FIRE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2468,
+  "helper": "sbMod",
+  "sid": "DAMAGE_DEALT_WOLF_COLD",
+  "const": "DAMAGE",
+  "tags": [
+   "FORM",
+   "WOLF",
+   "COLD"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_DEALT_WOLF_COLD, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.FORM, StatTag.WOLF, StatTag.COLD);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2469,
+  "helper": "sbMod",
+  "sid": "DAMAGE_DEALT_WOLF_PHYSICAL",
+  "const": "DAMAGE",
+  "tags": [
+   "FORM",
+   "WOLF",
+   "PHYSICAL"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_DEALT_WOLF_PHYSICAL, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.FORM, StatTag.WOLF, StatTag.PHYSICAL);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2470,
+  "helper": "sbMod",
+  "sid": "DAMAGE_DEALT_WYVERN_LIGHTNING",
+  "const": "DAMAGE",
+  "tags": [
+   "FORM",
+   "WYVERN",
+   "LIGHTNING"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_DEALT_WYVERN_LIGHTNING, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.FORM, StatTag.WYVERN, StatTag.LIGHTNING);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2471,
+  "helper": "sbMod",
+  "sid": "DAMAGE_DEALT_WYVERN_CHAOS",
+  "const": "DAMAGE",
+  "tags": [
+   "FORM",
+   "WYVERN",
+   "CHAOS"
+  ],
+  "raw": "sbMod(map, StatIds.DAMAGE_DEALT_WYVERN_CHAOS, AttributeRegister.DAMAGE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.FORM, StatTag.WYVERN, StatTag.CHAOS);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2473,
+  "helper": "sbMod",
+  "sid": "ARCHON_FREEZE_BUILDUP",
+  "const": "AILMENT_BUILDUP",
+  "tags": [
+   "AILMENT",
+   "FREEZE",
+   "SPELL"
+  ],
+  "raw": "sbMod(map, StatIds.ARCHON_FREEZE_BUILDUP, AttributeRegister.AILMENT_BUILDUP, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.AILMENT, StatTag.FREEZE, StatTag.SPELL);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2474,
+  "helper": "sbMod",
+  "sid": "ARCHON_IGNITE_BUILDUP",
+  "const": "AILMENT_BUILDUP",
+  "tags": [
+   "AILMENT",
+   "IGNITE",
+   "SPELL"
+  ],
+  "raw": "sbMod(map, StatIds.ARCHON_IGNITE_BUILDUP, AttributeRegister.AILMENT_BUILDUP, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.AILMENT, StatTag.IGNITE, StatTag.SPELL);",
+  "const_wc": 8,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2475,
+  "helper": "sbMod",
+  "sid": "ARCHON_SHOCK_MAGNITUDE",
+  "const": "AILMENT_MAGNITUDE",
+  "tags": [
+   "AILMENT",
+   "SHOCK",
+   "SPELL",
+   "not",
+   "TAKEN"
+  ],
+  "raw": "sbMod(map, StatIds.ARCHON_SHOCK_MAGNITUDE, AttributeRegister.AILMENT_MAGNITUDE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.AILMENT, StatTag.SHOCK, StatTag.SPELL, StatTag.not(StatTag.TAKEN));",
+  "const_wc": 35,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2491,
+  "helper": "sbModC",
+  "sid": "ADRENALINE_DAMAGE",
+  "const": "DAMAGE",
+  "tags": [],
+  "raw": "sbModC(map, StatIds.ADRENALINE_DAMAGE, AttributeRegister.DAMAGE, 1.0, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 49,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2493,
+  "helper": "sbModC",
+  "sid": "ADRENALINE_CAST_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [],
+  "raw": "sbModC(map, StatIds.ADRENALINE_CAST_SPEED, AttributeRegister.CAST_SPEED, 0.25, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2495,
+  "helper": "sbModC",
+  "sid": "ADRENALINE_TAKEN_PHYSICAL",
+  "const": "TAKEN_DAMAGE",
+  "tags": [
+   "PHYSICAL"
+  ],
+  "raw": "sbModC(map, StatIds.ADRENALINE_TAKEN_PHYSICAL, AttributeRegister.TAKEN_DAMAGE, -0.10, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.PHYSICAL);",
+  "const_wc": 5,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2529,
+  "helper": "sbMod",
+  "sid": "CHARM_RESIST_FIRE",
+  "const": "RESISTANCES",
+  "tags": [
+   "FIRE"
+  ],
+  "raw": "sbMod(map, StatIds.CHARM_RESIST_FIRE, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.FIRE);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2530,
+  "helper": "sbMod",
+  "sid": "CHARM_RESIST_COLD",
+  "const": "RESISTANCES",
+  "tags": [
+   "COLD"
+  ],
+  "raw": "sbMod(map, StatIds.CHARM_RESIST_COLD, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.COLD);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2531,
+  "helper": "sbMod",
+  "sid": "CHARM_RESIST_LIGHTNING",
+  "const": "RESISTANCES",
+  "tags": [
+   "LIGHTNING"
+  ],
+  "raw": "sbMod(map, StatIds.CHARM_RESIST_LIGHTNING, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.LIGHTNING);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2532,
+  "helper": "sbMod",
+  "sid": "CHARM_RESIST_CHAOS",
+  "const": "RESISTANCES",
+  "tags": [
+   "CHAOS"
+  ],
+  "raw": "sbMod(map, StatIds.CHARM_RESIST_CHAOS, AttributeRegister.RESISTANCES, AttributeModifier.Operation.ADD_VALUE, StatTag.CHAOS);",
+  "const_wc": 11,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2534,
+  "helper": "sbMod",
+  "sid": "CHARM_GOLDEN_RARITY",
+  "const": "FOUND_ITEM_RARITY",
+  "tags": [],
+  "raw": "sbMod(map, StatIds.CHARM_GOLDEN_RARITY, AttributeRegister.FOUND_ITEM_RARITY, AttributeModifier.Operation.ADD_VALUE);",
+  "const_wc": 3,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2574,
+  "helper": "sbMod",
+  "sid": "ONSLAUGHT_CAST_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [],
+  "raw": "sbMod(map, StatIds.ONSLAUGHT_CAST_SPEED, AttributeRegister.CAST_SPEED, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2578,
+  "helper": "sbMod",
+  "sid": "BANNER_CAST_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [
+   "BANNER"
+  ],
+  "raw": "sbMod(map, StatIds.BANNER_CAST_SPEED, AttributeRegister.CAST_SPEED, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.BANNER);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2581,
+  "helper": "sbMod",
+  "sid": "ARCANE_SURGE_CAST_SPEED",
+  "const": "CAST_SPEED",
+  "tags": [],
+  "raw": "sbMod(map, StatIds.ARCANE_SURGE_CAST_SPEED, AttributeRegister.CAST_SPEED, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);",
+  "const_wc": 15,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2582,
+  "helper": "sbMod",
+  "sid": "ARCANE_SURGE_REGEN",
+  "const": "REGENERATION_RATE",
+  "tags": [
+   "MANA",
+   "REGEN"
+  ],
+  "raw": "sbMod(map, StatIds.ARCANE_SURGE_REGEN, AttributeRegister.REGENERATION_RATE, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.MANA, StatTag.REGEN);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2589,
+  "helper": "sbModC",
+  "sid": "FORM_WYVERN_CRIT_CHANCE",
+  "const": "CRIT_CHANCE",
+  "tags": [
+   "FORM",
+   "WYVERN",
+   "CRIT"
+  ],
+  "raw": "sbModC(map, StatIds.FORM_WYVERN_CRIT_CHANCE, AttributeRegister.CRIT_CHANCE, 0.15, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.FORM, StatTag.WYVERN, StatTag.CRIT);",
+  "const_wc": 6,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ },
+ {
+  "line": 2590,
+  "helper": "sbModC",
+  "sid": "FORM_WYVERN_CRIT_DAMAGE",
+  "const": "CRIT_DAMAGE",
+  "tags": [
+   "FORM",
+   "WYVERN",
+   "CRIT"
+  ],
+  "raw": "sbModC(map, StatIds.FORM_WYVERN_CRIT_DAMAGE, AttributeRegister.CRIT_DAMAGE, 0.20, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, StatTag.FORM, StatTag.WYVERN, StatTag.CRIT);",
+  "const_wc": 4,
+  "has_reader": false,
+  "readers": [
+   "(multi-writer, skip reader check)"
+  ]
+ }
+]

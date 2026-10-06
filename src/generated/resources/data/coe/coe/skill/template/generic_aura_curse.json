@@ -1,0 +1,42 @@
+{
+  "aoe_ranges": {},
+  "cast": {},
+  "cast_particle": "minecraft:cloud",
+  "cast_sound": "minecraft:block.beacon.activate",
+  "cost": [],
+  "params": {
+    "aura_area_duration": 8.0,
+    "aura_magnitude": 1.0,
+    "aura_radius": 6.0,
+    "aura_status_duration": 1.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_aura": {
+                "area_duration": "$aura_area_duration",
+                "magnitude": "$aura_magnitude",
+                "radius": "$aura_radius",
+                "status": "coe:wither",
+                "status_duration": "$aura_status_duration",
+                "target_mode": "enemies"
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "aura",
+    "aoe"
+  ]
+}

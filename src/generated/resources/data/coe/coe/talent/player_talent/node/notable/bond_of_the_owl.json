@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_cold_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_gain_damage_as_extra_cold_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalowlnotable",
+    "id": "52568",
+    "links": [
+      "3665"
+    ],
+    "x": 2776.83,
+    "y": 7019.78
+  }
+]

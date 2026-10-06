@@ -1,0 +1,40 @@
+{
+  "coe:item_weight": [
+    {
+      "type": "coe:bow",
+      "weight": 1000
+    },
+    {
+      "type": "coe:staff",
+      "weight": 1000
+    },
+    {
+      "type": "coe:two_hand_sword",
+      "weight": 1000
+    },
+    {
+      "type": "coe:two_hand_axe",
+      "weight": 1000
+    },
+    {
+      "type": "coe:two_hand_mace",
+      "weight": 1000
+    },
+    {
+      "type": "coe:quarterstaff",
+      "weight": 1000
+    },
+    {
+      "type": "coe:cross_bow",
+      "weight": 1000
+    },
+    {
+      "type": "coe:trap",
+      "weight": 1000
+    },
+    {
+      "type": "coe:talisman",
+      "weight": 1000
+    }
+  ]
+}

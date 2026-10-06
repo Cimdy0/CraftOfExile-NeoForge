@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "freeze"
+  },
+  "effect": "coe:stat/effect/inline_ignore_non_negative_elemental_resistance_1003",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1002"
+}

@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * equipment_stat:chest.armor + equipment_stat:head.armor + equipment_stat:legs.armor + equipment_stat:feet.armor / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_146",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 1.0
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

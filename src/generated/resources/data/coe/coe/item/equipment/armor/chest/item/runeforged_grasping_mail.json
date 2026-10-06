@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:armor/chest/template/strength_dexterity",
+    "reqs": {
+      "dex": 61.0,
+      "l": 65.0,
+      "str": 61.0
+    }
+  }
+}

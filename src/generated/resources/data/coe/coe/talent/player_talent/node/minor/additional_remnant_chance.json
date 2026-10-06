@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_create_an_additional_remnant",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnant",
+    "id": "42339",
+    "links": [
+      "4059",
+      "60974"
+    ],
+    "x": 4578.61,
+    "y": -8287.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_create_an_additional_remnant",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnant",
+    "id": "60974",
+    "links": [
+      "1506",
+      "42339"
+    ],
+    "x": 4496.61,
+    "y": -8429.63
+  }
+]

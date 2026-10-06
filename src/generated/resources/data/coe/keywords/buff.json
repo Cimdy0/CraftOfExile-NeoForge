@@ -1,0 +1,28 @@
+{
+  "aliases": [
+    "Buff",
+    "Buffs",
+    "增益"
+  ],
+  "description": [
+    [
+      "$[buff]",
+      "是一种正面临时效果，与",
+      "$[debuff]",
+      "相反。"
+    ],
+    [
+      "$[buff]",
+      "可由",
+      "$[flask]",
+      "或",
+      "$[skill]",
+      "赋予。"
+    ]
+  ],
+  "id": "buff",
+  "keys": [
+    "coe:keyword.buff"
+  ],
+  "title": "@coe:keyword.buff"
+}

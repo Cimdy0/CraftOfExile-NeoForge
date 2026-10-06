@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * attribute:coe:dexterity / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_495",
+  "entry": "inline",
+  "params": {
+    "per": 25.0,
+    "value": 0.01
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

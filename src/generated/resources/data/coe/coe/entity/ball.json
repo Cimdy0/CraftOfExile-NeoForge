@@ -1,0 +1,18 @@
+{
+  "type": "coe:skill_ball",
+  "behavior": [
+    {
+      "coe:pulse": {
+        "interval": 4
+      }
+    }
+  ],
+  "box_height": 0.5,
+  "motion": {
+    "coe:ballistic": {}
+  },
+  "render": "coe:ball",
+  "tags": [
+    "projectile"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "flask_active",
+    "resource": "health"
+  },
+  "effect": "coe:stat/effect/inline_resource_convert_1167",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

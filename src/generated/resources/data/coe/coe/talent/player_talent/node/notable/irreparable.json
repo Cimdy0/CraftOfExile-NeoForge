@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_break_duration",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak2bufficon",
+    "id": "22626",
+    "links": [
+      "30136",
+      "45227"
+    ],
+    "x": -8119.16,
+    "y": 5168.12
+  }
+]

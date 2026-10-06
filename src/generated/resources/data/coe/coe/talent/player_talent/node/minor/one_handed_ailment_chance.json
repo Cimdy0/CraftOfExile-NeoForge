@@ -1,0 +1,48 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_with_one_handed_martial_weapon_have_inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "47733",
+    "links": [
+      "9217"
+    ],
+    "x": 419.127,
+    "y": 6608.18
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_with_one_handed_martial_weapon_have_inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "5108",
+    "links": [
+      "9217"
+    ],
+    "x": 144.75,
+    "y": 6449.77
+  }
+]

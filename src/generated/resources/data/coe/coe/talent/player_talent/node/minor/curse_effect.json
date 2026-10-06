@@ -1,0 +1,147 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_curse_buff_magnitude",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "30061",
+    "links": [
+      "31908",
+      "55420"
+    ],
+    "x": 3411.99,
+    "y": -7646.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_curse_buff_magnitude",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "31908",
+    "links": [
+      "30061",
+      "5594"
+    ],
+    "x": 3411.99,
+    "y": -7482.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_curse_buff_magnitude",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "37991",
+    "links": [
+      "40345",
+      "52254"
+    ],
+    "x": 820.745,
+    "y": -9412.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_curse_buff_magnitude",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "42290",
+    "links": [
+      "38732",
+      "52254"
+    ],
+    "x": 1195.74,
+    "y": -9196.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_curse_buff_magnitude",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "52254",
+    "links": [
+      "37991",
+      "42290"
+    ],
+    "x": 945.745,
+    "y": -9196.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_curse_buff_magnitude",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "55420",
+    "links": [
+      "30061",
+      "50881",
+      "55668"
+    ],
+    "x": 3269.96,
+    "y": -7728.13
+  }
+]

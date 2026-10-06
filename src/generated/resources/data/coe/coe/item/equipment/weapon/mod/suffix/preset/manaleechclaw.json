@@ -1,0 +1,74 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "global",
+        "stats": [
+          {
+            "entry": "read",
+            "ref": "coe:leech_physical_damage_as_mana"
+          }
+        ]
+      },
+      "tiers": [
+        {
+          "level": 21,
+          "name": "of_the_parched",
+          "tier": 1,
+          "values": {
+            "value": {
+              "max": 5.9,
+              "min": 5.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 38,
+          "name": "of_the_arid",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 6.9,
+              "min": 6.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 54,
+          "name": "of_the_drought",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 7.9,
+              "min": 7.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 65,
+          "name": "of_the_desperate",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 8.9,
+              "min": 8.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:claw",
+      "coe:dagger",
+      "coe:flail",
+      "coe:one_hand_axe",
+      "coe:one_hand_sword",
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

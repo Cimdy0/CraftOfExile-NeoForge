@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:remnant_magnitude",
+  "operation": "add_multiplied_base"
+}

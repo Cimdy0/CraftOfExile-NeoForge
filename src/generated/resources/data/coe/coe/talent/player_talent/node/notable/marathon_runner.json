@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_while_sprinting",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_movementspeedandevasion",
+    "id": "64050",
+    "links": [
+      "43453"
+    ],
+    "x": 8280.06,
+    "y": 715.955
+  }
+]

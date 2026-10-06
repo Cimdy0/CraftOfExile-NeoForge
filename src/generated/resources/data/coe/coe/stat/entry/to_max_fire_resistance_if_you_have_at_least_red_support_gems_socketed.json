@@ -1,0 +1,26 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "socket",
+      "aggregate": "count",
+      "color": "red",
+      "kind": "support"
+    },
+    "operator": ">=",
+    "right": {
+      "type": "var",
+      "name": "socket_n"
+    }
+  },
+  "effect": "coe:stat/effect/inline_attribute_414",
+  "entry": "inline",
+  "params": {
+    "socket_n": 5.0
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

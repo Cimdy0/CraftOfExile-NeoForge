@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_socketed_gem_level"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 18,
+        "name": "of_dueling",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 375
+      },
+      {
+        "level": 18,
+        "name": "of_the_fletcher",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 375
+      },
+      {
+        "level": 36,
+        "name": "of_conflict",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 36,
+        "name": "of_the_sharpshooter",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 55,
+        "name": "of_battle",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 125
+      },
+      {
+        "level": 55,
+        "name": "of_the_marksman",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 125
+      },
+      {
+        "level": 81,
+        "name": "of_war",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 4.0,
+            "min": 4.0
+          }
+        },
+        "weight": 50
+      },
+      {
+        "level": 81,
+        "name": "of_the_sniper",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 4.0,
+            "min": 4.0
+          }
+        },
+        "weight": 50
+      }
+    ]
+  }
+}

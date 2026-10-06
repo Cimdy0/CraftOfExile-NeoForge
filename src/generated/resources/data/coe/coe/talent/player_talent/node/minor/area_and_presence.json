@@ -1,0 +1,183 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.09
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "23364",
+    "links": [
+      "33781",
+      "48614",
+      "50423"
+    ],
+    "x": -3555.35,
+    "y": -3914.61
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "33781",
+    "links": [
+      "23364",
+      "65493"
+    ],
+    "x": -3620.06,
+    "y": -3673.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect",
+            "vars": {
+              "value": -0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "48614",
+    "links": [
+      "23364",
+      "9018"
+    ],
+    "x": -3490.65,
+    "y": -4156.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "65493",
+    "links": [
+      "33781",
+      "43854"
+    ],
+    "x": -3388.35,
+    "y": -3625.36
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect",
+            "vars": {
+              "value": -0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "9018",
+    "links": [
+      "35918",
+      "48614"
+    ],
+    "x": -3722.35,
+    "y": -4203.87
+  }
+]

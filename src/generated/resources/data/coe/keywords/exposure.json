@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Exposure",
+    "曝露",
+    "曝光"
+  ],
+  "description": [
+    [
+      "$[exposure]",
+      "会降低敌人针对特定元素的",
+      "$[resistance]",
+      "，从而放大该类型",
+      "$[damage]",
+      "。"
+    ]
+  ],
+  "id": "exposure",
+  "keys": [
+    "coe:keyword.exposure"
+  ],
+  "title": "@coe:keyword.exposure"
+}

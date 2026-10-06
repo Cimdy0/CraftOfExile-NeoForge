@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_runic_ward",
+  "operation": "add_value"
+}

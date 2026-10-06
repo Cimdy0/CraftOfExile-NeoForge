@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:inc_evasion"
+  ],
+  "vars": [
+    "value"
+  ]
+}

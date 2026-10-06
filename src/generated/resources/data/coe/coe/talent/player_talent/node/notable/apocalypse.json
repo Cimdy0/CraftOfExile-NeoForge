@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": -0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_critical_hit_chance_of_herald_skills",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "38398",
+    "links": [
+      "2211",
+      "3921"
+    ],
+    "x": -3547.22,
+    "y": 11227.2
+  }
+]

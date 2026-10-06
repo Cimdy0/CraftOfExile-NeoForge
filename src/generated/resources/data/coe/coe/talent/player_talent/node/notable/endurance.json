@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_endurance_charges",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "5663",
+    "links": [
+      "7972"
+    ],
+    "x": -7025.42,
+    "y": 7409.4
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "jagged_ground"
+  },
+  "effect": "coe:stat/effect/inline_aggravate_bleeding_556",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_555"
+}

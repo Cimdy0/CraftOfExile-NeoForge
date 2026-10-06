@@ -1,0 +1,681 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:armor_inc_local"
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "reinforced",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 2,
+        "name": "infixed",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 2,
+        "name": "scrapper_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 2,
+        "name": "shadowy",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 2,
+        "name": "protective",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 2,
+        "name": "shade_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 2,
+        "name": "shadowy",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "layered",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "ingrained",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "brawler_s",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "ethereal",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 16,
+        "name": "strong_willed",
+        "tier": 12,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "ghost_s",
+        "tier": 13,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "ethereal",
+        "tier": 14,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "instilled",
+        "tier": 15,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 43.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "fencer_s",
+        "tier": 16,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 43.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "unworldly",
+        "tier": 17,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 43.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 33,
+        "name": "resolute",
+        "tier": 18,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 43.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "spectre_s",
+        "tier": 19,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 43.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "unworldly",
+        "tier": 20,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 43.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 35,
+        "name": "lobstered",
+        "tier": 21,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 43.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "buttressed",
+        "tier": 22,
+        "values": {
+          "value": {
+            "max": 67.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "infused",
+        "tier": 23,
+        "values": {
+          "value": {
+            "max": 67.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "gladiator_s",
+        "tier": 24,
+        "values": {
+          "value": {
+            "max": 67.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "ephemeral",
+        "tier": 25,
+        "values": {
+          "value": {
+            "max": 67.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 46,
+        "name": "fearless",
+        "tier": 26,
+        "values": {
+          "value": {
+            "max": 67.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "wraith_s",
+        "tier": 27,
+        "values": {
+          "value": {
+            "max": 67.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "ephemeral",
+        "tier": 28,
+        "values": {
+          "value": {
+            "max": 67.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "thickened",
+        "tier": 29,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 68.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "inculcated",
+        "tier": 30,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 68.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "duelist_s",
+        "tier": 31,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 68.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "evanescent",
+        "tier": 32,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 68.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 54,
+        "name": "dauntless",
+        "tier": 33,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 68.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "phantasm_s",
+        "tier": 34,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 68.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "evanescent",
+        "tier": 35,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 68.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "girded",
+        "tier": 36,
+        "values": {
+          "value": {
+            "max": 91.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "interpolated",
+        "tier": 37,
+        "values": {
+          "value": {
+            "max": 91.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "hero_s",
+        "tier": 38,
+        "values": {
+          "value": {
+            "max": 91.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "unreal",
+        "tier": 39,
+        "values": {
+          "value": {
+            "max": 91.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 60,
+        "name": "indomitable",
+        "tier": 40,
+        "values": {
+          "value": {
+            "max": 91.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "nightmare_s",
+        "tier": 41,
+        "values": {
+          "value": {
+            "max": 91.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "unreal",
+        "tier": 42,
+        "values": {
+          "value": {
+            "max": 91.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "impregnable",
+        "tier": 43,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 92.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "inspired",
+        "tier": 44,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 92.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "legend_s",
+        "tier": 45,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 92.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "incorporeal",
+        "tier": 46,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 92.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 65,
+        "name": "unassailable",
+        "tier": 47,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 92.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "mirage_s",
+        "tier": 48,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 92.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "illusory",
+        "tier": 49,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 92.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "impenetrable",
+        "tier": 50,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 101.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "interpermeated",
+        "tier": 51,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 101.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "victor_s",
+        "tier": 52,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 101.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "ascendant",
+        "tier": 53,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 101.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 75,
+        "name": "unfaltering",
+        "tier": 54,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 101.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "illusion_s",
+        "tier": 55,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 101.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "incorporeal",
+        "tier": 56,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 101.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

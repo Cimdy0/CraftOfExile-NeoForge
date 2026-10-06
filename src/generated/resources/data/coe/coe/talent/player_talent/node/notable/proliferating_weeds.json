@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:fissure_skills_have_to_limit",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "45874",
+    "links": [
+      "18270"
+    ],
+    "x": -6917.28,
+    "y": -6155.67
+  }
+]

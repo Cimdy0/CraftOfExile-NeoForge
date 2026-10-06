@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "coe:block/terminal",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "coe:block/terminal",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "coe:block/terminal"
+    },
+    "facing=west": {
+      "model": "coe:block/terminal",
+      "y": 90
+    }
+  }
+}

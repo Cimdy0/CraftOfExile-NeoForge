@@ -1,0 +1,102 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_chill_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "37304",
+    "links": [
+      "336",
+      "49388",
+      "61921",
+      "64543"
+    ],
+    "x": 7049.21,
+    "y": -1033.11
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_chill_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "49388",
+    "links": [
+      "37304",
+      "38215",
+      "4806"
+    ],
+    "x": 7362.17,
+    "y": -949.251
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed_with_elemental_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "5088",
+    "links": [
+      "16596",
+      "49537",
+      "59093"
+    ],
+    "x": -6246.67,
+    "y": -7670.09
+  }
+]

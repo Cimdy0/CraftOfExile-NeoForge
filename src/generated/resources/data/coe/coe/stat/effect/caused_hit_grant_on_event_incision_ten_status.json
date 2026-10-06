@@ -1,0 +1,9 @@
+{
+  "type": "grant_on_event",
+  "base_stacks": 10,
+  "param": "incision",
+  "tags": {
+    "tag": "caused_hit"
+  },
+  "target": "status"
+}

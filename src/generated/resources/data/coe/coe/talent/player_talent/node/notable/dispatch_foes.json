@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_if_you_haven_t_dealt_a_critical_hit_recently",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "58939",
+    "links": [
+      "30990"
+    ],
+    "x": 1879.79,
+    "y": 4860.0
+  }
+]

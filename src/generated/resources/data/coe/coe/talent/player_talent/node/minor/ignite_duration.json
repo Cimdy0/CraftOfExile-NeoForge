@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_duration_on_enemies",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "30334",
+    "links": [
+      "56214",
+      "9324"
+    ],
+    "x": -8860.46,
+    "y": -5753.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_duration_on_enemies",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "56214",
+    "links": [
+      "30334",
+      "43939"
+    ],
+    "x": -8624.29,
+    "y": -5655.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_duration_on_enemies",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "9324",
+    "links": [
+      "30334",
+      "47931"
+    ],
+    "x": -9096.64,
+    "y": -5655.38
+  }
+]

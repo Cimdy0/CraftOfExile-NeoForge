@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:prevent_of_damage_from_deflected_hit_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "52180",
+    "links": [
+      "30736"
+    ],
+    "x": 10867.1,
+    "y": 3186.63
+  }
+]

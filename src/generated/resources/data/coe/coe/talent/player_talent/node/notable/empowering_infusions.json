@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_you_have_consumed_an_elemental_infusion_recently",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnotable1",
+    "id": "8782",
+    "links": [
+      "3091"
+    ],
+    "x": -1008.3,
+    "y": -7499.54
+  }
+]

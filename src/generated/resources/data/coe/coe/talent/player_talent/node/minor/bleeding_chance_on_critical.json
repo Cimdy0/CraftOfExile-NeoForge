@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_critical_hit_with_attacks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "39570",
+    "links": [
+      "18923",
+      "49394",
+      "56330"
+    ],
+    "x": 4244.81,
+    "y": 7124.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_critical_hit_with_attacks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "56330",
+    "links": [
+      "33391",
+      "39570"
+    ],
+    "x": 4562.08,
+    "y": 7113.79
+  }
+]

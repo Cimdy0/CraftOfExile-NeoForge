@@ -1,0 +1,7 @@
+{
+  "type": "coe:bleeding",
+  "convert": {
+    "physical": 1,
+    "replace": true
+  }
+}

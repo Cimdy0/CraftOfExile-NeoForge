@@ -1,0 +1,90 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:causes_stun_buildup_inc"
+      },
+      "tiers": [
+        {
+          "level": 5,
+          "name": "of_the_pugilist",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 21.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 20,
+          "name": "of_the_brawler",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 40.0,
+              "min": 31.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 30,
+          "name": "of_the_boxer",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 50.0,
+              "min": 41.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 44,
+          "name": "of_the_combatant",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 60.0,
+              "min": 51.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 58,
+          "name": "of_the_gladiator",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 70.0,
+              "min": 61.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 74,
+          "name": "of_the_champion",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 80.0,
+              "min": 71.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:one_hand_mace",
+      "coe:quarterstaff",
+      "coe:spear",
+      "coe:talisman",
+      "coe:two_hand_mace"
+    ]
+  }
+}

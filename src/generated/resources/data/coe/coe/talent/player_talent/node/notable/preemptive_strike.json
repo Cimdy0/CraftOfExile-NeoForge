@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_against_enemies_that_are_on_full_health",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "21380",
+    "links": [
+      "41529"
+    ],
+    "x": 6124.9,
+    "y": 363.562
+  }
+]

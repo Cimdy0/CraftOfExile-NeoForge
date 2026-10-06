@@ -1,0 +1,98 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_one_handed_melee_weapons",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "40244",
+    "links": [
+      "17316",
+      "43263"
+    ],
+    "x": 5369.15,
+    "y": 8323.85
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_one_handed_melee_weapons",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "43263",
+    "links": [
+      "40244",
+      "64492"
+    ],
+    "x": 5520.95,
+    "y": 8440.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_one_handed_melee_weapons",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "46688",
+    "links": [
+      "4238",
+      "64492"
+    ],
+    "x": 5650.36,
+    "y": 7957.37
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_one_handed_melee_weapons",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "64492",
+    "links": [
+      "43263",
+      "46688"
+    ],
+    "x": 5762.43,
+    "y": 8375.63
+  }
+]

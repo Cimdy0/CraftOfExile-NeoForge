@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:parry_range",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "parry"
+  }
+}

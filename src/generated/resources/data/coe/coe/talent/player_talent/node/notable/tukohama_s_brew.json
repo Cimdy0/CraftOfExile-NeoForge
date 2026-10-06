@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_skill_mana_costs_stat_conversion_to_health_costs_during_any_health_flask_effect",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "53131",
+    "links": [
+      "7060"
+    ],
+    "x": -7676.37,
+    "y": 496.685
+  }
+]

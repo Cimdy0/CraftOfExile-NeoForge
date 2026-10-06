@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_of_curses",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_curse_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_curse_are_hindered_with_inc_movement_speed",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "50485",
+    "links": [
+      "28229"
+    ],
+    "x": 2333.88,
+    "y": -5053.36
+  }
+]

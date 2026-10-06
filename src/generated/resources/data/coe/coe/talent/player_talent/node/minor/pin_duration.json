@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_pinned_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedprojectilespeednode",
+    "id": "10927",
+    "links": [
+      "3624",
+      "42250",
+      "9272"
+    ],
+    "x": 2992.65,
+    "y": 5676.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_pinned_duration",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedprojectilespeednode",
+    "id": "3234",
+    "links": [
+      "12906",
+      "31745",
+      "4447"
+    ],
+    "x": 2685.46,
+    "y": 5953.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_pinned_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedprojectilespeednode",
+    "id": "9272",
+    "links": [
+      "10927",
+      "12906"
+    ],
+    "x": 2756.47,
+    "y": 5830.5
+  }
+]

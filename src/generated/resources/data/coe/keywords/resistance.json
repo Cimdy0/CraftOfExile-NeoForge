@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "Resistance",
+    "Resistances",
+    "抗性"
+  ],
+  "description": [
+    [
+      "$[resistance]",
+      "可降低所受的对应伤害类型（冰霜抗性、火焰抗性、闪电抗性、混沌抗性）。"
+    ],
+    [
+      "混沌抗性尤为重要，因为",
+      "$[armour]",
+      "与",
+      "$[energy_shield]",
+      "都无法抵御",
+      "$[chaos]",
+      "。"
+    ]
+  ],
+  "id": "resistance",
+  "keys": [
+    "coe:keyword.resistance"
+  ],
+  "title": "@coe:keyword.resistance"
+}

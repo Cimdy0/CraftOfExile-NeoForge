@@ -1,0 +1,24 @@
+{
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:rarity_unique_max_health"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:rarity_unique_scale"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:rarity_unique_movement_speed"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:rarity_unique_attack_speed"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:rarity_unique_cast_speed"
+    }
+  ]
+}

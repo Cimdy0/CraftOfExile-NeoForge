@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration_on_you",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalsnake",
+    "id": "61263",
+    "links": [
+      "22115",
+      "4544"
+    ],
+    "x": 5137.46,
+    "y": 332.837
+  }
+]

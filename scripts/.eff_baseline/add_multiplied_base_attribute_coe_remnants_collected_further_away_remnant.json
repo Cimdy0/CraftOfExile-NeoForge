@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:remnants_collected_further_away",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "remnant"
+  ]
+}

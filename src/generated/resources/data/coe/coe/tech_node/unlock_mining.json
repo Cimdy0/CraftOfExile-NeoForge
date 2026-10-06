@@ -1,0 +1,12 @@
+{
+  "effect": {
+    "chunk_budget_add": 2,
+    "entity_cap_add": 2,
+    "unlock_work_types": [
+      "mining"
+    ]
+  },
+  "min_level": 5,
+  "name": "采矿作业",
+  "sort_order": 10
+}

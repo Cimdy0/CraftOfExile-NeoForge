@@ -1,0 +1,52 @@
+{
+  "coe:item_weight": [
+    {
+      "item": "coe:ruby_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:sapphire_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:topaz_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:amethyst_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:dousing_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:thawing_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:grounding_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:staunching_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:antidote_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:stone_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:silver_charm",
+      "weight": 1000
+    },
+    {
+      "item": "coe:golden_charm",
+      "weight": 1000
+    }
+  ]
+}

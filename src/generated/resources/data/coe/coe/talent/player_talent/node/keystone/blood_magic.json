@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_have_no_mana",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:skill_mana_costs_stat_conversion_to_health_costs",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystonebloodmagic",
+    "id": "51749",
+    "links": [
+      "30141"
+    ],
+    "x": -10158.4,
+    "y": 296.695
+  }
+]

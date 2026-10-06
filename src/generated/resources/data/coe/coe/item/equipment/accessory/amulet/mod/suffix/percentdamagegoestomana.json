@@ -1,0 +1,74 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:percent_damage_goes_to_mana"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 31,
+        "name": "of_reprieve",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 10.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 45,
+        "name": "of_solace",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 15.0,
+            "min": 13.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 57,
+        "name": "of_tranquility",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 18.0,
+            "min": 16.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 69,
+        "name": "of_serenity",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 21.0,
+            "min": 19.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 80,
+        "name": "of_zen",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 22.0
+          }
+        },
+        "weight": 500
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy_with_spears",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "20105",
+    "links": [
+      "13895",
+      "61112"
+    ],
+    "x": 9764.39,
+    "y": 6540.17
+  }
+]

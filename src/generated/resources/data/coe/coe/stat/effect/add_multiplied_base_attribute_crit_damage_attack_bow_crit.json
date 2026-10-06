@@ -1,0 +1,18 @@
+{
+  "type": "attribute",
+  "attribute": "coe:crit_damage",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "crit"
+      },
+      {
+        "tag": "attack"
+      },
+      {
+        "tag": "bow"
+      }
+    ]
+  }
+}

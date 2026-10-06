@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_on_full_health",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_on_low_health",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "56453",
+    "links": [
+      "37691"
+    ],
+    "x": 6002.36,
+    "y": -2928.96
+  }
+]

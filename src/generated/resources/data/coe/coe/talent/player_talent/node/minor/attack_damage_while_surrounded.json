@@ -1,0 +1,152 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_surrounded",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "10271",
+    "links": [
+      "11257",
+      "58038"
+    ],
+    "x": -144.006,
+    "y": 8913.68
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_surrounded",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "16111",
+    "links": [
+      "2397",
+      "46268",
+      "54099",
+      "54437"
+    ],
+    "x": -1739.37,
+    "y": 11005.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_surrounded",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "23036",
+    "links": [
+      "3339",
+      "46931",
+      "59208"
+    ],
+    "x": -4808.92,
+    "y": 9482.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_surrounded",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "3339",
+    "links": [
+      "23036",
+      "45585"
+    ],
+    "x": -4895.36,
+    "y": 9159.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_surrounded",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "46931",
+    "links": [
+      "17825",
+      "23036",
+      "28175",
+      "29914"
+    ],
+    "x": -4486.3,
+    "y": 9568.54
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_surrounded",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "58038",
+    "links": [
+      "10271",
+      "25711",
+      "31566"
+    ],
+    "x": -230.451,
+    "y": 8591.06
+  }
+]

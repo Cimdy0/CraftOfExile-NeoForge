@@ -1,0 +1,7 @@
+{
+  "type": "immune",
+  "statuses": [
+    "shock",
+    "on_shocked_ground"
+  ]
+}

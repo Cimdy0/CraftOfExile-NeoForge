@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_spell_damage"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "explosive",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 25.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 8,
+        "name": "eviscerating",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 35.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 16,
+        "name": "crippling",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 45.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 33,
+        "name": "disabling",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 64.0,
+            "min": 55.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 46,
+        "name": "decimating",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 74.0,
+            "min": 65.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 60,
+        "name": "demolishing",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 75.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 70,
+        "name": "obliterating",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 104.0,
+            "min": 90.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 81,
+        "name": "shattering",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 119.0,
+            "min": 105.0
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

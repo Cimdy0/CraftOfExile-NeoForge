@@ -1,0 +1,141 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_stun_threshold"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_thick_skin",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 6.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 8,
+        "name": "of_reinforced_skin",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 29.0,
+            "min": 12.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 15,
+        "name": "of_stone_skin",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 49.0,
+            "min": 30.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 22,
+        "name": "of_iron_skin",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 72.0,
+            "min": 50.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 29,
+        "name": "of_steel_skin",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 97.0,
+            "min": 73.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 36,
+        "name": "of_granite_skin",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 124.0,
+            "min": 98.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 45,
+        "name": "of_platinum_skin",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 163.0,
+            "min": 125.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 54,
+        "name": "of_adamantite_skin",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 206.0,
+            "min": 164.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 63,
+        "name": "of_corundum_skin",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 253.0,
+            "min": 207.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 72,
+        "name": "of_obsidian_skin",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 304.0,
+            "min": 254.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 80,
+        "name": "of_titanium_skin",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 352.0,
+            "min": 305.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

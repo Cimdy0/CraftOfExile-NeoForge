@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:flask_charges_used"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_the_apprentice",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 14,
+        "name": "of_the_practitioner",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 18.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 34,
+        "name": "of_the_mixologist",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 23.0,
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 49,
+        "name": "of_the_distiller",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 24.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 64,
+        "name": "of_the_brewer",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 29.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 83,
+        "name": "of_the_chemist",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 32.0,
+            "min": 30.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

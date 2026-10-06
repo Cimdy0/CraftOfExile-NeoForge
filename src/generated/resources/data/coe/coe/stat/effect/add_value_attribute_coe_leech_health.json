@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:leech",
+  "operation": "add_value",
+  "tags": {
+    "tag": "health"
+  }
+}

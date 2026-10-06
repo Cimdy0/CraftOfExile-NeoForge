@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_when_you_gain_a_power_charge_to_gain_an_additional_power_charge",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_power_charges",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "1104",
+    "links": [
+      "56876"
+    ],
+    "x": -5886.61,
+    "y": -5253.73
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_used_from_mana_flasks",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:add_a_curse_when_you_use_a_mana_flask",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "47418",
+    "links": [
+      "23839",
+      "48974"
+    ],
+    "x": 7387.15,
+    "y": -1540.02
+  }
+]

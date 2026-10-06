@@ -1,0 +1,176 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "21721",
+    "links": [
+      "15899",
+      "52125",
+      "55066",
+      "62194"
+    ],
+    "x": -188.283,
+    "y": 10274.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "40336",
+    "links": [
+      "47709",
+      "6655"
+    ],
+    "x": -1410.85,
+    "y": 8880.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "47709",
+    "links": [
+      "40336",
+      "63814",
+      "65322"
+    ],
+    "x": -1305.68,
+    "y": 8698.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "55231",
+    "links": [
+      "37361",
+      "7628",
+      "9857"
+    ],
+    "x": -1113.12,
+    "y": 4490.39
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "63814",
+    "links": [
+      "33216",
+      "47709"
+    ],
+    "x": -1200.68,
+    "y": 8879.97
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "65322",
+    "links": [
+      "13425",
+      "47709",
+      "54818",
+      "58718"
+    ],
+    "x": -1305.68,
+    "y": 8391.66
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "9857",
+    "links": [
+      "54990",
+      "55231"
+    ],
+    "x": -906.387,
+    "y": 4330.9
+  }
+]

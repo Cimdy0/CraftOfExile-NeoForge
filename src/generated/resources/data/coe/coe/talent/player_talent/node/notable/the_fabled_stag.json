@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_endurance_frenzy_and_power_charge_duration",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:skills_have_chance_to_not_add_charges_but_still_count_as_consuming_them",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividstagnotable",
+    "id": "7847",
+    "links": [
+      "19027",
+      "40471"
+    ],
+    "x": 9860.54,
+    "y": 353.555
+  }
+]

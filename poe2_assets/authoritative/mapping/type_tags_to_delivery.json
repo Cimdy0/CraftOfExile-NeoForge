@@ -1,0 +1,3742 @@
+{
+  "_meta": {
+    "purpose": "权威 type_tags -> 模组 delivery 的候选映射（草案，非裁定）",
+    "generator": "poe2_assets/authoritative/scripts/build_mapping.js",
+    "generated_at": "2026-09-20T21:09:12.099Z",
+    "method": "对权威层每条 entry 经 local_id 连接到本地已实现的 preset，统计同 type_tag 的技能实际使用的 coe:delivery_* 分布；取占比最高者为候选。",
+    "evidence_base": {
+      "authoritative_entries": 1059,
+      "locally_implemented_joined": 146,
+      "coverage_of_authority": 0.138,
+      "warning": "证据集只覆盖本地已实现的 146 条（权威层 1059 条的 13.8%）。未学习的 799 条不得直接套用本表，须先人工裁定。"
+    },
+    "confidence_definition": {
+      "high": "本地证据 >=5 条 且 最高占比 >=70%",
+      "medium": "本地证据 >=3 条 且 最高占比 >=50%",
+      "low": "有 1~2 条证据，或占比低于上述阈值 —— 仅供参考",
+      "none": "本地无同 type_tag 的已实现技能，**不做映射**，列为待人工裁定"
+    },
+    "mod_delivery_vocabulary_measured": [
+      {
+        "name": "area",
+        "presets": 78
+      },
+      {
+        "name": "projectile",
+        "presets": 41
+      },
+      {
+        "name": "self",
+        "presets": 8
+      },
+      {
+        "name": "orb",
+        "presets": 3
+      },
+      {
+        "name": "beam",
+        "presets": 2
+      },
+      {
+        "name": "hazard",
+        "presets": 2
+      },
+      {
+        "name": "thrown",
+        "presets": 2
+      },
+      {
+        "name": "ball",
+        "presets": 1
+      },
+      {
+        "name": "remnant",
+        "presets": 1
+      }
+    ],
+    "non_delivery_value_nodes_excluded": [
+      "projectile_spell_value",
+      "grenade_projectile_value",
+      "projectile_value"
+    ],
+    "note_about_delivery_mod": "coe:delivery_mod 在 preset 中被大量使用（实测 28 处），它不在 team-lead 给定的 9 种列表里。它很可能是**辅助宝石挂载机制**的承载体而非一个真正的\"投递形状\"。本表把命中 delivery_mod 的 type_tag 标为需人工确认，不建议当作 area/self 之类的空间投递来等价。"
+  },
+  "summary": {
+    "type_tags_total": 180,
+    "mapped_count": 116,
+    "unmapped_count": 64,
+    "confidence_distribution": {
+      "high": 30,
+      "medium": 39,
+      "low": 47,
+      "none": 64
+    }
+  },
+  "mappings": [
+    {
+      "type_tag": "Area",
+      "total_in_authority": 243,
+      "by_gem_type": {
+        "skill": 232,
+        "spirit": 11
+      },
+      "local_evidence_count": 95,
+      "delivery_distribution": {
+        "area": 59,
+        "projectile": 29,
+        "orb": 3,
+        "thrown": 2,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.621,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "boneshatter",
+        "earthquake",
+        "rolling_slam",
+        "armour_breaker",
+        "herald_of_ash",
+        "molten_blast"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "UsableWhileMoving",
+      "total_in_authority": 179,
+      "by_gem_type": {
+        "skill": 177,
+        "support": 1,
+        "spirit": 1
+      },
+      "local_evidence_count": 63,
+      "delivery_distribution": {
+        "projectile": 31,
+        "area": 23,
+        "orb": 3,
+        "beam": 2,
+        "thrown": 2,
+        "(none)": 1,
+        "ball": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.492,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "forge_hammer",
+        "hammer_of_the_gods",
+        "explosive_spear",
+        "lightning_arrow",
+        "lightning_rod",
+        "poisonburst_arrow"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Attack",
+      "total_in_authority": 167,
+      "by_gem_type": {
+        "skill": 164,
+        "spirit": 3
+      },
+      "local_evidence_count": 62,
+      "delivery_distribution": {
+        "area": 33,
+        "projectile": 27,
+        "thrown": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.532,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "boneshatter",
+        "earthquake",
+        "rolling_slam",
+        "armour_breaker",
+        "molten_blast",
+        "perfect_strike"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Totemable",
+      "total_in_authority": 108,
+      "by_gem_type": {
+        "skill": 106,
+        "spirit": 2
+      },
+      "local_evidence_count": 59,
+      "delivery_distribution": {
+        "area": 33,
+        "projectile": 20,
+        "orb": 3,
+        "beam": 2,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.559,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "boneshatter",
+        "earthquake",
+        "rolling_slam",
+        "armour_breaker",
+        "molten_blast",
+        "earthshatter"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Duration",
+      "total_in_authority": 163,
+      "by_gem_type": {
+        "skill": 149,
+        "spirit": 13,
+        "support": 1
+      },
+      "local_evidence_count": 57,
+      "delivery_distribution": {
+        "area": 28,
+        "projectile": 18,
+        "self": 3,
+        "orb": 3,
+        "(none)": 2,
+        "beam": 1,
+        "ball": 1,
+        "thrown": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.491,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "earthquake",
+        "herald_of_ash",
+        "scavenged_plating",
+        "earthshatter",
+        "shield_wall",
+        "volcanic_fissure"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Triggerable",
+      "total_in_authority": 121,
+      "by_gem_type": {
+        "skill": 121
+      },
+      "local_evidence_count": 50,
+      "delivery_distribution": {
+        "area": 23,
+        "projectile": 21,
+        "orb": 3,
+        "beam": 1,
+        "ball": 1,
+        "thrown": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.46,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "earthquake",
+        "molten_blast",
+        "lightning_arrow",
+        "ice_shot",
+        "shockchain_arrow",
+        "tornado_shot"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Damage",
+      "total_in_authority": 87,
+      "by_gem_type": {
+        "skill": 85,
+        "spirit": 2
+      },
+      "local_evidence_count": 47,
+      "delivery_distribution": {
+        "area": 21,
+        "projectile": 19,
+        "orb": 3,
+        "beam": 2,
+        "self": 1,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.447,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "molten_blast",
+        "freezing_salvo",
+        "storm_lance",
+        "magnetic_salvo",
+        "untether",
+        "bone_blast"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "AttackInPlace",
+      "total_in_authority": 138,
+      "by_gem_type": {
+        "skill": 95,
+        "spirit": 43
+      },
+      "local_evidence_count": 46,
+      "delivery_distribution": {
+        "area": 30,
+        "(none)": 6,
+        "self": 5,
+        "projectile": 4,
+        "hazard": 1,
+        "remnant": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.652,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "earthquake",
+        "armour_breaker",
+        "herald_of_ash",
+        "iron_ward",
+        "scavenged_plating",
+        "molten_blast"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Spell",
+      "total_in_authority": 114,
+      "by_gem_type": {
+        "skill": 108,
+        "support": 1,
+        "spirit": 5
+      },
+      "local_evidence_count": 46,
+      "delivery_distribution": {
+        "area": 25,
+        "projectile": 13,
+        "orb": 3,
+        "(none)": 2,
+        "beam": 2,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.543,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "untether",
+        "bone_blast",
+        "chaos_bolt",
+        "coiling_bolts",
+        "decompose",
+        "enervating_nova"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Trappable",
+      "total_in_authority": 90,
+      "by_gem_type": {
+        "skill": 90
+      },
+      "local_evidence_count": 42,
+      "delivery_distribution": {
+        "projectile": 19,
+        "area": 18,
+        "orb": 3,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.452,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "molten_blast",
+        "lightning_arrow",
+        "ice_shot",
+        "shockchain_arrow",
+        "tornado_shot",
+        "spiral_volley"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Mineable",
+      "total_in_authority": 85,
+      "by_gem_type": {
+        "skill": 85
+      },
+      "local_evidence_count": 41,
+      "delivery_distribution": {
+        "projectile": 18,
+        "area": 18,
+        "orb": 3,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.439,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "lightning_arrow",
+        "ice_shot",
+        "shockchain_arrow",
+        "tornado_shot",
+        "spiral_volley",
+        "untether"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Buff",
+      "total_in_authority": 140,
+      "by_gem_type": {
+        "spirit": 53,
+        "skill": 86,
+        "support": 1
+      },
+      "local_evidence_count": 36,
+      "delivery_distribution": {
+        "area": 20,
+        "self": 8,
+        "(none)": 7,
+        "hazard": 1,
+        "remnant": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.556,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "herald_of_ash",
+        "iron_ward",
+        "magma_barrier",
+        "scavenged_plating",
+        "overwhelming_presence",
+        "time_of_need"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Projectile",
+      "total_in_authority": 64,
+      "by_gem_type": {
+        "skill": 64
+      },
+      "local_evidence_count": 36,
+      "delivery_distribution": {
+        "projectile": 32,
+        "thrown": 2,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.889,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "molten_blast",
+        "explosive_spear",
+        "lightning_arrow",
+        "poisonburst_arrow",
+        "twister",
+        "freezing_salvo"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "HasReservation",
+      "total_in_authority": 132,
+      "by_gem_type": {
+        "spirit": 54,
+        "skill": 78
+      },
+      "local_evidence_count": 33,
+      "delivery_distribution": {
+        "area": 17,
+        "self": 8,
+        "(none)": 7,
+        "hazard": 1,
+        "remnant": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.515,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "herald_of_ash",
+        "iron_ward",
+        "magma_barrier",
+        "scavenged_plating",
+        "overwhelming_presence",
+        "time_of_need"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Persistent",
+      "total_in_authority": 133,
+      "by_gem_type": {
+        "spirit": 54,
+        "skill": 79
+      },
+      "local_evidence_count": 33,
+      "delivery_distribution": {
+        "area": 17,
+        "self": 8,
+        "(none)": 7,
+        "hazard": 1,
+        "remnant": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.515,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "herald_of_ash",
+        "iron_ward",
+        "magma_barrier",
+        "scavenged_plating",
+        "overwhelming_presence",
+        "time_of_need"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "OngoingSkill",
+      "total_in_authority": 103,
+      "by_gem_type": {
+        "spirit": 51,
+        "skill": 52
+      },
+      "local_evidence_count": 32,
+      "delivery_distribution": {
+        "area": 16,
+        "self": 8,
+        "(none)": 7,
+        "hazard": 1,
+        "remnant": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.5,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "herald_of_ash",
+        "iron_ward",
+        "magma_barrier",
+        "scavenged_plating",
+        "overwhelming_presence",
+        "time_of_need"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Unleashable",
+      "total_in_authority": 57,
+      "by_gem_type": {
+        "skill": 57
+      },
+      "local_evidence_count": 32,
+      "delivery_distribution": {
+        "area": 16,
+        "projectile": 12,
+        "orb": 2,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.5,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "bone_blast",
+        "chaos_bolt",
+        "coiling_bolts",
+        "enervating_nova",
+        "feast_of_flesh",
+        "firebolt"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "AreaSpell",
+      "total_in_authority": 64,
+      "by_gem_type": {
+        "skill": 60,
+        "spirit": 4
+      },
+      "local_evidence_count": 31,
+      "delivery_distribution": {
+        "area": 21,
+        "projectile": 5,
+        "orb": 3,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.677,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "untether",
+        "decompose",
+        "enervating_nova",
+        "feast_of_flesh",
+        "firebolt",
+        "freezing_shards"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Melee",
+      "total_in_authority": 80,
+      "by_gem_type": {
+        "skill": 80
+      },
+      "local_evidence_count": 30,
+      "delivery_distribution": {
+        "area": 29,
+        "projectile": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.967,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "boneshatter",
+        "earthquake",
+        "rolling_slam",
+        "armour_breaker",
+        "perfect_strike",
+        "earthshatter"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Lightning",
+      "total_in_authority": 64,
+      "by_gem_type": {
+        "skill": 55,
+        "spirit": 9
+      },
+      "local_evidence_count": 29,
+      "delivery_distribution": {
+        "area": 14,
+        "projectile": 9,
+        "self": 2,
+        "orb": 1,
+        "beam": 1,
+        "ball": 1,
+        "thrown": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.483,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "lightning_arrow",
+        "lightning_rod",
+        "lightning_spear",
+        "stormcaller_arrow",
+        "herald_of_thunder",
+        "electrocuting_arrow"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Multicastable",
+      "total_in_authority": 59,
+      "by_gem_type": {
+        "skill": 59
+      },
+      "local_evidence_count": 29,
+      "delivery_distribution": {
+        "area": 16,
+        "projectile": 10,
+        "orb": 1,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.552,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "chaos_bolt",
+        "coiling_bolts",
+        "enervating_nova",
+        "firebolt",
+        "freezing_shards",
+        "icestorm"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "RangedAttack",
+      "total_in_authority": 43,
+      "by_gem_type": {
+        "skill": 43
+      },
+      "local_evidence_count": 28,
+      "delivery_distribution": {
+        "projectile": 26,
+        "thrown": 2
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.929,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "molten_blast",
+        "escape_shot",
+        "explosive_spear",
+        "lightning_arrow",
+        "lightning_rod",
+        "poisonburst_arrow"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Fire",
+      "total_in_authority": 68,
+      "by_gem_type": {
+        "skill": 59,
+        "spirit": 9
+      },
+      "local_evidence_count": 26,
+      "delivery_distribution": {
+        "area": 14,
+        "projectile": 7,
+        "self": 2,
+        "orb": 1,
+        "beam": 1,
+        "thrown": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.538,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "herald_of_ash",
+        "magma_barrier",
+        "molten_blast",
+        "perfect_strike",
+        "volcanic_fissure",
+        "forge_hammer"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "MirageArcherCanUse",
+      "total_in_authority": 43,
+      "by_gem_type": {
+        "skill": 43
+      },
+      "local_evidence_count": 26,
+      "delivery_distribution": {
+        "projectile": 24,
+        "thrown": 2
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.923,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "escape_shot",
+        "explosive_spear",
+        "lightning_arrow",
+        "lightning_rod",
+        "poisonburst_arrow",
+        "twister"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ProjectilesFromUser",
+      "total_in_authority": 38,
+      "by_gem_type": {
+        "skill": 38
+      },
+      "local_evidence_count": 24,
+      "delivery_distribution": {
+        "projectile": 23,
+        "ball": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.958,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "molten_blast",
+        "explosive_spear",
+        "lightning_arrow",
+        "freezing_salvo",
+        "lightning_spear",
+        "storm_lance"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Limit",
+      "total_in_authority": 57,
+      "by_gem_type": {
+        "skill": 54,
+        "spirit": 3
+      },
+      "local_evidence_count": 23,
+      "delivery_distribution": {
+        "area": 12,
+        "projectile": 7,
+        "orb": 3,
+        "self": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.522,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "earthquake",
+        "earthshatter",
+        "shield_wall",
+        "volcanic_fissure",
+        "forge_hammer",
+        "explosive_spear"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Cold",
+      "total_in_authority": 63,
+      "by_gem_type": {
+        "skill": 55,
+        "spirit": 8
+      },
+      "local_evidence_count": 22,
+      "delivery_distribution": {
+        "projectile": 10,
+        "area": 9,
+        "(none)": 1,
+        "orb": 1,
+        "self": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.455,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "escape_shot",
+        "fangs_of_frost",
+        "freezing_salvo",
+        "glacial_lance",
+        "ice_shot",
+        "elemental_sundering"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Barrageable",
+      "total_in_authority": 23,
+      "by_gem_type": {
+        "skill": 23
+      },
+      "local_evidence_count": 18,
+      "delivery_distribution": {
+        "projectile": 18
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "explosive_spear",
+        "lightning_arrow",
+        "lightning_rod",
+        "poisonburst_arrow",
+        "twister",
+        "freezing_salvo"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Bow",
+      "total_in_authority": 22,
+      "by_gem_type": {
+        "skill": 22
+      },
+      "local_evidence_count": 18,
+      "delivery_distribution": {
+        "projectile": 18
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "escape_shot",
+        "lightning_arrow",
+        "lightning_rod",
+        "poisonburst_arrow",
+        "freezing_salvo",
+        "stormcaller_arrow"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Chaos",
+      "total_in_authority": 33,
+      "by_gem_type": {
+        "skill": 30,
+        "spirit": 3
+      },
+      "local_evidence_count": 18,
+      "delivery_distribution": {
+        "projectile": 10,
+        "area": 7,
+        "(none)": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.556,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "poisonburst_arrow",
+        "vine_arrow",
+        "toxic_growth",
+        "gas_arrow",
+        "herald_of_plague",
+        "toxic_domain"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Physical",
+      "total_in_authority": 73,
+      "by_gem_type": {
+        "skill": 67,
+        "spirit": 6
+      },
+      "local_evidence_count": 17,
+      "delivery_distribution": {
+        "area": 14,
+        "projectile": 2,
+        "self": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.824,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "armour_breaker",
+        "scavenged_plating",
+        "shield_wall",
+        "rake",
+        "rapid_assault",
+        "blood_hunt"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Spear",
+      "total_in_authority": 22,
+      "by_gem_type": {
+        "skill": 22
+      },
+      "local_evidence_count": 17,
+      "delivery_distribution": {
+        "area": 10,
+        "projectile": 7
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.588,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "disengage",
+        "explosive_spear",
+        "twister",
+        "whirling_slash",
+        "fangs_of_frost",
+        "lightning_spear"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Cascadable",
+      "total_in_authority": 36,
+      "by_gem_type": {
+        "skill": 36
+      },
+      "local_evidence_count": 16,
+      "delivery_distribution": {
+        "area": 14,
+        "orb": 1,
+        "projectile": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.875,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "bone_blast",
+        "enervating_nova",
+        "icestorm",
+        "lightning_bolt",
+        "volatile_dead",
+        "flame_wall"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Sustained",
+      "total_in_authority": 29,
+      "by_gem_type": {
+        "skill": 27,
+        "spirit": 2
+      },
+      "local_evidence_count": 15,
+      "delivery_distribution": {
+        "area": 6,
+        "projectile": 5,
+        "orb": 2,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.4,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "volcanic_fissure",
+        "lightning_rod",
+        "spearfield",
+        "storm_lance",
+        "rain_of_arrows",
+        "spear_of_solaris"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Cooldown",
+      "total_in_authority": 78,
+      "by_gem_type": {
+        "skill": 71,
+        "support": 1,
+        "spirit": 6
+      },
+      "local_evidence_count": 13,
+      "delivery_distribution": {
+        "area": 7,
+        "projectile": 2,
+        "thrown": 2,
+        "orb": 1,
+        "(none)": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.538,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "forge_hammer",
+        "disengage",
+        "toxic_domain",
+        "lightning_bolt",
+        "frost_bomb",
+        "snap"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Aura",
+      "total_in_authority": 14,
+      "by_gem_type": {
+        "spirit": 6,
+        "skill": 8
+      },
+      "local_evidence_count": 12,
+      "delivery_distribution": {
+        "area": 6,
+        "(none)": 4,
+        "self": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.5,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "overwhelming_presence",
+        "alchemists_boon",
+        "fulmination",
+        "heart_of_ice",
+        "impurity",
+        "malice"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CreatesGroundEffect",
+      "total_in_authority": 25,
+      "by_gem_type": {
+        "skill": 24,
+        "spirit": 1
+      },
+      "local_evidence_count": 12,
+      "delivery_distribution": {
+        "area": 6,
+        "projectile": 4,
+        "beam": 1,
+        "ball": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.5,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "earthquake",
+        "stampede",
+        "explosive_spear",
+        "fangs_of_frost",
+        "storm_lance",
+        "gas_arrow"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "MeleeSingleTarget",
+      "total_in_authority": 37,
+      "by_gem_type": {
+        "skill": 37
+      },
+      "local_evidence_count": 12,
+      "delivery_distribution": {
+        "area": 11,
+        "projectile": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.917,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "boneshatter",
+        "armour_breaker",
+        "perfect_strike",
+        "disengage",
+        "whirling_slash",
+        "cull_the_weak"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Slam",
+      "total_in_authority": 23,
+      "by_gem_type": {
+        "skill": 23
+      },
+      "local_evidence_count": 12,
+      "delivery_distribution": {
+        "area": 12
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "earthquake",
+        "rolling_slam",
+        "earthshatter",
+        "leap_slam",
+        "volcanic_fissure",
+        "forge_hammer"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "DamageOverTime",
+      "total_in_authority": 15,
+      "by_gem_type": {
+        "spirit": 1,
+        "skill": 14
+      },
+      "local_evidence_count": 11,
+      "delivery_distribution": {
+        "projectile": 6,
+        "area": 4,
+        "beam": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.545,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "herald_of_ash",
+        "vine_arrow",
+        "tornado_shot",
+        "soulrend",
+        "contagion",
+        "flame_wall"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Invokable",
+      "total_in_authority": 14,
+      "by_gem_type": {
+        "skill": 14
+      },
+      "local_evidence_count": 11,
+      "delivery_distribution": {
+        "projectile": 7,
+        "area": 2,
+        "orb": 1,
+        "beam": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.636,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "chaos_bolt",
+        "coiling_bolts",
+        "firebolt",
+        "freezing_shards",
+        "spark",
+        "frost_bomb"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ProjectileSpeed",
+      "total_in_authority": 17,
+      "by_gem_type": {
+        "skill": 17
+      },
+      "local_evidence_count": 11,
+      "delivery_distribution": {
+        "projectile": 9,
+        "thrown": 2
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.818,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "escape_shot",
+        "lightning_rod",
+        "lightning_spear",
+        "vine_arrow",
+        "glacial_lance",
+        "rain_of_arrows"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "GroundTargetedProjectile",
+      "total_in_authority": 16,
+      "by_gem_type": {
+        "skill": 16
+      },
+      "local_evidence_count": 10,
+      "delivery_distribution": {
+        "projectile": 10
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "escape_shot",
+        "lightning_rod",
+        "freezing_salvo",
+        "electrocuting_arrow",
+        "toxic_growth",
+        "gas_arrow"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "AffectsPresence",
+      "total_in_authority": 11,
+      "by_gem_type": {
+        "spirit": 3,
+        "skill": 8
+      },
+      "local_evidence_count": 9,
+      "delivery_distribution": {
+        "(none)": 4,
+        "area": 4,
+        "self": 1
+      },
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0.444,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "overwhelming_presence",
+        "fulmination",
+        "heart_of_ice",
+        "impurity",
+        "malice",
+        "purity_of_fire"
+      ],
+      "status": "mapped",
+      "note": "命中非常规项，需人工确认语义"
+    },
+    {
+      "type_tag": "ConsumesCharges",
+      "total_in_authority": 28,
+      "by_gem_type": {
+        "skill": 28
+      },
+      "local_evidence_count": 8,
+      "delivery_distribution": {
+        "projectile": 7,
+        "area": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.875,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "explosive_spear",
+        "lightning_spear",
+        "storm_lance",
+        "glacial_lance",
+        "rain_of_arrows",
+        "whirlwind_lance"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ProjectileNoCollision",
+      "total_in_authority": 16,
+      "by_gem_type": {
+        "skill": 16
+      },
+      "local_evidence_count": 8,
+      "delivery_distribution": {
+        "projectile": 8
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "escape_shot",
+        "lightning_rod",
+        "freezing_salvo",
+        "vine_arrow",
+        "electrocuting_arrow",
+        "rain_of_arrows"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ProjectileNumber",
+      "total_in_authority": 13,
+      "by_gem_type": {
+        "skill": 13
+      },
+      "local_evidence_count": 8,
+      "delivery_distribution": {
+        "projectile": 6,
+        "thrown": 2
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.75,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "escape_shot",
+        "lightning_rod",
+        "vine_arrow",
+        "rain_of_arrows",
+        "tornado_shot",
+        "explosive_grenade"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "SkillConsumesFrenzyChargesOnUse",
+      "total_in_authority": 11,
+      "by_gem_type": {
+        "skill": 11
+      },
+      "local_evidence_count": 8,
+      "delivery_distribution": {
+        "projectile": 7,
+        "area": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.875,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "explosive_spear",
+        "lightning_spear",
+        "storm_lance",
+        "glacial_lance",
+        "rain_of_arrows",
+        "whirlwind_lance"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "GeneratesRemnants",
+      "total_in_authority": 14,
+      "by_gem_type": {
+        "skill": 10,
+        "spirit": 4
+      },
+      "local_evidence_count": 7,
+      "delivery_distribution": {
+        "area": 5,
+        "orb": 2,
+        "remnant": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.714,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "frost_bomb",
+        "living_bomb",
+        "orb_of_storms",
+        "mana_remnants",
+        "snap",
+        "siphon_elements"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Rain",
+      "total_in_authority": 7,
+      "by_gem_type": {
+        "skill": 7
+      },
+      "local_evidence_count": 7,
+      "delivery_distribution": {
+        "projectile": 7
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "lightning_rod",
+        "vine_arrow",
+        "toxic_growth",
+        "rain_of_arrows",
+        "tornado_shot",
+        "spear_of_solaris"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CanBecomeArrowRain",
+      "total_in_authority": 7,
+      "by_gem_type": {
+        "skill": 7
+      },
+      "local_evidence_count": 6,
+      "delivery_distribution": {
+        "projectile": 6
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "lightning_arrow",
+        "poisonburst_arrow",
+        "stormcaller_arrow",
+        "electrocuting_arrow",
+        "gas_arrow",
+        "shockchain_arrow"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "DetonatesAfterTime",
+      "total_in_authority": 11,
+      "by_gem_type": {
+        "skill": 11
+      },
+      "local_evidence_count": 6,
+      "delivery_distribution": {
+        "projectile": 2,
+        "thrown": 2,
+        "area": 1,
+        "orb": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.333,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "explosive_spear",
+        "toxic_growth",
+        "toxic_domain",
+        "frost_bomb",
+        "explosive_grenade",
+        "voltaic_grenade"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "GeneratesInfusion",
+      "total_in_authority": 7,
+      "by_gem_type": {
+        "skill": 6,
+        "spirit": 1
+      },
+      "local_evidence_count": 6,
+      "delivery_distribution": {
+        "area": 4,
+        "orb": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.667,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "frost_bomb",
+        "living_bomb",
+        "orb_of_storms",
+        "snap",
+        "siphon_elements",
+        "lightning_warp"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CannotChain",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "skill": 6
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "projectile": 5
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "explosive_spear",
+        "freezing_salvo",
+        "electrocuting_arrow",
+        "tornado_shot",
+        "spear_of_solaris"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Chains",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 8
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "projectile": 2,
+        "area": 1,
+        "orb": 1,
+        "beam": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.4,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "lightning_arrow",
+        "shockchain_arrow",
+        "galvanic_field",
+        "orb_of_storms",
+        "arc"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "GeneratesCharges",
+      "total_in_authority": 14,
+      "by_gem_type": {
+        "spirit": 3,
+        "skill": 11
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "area": 4,
+        "self": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.8,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "magma_barrier",
+        "disengage",
+        "cull_the_weak",
+        "combat_frenzy",
+        "profane_ritual"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Herald",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "spirit": 5,
+        "skill": 1
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "area": 5
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "herald_of_ash",
+        "herald_of_thunder",
+        "herald_of_plague",
+        "herald_of_ice",
+        "herald_of_blood"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "InbuiltTrigger",
+      "total_in_authority": 19,
+      "by_gem_type": {
+        "skill": 19
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "projectile": 3,
+        "area": 2
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.6,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "decompose",
+        "lightning_bolt",
+        "ember_fusillade",
+        "spark",
+        "toxic_rain"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Jumping",
+      "total_in_authority": 10,
+      "by_gem_type": {
+        "skill": 10
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "area": 4,
+        "projectile": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.8,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "leap_slam",
+        "stampede",
+        "disengage",
+        "escape_shot",
+        "thunderous_leap"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Movement",
+      "total_in_authority": 9,
+      "by_gem_type": {
+        "skill": 9
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "area": 5
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "disengage",
+        "rake",
+        "blood_hunt",
+        "lightning_warp",
+        "cyclone"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "NoAttackOrCastTime",
+      "total_in_authority": 16,
+      "by_gem_type": {
+        "spirit": 3,
+        "skill": 13
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "area": 4,
+        "self": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.8,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "herald_of_thunder",
+        "toxic_domain",
+        "fulmination",
+        "herald_of_ice",
+        "herald_of_blood"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Nova",
+      "total_in_authority": 18,
+      "by_gem_type": {
+        "skill": 18
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "area": 5
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "elemental_sundering",
+        "enervating_nova",
+        "feast_of_flesh",
+        "ice_nova",
+        "bone_cage"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "TargetsDestructibleCorpses",
+      "total_in_authority": 10,
+      "by_gem_type": {
+        "skill": 10
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "area": 5
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "decompose",
+        "feast_of_flesh",
+        "volatile_dead",
+        "detonate_dead",
+        "profane_ritual"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Travel",
+      "total_in_authority": 13,
+      "by_gem_type": {
+        "skill": 12,
+        "spirit": 1
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "area": 4,
+        "(none)": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.8,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "leap_slam",
+        "stampede",
+        "disengage",
+        "thunderous_leap",
+        "blink"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Triggered",
+      "total_in_authority": 19,
+      "by_gem_type": {
+        "skill": 19
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "projectile": 3,
+        "area": 2
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.6,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "decompose",
+        "lightning_bolt",
+        "ember_fusillade",
+        "spark",
+        "toxic_rain"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "UsableWhileMounted",
+      "total_in_authority": 13,
+      "by_gem_type": {
+        "skill": 13
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "projectile": 5
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "high",
+      "evidence_sample_ids": [
+        "explosive_spear",
+        "lightning_spear",
+        "storm_lance",
+        "glacial_lance",
+        "whirlwind_lance"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Wind",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 8
+      },
+      "local_evidence_count": 5,
+      "delivery_distribution": {
+        "projectile": 3,
+        "area": 2
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.6,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "twister",
+        "whirling_slash",
+        "tornado_shot",
+        "whirlwind_lance",
+        "wind_serpents_fury"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CreatesFissure",
+      "total_in_authority": 10,
+      "by_gem_type": {
+        "skill": 10
+      },
+      "local_evidence_count": 4,
+      "delivery_distribution": {
+        "area": 4
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "earthshatter",
+        "volcanic_fissure",
+        "forge_hammer",
+        "sunder"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Detonator",
+      "total_in_authority": 9,
+      "by_gem_type": {
+        "skill": 9
+      },
+      "local_evidence_count": 4,
+      "delivery_distribution": {
+        "area": 2,
+        "projectile": 1,
+        "thrown": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.5,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "explosive_spear",
+        "thunderous_leap",
+        "detonate_dead",
+        "explosive_grenade"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "InteractsWithElementalGround",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 4,
+      "delivery_distribution": {
+        "projectile": 3,
+        "area": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.75,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "twister",
+        "whirling_slash",
+        "whirlwind_lance",
+        "eye_of_winter"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Orb",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 4,
+      "delivery_distribution": {
+        "orb": 3,
+        "area": 1
+      },
+      "top_delivery": "orb",
+      "top_delivery_ratio": 0.75,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "galvanic_field",
+        "solar_orb",
+        "frost_bomb",
+        "orb_of_storms"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ProjectilesNumberModifiersNotApplied",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 4,
+      "delivery_distribution": {
+        "projectile": 4
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "escape_shot",
+        "explosive_spear",
+        "glacial_lance",
+        "spear_of_solaris"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "SkillConsumesShock",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 4,
+      "delivery_distribution": {
+        "area": 3,
+        "projectile": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.75,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "primal_strikes",
+        "elemental_sundering",
+        "shockchain_arrow",
+        "snap"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "TotemCastsAlone",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "spirit": 4,
+        "skill": 1
+      },
+      "local_evidence_count": 4,
+      "delivery_distribution": {
+        "area": 4,
+        "remnant": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "mana_remnants",
+        "siphon_elements",
+        "wrath",
+        "grace"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CanCancelActions",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 7,
+        "spirit": 1
+      },
+      "local_evidence_count": 3,
+      "delivery_distribution": {
+        "area": 1,
+        "projectile": 1,
+        "(none)": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.333,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "disengage",
+        "escape_shot",
+        "blink"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CanCreateStoneElementals",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 3,
+      "delivery_distribution": {
+        "area": 3
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "earthshatter",
+        "shield_wall",
+        "forge_hammer"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Channel",
+      "total_in_authority": 26,
+      "by_gem_type": {
+        "skill": 26
+      },
+      "local_evidence_count": 3,
+      "delivery_distribution": {
+        "area": 2,
+        "beam": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.667,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "perfect_strike",
+        "incinerate",
+        "cyclone"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "HasUsageCondition",
+      "total_in_authority": 16,
+      "by_gem_type": {
+        "skill": 16
+      },
+      "local_evidence_count": 3,
+      "delivery_distribution": {
+        "area": 2,
+        "projectile": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 0.667,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "hammer_of_the_gods",
+        "spear_of_solaris",
+        "wind_serpents_fury"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ObjectDurability",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 3,
+      "delivery_distribution": {
+        "projectile": 3
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "lightning_rod",
+        "shockchain_arrow",
+        "tornado_shot"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Plant",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "skill": 5,
+        "spirit": 1
+      },
+      "local_evidence_count": 3,
+      "delivery_distribution": {
+        "projectile": 2,
+        "area": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.667,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "vine_arrow",
+        "toxic_growth",
+        "toxic_domain"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "SkillConsumesFreeze",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 3,
+      "delivery_distribution": {
+        "area": 3
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "elemental_sundering",
+        "icestorm",
+        "snap"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Wall",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 3,
+      "delivery_distribution": {
+        "area": 3
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "medium",
+      "evidence_sample_ids": [
+        "shield_wall",
+        "flame_wall",
+        "frost_wall"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CanHaveBlessing",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "spirit": 2
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "wrath",
+        "grace"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CannotSpiritStrike",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "disengage",
+        "blood_hunt"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CausesBurning",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "spirit": 1,
+        "skill": 1
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "herald_of_ash",
+        "flame_wall"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ConsumesFullyBrokenArmour",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "leap_slam",
+        "sunder"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CreatesGroundRune",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "bone_blast",
+        "profane_ritual"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "DegenOnlySpellDamage",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "contagion",
+        "profane_ritual"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "GainsStages",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 6,
+        "spirit": 2
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "whirling_slash",
+        "wind_dancer"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Grenade",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 8
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "thrown": 2
+      },
+      "top_delivery": "thrown",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "explosive_grenade",
+        "voltaic_grenade"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "HasSeals",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "projectile": 2
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "freezing_salvo",
+        "freezing_salvo"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ManualCooldownConsumption",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 8
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "forge_hammer",
+        "snap"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Necrotic",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "skill": 6
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "bone_blast",
+        "bone_cage"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "NonWeaponAttack",
+      "total_in_authority": 9,
+      "by_gem_type": {
+        "skill": 8,
+        "spirit": 1
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "shield_wall",
+        "herald_of_blood"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "SkillConsumesBleeding",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 2,
+        "spirit": 1
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "blood_hunt",
+        "herald_of_blood"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "SkillConsumesIgnite",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "elemental_sundering",
+        "snap"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "SkillConsumesParried",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "disengage",
+        "fangs_of_frost"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Storm",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "skill": 6
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "area": 2
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "icestorm",
+        "firestorm"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ToggleSpawnedObjectTargetable_DefaultOff",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "projectile": 1,
+        "area": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 0.5,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "vine_arrow",
+        "frost_wall"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CanHaveMultipleOngoingSkillInstances",
+      "total_in_authority": 29,
+      "by_gem_type": {
+        "spirit": 13,
+        "skill": 16
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "hazard": 1
+      },
+      "top_delivery": "hazard",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "trail_of_caltrops"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CannotTerrainChain",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "projectile": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "twister"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "CrossbowAmmoSkill",
+      "total_in_authority": 16,
+      "by_gem_type": {
+        "skill": 16
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "projectile": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "galvanic_shards"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "DualWieldOnly",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 2,
+        "spirit": 1
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "grace"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "GamepadDoNotForceSkillAtLocation",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "lightning_warp"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "GeneratesEnergy",
+      "total_in_authority": 21,
+      "by_gem_type": {
+        "spirit": 9,
+        "skill": 12
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "hazard": 1
+      },
+      "top_delivery": "hazard",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "trail_of_caltrops"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Hazard",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "spearfield"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "IceCrystal",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "frost_wall"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "PerfectTiming",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "perfect_strike"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "PerformsFinalStrike",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "primal_strikes"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ProjectileSpiral",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "projectile": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "eye_of_winter"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "RequiresCharges",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "wind_serpents_fury"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "RequiresShield",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "shield_wall"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "ReservesManually",
+      "total_in_authority": 15,
+      "by_gem_type": {
+        "skill": 15
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "projectile": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "galvanic_shards"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "SingleMainProjectile",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "projectile": 1
+      },
+      "top_delivery": "projectile",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "eye_of_winter"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "Triggers",
+      "total_in_authority": 25,
+      "by_gem_type": {
+        "skill": 16,
+        "spirit": 9
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "hazard": 1
+      },
+      "top_delivery": "hazard",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "trail_of_caltrops"
+      ],
+      "status": "mapped"
+    },
+    {
+      "type_tag": "UseGlobalStats",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 4,
+        "spirit": 1
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "area": 1
+      },
+      "top_delivery": "area",
+      "top_delivery_ratio": 1,
+      "confidence": "low",
+      "evidence_sample_ids": [
+        "herald_of_blood"
+      ],
+      "status": "mapped"
+    }
+  ],
+  "pending_adjudication": [
+    {
+      "type_tag": "Minion",
+      "total_in_authority": 50,
+      "by_gem_type": {
+        "skill": 42,
+        "spirit": 8
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CreatesMinion",
+      "total_in_authority": 41,
+      "by_gem_type": {
+        "skill": 37,
+        "spirit": 4
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Meta",
+      "total_in_authority": 39,
+      "by_gem_type": {
+        "skill": 29,
+        "spirit": 10
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Shapeshift",
+      "total_in_authority": 22,
+      "by_gem_type": {
+        "skill": 22
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "EmpowersOtherSkill",
+      "total_in_authority": 17,
+      "by_gem_type": {
+        "skill": 16,
+        "support": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Companion",
+      "total_in_authority": 15,
+      "by_gem_type": {
+        "skill": 13,
+        "spirit": 2
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "MinionsCanExplode",
+      "total_in_authority": 15,
+      "by_gem_type": {
+        "skill": 15
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "UsableWhileShapeshifted",
+      "total_in_authority": 15,
+      "by_gem_type": {
+        "skill": 14,
+        "spirit": 1
+      },
+      "local_evidence_count": 1,
+      "delivery_distribution": {
+        "(none)": 1
+      },
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 1,
+      "confidence": "none",
+      "evidence_sample_ids": [
+        "blink"
+      ],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CommandableMinion",
+      "total_in_authority": 13,
+      "by_gem_type": {
+        "skill": 13
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CreatesCompanion",
+      "total_in_authority": 13,
+      "by_gem_type": {
+        "skill": 11,
+        "spirit": 2
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "SkillConsumesPowerChargesOnUse",
+      "total_in_authority": 10,
+      "by_gem_type": {
+        "skill": 10
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "AppliesCurse",
+      "total_in_authority": 9,
+      "by_gem_type": {
+        "skill": 9
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CreatesUndeadMinion",
+      "total_in_authority": 9,
+      "by_gem_type": {
+        "skill": 9
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "MultipleReservation",
+      "total_in_authority": 9,
+      "by_gem_type": {
+        "skill": 9
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CommandsMinions",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 8
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CreatesSkeletonMinion",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 8
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Instant",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 8
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "MinionsAreUndamagable",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "skill": 8
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "ReserveInAllSets",
+      "total_in_authority": 8,
+      "by_gem_type": {
+        "spirit": 3,
+        "skill": 5
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "(none)": 2
+      },
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 1,
+      "confidence": "none",
+      "evidence_sample_ids": [
+        "eternal_rage",
+        "convalescence"
+      ],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "AffectedByCooldownRate",
+      "total_in_authority": 7,
+      "by_gem_type": {
+        "spirit": 3,
+        "skill": 4
+      },
+      "local_evidence_count": 2,
+      "delivery_distribution": {
+        "(none)": 1,
+        "self": 1
+      },
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0.5,
+      "confidence": "none",
+      "evidence_sample_ids": [
+        "time_of_need",
+        "mirror_of_refraction"
+      ],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Bear",
+      "total_in_authority": 7,
+      "by_gem_type": {
+        "skill": 7
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "SkillConsumesEnduranceChargesOnUse",
+      "total_in_authority": 7,
+      "by_gem_type": {
+        "skill": 7
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "SummonsTotem",
+      "total_in_authority": 7,
+      "by_gem_type": {
+        "skill": 7
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Warcry",
+      "total_in_authority": 7,
+      "by_gem_type": {
+        "skill": 7
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "ModifiesNextSkill",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "skill": 5,
+        "support": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "SummonsAttackTotem",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "skill": 6
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Wolf",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "skill": 6
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Wyvern",
+      "total_in_authority": 6,
+      "by_gem_type": {
+        "skill": 6
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "ActiveBlock",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "ConsumesRage",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "InstantNoRepeatWhenHeld",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 5
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Invocation",
+      "total_in_authority": 5,
+      "by_gem_type": {
+        "skill": 1,
+        "spirit": 4
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "GamepadDeflectable",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Mark",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Palm",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "ToggleSpawnedObjectTargetable_DefaultOn",
+      "total_in_authority": 4,
+      "by_gem_type": {
+        "skill": 4
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Banner",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "spirit": 3
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "IndeterminateEmpowermentAmount",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "InstantShiftAttackForLeftMouse",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Offering",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "TotemsAreBallistae",
+      "total_in_authority": 3,
+      "by_gem_type": {
+        "skill": 3
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CannotConsumeCharges",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "ComboStacking",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CreatesDemonMinion",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "DodgeReplacement",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Nature",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "TargetsDestructibleRareCorpses",
+      "total_in_authority": 2,
+      "by_gem_type": {
+        "skill": 2
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Aegis",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "AttackInPlaceIsDefault",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CannotCreateJaggedGround",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "CrossbowSkill",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "FixedCastTime",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "GamepadDoNotChannelSkillAtLocation",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Guard",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "IsBlasphemy",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "spirit": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "NoDualWield",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "PersistentShowsCastTime",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "ProjectilesNotFromUser",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "RemnantCannotBeShared",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "spirit": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "RequiresBuckler",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Singlular",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "SpecialAncestralBoost",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "UnlimitedTotems",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "skill": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    },
+    {
+      "type_tag": "Weapon Modifier",
+      "total_in_authority": 1,
+      "by_gem_type": {
+        "support": 1
+      },
+      "local_evidence_count": 0,
+      "delivery_distribution": {},
+      "top_delivery": "(none)",
+      "top_delivery_ratio": 0,
+      "confidence": "none",
+      "evidence_sample_ids": [],
+      "status": "no_local_evidence",
+      "action_required": "需人工裁定：本地无已实现的同 type_tag 技能可作为参照"
+    }
+  ]
+}

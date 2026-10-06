@@ -1,0 +1,7 @@
+{
+  "type": "heal",
+  "resource": "health",
+  "tags": [
+    "consume_endurance"
+  ]
+}

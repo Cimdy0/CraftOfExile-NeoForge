@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_curses_on_you",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_witchhunter_witchunternode",
+    "id": "5066",
+    "links": [
+      "51788",
+      "6714"
+    ],
+    "x": -1955.32,
+    "y": 4288.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_curses_on_you",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_witchhunter_witchunternode",
+    "id": "51788",
+    "links": [
+      "10499",
+      "5066"
+    ],
+    "x": -1955.32,
+    "y": 4124.32
+  }
+]

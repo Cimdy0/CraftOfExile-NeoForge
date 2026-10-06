@@ -1,0 +1,99 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_deal_inc_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_you_have_an_allies_in_your_presence",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "10305",
+    "links": [
+      "35011",
+      "45586",
+      "61490"
+    ],
+    "x": -5071.69,
+    "y": 6296.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_you_have_an_allies_in_your_presence",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "35011",
+    "links": [
+      "10305",
+      "53187"
+    ],
+    "x": -5153.69,
+    "y": 6154.73
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_deal_inc_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_you_have_an_allies_in_your_presence",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "45215",
+    "links": [
+      "14761",
+      "53187"
+    ],
+    "x": -4907.69,
+    "y": 6012.7
+  }
+]

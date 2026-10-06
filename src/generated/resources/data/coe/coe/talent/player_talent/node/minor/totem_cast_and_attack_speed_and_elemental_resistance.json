@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:totems_gain_to_all_max_elemental_resistances",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spells_cast_by_totems_have_inc_cast_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_used_by_totems_have_inc_attack_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "63170",
+    "links": [
+      "47931",
+      "65192",
+      "6999"
+    ],
+    "x": -10339.5,
+    "y": -6150.2
+  }
+]

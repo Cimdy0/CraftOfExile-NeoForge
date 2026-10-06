@@ -1,0 +1,15 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "age_threshold": 4.0,
+    "id": "bleed",
+    "output": "flag"
+  },
+  "effect": "coe:stat/effect/inline_attribute_216",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_298"
+}

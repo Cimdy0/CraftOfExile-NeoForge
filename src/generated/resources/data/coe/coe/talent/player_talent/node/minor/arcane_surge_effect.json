@@ -1,0 +1,123 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_arcane_surge_on_you",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "15628",
+    "links": [
+      "27626",
+      "36880"
+    ],
+    "x": -5498.77,
+    "y": -8687.43
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_arcane_surge_on_you",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "20499",
+    "links": [
+      "2336",
+      "28002",
+      "34327"
+    ],
+    "x": -5370.33,
+    "y": -3309.22
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_arcane_surge_on_you",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnode",
+    "id": "2336",
+    "links": [
+      "20499",
+      "63402"
+    ],
+    "x": -5189.66,
+    "y": -3434.74
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_arcane_surge_on_you",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "36880",
+    "links": [
+      "15628",
+      "43036"
+    ],
+    "x": -5374.7,
+    "y": -8536.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_arcane_surge_on_you",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnode",
+    "id": "63402",
+    "links": [
+      "2336",
+      "29881"
+    ],
+    "x": -5163.6,
+    "y": -3632.7
+  }
+]

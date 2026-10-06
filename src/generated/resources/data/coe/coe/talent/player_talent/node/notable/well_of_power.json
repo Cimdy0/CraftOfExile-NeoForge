@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_mana_when_you_consume_a_power_charge",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "58198",
+    "links": [
+      "26863"
+    ],
+    "x": -6580.5,
+    "y": -8082.38
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "type": "resource_convert",
+  "from": "mana",
+  "mode": "replace",
+  "to": "health"
+}

@@ -1,0 +1,104 @@
+{
+  "sources": [
+    {
+      "url": "https://poe2db.tw/us/",
+      "role": "权威数值 + 英文文本 + 标签 + 等级表 + 内部 id"
+    },
+    {
+      "url": "https://poe2db.tw/tw/",
+      "role": "繁体中文名（name_zh）"
+    },
+    {
+      "url": "https://cdn.poe2db.tw/",
+      "role": "图标 CDN（webp -> png）"
+    }
+  ],
+  "index_pages": [
+    {
+      "page": "Gems",
+      "rows": 1066,
+      "unique_gem_hrefs": 821,
+      "measure": "rows = <tr data-filters> 行数；unique_gem_hrefs = 该页 <a class=\"gem_{red|green|blue}\" href=\"/us/<Name>\"> 去重计数（静态 HTML 实测）"
+    },
+    {
+      "page": "Skill_Gems",
+      "rows": 427,
+      "unique_gem_hrefs": 192,
+      "measure": "rows = <tr data-filters> 行数；unique_gem_hrefs = 该页 <a class=\"gem_{red|green|blue}\" href=\"/us/<Name>\"> 去重计数（静态 HTML 实测）"
+    },
+    {
+      "page": "Support_Gems",
+      "rows": 557,
+      "unique_gem_hrefs": 584,
+      "measure": "rows = <tr data-filters> 行数；unique_gem_hrefs = 该页 <a class=\"gem_{red|green|blue}\" href=\"/us/<Name>\"> 去重计数（静态 HTML 实测）"
+    },
+    {
+      "page": "Spirit_Gems",
+      "rows": 53,
+      "unique_gem_hrefs": 33,
+      "measure": "rows = <tr data-filters> 行数；unique_gem_hrefs = 该页 <a class=\"gem_{red|green|blue}\" href=\"/us/<Name>\"> 去重计数（静态 HTML 实测）"
+    },
+    {
+      "page": "Lineage_Supports",
+      "rows": 0,
+      "unique_gem_hrefs": 56,
+      "measure": "rows = <tr data-filters> 行数；unique_gem_hrefs = 该页 <a class=\"gem_{red|green|blue}\" href=\"/us/<Name>\"> 去重计数（静态 HTML 实测）"
+    },
+    {
+      "page": "Meta_Gems",
+      "rows": 0,
+      "unique_gem_hrefs": 23,
+      "measure": "rows = <tr data-filters> 行数；unique_gem_hrefs = 该页 <a class=\"gem_{red|green|blue}\" href=\"/us/<Name>\"> 去重计数（静态 HTML 实测）"
+    }
+  ],
+  "crawl_pipeline": [
+    "discover_v2.js",
+    "build_list.js",
+    "crawl_details.js",
+    "finalize.js"
+  ],
+  "pipeline_dir": "design/refactor/skill-data/_tools/",
+  "raw_cache_dir": "design/refactor/skill-data/crawled/raw",
+  "raw_cache_count": 1349,
+  "dnt_excluded": 28,
+  "dnt_note": "DNT-* 为 poe2db 上的废弃/未启用条目，在 discover 阶段记录、finalize 阶段剔除；冻结层实测残留 0 条。",
+  "entry_count": 1059,
+  "by_type": {
+    "skill": 389,
+    "spirit": 55,
+    "support": 615
+  },
+  "unique_base": 900,
+  "discovered_rows_total": 1074,
+  "discovered_rows_note": "索引页按 <tr data-filters> 切分共发现 1074 条，剔除 28 条 DNT-* 后保留 1046 条（引自 crawled/index.md 方法论；行数口径已在 index_pages[*].rows 中按页实测复核：Gems 1066 / Skill_Gems 427 / Support_Gems 557 / Spirit_Gems 53）。",
+  "measured_discrepancy": "crawled/index.md 称「Gems 页 1066 行 -> 963 唯一」。本层对 raw 缓存静态 HTML 实测无法复现 963：Gems 页 gem 锚点去重仅 821 个，全部 14 个索引页并集亦为 821。推测 963 来自 JS 渲染后的 DOM 或跨页别的去重口径。**本层以最终 entries = 1046 为唯一有效口径**，963 不作为任何断言依据。",
+  "generated_at": "2026-09-20T20:56:44.049Z",
+  "generator": "poe2_assets/authoritative/scripts/freeze_authoritative.js",
+  "source_pin": {
+    "file": "design/refactor/skill-data/crawled/all_skills.json",
+    "sha256": "4d882ca7cde3db42ec698f5c42418f0da379f004e98c85ae1aa15d5f0ca57218",
+    "bytes": 5199803,
+    "mtime": "2026-09-20T20:44:22.744Z",
+    "crawled_at": "2026-09-20T20:44:14.079Z",
+    "note": "冻结时刻指纹；便于后续判定是否需要重新冻结（见 scripts/verify_authoritative.py 的漂移检测）。"
+  },
+  "drift_incident": {
+    "observed": true,
+    "at": "2026-09-20T20:56:44.049Z",
+    "what": "本次冻结过程中，crawled/all_skills.json 被并发重写：1046 -> 1059 条（crawled_at 2026-09-20T20:44:14.079Z）。爬取任务 SK-CRAWL-001 当时仍处于 in_progress。",
+    "handling": "本层以「最后一次读取」为冻结内容，并用 sha256 钉住源，使任何后续漂移都可被 verify_authoritative.py 检出并要求重新冻结。",
+    "action_required": "若 SK-CRAWL-001 还有后续写入，必须重跑 freeze_authoritative.js + convert_zh.py + verify_authoritative.py。"
+  },
+  "frozen_artifacts": [
+    "all_skills.json",
+    "by_type/skill.json",
+    "by_type/support.json",
+    "by_type/spirit.json",
+    "zh_cn_names.json",
+    "schema.json",
+    "FIELD_COVERAGE.md",
+    "mechanism_index.json",
+    "provenance.json",
+    "source_pin.json"
+  ]
+}

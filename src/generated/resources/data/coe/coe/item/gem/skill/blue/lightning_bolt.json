@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_lightning_bolt",
+  "vars": {
+    "tier": 1.0
+  }
+}

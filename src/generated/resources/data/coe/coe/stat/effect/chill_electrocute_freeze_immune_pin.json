@@ -1,0 +1,9 @@
+{
+  "type": "immune",
+  "statuses": [
+    "freeze",
+    "chill",
+    "pin",
+    "electrocute"
+  ]
+}

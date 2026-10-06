@@ -1,0 +1,17 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:to_strength"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:to_dexterity"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:to_intelligence"
+    }
+  ]
+}

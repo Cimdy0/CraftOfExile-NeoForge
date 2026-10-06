@@ -1,0 +1,46 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_can_wield_two_handed_axes_maces_and_swords_in_one_hand",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:triple_attributes_requirements_of_martial_weapons"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_health_granted_by_strength_is_halved",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_giantbloodkeystone",
+    "id": "32349",
+    "links": [
+      "3446"
+    ],
+    "x": -8206.04,
+    "y": 7089.12
+  }
+]

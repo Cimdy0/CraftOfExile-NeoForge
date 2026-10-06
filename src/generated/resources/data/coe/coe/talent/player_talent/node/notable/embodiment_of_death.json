@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:immune_to_bleeding_while_affected_by_an_archon_buff",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archonofundeathnoteble",
+    "id": "59781",
+    "links": [
+      "45333"
+    ],
+    "x": -1569.98,
+    "y": -10888.3
+  }
+]

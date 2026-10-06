@@ -1,0 +1,9 @@
+{
+  "ailment": true,
+  "extra_tags": [
+    "damage_over_time"
+  ],
+  "id": "dot_cold",
+  "slot": -1,
+  "stat_tag": "cold"
+}

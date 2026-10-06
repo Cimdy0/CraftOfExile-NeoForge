@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_mana_take_of_damage_op_add_value_0_3_mana_take"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "mind_over_matter"
+}

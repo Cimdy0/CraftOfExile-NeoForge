@@ -1,0 +1,30 @@
+{
+  "mod": {
+    "skills": [
+      {
+        "level": 4,
+        "pool": [
+          {
+            "skill": "coe:lightning_bolt",
+            "weight": 2
+          },
+          {
+            "skill": "coe:freezing_shards",
+            "weight": 2
+          },
+          {
+            "skill": "coe:bone_blast"
+          }
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_cast_speed_op_add_value_0_15"
+      }
+    ],
+    "weight": 600
+  },
+  "name": "elemental_adept"
+}

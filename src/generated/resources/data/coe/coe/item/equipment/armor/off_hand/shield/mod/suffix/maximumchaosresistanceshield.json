@@ -1,0 +1,45 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_max_chaos_resistance"
+    },
+    "tiers": [
+      {
+        "level": 68,
+        "name": "of_regularity",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 125
+      },
+      {
+        "level": 75,
+        "name": "of_concord",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 125
+      },
+      {
+        "level": 81,
+        "name": "of_harmony",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 125
+      }
+    ]
+  }
+}

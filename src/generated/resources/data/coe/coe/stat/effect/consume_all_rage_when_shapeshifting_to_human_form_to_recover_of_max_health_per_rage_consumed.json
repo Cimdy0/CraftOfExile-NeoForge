@@ -1,0 +1,6 @@
+{
+  "type": "rage_consume_heal",
+  "tags": {
+    "tag": "form_cleared"
+  }
+}

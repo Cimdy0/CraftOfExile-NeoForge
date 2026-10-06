@@ -1,0 +1,100 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed_with_lightning_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "13576",
+    "links": [
+      "17024",
+      "53266"
+    ],
+    "x": 2802.27,
+    "y": -8676.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed_with_lightning_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "17024",
+    "links": [
+      "13576",
+      "37372"
+    ],
+    "x": 2607.33,
+    "y": -8878.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed_with_lightning_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "37372",
+    "links": [
+      "13738",
+      "17024"
+    ],
+    "x": 2810.3,
+    "y": -9096.02
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed_with_lightning_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "53266",
+    "links": [
+      "13576",
+      "20387",
+      "35896",
+      "53560"
+    ],
+    "x": 2453.78,
+    "y": -8312.45
+  }
+]

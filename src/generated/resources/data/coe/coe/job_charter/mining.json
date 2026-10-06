@@ -1,0 +1,7 @@
+{
+  "min_level": 5,
+  "requires_tech": [
+    "coe:unlock_mining"
+  ],
+  "work_type": "mining"
+}

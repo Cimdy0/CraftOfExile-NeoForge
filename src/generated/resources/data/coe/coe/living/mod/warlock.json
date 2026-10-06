@@ -1,0 +1,29 @@
+{
+  "mod": {
+    "skills": [
+      {
+        "level": 4,
+        "skill": "coe:bone_blast"
+      },
+      {
+        "level": 3,
+        "pool": [
+          {
+            "skill": "coe:decompose"
+          },
+          {
+            "skill": "coe:fulmination"
+          }
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_cast_speed_op_add_value_0_25"
+      }
+    ],
+    "weight": 400
+  },
+  "name": "warlock"
+}

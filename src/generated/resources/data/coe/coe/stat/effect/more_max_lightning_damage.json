@@ -1,0 +1,8 @@
+{
+  "type": "more_max_lightning_damage",
+  "identity_tags": [
+    "lightning"
+  ],
+  "kind": "more_max_lightning_damage",
+  "variant": "magnitude"
+}

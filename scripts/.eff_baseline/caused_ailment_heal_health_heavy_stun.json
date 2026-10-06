@@ -1,0 +1,8 @@
+{
+  "type": "heal",
+  "resource": "health",
+  "tags": [
+    "caused_ailment",
+    "heavy_stun"
+  ]
+}

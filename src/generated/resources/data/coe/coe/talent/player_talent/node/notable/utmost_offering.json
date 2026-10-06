@@ -1,0 +1,24 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offerings_cannot_be_damaged_if_they_have_been_created_recently"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "41033",
+    "links": [
+      "41654",
+      "47821",
+      "55872"
+    ],
+    "x": 4146.33,
+    "y": -7967.58
+  }
+]

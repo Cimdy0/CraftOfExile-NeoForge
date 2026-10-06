@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_duration_on_enemies",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_ignited_enemies",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "28482",
+    "links": [
+      "53632",
+      "54311"
+    ],
+    "x": -5701.71,
+    "y": -4295.66
+  }
+]

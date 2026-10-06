@@ -1,0 +1,23 @@
+{
+  "entry": "group",
+  "members": [
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "effect": "coe:stat/effect/inline_attribute_1179",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    },
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "effect": "coe:stat/effect/inline_attribute_1180",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    }
+  ]
+}

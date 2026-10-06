@@ -1,0 +1,1169 @@
+[
+ {
+  "name": "ARMOR_BREAK_INC_ARMOR",
+  "corpus": [
+   "[ArmourBreak|Break] 10% increased [Armour|Armour]",
+   "[ArmourBreak|Break] 15% increased [Armour|Armour]",
+   "[ArmourBreak|Break] 20% increased [Armour|Armour]",
+   "[ArmourBreak|Break] 25% increased [Armour|Armour]",
+   "[ArmourBreak|Break] 40% increased [Armour|Armour]",
+   "[ArmourBreak|Break] 60% increased [Armour|Armour]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_ARMOR",
+    "symdiff": 1,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_MINECRAFT_ARMOR)",
+    "corpus": [
+     "10% increased [Armour]",
+     "12% increased [Armour]"
+    ]
+   },
+   {
+    "name": "ARMOR_BREAK_FULLY",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_MINECRAFT_ARMOR)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION",
+  "corpus": [
+   "10% chance for [Attack] [HitDamage|Hits] to apply ten [Incision]"
+  ],
+  "siblings": [
+   {
+    "name": "CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_INCISION",
+    "symdiff": 1,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_CAUSED_HIT_GRANT_ON_EVENT_INCISION_STATUS)",
+    "corpus": [
+     "20% chance for [Attack] [HitDamage|Hits] to apply [Incision]",
+     "40% chance for [Attack] [HitDamage|Hits] to apply [Incision]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "CHANCE_FOR_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK",
+  "corpus": [
+   "5% chance for [Slam] Skills you use yourself to cause an additional [Aftershock]"
+  ],
+  "siblings": [
+   {
+    "name": "CHANCE_FOR_MACE_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK",
+    "symdiff": 1,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_AFTERSHOCK_CHANCE_MACE_SLAM)",
+    "corpus": [
+     "10% chance for [Mace] [Slam] Skills you use yourself to cause an additional [Aftershock]",
+     "8% chance for [Mace] [Slam] Skills you use yourself to cause an additional [Aftershock]"
+    ]
+   },
+   {
+    "name": "CHANCE_FOR_SHAPESHIFT_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK",
+    "symdiff": 1,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_AFTERSHOCK_CHANCE_FORM_SLAM)",
+    "corpus": [
+     "10% chance for [Shapeshift] [Slam] Skills you use yourself to cause an additional [Aftershock]",
+     "15% chance for [Shapeshift] [Slam] Skills you use yourself to cause an additional [Aftershock]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_HIT_DAMAGE_WITH_ATTACKS",
+  "corpus": [
+   "10% chance to [Aggravate] [Bleeding] on targets you [HitDamage|Hit] with [Attack|Attacks]"
+  ],
+  "siblings": [
+   {
+    "name": "CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_HIT_DAMAGE_WITH_EMPOWERED_ATTACKS",
+    "symdiff": 1,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_AGGRAVATED_CAUSED_HIT_GRANT_ON_EVENT_STATUS)",
+    "corpus": [
+     "20% chance to [Aggravate] [Bleeding] on targets you [HitDamage|Hit] with [Empowered] [Attack|Attacks]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "EXTRA_PHYSICAL",
+  "corpus": [],
+  "siblings": [
+   {
+    "name": "EXTRA_PHYSICAL_DAMAGE",
+    "symdiff": 1,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_CHAOS_COLD_DAMAGE_CONVERT_FIRE_GAIN_LIGHTNING_PHYSICAL_TRUE_3)",
+    "corpus": []
+   },
+   {
+    "name": "EXTRA_PHYSICAL_FROM_PHYSICAL",
+    "symdiff": 1,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_DAMAGE_CONVERT_GAIN_PHYSICAL_TRUE)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_BLEEDING_DURATION",
+  "corpus": [
+   "10% increased Bleeding Duration",
+   "20% increased Bleeding Duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_BLEEDING_DURATION_TAKEN",
+    "symdiff": 1,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   },
+   {
+    "name": "INC_AILMENT_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_FLAMMABILITY_BUFF_MAGNITUDE",
+  "corpus": [
+   "100% increased [Flammability] [BuffMagnitude|Magnitude]",
+   "15% increased [Flammability] [BuffMagnitude|Magnitude]",
+   "20% increased [Flammability] [BuffMagnitude|Magnitude]",
+   "24% increased [Flammability] [BuffMagnitude|Magnitude]",
+   "30% increased [Flammability] [BuffMagnitude|Magnitude]",
+   "40% increased [Flammability] [BuffMagnitude|Magnitude]",
+   "50% increased [Flammability] [BuffMagnitude|Magnitude]",
+   "60% increased [Flammability] [BuffMagnitude|Magnitude]",
+   "80% increased [Flammability] [BuffMagnitude|Magnitude]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_BUFF_MAGNITUDE",
+    "symdiff": 1,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_AURA_COE_AILMENT_MAGNITUDE_TAKEN_2)",
+    "corpus": []
+   },
+   {
+    "name": "INC_FLAMMABILITY_MAGNITUDE",
+    "symdiff": 1,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_CURSE_FIRE_TAKEN)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_HEALTH_RECOVERY_RATE",
+  "corpus": [
+   "10% increased Life Recovery rate",
+   "15% increased Life Recovery rate",
+   "6% increased Life Recovery rate"
+  ],
+  "siblings": [
+   {
+    "name": "INC_FLASK_HEALTH_RECOVERY_RATE",
+    "symdiff": 1,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH)",
+    "corpus": [
+     "40% increased [Flask] Life Recovery rate"
+    ]
+   },
+   {
+    "name": "MINIONS_HAVE_INC_HEALTH_RECOVERY_RATE",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_RECOVERY_RATE)",
+    "corpus": [
+     "Minions have 10% reduced Life Recovery rate"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_SHOCK_DURATION",
+  "corpus": [
+   "15% increased [Shock] Duration",
+   "20% increased [Shock] Duration",
+   "25% increased [Shock] Duration",
+   "40% increased [Shock] Duration",
+   "50% increased [Shock] Duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_SHOCK_DURATION_TAKEN",
+    "symdiff": 1,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_SHOCK_TAKEN)",
+    "corpus": []
+   },
+   {
+    "name": "INC_SHOCK_DURATION_ON_YOU",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_SHOCK_TAKEN)",
+    "corpus": [
+     "25% reduced [Shock|Shock] duration on you"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "ACCURACY_IS_DOUBLED",
+  "corpus": [
+   "[Accuracy] Rating is Doubled"
+  ],
+  "siblings": [
+   {
+    "name": "ACCURACY",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "ARCHON_RECOVERY_PERIOD_EXPIRES_FASTER",
+  "corpus": [
+   "[Archon] recovery period expires 10% faster",
+   "[Archon] recovery period expires 25% faster"
+  ],
+  "siblings": [
+   {
+    "name": "ARCHON_RECOVERY_PERIOD_EXPIRES_SLOWER",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ARCHON_ATTRIBUTE_COE_ARCHON_RECOVERY_RATE)",
+    "corpus": [
+     "[Archon] recovery period expires 30% slower"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "CHANCE_FOR_FLASKS_YOU_USE_TO_NOT_CONSUME_CHARGES",
+  "corpus": [
+   "10% chance for [Flask|Flasks] you use to not consume Charges",
+   "20% chance for [Flask|Flasks] you use to not consume Charges"
+  ],
+  "siblings": [
+   {
+    "name": "CHANCE_FOR_CHARMS_YOU_USE_TO_NOT_CONSUME_CHARGES",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_HEAL_MANA)",
+    "corpus": [
+     "20% chance for [Charm|Charms] you use to not consume Charges"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE_WITH_ATTACKS",
+  "corpus": [
+   "10% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]",
+   "15% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]",
+   "5% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]",
+   "8% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]"
+  ],
+  "siblings": [
+   {
+    "name": "CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_BLIND_CAUSED_HIT_GRANT_ON_EVENT_STATUS)",
+    "corpus": [
+     "12% chance to [Blind] Enemies on [HitDamage|Hit]",
+     "5% chance to [Blind] Enemies on [HitDamage|Hit]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "CHANCE_TO_DAZE_ON_HIT_DAMAGE",
+  "corpus": [
+   "10% chance to [Daze] on [HitDamage|Hit]",
+   "5% chance to [Daze] on [HitDamage|Hit]"
+  ],
+  "siblings": [
+   {
+    "name": "CHANCE_TO_POISON_ON_HIT_DAMAGE",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_CHANCE_POISON)",
+    "corpus": [
+     "10% chance to [Poison|Poison] on [HitDamage|Hit]",
+     "8% chance to [Poison|Poison] on [HitDamage|Hit]"
+    ]
+   },
+   {
+    "name": "CHANCE_DAZE_ON_HIT",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_CAUSED_HIT_DAZE_GRANT_ON_EVENT_STATUS)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "CHANNELLING_SKILLS_DEAL_INC_DAMAGE",
+  "corpus": [
+   "[Channelling] Skills deal 12% increased Damage",
+   "[Channelling] Skills deal 20% increased Damage",
+   "[Channelling] Skills deal 25% increased Damage",
+   "[Channelling] Skills deal 6% increased Damage",
+   "[Channelling] Skills deal 8% increased Damage"
+  ],
+  "siblings": [
+   {
+    "name": "HERALD_SKILLS_DEAL_INC_DAMAGE",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD)",
+    "corpus": [
+     "[Herald] Skills deal 20% increased Damage",
+     "[Herald] Skills deal 30% increased Damage"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "COMPANIONS_DEAL_INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+  "corpus": [
+   "[Companion|Companions] deal 60% increased damage against [Immobilised] enemies"
+  ],
+  "siblings": [
+   {
+    "name": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "onTarget(StatConditionIds.COND_PIN_STATUS, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE)",
+    "corpus": [
+     "10% increased Damage against [Immobilised] Enemies",
+     "20% increased Damage against [Immobilised] Enemies"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "DETONATOR_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+  "corpus": [
+   "[Detonator] skills have 40% increased Area of Effect",
+   "[Detonator] skills have 8% increased Area of Effect"
+  ],
+  "siblings": [
+   {
+    "name": "BANNER_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_EFFECT_AREA_BANNER)",
+    "corpus": [
+     "[Banner] Skills have 12% increased Area of Effect",
+     "[Banner] Skills have 30% increased Area of Effect"
+    ]
+   },
+   {
+    "name": "HERALD_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_EFFECT_AREA_HERALD)",
+    "corpus": [
+     "[Herald] Skills have 25% increased Area of Effect"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_ARMOR_BREAK_DURATION",
+  "corpus": [
+   "100% increased [ArmourBreak|Armour Break] Duration",
+   "20% increased [ArmourBreak|Armour Break] Duration",
+   "25% increased [ArmourBreak|Armour Break] Duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_ARMOR",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_MINECRAFT_ARMOR)",
+    "corpus": [
+     "10% increased [Armour]",
+     "12% increased [Armour]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_ARMOR_BREAK_TAKEN",
+  "corpus": [
+   "25% reduced [ArmourBreak|Armour Break] taken",
+   "50% reduced [ArmourBreak|Armour Break] taken"
+  ],
+  "siblings": [
+   {
+    "name": "INC_ARMOR",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_MINECRAFT_ARMOR)",
+    "corpus": [
+     "10% increased [Armour]",
+     "12% increased [Armour]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_FROM_EQUIPPED_SHIELD",
+  "corpus": [
+   "100% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped [Shield]",
+   "15% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped [Shield]",
+   "25% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped [Shield]",
+   "50% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped [Shield]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "groupSelf(StatEffectIds.EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_MINECRAFT_ARMOR, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION, StatEffectIds.EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_MAX_ENERGY_SHIELD)",
+    "corpus": [
+     "10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]",
+     "20% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_ATTRIBUTES",
+  "corpus": [
+   "7% increased [Attributes]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_ACCURACY",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY)",
+    "corpus": [
+     "10% increased [Accuracy] Rating",
+     "12% increased [Accuracy] Rating"
+    ]
+   },
+   {
+    "name": "INC_ARMOR",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_MINECRAFT_ARMOR)",
+    "corpus": [
+     "10% increased [Armour]",
+     "12% increased [Armour]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_BLIND_DURATION",
+  "corpus": [
+   "25% increased [Blind] duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_AILMENT_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   },
+   {
+    "name": "INC_BLEED_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_BLOCK_RECOVERY",
+  "corpus": [
+   "25% increased [Block] Recovery",
+   "40% increased [Block] Recovery"
+  ],
+  "siblings": [
+   {
+    "name": "INC_BLOCK_CHANCE",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_BLOCK_CHANCE)",
+    "corpus": [
+     "10% increased [Block] chance",
+     "12% increased [Block] chance"
+    ]
+   },
+   {
+    "name": "INC_STUN_RECOVERY",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_STUN_RECOVERY_STUN)",
+    "corpus": [
+     "20% increased [StunRecovery|Stun Recovery]",
+     "30% increased [StunRecovery|Stun Recovery]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_CHANCE_TO_INFLICT_AILMENTS_WITH_PROJECTILES",
+  "corpus": [
+   "20% increased chance to inflict [Ailments|Ailments] with [Projectile|Projectiles]",
+   "25% increased chance to inflict [Ailments|Ailments] with [Projectile|Projectiles]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_CHANCE_TO_INFLICT_AILMENTS",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE)",
+    "corpus": [
+     "10% increased chance to inflict [Ailments]",
+     "15% increased chance to inflict [Ailments]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_COST_EFFICIENCY",
+  "corpus": [
+   "15% increased Cost [Efficiency]",
+   "5% increased Cost [Efficiency]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_RESERVATION_EFFICIENCY",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_RESERVATION_EFFICIENCY_RESERVATION)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_DEALT_A_NON_CRITICAL_HIT_RECENTLY",
+  "corpus": [
+   "25% increased [CriticalDamageBonus|Critical Damage Bonus] if you've dealt a [Critical|Non-Critical Hit] [Recently]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "self(StatConditionIds.COND_COUNT_RECENTLY_CAUSED_CRIT, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE)",
+    "corpus": [
+     "10% increased Damage if you've dealt a [Critical|Critical Hit] [Recently]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_CRITICAL_HIT_CHANCE_AGAINST_HUMANOIDS",
+  "corpus": [
+   "10% increased [Critical|Critical Hit Chance] against Humanoids",
+   "50% increased [Critical|Critical Hit Chance] against Humanoids"
+  ],
+  "siblings": [
+   {
+    "name": "INC_CRITICAL_HIT_CHANCE",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE)",
+    "corpus": [
+     "10% increased [Critical|Critical Hit Chance]",
+     "10% reduced [Critical|Critical Hit Chance]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_DAMAGE_AGAINST_DEMONS",
+  "corpus": [
+   "10% increased Damage against Demons",
+   "50% increased Damage against Demons"
+  ],
+  "siblings": [
+   {
+    "name": "INC_DAMAGE",
+    "symdiff": 2,
+    "file": "StatBuilder.java",
+    "snippet": "dmg.build()",
+    "corpus": [
+     "10% increased Damage",
+     "10% reduced Damage"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES_WHILE_SHAPESHIFTED",
+  "corpus": [
+   "20% increased Damage against [Immobilised] Enemies while [Shapeshift|Shapeshifted]",
+   "50% increased Damage against [Immobilised] Enemies while [Shapeshift|Shapeshifted]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "onTarget(StatConditionIds.COND_PIN_STATUS, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE)",
+    "corpus": [
+     "10% increased Damage against [Immobilised] Enemies",
+     "20% increased Damage against [Immobilised] Enemies"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_DAMAGE_AGAINST_UNDEAD_ENEMIES",
+  "corpus": [
+   "30% increased damage against Undead Enemies"
+  ],
+  "siblings": [
+   {
+    "name": "INC_DAMAGE_AGAINST_DAZED_ENEMIES",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "onTarget(StatConditionIds.COND_DAZE_STATUS, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE)",
+    "corpus": [
+     "15% increased Damage against [Daze|Dazed] Enemies",
+     "30% increased Damage against [Daze|Dazed] Enemies"
+    ]
+   },
+   {
+    "name": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "onTarget(StatConditionIds.COND_PIN_STATUS, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE)",
+    "corpus": [
+     "10% increased Damage against [Immobilised] Enemies",
+     "20% increased Damage against [Immobilised] Enemies"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_DURATION_OF_EACH_PUPPET_MASTER_STACK",
+  "corpus": [
+   "25% increased Duration of each [PuppetMaster|Puppet Master] stack"
+  ],
+  "siblings": [
+   {
+    "name": "INC_DURATION_OF_PUPPET_MASTER",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_PUPPET_MASTER_DURATION_PUPPET_MASTER)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_EFFECT_OF_INCISION",
+  "corpus": [
+   "50% increased effect of [Incision]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_AREA_OF_EFFECT",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT)",
+    "corpus": [
+     "10% increased Area of Effect",
+     "12% increased Area of Effect"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_ENDURANCE_CHARGE_DURATION",
+  "corpus": [
+   "10% increased [Charges|Endurance Charge] Duration",
+   "20% increased [Charges|Endurance Charge] Duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_FRENZY_CHARGE_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARGE_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": [
+     "20% increased [Charges|Frenzy Charge] Duration"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_FLASK_CHARGES_USED",
+  "corpus": [
+   "5% reduced [Flask|Flask] Charges used"
+  ],
+  "siblings": [
+   {
+    "name": "INC_CHARM_CHARGES_USED",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARM_COE_CHARM_CHARGES_USED)",
+    "corpus": [
+     "6% reduced [Charm] Charges used"
+    ]
+   },
+   {
+    "name": "INC_FLASK_CHARGES_GAIN",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_CHARGES_GAINED_FLASK)",
+    "corpus": [
+     "10% increased [Flask|Flask] Charges gained",
+     "15% increased [Flask|Flask] Charges gained"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_HINDER_DURATION",
+  "corpus": [
+   "20% increased [Hinder] Duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_AILMENT_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   },
+   {
+    "name": "INC_BLEED_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_IMMOBILISATION_BUILDUP_AGAINST_CONSTRUCTS",
+  "corpus": [
+   "10% increased [Immobilised|Immobilisation] buildup against Constructs",
+   "50% increased [Immobilised|Immobilisation] buildup against Constructs"
+  ],
+  "siblings": [
+   {
+    "name": "INC_IMMOBILISATION_BUILDUP",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP)",
+    "corpus": [
+     "12% increased [Immobilised|Immobilisation] buildup",
+     "15% increased [Immobilised|Immobilisation] buildup"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_LIGHT_RADIUS",
+  "corpus": [
+   "10% increased [LightRadius|Light Radius]",
+   "20% increased [LightRadius|Light Radius]",
+   "23% reduced [LightRadius|Light Radius]"
+  ],
+  "siblings": [
+   {
+    "name": "INC_LIGHT_DAMAGE",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_MANA_RECOVERY_RATE",
+  "corpus": [
+   "15% increased Mana Recovery rate"
+  ],
+  "siblings": [
+   {
+    "name": "INC_COOLDOWN_RECOVERY_RATE",
+    "symdiff": 2,
+    "file": "WireSpeed.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE)",
+    "corpus": [
+     "10% increased [CooldownRecovery|Cooldown Recovery Rate]",
+     "12% increased [CooldownRecovery|Cooldown Recovery Rate]"
+    ]
+   },
+   {
+    "name": "INC_FLASK_MANA_RECOVERY",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_MANA)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_MINION_DURATION",
+  "corpus": [
+   "12% increased Minion Duration",
+   "16% increased Minion Duration",
+   "20% increased Minion Duration",
+   "25% increased Minion Duration",
+   "6% increased Minion Duration",
+   "8% increased Minion Duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_AILMENT_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   },
+   {
+    "name": "INC_BLEED_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_POWER_CHARGE_DURATION",
+  "corpus": [
+   "10% increased [Charges|Power Charge] Duration",
+   "20% increased [Charges|Power Charge] Duration",
+   "6% increased [Charges|Power Charge] Duration",
+   "8% increased [Charges|Power Charge] Duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_FRENZY_CHARGE_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARGE_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": [
+     "20% increased [Charges|Frenzy Charge] Duration"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "INC_TOTEM_DURATION",
+  "corpus": [
+   "30% increased [Totem] Duration"
+  ],
+  "siblings": [
+   {
+    "name": "INC_AILMENT_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   },
+   {
+    "name": "INC_BLEED_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "INC_TOTEM_PLACEMENT_RANGE",
+  "corpus": [
+   "20% increased [Totem|Totem] Placement range",
+   "50% increased [Totem|Totem] Placement range"
+  ],
+  "siblings": [
+   {
+    "name": "INC_TOTEM_PLACEMENT_SPEED",
+    "symdiff": 2,
+    "file": "WireSpeed.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_TOTEM)",
+    "corpus": [
+     "20% increased [Totem|Totem] Placement speed",
+     "25% increased [Totem|Totem] Placement speed"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "MAX_HEALTH_IS",
+  "corpus": [
+   "Maximum Life is 1"
+  ],
+  "siblings": [
+   {
+    "name": "ADD_MAX_HEALTH",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_MINECRAFT_MAX_HEALTH)",
+    "corpus": []
+   },
+   {
+    "name": "INC_MAX_HEALTH",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH)",
+    "corpus": [
+     "1% increased maximum Life",
+     "3% increased maximum Life"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "MAX_VOLATILITY_IS",
+  "corpus": [
+   "Maximum [Volatility] is 30"
+  ],
+  "siblings": [
+   {
+    "name": "INC_MAX_VOLATILITY",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_VOLATILITY_VOLATILITY)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "MINIONS_CAUSE_INC_STUN_BUILDUP",
+  "corpus": [
+   "[Minion|Minions] cause 15% increased [Stun] Buildup"
+  ],
+  "siblings": [
+   {
+    "name": "INC_STUN_BUILDUP",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN)",
+    "corpus": [
+     "10% increased [Stun] Buildup",
+     "12% increased [Stun] Buildup"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "MINIONS_GAIN_OF_PHYSICAL_DAMAGE_AS_CHAOS_DAMAGE",
+  "corpus": [
+   "[Minion|Minions] gain 10% of [Physical|Physical] Damage as [Chaos|Chaos] Damage"
+  ],
+  "siblings": [
+   {
+    "name": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_CHAOS_DAMAGE",
+    "symdiff": 2,
+    "file": "WireDamage.java",
+    "snippet": "self(StatEffectIds.EFF_CHAOS_DAMAGE_CONVERT_GAIN_PHYSICAL_TRUE)",
+    "corpus": [
+     "[Gain] 3% of [Physical|Physical] Damage as extra [Chaos|Chaos] Damage",
+     "[Gain] 4% of [Physical|Physical] Damage as extra [Chaos|Chaos] Damage"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "MORE_RESERVATION_EFFICIENCY_OF_COMPANION_SKILLS",
+  "corpus": [
+   "30% more [Reservation] [Efficiency] of [Companion] Skills"
+  ],
+  "siblings": [
+   {
+    "name": "INC_RESERVATION_EFFICIENCY_OF_COMPANION_SKILLS",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_RESERVATION_EFFICIENCY_COMPANION_RESERVATION)",
+    "corpus": [
+     "25% increased [Reservation] [Efficiency] of [Companion] Skills",
+     "8% increased [Reservation] [Efficiency] of [Companion] Skills"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "OFFERING_SKILLS_HAVE_INC_DURATION",
+  "corpus": [
+   "[Offering] Skills have 20% increased Duration",
+   "[Offering] Skills have 30% increased Duration",
+   "[Offering] Skills have 30% reduced Duration"
+  ],
+  "siblings": [
+   {
+    "name": "BANNER_SKILLS_HAVE_INC_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BANNER_COE_AILMENT_DURATION_TAKEN)",
+    "corpus": [
+     "[Banner] Skills have 20% increased Duration",
+     "[Banner] Skills have 30% increased Duration"
+    ]
+   },
+   {
+    "name": "INC_OFFERING_DURATION",
+    "symdiff": 2,
+    "file": "WireAilment.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_OFFERING_TAKEN)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "OF_ARMOR_ALSO_APPLIES_TO_CHAOS_DAMAGE",
+  "corpus": [
+   "+20% of [Armour] also applies to [Chaos|Chaos Damage]"
+  ],
+  "siblings": [
+   {
+    "name": "OF_ARMOR_ALSO_APPLIES_TO_COLD_DAMAGE",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ARMOR_COLD_DAMAGE_TAKEN_CONVERT_EXTRA)",
+    "corpus": [
+     "+10% of [Armour] also applies to [Cold|Cold Damage]",
+     "+15% of [Armour] also applies to [Cold|Cold Damage]"
+    ]
+   },
+   {
+    "name": "OF_ARMOR_ALSO_APPLIES_TO_ELEMENTAL_DAMAGE",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_ARMOR_DAMAGE_TAKEN_CONVERT_ELEMENTAL_EXTRA)",
+    "corpus": [
+     "+10% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]",
+     "+12% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "OF_PHYSICAL_DAMAGE_PREVENTED_RECOUPED_AS_HEALTH",
+  "corpus": [
+   "5% of Physical Damage prevented [Recoup|Recouped] as Life"
+  ],
+  "siblings": [
+   {
+    "name": "OF_PHYSICAL_DAMAGE_TAKEN_RECOUPED_AS_HEALTH",
+    "symdiff": 2,
+    "file": "WireResource.java",
+    "snippet": "self(StatEffectIds.EFF_HEALTH_PHYSICAL_RECOUP)",
+    "corpus": [
+     "10% of [Physical] Damage taken [Recoup|Recouped] as Life",
+     "20% of [Physical] Damage taken [Recoup|Recouped] as Life"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "OF_PHYSICAL_DAMAGE_TAKEN_AS_FIRE_DAMAGE",
+  "corpus": [
+   "5% of [Physical|Physical] Damage taken as [Fire|Fire] Damage"
+  ],
+  "siblings": [
+   {
+    "name": "PHYSICAL_TAKEN_AS_FIRE",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_DAMAGE_TAKEN_CONVERT_FIRE_PHYSICAL_REROUTE)",
+    "corpus": []
+   }
+  ]
+ },
+ {
+  "name": "RECOVER_OF_MAX_HEALTH_ON_KILL",
+  "corpus": [
+   "Recover 1% of maximum Life on Kill",
+   "Recover 2% of maximum Life on Kill",
+   "Recover 3% of maximum Life on Kill"
+  ],
+  "siblings": [
+   {
+    "name": "RECOVER_OF_MAX_MANA_ON_KILL",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "self(StatEffectIds.EFF_HEAL_KILL_MANA)",
+    "corpus": [
+     "Recover 1% of maximum Mana on Kill",
+     "Recover 2% of maximum Mana on Kill"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "TO_ANY_ATTRIBUTES",
+  "corpus": [
+   "+5 to any [Attributes|Attribute]"
+  ],
+  "siblings": [
+   {
+    "name": "TO_ALL_ATTRIBUTES",
+    "symdiff": 2,
+    "file": "WireMisc.java",
+    "snippet": "groupSelf(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_STRENGTH, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_DEXTERITY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_INTELLIGENCE)",
+    "corpus": [
+     "+13 to all [Attributes|Attributes]",
+     "+3 to all [Attributes|Attributes]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "TO_MAX_COLD_INFUSIONS",
+  "corpus": [
+   "+1 to maximum [ElementalInfusion|Cold Infusions]"
+  ],
+  "siblings": [
+   {
+    "name": "TO_MAX_COLD_RESISTANCE",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_COLD)",
+    "corpus": [
+     "+1% to [MaximumResistances|Maximum Cold Resistance]"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "TO_MAX_LIGHTNING_INFUSIONS",
+  "corpus": [
+   "+1 to maximum [ElementalInfusion|Lightning Infusions]"
+  ],
+  "siblings": [
+   {
+    "name": "TO_MAX_LIGHTNING_RESISTANCE",
+    "symdiff": 2,
+    "file": "WireDefense.java",
+    "snippet": "self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_LIGHTNING)",
+    "corpus": [
+     "+1% to [MaximumResistances|Maximum Lightning Resistance]"
+    ]
+   }
+  ]
+ }
+]

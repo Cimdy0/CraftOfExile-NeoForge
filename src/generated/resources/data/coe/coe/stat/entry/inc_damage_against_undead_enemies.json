@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "entity_type",
+    "tag": "coe:undead"
+  },
+  "effect": "coe:stat/effect/inline_attribute_210",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_289"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "presence_aura",
+  "elemental": "none",
+  "grant_attribute": "coe:glory_generation",
+  "tags": {
+    "tag": "glory"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:detonator_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "15590",
+    "links": [
+      "26356",
+      "9737"
+    ],
+    "x": -1894.72,
+    "y": 9825.61
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:detonator_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "57863",
+    "links": [
+      "26356",
+      "3999"
+    ],
+    "x": -1411.75,
+    "y": 9696.2
+  }
+]

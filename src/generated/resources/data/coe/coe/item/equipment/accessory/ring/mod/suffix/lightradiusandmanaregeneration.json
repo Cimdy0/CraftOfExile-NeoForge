@@ -1,0 +1,77 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "multi",
+      "parts": [
+        {
+          "addition": {
+            "type": "global",
+            "stats": [
+              {
+                "entry": "read",
+                "ref": "coe:light_radius"
+              }
+            ]
+          },
+          "key": "value"
+        },
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:mana_regeneration_rate_inc"
+          },
+          "key": "value_2"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 8,
+        "name": "of_warmth",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 8.0
+          },
+          "value_2": {
+            "max": 5.0,
+            "min": 5.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 15,
+        "name": "of_kindling",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 17.0,
+            "min": 13.0
+          },
+          "value_2": {
+            "max": 10.0,
+            "min": 10.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 30,
+        "name": "of_the_hearth",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 22.0,
+            "min": 18.0
+          },
+          "value_2": {
+            "max": 15.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

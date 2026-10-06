@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:charm_grant_guard"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 10,
+        "name": "sunny",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 44.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 21,
+        "name": "dawnlit",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 128.0,
+            "min": 85.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 36,
+        "name": "bright",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 200.0,
+            "min": 148.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 48,
+        "name": "vibrant",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 260.0,
+            "min": 205.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "lustrous",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 350.0,
+            "min": 265.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "sunburst",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 500.0,
+            "min": 355.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

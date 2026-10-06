@@ -1,0 +1,8 @@
+{
+  "members": [
+    "coe:add_cold_resistance",
+    "coe:add_elemental_resistance",
+    "coe:all_resistances"
+  ],
+  "slot": {}
+}

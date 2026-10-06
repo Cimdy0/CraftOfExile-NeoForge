@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:buff_duration_mult",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "shapeshifted"
+  }
+}

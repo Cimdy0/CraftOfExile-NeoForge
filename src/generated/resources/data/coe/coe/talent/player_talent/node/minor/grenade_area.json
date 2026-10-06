@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_grenade_area_of_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mineareaofeffectnode",
+    "id": "3109",
+    "links": [
+      "29514",
+      "52274"
+    ],
+    "x": -283.095,
+    "y": 6556.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_grenade_area_of_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mineareaofeffectnode",
+    "id": "36169",
+    "links": [
+      "29514",
+      "48429"
+    ],
+    "x": -703.541,
+    "y": 6234.1
+  }
+]

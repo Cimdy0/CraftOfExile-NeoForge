@@ -1,0 +1,11 @@
+{
+  "coe:item_template": {
+    "extend": "coe:base",
+    "stats": {
+      "runic_ward": {
+        "entry": "read",
+        "ref": "coe:add_max_runic_ward"
+      }
+    }
+  }
+}

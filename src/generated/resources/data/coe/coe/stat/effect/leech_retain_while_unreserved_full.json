@@ -1,0 +1,8 @@
+{
+  "type": "leech_retain_while_unreserved_full",
+  "identity_tags": [
+    "health"
+  ],
+  "kind": "leech_retain_while_unreserved_full",
+  "variant": "gate"
+}

@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "entity_type",
+    "tag": "coe:humanoid"
+  },
+  "effect": "coe:stat/effect/inline_attribute_205",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_290"
+}

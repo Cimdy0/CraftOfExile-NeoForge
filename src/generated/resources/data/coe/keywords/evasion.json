@@ -1,0 +1,29 @@
+{
+  "aliases": [
+    "Evasion",
+    "闪避",
+    "闪避值"
+  ],
+  "description": [
+    [
+      "$[evasion]",
+      "提供完全避开敌人命中的几率。"
+    ],
+    [
+      "会被",
+      "$[sap]",
+      "降低。以",
+      "$[evasion]",
+      "为基础的防御与",
+      "$[energy_shield]",
+      "、",
+      "$[ward]",
+      "相配合。"
+    ]
+  ],
+  "id": "evasion",
+  "keys": [
+    "coe:keyword.evasion"
+  ],
+  "title": "@coe:keyword.evasion"
+}

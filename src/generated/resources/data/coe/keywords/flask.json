@@ -1,0 +1,24 @@
+{
+  "aliases": [
+    "Flask",
+    "Flasks",
+    "药剂"
+  ],
+  "description": [
+    [
+      "$[flask]",
+      "是可消耗品，可恢复",
+      "$[life]",
+      "或",
+      "$[mana]",
+      "，并赋予临时",
+      "$[buff]",
+      "。"
+    ]
+  ],
+  "id": "flask",
+  "keys": [
+    "coe:keyword.flask"
+  ],
+  "title": "@coe:keyword.flask"
+}

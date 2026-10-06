@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_elemental_damage_resistances",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_fire_resistance_if_you_have_at_least_red_support_gems_socketed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementalresistance2",
+    "id": "4547",
+    "links": [
+      "41414"
+    ],
+    "x": -7612.36,
+    "y": 8202.29
+  }
+]

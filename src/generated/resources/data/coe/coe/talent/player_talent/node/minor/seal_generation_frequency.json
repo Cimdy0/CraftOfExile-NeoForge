@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:sealed_skills_have_inc_seal_gain_frequency",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagespells",
+    "id": "11722",
+    "links": [
+      "31517",
+      "62431"
+    ],
+    "x": 2756.14,
+    "y": -5407.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:sealed_skills_have_inc_seal_gain_frequency",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagespells",
+    "id": "31517",
+    "links": [
+      "11722",
+      "46034"
+    ],
+    "x": 3040.19,
+    "y": -5571.12
+  }
+]

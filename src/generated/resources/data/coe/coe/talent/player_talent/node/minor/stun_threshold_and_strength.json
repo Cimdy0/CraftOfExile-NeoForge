@@ -1,0 +1,146 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "21885",
+    "links": [
+      "1352",
+      "52126"
+    ],
+    "x": -7562.53,
+    "y": 3840.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "24477",
+    "links": [
+      "17532",
+      "34671"
+    ],
+    "x": -3366.12,
+    "y": 7995.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "34671",
+    "links": [
+      "24477",
+      "48418"
+    ],
+    "x": -3142.09,
+    "y": 8055.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "52126",
+    "links": [
+      "21885",
+      "52298"
+    ],
+    "x": -7437.53,
+    "y": 3460.13
+  }
+]

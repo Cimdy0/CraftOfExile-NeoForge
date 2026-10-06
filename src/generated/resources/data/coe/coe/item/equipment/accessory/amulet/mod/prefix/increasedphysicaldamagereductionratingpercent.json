@@ -1,0 +1,93 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:armor_inc_local"
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "reinforced",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 10.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "layered",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "lobstered",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "buttressed",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 32.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "thickened",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 33.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "girded",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 39.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "impregnable",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 45.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

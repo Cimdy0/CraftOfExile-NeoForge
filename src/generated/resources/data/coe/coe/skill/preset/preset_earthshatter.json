@@ -1,0 +1,47 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:poof",
+  "cast_sound": "minecraft:block.anvil.land",
+  "cost": [
+    {
+      "value": "coe:level_table(7, 8, 10, 11, 12, 14, 16, 17, 19, 21, 24, 26, 28, 31, 34, 37, 40, 44, 47, 51, 55, 59, 64, 69, 74, 79, 85, 91, 98, 105, 112, 120, 128, 137, 146, 155, 166, 177, 188, 200)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 3.5, base = 14.2, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "physical"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_create_ground": {
+                "ground_status": "on_jagged_ground",
+                "radius": 4.0
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {}
+        }
+      }
+    }
+  ],
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "slam"
+  ]
+}

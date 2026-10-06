@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_have_inc_stun_buildup",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_during_empowered_attacks",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "14777",
+    "links": [
+      "59466"
+    ],
+    "x": -5529.77,
+    "y": 7342.52
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": "coe:level_table(9, 11, 13, 15, 18, 20, 23, 26, 30, 34, 38, 42, 48, 53, 59, 66, 73, 81, 89, 99, 109, 120, 132, 146, 160, 175, 192, 211, 231, 252, 276, 301, 329, 359, 392, 427, 465, 506, 551, 599)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(23.5, 26.5, 30.5, 35, 40, 45.5, 51.5, 57.5, 64, 71.5, 79.5, 88, 97, 106.5, 117.5, 128.5, 140, 153.5, 167, 181.5, 197.5, 214.5, 232.5, 252.5, 273, 295, 319, 345, 372.5, 402, 433.5, 467.5, 504, 543.5, 585, 630, 678.5, 731, 786.5, 847)",
+                "can_crit": 1.0,
+                "damage_type": "fire"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 2.5
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "detonator"
+  ]
+}

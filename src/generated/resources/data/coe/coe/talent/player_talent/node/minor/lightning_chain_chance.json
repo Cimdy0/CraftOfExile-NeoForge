@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_lightning_skills_to_chain_an_additional_time",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "46157",
+    "links": [
+      "37806",
+      "53560"
+    ],
+    "x": 3017.04,
+    "y": -8315.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_lightning_skills_to_chain_an_additional_time",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "53560",
+    "links": [
+      "46157",
+      "53266"
+    ],
+    "x": 2785.02,
+    "y": -8428.64
+  }
+]

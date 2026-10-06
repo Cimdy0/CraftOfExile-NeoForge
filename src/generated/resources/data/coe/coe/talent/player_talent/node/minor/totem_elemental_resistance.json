@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:totems_gain_to_all_max_elemental_resistances",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "15672",
+    "links": [
+      "45400",
+      "6999"
+    ],
+    "x": -10334.2,
+    "y": -6451.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:totems_gain_to_all_elemental_resistances",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "48121",
+    "links": [
+      "24438",
+      "9417"
+    ],
+    "x": -4120.96,
+    "y": 4565.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:totems_gain_to_all_max_elemental_resistances",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "6999",
+    "links": [
+      "15672",
+      "63170"
+    ],
+    "x": -10253.0,
+    "y": -6299.93
+  }
+]

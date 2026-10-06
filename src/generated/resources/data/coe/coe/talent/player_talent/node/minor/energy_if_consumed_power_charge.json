@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "21327",
+    "links": [
+      "46380",
+      "56876"
+    ],
+    "x": -5968.61,
+    "y": -5111.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "46380",
+    "links": [
+      "11248",
+      "21327",
+      "56876"
+    ],
+    "x": -5968.61,
+    "y": -5395.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield_if_you_ve_consumed_a_power_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "56876",
+    "links": [
+      "1104",
+      "21327",
+      "46380"
+    ],
+    "x": -5722.61,
+    "y": -5253.73
+  }
+]

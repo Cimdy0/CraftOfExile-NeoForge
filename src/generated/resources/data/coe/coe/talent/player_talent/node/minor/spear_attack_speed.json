@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_spears",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "19767",
+    "links": [
+      "13895",
+      "35223"
+    ],
+    "x": 9220.97,
+    "y": 6758.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_spears",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "35223",
+    "links": [
+      "19767",
+      "55680",
+      "9227"
+    ],
+    "x": 9136.4,
+    "y": 6905.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_spears",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "55680",
+    "links": [
+      "35223",
+      "61112"
+    ],
+    "x": 9305.71,
+    "y": 6905.24
+  }
+]

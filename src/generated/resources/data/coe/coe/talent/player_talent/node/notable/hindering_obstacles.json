@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:debuffs_inflicted_by_hazards_have_inc_slow_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_immobilisation_buildup",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "60273",
+    "links": [
+      "28199",
+      "34845"
+    ],
+    "x": 7001.73,
+    "y": 9638.79
+  }
+]

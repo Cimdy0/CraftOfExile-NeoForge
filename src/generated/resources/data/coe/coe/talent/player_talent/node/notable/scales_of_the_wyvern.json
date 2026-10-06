@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge_while_shapeshifted",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_recharge_rate_while_shapeshifted",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_lightning_resistance_while_shapeshifted",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnotable",
+    "id": "60619",
+    "links": [
+      "27216",
+      "31010",
+      "41609",
+      "541"
+    ],
+    "x": -7749.82,
+    "y": -7956.47
+  }
+]

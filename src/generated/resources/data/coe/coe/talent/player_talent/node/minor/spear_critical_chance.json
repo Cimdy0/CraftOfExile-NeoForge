@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_spears",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "18910",
+    "links": [
+      "10265",
+      "38369"
+    ],
+    "x": 8278.17,
+    "y": 7400.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_spears",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnode1",
+    "id": "38369",
+    "links": [
+      "18910",
+      "21225"
+    ],
+    "x": 8424.52,
+    "y": 7316.15
+  }
+]

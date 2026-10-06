@@ -1,0 +1,22 @@
+{
+  "cost": [
+    {
+      "value": 18.0
+    }
+  ],
+  "entry": "read",
+  "ref": "coe:generic_summon",
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "command",
+    "corpse"
+  ],
+  "vars": {
+    "summon_count": 2.0,
+    "summon_duration": 600.0,
+    "tier": 3.0
+  }
+}

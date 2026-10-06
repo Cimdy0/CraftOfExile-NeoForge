@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_and_evasion",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_stun_threshold_equal_to_the_lowest_of_evasion_and_armor_on_your_helmet",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorandevasionnode",
+    "id": "10998",
+    "links": [
+      "21438",
+      "61396"
+    ],
+    "x": 2070.62,
+    "y": 8936.47
+  }
+]

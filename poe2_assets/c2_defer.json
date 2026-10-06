@@ -1,0 +1,5546 @@
+[
+ {
+  "constant": "TO_ANY_ATTRIBUTES",
+  "template": "+{X} to any Attributes",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "FASTER_START_OF_ENERGY_SHIELD_RECHARGE",
+  "template": "{X}% faster start of Energy Shield Recharge",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MAX_ENERGY_SHIELD",
+  "template": "{X}% increased maximum Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_DEFLECTION_RATING_EQUAL_TO_OF_EVASION",
+  "template": "gain Deflection Rating equal to {X}% of Evasion Rating",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_DEAL_INC_DAMAGE",
+  "template": "Minions deal {X}% increased Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_LIGHTNING_DAMAGE",
+  "template": "{X}% increased Lightning Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE",
+  "template": "{X}% increased Critical Hit Chance",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_STRENGTH",
+  "template": "+{X} to Strength",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FLAMMABILITY_BUFF_MAGNITUDE",
+  "template": "{X}% increased Flammability BuffMagnitude",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_DEXTERITY",
+  "template": "+{X} to Dexterity",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_PRESENCE_AREA_OF_EFFECT",
+  "template": "{X}% increased Presence Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_AND_EVASION",
+  "template": "{X}% increased Armour and Evasion Rating",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE",
+  "template": "{X}% increased Life Regeneration rate",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MINIONS_HAVE_INC_MAX_HEALTH",
+  "template": "Minions have {X}% increased maximum Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_INTELLIGENCE",
+  "template": "+{X} to Intelligence",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "DAMAGE_PENETRATION_LIGHTNING_RESISTANCE",
+  "template": "Damage Penetration {X}% Lightning Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_DAMAGE_TAKEN_RECOUPED_AS_HEALTH",
+  "template": "{X}% of Damage taken Recouped as Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARMOR_BREAK_INC_ARMOR",
+  "template": "ArmourBreak {X}% increased Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE",
+  "template": "{X}% increased Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CHANCE_TO_INFLICT_AILMENTS",
+  "template": "{X}% increased chance to inflict Ailments",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH",
+  "template": "{X}% increased amount of Life LifeLeech",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "DAMAGE_PENETRATION_FIRE_RESISTANCE",
+  "template": "Damage Penetration {X}% Fire Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DAMAGE_PENETRATION_COLD_RESISTANCE",
+  "template": "Damage Penetration {X}% Cold Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Poison you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_MAX_ENERGY_SHIELD",
+  "template": "gain additional Stun Threshold equal to {X}% of maximum Energy Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_SKILLS_WHILE_MOVING",
+  "template": "{X}% increased Movement Speed Penalty from using Skills while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_FOR_ATTACKS",
+  "template": "{X}% increased Critical Hit Chance for Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_TO_INFLICT_BLEEDING_ON_HIT_DAMAGE",
+  "template": "{X}% chance to inflict Bleeding on HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_DAZE_ON_HIT_DAMAGE",
+  "template": "{X}% chance to Daze on HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Shock you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "COMPANIONS_HAVE_INC_MAX_HEALTH",
+  "template": "Companions have {X}% increased maximum Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_RAGE_ON_MELEE_HIT_DAMAGE",
+  "template": "gain {X} Rage on Melee HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_WITH_ATTACKS",
+  "template": "{X}% increased ElementalDamage Damage with Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_FOR_SPELLS",
+  "template": "{X}% increased Critical Hit Chance for Spells",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "META_SKILLS_GAIN_INC_ENERGY",
+  "template": "Meta Skills gain {X}% increased Energy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_ADDITIONAL_AILMENT_THRESHOLD_EQUAL_TO_OF_MAX_ENERGY_SHIELD",
+  "template": "gain additional Ailment Threshold equal to {X}% of maximum Energy Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_WARCRY_SPEED",
+  "template": "{X}% increased Warcry Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "AURA_SKILLS_HAVE_INC_BUFF_MAGNITUDE",
+  "template": "Aura Skills have {X}% increased BuffMagnitude",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_POISON_ON_HIT_DAMAGE",
+  "template": "{X}% chance to Poison on HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_ALL_ATTRIBUTES",
+  "template": "+{X} to all Attributes",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_WARCRY_COOLDOWN_RECOVERY_RATE",
+  "template": "{X}% increased Warcry Cooldown Recovery Rate",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_SPELL_DAMAGE_BONUS",
+  "template": "{X}% increased Critical Spell Damage Bonus",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_ON_LOW_HEALTH",
+  "template": "{X}% increased Damage with HitDamage against Enemies that are on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "DEBUFFS_YOU_INFLICT_HAVE_INC_SLOW_MAGNITUDE",
+  "template": "Debuffs you inflict have {X}% increased Slow Magnitude",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_LIGHTNING_RESISTANCE",
+  "template": "+{X}% to Lightning Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_COLD_RESISTANCE",
+  "template": "+{X}% to Cold Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Damage while your Companion is in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY",
+  "template": "{X}% increased Mana Cost Efficiency",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_FROM_EQUIPPED_SHIELD",
+  "template": "{X}% increased Armour, Evasion and Energy Shield from Equipped Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EFFECT_OF_FULLY_BROKEN_ARMOR",
+  "template": "{X}% increased effect of Fully Broken Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Armour, Evasion and Energy Shield while your Companion is in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_RECOVERY_FROM_FLASKS",
+  "template": "{X}% increased Mana Recovery from Flasks",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SPELL_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+  "template": "Spell Skills have {X}% increased Area of Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_PINNED_BUILDUP",
+  "template": "{X}% increased Pinned Buildup",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_RAGE_WHEN_HIT_DAMAGE_BY_AN_ENEMY",
+  "template": "gain {X} Rage when HitDamage by an Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_HEALTH_COST_OF_SKILLS",
+  "template": "{X}% increased Life Cost of Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OF_DAMAGE_IS_TAKEN_FROM_MANA_BEFORE_HEALTH",
+  "template": "{X}% of Damage is taken from Mana before Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DEBUFFS_ON_YOU_EXPIRE_FASTER",
+  "template": "Debuffs on you expire {X}% faster",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "template": "{X}% increased BuffMagnitude of Ignite on you",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SPELLS_CAST_BY_TOTEMS_HAVE_INC_CAST_SPEED",
+  "template": "Spells Cast by Totems have {X}% increased Cast Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ATTACKS_USED_BY_TOTEMS_HAVE_INC_ATTACK_SPEED",
+  "template": "Attacks used by Totems have {X}% increased Attack Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Damage while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_POWER_CHARGE_DURATION",
+  "template": "{X}% increased Power Charge Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Ailments you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANNELLING_SKILLS_DEAL_INC_DAMAGE",
+  "template": "Channelling Skills deal {X}% increased Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_PLANT_SKILLS",
+  "template": "{X}% increased Damage with Plant Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MINIONS_HAVE_INC_COOLDOWN_RECOVERY_RATE_FOR_COMMAND_SKILLS",
+  "template": "Minions have {X}% increased Cooldown Recovery Rate for Command Skills",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SPELL_AREA_DAMAGE",
+  "template": "{X}% increased Spell Area Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ELEMENTAL_INFUSION_DURATION",
+  "template": "{X}% increased Elemental Infusion duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_SURROUNDED",
+  "template": "{X}% increased Attack Damage while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_CHAOS_RESISTANCE",
+  "template": "+{X}% to Chaos Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_RESERVATION_EFFICIENCY_OF_HERALD_SKILLS",
+  "template": "{X}% increased Reservation Efficiency of Herald Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_SPELL_SKILLS_TO_FIRE_ADDITIONAL_PROJECTILES",
+  "template": "{X}% chance for Spell Skills to fire {X} additional Projectiles",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TRIGGERED_SPELLS_DEAL_INC_SPELL_DAMAGE",
+  "template": "Triggered Spells deal {X}% increased Spell Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MINION_DURATION",
+  "template": "{X}% increased Minion Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ANCESTRALLY_BOOSTED_ATTACKS_DEAL_INC_DAMAGE",
+  "template": "Ancestrally Boosted Attacks deal {X}% increased Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_FIRE_RESISTANCE",
+  "template": "+{X}% to Fire Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_FOR_ATTACK_DAMAGE",
+  "template": "{X}% increased Critical Damage Bonus for Attack Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_AFFECTED_BY_ELEMENTAL_AILMENTS",
+  "template": "{X}% increased Damage with HitDamage against Enemies affected by Elemental Ailments",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_ENERGY_SHIELD",
+  "template": "+{X} to maximum Energy Shield",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_IF_YOU_HAVEN_T_BEEN_STUNNED_RECENTLY",
+  "template": "{X}% increased Stun Threshold if you haven't been Stunned Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CROSSBOW_RELOAD_SPEED",
+  "template": "{X}% increased Crossbow Reload Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FLASK_CHARGES_GAIN",
+  "template": "{X}% increased Flask Charges gain",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_TO_BUILD_AN_ADDITIONAL_COMBO_ON_HIT_DAMAGE",
+  "template": "{X}% Chance to build an additional Combo on HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_BOWS",
+  "template": "{X}% increased Attack Speed with Bows",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_FLAILS",
+  "template": "{X}% increased Damage with Flails",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ALLIES_IN_YOUR_PRESENCE_DEAL_INC_DAMAGE",
+  "template": "Allies in your Presence deal {X}% increased Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HIT_DAMAGE_AGAINST_YOU_HAVE_INC_CRITICAL_DAMAGE_BONUS",
+  "template": "HitDamage against you have {X}% increased Critical Damage Bonus",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_STATIONARY",
+  "template": "{X}% increased Mana Regeneration Rate while stationary",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AREA_DAMAGE",
+  "template": "{X}% increased Area Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SHOCK_DURATION",
+  "template": "{X}% increased Shock Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS",
+  "template": "{X}% increased Energy Shield from Equipped Focus",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_AN_ALLIES_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Attack Damage while you have an Allies in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MINIONS_HAVE_INC_ATTACK_AND_CAST_SPEED",
+  "template": "Minions have {X}% increased Attack and Cast Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_GLORY_GENERATION_FOR_BANNER_SKILLS",
+  "template": "{X}% increased Glory generation for Banner Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "PROJECTILES_DEAL_INC_DAMAGE_WITH_HITS_AGAINST_ENEMIES_FURTHER_THAN_XM",
+  "template": "Projectiles deal {X}% increased Damage with Hits against Enemies further than {X}m",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_IF_YOU_HAVE_CONSUMED_AN_ELEMENTAL_INFUSION_RECENTLY",
+  "template": "{X}% increased Spell Damage if you have consumed an Elemental Infusion Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OFFERINGS_HAVE_INC_MAX_HEALTH",
+  "template": "Offerings have {X}% increased Maximum Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_PIERCE_AN_ENEMY",
+  "template": "{X}% chance to Pierce an Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED_WITH_LIGHTNING_SKILLS",
+  "template": "{X}% increased Attack and Cast Speed with Lightning Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "RECOVER_OF_MAX_HEALTH_ON_KILL",
+  "template": "Recover {X}% of maximum Life on Kill",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_BLINDED_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Blinded Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_MOVING",
+  "template": "{X}% increased Attack Damage while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BONUSES_GAIN_FROM_EQUIPPED_QUIVER",
+  "template": "{X}% increased bonuses gain from Equipped Quiver",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_TO_GAIN_VOLATILITY_ON_KILL",
+  "template": "{X}% chance to gain Volatility on Kill",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_STATIONARY",
+  "template": "{X}% increased Armour while stationary",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_STATIONARY",
+  "template": "{X}% increased Life Regeneration Rate while stationary",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SKILL_SPEED_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Skill Speed while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "HEALTH_LEECH_HEALTH_SLOWER",
+  "template": "LifeLeech Life {X}% slower",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ATTACK_SKILLS_DEAL_INC_DAMAGE_WHILE_HOLDING_A_SHIELD",
+  "template": "Attack Skills deal {X}% increased Damage while holding a Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INHERENT_RAGE_LOSS_STARTS_SECOND_LATER",
+  "template": "Inherent Rage loss starts {X} second later",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "COMPANIONS_HAVE_TO_ALL_ELEMENTAL_RESISTANCES",
+  "template": "Companions have +{X}% to all Elemental Resistances",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased ElementalDamage Damage while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MAX_ENERGY_SHIELD_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY",
+  "template": "{X}% increased maximum Energy Shield if you've consumed a Power Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ENDURANCE_CHARGE_DURATION",
+  "template": "{X}% increased Endurance Charge Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_IF_YOU_VE_CONSUMED_AN_ENDURANCE_CHARGE_RECENTLY",
+  "template": "{X}% increased Armour if you've consumed an Endurance Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CHILL_DURATION_ON_ENEMIES",
+  "template": "{X}% increased Chill Duration on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_SURROUNDED",
+  "template": "{X}% increased Armour while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_SURROUNDED",
+  "template": "{X}% increased Evasion Rating while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MINIONS_REVIVING_FASTER",
+  "template": "Minions Reviving {X}% faster",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "BANNER_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+  "template": "Banner Skills have {X}% increased Area of Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BLEEDING_DURATION",
+  "template": "{X}% increased Bleeding Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "HERALD_SKILLS_DEAL_INC_DAMAGE",
+  "template": "Herald Skills deal {X}% increased Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_COOLDOWN_RECOVERY_RATE_FOR_GRENADE_SKILLS",
+  "template": "{X}% increased Cooldown Recovery Rate for Grenade Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "IGNITES_YOU_INFLICT_DEAL_DAMAGE_FASTER",
+  "template": "Ignites you inflict deal Damage {X}% faster",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE_WITH_ATTACKS",
+  "template": "{X}% chance to Blind Enemies on HitDamage with Attacks",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Accuracy Rating with One Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS",
+  "template": "{X}% increased Life and Mana Recovery from Flasks",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_HEALTH_PER_ENEMY_KILLED",
+  "template": "gain {X} Life per enemy killed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_PARRY_HIT_DAMAGE_AREA_OF_EFFECT",
+  "template": "{X}% increased Parry HitDamage Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_WHILE_PARRYING",
+  "template": "{X}% increased Stun Threshold while Parrying",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Attack Speed with One Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "COMPANIONS_GAIN_DAMAGE_AS_EXTRA_CHAOS_DAMAGE",
+  "template": "Companions gain {X}% Damage as extra Chaos Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_TRAPS",
+  "template": "{X}% increased Critical Hit Chance with Traps",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SURPASS_CHANCE_CHANCE_TO_FIRE_AN_ADDITIONAL_ARROW",
+  "template": "+{X}% SurpassChance chance to fire an additional Arrow",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_OF_ANCESTRALLY_BOOSTED_ATTACKS",
+  "template": "{X}% increased Area of Effect of Ancestrally Boosted Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Damage against Immobilised Enemies while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_ALL_ELEMENTAL_DAMAGE_RESISTANCES",
+  "template": "+{X}% to all ElementalDamage Resistances",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_HAVE_ADDITIONAL_PHYSICAL_DAMAGE_REDUCTION",
+  "template": "Minions have {X}% additional Physical Damage Reduction",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_LIGHT_RADIUS",
+  "template": "{X}% increased Light Radius",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Armour while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_FLAILS",
+  "template": "{X}% increased Critical Hit Chance with Flails",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_WHILE_CHANNELLING",
+  "template": "{X}% increased Stun Threshold while Channelling",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ARCHON_RECOVERY_PERIOD_EXPIRES_FASTER",
+  "template": "Archon recovery period expires {X}% faster",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INHERENT_LOSS_OF_RAGE_IS_SLOWER",
+  "template": "Inherent loss of Rage is {X}% slower",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_RESERVATION_EFFICIENCY_OF_MINION_SKILLS",
+  "template": "{X}% increased Reservation Efficiency of Minion Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_BREAK_DURATION",
+  "template": "{X}% increased Armour Break Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_ENDURANCE_CHARGES",
+  "template": "+{X} to Maximum Endurance Charges",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_THAT_IF_YOU_WOULD_GAIN_POWER_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_POWER_CHARGES",
+  "template": "{X}% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_POWER_CHARGES",
+  "template": "+{X} to Maximum Power Charges",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED_WITH_ELEMENTAL_SKILLS",
+  "template": "{X}% increased Attack and Cast Speed with Elemental Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MINIONS_DEAL_INC_DAMAGE_WITH_COMMAND_SKILLS",
+  "template": "Minions deal {X}% increased Damage with Command Skills",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_BLEEDING",
+  "template": "{X}% increased Armour while Bleeding",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_BURNING_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Burning Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_THAT_IF_YOU_WOULD_GAIN_FRENZY_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_FRENZY_CHARGES",
+  "template": "{X}% chance that if you would gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_FRENZY_CHARGES",
+  "template": "+{X} to Maximum Frenzy Charges",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OF_DAMAGE_TAKEN_RECOUPED_AS_MANA",
+  "template": "{X}% of Damage taken Recouped as Mana",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_CROSSBOWS",
+  "template": "{X}% increased Damage with Crossbows",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_THAT_IF_YOU_WOULD_GAIN_ENDURANCE_CHARGES_YOU_INSTEAD_GAIN_UP_TO_MAX_ENDURANCE_CHARGES",
+  "template": "{X}% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ARMOR_AND_EVASION_WHILE_LEECHING",
+  "template": "{X}% increased Armour and Evasion Rating while Leeching",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_HAVE_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you have been HitDamage Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "PROJECTILES_HAVE_INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_FURTHER_THAN_XM",
+  "template": "Projectiles have {X}% increased Critical Hit Chance against Enemies further than {X}m",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_PHYSICAL_DAMAGE_TAKEN_RECOUPED_AS_HEALTH",
+  "template": "{X}% of Physical Damage taken Recouped as Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Attack Speed while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_MAX_ENERGY_SHIELD_AS_ADDITIONAL_FREEZE_THRESHOLD",
+  "template": "gain {X}% of maximum Energy Shield as additional Freeze Threshold",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INVOCATED_SPELLS_DEAL_INC_DAMAGE",
+  "template": "Invocated Spells deal {X}% increased Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "template": "{X}% increased Attack Damage against Rare or Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_CHAOS_DAMAGE",
+  "template": "gain {X}% of Physical Damage as extra Chaos Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you've consumed a Frenzy Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHARMS_APPLIED_TO_YOU_HAVE_INC_EFFECT",
+  "template": "Charms applied to you have {X}% increased Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_AGAINST_ENEMIES_AFFECTED_BY_INCISION",
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict against Enemies affected by Incision",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND",
+  "template": "Life Flasks gain {X} charges per Second",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_MOVING",
+  "template": "{X}% increased Evasion Rating while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DEFLECTION_RATING",
+  "template": "{X}% increased Deflection Rating",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_PROJECTILE_SPEED_FOR_SPELL_SKILLS",
+  "template": "{X}% increased Projectile Speed for Spell Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "FASTER_CURSE_ACTIVATION",
+  "template": "{X}% faster Curse Activation",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MARK_SKILLS_HAVE_INC_USE_SPEED",
+  "template": "Mark Skills have {X}% increased Use Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EFFECT_OF_YOUR_MARK_SKILLS",
+  "template": "{X}% increased Effect of your Mark Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "COMPANIONS_HAVE_INC_AREA_OF_EFFECT",
+  "template": "Companions have {X}% increased Area of Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_SPRINTING",
+  "template": "{X}% increased Movement Speed while Sprinting",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_COLD_DAMAGE",
+  "template": "{X}% increased Attack Cold Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_SPRINTING",
+  "template": "{X}% increased Evasion Rating while Sprinting",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_SPEARS",
+  "template": "{X}% increased Attack Speed with Spears",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ENDURANCE_FRENZY_AND_POWER_CHARGE_DURATION",
+  "template": "{X}% increased Endurance, Frenzy and Power Charge Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_DAGGERS",
+  "template": "{X}% increased Critical Hit Chance with Daggers",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_DAGGERS",
+  "template": "{X}% increased Attack Speed with Daggers",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Attack Speed with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_IF_YOU_HAVE_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "{X}% increased Armour if you have been HitDamage Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_IGNITED_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Ignited Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Critical Hit Chance while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased amount of Life LifeLeech while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Life Regeneration rate while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_BREAK_TAKEN",
+  "template": "{X}% increased Armour Break taken",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_WITH_HIT_DAMAGE_AT_CLOSE_RANGE",
+  "template": "{X}% increased Melee Damage with HitDamage at Close Range",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OF_DAMAGE_TAKEN_RECOUPED_AS_HEALTH_WHILE_CHANNELLING",
+  "template": "{X}% of Damage taken Recouped as Life while Channelling",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED_IF_YOU_VE_SUMMONED_A_TOTEM_RECENTLY",
+  "template": "{X}% increased Attack and Cast Speed if you've summoned a Totem Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_RAGE_ON_MELEE_AXE_HIT_DAMAGE",
+  "template": "gain {X} Rage on Melee Axe HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_AXES",
+  "template": "{X}% increased Attack Speed with Axes",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_RAGE_WHILE_SHAPESHIFTED",
+  "template": "+{X} to maximum Rage while Shapeshifted",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_ENEMIES_WITH_FULLY_BROKEN_ARMOR",
+  "template": "{X}% increased Damage against Enemies with Fully Broken Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_WARCRIES",
+  "template": "{X}% increased Damage with Warcries",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "WARCRY_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+  "template": "Warcry Skills have {X}% increased Area of Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ALLIES_IN_YOUR_PRESENCE_HAVE_INC_ATTACK_SPEED",
+  "template": "Allies in your Presence have {X}% increased Attack Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_RECHARGE_RATE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Energy Shield Recharge Rate while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ACCURACY_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Accuracy Rating while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_IF_YOU_HAVE_STUNNED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased Area of Effect if you have Stunned an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+  "template": "{X}% increased Melee Damage against Immobilised Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MINIONS_HAVE_INC_ATTACK_SPEED",
+  "template": "Minions have {X}% increased Attack Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_CHAOS_DAMAGE",
+  "template": "gain {X}% of Damage as Extra Chaos Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_PENALTY_WHILE_ACTIVELY_BLOCKING",
+  "template": "{X}% increased Movement Speed Penalty while Actively Blocking",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "THORNS_DAMAGE_HAS_CHANCE_TO_IGNORE_ENEMY_ARMOR",
+  "template": "Thorns Damage has {X}% chance to ignore Enemy Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_CHANNELLING",
+  "template": "{X}% increased Armour, Evasion and Energy Shield while Channelling",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_COST_OF_SKILLS",
+  "template": "{X}% increased Mana Cost of Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_TO_GAIN_ARCANE_SURGE_WHEN_YOU_DEAL_A_CRITICAL_HIT",
+  "template": "{X}% chance to gain Arcane Surge when you deal a Critical Hit",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ADD_TO_LIGHTNING_DAMAGE_TO_ATTACKS",
+  "template": "add {X} to {X} Lightning damage to Attacks",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Non-Damaging Ailments you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "template": "{X}% increased Attack Damage if you have Shapeshifted to an Animal form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_WHILE_YOU_HAVE_ARCANE_SURGE",
+  "template": "{X}% increased Spell Damage while you have Arcane Surge",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CAST_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Cast Speed if you've dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CHANCE_TO_INFLICT_AILMENTS_WITH_PROJECTILES",
+  "template": "{X}% increased chance to inflict Ailments with Projectiles",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_WHEN_COLLECTING_AN_ELEMENTAL_INFUSION_TO_GAIN_AN_ADDITIONAL_ELEMENTAL_INFUSION_OF_THE_SAME_TYPE",
+  "template": "{X}% chance when collecting an Elemental Infusion to gain an additional Elemental Infusion of the same type",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SKILL_SPEED_WITH_CHANNELLING_SKILLS",
+  "template": "{X}% increased Skill Speed with Channelling Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD",
+  "template": "{X}% increased Armour, Evasion and Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_WITH_SPELLS_THAT_COST_HEALTH",
+  "template": "{X}% increased Spell Damage with Spells that cost Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OF_SPELL_MANA_COST_STAT_CONVERSION_TO_HEALTH_COST",
+  "template": "{X}% of Spell Mana Cost StatConversion to Life Cost",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_HEALTH_RECOVERY_RATE",
+  "template": "{X}% increased Life Recovery rate",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance if you haven't dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_ON_LOW_HEALTH",
+  "template": "{X}% increased Life Regeneration Rate while on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BALLISTA_IMMOBILISATION_BUILDUP",
+  "template": "{X}% increased Ballista Immobilisation buildup",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "BUFFS_ON_YOU_EXPIRE_SLOWER",
+  "template": "Buffs on you expire {X}% slower",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_MANA",
+  "template": "+{X} to maximum Mana",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FIRE_DAMAGE_PER_ENDURANCE_CHARGE_CONSUMED_RECENTLY",
+  "template": "{X}% increased Fire Damage per Endurance Charge consumed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CHANCE_TO_INFLICT_AILMENTS_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "template": "{X}% increased chance to inflict Ailments against Rare or Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_ON_LOW_HEALTH",
+  "template": "{X}% increased Attack Damage while on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MINIONS_HAVE_INC_CRITICAL_DAMAGE_BONUS",
+  "template": "Minions have {X}% increased Critical Damage Bonus",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_HAVE_HIT_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you have Hit an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ARMOR_BREAK_ARMOR_ON_CRITICAL_HIT_WITH_SPELLS_EQUAL_TO_OF_PHYSICAL_DAMAGE_DEALT",
+  "template": "ArmourBreak Armour on Critical Hit with Spells equal to {X}% of Physical Damage dealt",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DETONATOR_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+  "template": "Detonator skills have {X}% increased Area of Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "SKILLS_HAVE_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM",
+  "template": "Skills have {X}% chance to not add Elemental Infusions but still count as consuming them",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DURATION_OF_IGNITE_SHOCK_AND_CHILL_ON_ENEMIES",
+  "template": "{X}% increased Duration of Ignite, Shock and Chill on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_STRENGTH_AND_DEXTERITY",
+  "template": "+{X} to Strength and Dexterity",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "HIT_DAMAGE_ARMOR_BREAK_INC_ARMOR_ON_TARGETS_WITH_AILMENTS",
+  "template": "HitDamage ArmourBreak {X}% increased Armour on targets with Ailments",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EQUIPMENT_AND_SKILL_GEMS_HAVE_INC_ATTRIBUTES_REQUIREMENTS",
+  "template": "Equipment and Skill Gems have {X}% increased Attributes Requirements",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+  "template": "{X}% increased Movement Speed if you've Killed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Attack Damage while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OFFERING_SKILLS_HAVE_INC_DURATION",
+  "template": "Offering Skills have {X}% increased Duration",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+  "template": "{X}% increased Damage against Immobilised Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_WITH_MELEE_DAMAGE",
+  "template": "{X}% increased Stun Buildup with Melee Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MANA_FLASKS_GAIN_CHARGES_PER_SECOND",
+  "template": "Mana Flasks gain {X} charges per Second",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_CROSSBOWS",
+  "template": "{X}% increased Critical Hit Chance with Crossbows",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_PROJECTILES_TO_PIERCE_ENEMIES_WITHIN_XM_DISTANCE_OF_YOU",
+  "template": "{X}% chance for Projectiles to Pierce Enemies within {X}m distance of you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_PROJECTILE_STUN_BUILDUP",
+  "template": "{X}% increased Projectile Stun Buildup",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BALLISTA_CRITICAL_HIT_CHANCE",
+  "template": "{X}% increased Ballista Critical Hit Chance",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BALLISTA_CRITICAL_DAMAGE_BONUS",
+  "template": "{X}% increased Ballista Critical Damage Bonus",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FLASK_AND_CHARM_CHARGES_GAIN",
+  "template": "{X}% increased Flask and Charm Charges gain",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE",
+  "template": "gain {X}% of Damage as Extra Cold Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "COMPANIONS_GAIN_DAMAGE_AS_EXTRA_COLD_DAMAGE",
+  "template": "Companions gain {X}% Damage as extra Cold Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_FOR_LIGHTNING_SKILLS_TO_CHAIN_AN_ADDITIONAL_TIME",
+  "template": "{X}% chance for Lightning Skills to Chain an additional time",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_WHILE_ON_FULL_HEALTH",
+  "template": "{X}% increased Stun Threshold while on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SEALED_SKILLS_HAVE_INC_SEAL_GAIN_FREQUENCY",
+  "template": "Sealed Skills have {X}% increased Seal gain frequency",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_NOT_DESTROY_CORPSES_WHEN_CONSUMING_CORPSES",
+  "template": "{X}% chance to not destroy Corpses when Consuming Corpses",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you haven't been HitDamage Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict with Critical Hits",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "template": "{X}% increased Critical Damage Bonus against Enemies that are on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_WHILE_WIELDING_A_MELEE_WEAPON",
+  "template": "{X}% increased Spell Damage while wielding a Melee Weapon",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HAZARD_AREA_OF_EFFECT",
+  "template": "{X}% increased Hazard Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_BLINDED_BY_YOU_HAVE_INC_CRITICAL_HIT_CHANCE",
+  "template": "Enemies Blinded by you have {X}% increased Critical Hit Chance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_BLINDED_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Blinded Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WITH_COLD_SKILLS",
+  "template": "{X}% increased Cast Speed with Cold Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CHARM_EFFECT_DURATION",
+  "template": "{X}% increased Charm Effect Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SURPASS_CHANCE_CHANCE_TO_FIRE_AN_ADDITIONAL_PROJECTILE",
+  "template": "+{X}% SurpassChance chance to fire an additional Projectile",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PROJECTILES_DEAL_INC_DAMAGE_WITH_HITS_AGAINST_ENEMIES_WITHIN_XM",
+  "template": "Projectiles deal {X}% increased Damage with Hits against Enemies within {X}m",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "COMPANIONS_HAVE_INC_MOVEMENT_SPEED",
+  "template": "Companions have {X}% increased Movement Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "template": "{X}% increased Damage with HitDamage against Enemies that are on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MELEE_ATTACK_SPEED",
+  "template": "{X}% increased Melee Attack Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Critical Damage Bonus with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Stun Buildup with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FREEZE_BUILDUP_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Freeze Buildup with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_DAGGERS",
+  "template": "{X}% increased Critical Damage Bonus with Daggers",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_RESERVATION_EFFICIENCY_OF_COMPANION_SKILLS",
+  "template": "{X}% increased Reservation Efficiency of Companion Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TEMPORARY_MINION_SKILLS_HAVE_TO_LIMIT_OF_MINIONS_SUMMONED",
+  "template": "Temporary Minion Skills have +{X} to Limit of Minions summoned",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_DAMAGE_FROM_HIT_DAMAGE_IS_TAKEN_FROM_YOUR_DAMAGEABLE_COMPANION_S_HEALTH_BEFORE_YOU",
+  "template": "{X}% of Damage from HitDamage is taken from your Damageable Companion's Life before you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_DEAL_INC_DAMAGE_WITH_COMMAND_SKILLS_FOR_EACH_DIFFERENT_TYPE_OF_PERSISTENT_MINION_IN_YOUR_PRESENCE",
+  "template": "Minions deal {X}% increased Damage with Command Skills for each different type of Persistent Minion in your Presence",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE",
+  "template": "gain {X}% of Damage as Extra Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_FREEZE_DURATION_ON_YOU",
+  "template": "{X}% increased Freeze Duration on you",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_FOR_SKILLS_USED_BY_TOTEMS",
+  "template": "{X}% increased Area of Effect for Skills used by Totems",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Mana Regeneration Rate while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_FROM_EQUIPPED_BODY_ARMOR",
+  "template": "{X}% increased Armour from Equipped Body Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_WITH_MACES",
+  "template": "{X}% increased Stun Buildup with Maces",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD",
+  "template": "{X}% of Maximum Life StatConversion to Energy Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ARMOR_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "{X}% increased Armour if you haven't been HitDamage Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_PER_ITEM_ARMOR_AND_ITEM_EVASION_ON_EQUIPPED_SHIELD",
+  "template": "{X}% increased Attack Damage per {X} Item Armour and ItemEvasion on Equipped Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ALLIES_IN_YOUR_PRESENCE_HAVE_INC_CAST_SPEED",
+  "template": "Allies in your Presence have {X}% increased Cast Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "SHAPESHIFT_SKILLS_HAVE_INC_SKILL_EFFECT_DURATION",
+  "template": "Shapeshift Skills have {X}% increased Skill Effect Duration",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_WHEN_YOU_GAIN_A_POWER_CHARGE_TO_GAIN_AN_ADDITIONAL_POWER_CHARGE",
+  "template": "{X}% chance when you gain a Power Charge to gain an additional Power Charge",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Critical Damage Bonus if you haven't dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_WHEN_YOU_GAIN_AN_ENDURANCE_CHARGE_TO_GAIN_AN_ADDITIONAL_ENDURANCE_CHARGE",
+  "template": "{X}% chance when you gain an Endurance Charge to gain an additional Endurance Charge",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_HAVE_INC_MOVEMENT_SPEED",
+  "template": "Minions have {X}% increased Movement Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHEN_ON_FULL_HEALTH",
+  "template": "{X}% increased Cast Speed when on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CAST_SPEED_FOR_EACH_DIFFERENT_SPELL_YOU_VE_CAST_IN_THE_LAST_EIGHT_SECONDS",
+  "template": "{X}% increased Cast Speed for each different Spell you've Cast in the last eight seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "template": "{X}% increased Thorns Critical Damage Bonus",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_PHYSICAL_DAMAGE",
+  "template": "gain {X}% of Damage as Extra Physical Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_IF_YOU_HAVE_SHAPESHIFTED_TO_HUMAN_FORM_RECENTLY",
+  "template": "{X}% increased Spell Damage if you have Shapeshifted to Human form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_TOTEM_PLACEMENT_RANGE",
+  "template": "{X}% increased Totem Placement range",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ATTACKS_USED_BY_TOTEMS_HAVE_INC_ATTACK_SPEED_PER_SUMMONED_TOTEM",
+  "template": "Attacks used by Totems have {X}% increased Attack Speed per Summoned Totem",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "template": "{X}% increased Stun buildup if you have Shapeshifted to an Animal form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "template": "{X}% increased ElementalAilments Ailment Application if you have Shapeshifted to an Animal form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance if you have Shapeshifted to an Animal form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_ONE_HANDED_WEAPONS",
+  "template": "{X}% increased Attack Speed with One Handed Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ATTACKS_HAVE_CHANCE_TO_MAIM_ON_HIT_DAMAGE",
+  "template": "Attacks have {X}% chance to Maim on HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_AGAINST_ENEMIES_WITHIN_METRES",
+  "template": "{X}% increased Stun Buildup against enemies within {X} metres",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES",
+  "template": "{X}% increased Melee Damage against Heavy Stunned enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT_ON_TARGETS_THAT_ARE_NOT_POISONED",
+  "template": "{X}% increased BuffMagnitude of Poison you inflict on targets that are not Poisoned",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "HEALTH_LEECH_HEALTH_FASTER",
+  "template": "LifeLeech Life {X}% faster",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_VE_BEEN_HIT_RECENTLY",
+  "template": "{X}% increased Attack Speed if you've been Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "REGENERATE_OF_MAX_HEALTH_OVER_SECOND_WHEN_STUNNED",
+  "template": "Regenerate {X}% of maximum Life over {X} second when Stunned",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TOTEMS_HAVE_ADDITIONAL_PHYSICAL_DAMAGE_REDUCTION",
+  "template": "Totems have {X}% additional Physical Damage Reduction",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "SPELLS_GAIN_OF_DAMAGE_AS_EXTRA_CHAOS_DAMAGE",
+  "template": "Spells gain {X}% of Damage as extra Chaos Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TOTEMS_GAIN_TO_ALL_ELEMENTAL_RESISTANCES",
+  "template": "Totems gain +{X}% to all Elemental Resistances",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_HINDERED_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Hindered Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Critical Hit Chance with One Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_RAGE_WHEN_YOUR_HIT_DAMAGE_IGNITES_A_TARGET",
+  "template": "gain {X} Rage when your HitDamage Ignites a target",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "template": "{X}% increased BuffMagnitude of Damaging Ailments you inflict with Critical Hits",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "template": "{X}% increased Critical Hit Chance against Enemies that are on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_KILLED_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance if you have Killed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_SWORDS",
+  "template": "{X}% increased Attack Speed with Swords",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_LEECHING",
+  "template": "{X}% increased Attack Speed while Leeching",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "template": "{X}% increased BuffMagnitude of Non-Damaging Ailments you inflict with Critical Hits",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_IF_YOU_VE_TRIGGERED_A_SKILL_RECENTLY",
+  "template": "{X}% increased Damage if you've Triggered a Skill Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ACCURACY_AT_CLOSE_RANGE",
+  "template": "{X}% increased Accuracy Rating at Close Range",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_STRENGTH_AND_INTELLIGENCE",
+  "template": "+{X} to Strength and Intelligence",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ATTACKS_USED_BY_BALLISTAS_HAVE_INC_ATTACK_SPEED",
+  "template": "Attacks used by Ballistas have {X}% increased Attack Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MELEE_CRITICAL_HIT_CHANCE",
+  "template": "{X}% increased Melee Critical Hit Chance",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_IF_YOU_HAVE_BEEN_HEAVY_STUNNED_RECENTLY",
+  "template": "{X}% increased Attack Damage if you have been Heavy Stunned Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_NO_HEALTH_FLASK_USES_LEFT",
+  "template": "{X}% increased Attack Damage while you have no Life Flask uses left",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_GRENADE_AREA_OF_EFFECT",
+  "template": "{X}% increased Grenade Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_FOR_EACH_TYPE_OF_ELEMENTAL_AILMENT_ON_ENEMY",
+  "template": "{X}% increased Damage for each type of Elemental Ailment on Enemy",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES",
+  "template": "{X}% increased Shock Chance against Electrocuted Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_AGAINST_BLEEDING_ENEMIES",
+  "template": "{X}% increased Attack Damage against Bleeding Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FREEZE_DURATION_ON_ENEMIES",
+  "template": "{X}% increased Freeze Duration on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OFFERING_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+  "template": "Offering Skills have {X}% increased Area of Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_RECHARGE_RATE",
+  "template": "{X}% increased Energy Shield Recharge Rate",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ACCURACY_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Accuracy Rating while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "REMNANTS_YOU_CREATE_HAVE_INC_EFFECT",
+  "template": "Remnants you create have {X}% increased effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ACCURACY_WHILE_MOVING",
+  "template": "{X}% increased Accuracy Rating while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_TWO_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Accuracy Rating with Two Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "METRES_TO_MELEE_STRIKE_RANGE",
+  "template": "+{X} metres to Melee Strike Range",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_DEMONS",
+  "template": "{X}% increased Damage against Demons",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DURATION_OF_AILMENTS_ON_BEASTS",
+  "template": "{X}% increased Duration of Ailments on Beasts",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_IMMOBILISATION_BUILDUP_AGAINST_CONSTRUCTS",
+  "template": "{X}% increased Immobilisation buildup against Constructs",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_HUMANOIDS",
+  "template": "{X}% increased Critical Hit Chance against Humanoids",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MINIONS_CAUSE_INC_STUN_BUILDUP",
+  "template": "Minions cause {X}% increased Stun Buildup",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_DEXTERITY_AND_INTELLIGENCE",
+  "template": "+{X} to Dexterity and Intelligence",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_FLASKS_YOU_USE_TO_NOT_CONSUME_CHARGES",
+  "template": "{X}% chance for Flasks you use to not consume Charges",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Damage if you've dealt a Critical Hit in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE",
+  "template": "gain {X}% of Damage as Extra Lightning Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ACCURACY_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "template": "{X}% increased Accuracy Rating against Rare or Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_AFFECTED_BY_AILMENTS",
+  "template": "{X}% increased Damage with HitDamage against Enemies affected by Ailments",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_PROJECTILE_DAMAGE_IF_YOU_VE_DEALT_A_MELEE_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "template": "{X}% increased Projectile Damage if you've dealt a Melee HitDamage in the past eight seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "template": "{X}% increased Melee Damage if you've dealt a Projectile Attack HitDamage in the past eight seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_WHILE_ON_FULL_ENERGY_SHIELD",
+  "template": "{X}% increased Spell Damage while on Full Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HINDER_DURATION",
+  "template": "{X}% increased Hinder Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_YOU_HAVE_ENERGY_SHIELD",
+  "template": "{X}% increased Evasion Rating while you have Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_PHYSICAL_DAMAGE",
+  "template": "{X}% increased Attack Physical Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_DURING_ANY_FLASK_EFFECT",
+  "template": "{X}% increased Attack Speed during any Flask Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_TO_INFLICT_BLEEDING_ON_CRITICAL_HIT_WITH_ATTACKS",
+  "template": "{X}% chance to inflict Bleeding on Critical Hit with Attacks",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HAZARDS_HAVE_CHANCE_TO_REARM_AFTER_THEY_ARE_TRIGGERED",
+  "template": "Hazards have {X}% chance to rearm after they are triggered",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_POISON_DURATION_ON_YOU",
+  "template": "{X}% increased Poison Duration on you",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INVOCATION_SPELLS_HAVE_INC_CRITICAL_DAMAGE_BONUS",
+  "template": "Invocation Spells have {X}% increased Critical Damage Bonus",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INVOCATED_SPELLS_HAVE_INC_CRITICAL_HIT_CHANCE",
+  "template": "Invocated Spells have {X}% increased Critical Hit Chance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_FREEZE_BY_YOU_HAVE_TO_COLD_RESISTANCE",
+  "template": "Enemies Freeze by you have -{X}% to Cold Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BLOCK_RECOVERY",
+  "template": "{X}% increased Block Recovery",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_COST_EFFICIENCY",
+  "template": "{X}% increased Cost Efficiency",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TARGETS_CAN_BE_AFFECTED_BY_OF_YOUR_POISONS_AT_THE_SAME_TIME",
+  "template": "Targets can be affected by +{X} of your Poisons at the same time",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PREVENT_OF_DAMAGE_FROM_DEFLECTED_HIT_DAMAGE",
+  "template": "Prevent +{X}% of Damage from Deflected HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_HAZARD_IMMOBILISATION_BUILDUP",
+  "template": "{X}% increased Hazard Immobilisation buildup",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Attack Speed while your Companion is in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "PROJECTILES_HAVE_CHANCE_FOR_AN_ADDITIONAL_PROJECTILE_WHEN_FORKING",
+  "template": "Projectiles have {X}% chance for an additional Projectile when Forking",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_STUN_THRESHOLD_PER_DEXTERITY",
+  "template": "+{X} to Stun Threshold per Dexterity",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_NOT_ON_LOW_MANA",
+  "template": "{X}% increased Mana Regeneration Rate while not on Low Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_PENALTY_TO_ACCURACY_AT_RANGE",
+  "template": "{X}% increased penalty to Accuracy Rating at range",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MARK_SKILLS_HAVE_INC_SKILL_EFFECT_DURATION",
+  "template": "Mark Skills have {X}% increased Skill Effect Duration",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PARRY_HAS_INC_STUN_BUILDUP",
+  "template": "Parry has {X}% increased Stun Buildup",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_HAVE_ENTERED_YOUR_PRESENCE_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance against Enemies that have entered your Presence Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_SPEARS",
+  "template": "{X}% increased Critical Hit Chance with Spears",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_SPEARS",
+  "template": "{X}% increased Accuracy Rating with Spears",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_TRAP_THROWING_SPEED",
+  "template": "{X}% increased Trap Throwing Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_DAZED_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Dazed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_DAZED_ENEMIES",
+  "template": "{X}% increased Damage against Dazed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_AFFECTED_BY_A_HERALD",
+  "template": "{X}% increased Damage while affected by a Herald",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Critical Hit Chance with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_BOWS",
+  "template": "{X}% increased Accuracy Rating with Bows",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_BOWS",
+  "template": "{X}% increased Critical Damage Bonus with Bows",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_PHYSICAL_DAMAGE_WITH_BOWS",
+  "template": "{X}% increased Physical Damage with Bows",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "BOW_ATTACKS_HAVE_CULLING_STRIKE",
+  "template": "Bow Attacks have Culling Strike",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE",
+  "template": "gain {X}% of Physical Damage as Extra Lightning Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "IGNITES_YOU_CAUSE_ARE_REFLECTED_BACK_TO_YOU",
+  "template": "Ignites you cause are reflected back to you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_IGNITED",
+  "template": "{X}% increased Armour while Ignited",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_FIRE_RESISTANCE_WHILE_IGNITED",
+  "template": "+{X}% to Maximum Fire Resistance while Ignited",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_FIRE_DAMAGE_WHILE_IGNITED",
+  "template": "{X}% increased Fire Damage while Ignited",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OF_PHYSICAL_DAMAGE_TAKEN_AS_FIRE_DAMAGE",
+  "template": "{X}% of Physical Damage taken as Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_THORNS_DAMAGE_IF_YOU_VE_BLOCKED_RECENTLY",
+  "template": "{X}% increased Thorns damage if you've Blocked Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_PHYSICAL_THORNS_DAMAGE_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_BODY_ARMOR",
+  "template": "gain Physical Thorns damage equal to {X}% of Item Armour on Equipped Body Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_FIRE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES",
+  "template": "gain {X}% of Physical Damage as Extra Fire Damage against Heavy Stunned Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MAX_RAGE_IF_YOU_VE_USED_A_SKILL_THAT_REQUIRES_GLORY_IN_THE_PAST_SECONDS",
+  "template": "+{X} maximum Rage if you've used a Skill that Requires Glory in the past {X} seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE_WHILE_SHAPESHIFTED",
+  "template": "gain {X}% of Damage as Extra Cold Damage while Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_FROM_EQUIPPED_BODY_ARMOR",
+  "template": "{X}% increased Energy Shield from Equipped Body Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SKILLS_WHICH_CREATE_FISSURES_HAVE_A_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE",
+  "template": "Skills which create Fissures have a {X}% chance to create an additional Fissure",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "THE_NEXT_ATTACK_YOU_USE_WITHIN_SECONDS_AFTER_HEAVY_STUNNING_A_RARE_OR_UNIQUE_ENEMY_IS_ANCESTRALLY_BOOSTED",
+  "template": "The next Attack you use within {X} seconds after Heavy Stunning a Rare or Unique Enemy is Ancestrally Boosted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_COLD_RESISTANCE_WHILE_SHAPESHIFTED",
+  "template": "+{X}% to Maximum Cold Resistance while Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "STRIKE_SKILLS_YOU_USE_YOURSELF_WITH_MACES_HAVE_CHANCE_TO_DEAL_SPLASH_DAMAGE",
+  "template": "Strike Skills you use yourself with Maces have {X}% chance to deal Splash Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_DAMAGE_CONVERTED_TO_FIRE_DAMAGE",
+  "template": "{X}% of Damage Converted to Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DEAL_NO_NON_FIRE_DAMAGE",
+  "template": "Deal no Non-Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOU_HAVE_NO_MANA",
+  "template": "You have no Mana",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "SKILL_MANA_COSTS_STAT_CONVERSION_TO_HEALTH_COSTS",
+  "template": "Skill Mana Costs StatConversion to Life Costs",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EVERY_RAGE_ALSO_GRANTS_INC_ARMOR",
+  "template": "Every Rage also grants {X}% increased Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "REGENERATE_RAGE_PER_SECOND_PER_RAGE_SPENT_RECENTLY",
+  "template": "Regenerate {X} Rage per second per {X} Rage spent Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "NO_RAGE_EFFECT",
+  "template": "No Rage effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_IF_YOU_VE_KILLED_RECENTLY",
+  "template": "{X}% increased Area of Effect if you've Killed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Stun buildup while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "WARCRIES_HAVE_A_MINIMUM_OF_POWER",
+  "template": "Warcries have a minimum of {X} Power",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "WARCRIES_HAVE_CHANCE_TO_EMPOWERED_ADDITIONAL_ATTACKS",
+  "template": "Warcries have {X}% chance to Empowered {X} additional Attacks",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_FLAILS",
+  "template": "{X}% increased Attack Speed with Flails",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_RESISTANCES_OF_EACH_ELEMENTAL_DAMAGE_DAMAGE_TYPE_YOU_HAVE_BEEN_HIT_DAMAGE_WITH_RECENTLY",
+  "template": "+{X}% to Maximum Resistances of each ElementalDamage Damage Type you have been HitDamage with Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EACH_TOTEM_APPLIES_INC_DAMAGE_TAKEN_TO_ENEMIES_IN_THEIR_PRESENCE",
+  "template": "Each Totem applies {X}% increased Damage taken to Enemies in their Presence",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_GAIN_OF_THEIR_MAX_HEALTH_AS_EXTRA_MAX_ENERGY_SHIELD",
+  "template": "Minions gain {X}% of their maximum Life as Extra maximum Energy Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_WHILE_SHAPESHIFTED",
+  "template": "gain {X}% of Damage as Extra Fire Damage while Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOU_CAN_EQUIP_A_NON_ITEM_RARITY_SCEPTRE_WHILE_WIELDING_A_TALISMAN",
+  "template": "You can equip a non-ItemRarity Sceptre while wielding a Talisman",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_SPIRIT",
+  "template": "{X}% more Spirit",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "NON_MINION_SKILLS_HAVE_MORE_RESERVATION_EFFICIENCY",
+  "template": "Non-Minion Skills have {X}% more Reservation Efficiency",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_ARMOR_EQUAL_TO_OF_TOTAL_STRENGTH_REQUIREMENTS_OF_EQUIPPED_BOOTS_GLOVES_AND_HELMET",
+  "template": "gain Armour equal to {X}% of total Strength Requirements of Equipped Boots, Gloves and Helmet",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_PHYSICAL_DAMAGE_PREVENTED_RECOUPED_AS_HEALTH",
+  "template": "{X}% of Physical Damage prevented Recouped as Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_FOR_EACH_DIFFERENT_NON_INSTANT_SPELL_YOU_VE_USED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Attack Damage for each different Non-Instant Spell you've used in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_FOR_EACH_DIFFERENT_NON_INSTANT_ATTACK_YOU_VE_USED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Spell Damage for each different Non-Instant Attack you've used in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_FIRE_RESISTANCE_WHILE_SHAPESHIFTED",
+  "template": "+{X}% to Maximum Fire Resistance while Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Stun Threshold while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_FLAILS",
+  "template": "{X}% increased Critical Damage Bonus with Flails",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_TO_GAIN_ONSLAUGHT_ON_KILLING_BLOW_WITH_AXES",
+  "template": "{X}% chance to gain Onslaught on Killing Blow with Axes",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_RAGE_WHILE_WIELDING_AN_AXE",
+  "template": "+{X} to Maximum Rage while wielding an Axe",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MORE_KNOCKBACK_DISTANCE_FOR_BLOCKED_HIT_DAMAGE",
+  "template": "{X}% more Knockback Distance for Blocked HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CHANCE_TO_BLOCK_IF_YOU_VE_BLOCKED_WITH_A_RAISED_SHIELD_RECENTLY",
+  "template": "{X}% increased Chance to Block if you've Blocked with a raised Shield Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_HOLDING_A_SHIELD",
+  "template": "{X}% increased Attack Speed while holding a Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_IGNITED_BY_YOU_PERMANENTLY_TAKE_INC_FIRE_DAMAGE_FOR_EACH_SECOND_THEY_HAVE_EVER_BEEN_IGNITED_BY_YOU_UP_TO_A_MAX_OF",
+  "template": "Enemies Ignited by you permanently take {X}% increased Fire Damage for each second they have ever been Ignited by you, up to a maximum of {X}%",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "UNAFFECTED_BY_ELEMENTAL_WEAKNESS",
+  "template": "Unaffected by Elemental Weakness",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_OF_MAX_HEALTH_PER_RAGE_CONSUMED",
+  "template": "Consume all Rage when Shapeshifting to Human form to recover {X}% of maximum life per Rage Consumed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EXCESS_HEALTH_RECOVERY_FROM_REGENERATION_IS_APPLIED_TO_ENERGY_SHIELD",
+  "template": "Excess Life Recovery from Regeneration is applied to Energy Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENERGY_SHIELD_DOES_NOT_RECHARGE",
+  "template": "Energy Shield does not Recharge",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EVERY_RAGE_ALSO_GRANTS_INC_SPELL_DAMAGE",
+  "template": "Every Rage also grants {X}% increased Spell Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SPIRIT_RESERVATION_EFFICIENCY_OF_SKILLS",
+  "template": "{X}% increased Spirit Reservation Efficiency of Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_FOR_EACH_TIME_YOU_VE_WARCRIED_RECENTLY",
+  "template": "{X}% increased Damage for each time you've Warcried Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "WARCRIES_DEBILITATE_ENEMIES",
+  "template": "Warcries Debilitate Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_IF_YOU_VE_CAST_A_SPELL_RECENTLY",
+  "template": "{X}% increased Attack Damage if you've Cast a Spell Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CAST_SPEED_IF_YOU_VE_ATTACKED_RECENTLY",
+  "template": "{X}% increased Cast Speed if you've Attacked Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_YOU_FULLY_ARMOR_BREAK_CANNOT_REGENERATE_HEALTH",
+  "template": "Enemies you Fully Armour Break cannot Regenerate Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_YOU_FULLY_ARMOR_BREAK_ARE_MAIMED",
+  "template": "Enemies you Fully Armour Break are Maimed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_CRITICAL_DAMAGE_BONUS_WHEN_ON_FULL_HEALTH",
+  "template": "{X}% more Critical Damage Bonus when on Full Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_CRITICAL_DAMAGE_BONUS_WHEN_ON_LOW_HEALTH",
+  "template": "{X}% more Critical Damage Bonus when on Low Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "COMPANIONS_IN_YOUR_PRESENCE_HAVE_ONSLAUGHT_WHILE_YOU_ARE_SHAPESHIFTED",
+  "template": "Companions in your Presence have Onslaught while you are Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF",
+  "template": "{X}% increased Attack Damage for each Minion in your Presence, up to a maximum of {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_WHILE_SHAPESHIFTED",
+  "template": "gain {X}% of Damage as Extra Lightning Damage while Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_LIGHTNING_RESISTANCE_WHILE_SHAPESHIFTED",
+  "template": "+{X}% to Maximum Lightning Resistance while Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_PER_STRENGTH",
+  "template": "{X}% increased Damage per {X} Strength",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "YOU_CAN_WIELD_TWO_HANDED_AXES_MACES_AND_SWORDS_IN_ONE_HAND",
+  "template": "You can wield Two-Handed Axes, Maces and Swords in one hand",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TRIPLE_ATTRIBUTES_REQUIREMENTS_OF_MARTIAL_WEAPONS",
+  "template": "Triple Attributes requirements of Martial Weapons",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INHERENT_HEALTH_GRANTED_BY_STRENGTH_IS_HALVED",
+  "template": "Inherent Life granted by Strength is halved",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ARMOR_IF_YOU_VE_HIT_DAMAGE_AN_ENEMY_WITH_A_MELEE_ATTACK_RECENTLY",
+  "template": "{X}% increased Armour if you've HitDamage an Enemy with a Melee Attack Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SKILLS_GAIN_GLORY_EVERY_SECONDS_FOR_EACH_RARE_OR_UNIQUE_MONSTER_IN_YOUR_PRESENCE",
+  "template": "Skills gain {X} Glory every {X} seconds for each Rare or Unique monster in your Presence",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CONSUMING_GLORY_GRANTS_YOU_INC_ATTACK_DAMAGE_PER_GLORY_CONSUMED_FOR_SECONDS_UP_TO",
+  "template": "Consuming Glory grants you {X}% increased Attack damage per Glory consumed for {X} seconds, up to {X}%",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_DEFEND_WITH_OF_ARMOR",
+  "template": "{X}% chance to Defend with {X}% of Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EVERY_FIVE_RAGE_ALSO_GRANTS_YOU_INC_MINION_ATTACK_SPEED",
+  "template": "Every five Rage also grants you {X}% increased Minion Attack Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EVERY_RAGE_ALSO_GRANTS_YOU_INC_MINION_DAMAGE",
+  "template": "Every Rage also grants you {X}% increased Minion Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_YOU_KILL_WITH_EMPOWERED_ATTACKS_HAVE_A_CHANCE_TO_EXPLODE_DEALING_A_TENTH_OF_THEIR_MAX_HEALTH_AS_FIRE_DAMAGE",
+  "template": "Enemies you kill with Empowered Attacks have a {X}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EMPOWERED_ATTACKS_GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_FIRE_DAMAGE",
+  "template": "Empowered Attacks gain {X}% of Physical Damage as Extra Fire damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ADD_IGNITE_WHEN_YOU_WARCRY",
+  "template": "add Ignite when you Warcry",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_STUN_BUILDUP_WITH_CRITICAL_HITS",
+  "template": "{X}% more Stun Buildup with Critical Hits",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ACCURACY_IS_DOUBLED",
+  "template": "Accuracy Rating is Doubled",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "NEVER_DEAL_CRITICAL_HITS",
+  "template": "Never deal Critical Hits",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_AVOID_DEATH_FROM_HIT_DAMAGE",
+  "template": "{X}% chance to Avoid Death from HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_SHOCKED",
+  "template": "{X}% increased Mana Regeneration Rate while Shocked",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_ARMOR_WHILE_FROZEN",
+  "template": "+{X} to Armour while Frozen",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_IGNITED",
+  "template": "{X}% increased Life Regeneration rate while Ignited",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK",
+  "template": "{X}% chance for Slam Skills you use yourself to cause an additional Aftershock",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARMOR_BREAK_OF_ARMOR_ON_HEAVY_STUNNING_AN_ENEMY",
+  "template": "ArmourBreak {X}% of Armour on Heavy Stunning an Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "RECOVER_OF_MAX_HEALTH_WHEN_YOU_HEAVY_STUN_A_RARE_OR_UNIQUE_ENEMY",
+  "template": "Recover {X}% of maximum Life when you Heavy Stun a Rare or Unique Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_FIRE_RESISTANCE_IF_YOU_HAVE_AT_LEAST_RED_SUPPORT_GEMS_SOCKETED",
+  "template": "+{X}% to Maximum Fire Resistance if you have at least {X} Red Support Gems Socketed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARCHON_BUFFS_ALSO_GRANT_INC_CRITICAL_DAMAGE_BONUS",
+  "template": "Archon Buffs also grant {X}% increased Critical Damage Bonus",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARCHON_BUFFS_ALSO_GRANT_INC_CRITICAL_HIT_CHANCE",
+  "template": "Archon Buffs also grant {X}% increased Critical Hit Chance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_DAZE_ENEMIES_WHOSE_HIT_DAMAGE_YOU_BLOCK_WITH_A_RAISED_SHIELD",
+  "template": "{X}% chance to Daze Enemies whose HitDamage you Block with a raised Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOU_CANNOT_BE_LIGHT_STUNNED_IF_YOU_VE_BEEN_STUNNED_RECENTLY",
+  "template": "You cannot be Light Stunned if you've been Stunned Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "APPLY_DEBILITATE_TO_ENEMIES_METRES_IN_FRONT_OF_YOU_WHILE_YOUR_SHIELD_IS_RAISED",
+  "template": "Apply Debilitate to Enemies {X} Metres in front of you while your Shield is raised",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY_OF_ATTACKS_DURING_ANY_MANA_FLASK_EFFECT",
+  "template": "{X}% increased Mana Cost Efficiency of Attacks during any Mana Flask Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OF_SKILL_MANA_COSTS_STAT_CONVERSION_TO_HEALTH_COSTS_DURING_ANY_HEALTH_FLASK_EFFECT",
+  "template": "{X}% of Skill Mana costs StatConversion to Life Costs during any Life Flask Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_FOR_EACH_TIME_YOU_VE_BEEN_HIT_DAMAGE_BY_AN_ENEMY_RECENTLY_UP_TO",
+  "template": "{X}% increased Stun Threshold for each time you've been HitDamage by an Enemy Recently, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "YOUR_TOTEM_LIMIT_IS_DOUBLED",
+  "template": "Your Totem Limit is doubled",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "NO_CHARGES_REQUIREMENT_FOR_PLACING_TOTEMS",
+  "template": "No Charges requirement for placing Totems",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TOTEMS_RESERVE_SPIRIT_EACH",
+  "template": "Totems reserve {X} Spirit each",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HIT_DAMAGE_HAVE_CHANCE_TO_TREAT_ENEMY_MONSTER_ELEMENTAL_DAMAGE_RESISTANCES_VALUES_AS_INVERTED",
+  "template": "HitDamage have {X}% chance to treat Enemy Monster ElementalDamage Resistances values as inverted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ALLIES_IN_YOUR_PRESENCE_HAVE_INC_CRITICAL_HIT_CHANCE",
+  "template": "Allies in your Presence have {X}% increased Critical Hit Chance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "WARCRIES_INFLICT_CRITICAL_WEAKNESS_ON_ENEMIES",
+  "template": "Warcries inflict {X} Critical Weakness on Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ADD_A_CURSE_AFTER_CHANNELLING_FOR_SECONDS",
+  "template": "add a Curse after Channelling for {X} seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHEN_ON_LOW_HEALTH",
+  "template": "{X}% increased Cast Speed when on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HITS_AGAINST_SHOCKED_ENEMIES",
+  "template": "{X}% increased Damage with Hits against Shocked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK",
+  "template": "gain {X} Rage when you use a Life Flask",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CAST_SPEED_PER_SPELL_ECHOED_RECENTLY_UP_TO",
+  "template": "{X}% increased Cast Speed per Spell Echoed Recently, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_BLEEDING_TO_BE_AGGRAVATED_WHEN_INFLICTED_AGAINST_ENEMIES_ON_JAGGED_GROUND",
+  "template": "{X}% chance for Bleeding to be Aggravated when Inflicted against Enemies on Jagged Ground",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_TOTEM_DURATION",
+  "template": "{X}% increased Totem Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_ALL_ELEMENTAL_DAMAGE_RESISTANCES_2",
+  "template": "-{X}% to all ElementalDamage Resistances",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_GAIN_OF_ELEMENTAL_DAMAGE_AS_EXTRA_CHAOS_DAMAGE",
+  "template": "Minions gain {X}% of Elemental Damage as Extra Chaos Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_THORNS_CRITICAL_HIT_CHANCE",
+  "template": "+{X}% to Thorns Critical Hit Chance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOUR_AURA_BUFFS_DO_NOT_AFFECT_ALLIES",
+  "template": "Your Aura Buffs do not affect Allies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OVERGROWN_PLANT_SKILLS_ARMOR_BREAK_INC_ARMOR",
+  "template": "Overgrown Plant Skills ArmourBreak {X}% increased Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "FISSURE_SKILLS_HAVE_TO_LIMIT",
+  "template": "Fissure Skills have +{X} to Limit",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EVERY_RAGE_ALSO_GRANTS_INC_PHYSICAL_DAMAGE",
+  "template": "Every {X} Rage also grants {X}% increased Physical Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "WHEN_YOU_SHAPESHIFT_TO_HUMAN_FORM_GAIN_INC_SPELL_DAMAGE_PER_SECOND_YOU_WERE_SHAPESHIFTED_UP_TO_A_MAX_OF_FOR_SECONDS",
+  "template": "When you Shapeshift to Human form, gain {X}% increased Spell Damage per second you were Shapeshifted, up to a maximum of {X}%, for {X} seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MELEE_ATTACK_SKILLS_HAVE_TO_MAX_NUMBER_OF_SUMMONED_TOTEMS",
+  "template": "Melee Attack Skills have +{X} to maximum number of Summoned Totems",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_YOU_HAVE_A_TOTEM",
+  "template": "Regenerate {X}% of maximum Life per second while you have a Totem",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SKILL_EFFECT_DURATION_PER_ENEMY_YOU_VE_FREEZE_IN_THE_LAST_SECONDS_UP_TO",
+  "template": "{X}% increased Skill Effect Duration per Enemy you've Freeze in the last {X} seconds, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_HEALTH_AND_MANA_REGENERATION_RATE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF",
+  "template": "{X}% increased Life and Mana Regeneration Rate for each Minion in your Presence, up to a maximum of {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_PER_CURSE_ON_YOU",
+  "template": "{X}% increased Damage per Curse on you",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_DAMAGE_OF_A_RANDOM_ELEMENTAL_DAMAGE_WHILE_SHAPESHIFTED",
+  "template": "gain {X}% of Damage as Extra Damage of a random ElementalDamage while Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EVERY_RAGE_ALSO_GRANTS_INC_STUN_THRESHOLD",
+  "template": "Every Rage also grants {X}% increased Stun Threshold",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DURATION_OF_ELEMENTAL_AILMENTS_ON_ENEMIES",
+  "template": "{X}% increased Duration of Elemental Ailments on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "IMMUNE_TO_BLEEDING_WHILE_SHAPESHIFTED",
+  "template": "Immune to Bleeding while Shapeshifted",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_YOU_HAVE_A_TOTEM",
+  "template": "{X}% increased Damage while you have a Totem",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SPELLS_CAST_BY_TOTEMS_HAVE_INC_CAST_SPEED_PER_SUMMONED_TOTEM",
+  "template": "Spells Cast by Totems have {X}% increased Cast Speed per Summoned Totem",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_COST_EFFICIENCY_OF_ATTACKS",
+  "template": "{X}% increased Cost Efficiency of Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_AFFECTED_BY_ANY_DAMAGING_AILMENT",
+  "template": "Regenerate {X}% of maximum Life per second while affected by any Damaging Ailment",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "FULLY_BROKEN_ARMOR_YOU_INFLICT_ALSO_INC_FIRE_DAMAGE_TAKEN_FROM_HIT_DAMAGE",
+  "template": "Fully Broken Armour you inflict also increased Fire Damage Taken from HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_TAKEN_WHILE_ON_LOW_HEALTH",
+  "template": "{X}% increased Damage taken while on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "EMPOWERED_ATTACKS_HAVE_INC_STUN_BUILDUP",
+  "template": "Empowered Attacks have {X}% increased Stun Buildup",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_DURING_EMPOWERED_ATTACKS",
+  "template": "{X}% increased Stun Threshold during Empowered Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_FOR_EACH_DIFFERENT_WARCRY_YOU_VE_USED_RECENTLY",
+  "template": "{X}% increased Damage for each different Warcry you've used Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "AREA_SKILLS_HAVE_CHANCE_TO_KNOCK_ENEMIES_BACK_ON_HIT_DAMAGE",
+  "template": "Area Skills have {X}% chance to Knock Enemies Back on HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_IF_YOU_VE_STUNNED_AN_ENEMY_WITH_A_TWO_HANDED_MELEE_WEAPON_RECENTLY",
+  "template": "{X}% increased Area of Effect if you've Stunned an Enemy with a Two Handed Melee Weapon Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_WHILE_YOU_HAVE_ARCANE_SURGE",
+  "template": "{X}% increased Area of Effect while you have Arcane Surge",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_ARCANE_SURGE_WHEN_YOU_SHAPESHIFT_TO_HUMAN_FORM_AFTER_BEING_SHAPESHIFTED_FOR_AT_LEAST_SECONDS",
+  "template": "gain Arcane Surge when you Shapeshift to Human form after being Shapeshifted for at least {X} seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHILE_IGNITED",
+  "template": "{X}% increased Cast Speed while Ignited",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_FIRE_SKILLS_WHILE_MOVING",
+  "template": "{X}% increased Movement Speed Penalty from using Fire Skills while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_AN_ENDURANCE_CHARGE_WHEN_YOU_HEAVY_STUN_A_RARE_OR_UNIQUE_ENEMY",
+  "template": "gain an Endurance Charge when you Heavy Stun a Rare or Unique Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_ARMOR_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_BOOTS",
+  "template": "+{X} to Armour per {X} Item Energy Shield on Equipped Boots",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "FASTER_START_OF_INHERENT_RAGE_LOSS",
+  "template": "{X}% faster start of inherent Rage loss",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_FIRE_DAMAGE",
+  "template": "gain {X}% of Physical Damage as Extra Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHILE_CHILLED",
+  "template": "{X}% increased Cast Speed while Chilled",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_COLD_SKILLS_WHILE_MOVING",
+  "template": "{X}% increased Movement Speed Penalty from using Cold Skills while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_YOU_HEAVY_STUN_WHILE_SHAPESHIFTED_ARE_INTIMIDATED_FOR_SECONDS",
+  "template": "Enemies you Heavy Stun while Shapeshifted are Intimidated for {X} seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ALL_DAMAGE_TYPES_IS_TAKEN_FROM_MANA_BEFORE_HEALTH",
+  "template": "All DamageTypes is taken from Mana before Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_MANA_RECOVERY_RATE",
+  "template": "{X}% more Mana Recovery Rate",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_PHYSICAL_DAMAGE_PREVENTED_RECOUPED_AS_ENERGY_SHIELD_PER_ENEMY_POWER",
+  "template": "{X}% of Physical Damage prevented Recouped as Energy Shield per enemy Power",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENERGY_SHIELD_DOES_NOT_ESRECHARGE",
+  "template": "Energy Shield does not ESRecharge",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOU_CANNOT_RECOVER_ENERGY_SHIELD_FROM_REGENERATION",
+  "template": "You cannot Recover Energy Shield from Regeneration",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOU_CANNOT_RECOVER_ENERGY_SHIELD_TO_ABOVE_ARMOR",
+  "template": "You cannot Recover Energy Shield to above Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ALLIES_IN_YOUR_PRESENCE_REGENERATE_RAGE_PER_SECOND_IF_YOU_HAVE_GAIN_RAGE_RECENTLY",
+  "template": "Allies in your Presence Regenerate {X} Rage per second if you have gain Rage Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_ENERGY_SHIELD_PER_ITEM_ARMOR_ON_EQUIPPED_HELMET",
+  "template": "+{X} to Maximum Energy Shield per {X} Item Armour on Equipped Helmet",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_TO_POISON_ON_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_NOT_POISONED",
+  "template": "{X}% chance to Poison on HitDamage against Enemies that are not Poisoned",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_LEECHING_HEALTH",
+  "template": "{X}% increased Damage while Leeching Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "template": "+{X} to maximum number of Elemental Infusions",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "HITS_THAT_HEAVY_STUN_ENEMIES_HAVE_CULLING_STRIKE",
+  "template": "Hits that Heavy Stun Enemies have Culling Strike",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARCANE_SURGE_GRANTS_MORE_HEALTH_REGENERATION_RATE_INSTEAD_OF_MANA_REGENERATION_RATE",
+  "template": "Arcane Surge grants more Life Regeneration Rate instead of Mana Regeneration Rate",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_IN_YOUR_PRESENCE_HAVE_INC_HEALTH_REGENERATION_RATE",
+  "template": "Enemies in your Presence have {X}% increased Life Regeneration rate",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "METRES_TO_DODGE_ROLL_DISTANCE_WHILE_SURROUNDED",
+  "template": "+{X} metres to Dodge Roll distance while Surrounded",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_SURROUNDED",
+  "template": "{X}% increased Movement Speed while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BLOCK_CHANCE_WHILE_SURROUNDED",
+  "template": "{X}% increased Block chance while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ACCURACY_WHILE_SURROUNDED",
+  "template": "{X}% increased Accuracy Rating while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DURATION_OF_EACH_PUPPET_MASTER_STACK",
+  "template": "{X}% increased Duration of each Puppet Master stack",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY_OF_COMMAND_SKILLS",
+  "template": "{X}% increased Mana Cost Efficiency of Command Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "MAX_STACKS_OF_PUPPET_MASTER",
+  "template": "+{X} maximum stacks of Puppet Master",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_PER_ENEMY_IN_CLOSE_RANGE",
+  "template": "{X}% increased Attack Speed per Enemy in Close Range",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CANNOT_BE_LIGHT_STUNNED",
+  "template": "Cannot be Light Stunned",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CANNOT_DODGE_ROLL_OR_SPRINT",
+  "template": "Cannot Dodge Roll or Sprint",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PLANTS_HAVE_A_CHANCE_TO_IMMEDIATELY_OVERGROW",
+  "template": "Plants have a {X}% chance to immediately Overgrow",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS",
+  "template": "gain additional Stun Threshold equal to {X}% of Item Armour on Equipped Armour Items",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_HAVE_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE",
+  "template": "Minions have {X}% chance to inflict Withered on HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_HAVE_INC_COOLDOWN_RECOVERY_RATE",
+  "template": "Minions have {X}% increased Cooldown Recovery Rate",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DODGE_ROLL_CANNOT_AVOID_DAMAGE",
+  "template": "Dodge Roll cannot Avoid Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TAKE_MORE_DAMAGE_FROM_HITS_WHILE_DODGE_ROLLING",
+  "template": "Take {X}% more Damage from Hits while Dodge Rolling",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_ON_FULL_HEALTH",
+  "template": "{X}% increased Mana Regeneration Rate while on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "OF_THORNS_DAMAGE_LEECHED_AS_HEALTH",
+  "template": "{X}% of Thorns Damage Leeched as Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CREATE_LIGHTNING_ELEMENTAL_INFUSION_REMNANTS_INSTEAD_OF_FIRE",
+  "template": "Create Lightning ElementalInfusion Remnants instead of Fire",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CREATE_COLD_ELEMENTAL_INFUSION_REMNANTS_INSTEAD_OF_LIGHTNING",
+  "template": "Create Cold ElementalInfusion Remnants instead of Lightning",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CREATE_FIRE_ELEMENTAL_INFUSION_REMNANTS_INSTEAD_OF_COLD",
+  "template": "Create Fire ElementalInfusion Remnants instead of Cold",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Critical Damage Bonus with One Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "EVERY_RAGE_ALSO_GRANTS_INC_FIRE_DAMAGE",
+  "template": "Every Rage also grants {X}% increased Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_THAT_IF_YOU_WOULD_GAIN_RAGE_ON_HIT_DAMAGE_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_RAGE",
+  "template": "{X}% chance that if you would gain Rage on HitDamage, you instead gain up to your maximum Rage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "BANNERS_ALSO_GRANT_TO_ALL_ELEMENTAL_DAMAGE_RESISTANCES_AFFECTED_TARGETS",
+  "template": "Banners also grant +{X}% to all ElementalDamage Resistances affected targets",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HEALTH_FLASKS_APPLIED_TO_YOU_GRANT_GUARD_FOR_SECONDS_EQUAL_TO_OF_THE_HEALTH_RECOVERY_PER_SECOND_THEY_APPLY",
+  "template": "Life Flasks applied to you grant Guard for {X} seconds equal to {X}% of the Life Recovery per Second they apply",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DAMAGE_WITH_HITS_IS_LUCKY_AGAINST_HEAVY_STUNNED_ENEMIES",
+  "template": "Damage with Hits is Lucky against Heavy Stunned Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CHILL_AND_FREEZE_DURATION_ON_ENEMIES",
+  "template": "{X}% increased Chill and Freeze Duration on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_CRITICAL_DAMAGE_BONUS_AGAINST_STUNNED_ENEMIES",
+  "template": "+{X}% to Critical Damage Bonus against Stunned Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHILE_ON_FULL_MANA",
+  "template": "{X}% increased Cast Speed while on Full Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "STORM_AND_PLANT_SPELLS_DEAL_MORE_DAMAGE_COST_MORE_HAVE_MORE_DURATION",
+  "template": "Storm and Plant Spells: • deal {X}% more damage • cost {X}% more • have {X}% more duration",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_ARE_AFFECTED_BY_NO_ELEMENTAL_AILMENTS",
+  "template": "{X}% increased Critical Hit Chance against Enemies that are affected by no Elemental Ailments",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_STUN_THRESHOLD_PER_STRENGTH",
+  "template": "+{X} to Stun Threshold per Strength",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ALL_BONUSES_FROM_EQUIPPED_AMULET_APPLY_TO_YOUR_MINIONS_INSTEAD_OF_YOU",
+  "template": "All bonuses from Equipped Amulet apply to your Minions instead of you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOUR_HEAVY_STUN_BUILDUP_EMPTIES_FASTER",
+  "template": "Your Heavy Stun buildup empties {X}% faster",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_MOVING",
+  "template": "{X}% increased Life Regeneration Rate while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_ON_LOW_HEALTH",
+  "template": "Regenerate {X}% of maximum Life per second while on Low Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ATTACK_SKILLS_HAVE_TO_MAX_NUMBER_OF_SUMMONED_BALLISTA_TOTEMS",
+  "template": "Attack Skills have +{X} to maximum number of Summoned Ballista Totems",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_WHILE_YOU_HAVE_A_TOTEM",
+  "template": "{X}% increased Area of Effect while you have a Totem",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_AND_EVASION_PER_SUMMONED_TOTEM_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Armour and Evasion Rating per Summoned Totem in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_PER_SUMMONED_TOTEM_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Attack Damage per Summoned Totem in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "BURNING_ENEMIES_YOU_KILL_HAVE_A_CHANCE_TO_EXPLODE_DEALING_A_TENTH_OF_THEIR_MAX_HEALTH_AS_FIRE_DAMAGE",
+  "template": "Burning Enemies you kill have a {X}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_IGNITED_BY_YOU_HAVE_TO_FIRE_RESISTANCES",
+  "template": "Enemies Ignited by you have -{X}% to Fire Resistances",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_DAMAGE_TAKEN_RECOUPED_AS_HEALTH_MANA_AND_ENERGY_SHIELD",
+  "template": "{X}% of Damage Taken Recouped as Life, Mana and Energy Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MAX_HEALTH_MANA_AND_ENERGY_SHIELD",
+  "template": "{X}% increased maximum Life, Mana and Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_WHEN_ON_FULL_HEALTH",
+  "template": "{X}% increased Melee Damage when on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_HAVEN_T_ATTACKED_RECENTLY",
+  "template": "{X}% increased Attack Speed if you haven't Attacked Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_PER_ENDURANCE_CHARGE_CONSUMED_RECENTLY",
+  "template": "gain {X}% of Damage as Extra Fire Damage per Endurance Charge consumed Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOUR_MINIONS_ARE_GIGANTIC",
+  "template": "Your Minions are Gigantic",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "IGNORE_ALL_MOVEMENT_PENALTIES_FROM_EQUIP_ARMOR",
+  "template": "Ignore all Movement Penalties from EquipArmour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_UNDEAD_ENEMIES",
+  "template": "{X}% increased damage against Undead Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_LEECHING",
+  "template": "{X}% increased Damage while Leeching",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ORB_SKILLS_HAVE_TO_LIMIT",
+  "template": "Orb Skills have +{X} to Limit",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARMOR_BREAK_OF_ARMOR_ON_PINNING_AN_ENEMY",
+  "template": "ArmourBreak {X}% of Armour on Pinning an Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "WHEN_A_BANNER_EXPIRES_RECOVER_OF_THE_GLORY_REQUIRED_FOR_THAT_BANNER",
+  "template": "When a Banner expires, recover {X}% of the Glory required for that Banner",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_GAIN_OF_PHYSICAL_DAMAGE_AS_CHAOS_DAMAGE",
+  "template": "Minions gain {X}% of Physical Damage as Chaos Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_VOLATILITY_WHEN_AN_ALLIES_PERSISTENT_REVIVING_MINION_IS_MINION_DEATH",
+  "template": "gain {X} Volatility when an Allies Persistent Reviving Minion is MinionDeath",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_FROM_EQUIPPED_HELMET",
+  "template": "{X}% increased Energy Shield from Equipped Helmet",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_AND_EVASION_WHEN_ON_LOW_HEALTH",
+  "template": "{X}% increased Armour and Evasion Rating when on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED",
+  "template": "+{X}% to all Maximum Elemental Resistances if you have at least {X} Red, Green and Blue Support Gems Socketed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_AMOUNT_OF_HEALTH_LEECHED",
+  "template": "{X}% more amount of Life Leeched",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "LEECH_HEALTH_MORE_QUICKLY",
+  "template": "Leech Life {X}% more quickly",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CANNOT_RECOVER_HEALTH_OTHER_THAN_FROM_HEALTH_LEECH",
+  "template": "Cannot Recover Life other than from LifeLeech",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HEALTH_LEECH_EFFECTS_ARE_NOT_ADD_WHEN_RESERVATION_HEALTH_IS_FILLED",
+  "template": "Life Leech effects are not add when Reservation Life is Filled",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_WHILE_ON_IGNITED_GROUND",
+  "template": "gain {X}% of Damage as Extra Fire Damage while on Ignited Ground",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS",
+  "template": "{X}% increased BuffMagnitude of Impales inflicted with Spells",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "DETONATOR_SKILLS_HAVE_INC_DAMAGE",
+  "template": "Detonator skills have {X}% increased damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_NUMBER_OF_PLACED_BANNERS",
+  "template": "+{X} to maximum number of placed Banners",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "BANNER_BUFFS_LINGER_ON_YOU_FOR_SECONDS_AFTER_YOU_LEAVE_THE_AREA",
+  "template": "Banner Buffs linger on you for {X} seconds after you leave the Area",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_HIT_DAMAGE_WITH_ATTACKS",
+  "template": "{X}% chance to Aggravate Bleeding on targets you HitDamage with Attacks",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_DEAL_INC_DAMAGE_IF_YOU_VE_HIT_DAMAGE_RECENTLY",
+  "template": "Minions deal {X}% increased Damage if you've HitDamage Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_IF_ONE_OF_YOUR_MINIONS_HAS_DIED_RECENTLY",
+  "template": "{X}% increased Spell Damage if one of your Minions has died Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_YOU_CURSE_HAVE_TO_CHAOS_RESISTANCES",
+  "template": "Enemies you Curse have -{X}% to Chaos Resistances",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_PER_STRENGTH",
+  "template": "{X}% increased Spell Damage per {X} Strength",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_WHILE_ON_SHOCKED_GROUND",
+  "template": "gain {X}% of Damage as Extra Lightning Damage while on Shocked Ground",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_GAIN_ARCHON_OF_UNDEATH_WHEN_YOU_USE_A_COMMAND_SKILL",
+  "template": "{X}% chance to gain Archon of Undeath when you use a Command skill",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "IMMUNE_TO_BLEEDING_WHILE_AFFECTED_BY_AN_ARCHON_BUFF",
+  "template": "Immune to Bleeding while affected by an Archon Buff",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "FIRE_SPELLS_CONVERSION_OF_FIRE_DAMAGE_TO_CHAOS_DAMAGE",
+  "template": "Fire Spells Conversion {X}% of Fire Damage to Chaos Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHAOS_DAMAGE_FROM_FIRE_SPELLS_CONTRIBUTES_TO_FLAMMABILITY_AND_IGNITE_BUFF_MAGNITUDE",
+  "template": "Chaos Damage from Fire Spells Contributes to Flammability and Ignite BuffMagnitude",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "IGNITE_INFLICTED_WITH_FIRE_SPELLS_DEALS_CHAOS_DAMAGE_INSTEAD_OF_FIRE_DAMAGE",
+  "template": "Ignite inflicted with Fire Spells deals Chaos Damage instead of Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_EVASION_PER_ITEM_ARMOR_ON_EQUIPPED_GLOVES",
+  "template": "+{X} to Evasion Rating per {X} Item Armour on Equipped Gloves",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_PER_CHANCE_TO_BLOCK",
+  "template": "{X}% increased Damage per {X}% Chance to Block",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_ELEMENTAL_DAMAGE_AS_EXTRA_FIRE_DAMAGE",
+  "template": "gain {X}% of Elemental Damage as Extra Fire Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PROJECTILES_HAVE_INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_FURTHER_THAN_XM",
+  "template": "Projectiles have {X}% increased Critical Damage Bonus against Enemies further than {X}m",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_INFLICT_DAZE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_FURTHER_THAN_XM",
+  "template": "{X}% chance to inflict Daze with HitDamage against Enemies further than {X}m",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE_WHILE_ON_CHILLED_GROUND",
+  "template": "gain {X}% of Damage as Extra Cold Damage while on Chilled Ground",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "STAT_CONVERSION_ALL_EVASION_TO_ARMOR",
+  "template": "StatConversion all Evasion Rating to Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ATTACK_HIT_DAMAGE_AGGRAVATE_ANY_BLEEDING_ON_TARGETS_WHICH_IS_OLDER_THAN_SECONDS",
+  "template": "Attack HitDamage Aggravate any Bleeding on targets which is older than {X} seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_ELEMENTAL_ARCHON_WHEN_YOUR_ENERGY_SHIELD_RECHARGE_BEGINS",
+  "template": "gain Elemental Archon when your Energy Shield Recharge begins",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_AGAINST_ELECTROCUTED_ENEMIES",
+  "template": "gain {X}% of Physical Damage as Extra Lightning Damage against Electrocuted Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_ACCURACY_AGAINST_BLEEDING_ENEMIES",
+  "template": "+{X} to Accuracy against Bleeding Enemies",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "BLEEDING_YOU_INFLICT_ON_PINNED_ENEMIES_IS_AGGRAVATED",
+  "template": "Bleeding you inflict on Pinned Enemies is Aggravated",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_SURROUNDED",
+  "template": "{X}% increased Attack Speed while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SURROUNDED_AREA_OF_EFFECT",
+  "template": "{X}% increased Surrounded Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_SURROUNDED",
+  "template": "Regenerate {X}% of maximum Life per second while Surrounded",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_COLD_INFUSIONS",
+  "template": "+{X} to maximum Cold Infusions",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_FIRE_INFUSIONS",
+  "template": "+{X} to maximum Fire Infusions",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_LIGHTNING_INFUSIONS",
+  "template": "+{X} to maximum Lightning Infusions",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MAX_HEALTH_IF_YOU_HAVE_AT_LEAST_RED_SUPPORT_GEMS_SOCKETED",
+  "template": "{X}% increased Maximum Life if you have at least {X} Red Support Gems Socketed",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MAX_MANA_IF_YOU_HAVE_AT_LEAST_BLUE_SUPPORT_GEMS_SOCKETED",
+  "template": "{X}% increased Maximum Mana if you have at least {X} Blue Support Gems Socketed",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_HAVE_AT_LEAST_GREEN_SUPPORT_GEMS_SOCKETED",
+  "template": "{X}% increased Movement Speed if you have at least {X} Green Support Gems Socketed",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "UNAFFECTED_BY_CHILLED_GROUND",
+  "template": "Unaffected by Chilled Ground",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_AILMENT_THRESHOLD_PER_DEXTERITY",
+  "template": "+{X} to Ailment Threshold per Dexterity",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "UNAFFECTED_BY_SHOCKED_GROUND",
+  "template": "Unaffected by Shocked Ground",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+  "template": "+{X} to Level of all Cold Skills",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_ELEMENTAL_DAMAGE_AS_EXTRA_COLD_DAMAGE",
+  "template": "gain {X}% of Elemental Damage as Extra Cold Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MANA_RECOVERY_RATE",
+  "template": "{X}% increased Mana Recovery rate",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_PER_OF_YOUR_LOWEST_ATTRIBUTES",
+  "template": "{X}% increased Damage per {X} of your lowest Attributes",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTRIBUTES",
+  "template": "{X}% increased Attributes",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FLASK_HEALTH_RECOVERY_RATE",
+  "template": "{X}% increased Flask Life Recovery rate",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+  "template": "{X}% increased Attack Speed if you've killed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "PREVENT_OF_DAMAGE_FROM_DEFLECTED_CRITICAL_HIT_DAMAGE",
+  "template": "Prevent +{X}% of Damage from Deflected Critical HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MINION_DAMAGE_WHILE_YOU_HAVE_AT_LEAST_TWO_DIFFERENT_ACTIVE_OFFERINGS",
+  "template": "{X}% increased Minion Damage while you have at least two different active Offerings",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_OF_COLD_DAMAGE_AS_EXTRA_FIRE_DAMAGE_AGAINST_FREEZE_ENEMIES",
+  "template": "gain {X}% of Cold Damage as Extra Fire Damage against Freeze Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_IN_YOUR_PRESENCE_HAVE_INC_COOLDOWN_RECOVERY_RATE",
+  "template": "Enemies in your Presence have {X}% increased Cooldown Recovery Rate",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Movement Speed while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_CRITICAL_HIT_CHANCE_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Attack Critical Hit Chance while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_REMNANTS_YOU_CREATE_TO_GRANT_THEIR_EFFECTS_TWICE",
+  "template": "{X}% chance for Remnants you create to grant their effects twice",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_ELEMENTAL_DAMAGE_TAKEN_RECOUPED_AS_HEALTH",
+  "template": "{X}% of Elemental Damage taken Recouped as Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ALLIES_IN_YOUR_PRESENCE_HAVE_TO_ACCURACY",
+  "template": "Allies in your Presence have +{X} to Accuracy Rating",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_ELEMENTAL_ARCHON_AFTER_SPENDING_OF_YOUR_MAX_MANA",
+  "template": "gain Elemental Archon after spending {X}% of your Maximum Mana",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "IMMUNE_TO_SHOCK_WHILE_AFFECTED_BY_AN_ARCHON_BUFF",
+  "template": "Immune to Shock while affected by an Archon Buff",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "BLIND_ENEMIES_WHEN_THEY_STUN_YOU",
+  "template": "Blind Enemies when they Stun you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_ARE_INTIMIDATED_FOR_SECONDS_WHEN_YOU_IMMOBILISED_THEM",
+  "template": "Enemies are Intimidated for {X} seconds when you Immobilised them",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HERALD_SKILLS_HAVE_INC_AREA_OF_EFFECT",
+  "template": "Herald Skills have {X}% increased Area of Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_MAX_LIGHTNING_DAMAGE",
+  "template": "{X}% more Maximum Lightning Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_FOR_LIGHTNING_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY",
+  "template": "{X}% chance for Lightning Damage with HitDamage to be Lucky",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GRENADES_HAVE_CHANCE_TO_ACTIVATE_A_SECOND_TIME",
+  "template": "Grenades have {X}% chance to activate a second time",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_ELEMENTAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE",
+  "template": "gain {X}% of Elemental Damage as Extra Lightning Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOU_CAN_APPLY_AN_ADDITIONAL_CURSE",
+  "template": "You can apply an additional Curse",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DOUBLE_ACTIVATION_DELAY_OF_CURSES",
+  "template": "Double Activation Delay of Curses",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "EXPOSURE_YOU_INFLICT_LOWERS_RESISTANCES_BY_AN_ADDITIONAL",
+  "template": "Exposure you inflict lowers Resistances by an additional {X}%",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DAMAGE_WITH_HITS_IS_LUCKY_AGAINST_ENEMIES_THAT_ARE_ON_LOW_HEALTH",
+  "template": "Damage with Hits is Lucky against Enemies that are on Low Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_AGAINST_ENEMIES_THAT_ARE_ON_LOW_HEALTH",
+  "template": "{X}% increased Stun Buildup against Enemies that are on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CAST_SPEED_IF_YOU_VE_USED_A_MANA_FLASK_RECENTLY",
+  "template": "{X}% increased Cast Speed if you've used a Mana Flask Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_MAX_COLD_RESISTANCE_IF_YOU_HAVE_AT_LEAST_BLUE_SUPPORT_GEMS_SOCKETED",
+  "template": "+{X}% to Maximum Cold Resistance if you have at least {X} Blue Support Gems Socketed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INVOCATION_SKILLS_INSTEAD_TRIGGER_SPELLS_EVERY_SECONDS",
+  "template": "Invocation Skills instead Trigger Spells every {X} seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INVOCATION_SKILLS_CANNOT_GAIN_ENERGY_WHILE_TRIGGERING_SPELLS",
+  "template": "Invocation Skills cannot gain Energy while Triggering Spells",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INVOKED_SPELLS_CONSUME_MORE_ENERGY",
+  "template": "Invoked Spells consume {X}% more Energy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_BREAK_ARMOR_EQUAL_TO_OF_PHYSICAL_DAMAGE_DEALT",
+  "template": "Minions Break Armour equal to {X}% of Physical damage dealt",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INVOCATED_SKILLS_HAVE_INC_MAX_ENERGY",
+  "template": "Invocated skills have {X}% increased Maximum Energy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INVOCATED_SPELLS_HAVE_CHANCE_TO_CONSUME_HALF_AS_MUCH_ENERGY",
+  "template": "Invocated Spells have {X}% chance to consume half as much Energy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED",
+  "template": "{X}% increased Attack and Cast Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_STUN_THRESHOLD_EQUAL_TO_THE_LOWEST_OF_EVASION_AND_ARMOR_ON_YOUR_HELMET",
+  "template": "gain Stun Threshold equal to the lowest of Evasion and Armour on your Helmet",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_AILMENT_THRESHOLD_EQUAL_TO_THE_LOWEST_OF_EVASION_AND_ARMOR_ON_YOUR_BOOTS",
+  "template": "gain Ailment Threshold equal to the lowest of Evasion and Armour on your Boots",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "BOLTS_FIRED_BY_CROSSBOW_ATTACKS_HAVE_CHANCE_TO_NOT_EXPEND_AMMUNITION_IF_YOU_VE_RELOADED_RECENTLY",
+  "template": "Bolts fired by Crossbow Attacks have {X}% chance to not expend Ammunition if you've Reloaded Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_CROSSBOWS_FOR_EACH_TYPE_OF_AMMUNITION_FIRED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Damage with Crossbows for each type of Ammunition fired in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_CROSSBOWS",
+  "template": "{X}% increased Attack Speed with Crossbows",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_CROSSBOWS",
+  "template": "{X}% increased Critical Damage Bonus with Crossbows",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_WHEN_YOU_RELOAD_A_CROSSBOW_TO_BE_IMMEDIATE",
+  "template": "{X}% chance when you Reload a Crossbow to be immediate",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_LEVEL_OF_ALL_CHAOS_SKILLS",
+  "template": "+{X} to Level of all Chaos Skills",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "GAIN_A_POWER_CHARGE_WHEN_YOU_CONSUME_AN_ELEMENTAL_INFUSION",
+  "template": "gain a Power Charge when you consume an Elemental Infusion",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "RECOVER_OF_MAX_HEALTH_WHEN_ONE_OF_YOUR_MINIONS_IS_REVIVING",
+  "template": "Recover {X}% of maximum Life when one of your Minions is Reviving",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_HEALTH",
+  "template": "+{X} to maximum Life",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_IF_YOU_HAVE_SHOCKED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased Mana Regeneration Rate if you have Shocked an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_YOU_CURSE_ARE_HINDERED_WITH_INC_MOVEMENT_SPEED",
+  "template": "Enemies you Curse are Hindered, with {X}% increased Movement Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_EVASION_IS_UNLUCKY",
+  "template": "Chance to Evasion is Unlucky",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_DEFLECT_IS_LUCKY",
+  "template": "Chance to Deflect is Lucky",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_ARMOR_ALSO_APPLIES_TO_CHAOS_DAMAGE",
+  "template": "+{X}% of Armour also applies to Chaos Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "template": "{X}% increased Life and Mana Recovery from Flasks while you have an active Charm",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_VE_DODGE_ROLLED_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you've Dodge Rolled Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_RARE_AND_UNIQUE_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Rare and Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CULLING_STRIKE_THRESHOLD_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "template": "{X}% increased Culling Strike Threshold against Rare or Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_AGAINST_MAIMED_ENEMIES",
+  "template": "{X}% increased Attack Damage against Maimed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_ARE_MAIMED_FOR_SECONDS_AFTER_BECOMING_UNPINNED",
+  "template": "Enemies are Maimed for {X} seconds after becoming Unpinned",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PINNED_ENEMIES_CANNOT_DEAL_CRITICAL_HITS",
+  "template": "Pinned Enemies cannot deal Critical Hits",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "STUN_THRESHOLD_IS_BASED_ON_OF_YOUR_ENERGY_SHIELD_INSTEAD_OF_HEALTH",
+  "template": "Stun Threshold is based on {X}% of your Energy Shield instead of Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PROJECTILES_PIERCE_ENEMIES_WITH_FULLY_BROKEN_ARMOR",
+  "template": "Projectiles Pierce enemies with Fully Broken Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_FOR_EACH_TIME_YOU_VE_BEEN_STUNNED_RECENTLY",
+  "template": "{X}% increased Stun Threshold for each time you've been Stunned Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SLOWER_START_OF_ENERGY_SHIELD_RECHARGE",
+  "template": "{X}% slower start of Energy Shield Recharge",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_PER_MAX_MANA",
+  "template": "{X}% increased Spell Damage per {X} maximum Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_MOVING",
+  "template": "{X}% increased Mana Regeneration Rate while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_FOR_EACH_TIME_YOU_VE_BLOCKED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Movement Speed for each time you've Blocked in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_FOR_ATTACKS_PER_ENEMY_YOU_VE_IGNITED_IN_THE_LAST_SECONDS_UP_TO",
+  "template": "{X}% increased Area of Effect for Attacks per Enemy you've Ignited in the last {X} seconds, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHARMS_GAIN_CHARGES_PER_SECOND",
+  "template": "Charms gain {X} charges per Second",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DURATION_OF_AILMENTS_YOU_INFLICT_AGAINST_CURSED_ENEMIES",
+  "template": "{X}% increased duration of Ailments you inflict against Cursed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "COMPANIONS_DEAL_INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+  "template": "Companions deal {X}% increased damage against Immobilised enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_HEALTH_RECOVERY_RATE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Life Recovery Rate while your Companion is in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EFFECT_OF_INCISION",
+  "template": "{X}% increased effect of Incision",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "STAT_CONVERSION_OF_MAX_ENERGY_SHIELD_TO_MAX_MANA",
+  "template": "StatConversion {X}% of maximum Energy Shield to maximum Mana",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MANA_COSTS_ARE_DOUBLED",
+  "template": "Mana Costs are Doubled",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "SHOCKING_HIT_DAMAGE_HAVE_A_CHANCE_TO_ALSO_SHOCK_ENEMIES_IN_A_METRE_RADIUS",
+  "template": "Shocking HitDamage have a {X}% chance to also Shock enemies in a {X} metre radius",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_GAIN_A_POWER_CHARGE_RECENTLY",
+  "template": "{X}% increased Critical Damage Bonus if you've gain a Power Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "METRES_TO_MELEE_STRIKE_RANGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "template": "+{X} metres to Melee Strike Range if you've dealt a Projectile Attack HitDamage in the past eight seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PROJECTILES_HAVE_CHANCE_TO_FORK_IF_YOU_VE_DEALT_A_MELEE_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "template": "Projectiles have {X}% chance to Fork if you've dealt a Melee HitDamage in the past eight seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_DEALT_A_NON_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ALLIES_IN_YOUR_PRESENCE_HAVE_INC_GLORY_GENERATION",
+  "template": "Allies in your Presence have {X}% increased Glory generation",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY",
+  "template": "{X}% chance to Recover all Life when you Kill an Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_WITH_ATTACK_SKILLS_DURING_ANY_FLASK_EFFECT",
+  "template": "{X}% increased Elemental Damage with Attack Skills during any Flask Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "HIT_DAMAGE_HAVE_INC_CRITICAL_HIT_CHANCE_AGAINST_YOU",
+  "template": "HitDamage have {X}% increased Critical Hit Chance against you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CANNOT_USE_CHARMS",
+  "template": "Cannot use Charms",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_RECOVERY_FROM_FLASKS",
+  "template": "{X}% more Recovery from Flasks",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "SUCCESSFULLY_PARRYING_A_MELEE_HIT_DAMAGE_GRANTS_INC_DAMAGE_TO_YOUR_NEXT_RANGED_ATTACK",
+  "template": "Successfully Parrying a Melee HitDamage grants {X}% increased Damage to your next Ranged Attack",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "SUCCESSFULLY_PARRYING_A_PROJECTILE_HIT_DAMAGE_GRANTS_INC_DAMAGE_TO_YOUR_NEXT_MELEE_ATTACK",
+  "template": "Successfully Parrying a Projectile HitDamage grants {X}% increased Damage to your next Melee Attack",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_TO_KNOCK_BACK_BLEEDING_ENEMIES_WITH_HIT_DAMAGE",
+  "template": "{X}% chance to Knock Back Bleeding Enemies with HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_CHILLED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased ElementalDamage Damage if you've Chilled an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_IGNITED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased ElementalDamage Damage if you've Ignited an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_SHOCKED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased ElementalDamage Damage if you've Shocked an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ELECTROCUTE_BUILDUP_AGAINST_SHOCKED_ENEMIES",
+  "template": "{X}% increased Electrocute Buildup against Shocked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "LEECHING_HEALTH_FROM_YOUR_HIT_DAMAGE_CAUSES_YOUR_COMPANION_TO_ALSO_LEECH_THE_SAME_AMOUNT_OF_HEALTH",
+  "template": "Leeching Life from your HitDamage causes your Companion to also Leech the same amount of Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BLIND_DURATION",
+  "template": "{X}% increased Blind duration",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "DAMAGING_AILMENTS_CANNOT_BE_INFLICTED_ON_YOU_WHILE_YOU_ALREADY_HAVE_ONE",
+  "template": "Damaging Ailments Cannot Be inflicted on you while you already have one",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OFFERINGS_CANNOT_BE_DAMAGED_IF_THEY_HAVE_BEEN_CREATED_RECENTLY",
+  "template": "Offerings cannot be damaged if they have been created Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ATTACKS_GAIN_INC_ACCURACY_EQUAL_TO_THEIR_CRITICAL_HIT_CHANCE",
+  "template": "Attacks gain increased Accuracy Rating equal to their Critical Hit Chance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_VE_PINNED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased Movement Speed if you've Pinned an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "BLEEDING_YOU_INFLICT_IS_AGGRAVATED",
+  "template": "Bleeding you inflict is Aggravated",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "BASE_BLEEDING_DURATION_IS_SECOND",
+  "template": "Base Bleeding Duration is {X} second",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT",
+  "template": "{X}% more BuffMagnitude of Bleeding you inflict",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PROJECTILE_ATTACKS_HAVE_A_CHANCE_TO_FIRE_TWO_ADDITIONAL_PROJECTILES_WHILE_MOVING",
+  "template": "Projectile Attacks have a {X}% chance to fire two additional Projectiles while moving",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CANNOT_BE_CRITICALLY_HIT_WHILE_PARRYING",
+  "template": "Cannot be Critically Hit while Parrying",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARCHON_BUFFS_ALSO_GRANT_TO_ALL_ELEMENTAL_DAMAGE_RESISTANCES",
+  "template": "Archon Buffs also grant +{X}% to all ElementalDamage Resistances",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARCHON_BUFFS_ALSO_GRANT_INC_MOVEMENT_SPEED",
+  "template": "Archon Buffs also grant {X}% increased Movement Speed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EVASION_IF_ENERGY_SHIELD_RECHARGE_HAS_STARTED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Evasion Rating if Energy Shield Recharge has started in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_ENERGY_SHIELD",
+  "template": "{X}% increased Movement Speed while you have Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Damage if you've dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Attack Speed if you've dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_DURING_ANY_FLASK_EFFECT",
+  "template": "{X}% increased Damage during any Flask Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_ATTACKS_TO_MAIM_ON_HIT_DAMAGE_AGAINST_POISONED_ENEMIES",
+  "template": "{X}% chance for Attacks to Maim on HitDamage against Poisoned Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "IF_YOU_WOULD_GAIN_A_CHARGES_ALLIES_IN_YOUR_PRESENCE_GAIN_THAT_CHARGES_INSTEAD",
+  "template": "If you would gain a Charges, Allies in your Presence gain that Charges instead",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_BLEEDING_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Bleeding Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_CRITICALLY_HIT_WITH_ATTACKS",
+  "template": "{X}% chance to Aggravate Bleeding on targets you Critically Hit with Attacks",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_AGAINST_PINNED_ENEMIES",
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict against Pinned Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "PHYSICAL_SPELL_CRITICAL_HIT_DAMAGE_BUILD_PINNED",
+  "template": "Physical Spell Critical HitDamage build Pinned",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DURATION_OF_BLEEDING_ON_YOU",
+  "template": "{X}% increased Duration of Bleeding on You",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_YOU_INFLICT_BLEEDING_ON_CANNOT_REGENERATE_HEALTH",
+  "template": "Enemies you inflict Bleeding on cannot Regenerate Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CULLING_STRIKE_THRESHOLD_AGAINST_IMMOBILISED_ENEMIES",
+  "template": "{X}% increased Culling Strike Threshold against Immobilised Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CANNOT_BE_LIGHT_STUNNED_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "Cannot be Light Stunned if you haven't been HitDamage Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_DURING_EFFECT_OF_ANY_HEALTH_FLASK",
+  "template": "{X}% increased Life Regeneration rate during Effect of any Life Flask",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_AFFECTED_BY_YOUR_HAZARDS_RECENTLY_HAVE_INC_ARMOR",
+  "template": "Enemies affected by your Hazards Recently have {X}% increased Armour",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_AFFECTED_BY_YOUR_HAZARDS_RECENTLY_HAVE_INC_EVASION",
+  "template": "Enemies affected by your Hazards Recently have {X}% increased Evasion Rating",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DEFLECTION_RATING_WHILE_MOVING",
+  "template": "{X}% increased Deflection Rating while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "PROJECTILES_DEAL_INC_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES",
+  "template": "Projectiles deal {X}% increased Damage against Heavy Stunned Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_COLD_DAMAGE_AGAINST_SHOCKED_ENEMIES",
+  "template": "gain {X}% of Physical Damage as Extra Cold Damage against Shocked Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_AGAINST_CHILLED_ENEMIES",
+  "template": "gain {X}% of Physical Damage as Extra Lightning Damage against Chilled Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "META_SKILLS_HAVE_INC_RESERVATION_EFFICIENCY",
+  "template": "Meta Skills have {X}% increased Reservation Efficiency",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "template": "{X}% increased Damage if you've consumed a Frenzy Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SKILL_SPEED_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "template": "{X}% increased Skill Speed if you've consumed a Frenzy Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EVASION_WHEN_ON_FULL_HEALTH",
+  "template": "{X}% increased Evasion Rating when on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "DAMAGE_PENETRATION_LIGHTNING_RESISTANCES_IF_ON_LOW_MANA",
+  "template": "Damage Penetration {X}% Lightning Resistances if on Low Mana",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_SHOCKED_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Shocked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "template": "{X}% increased BuffMagnitude of Shock you inflict with Critical Hits",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "COMPANIONS_HAVE_CHANCE_TO_GAIN_ONSLAUGHT_ON_KILL",
+  "template": "Companions have {X}% chance to gain Onslaught on Kill",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_WHEN_YOU_GAIN_A_FRENZY_CHARGE_TO_GAIN_AN_ADDITIONAL_FRENZY_CHARGE",
+  "template": "{X}% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_IF_YOU_VE_USED_A_HEALTH_FLASK_IN_THE_PAST_SECONDS",
+  "template": "Regenerate {X}% of maximum Life per Second if you've used a Life Flask in the past {X} seconds",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOUR_HEAVY_STUN_BUILDUP_EMPTIES_FASTER_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY",
+  "template": "Your Heavy Stun buildup empties {X}% faster if you've successfully Parried Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_PARRYING",
+  "template": "{X}% increased Evasion Rating while Parrying",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TO_EVASION_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_HELMET",
+  "template": "+{X} to Evasion Rating per {X} Item Energy Shield on Equipped Helmet",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "EMPOWERED_ATTACKS_GAIN_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE",
+  "template": "Empowered Attacks gain {X}% of Damage as Extra Cold Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_POWER_CHARGES_INSTEAD_OF_FRENZY_CHARGES",
+  "template": "gain Power Charges instead of Frenzy Charges",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_FRENZY_CHARGES_INSTEAD_OF_ENDURANCE_CHARGES",
+  "template": "gain Frenzy Charges instead of Endurance Charges",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_ENDURANCE_CHARGES_INSTEAD_OF_POWER_CHARGES",
+  "template": "gain Endurance Charges instead of Power Charges",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MAX_VOLATILITY_IS",
+  "template": "Maximum Volatility is {X}",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "UNAFFECTED_BY_CHILL_WHILE_MANA_LEECH_MANA",
+  "template": "Unaffected by Chill while ManaLeech Mana",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_NOT_ON_LOW_MANA",
+  "template": "{X}% increased Attack Speed while not on Low Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_ON_FULL_HEALTH",
+  "template": "{X}% increased Attack Damage while on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_TRIGGER_SKILLS_TO_REFUND_HALF_OF_ENERGY_SPENT",
+  "template": "{X}% chance for Trigger skills to refund half of Energy Spent",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MAX_HEALTH_IS",
+  "template": "Maximum Life is {X}",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "IMMUNE_TO_CHAOS_DAMAGE_AND_BLEEDING",
+  "template": "Immune to Chaos Damage and Bleeding",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "YOUR_CURSES_HAVE_INC_BUFF_MAGNITUDE_IF_OF_CURSE_DURATION_EXPIRED",
+  "template": "Your Curses have {X}% increased BuffMagnitude if {X}% of Curse Duration expired",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HEALTH_LOSS_OF_MAX_HEALTH_AND_ENERGY_SHIELD_WHEN_YOU_USE_A_CHAOS_SKILL",
+  "template": "LifeLoss {X}% of maximum Life and Energy Shield when you use a Chaos Skill",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HITS_AGAINST_FROZEN_ENEMIES",
+  "template": "{X}% increased Damage with Hits against Frozen Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "HIT_DAMAGE_IGNORE_NON_NEGATIVE_ELEMENTAL_DAMAGE_RESISTANCES_OF_FROZEN_ENEMIES",
+  "template": "HitDamage ignore non-negative ElementalDamage Resistances of Frozen Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_AMOUNT_OF_HIT_DAMAGE_PREVENTED_BY_DEFLECTION",
+  "template": "-{X}% to amount of HitDamage Prevented by Deflection",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TARGETS_CURSED_BY_YOU_HAVE_INC_HEALTH_REGENERATION_RATE",
+  "template": "Targets Cursed by you have {X}% increased Life Regeneration Rate",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_YOU_CURSE_CANNOT_RECHARGE_ENERGY_SHIELD",
+  "template": "Enemies you Curse cannot Recharge Energy Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHARM_SLOT",
+  "template": "+{X} Charm Slot",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_PHYSICAL_DAMAGE_FROM_HIT_DAMAGE_TAKEN_AS_DAMAGE_OF_A_RANDOM_ELEMENTAL_DAMAGE",
+  "template": "{X}% of Physical Damage from HitDamage taken as Damage of a Random ElementalDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DEBUFFS_INFLICTED_BY_HAZARDS_HAVE_INC_SLOW_MAGNITUDE",
+  "template": "Debuffs inflicted by Hazards have {X}% increased Slow Magnitude",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_IGNITE_DURATION_ON_YOU",
+  "template": "{X}% increased Ignite Duration on you",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_SHOCK_DURATION_ON_YOU",
+  "template": "{X}% increased Shock duration on you",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "template": "{X}% increased Damage while you have an active Charm",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "template": "{X}% increased Movement Speed while you have an active Charm",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_THAT_WHEN_VOLATILITY_ON_YOU_EXPLODES_YOU_REGAIN_AN_EQUIVALENT_AMOUNT_OF_VOLATILITY",
+  "template": "{X}% chance that when Volatility on you explodes, you regain an equivalent amount of Volatility",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MANA_RECOVERY_RATE_DURING_EFFECT_OF_ANY_MANA_FLASK",
+  "template": "{X}% increased Mana Recovery Rate during Effect of any Mana Flask",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ADD_A_CURSE_WHEN_YOU_USE_A_MANA_FLASK",
+  "template": "add a Curse when you use a Mana Flask",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CAN_ATTACK_AS_THOUGH_USING_A_QUARTERSTAFF_WHILE_BOTH_OF_YOUR_HAND_SLOTS_ARE_EMPTY",
+  "template": "Can Attack as though using a Quarterstaff while both of your hand slots are empty",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "UNARMED_ATTACKS_THAT_WOULD_USE_AN_EQUIPPED_QUARTERSTAFF_S_DAMAGE_HAVE_BASE_UNARMED_DAMAGE_PHYSICAL_DAMAGE_REPLACED_WITH_DAMAGE_BASED_ON_THEIR_SKILL_LEVEL_MORE_ATTACK_SPEED_PER_ITEM_EVASION_ON_EQUIPPED_ARMOR_ITEMS_TO_CRITICAL_HIT_CHANCE_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_ARMOR_ITEMS",
+  "template": "Unarmed Attacks that would use an Equipped Quarterstaff's damage have: • Base UnarmedDamage Physical damage replaced with damage based on their Skill Level • {X}% more Attack Speed per {X} Item Evasion on Equipped Armour Items • +{X}% to Critical Hit Chance per {X} Item Energy Shield on Equipped Armour Items",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CULLING_STRIKE_AGAINST_BEASTS_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "Culling Strike against Beasts while your Companion is in your Presence",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_FOR_DAMAGE_OF_ENEMIES_HIT_DAMAGE_YOU_TO_BE_UNLUCKY",
+  "template": "{X}% chance for Damage of Enemies HitDamage you to be Unlucky",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY",
+  "template": "{X}% chance for Damage with HitDamage to be Lucky",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "OF_DAMAGE_TAKEN_FROM_DEFLECTED_HIT_DAMAGE_RECOUPED_AS_HEALTH",
+  "template": "{X}% of Damage taken from Deflected HitDamage Recouped as Life",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY_WHILE_ON_LOW_MANA",
+  "template": "{X}% increased Mana Cost Efficiency while on Low Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION",
+  "template": "{X}% chance for Attack HitDamage to apply ten Incision",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_YOU_APPLY_INCISION_TO_TAKE_INC_PHYSICAL_DAMAGE_PER_INCISION",
+  "template": "Enemies you apply Incision to take {X}% increased Physical Damage per Incision",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_PER_DEXTERITY",
+  "template": "{X}% increased Attack Speed per {X} Dexterity",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "UNWITHERED_ENEMIES_ARE_WITHERED_FOR_SECONDS_WHEN_THEY_ENTER_YOUR_PRESENCE",
+  "template": "Unwithered enemies are Withered for {X} seconds when they enter your Presence",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "PROJECTILES_HAVE_INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_WITHIN_XM",
+  "template": "Projectiles have {X}% increased Critical Damage Bonus against Enemies within {X}m",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_ENERGY_SHIELD_PER_ITEM_EVASION_ON_EQUIPPED_BODY_ARMOR",
+  "template": "+{X} to Maximum Energy Shield per {X} Item Evasion on Equipped Body Armour",
+  "kind": "SIMPLE_ADD",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SKILLS_GAIN_COMBO_SLOWER",
+  "template": "Skills gain Combo {X}% slower",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_PER_ACCURACY_UP_TO",
+  "template": "{X}% increased Attack Speed per {X} Accuracy Rating, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "TAKE_MORE_DAMAGE_OVER_TIME_IF_YOU_VE_STARTED_TAKING_DAMAGE_OVER_TIME_IN_THE_PAST_SECOND",
+  "template": "Take {X}% more Damage over Time if you've started taking Damage over Time in the past second",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TAKE_MORE_DAMAGE_OVER_TIME_IF_YOU_HAVEN_T_STARTED_TAKING_DAMAGE_OVER_TIME_IN_THE_PAST_SECOND",
+  "template": "Take {X}% more Damage over Time if you haven't started taking Damage over Time in the past second",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HEALTH_HEALTH_RECHARGE_INSTEAD_OF_ENERGY_SHIELD",
+  "template": "Life LifeRecharge instead of Energy Shield",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_HEALTH_RECOVERY_FROM_FLASKS",
+  "template": "{X}% more Life Recovery from Flasks",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_YOU_MARK_HAVE_INC_ACCURACY",
+  "template": "Enemies you Mark have {X}% increased Accuracy Rating",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_YOU_MARK_TAKE_INC_DAMAGE",
+  "template": "Enemies you Mark take {X}% increased Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY_OF_MARKS",
+  "template": "{X}% increased Mana Cost Efficiency of Marks",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_VE_USED_A_MARK_RECENTLY",
+  "template": "{X}% increased Movement Speed if you've used a Mark Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CULLING_STRIKE_AGAINST_ENEMIES_YOU_MARK",
+  "template": "Culling Strike against Enemies you Mark",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HEALTH_RECOVERY_FROM_YOUR_FLASKS_ALSO_APPLIES_TO_YOUR_COMPANIONS",
+  "template": "Life Recovery from your Flasks also applies to your Companions",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "COMPANIONS_HAVE_TO_CHAOS_RESISTANCES",
+  "template": "Companions have +{X}% to Chaos Resistances",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY",
+  "template": "{X}% increased Attack Speed if you've successfully Parried Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY",
+  "template": "{X}% increased Movement Speed if you've successfully Parried Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FLASK_CHARGES_USED",
+  "template": "{X}% increased Flask Charges used",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_FROZEN_BY_YOU_TAKE_INC_COLD_DAMAGE",
+  "template": "Enemies Frozen by you take {X}% increased Cold Damage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_COLD_DAMAGE_AGAINST_DAZED_ENEMIES",
+  "template": "gain {X}% of Physical Damage as Extra Cold Damage against Dazed Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_AGAINST_DAZED_ENEMIES",
+  "template": "gain {X}% of Physical Damage as Extra Lightning Damage against Dazed Enemies",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_THAT_HAVE_EXITED_YOUR_PRESENCE_RECENTLY",
+  "template": "{X}% increased Critical Damage Bonus against Enemies that have exited your Presence Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_NEAR_ENEMIES_YOU_MARK_ARE_BLINDED",
+  "template": "Enemies near Enemies you Mark are Blinded",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ENEMIES_YOU_MARK_CANNOT_DEAL_CRITICAL_HITS",
+  "template": "Enemies you Mark cannot deal Critical Hits",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DEFLECTED_HIT_DAMAGE_CANNOT_INFLICT_MAIM_ON_YOU",
+  "template": "Deflected HitDamage cannot inflict Maim on you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "DEFLECTED_HIT_DAMAGE_CANNOT_INFLICT_BLEEDING_ON_YOU",
+  "template": "Deflected HitDamage cannot inflict Bleeding on you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ECHOED_SPELLS_HAVE_INC_AREA_OF_EFFECT",
+  "template": "Echoed Spells have {X}% increased Area of Effect",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_LIGHTNING_RESISTANCE",
+  "template": "+{X}% to Maximum Lightning Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT_AGAINST_MARKED_ENEMIES",
+  "template": "{X}% increased BuffMagnitude of Ailments you inflict against Marked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_MARKED_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Marked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "UNAFFECTED_BY_CHILL_DURING_DODGE_ROLL",
+  "template": "Unaffected by Chill during Dodge Roll",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_COLD_RESISTANCE",
+  "template": "+{X}% to Maximum Cold Resistance",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_SPEARS",
+  "template": "{X}% increased Critical Damage Bonus with Spears",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_WITH_SPEARS_WHILE_SURROUNDED",
+  "template": "{X}% increased Melee Damage with Spears while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_PROJECTILE_DAMAGE_WITH_SPEARS_WHILE_THERE_ARE_NO_ENEMIES_WITHIN_XM",
+  "template": "{X}% increased Projectile Damage with Spears while there are no Enemies within {X}m",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CHANCE_ON_CONSUMING_A_SHOCK_ON_AN_ENEMY_TO_REAPPLY_IT",
+  "template": "{X}% chance on Consuming a Shock on an Enemy to reapply it",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "RECOVER_OF_MAX_HEALTH_ON_KILLING_A_POISONED_ENEMY",
+  "template": "Recover {X}% of maximum Life on Killing a Poisoned Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_WITH_EXPOSURE",
+  "template": "{X}% increased Critical Hit Chance against enemies with Exposure",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "COMPANIONS_HAVE_A_CHANCE_TO_POISON_ON_HIT_DAMAGE",
+  "template": "Companions have a {X}% chance to Poison on HitDamage",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EFFECT_OF_NON_DAMAGING_AILMENTS_ON_YOU",
+  "template": "{X}% increased Effect of Non-Damaging Ailments on you",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "ENEMIES_YOU_ELECTROCUTE_HAVE_INC_DAMAGE_TAKEN",
+  "template": "Enemies you Electrocute have {X}% increased Damage taken",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "HEALTH_PER_DEXTERITY",
+  "template": "+{X} Life per {X} Dexterity",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "TO_MAX_LIGHTNING_RESISTANCE_IF_YOU_HAVE_AT_LEAST_GREEN_SUPPORT_GEMS_SOCKETED",
+  "template": "+{X}% to Maximum Lightning Resistance if you have at least {X} Green Support Gems Socketed",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED_DURING_EFFECT_OF_ANY_MANA_FLASK",
+  "template": "{X}% increased Attack and Cast Speed during Effect of any Mana Flask",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_MANA_FLASK_CHARGES_GAIN",
+  "template": "{X}% increased Mana Flask Charges gain",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CHANCE_TO_INFLICT_AILMENTS_AGAINST_ENEMIES_WITH_EXPOSURE",
+  "template": "{X}% increased chance to inflict Ailments against Enemies with Exposure",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_IGNITE_AGAINST_POISONED_ENEMIES",
+  "template": "{X}% increased BuffMagnitude of Ignite against Poisoned enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DURATION_OF_POISONS_YOU_INFLICT_AGAINST_SLOWED_ENEMIES",
+  "template": "{X}% increased Duration of Poisons you inflict against Slowed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_EVASION_FROM_EQUIPPED_BODY_ARMOR",
+  "template": "{X}% increased Evasion Rating from Equipped Body Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "YOU_CAN_HAVE_TWO_COMPANIONS_OF_DIFFERENT_TYPES",
+  "template": "You can have two Companions of different types",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_RESERVATION_EFFICIENCY_OF_COMPANION_SKILLS",
+  "template": "{X}% more Reservation Efficiency of Companion Skills",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MORE_RESERVATION_EFFICIENCY_OF_NON_COMPANION_SKILLS",
+  "template": "{X}% more Reservation Efficiency of non-Companion Skills",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "SKILLS_HAVE_CHANCE_TO_NOT_ADD_CHARGES_BUT_STILL_COUNT_AS_CONSUMING_THEM",
+  "template": "Skills have {X}% chance to not add Charges but still count as consuming them",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "VOLATILE_POWER_ALSO_GRANTS_INC_CRITICAL_HIT_CHANCE_PER_VOLATILITY_EXPLODED",
+  "template": "Volatile Power also grants {X}% increased Critical Hit chance per Volatility exploded",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_IF_YOU_VE_TRIGGERED_A_SKILL_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance if you've Triggered a Skill Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "META_SKILLS_GAIN_INC_ENERGY_IF_YOU_VE_DEALT_A_CRITICAL_HIT_DAMAGE_RECENTLY",
+  "template": "Meta Skills gain {X}% increased Energy if you've dealt a Critical HitDamage Recently",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_DAMAGE_FOR_EACH_HAZARD_TRIGGERED_RECENTLY_UP_TO",
+  "template": "{X}% increased Damage for each Hazard triggered Recently, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "SKILLS_DEAL_INC_DAMAGE_PER_COMBO_CONSUMED_UP_TO",
+  "template": "Skills deal {X}% increased Damage per Combo consumed, up to {X}%",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_EVASION_PER_INTELLIGENCE",
+  "template": "{X}% increased Evasion Rating per {X} Intelligence",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_COLD_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ICE",
+  "template": "{X}% increased Cold Damage while affected by Herald of Ice",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_FIRE_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ASH",
+  "template": "{X}% increased Fire Damage while affected by Herald of Ash",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_LIGHTNING_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_THUNDER",
+  "template": "{X}% increased Lightning Damage while affected by Herald of Thunder",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_CHAOS_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_PLAGUE",
+  "template": "{X}% increased Chaos Damage while affected by Herald of Plague",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_PHYSICAL_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_BLOOD",
+  "template": "{X}% increased Physical Damage while affected by Herald of Blood",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AND_REDUCTIONS_TO_PROJECTILE_SPEED_ALSO_APPLY_TO_DAMAGE_WITH_BOWS",
+  "template": "increased and Reductions to Projectile Speed also apply to Damage with Bows",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARROWS_GAIN_CRITICAL_HIT_CHANCE_AS_THEY_TRAVEL_FARTHER_UP_TO_INC_CRITICAL_HIT_CHANCE_AFTER_METRES",
+  "template": "Arrows gain Critical Hit Chance as they travel farther, up to {X}% increased Critical Hit Chance after {X} metres",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "ARROWS_PIERCE_AN_ADDITIONAL_TARGET",
+  "template": "Arrows Pierce an additional Target",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "KNOCKS_BACK_ENEMIES_IF_YOU_GET_A_CRITICAL_HIT_WITH_A_QUARTERSTAFF",
+  "template": "Knocks Back Enemies if you get a Critical Hit with a Quarterstaff",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "QUARTERSTAFF_SKILLS_THAT_CONSUME_POWER_CHARGES_COUNT_AS_CONSUMING_AN_ADDITIONAL_POWER_CHARGE",
+  "template": "Quarterstaff Skills that consume Power Charges count as consuming an additional Power Charge",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Accuracy Rating with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_WIELDING_A_QUARTERSTAFF",
+  "template": "{X}% increased Armour, Evasion and Energy Shield while wielding a Quarterstaff",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_DAGGERS",
+  "template": "{X}% increased Damage with Daggers",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_DURATION_OF_AILMENTS_AGAINST_ENEMIES_WITH_EXPOSURE",
+  "template": "{X}% increased Duration of Ailments against Enemies with Exposure",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "CRITICAL_HITS_WITH_DAGGERS_HAVE_A_CHANCE_TO_POISON_THE_ENEMY",
+  "template": "Critical Hits with Daggers have a {X}% chance to Poison the Enemy",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "IMMUNE_TO_POISON",
+  "template": "Immune to Poison",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "INC_POISON_DURATION_FOR_EACH_POISON_YOU_HAVE_INFLICTED_RECENTLY_UP_TO_A_MAX_OF",
+  "template": "{X}% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "短语无映射"
+ },
+ {
+  "constant": "INC_AND_REDUCTIONS_TO_COMPANION_DAMAGE_ALSO_APPLY_TO_YOU",
+  "template": "increased and Reductions to Companion Damage also apply to you",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ },
+ {
+  "constant": "MINIONS_REVIVING_FASTER_IF_ALL_YOUR_MINIONS_ARE_COMPANIONS",
+  "template": "Minions Reviving {X}% faster if all your Minions are Companions",
+  "kind": "COMPLEX",
+  "reason": "COMPLEX/无短语"
+ }
+]

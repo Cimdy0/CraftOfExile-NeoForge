@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_damaging_ailments_on_enemies",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "46182",
+    "links": [
+      "33838",
+      "42460"
+    ],
+    "x": 4766.0,
+    "y": 3895.65
+  }
+]

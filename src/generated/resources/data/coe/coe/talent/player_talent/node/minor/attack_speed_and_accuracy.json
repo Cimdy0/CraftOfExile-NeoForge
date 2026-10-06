@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeed",
+    "id": "11153",
+    "links": [
+      "42177",
+      "43183",
+      "5049"
+    ],
+    "x": -2553.76,
+    "y": 5754.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeed",
+    "id": "43183",
+    "links": [
+      "11153",
+      "49231"
+    ],
+    "x": -2303.76,
+    "y": 5504.65
+  }
+]

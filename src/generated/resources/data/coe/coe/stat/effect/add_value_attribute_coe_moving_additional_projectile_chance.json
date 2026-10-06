@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:moving_additional_projectile_chance",
+  "operation": "add_value"
+}

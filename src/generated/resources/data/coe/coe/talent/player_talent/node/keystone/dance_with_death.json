@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_skill_speed_while_off_hand_is_empty_and_you_have_a_one_handed_martial_weapon_equipped_in_your_main_hand",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dancewithdeathkeystone",
+    "id": "14226",
+    "links": [
+      "24287"
+    ],
+    "x": 9119.2,
+    "y": 6374.82
+  }
+]

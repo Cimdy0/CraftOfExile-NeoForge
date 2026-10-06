@@ -1,0 +1,26 @@
+{
+  "behavior": [
+    {
+      "coe:pulse": {
+        "interval": 30
+      }
+    }
+  ],
+  "render": "coe:toxic_vine",
+  "stages": [
+    {
+      "id": "sprout",
+      "ticks": 40
+    },
+    {
+      "id": "grown",
+      "ticks": 60
+    },
+    {
+      "id": "bloom"
+    }
+  ],
+  "tags": [
+    "plant"
+  ]
+}

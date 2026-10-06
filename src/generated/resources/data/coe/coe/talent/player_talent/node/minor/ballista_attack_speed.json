@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_used_by_ballistas_have_inc_attack_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "40597",
+    "links": [
+      "24368",
+      "53607",
+      "58817"
+    ],
+    "x": -2411.35,
+    "y": 9679.83
+  }
+]

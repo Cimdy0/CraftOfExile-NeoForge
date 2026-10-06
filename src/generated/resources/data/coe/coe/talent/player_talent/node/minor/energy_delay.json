@@ -1,0 +1,580 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_deflection_rating_equal_to_of_evasion",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_cost_efficiency",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldrechargedeflect",
+    "id": "46857",
+    "links": [
+      "32399",
+      "52971"
+    ],
+    "x": 6790.3,
+    "y": -6502.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "14739",
+    "links": [
+      "31644",
+      "49235"
+    ],
+    "x": -1206.34,
+    "y": -4406.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "21404",
+    "links": [
+      "42825",
+      "4931"
+    ],
+    "x": -4281.42,
+    "y": -8135.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "22691",
+    "links": [
+      "17973",
+      "39037",
+      "61027"
+    ],
+    "x": 552.405,
+    "y": -4284.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "25893",
+    "links": [
+      "40691",
+      "51169"
+    ],
+    "x": -163.175,
+    "y": -6450.52
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkenergyshieldchakra",
+    "id": "27671",
+    "links": [
+      "32681",
+      "5188"
+    ],
+    "x": 4800.31,
+    "y": -6613.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "27674",
+    "links": [
+      "34840",
+      "44082"
+    ],
+    "x": -4035.42,
+    "y": -7993.41
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "29695",
+    "links": [
+      "30346",
+      "43736"
+    ],
+    "x": 530.317,
+    "y": -2531.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "30634",
+    "links": [
+      "24647",
+      "63064"
+    ],
+    "x": 3280.47,
+    "y": -1389.24
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "31630",
+    "links": [
+      "36623",
+      "64474"
+    ],
+    "x": 4025.29,
+    "y": -9818.72
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "31644",
+    "links": [
+      "14739",
+      "34058",
+      "8349"
+    ],
+    "x": -1364.75,
+    "y": -4449.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "3628",
+    "links": [
+      "3251",
+      "64474"
+    ],
+    "x": 4342.12,
+    "y": -9903.61
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "36746",
+    "links": [
+      "40691",
+      "8616"
+    ],
+    "x": -288.427,
+    "y": -6283.52
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "40691",
+    "links": [
+      "25893",
+      "36746"
+    ],
+    "x": -373.005,
+    "y": -6764.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "42825",
+    "links": [
+      "21404",
+      "31238"
+    ],
+    "x": -4199.42,
+    "y": -7993.41
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "43736",
+    "links": [
+      "2254",
+      "29695"
+    ],
+    "x": 487.871,
+    "y": -2690.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "44082",
+    "links": [
+      "27674",
+      "4931"
+    ],
+    "x": -3953.42,
+    "y": -8135.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "4748",
+    "links": [
+      "17973",
+      "2254"
+    ],
+    "x": 814.295,
+    "y": -3752.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "49235",
+    "links": [
+      "14739",
+      "42077"
+    ],
+    "x": -1163.89,
+    "y": -4248.41
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "52743",
+    "links": [
+      "34541",
+      "8734"
+    ],
+    "x": 8594.95,
+    "y": -861.957
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "64474",
+    "links": [
+      "31630",
+      "3628"
+    ],
+    "x": 4299.67,
+    "y": -9745.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "65437",
+    "links": [
+      "48198",
+      "63064"
+    ],
+    "x": 3034.47,
+    "y": -1247.22
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:faster_start_of_energy_shield_recharge",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "8734",
+    "links": [
+      "47831",
+      "52743"
+    ],
+    "x": 8430.95,
+    "y": -861.957
+  }
+]

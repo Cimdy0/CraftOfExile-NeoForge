@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_duration_on_you",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "60464",
+    "links": [
+      "38678",
+      "58971"
+    ],
+    "x": 6713.93,
+    "y": 5993.21
+  }
+]

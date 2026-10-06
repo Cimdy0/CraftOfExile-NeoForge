@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_number_of_elemental_infusions",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnotable1",
+    "id": "38965",
+    "links": [
+      "51303"
+    ],
+    "x": -4891.99,
+    "y": -10304.5
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:grenade_skills_have_cooldown_use",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mineareaofeffectnode",
+    "id": "58714",
+    "links": [
+      "48429"
+    ],
+    "x": -1039.72,
+    "y": 6312.71
+  }
+]

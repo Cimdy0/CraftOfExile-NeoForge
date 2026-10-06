@@ -1,0 +1,175 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_cold_damage_minmax"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "frosted",
+          "tier": 1,
+          "values": {
+            "max": {
+              "max": 6.0,
+              "min": 4.0
+            },
+            "min": {
+              "min": 2.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 8,
+          "name": "chilled",
+          "tier": 2,
+          "values": {
+            "max": {
+              "max": 14.0,
+              "min": 9.0
+            },
+            "min": {
+              "max": 8.0,
+              "min": 5.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 16,
+          "name": "icy",
+          "tier": 3,
+          "values": {
+            "max": {
+              "max": 23.0,
+              "min": 15.0
+            },
+            "min": {
+              "max": 14.0,
+              "min": 10.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 33,
+          "name": "frigid",
+          "tier": 4,
+          "values": {
+            "max": {
+              "max": 35.0,
+              "min": 25.0
+            },
+            "min": {
+              "max": 23.0,
+              "min": 16.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 46,
+          "name": "freezing",
+          "tier": 5,
+          "values": {
+            "max": {
+              "max": 46.0,
+              "min": 38.0
+            },
+            "min": {
+              "max": 30.0,
+              "min": 25.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 54,
+          "name": "frozen",
+          "tier": 6,
+          "values": {
+            "max": {
+              "max": 66.0,
+              "min": 49.0
+            },
+            "min": {
+              "max": 43.0,
+              "min": 32.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 60,
+          "name": "glaciated",
+          "tier": 7,
+          "values": {
+            "max": {
+              "max": 88.0,
+              "min": 70.0
+            },
+            "min": {
+              "max": 57.0,
+              "min": 46.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 65,
+          "name": "polar",
+          "tier": 8,
+          "values": {
+            "max": {
+              "max": 121.0,
+              "min": 92.0
+            },
+            "min": {
+              "max": 80.0,
+              "min": 60.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 75,
+          "name": "entombing",
+          "tier": 9,
+          "values": {
+            "max": {
+              "max": 161.0,
+              "min": 126.0
+            },
+            "min": {
+              "max": 107.0,
+              "min": 84.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 81,
+          "name": "crystalising",
+          "tier": 10,
+          "values": {
+            "max": {
+              "max": 189.0,
+              "min": 168.0
+            },
+            "min": {
+              "max": 124.0,
+              "min": 112.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_evasion_as_extra_armor",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorandevasionnode",
+    "id": "17150",
+    "links": [
+      "53647",
+      "7390"
+    ],
+    "x": -1077.89,
+    "y": 11762.0
+  }
+]

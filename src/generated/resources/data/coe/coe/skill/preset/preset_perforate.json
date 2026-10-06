@@ -1,0 +1,57 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:poof",
+  "cast_sound": "minecraft:block.anvil.land",
+  "cost": [
+    {
+      "value": 8.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 2.5, base = 11, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "physical"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_bleed",
+                    "vars": {
+                      "value": 0.15
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 2.5
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  }
+}

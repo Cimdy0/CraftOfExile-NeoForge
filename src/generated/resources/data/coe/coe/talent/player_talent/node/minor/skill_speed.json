@@ -1,0 +1,220 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_harrier",
+    "id": "10364",
+    "links": [
+      "42857",
+      "44683",
+      "55342"
+    ],
+    "x": 1398.73,
+    "y": -958.945
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_harrier",
+    "id": "14725",
+    "links": [
+      "34233",
+      "49220"
+    ],
+    "x": 2589.29,
+    "y": -2001.95
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeed",
+    "id": "26798",
+    "links": [
+      "53405",
+      "9638"
+    ],
+    "x": -4335.1,
+    "y": 619.905
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_harrier",
+    "id": "32545",
+    "links": [
+      "34233",
+      "61196"
+    ],
+    "x": 2835.29,
+    "y": -2143.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedrunspeeddex",
+    "id": "3431",
+    "links": [
+      "43082",
+      "5305"
+    ],
+    "x": 8388.6,
+    "y": 6317.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_inquistitor_increasedelementaldamageattackcastespeed",
+    "id": "38923",
+    "links": [
+      "511",
+      "61429"
+    ],
+    "x": -8593.97,
+    "y": -2240.63
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_harrier",
+    "id": "42857",
+    "links": [
+      "10364",
+      "20024",
+      "7576"
+    ],
+    "x": 1604.85,
+    "y": -1077.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedrunspeeddex",
+    "id": "5305",
+    "links": [
+      "24287",
+      "3431"
+    ],
+    "x": 8459.62,
+    "y": 6194.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeed",
+    "id": "9638",
+    "links": [
+      "26798",
+      "39083"
+    ],
+    "x": -4339.42,
+    "y": 843.265
+  }
+]

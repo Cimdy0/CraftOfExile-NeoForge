@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "electrocute"
+  },
+  "effect": "coe:stat/effect/inline_damage_convert_738",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_737"
+}

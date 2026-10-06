@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_light_radius",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_from_equipped_helmet",
+            "vars": {
+              "value": 0.7
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "1823",
+    "links": [
+      "25363",
+      "7424"
+    ],
+    "x": -2331.94,
+    "y": -6719.67
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:remnant_conversion",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "cold"
+      },
+      {
+        "tag": "lightning"
+      }
+    ]
+  }
+}

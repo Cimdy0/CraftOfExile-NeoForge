@@ -1,0 +1,26 @@
+{
+  "type": "coe:orb",
+  "behavior": [
+    {
+      "coe:pulse": {
+        "interval": 80
+      }
+    }
+  ],
+  "box_height": 0.6,
+  "on_expire": [
+    {
+      "coe:deliver": {
+        "delivery": {
+          "coe:delivery_remnant": {}
+        }
+      }
+    }
+  ],
+  "on_nearby_cast": [
+    {
+      "coe:phase_on_hit": {}
+    }
+  ],
+  "render": "coe:orb"
+}

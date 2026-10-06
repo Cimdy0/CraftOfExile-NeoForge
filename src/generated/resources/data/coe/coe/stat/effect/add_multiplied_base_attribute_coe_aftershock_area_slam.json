@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:aftershock_area",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "slam"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_while_surrounded",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "31566",
+    "links": [
+      "24766",
+      "54818",
+      "58038",
+      "7049"
+    ],
+    "x": -553.071,
+    "y": 8504.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_while_surrounded",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "7049",
+    "links": [
+      "22556",
+      "31566"
+    ],
+    "x": -789.244,
+    "y": 8740.79
+  }
+]

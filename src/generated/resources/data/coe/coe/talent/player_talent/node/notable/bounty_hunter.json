@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_on_kill",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_mana_on_kill",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_culling_strike_threshold",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "23244",
+    "links": [
+      "21792",
+      "49497"
+    ],
+    "x": 4963.5,
+    "y": 8953.29
+  }
+]

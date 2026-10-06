@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:successfully_parrying_a_melee_hit_damage_grants_inc_damage_to_your_next_ranged_attack",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:successfully_parrying_a_projectile_hit_damage_grants_inc_damage_to_your_next_melee_attack",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklersnotable1",
+    "id": "27761",
+    "links": [
+      "13379",
+      "36997"
+    ],
+    "x": 3776.11,
+    "y": 2965.62
+  }
+]

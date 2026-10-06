@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_elemental_damage_taken_recouped_as_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "1603",
+    "links": [
+      "61926"
+    ],
+    "x": 4657.1,
+    "y": -7752.56
+  }
+]

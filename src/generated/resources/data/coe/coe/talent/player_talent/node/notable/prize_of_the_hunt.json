@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_if_you_would_gain_frenzy_charges_you_instead_gain_up_to_your_max_number_of_frenzy_charges",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_frenzy_charges",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "26228",
+    "links": [
+      "4681"
+    ],
+    "x": -4208.73,
+    "y": -7738.4
+  }
+]

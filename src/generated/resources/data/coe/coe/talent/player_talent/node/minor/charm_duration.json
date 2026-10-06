@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "1631",
+    "links": [
+      "14001",
+      "14658",
+      "29049"
+    ],
+    "x": 6803.79,
+    "y": 164.465
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "29049",
+    "links": [
+      "1631",
+      "56893"
+    ],
+    "x": 6743.76,
+    "y": 388.493
+  }
+]

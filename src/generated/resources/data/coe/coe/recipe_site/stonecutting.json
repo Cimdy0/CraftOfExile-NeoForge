@@ -1,0 +1,6 @@
+{
+  "blocks": [
+    "minecraft:stonecutter"
+  ],
+  "recipe_type": "minecraft:stonecutting"
+}

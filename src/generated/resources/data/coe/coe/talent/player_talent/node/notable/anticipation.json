@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:sealed_skills_have_inc_seal_gain_frequency",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagespells",
+    "id": "62431",
+    "links": [
+      "11722"
+    ],
+    "x": 2898.16,
+    "y": -5489.12
+  }
+]

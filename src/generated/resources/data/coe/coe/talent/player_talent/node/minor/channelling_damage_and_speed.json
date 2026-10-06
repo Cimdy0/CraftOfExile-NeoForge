@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:channelling_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed_with_channelling_skills",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingdamage",
+    "id": "2653",
+    "links": [
+      "19203",
+      "28002",
+      "30896"
+    ],
+    "x": -4870.07,
+    "y": -3005.81
+  }
+]

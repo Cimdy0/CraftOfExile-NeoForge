@@ -1,0 +1,99 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "4015",
+    "links": [
+      "37226",
+      "47429",
+      "59466"
+    ],
+    "x": -5143.75,
+    "y": 7001.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "47429",
+    "links": [
+      "4015",
+      "61490"
+    ],
+    "x": -4968.25,
+    "y": 6697.93
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "63979",
+    "links": [
+      "17999",
+      "9750"
+    ],
+    "x": -6497.79,
+    "y": 9162.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "9750",
+    "links": [
+      "1169",
+      "63979"
+    ],
+    "x": -6714.29,
+    "y": 9287.67
+  }
+]

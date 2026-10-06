@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_ignite_on_you",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamage",
+    "id": "27186",
+    "links": [
+      "61170",
+      "62963"
+    ],
+    "x": -1731.48,
+    "y": -10153.3
+  }
+]

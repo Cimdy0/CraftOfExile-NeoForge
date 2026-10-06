@@ -1,0 +1,73 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offering_skills_have_inc_duration",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "13634",
+    "links": [
+      "34030"
+    ],
+    "x": 612.035,
+    "y": -7570.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offering_skills_have_inc_duration",
+            "vars": {
+              "value": -0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "42614",
+    "links": [
+      "34030"
+    ],
+    "x": 940.035,
+    "y": -7570.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offering_skills_have_inc_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "59651",
+    "links": [
+      "25557",
+      "41654",
+      "47821"
+    ],
+    "x": 4231.22,
+    "y": -7650.75
+  }
+]

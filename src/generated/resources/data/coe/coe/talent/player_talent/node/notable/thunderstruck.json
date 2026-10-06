@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_electrocute_buildup_against_shocked_enemies",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_shock_chance_against_electrocuted_enemies",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "63585",
+    "links": [
+      "5564"
+    ],
+    "x": 3915.95,
+    "y": 4292.71
+  }
+]

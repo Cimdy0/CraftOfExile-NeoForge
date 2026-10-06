@@ -1,0 +1,7 @@
+{
+  "type": "heal",
+  "resource": "mana",
+  "tags": {
+    "tag": "consume_power"
+  }
+}

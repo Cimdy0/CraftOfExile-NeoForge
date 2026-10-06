@@ -1,0 +1,40 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_minion_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:temporary_minion_skills_have_to_limit_of_minions_summoned",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "47420",
+    "links": [
+      "11048",
+      "52676",
+      "64653",
+      "752"
+    ],
+    "x": -7205.17,
+    "y": -8949.18
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "type": "shock_echo",
+  "tags": {
+    "and": [
+      {
+        "tag": "shock"
+      },
+      {
+        "tag": "caused_ailment"
+      }
+    ]
+  }
+}

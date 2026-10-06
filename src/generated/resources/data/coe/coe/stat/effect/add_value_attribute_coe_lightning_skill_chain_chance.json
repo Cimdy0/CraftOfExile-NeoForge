@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:chain_chance",
+  "operation": "add_value",
+  "tags": {
+    "tag": "projectile"
+  }
+}

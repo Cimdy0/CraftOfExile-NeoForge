@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_recovery_from_your_flasks_also_applies_to_your_companions",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "60992",
+    "links": [
+      "16568"
+    ],
+    "x": 8114.32,
+    "y": 5746.46
+  }
+]

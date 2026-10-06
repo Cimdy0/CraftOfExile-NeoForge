@@ -1,0 +1,62 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:surpassing_chance_additional_arrow"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 46,
+        "name": "of_surplus",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 25.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 55,
+        "name": "of_splintering",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 75.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 66,
+        "name": "of_shards",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 150.0,
+            "min": 125.0
+          }
+        },
+        "weight": 200
+      },
+      {
+        "level": 82,
+        "name": "of_many",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 200.0,
+            "min": 175.0
+          }
+        },
+        "weight": 125
+      }
+    ]
+  }
+}

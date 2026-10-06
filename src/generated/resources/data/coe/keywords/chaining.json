@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "Chaining",
+    "Chain",
+    "连锁"
+  ],
+  "description": [
+    [
+      "$[chaining]",
+      "使",
+      "$[projectile]",
+      "或光束在命中目标后跃向附近的敌人。"
+    ],
+    [
+      "每次",
+      "$[chaining]",
+      "会重复一次命中，通常",
+      "$[damage]",
+      "会降低。"
+    ]
+  ],
+  "id": "chaining",
+  "keys": [
+    "coe:keyword.chaining"
+  ],
+  "title": "@coe:keyword.chaining"
+}

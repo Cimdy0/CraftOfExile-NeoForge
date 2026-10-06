@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:corpse_retain_chance",
+  "operation": "add_value",
+  "tags": {
+    "tag": "corpse"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:curse_target_health_regen_mult",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "curse"
+  }
+}

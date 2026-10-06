@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_crossbow_reload_speed",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "64119",
+    "links": [
+      "12311"
+    ],
+    "x": 1234.25,
+    "y": 7652.62
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:witch",
+  "cast_sound": "minecraft:entity.witch.throw",
+  "cost": [
+    {
+      "value": "coe:level_table(24, 27, 31, 36, 40, 45, 51, 56, 62, 69, 76, 83, 91, 99, 108, 117, 128, 138, 150, 162, 175, 188, 203, 218, 234, 251, 270, 289, 310, 331, 354, 379, 405, 432, 461, 491, 523, 558, 594, 632)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 4.5, base = 17.8, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "lightning"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_projectile": {
+            "ref": {
+              "ref": "coe:arrow",
+              "render": "coe:green/magnetic_salvo"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "dexterity": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

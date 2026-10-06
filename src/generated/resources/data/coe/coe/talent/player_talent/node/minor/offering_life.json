@@ -1,0 +1,123 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offerings_have_inc_max_health",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "25594",
+    "links": [
+      "3025",
+      "34030",
+      "38732"
+    ],
+    "x": 776.035,
+    "y": -7820.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offerings_have_inc_max_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "3051",
+    "links": [
+      "43713"
+    ],
+    "x": 452.015,
+    "y": -9936.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offerings_have_inc_max_health",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "34030",
+    "links": [
+      "13634",
+      "25594",
+      "42614",
+      "47441"
+    ],
+    "x": 776.035,
+    "y": -7570.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offerings_have_inc_max_health",
+            "vars": {
+              "value": -0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "35602",
+    "links": [
+      "43713"
+    ],
+    "x": 452.015,
+    "y": -9608.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offerings_have_inc_max_health",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "41654",
+    "links": [
+      "41033",
+      "59651"
+    ],
+    "x": 4347.19,
+    "y": -7851.61
+  }
+]

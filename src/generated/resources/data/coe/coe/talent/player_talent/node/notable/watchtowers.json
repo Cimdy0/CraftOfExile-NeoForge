@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recoup_of_damage_taken_by_your_totems_as_health",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:each_totem_applies_inc_damage_taken_to_enemies_in_their_presence",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "5580",
+    "links": [
+      "42710",
+      "65287",
+      "9568"
+    ],
+    "x": -9716.02,
+    "y": 6484.44
+  }
+]

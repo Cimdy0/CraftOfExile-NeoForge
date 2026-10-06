@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_are_intimidated_for_seconds_when_you_immobilised_them",
+            "vars": {
+              "value": 4.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "22532",
+    "links": [
+      "59289",
+      "64550"
+    ],
+    "x": 1195.42,
+    "y": 4000.27
+  }
+]

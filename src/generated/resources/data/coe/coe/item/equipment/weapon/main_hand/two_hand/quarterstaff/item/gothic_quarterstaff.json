@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/quarterstaff/template/dexterity_intelligence",
+    "reqs": {
+      "dex": 18.0,
+      "int": 9.0,
+      "l": 11.0
+    }
+  }
+}

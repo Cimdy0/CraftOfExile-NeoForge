@@ -1,0 +1,6 @@
+{
+  "type": "entity_stage_advance_chance",
+  "kind": "entity_stage_advance_chance",
+  "roll_mode": "count",
+  "variant": "rolled"
+}

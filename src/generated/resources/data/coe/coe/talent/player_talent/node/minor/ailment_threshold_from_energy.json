@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "59798",
+    "links": [
+      "17602",
+      "5335"
+    ],
+    "x": 6885.88,
+    "y": -9086.8
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_charms_you_use_to_not_consume_charges",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_mana_when_a_charm_is_used",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnotable1",
+    "id": "56893",
+    "links": [
+      "14001",
+      "29049"
+    ],
+    "x": 6445.26,
+    "y": 371.465
+  }
+]

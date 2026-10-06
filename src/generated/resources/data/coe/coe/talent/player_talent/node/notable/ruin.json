@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_area_damage",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "8483",
+    "links": [
+      "14355"
+    ],
+    "x": 1390.79,
+    "y": -6578.96
+  }
+]

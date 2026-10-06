@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_and_charm_charges_gain",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "12322",
+    "links": [
+      "32135",
+      "53196"
+    ],
+    "x": 2839.26,
+    "y": 6730.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_and_charm_charges_gain",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "53196",
+    "links": [
+      "12322",
+      "46692"
+    ],
+    "x": 2622.75,
+    "y": 6855.25
+  }
+]

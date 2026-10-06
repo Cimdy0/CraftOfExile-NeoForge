@@ -1,0 +1,8 @@
+{
+  "type": "immune",
+  "statuses": [
+    "exposure_lightning",
+    "exposure_cold",
+    "exposure_fire"
+  ]
+}

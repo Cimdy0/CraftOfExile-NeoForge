@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attack_damage_penetrates_of_enemy_elemental_damage_resistances",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "3985",
+    "links": [
+      "64140"
+    ],
+    "x": 3534.61,
+    "y": 8622.88
+  }
+]

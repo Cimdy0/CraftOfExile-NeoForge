@@ -1,0 +1,7 @@
+{
+  "members": [
+    "coe:add_cold_damage_minmax",
+    "coe:add_cold_damage"
+  ],
+  "slot": {}
+}

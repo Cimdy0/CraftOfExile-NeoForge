@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_area_of_effect",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_damage",
+            "vars": {
+              "value": -0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "65256",
+    "links": [
+      "2128",
+      "34845"
+    ],
+    "x": 6617.23,
+    "y": 9944.27
+  }
+]

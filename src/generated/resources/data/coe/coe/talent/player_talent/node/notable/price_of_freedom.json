@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cost_efficiency_of_attacks",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_skill_mana_costs_stat_conversion_to_health_costs",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manastr",
+    "id": "9908",
+    "links": [
+      "20303",
+      "63470"
+    ],
+    "x": -5393.92,
+    "y": 893.335
+  }
+]

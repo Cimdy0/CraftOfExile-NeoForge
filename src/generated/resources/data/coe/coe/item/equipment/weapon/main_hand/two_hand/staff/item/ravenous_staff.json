@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/staff/template/intelligence",
+    "reqs": {
+      "int": 114.0,
+      "l": 65.0
+    },
+    "skills": {
+      "coe:preset_feast_of_flesh": {
+        "id": "coe:preset_feast_of_flesh"
+      }
+    }
+  }
+}

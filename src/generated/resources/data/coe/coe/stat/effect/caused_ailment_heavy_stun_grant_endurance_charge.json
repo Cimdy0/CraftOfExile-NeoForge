@@ -1,0 +1,15 @@
+{
+  "type": "grant_on_event",
+  "param": "endurance",
+  "tags": {
+    "and": [
+      {
+        "tag": "heavy_stun"
+      },
+      {
+        "tag": "caused_ailment"
+      }
+    ]
+  },
+  "target": "charge"
+}

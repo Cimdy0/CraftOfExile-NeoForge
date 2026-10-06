@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_quarterstaves",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagestaff",
+    "id": "11598",
+    "links": [
+      "15775",
+      "44516",
+      "4536"
+    ],
+    "x": 10688.0,
+    "y": -3515.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_quarterstaves",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagestaff",
+    "id": "44516",
+    "links": [
+      "11598",
+      "2113"
+    ],
+    "x": 10645.5,
+    "y": -3357.24
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_quarterstaves",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagestaff",
+    "id": "4536",
+    "links": [
+      "11598",
+      "37514"
+    ],
+    "x": 10730.4,
+    "y": -3674.07
+  }
+]

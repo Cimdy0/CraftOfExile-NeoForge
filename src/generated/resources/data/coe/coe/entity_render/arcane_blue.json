@@ -1,0 +1,26 @@
+{
+  "layers": [
+    {
+      "coe:particle_ring": {
+        "particle": {
+          "type": "minecraft:glow"
+        }
+      }
+    },
+    {
+      "coe:particle_point": {
+        "particle": {
+          "type": "minecraft:glow"
+        }
+      }
+    },
+    {
+      "coe:model": {
+        "scale": 0.9,
+        "spin_deg_per_tick": 2.0,
+        "texture": "coe:textures/entity/prop/remnant",
+        "y_offset": 0.05
+      }
+    }
+  ]
+}

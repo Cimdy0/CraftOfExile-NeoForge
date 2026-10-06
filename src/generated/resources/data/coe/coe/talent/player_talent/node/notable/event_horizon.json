@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.53
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_loss_of_max_health_and_energy_shield_when_you_use_a_chaos_skill",
+            "vars": {
+              "value": -0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "52191",
+    "links": [
+      "20782",
+      "57724"
+    ],
+    "x": 6536.96,
+    "y": -5291.42
+  }
+]

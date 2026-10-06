@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:archon_buffs_also_grant_to_all_elemental_damage_resistances",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:archon_buffs_also_grant_inc_movement_speed",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongenericnotable",
+    "id": "41394",
+    "links": [
+      "55938"
+    ],
+    "x": 4340.72,
+    "y": -9132.87
+  }
+]

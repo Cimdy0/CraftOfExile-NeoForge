@@ -1,0 +1,20 @@
+{
+  "coe:item_weight": [
+    {
+      "type": "coe:amulet",
+      "weight": 1000
+    },
+    {
+      "type": "coe:ring",
+      "weight": 1000
+    },
+    {
+      "type": "coe:belt",
+      "weight": 1000
+    },
+    {
+      "type": "coe:charm",
+      "weight": 1000
+    }
+  ]
+}

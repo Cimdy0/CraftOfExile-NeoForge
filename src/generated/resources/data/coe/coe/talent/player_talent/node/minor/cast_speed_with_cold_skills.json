@@ -1,0 +1,53 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed_with_cold_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "12166",
+    "links": [
+      "19003",
+      "26331",
+      "4959"
+    ],
+    "x": 6439.29,
+    "y": -7908.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed_with_cold_skills",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "3128",
+    "links": [
+      "19003",
+      "19722",
+      "26331",
+      "50121"
+    ],
+    "x": 6439.29,
+    "y": -7475.15
+  }
+]

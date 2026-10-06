@@ -1,0 +1,25 @@
+{
+  "aoe_ranges": {},
+  "cast": {},
+  "cast_particle": "minecraft:poof",
+  "cast_sound": "minecraft:block.anvil.land",
+  "cost": [],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_consume_corpse": {}
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {}
+}

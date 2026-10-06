@@ -1,0 +1,22 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "count",
+      "name": "caused_crit",
+      "window": 160.0
+    },
+    "operator": ">",
+    "right": {
+      "type": "const",
+      "value": 0.0
+    }
+  },
+  "effect": "coe:stat/effect/inline_attribute_210",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

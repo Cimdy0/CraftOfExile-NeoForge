@@ -1,0 +1,800 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "10671",
+    "links": [
+      "23419",
+      "51048",
+      "5740"
+    ],
+    "x": 3679.11,
+    "y": 10629.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstrengthchakra",
+    "id": "17101",
+    "links": [
+      "17724",
+      "25362",
+      "7888"
+    ],
+    "x": 9777.78,
+    "y": -1141.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "17589",
+    "links": [
+      "36085",
+      "37548",
+      "53150",
+      "64462"
+    ],
+    "x": 9165.52,
+    "y": -916.987
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstrengthchakra",
+    "id": "17724",
+    "links": [
+      "17101",
+      "3640"
+    ],
+    "x": 10013.9,
+    "y": -904.986
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "18073",
+    "links": [
+      "36027",
+      "49952",
+      "63114"
+    ],
+    "x": -7338.54,
+    "y": 4744.39
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "19223",
+    "links": [
+      "21755",
+      "25213",
+      "53166"
+    ],
+    "x": 479.705,
+    "y": 7013.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "21314",
+    "links": [
+      "18818",
+      "50912"
+    ],
+    "x": 4438.81,
+    "y": 365.391
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_against_rare_or_unique_enemies",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "244",
+    "links": [
+      "52354",
+      "58814",
+      "63731"
+    ],
+    "x": 2486.83,
+    "y": 11346.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "26068",
+    "links": [
+      "37389",
+      "63888"
+    ],
+    "x": 4769.91,
+    "y": 2982.72
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "27910",
+    "links": [
+      "38676",
+      "53938",
+      "64056"
+    ],
+    "x": 3855.19,
+    "y": -2592.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "29270",
+    "links": [
+      "46060",
+      "7251"
+    ],
+    "x": -3502.49,
+    "y": 4766.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "33866",
+    "links": [
+      "49220",
+      "7576"
+    ],
+    "x": 1963.38,
+    "y": -1284.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "36027",
+    "links": [
+      "18073",
+      "45090"
+    ],
+    "x": -7588.54,
+    "y": 4744.39
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedattackdamagenode",
+    "id": "36478",
+    "links": [
+      "32194",
+      "43014",
+      "48714"
+    ],
+    "x": -4290.93,
+    "y": -2254.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "36576",
+    "links": [
+      "13799",
+      "25055",
+      "54984"
+    ],
+    "x": 8607.17,
+    "y": 4654.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "37389",
+    "links": [
+      "26068",
+      "28061",
+      "37644"
+    ],
+    "x": 4622.68,
+    "y": 3067.72
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "37691",
+    "links": [
+      "42750",
+      "56453",
+      "9050"
+    ],
+    "x": 6107.7,
+    "y": -3322.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "38676",
+    "links": [
+      "27910",
+      "56045"
+    ],
+    "x": 3855.19,
+    "y": -2428.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "42750",
+    "links": [
+      "17088",
+      "37691",
+      "50635",
+      "9050"
+    ],
+    "x": 5752.9,
+    "y": -2836.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_immobilisation_buildup",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedattackdamagenode",
+    "id": "43014",
+    "links": [
+      "34308",
+      "36478"
+    ],
+    "x": -4514.96,
+    "y": -2314.11
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "45012",
+    "links": [
+      "41017",
+      "64462",
+      "8246"
+    ],
+    "x": 9207.96,
+    "y": -424.575
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "45090",
+    "links": [
+      "18505",
+      "36027"
+    ],
+    "x": -7705.03,
+    "y": 4896.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "46782",
+    "links": [
+      "21746",
+      "53698"
+    ],
+    "x": 4971.97,
+    "y": -626.595
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_against_rare_or_unique_enemies",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "52354",
+    "links": [
+      "244",
+      "41171"
+    ],
+    "x": 2667.71,
+    "y": 11496.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "53698",
+    "links": [
+      "20916",
+      "46782"
+    ],
+    "x": 5063.48,
+    "y": -968.101
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "53938",
+    "links": [
+      "27910",
+      "36931"
+    ],
+    "x": 3691.19,
+    "y": -2510.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "59180",
+    "links": [
+      "13352",
+      "50023"
+    ],
+    "x": -4108.36,
+    "y": 7765.45
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_against_rare_or_unique_enemies",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "63731",
+    "links": [
+      "244",
+      "37767"
+    ],
+    "x": 2537.98,
+    "y": 11565.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "64345",
+    "links": [
+      "24922",
+      "49968",
+      "63679"
+    ],
+    "x": 4943.84,
+    "y": 7568.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "7251",
+    "links": [
+      "29270",
+      "44419"
+    ],
+    "x": -3502.49,
+    "y": 5016.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "7576",
+    "links": [
+      "33866",
+      "42857"
+    ],
+    "x": 1821.35,
+    "y": -1202.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "8246",
+    "links": [
+      "37548",
+      "37742",
+      "45012",
+      "64462"
+    ],
+    "x": 9250.41,
+    "y": -600.163
+  }
+]

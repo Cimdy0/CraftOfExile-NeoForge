@@ -1,0 +1,156 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "31419",
+    "links": [
+      "35787",
+      "53405"
+    ],
+    "x": -4483.92,
+    "y": 400.442
+  },
+  {
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "31554",
+    "links": [
+      "19162",
+      "49929"
+    ],
+    "x": -9604.39,
+    "y": -7864.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "31805",
+    "links": [
+      "44461",
+      "52298"
+    ],
+    "x": -7144.51,
+    "y": 3057.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "35787",
+    "links": [
+      "31419",
+      "42813"
+    ],
+    "x": -4660.69,
+    "y": 141.665
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "39280",
+    "links": [
+      "32951",
+      "44669"
+    ],
+    "x": 3869.03,
+    "y": -11167.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "44461",
+    "links": [
+      "31805",
+      "54998"
+    ],
+    "x": -7085.11,
+    "y": 2644.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_effect_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "44669",
+    "links": [
+      "10131",
+      "39280"
+    ],
+    "x": 4018.76,
+    "y": -10609.1
+  }
+]

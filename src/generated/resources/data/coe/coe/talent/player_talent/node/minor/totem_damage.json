@@ -1,0 +1,398 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "13839",
+    "links": [
+      "58117",
+      "65287"
+    ],
+    "x": -9387.52,
+    "y": 5915.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "14110",
+    "links": [
+      "22484",
+      "35974",
+      "59093",
+      "6355"
+    ],
+    "x": -7016.4,
+    "y": -7744.85
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "2174",
+    "links": [
+      "19249",
+      "46205"
+    ],
+    "x": -5670.18,
+    "y": -1002.04
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "25312",
+    "links": [
+      "23667",
+      "24259",
+      "51561",
+      "64405"
+    ],
+    "x": -6210.4,
+    "y": 7946.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "31017",
+    "links": [
+      "26339",
+      "31650"
+    ],
+    "x": -6210.4,
+    "y": 6955.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "31650",
+    "links": [
+      "16051",
+      "16784",
+      "31017",
+      "8600"
+    ],
+    "x": -6210.4,
+    "y": 6632.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "38124",
+    "links": [
+      "51820",
+      "6355"
+    ],
+    "x": -6475.58,
+    "y": -7141.91
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "46205",
+    "links": [
+      "10534",
+      "2174",
+      "33209",
+      "51683"
+    ],
+    "x": -5585.44,
+    "y": -855.455
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "4882",
+    "links": [
+      "38172",
+      "49642",
+      "51921"
+    ],
+    "x": -3611.26,
+    "y": 3789.68
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "49642",
+    "links": [
+      "4882",
+      "51206"
+    ],
+    "x": -3662.52,
+    "y": 3664.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "51206",
+    "links": [
+      "46748",
+      "49642",
+      "52348"
+    ],
+    "x": -4049.84,
+    "y": 3992.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "51683",
+    "links": [
+      "44787",
+      "46205"
+    ],
+    "x": -5667.44,
+    "y": -663.483
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "58117",
+    "links": [
+      "13839",
+      "41186",
+      "53719",
+      "56996"
+    ],
+    "x": -9545.98,
+    "y": 5849.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "6355",
+    "links": [
+      "14110",
+      "38124"
+    ],
+    "x": -6724.4,
+    "y": -7672.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "64405",
+    "links": [
+      "25312",
+      "26339"
+    ],
+    "x": -6210.4,
+    "y": 7623.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "65287",
+    "links": [
+      "13839",
+      "5580"
+    ],
+    "x": -9552.02,
+    "y": 6484.44
+  }
+]

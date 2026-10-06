@@ -1,0 +1,7 @@
+{
+  "type": "recoup",
+  "deflected": true,
+  "resources": [
+    "health"
+  ]
+}

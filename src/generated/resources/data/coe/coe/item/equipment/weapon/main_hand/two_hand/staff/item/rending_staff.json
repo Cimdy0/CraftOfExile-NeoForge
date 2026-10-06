@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/staff/template/intelligence",
+    "reqs": {
+      "int": 60.0,
+      "l": 33.0
+    },
+    "skills": {
+      "coe:preset_soulrend": {
+        "id": "coe:preset_soulrend"
+      }
+    }
+  }
+}

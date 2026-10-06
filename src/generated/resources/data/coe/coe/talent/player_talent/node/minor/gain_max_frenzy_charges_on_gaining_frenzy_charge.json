@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_if_you_would_gain_frenzy_charges_you_instead_gain_up_to_your_max_number_of_frenzy_charges",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "25058",
+    "links": [
+      "4681",
+      "48828"
+    ],
+    "x": -4208.73,
+    "y": -7574.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_if_you_would_gain_frenzy_charges_you_instead_gain_up_to_your_max_number_of_frenzy_charges",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "4681",
+    "links": [
+      "25058",
+      "26228",
+      "48828"
+    ],
+    "x": -4350.76,
+    "y": -7820.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_if_you_would_gain_frenzy_charges_you_instead_gain_up_to_your_max_number_of_frenzy_charges",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "48828",
+    "links": [
+      "25058",
+      "34840",
+      "4681"
+    ],
+    "x": -4066.71,
+    "y": -7820.4
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_chance_to_chain_an_additional_time_from_terrain",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "33037",
+    "links": [
+      "47683",
+      "55060"
+    ],
+    "x": 708.375,
+    "y": 9275.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_chance_to_chain_an_additional_time_from_terrain",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "45331",
+    "links": [
+      "23221",
+      "33245",
+      "42302",
+      "60323"
+    ],
+    "x": 7169.05,
+    "y": 1898.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_chance_to_chain_an_additional_time_from_terrain",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "47683",
+    "links": [
+      "33037",
+      "51944"
+    ],
+    "x": 498.929,
+    "y": 9406.28
+  }
+]

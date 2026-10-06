@@ -1,0 +1,70 @@
+[
+  {
+    "icon": "passives_movementspeedandevasion",
+    "id": "11666",
+    "links": [
+      "13950",
+      "60708"
+    ],
+    "x": -12294.1,
+    "y": -1187.7
+  },
+  {
+    "icon": "passives_movementspeedandevasion",
+    "id": "13950",
+    "links": [
+      "11666",
+      "21218"
+    ],
+    "x": -11977.2,
+    "y": -1272.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_from_using_skills_while_moving",
+            "vars": {
+              "value": -0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "58539",
+    "links": [
+      "60899",
+      "65212"
+    ],
+    "x": 9930.18,
+    "y": 1918.61
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_from_using_skills_while_moving",
+            "vars": {
+              "value": -0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "60899",
+    "links": [
+      "32543",
+      "58539"
+    ],
+    "x": 9680.18,
+    "y": 1918.61
+  }
+]

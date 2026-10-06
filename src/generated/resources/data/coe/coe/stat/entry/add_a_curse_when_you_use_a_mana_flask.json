@@ -1,0 +1,24 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "count",
+      "match": "prefix",
+      "name": "use_flask",
+      "tag": "mana",
+      "window": 200.0
+    },
+    "operator": ">",
+    "right": {
+      "type": "const",
+      "value": 0.0
+    }
+  },
+  "effect": "coe:stat/effect/inline_attribute_530",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

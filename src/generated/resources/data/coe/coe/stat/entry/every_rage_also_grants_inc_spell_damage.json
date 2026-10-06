@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * rage * attribute:coe:rage_effect / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_71",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 0.01
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

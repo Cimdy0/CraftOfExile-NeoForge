@@ -1,0 +1,147 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_electrocute_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "29402",
+    "links": [
+      "38270",
+      "4046",
+      "54282"
+    ],
+    "x": -307.998,
+    "y": 9533.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_electrocute_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "4046",
+    "links": [
+      "29402",
+      "8875"
+    ],
+    "x": -342.747,
+    "y": 9792.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_electrocute_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "5564",
+    "links": [
+      "48833",
+      "63585"
+    ],
+    "x": 3555.53,
+    "y": 4441.55
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_electrocute_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "62998",
+    "links": [
+      "20649",
+      "63600"
+    ],
+    "x": 9731.16,
+    "y": 3030.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_electrocute_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "63600",
+    "links": [
+      "36364",
+      "62998"
+    ],
+    "x": 9507.95,
+    "y": 2888.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_electrocute_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "8875",
+    "links": [
+      "4046",
+      "50687"
+    ],
+    "x": -555.789,
+    "y": 9751.46
+  }
+]

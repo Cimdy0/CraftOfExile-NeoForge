@@ -1,0 +1,175 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "36894",
+    "links": [
+      "33137",
+      "43778",
+      "61938"
+    ],
+    "x": -7192.15,
+    "y": 6488.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "40276",
+    "links": [
+      "32745",
+      "60241"
+    ],
+    "x": -4113.12,
+    "y": -9545.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "43778",
+    "links": [
+      "14515",
+      "36894",
+      "8600"
+    ],
+    "x": -6735.9,
+    "y": 6366.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "60241",
+    "links": [
+      "40276",
+      "57178",
+      "58183"
+    ],
+    "x": -4113.12,
+    "y": -9254.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "61905",
+    "links": [
+      "12778",
+      "3251",
+      "8938"
+    ],
+    "x": 4748.75,
+    "y": -10391.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "64996",
+    "links": [
+      "33229",
+      "4810",
+      "7782"
+    ],
+    "x": 4532.24,
+    "y": -10850.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_inflict_bleeding_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "8938",
+    "links": [
+      "33229",
+      "61905"
+    ],
+    "x": 4459.49,
+    "y": -10558.2
+  }
+]

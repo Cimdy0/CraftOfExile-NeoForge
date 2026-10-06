@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_inc_critical_damage_bonus_against_enemies_within_xm",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_deal_inc_damage_with_hits_against_enemies_within_xm",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chainingprojectiles",
+    "id": "5802",
+    "links": [
+      "18049"
+    ],
+    "x": 7559.9,
+    "y": 4790.76
+  }
+]

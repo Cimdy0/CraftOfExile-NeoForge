@@ -1,0 +1,11 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "fire"
+  ],
+  "mode": "replace",
+  "tags": {
+    "tag": "spell"
+  },
+  "to": "chaos"
+}

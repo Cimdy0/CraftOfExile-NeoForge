@@ -1,0 +1,150 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "20049",
+    "links": [
+      "17118",
+      "30252",
+      "32818"
+    ],
+    "x": 3112.88,
+    "y": 7607.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "32818",
+    "links": [
+      "20049",
+      "48135"
+    ],
+    "x": 3362.88,
+    "y": 7857.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "48135",
+    "links": [
+      "12750",
+      "30252",
+      "32818"
+    ],
+    "x": 3112.88,
+    "y": 8107.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "50420",
+    "links": [
+      "31364",
+      "51241",
+      "55118"
+    ],
+    "x": 9009.04,
+    "y": 4719.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "51241",
+    "links": [
+      "50420",
+      "55118"
+    ],
+    "x": 9009.04,
+    "y": 5003.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_charm_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "55118",
+    "links": [
+      "50420",
+      "51241",
+      "54984"
+    ],
+    "x": 8763.04,
+    "y": 4861.35
+  }
+]

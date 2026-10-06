@@ -1,0 +1,33 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "global",
+        "stats": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_recharge_rate"
+          }
+        ]
+      },
+      "tiers": [
+        {
+          "level": 48,
+          "name": "of_buffering",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 16.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:feet",
+      "coe:head",
+      "coe:legs"
+    ]
+  }
+}

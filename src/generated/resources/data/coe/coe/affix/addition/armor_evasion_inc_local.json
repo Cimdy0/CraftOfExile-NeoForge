@@ -1,0 +1,11 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:inc_armor",
+    "coe:inc_evasion"
+  ],
+  "vars": [
+    "value",
+    "value"
+  ]
+}

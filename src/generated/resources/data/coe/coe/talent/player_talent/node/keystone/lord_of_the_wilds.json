@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_can_equip_a_non_item_rarity_sceptre_while_wielding_a_talisman",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_spirit",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:non_minion_skills_have_more_reservation_efficiency",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidanimism",
+    "id": "61942",
+    "links": [
+      "32474"
+    ],
+    "x": -9449.45,
+    "y": -4442.32
+  }
+]

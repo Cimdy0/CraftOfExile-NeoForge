@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:immune_to_poison",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "2134",
+    "links": [
+      "1723",
+      "9703"
+    ],
+    "x": 11355.4,
+    "y": -1849.36
+  }
+]

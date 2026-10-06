@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:armor/chest/template/dexterity_intelligence",
+    "reqs": {
+      "dex": 50.0,
+      "int": 50.0,
+      "l": 56.0
+    }
+  }
+}

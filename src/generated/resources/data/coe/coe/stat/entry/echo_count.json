@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:add_value_attribute_coe_echo_count",
+  "entry": "inline",
+  "targets": "coe:self_only"
+}

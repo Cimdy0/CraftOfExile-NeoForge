@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration_for_each_poison_you_have_inflicted_recently_up_to_a_max_of",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "38628",
+    "links": [
+      "53595"
+    ],
+    "x": 11197.0,
+    "y": -1557.81
+  }
+]

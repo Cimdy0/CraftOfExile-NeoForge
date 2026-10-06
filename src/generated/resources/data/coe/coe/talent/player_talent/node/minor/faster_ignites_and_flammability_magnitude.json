@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:ignites_you_inflict_deal_damage_faster",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "13610",
+    "links": [
+      "12245",
+      "41447"
+    ],
+    "x": 3124.76,
+    "y": 11407.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:ignites_you_inflict_deal_damage_faster",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "59661",
+    "links": [
+      "12245",
+      "26952"
+    ],
+    "x": 2796.83,
+    "y": 11149.2
+  }
+]

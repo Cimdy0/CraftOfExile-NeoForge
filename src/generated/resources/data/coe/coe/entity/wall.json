@@ -1,0 +1,26 @@
+{
+  "type": "coe:wall",
+  "behavior": [
+    {
+      "coe:pulse": {
+        "interval": 20
+      }
+    }
+  ],
+  "box_height": 2.5,
+  "motion": {
+    "coe:wall": {}
+  },
+  "on_trigger": [
+    {
+      "coe:phase_on_hit": {
+        "trigger": "on_tick"
+      }
+    }
+  ],
+  "render": "coe:wall",
+  "tags": [
+    "wall",
+    "physical"
+  ]
+}

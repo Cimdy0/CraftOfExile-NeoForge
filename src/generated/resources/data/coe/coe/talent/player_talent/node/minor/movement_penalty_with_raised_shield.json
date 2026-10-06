@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_while_actively_blocking",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "16620",
+    "links": [
+      "21161",
+      "58088"
+    ],
+    "x": -7305.17,
+    "y": 6383.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_while_actively_blocking",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "21161",
+    "links": [
+      "10500",
+      "16620"
+    ],
+    "x": -7149.56,
+    "y": 6180.51
+  }
+]

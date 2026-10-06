@@ -1,0 +1,15 @@
+{
+  "type": "grant_on_event",
+  "param": "cannot_regen_health",
+  "tags": {
+    "and": [
+      {
+        "tag": "bleed"
+      },
+      {
+        "tag": "caused_ailment"
+      }
+    ]
+  },
+  "target": "status"
+}

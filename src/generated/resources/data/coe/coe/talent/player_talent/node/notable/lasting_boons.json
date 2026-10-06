@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_slowing_potency_of_debuffs_on_you",
+            "vars": {
+              "value": -0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:buffs_on_you_expire_slower",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "64659",
+    "links": [
+      "22538",
+      "3355"
+    ],
+    "x": -2933.5,
+    "y": -11385.2
+  }
+]

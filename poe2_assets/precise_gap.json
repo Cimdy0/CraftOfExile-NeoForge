@@ -1,0 +1,22 @@
+{
+ "D": [],
+ "E": [
+  [
+   "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+   "DAMAGE",
+   "ADD_VALUE",
+   [
+    "ELEMENTAL",
+    "INFUSION"
+   ]
+  ],
+  [
+   "MORE_MAX_LIGHTNING_DAMAGE",
+   "DAMAGE",
+   "ADD_MULTIPLIED_TOTAL",
+   [
+    "LIGHTNING"
+   ]
+  ]
+ ]
+}

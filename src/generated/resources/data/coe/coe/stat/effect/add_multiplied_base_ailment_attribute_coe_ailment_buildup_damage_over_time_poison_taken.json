@@ -1,0 +1,23 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_buildup",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "damage_over_time"
+      },
+      {
+        "tag": "poison"
+      },
+      {
+        "tag": "ailment"
+      },
+      {
+        "not": {
+          "tag": "taken"
+        }
+      }
+    ]
+  }
+}

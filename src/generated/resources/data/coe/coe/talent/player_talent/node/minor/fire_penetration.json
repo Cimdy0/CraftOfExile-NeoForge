@@ -1,0 +1,317 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "11275",
+    "links": [
+      "13893",
+      "17348",
+      "27296"
+    ],
+    "x": -10615.2,
+    "y": 3301.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "23331",
+    "links": [
+      "2344",
+      "8145"
+    ],
+    "x": -7301.29,
+    "y": -7035.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "28101",
+    "links": [
+      "30808",
+      "43867",
+      "57571"
+    ],
+    "x": 11025.4,
+    "y": -2451.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "31746",
+    "links": [
+      "32845",
+      "41012"
+    ],
+    "x": -10916.3,
+    "y": -1806.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "36325",
+    "links": [
+      "54148",
+      "62310"
+    ],
+    "x": -3450.77,
+    "y": 9430.04
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "39228",
+    "links": [
+      "62603",
+      "63021"
+    ],
+    "x": -1552.9,
+    "y": -11527.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "39594",
+    "links": [
+      "33397",
+      "51248",
+      "53294"
+    ],
+    "x": -3382.45,
+    "y": 205.579
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "41573",
+    "links": [
+      "24655",
+      "42127"
+    ],
+    "x": -782.025,
+    "y": -5257.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "42127",
+    "links": [
+      "41573",
+      "4456"
+    ],
+    "x": -867.025,
+    "y": -5404.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "43867",
+    "links": [
+      "10423",
+      "28101"
+    ],
+    "x": 10960.7,
+    "y": -2857.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "47753",
+    "links": [
+      "51868",
+      "64819"
+    ],
+    "x": -11896.8,
+    "y": -1926.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "62603",
+    "links": [
+      "19715",
+      "39228"
+    ],
+    "x": -1508.15,
+    "y": -11694.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_fire_resistance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "8145",
+    "links": [
+      "23331",
+      "296"
+    ],
+    "x": -7465.29,
+    "y": -7035.15
+  }
+]

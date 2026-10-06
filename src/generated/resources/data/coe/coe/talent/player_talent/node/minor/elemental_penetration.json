@@ -1,0 +1,100 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetrates_of_enemy_elemental_resistances",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "22873",
+    "links": [
+      "64318",
+      "7777"
+    ],
+    "x": -5623.41,
+    "y": -7837.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetrates_of_enemy_elemental_resistances",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "296",
+    "links": [
+      "12992",
+      "30959",
+      "4140",
+      "8145"
+    ],
+    "x": -7633.29,
+    "y": -7035.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetrates_of_enemy_elemental_resistances",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "61063",
+    "links": [
+      "38535",
+      "64318"
+    ],
+    "x": -5912.67,
+    "y": -8004.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetrates_of_enemy_elemental_resistances",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "64318",
+    "links": [
+      "22873",
+      "61063"
+    ],
+    "x": -5745.67,
+    "y": -7959.35
+  }
+]

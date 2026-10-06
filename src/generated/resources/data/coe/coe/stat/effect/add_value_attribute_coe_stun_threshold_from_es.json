@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:stun_threshold_from_es",
+  "operation": "add_value"
+}

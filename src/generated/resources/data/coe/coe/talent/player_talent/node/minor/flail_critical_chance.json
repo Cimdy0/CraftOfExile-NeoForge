@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_flails",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "41747",
+    "links": [
+      "33393",
+      "61847"
+    ],
+    "x": -9050.55,
+    "y": -3180.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_flails",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "43443",
+    "links": [
+      "32148",
+      "49370",
+      "61847",
+      "8535"
+    ],
+    "x": -9058.33,
+    "y": -2717.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_flails",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "61847",
+    "links": [
+      "41747",
+      "43443"
+    ],
+    "x": -9265.01,
+    "y": -2982.99
+  }
+]

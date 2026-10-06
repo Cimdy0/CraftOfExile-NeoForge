@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:mark_skills_have_inc_skill_effect_duration",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "13624",
+    "links": [
+      "28258",
+      "45390",
+      "63830"
+    ],
+    "x": 7971.88,
+    "y": 8022.14
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:mark_skills_have_inc_skill_effect_duration",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "44841",
+    "links": [
+      "28258",
+      "36927",
+      "44756"
+    ],
+    "x": 7855.91,
+    "y": 8138.11
+  }
+]

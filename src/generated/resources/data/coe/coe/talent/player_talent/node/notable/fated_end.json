@@ -1,0 +1,46 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_curse_duration",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:targets_cursed_by_you_have_inc_health_regeneration_rate",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_curse_cannot_recharge_energy_shield"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "59214",
+    "links": [
+      "26268"
+    ],
+    "x": 6485.94,
+    "y": -6987.61
+  }
+]

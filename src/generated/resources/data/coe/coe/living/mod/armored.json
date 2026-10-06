@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_minecraft_armor_op_add_multiplied_base_1"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "armored"
+}

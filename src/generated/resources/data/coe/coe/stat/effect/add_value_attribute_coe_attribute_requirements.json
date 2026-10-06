@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:attribute_requirements",
+  "operation": "add_value"
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_gain_inc_accuracy_equal_to_their_critical_hit_chance",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_accuracydex",
+    "id": "16816",
+    "links": [
+      "8249"
+    ],
+    "x": 4278.42,
+    "y": 10564.5
+  }
+]

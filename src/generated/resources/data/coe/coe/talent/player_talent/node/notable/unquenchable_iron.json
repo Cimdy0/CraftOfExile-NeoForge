@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_lightning_damage",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "58197",
+    "links": [
+      "42762",
+      "50142"
+    ],
+    "x": -12570.0,
+    "y": 397.045
+  }
+]

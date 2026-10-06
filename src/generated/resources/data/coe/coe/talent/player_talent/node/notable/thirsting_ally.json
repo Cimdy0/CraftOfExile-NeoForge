@@ -1,0 +1,23 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:leeching_health_from_your_hit_damage_causes_your_companion_to_also_leech_the_same_amount_of_health"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "17600",
+    "links": [
+      "10041",
+      "18519"
+    ],
+    "x": 3604.21,
+    "y": 9630.41
+  }
+]

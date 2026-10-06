@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_flails",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "8535",
+    "links": [
+      "43443"
+    ],
+    "x": -8976.33,
+    "y": -2575.42
+  }
+]

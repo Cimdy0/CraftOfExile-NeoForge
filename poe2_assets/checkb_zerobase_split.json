@@ -1,0 +1,655 @@
+{
+ "true_miswires": [
+  {
+   "sid": "ADD_RECENTLY_CONSUMED_DAMAGE",
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_TAKEN",
+   "attr": "DAMAGE",
+   "base": 1.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_BASE",
+   "want_op": "ADD_VALUE",
+   "tags": [
+    "DAMAGE",
+    "TAKEN",
+    "not"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_MAX_RAGE",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RAGE",
+   "attr": "MAX_RAGE",
+   "base": 50.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_AFFECTED_ANY",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "cond": "COND_LIVING_STATE_RECENTLY_TOOK_DOT",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_AFFECTED_ANY_WHILE_AFFECTED",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "cond": "COND_LIVING_STATE_RECENTLY_TOOK_DOT",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_LOW",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "cond": "COND_LIVING_STATE_LOW_LIFE",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_LOW_WHILE_ON",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "cond": "COND_LIVING_STATE_LOW_LIFE",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_SURROUNDED",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "cond": "COND_LIVING_STATE_SURROUNDED",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_SURROUNDED_PER_SECOND",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "cond": "COND_LIVING_STATE_SURROUNDED",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_TOTEM",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN_TOTEM",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "REGEN",
+    "TOTEM"
+   ],
+   "cond": "COND_COUNT_RECENTLY_USE_TOTEM",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_TOTEM_WHILE_YOU",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN_TOTEM",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "REGEN",
+    "TOTEM"
+   ],
+   "cond": "COND_COUNT_RECENTLY_USE_TOTEM",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_VE_FLASK",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_FLASK_HEALTH_REGEN",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "FLASK",
+    "HEALTH",
+    "REGEN"
+   ],
+   "cond": "COND_COUNT_RECENTLY_USE_ITEM",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "INC_REGENERATE_LIFE_VE_FLASK_PER_SECOND",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_FLASK_HEALTH_REGEN",
+   "attr": "MAX_REGENERATION",
+   "base": 0.05,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "FLASK",
+    "HEALTH",
+    "REGEN"
+   ],
+   "cond": "COND_COUNT_RECENTLY_USE_ITEM",
+   "tgt": "TGT_INLINE_SELF"
+  },
+  {
+   "sid": "MORE_MAX_RAGE",
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_RAGE",
+   "attr": "MAX_RAGE",
+   "base": 50.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_BASE",
+   "want_op": "ADD_MULTIPLIED_TOTAL",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "TO_CRITICAL_HIT_CHANCE_OF_HERALD_SKILLS",
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_HERALD",
+   "attr": "CRIT_CHANCE",
+   "base": 1.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_BASE",
+   "want_op": "ADD_VALUE",
+   "tags": [
+    "HERALD"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  }
+ ],
+ "zero_base_false_positives": [
+  {
+   "sid": "INC_AILMENT_CHANCE",
+   "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE",
+   "attr": "AILMENT_CHANCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "AILMENT"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_AILMENT_CHANCE_VS_EXPOSED_COLD",
+   "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_COLD",
+   "attr": "AILMENT_CHANCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "AILMENT",
+    "COLD"
+   ],
+   "cond": "COND_EXPOSURE_COLD_STATUS",
+   "tgt": "TGT_INLINE_SELF_TRIGGER_TARGET"
+  },
+  {
+   "sid": "INC_AILMENT_CHANCE_VS_EXPOSED_FIRE",
+   "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_FIRE",
+   "attr": "AILMENT_CHANCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "AILMENT",
+    "FIRE"
+   ],
+   "cond": "COND_EXPOSURE_FIRE_STATUS",
+   "tgt": "TGT_INLINE_SELF_TRIGGER_TARGET"
+  },
+  {
+   "sid": "INC_AILMENT_CHANCE_VS_EXPOSED_LIGHTNING",
+   "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_LIGHTNING",
+   "attr": "AILMENT_CHANCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "AILMENT",
+    "LIGHTNING"
+   ],
+   "cond": "COND_EXPOSURE_LIGHTNING_STATUS",
+   "tgt": "TGT_INLINE_SELF_TRIGGER_TARGET"
+  },
+  {
+   "sid": "INC_ARMOR_AND_EVASION",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_EVASION_MINECRAFT_ARMOR",
+   "attr": "ARMOR",
+   "base": 0.0,
+   "base_src": "vanilla",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "EVASION"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_ARMOR_AND_EVASION_WHILE_LEECHING",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_EVASION_MINECRAFT_ARMOR",
+   "attr": "ARMOR",
+   "base": 0.0,
+   "base_src": "vanilla",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "EVASION"
+   ],
+   "cond": "COND_LEECHING_LIVING_STATE",
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_ARMOUR",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_MINECRAFT_ARMOR",
+   "attr": "ARMOR",
+   "base": 0.0,
+   "base_src": "vanilla",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_ARMOUR_ENERGY",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_MAX_ENERGY_SHIELD",
+   "attr": "MAX_ENERGY_SHIELD",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_ARMOUR_EVASION",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_EVASION_MINECRAFT_ARMOR",
+   "attr": "ARMOR",
+   "base": 0.0,
+   "base_src": "vanilla",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "EVASION"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_BLOCK_CHANCE",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_BLOCK_CHANCE",
+   "attr": "BLOCK_CHANCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_CHANCE_TO_SHOCK",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_CHANCE_SHOCK",
+   "attr": "AILMENT_CHANCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "SHOCK"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_DAMAGE_IS_TAKEN_MANA",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MANA_TAKE_OF_DAMAGE",
+   "attr": "MANA_TAKE_OF_DAMAGE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_DEXTERITY",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_DEXTERITY",
+   "attr": "DEXTERITY",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_DURATION_OF_PUPPET_MASTER",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_PUPPET_MASTER_DURATION_PUPPET_MASTER",
+   "attr": "PUPPET_MASTER_DURATION",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "PUPPET_MASTER"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_EFFECT_OF_PUPPET_MASTER",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_PUPPET_MASTER_EFFECT_PUPPET_MASTER",
+   "attr": "PUPPET_MASTER_EFFECT",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "PUPPET_MASTER"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_ELEMENTAL_AILMENT_THRESHOLD",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD_ELEMENTAL",
+   "attr": "AILMENT_THRESHOLD",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "ELEMENTAL"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_FOUND_QUANTITY",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_FOUND_ITEM_NUMBER",
+   "attr": "FOUND_ITEM_NUMBER",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_FOUND_RARITY",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_FOUND_ITEM_RARITY",
+   "attr": "FOUND_ITEM_RARITY",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_FREEZE_THRESHOLD",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_CHILL_COE_AILMENT_THRESHOLD_FREEZE",
+   "attr": "AILMENT_THRESHOLD",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "CHILL",
+    "FREEZE"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_INTELLIGENCE",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_INTELLIGENCE",
+   "attr": "INTELLIGENCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_INTELLIGENCE_2",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_INTELLIGENCE",
+   "attr": "INTELLIGENCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_LEECH_HEALTH",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_LEECH_HEALTH_LEECHING",
+   "attr": "LEECH",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "HEALTH",
+    "LEECHING"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_MANA_TAKE",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MANA_TAKE_OF_DAMAGE_MANA_TAKE",
+   "attr": "MANA_TAKE_OF_DAMAGE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "MANA_TAKE"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_MAX_ENERGY",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_MAX_ENERGY_SHIELD",
+   "attr": "MAX_ENERGY_SHIELD",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_MAX_ENERGY_SHIELD",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_MAX_ENERGY_SHIELD",
+   "attr": "MAX_ENERGY_SHIELD",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_MINION_ELEMENTAL_RESIST",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_ELEMENTAL_MINION_RESISTANCE",
+   "attr": "RESISTANCES",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "ELEMENTAL",
+    "MINION",
+    "RESISTANCE"
+   ],
+   "cond": null,
+   "tgt": "TGT_INLINE_MINION"
+  },
+  {
+   "sid": "INC_PROJECTILE_PIERCE",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_PROJECTILE_PIERCE_CHANCE_PROJECTILE",
+   "attr": "PROJECTILE_PIERCE_CHANCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "PROJECTILE"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_RAGE_LOSS_GRACE",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RAGE_LOSS_GRACE",
+   "attr": "RAGE_LOSS_GRACE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_RESERVATION_EFFICIENCY",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESERVATION_EFFICIENCY_RESERVATION",
+   "attr": "RESERVATION_EFFICIENCY",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "RESERVATION"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_CHANCE_SHOCK",
+   "attr": "AILMENT_CHANCE",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "SHOCK"
+   ],
+   "cond": "COND_ELECTROCUTE_STATUS",
+   "tgt": "TGT_COND_ON_TARGET"
+  },
+  {
+   "sid": "INC_SPIRIT",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_MAX_SPIRIT",
+   "attr": "MAX_SPIRIT",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_STRENGTH",
+   "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_STRENGTH",
+   "attr": "STRENGTH",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_MULTIPLIED_TOTAL",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  },
+  {
+   "sid": "INC_STUN_THRESHOLD",
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD_STUN",
+   "attr": "AILMENT_THRESHOLD",
+   "base": 0.0,
+   "base_src": "CoE",
+   "cur_op": "ADD_VALUE",
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "tags": [
+    "STUN"
+   ],
+   "cond": null,
+   "tgt": "TGT_SELF_ONLY"
+  }
+ ]
+}

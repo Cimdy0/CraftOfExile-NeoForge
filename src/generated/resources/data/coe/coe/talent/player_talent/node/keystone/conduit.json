@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:if_you_would_gain_a_charges_allies_in_your_presence_gain_that_charges_instead",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystoneconduit",
+    "id": "33979",
+    "links": [
+      "10382"
+    ],
+    "x": 4648.31,
+    "y": -8702.96
+  }
+]

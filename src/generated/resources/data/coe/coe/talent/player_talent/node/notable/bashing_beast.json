@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_heavy_stun_while_shapeshifted_are_intimidated_for_seconds",
+            "vars": {
+              "value": 6.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnotable",
+    "id": "8916",
+    "links": [
+      "25915"
+    ],
+    "x": -5074.1,
+    "y": -1300.35
+  }
+]

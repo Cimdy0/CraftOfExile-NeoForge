@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:inc_attack_damage"
+  ],
+  "vars": [
+    "value"
+  ]
+}

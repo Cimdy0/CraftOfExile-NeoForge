@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:skills_which_create_fissures_have_a_chance_to_create_an_additional_fissure",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "20251",
+    "links": [
+      "21184"
+    ],
+    "x": -10375.0,
+    "y": -715.924
+  }
+]

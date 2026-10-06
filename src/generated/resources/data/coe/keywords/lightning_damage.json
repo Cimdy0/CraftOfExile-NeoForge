@@ -1,0 +1,29 @@
+{
+  "aliases": [
+    "Lightning Damage",
+    "Lightning",
+    "闪电伤害"
+  ],
+  "description": [
+    [
+      "$[lightning_damage]",
+      "是一种元素伤害类型，也是",
+      "$[shock]",
+      "与",
+      "$[sap]",
+      "的基础。"
+    ],
+    [
+      "闪电",
+      "$[resistance]",
+      "可降低所受的",
+      "$[lightning_damage]",
+      "。"
+    ]
+  ],
+  "id": "lightning_damage",
+  "keys": [
+    "coe:keyword.lightning_damage"
+  ],
+  "title": "@coe:keyword.lightning_damage"
+}

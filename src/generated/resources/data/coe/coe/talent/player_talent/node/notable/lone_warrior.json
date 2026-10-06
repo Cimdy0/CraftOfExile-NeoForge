@@ -1,0 +1,34 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:your_aura_buffs_do_not_affect_allies"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "12964",
+    "links": [
+      "48264"
+    ],
+    "x": -6369.67,
+    "y": -4773.94
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_speed",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "25014",
+    "links": [
+      "50228",
+      "51821",
+      "62360"
+    ],
+    "x": -7655.53,
+    "y": -3652.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_speed",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "28564",
+    "links": [
+      "38053",
+      "38707",
+      "40328"
+    ],
+    "x": -8367.25,
+    "y": -1336.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_speed",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "37226",
+    "links": [
+      "4015",
+      "9187"
+    ],
+    "x": -5098.49,
+    "y": 7257.52
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_speed",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "37260",
+    "links": [
+      "30395",
+      "9442"
+    ],
+    "x": -7230.84,
+    "y": -2268.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_speed",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "40328",
+    "links": [
+      "28564",
+      "29762"
+    ],
+    "x": -8273.1,
+    "y": -1654.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_speed",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "42026",
+    "links": [
+      "17999",
+      "63813"
+    ],
+    "x": -6714.29,
+    "y": 8787.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_speed",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "63813",
+    "links": [
+      "1169",
+      "42026"
+    ],
+    "x": -6930.8,
+    "y": 8912.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_warcry_speed",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "9442",
+    "links": [
+      "24420",
+      "37260"
+    ],
+    "x": -7352.4,
+    "y": -2426.53
+  }
+]

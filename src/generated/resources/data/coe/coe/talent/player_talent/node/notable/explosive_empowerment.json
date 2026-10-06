@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_kill_with_empowered_attacks_have_a_chance_to_explode_dealing_a_tenth_of_their_max_health_as_fire_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "36333",
+    "links": [
+      "42059",
+      "62360"
+    ],
+    "x": -8156.53,
+    "y": -3941.85
+  }
+]

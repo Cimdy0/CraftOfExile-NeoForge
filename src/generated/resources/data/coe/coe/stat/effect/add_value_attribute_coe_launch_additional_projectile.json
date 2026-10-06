@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:launch_additional_projectile",
+  "operation": "add_value"
+}

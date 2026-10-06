@@ -1,0 +1,122 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_attack_and_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "10742",
+    "links": [
+      "41991",
+      "44733",
+      "8357"
+    ],
+    "x": -3972.07,
+    "y": -6058.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_attack_and_cast_speed",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "1928",
+    "links": [
+      "56284"
+    ],
+    "x": -3908.2,
+    "y": -7290.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_attack_and_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "41991",
+    "links": [
+      "10742",
+      "61026"
+    ],
+    "x": -4094.32,
+    "y": -6181.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_attack_and_cast_speed",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "56284",
+    "links": [
+      "1928",
+      "8737"
+    ],
+    "x": -3754.39,
+    "y": -7303.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_attack_and_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "8357",
+    "links": [
+      "10742",
+      "38972"
+    ],
+    "x": -3927.32,
+    "y": -5891.9
+  }
+]

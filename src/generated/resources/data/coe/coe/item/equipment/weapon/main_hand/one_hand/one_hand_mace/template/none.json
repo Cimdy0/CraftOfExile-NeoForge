@@ -1,0 +1,8 @@
+{
+  "coe:item_template": {
+    "extend": "coe:weapon",
+    "reqs": {
+      "l": "level"
+    }
+  }
+}

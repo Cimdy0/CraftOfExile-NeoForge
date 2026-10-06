@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_is_taken_from_mana_before_health",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 15.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mana",
+    "id": "51891",
+    "links": [
+      "62936"
+    ],
+    "x": 7124.22,
+    "y": -6643.64
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "allow_type": [
+    "empowersotherskill"
+  ],
+  "effects": [
+    {
+      "coe:effect_mod": {
+        "execute_threshold": 0.1
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.2,
+  "max_level": 20.0,
+  "require": {
+    "dexterity": 5.0
+  },
+  "reservation_multiplier": 1.2,
+  "tag": "murderous_intent"
+}

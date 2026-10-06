@@ -1,0 +1,50 @@
+{
+  "entry": "group",
+  "members": [
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "conditions": {
+        "type": "count",
+        "mode": "recently",
+        "name": "taken_hit",
+        "tag": "fire"
+      },
+      "effect": "coe:stat/effect/inline_attribute_414",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    },
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "conditions": {
+        "type": "count",
+        "mode": "recently",
+        "name": "taken_hit",
+        "tag": "cold"
+      },
+      "effect": "coe:stat/effect/inline_attribute_413",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    },
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "conditions": {
+        "type": "count",
+        "mode": "recently",
+        "name": "taken_hit",
+        "tag": "lightning"
+      },
+      "effect": "coe:stat/effect/inline_attribute_415",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    }
+  ]
+}

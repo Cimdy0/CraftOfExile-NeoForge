@@ -1,0 +1,639 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "13419",
+    "links": [
+      "14958",
+      "61196",
+      "630"
+    ],
+    "x": 3507.11,
+    "y": -2764.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "20024",
+    "links": [
+      "42857",
+      "44223"
+    ],
+    "x": 1696.35,
+    "y": -1419.45
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "21779",
+    "links": [
+      "40760",
+      "57204"
+    ],
+    "x": 1820.38,
+    "y": -4298.39
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "23040",
+    "links": [
+      "13407",
+      "38493"
+    ],
+    "x": 11231.0,
+    "y": 833.631
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "23915",
+    "links": [
+      "26598",
+      "41529"
+    ],
+    "x": 5948.12,
+    "y": 186.785
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "28021",
+    "links": [
+      "3463",
+      "44420",
+      "9782"
+    ],
+    "x": 5324.92,
+    "y": -5429.12
+  },
+  {
+    "icon": "passives_criticalstrikechance",
+    "id": "28223",
+    "links": [
+      "59039",
+      "6100"
+    ],
+    "x": -9204.61,
+    "y": -389.562
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "29959",
+    "links": [
+      "15775",
+      "60362",
+      "6891"
+    ],
+    "x": 10217.9,
+    "y": -3575.23
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "3458",
+    "links": [
+      "39569",
+      "45609"
+    ],
+    "x": 5356.71,
+    "y": 3564.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "34621",
+    "links": [
+      "16705",
+      "38541",
+      "535"
+    ],
+    "x": 5324.92,
+    "y": -4513.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "36602",
+    "links": [
+      "18465",
+      "63209"
+    ],
+    "x": -3407.77,
+    "y": -1423.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "38493",
+    "links": [
+      "23040",
+      "48773",
+      "55621"
+    ],
+    "x": 11010.9,
+    "y": 962.193
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "39569",
+    "links": [
+      "3458",
+      "35901",
+      "7353"
+    ],
+    "x": 5524.15,
+    "y": 3506.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "41529",
+    "links": [
+      "21380",
+      "23915"
+    ],
+    "x": 6106.54,
+    "y": 144.339
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "41665",
+    "links": [
+      "50562",
+      "55789"
+    ],
+    "x": -5859.21,
+    "y": 908.633
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "44223",
+    "links": [
+      "20024",
+      "49220"
+    ],
+    "x": 1886.06,
+    "y": -1444.43
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "45609",
+    "links": [
+      "3458",
+      "56776"
+    ],
+    "x": 5109.9,
+    "y": 3556.01
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "535",
+    "links": [
+      "20677",
+      "34621"
+    ],
+    "x": 5193.02,
+    "y": -4742.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "55596",
+    "links": [
+      "39131",
+      "45569",
+      "8509"
+    ],
+    "x": -8390.85,
+    "y": -5181.53
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "55789",
+    "links": [
+      "21017",
+      "41665"
+    ],
+    "x": -5899.91,
+    "y": 726.513
+  },
+  {
+    "icon": "passives_criticalstrikechance",
+    "id": "59039",
+    "links": [
+      "18448",
+      "28223"
+    ],
+    "x": -9361.23,
+    "y": -228.686
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_if_you_haven_t_dealt_a_critical_hit_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "59061",
+    "links": [
+      "28267",
+      "8509"
+    ],
+    "x": -7937.59,
+    "y": -5348.53
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "60362",
+    "links": [
+      "29959",
+      "56265"
+    ],
+    "x": 10463.9,
+    "y": -3717.25
+  },
+  {
+    "icon": "passives_criticalstrikechance",
+    "id": "6100",
+    "links": [
+      "20963",
+      "28223"
+    ],
+    "x": -9182.44,
+    "y": -634.224
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "630",
+    "links": [
+      "13419",
+      "17548"
+    ],
+    "x": 3703.13,
+    "y": -2940.28
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "6891",
+    "links": [
+      "29959",
+      "56265"
+    ],
+    "x": 10217.9,
+    "y": -3859.28
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_if_you_haven_t_dealt_a_critical_hit_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "8509",
+    "links": [
+      "55596",
+      "59061"
+    ],
+    "x": -8019.59,
+    "y": -5206.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "9782",
+    "links": [
+      "20677",
+      "28021"
+    ],
+    "x": 5193.02,
+    "y": -5200.3
+  }
+]

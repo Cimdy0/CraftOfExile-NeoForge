@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_rate",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifepercentage",
+    "id": "15374",
+    "links": [
+      "48035"
+    ],
+    "x": -3410.15,
+    "y": 7031.06
+  }
+]

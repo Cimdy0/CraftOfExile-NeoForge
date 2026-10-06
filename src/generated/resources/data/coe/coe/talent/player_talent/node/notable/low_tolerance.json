@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict_on_targets_that_are_not_poisoned",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "42959",
+    "links": [
+      "32896",
+      "59644"
+    ],
+    "x": 7088.65,
+    "y": 763.165
+  }
+]

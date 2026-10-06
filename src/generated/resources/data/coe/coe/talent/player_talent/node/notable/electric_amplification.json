@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_lightning_resistance",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_elemental_damage_as_extra_lightning_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "55708",
+    "links": [
+      "36293"
+    ],
+    "x": 1506.34,
+    "y": -11023.1
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:belt_charm_charges_used"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 3,
+        "name": "of_austerity",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 8.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 18,
+        "name": "of_frugality",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 11.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 33,
+        "name": "of_temperance",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 14.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 50,
+        "name": "of_restraint",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 19.0,
+            "min": 17.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 72,
+        "name": "of_economy",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 22.0,
+            "min": 20.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 81,
+        "name": "of_scarcity",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 25.0,
+            "min": 23.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "lightning",
+    "fire",
+    "cold"
+  ],
+  "mode": "gain",
+  "tags": {
+    "tag": "companion"
+  },
+  "to": "chaos"
+}

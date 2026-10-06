@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:flask_recover_mana"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "drizzling",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 16.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 14,
+        "name": "soaked",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 33.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 26,
+        "name": "mistbound",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 75.0,
+            "min": 55.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 36,
+        "name": "tidebound",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 110.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 47,
+        "name": "aqueous",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 145.0,
+            "min": 115.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 58,
+        "name": "flooded",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 180.0,
+            "min": 150.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 67,
+        "name": "oceanic",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 225.0,
+            "min": 185.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 76,
+        "name": "raindancer_s",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 300.0,
+            "min": 230.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cost": [
+    {
+      "value": 1.0
+    }
+  ],
+  "entry": "read",
+  "ref": "coe:generic_consume_corpse",
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "vars": {
+    "tier": 1.0
+  }
+}

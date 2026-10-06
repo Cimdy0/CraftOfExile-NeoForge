@@ -1,0 +1,46 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_max_rage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:regenerate_rage_per_second_per_rage_spent_recently",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:no_rage_effect"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidragekeystone",
+    "id": "37484",
+    "links": [
+      "41768"
+    ],
+    "x": -10073.8,
+    "y": -2358.14
+  }
+]

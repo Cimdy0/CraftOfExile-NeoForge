@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_moving",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_legstrength",
+    "id": "17077",
+    "links": [
+      "24922",
+      "36114",
+      "51463"
+    ],
+    "x": 4350.71,
+    "y": 7926.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_moving",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_legstrength",
+    "id": "36114",
+    "links": [
+      "17077",
+      "23360"
+    ],
+    "x": 4475.71,
+    "y": 8143.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_moving",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_legstrength",
+    "id": "51463",
+    "links": [
+      "17077",
+      "4364"
+    ],
+    "x": 4225.71,
+    "y": 8143.0
+  }
+]

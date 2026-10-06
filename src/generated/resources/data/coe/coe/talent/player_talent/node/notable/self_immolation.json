@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:ignites_you_cause_are_reflected_back_to_you",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_ignite_on_you",
+            "vars": {
+              "value": -0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "23630",
+    "links": [
+      "17885",
+      "19794"
+    ],
+    "x": -11338.9,
+    "y": -2538.8
+  }
+]

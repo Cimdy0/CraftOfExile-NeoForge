@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_attack_speed",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividwolf",
+    "id": "44684",
+    "links": [
+      "28142",
+      "5191"
+    ],
+    "x": 5328.27,
+    "y": 10118.5
+  }
+]

@@ -1,0 +1,72 @@
+{
+ "note": "这些条目来自早期「本地 preset 找不到 poe2db 对应页」的兜底匹配，把 HTTP 200 误当命中。建议下游过滤；未从 entries 中删除以保持 sha256 稳定。",
+ "count": 11,
+ "items": [
+  {
+   "id": "blight",
+   "page": "Blight",
+   "reason": "supporter_pack: /us/Blight 是赞助包页面，不是技能",
+   "gem_type": "skill"
+  },
+  {
+   "id": "frost_nova",
+   "page": "Frost_Nova",
+   "reason": "empty_stub: 无 property / 无 Level Effect / 无描述",
+   "gem_type": "skill"
+  },
+  {
+   "id": "cyclone",
+   "page": "Cyclone",
+   "reason": "truncated_levels: Level Effect 仅 1 级（正常技能为 40）",
+   "gem_type": "skill"
+  },
+  {
+   "id": "lacerate",
+   "page": "Lacerate",
+   "reason": "no_level_table: 无等级数据",
+   "gem_type": "skill"
+  },
+  {
+   "id": "puncture",
+   "page": "Puncture",
+   "reason": "truncated_levels: Level Effect 仅 3 级",
+   "gem_type": "skill"
+  },
+  {
+   "id": "toxic_rain",
+   "page": "Toxic_Rain",
+   "reason": "truncated_levels: Level Effect 仅 1 级",
+   "gem_type": "skill"
+  },
+  {
+   "id": "consume_corpse",
+   "page": "Consume_Corpse",
+   "reason": "no_level_table: 无等级数据",
+   "gem_type": "skill"
+  },
+  {
+   "id": "ground_slam",
+   "page": "Ground_Slam",
+   "reason": "no_level_table: 无等级数据",
+   "gem_type": "skill"
+  },
+  {
+   "id": "perforate",
+   "page": "Perforate",
+   "reason": "no_level_table: 无等级数据",
+   "gem_type": "skill"
+  },
+  {
+   "id": "wrath",
+   "page": "Wrath",
+   "reason": "empty_stub: 无 property / 无 Level Effect / 无描述",
+   "gem_type": "spirit"
+  },
+  {
+   "id": "grace",
+   "page": "Grace",
+   "reason": "empty_stub: 无 property / 无 Level Effect / 无描述",
+   "gem_type": "spirit"
+  }
+ ]
+}

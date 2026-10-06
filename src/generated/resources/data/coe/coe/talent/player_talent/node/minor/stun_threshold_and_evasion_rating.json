@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_if_you_haven_t_been_stunned_recently",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "38966",
+    "links": [
+      "30210",
+      "35058",
+      "61976"
+    ],
+    "x": 4789.34,
+    "y": 6711.05
+  }
+]

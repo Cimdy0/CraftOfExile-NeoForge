@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:flask_recovery_amount"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "opaque",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 11,
+        "name": "compact",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 46.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 23,
+        "name": "full_bodied",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 51.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 34,
+        "name": "abundant",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 60.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "substantial",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 65.0,
+            "min": 61.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 56,
+        "name": "concentrated",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 70.0,
+            "min": 66.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 67,
+        "name": "potent",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 75.0,
+            "min": 71.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 83,
+        "name": "saturated",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 80.0,
+            "min": 76.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

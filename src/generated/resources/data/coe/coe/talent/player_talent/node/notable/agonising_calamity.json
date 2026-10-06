@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage_while_affected_by_herald_of_plague",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_physical_damage_while_affected_by_herald_of_blood",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "43088",
+    "links": [
+      "178",
+      "28835"
+    ],
+    "x": 10740.7,
+    "y": 3623.48
+  }
+]

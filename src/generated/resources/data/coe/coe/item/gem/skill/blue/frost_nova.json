@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_frost_nova",
+  "vars": {
+    "tier": 1.0
+  }
+}

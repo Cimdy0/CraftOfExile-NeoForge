@@ -1,0 +1,22 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "group",
+    "nodes": [
+      {
+        "type": "living_state",
+        "mode": "off_hand_empty"
+      },
+      {
+        "type": "living_state",
+        "mode": "one_handed_martial"
+      }
+    ]
+  },
+  "effect": "coe:stat/effect/inline_attribute_1209",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

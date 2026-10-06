@@ -1,0 +1,517 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "12367",
+    "links": [
+      "15885",
+      "36358"
+    ],
+    "x": -1522.24,
+    "y": -7685.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "19112",
+    "links": [
+      "3492",
+      "36358"
+    ],
+    "x": -1232.99,
+    "y": -7184.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "19779",
+    "links": [
+      "4925",
+      "63891"
+    ],
+    "x": 1917.54,
+    "y": -11254.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "20782",
+    "links": [
+      "52191",
+      "59775"
+    ],
+    "x": 7023.89,
+    "y": -5325.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "26885",
+    "links": [
+      "3463",
+      "59775"
+    ],
+    "x": 6312.01,
+    "y": -5736.35
+  },
+  {
+    "icon": "passives_chaosdamage",
+    "id": "27572",
+    "links": [
+      "12940",
+      "25570"
+    ],
+    "x": -3145.95,
+    "y": -11525.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.11
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "32438",
+    "links": [
+      "55149",
+      "6800"
+    ],
+    "x": 7037.31,
+    "y": -8704.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamage2",
+    "id": "35095",
+    "links": [
+      "19359",
+      "41886"
+    ],
+    "x": 9617.68,
+    "y": -6052.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "36358",
+    "links": [
+      "12367",
+      "19112"
+    ],
+    "x": -1232.99,
+    "y": -7518.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "42999",
+    "links": [
+      "46554",
+      "4925"
+    ],
+    "x": 2166.53,
+    "y": -10823.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "46604",
+    "links": [
+      "2138",
+      "52454"
+    ],
+    "x": -2699.02,
+    "y": -3415.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "4925",
+    "links": [
+      "19779",
+      "42999"
+    ],
+    "x": 2288.79,
+    "y": -11279.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.11
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "5186",
+    "links": [
+      "58022",
+      "6800"
+    ],
+    "x": 7764.53,
+    "y": -8668.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "52454",
+    "links": [
+      "46604",
+      "58387"
+    ],
+    "x": -2693.71,
+    "y": -3716.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "54883",
+    "links": [
+      "34473",
+      "57724"
+    ],
+    "x": 6883.65,
+    "y": -5638.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "57724",
+    "links": [
+      "52191",
+      "54883"
+    ],
+    "x": 6518.13,
+    "y": -5617.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.11
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "58022",
+    "links": [
+      "14446",
+      "26762",
+      "5186"
+    ],
+    "x": 7691.01,
+    "y": -8333.04
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "58387",
+    "links": [
+      "52454",
+      "858"
+    ],
+    "x": -2213.53,
+    "y": -3902.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "59775",
+    "links": [
+      "20782",
+      "26885"
+    ],
+    "x": 7020.48,
+    "y": -5774.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "63891",
+    "links": [
+      "19779",
+      "63074"
+    ],
+    "x": 1958.54,
+    "y": -11041.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.11
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "6800",
+    "links": [
+      "32438",
+      "5186"
+    ],
+    "x": 7559.71,
+    "y": -8913.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chaos_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "858",
+    "links": [
+      "3041",
+      "58387"
+    ],
+    "x": -1800.53,
+    "y": -3479.88
+  }
+]

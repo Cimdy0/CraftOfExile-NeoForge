@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage_per_endurance_charge_consumed_recently",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "15494",
+    "links": [
+      "1865",
+      "43584",
+      "54934"
+    ],
+    "x": -2710.35,
+    "y": 3866.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage_per_endurance_charge_consumed_recently",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "1865",
+    "links": [
+      "15494",
+      "48670",
+      "54934"
+    ],
+    "x": -2568.32,
+    "y": 4112.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_fire_damage_per_endurance_charge_consumed_recently",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "54934",
+    "links": [
+      "15494",
+      "1865"
+    ],
+    "x": -2426.3,
+    "y": 3866.16
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "23419",
+    "links": [
+      "10671",
+      "55930"
+    ],
+    "x": 3494.64,
+    "y": 10705.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "27638",
+    "links": [
+      "38010",
+      "54923"
+    ],
+    "x": -3754.81,
+    "y": 7411.9
+  },
+  {
+    "icon": "passives_increasedphysicaldamage",
+    "id": "32768",
+    "links": [
+      "49734",
+      "8107"
+    ],
+    "x": -7196.81,
+    "y": -1657.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "50820",
+    "links": [
+      "46399",
+      "65472"
+    ],
+    "x": -10834.9,
+    "y": -2704.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "54923",
+    "links": [
+      "13524",
+      "27638"
+    ],
+    "x": -3690.1,
+    "y": 7653.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "55930",
+    "links": [
+      "23419",
+      "40687"
+    ],
+    "x": 3494.64,
+    "y": 10869.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "65472",
+    "links": [
+      "50820",
+      "9323"
+    ],
+    "x": -10829.6,
+    "y": -3005.8
+  },
+  {
+    "icon": "passives_increasedphysicaldamage",
+    "id": "8107",
+    "links": [
+      "18081",
+      "32768"
+    ],
+    "x": -6913.4,
+    "y": -1483.4
+  }
+]

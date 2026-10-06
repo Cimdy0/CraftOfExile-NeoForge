@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_bleeding_to_be_aggravated_when_inflicted_against_enemies_on_jagged_ground",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_jagged_ground_duration",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "icongroundslam",
+    "id": "17330",
+    "links": [
+      "33137",
+      "61927"
+    ],
+    "x": -6945.34,
+    "y": 6496.97
+  }
+]

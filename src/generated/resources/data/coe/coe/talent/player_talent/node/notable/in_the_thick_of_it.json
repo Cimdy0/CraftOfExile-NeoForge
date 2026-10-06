@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:regenerate_of_max_health_per_second_while_surrounded",
+            "vars": {
+              "value": 0.025
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "35028",
+    "links": [
+      "22556"
+    ],
+    "x": -625.037,
+    "y": 8869.68
+  }
+]

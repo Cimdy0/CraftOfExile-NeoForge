@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_with_spears",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnotable1",
+    "id": "10265",
+    "links": [
+      "18910"
+    ],
+    "x": 8120.55,
+    "y": 7491.65
+  }
+]

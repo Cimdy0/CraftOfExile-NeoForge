@@ -1,0 +1,243 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict_against_enemies_affected_by_incision",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "10576",
+    "links": [
+      "58644",
+      "58848"
+    ],
+    "x": 7459.44,
+    "y": 6789.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "15899",
+    "links": [
+      "21627",
+      "21721"
+    ],
+    "x": -313.535,
+    "y": 10441.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "21627",
+    "links": [
+      "15899",
+      "19796"
+    ],
+    "x": -477.535,
+    "y": 10605.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict_against_enemies_affected_by_incision",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "28268",
+    "links": [
+      "20837",
+      "36630",
+      "57517"
+    ],
+    "x": 3414.8,
+    "y": 3611.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "35015",
+    "links": [
+      "58718",
+      "6655"
+    ],
+    "x": -1587.62,
+    "y": 8880.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "37361",
+    "links": [
+      "40043",
+      "55231"
+    ],
+    "x": -1048.42,
+    "y": 4330.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "40043",
+    "links": [
+      "37361",
+      "54990"
+    ],
+    "x": -1048.42,
+    "y": 4166.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict_against_enemies_affected_by_incision",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "57517",
+    "links": [
+      "28268",
+      "29941"
+    ],
+    "x": 3247.77,
+    "y": 3615.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict_against_enemies_affected_by_incision",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "58644",
+    "links": [
+      "10576",
+      "42714"
+    ],
+    "x": 7282.66,
+    "y": 6613.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "58718",
+    "links": [
+      "35015",
+      "65322"
+    ],
+    "x": -1482.46,
+    "y": 8698.1
+  }
+]

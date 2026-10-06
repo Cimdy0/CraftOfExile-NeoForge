@@ -1,0 +1,8 @@
+{
+  "type": "equip_rule_exempt",
+  "identity_tags": [
+    "other_hand_conflict"
+  ],
+  "kind": "equip_rule_exempt",
+  "variant": "gate"
+}

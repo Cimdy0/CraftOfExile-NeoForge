@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "exposure_fire"
+  },
+  "effect": "coe:stat/effect/inline_attribute_57",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_56"
+}

@@ -1,0 +1,15 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "count",
+    "mode": "recently",
+    "name": "taken_dot",
+    "window": 20.0
+  },
+  "effect": "coe:stat/effect/inline_attribute_1079",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

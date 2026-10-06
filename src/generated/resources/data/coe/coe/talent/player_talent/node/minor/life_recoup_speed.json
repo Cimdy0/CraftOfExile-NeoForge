@@ -1,0 +1,149 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_speed_of_recoup_effects",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "15801",
+    "links": [
+      "32128",
+      "59438"
+    ],
+    "x": -2494.45,
+    "y": -5536.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_speed_of_recoup_effects",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "18101",
+    "links": [
+      "32128",
+      "59413",
+      "59438",
+      "61615"
+    ],
+    "x": -2496.26,
+    "y": -5249.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_speed_of_recoup_effects",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "38835",
+    "links": [
+      "4091",
+      "41105"
+    ],
+    "x": -7355.04,
+    "y": -4921.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_speed_of_recoup_effects",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "59413",
+    "links": [
+      "18101",
+      "59442"
+    ],
+    "x": -2250.63,
+    "y": -4971.77
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_speed_of_recoup_effects",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "59442",
+    "links": [
+      "46358",
+      "59413",
+      "61615"
+    ],
+    "x": -2496.77,
+    "y": -4970.02
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_speed_of_recoup_effects",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "61615",
+    "links": [
+      "18101",
+      "59442"
+    ],
+    "x": -2744.4,
+    "y": -4969.4
+  }
+]

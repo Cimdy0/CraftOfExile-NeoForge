@@ -1,0 +1,54 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_recover": {
+                "amount": "coe:level_table(17, 26, 37, 49, 63, 79, 97, 117, 140, 166, 194, 226, 262, 301, 344, 392, 443, 500, 561, 628)",
+                "resource": "health"
+              }
+            },
+            "period_ticks": "240 - 2 * (skill.level - 1)",
+            "trigger": "on_cast"
+          },
+          {
+            "action": {
+              "coe:action_cleanse": {
+                "kinds": [
+                  "curse"
+                ],
+                "tags": [
+                  "elemental"
+                ]
+              }
+            },
+            "period_ticks": "240 - 2 * (skill.level - 1)",
+            "trigger": "on_cast"
+          }
+        ]
+      }
+    }
+  ],
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "buff",
+    "persistent",
+    "duration"
+  ]
+}

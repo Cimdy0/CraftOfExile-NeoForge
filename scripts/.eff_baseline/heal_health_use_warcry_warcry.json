@@ -1,0 +1,8 @@
+{
+  "type": "heal",
+  "resource": "health",
+  "tags": [
+    "use_warcry",
+    "warcry"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_against_dazed_enemies",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "26572",
+    "links": [
+      "21945",
+      "47514"
+    ],
+    "x": 10290.9,
+    "y": -317.595
+  }
+]

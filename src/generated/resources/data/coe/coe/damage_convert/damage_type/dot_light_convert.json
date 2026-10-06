@@ -1,0 +1,7 @@
+{
+  "type": "coe:dot_light",
+  "convert": {
+    "light": 1,
+    "replace": true
+  }
+}

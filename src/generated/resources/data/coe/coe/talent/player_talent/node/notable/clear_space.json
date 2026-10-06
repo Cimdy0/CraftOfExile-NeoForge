@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_knockback_distance",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_knock_enemies_back_with_hit_damage_at_close_range",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_knockback",
+    "id": "57805",
+    "links": [
+      "43444",
+      "7788"
+    ],
+    "x": 491.715,
+    "y": 5712.0
+  }
+]

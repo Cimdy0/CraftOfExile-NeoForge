@@ -1,0 +1,89 @@
+{
+  "cast": {
+    "attack": {
+      "time": 0.0
+    }
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "modifiers": [
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_delivery": {
+                  "delivery": {
+                    "coe:delivery_hazard": {
+                      "count": 3.0,
+                      "lifetime": 160.0,
+                      "max_active": 20.0,
+                      "ref": {
+                        "ref": "coe:caltrop"
+                      },
+                      "shape": {
+                        "coe:shape_sphere": {
+                          "radius": 0.5
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "trigger": "on_listen"
+            },
+            {
+              "action": {
+                "coe:action_damage": {
+                  "amount": "coe:level_table(7.5, 12, 18.5, 25.5, 33, 41, 49, 58, 67.5, 77, 87.5, 97.5, 108.5, 120, 132.5, 144.5, 157.5, 170.5, 184, 198.5)",
+                  "can_crit": 1.0,
+                  "damage_type": "physical"
+                }
+              },
+              "trigger": "on_hit"
+            },
+            {
+              "action": {
+                "coe:action_status": {
+                  "duration": 80.0,
+                  "magnitude": 30.0,
+                  "on_target": true,
+                  "status": "coe:maim"
+                }
+              },
+              "trigger": "on_hit"
+            }
+          ],
+          "event_name": "dodge_roll",
+          "event_type": "custom"
+        }
+      }
+    }
+  ],
+  "phases": [
+    {
+      "phase": {}
+    }
+  ],
+  "require": {
+    "dexterity": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "aura",
+    "attack",
+    "buff",
+    "persistent",
+    "aoe",
+    "trigger",
+    "physical",
+    "duration",
+    "hazard"
+  ]
+}

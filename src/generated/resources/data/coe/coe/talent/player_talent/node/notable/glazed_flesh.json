@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_taken_recouped_as_health_mana_and_energy_shield",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "23939",
+    "links": [
+      "51797",
+      "59425"
+    ],
+    "x": -2697.32,
+    "y": -9995.46
+  }
+]

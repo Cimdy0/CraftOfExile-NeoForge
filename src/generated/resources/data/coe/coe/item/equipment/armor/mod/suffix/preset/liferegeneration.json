@@ -1,0 +1,111 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_health_regeneration_per_second"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "of_the_newt",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 1.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 5,
+          "name": "of_the_lizard",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 3.0,
+              "min": 2.1
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 11,
+          "name": "of_the_flatworm",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 4.0,
+              "min": 3.1
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 17,
+          "name": "of_the_starfish",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 6.0,
+              "min": 4.1
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 26,
+          "name": "of_the_hydra",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 9.0,
+              "min": 6.1
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 35,
+          "name": "of_the_troll",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 13.0,
+              "min": 9.1
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 47,
+          "name": "of_convalescence",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 18.0,
+              "min": 13.1
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 58,
+          "name": "of_recuperation",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 23.0,
+              "min": 18.1
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:feet",
+      "coe:head"
+    ]
+  }
+}

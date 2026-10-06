@@ -1,0 +1,464 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "14096",
+    "links": [
+      "1543",
+      "44293"
+    ],
+    "x": -2156.7,
+    "y": -4392.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "15304",
+    "links": [
+      "16466",
+      "22152"
+    ],
+    "x": 4836.5,
+    "y": -8894.18
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "1543",
+    "links": [
+      "14096",
+      "59376"
+    ],
+    "x": -2074.7,
+    "y": -4616.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "17505",
+    "links": [
+      "23382",
+      "28774",
+      "52106"
+    ],
+    "x": -6720.98,
+    "y": -9710.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "22152",
+    "links": [
+      "10382",
+      "15304"
+    ],
+    "x": 5000.5,
+    "y": -8894.18
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "25729",
+    "links": [
+      "33093",
+      "37876"
+    ],
+    "x": 8409.99,
+    "y": -7424.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "26596",
+    "links": [
+      "17254",
+      "51416",
+      "5766"
+    ],
+    "x": 4977.45,
+    "y": -3883.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "28774",
+    "links": [
+      "10295",
+      "17505",
+      "2999"
+    ],
+    "x": -6497.76,
+    "y": -9898.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "28839",
+    "links": [
+      "56703",
+      "56762"
+    ],
+    "x": -5249.58,
+    "y": -6899.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "29502",
+    "links": [
+      "36302",
+      "51184"
+    ],
+    "x": -142.023,
+    "y": -3113.45
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "47307",
+    "links": [
+      "2254",
+      "36302"
+    ],
+    "x": 142.033,
+    "y": -3113.45
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "4847",
+    "links": [
+      "19240",
+      "6294"
+    ],
+    "x": -2786.03,
+    "y": -4048.85
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "51416",
+    "links": [
+      "17088",
+      "26596",
+      "32016",
+      "5766"
+    ],
+    "x": 5333.4,
+    "y": -3563.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "52106",
+    "links": [
+      "10295",
+      "17505",
+      "44005"
+    ],
+    "x": -6994.78,
+    "y": -9611.14
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "52429",
+    "links": [
+      "58930",
+      "6294"
+    ],
+    "x": -2543.98,
+    "y": -3157.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "56703",
+    "links": [
+      "15782",
+      "28839"
+    ],
+    "x": -4965.53,
+    "y": -6899.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "56762",
+    "links": [
+      "20032",
+      "28839"
+    ],
+    "x": -5249.58,
+    "y": -7063.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "58930",
+    "links": [
+      "14934",
+      "52429"
+    ],
+    "x": -2280.76,
+    "y": -3303.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "6294",
+    "links": [
+      "4847",
+      "52429"
+    ],
+    "x": -2945.53,
+    "y": -3479.88
+  }
+]

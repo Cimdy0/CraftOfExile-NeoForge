@@ -1,0 +1,17 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * equipment_stat:head.energy + equipment_stat:chest.energy + equipment_stat:legs.energy + equipment_stat:feet.energy / $per"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "both_hands_empty"
+  },
+  "effect": "coe:stat/effect/inline_attribute_333",
+  "entry": "inline",
+  "params": {
+    "per": 10.0,
+    "value": 0.001
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

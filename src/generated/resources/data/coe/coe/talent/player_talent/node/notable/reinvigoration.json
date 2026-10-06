@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:regenerate_of_max_health_per_second_if_you_ve_used_a_health_flask_in_the_past_seconds",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "35809",
+    "links": [
+      "32813"
+    ],
+    "x": 5658.94,
+    "y": 4371.75
+  }
+]

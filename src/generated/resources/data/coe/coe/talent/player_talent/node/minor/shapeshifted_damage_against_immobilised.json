@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_against_immobilised_enemies_while_shapeshifted",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnode",
+    "id": "14026",
+    "links": [
+      "37187"
+    ],
+    "x": -9717.96,
+    "y": -6634.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_against_immobilised_enemies_while_shapeshifted",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnode",
+    "id": "37187",
+    "links": [
+      "14026",
+      "58496",
+      "63085"
+    ],
+    "x": -9717.96,
+    "y": -6452.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_against_immobilised_enemies_while_shapeshifted",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnode",
+    "id": "58496",
+    "links": [
+      "19563",
+      "37187",
+      "9328"
+    ],
+    "x": -9903.54,
+    "y": -6355.19
+  }
+]

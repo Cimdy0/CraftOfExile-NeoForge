@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "passives_channellingdamage",
+    "id": "17059",
+    "links": [
+      "55033",
+      "6874"
+    ],
+    "x": -9295.34,
+    "y": -1400.15
+  },
+  {
+    "icon": "passives_channellingdamage",
+    "id": "33203",
+    "links": [
+      "38707",
+      "55033"
+    ],
+    "x": -8808.25,
+    "y": -973.077
+  }
+]

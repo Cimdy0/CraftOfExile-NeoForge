@@ -1,0 +1,117 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_evasion_local"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "agile",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 11,
+        "name": "dancer_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 18.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "acrobat_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 51.0,
+            "min": 39.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "fleet",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 52.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "blurred",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 107.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "phased",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 141.0,
+            "min": 108.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "vaporous",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 174.0,
+            "min": 142.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "elusory",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 202.0,
+            "min": 175.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 70,
+        "name": "adroit",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 233.0,
+            "min": 203.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

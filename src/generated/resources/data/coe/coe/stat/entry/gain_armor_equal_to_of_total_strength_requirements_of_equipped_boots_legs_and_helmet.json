@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * equipment_stat:feet.strength_requirement + equipment_stat:head.strength_requirement + accessory_stat:legs.strength_requirement / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_391",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 1.5
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

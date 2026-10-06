@@ -1,0 +1,1 @@
+"coe:convert_percent(input = equipment_stat:head.energy, percent = attribute:coe:evasion_per_helmet_energy)"

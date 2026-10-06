@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_if_you_ve_dealt_a_critical_hit_recently",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "4519",
+    "links": [
+      "13724",
+      "4346"
+    ],
+    "x": 4542.03,
+    "y": -5257.07
+  }
+]

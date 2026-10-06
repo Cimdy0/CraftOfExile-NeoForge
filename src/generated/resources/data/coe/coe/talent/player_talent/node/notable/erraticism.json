@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed_if_you_ve_dealt_a_critical_hit_recently",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "20032",
+    "links": [
+      "56762"
+    ],
+    "x": -5107.55,
+    "y": -7145.78
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:mana_gained_from_enemy_death"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_absorption",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 2.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 12,
+        "name": "of_osmosis",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 5.0,
+            "min": 4.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 23,
+        "name": "of_infusion",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 9.0,
+            "min": 6.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 34,
+        "name": "of_enveloping",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 14.0,
+            "min": 10.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 45,
+        "name": "of_consumption",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 15.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 56,
+        "name": "of_siphoning",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 27.0,
+            "min": 21.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 67,
+        "name": "of_devouring",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 35.0,
+            "min": 28.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 78,
+        "name": "of_assimilation",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 45.0,
+            "min": 36.0
+          }
+        },
+        "weight": 750
+      }
+    ]
+  }
+}

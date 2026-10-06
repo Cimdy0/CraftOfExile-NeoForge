@@ -1,0 +1,28 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 25.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusdexterity",
+    "id": "58397",
+    "links": [
+      "19338",
+      "2334",
+      "24070",
+      "31647"
+    ],
+    "x": 8692.14,
+    "y": 1153.21
+  }
+]

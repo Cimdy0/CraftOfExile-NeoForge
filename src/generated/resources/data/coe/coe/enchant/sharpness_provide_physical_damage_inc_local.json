@@ -1,0 +1,17 @@
+{
+  "additions": [
+    {
+      "type": {
+        "type": "read",
+        "ref": "coe:physical_damage_inc_local"
+      },
+      "min": 0.15
+    }
+  ],
+  "enchant": "minecraft:sharpness",
+  "labels": [
+    "attack",
+    "physical",
+    "damage"
+  ]
+}

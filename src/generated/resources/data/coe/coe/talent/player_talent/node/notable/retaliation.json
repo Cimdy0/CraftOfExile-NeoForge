@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_thorns_damage_if_you_ve_blocked_recently",
+            "vars": {
+              "value": 0.75
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnotable1",
+    "id": "7395",
+    "links": [
+      "30007",
+      "3245"
+    ],
+    "x": -10905.2,
+    "y": 1720.04
+  }
+]

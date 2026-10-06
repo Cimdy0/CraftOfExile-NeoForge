@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:add_to_lightning_damage_to_attacks",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "64239",
+    "links": [
+      "61367"
+    ],
+    "x": -7004.99,
+    "y": -196.949
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_against_enemies_that_have_exited_your_presence_recently",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "17664",
+    "links": [
+      "11463",
+      "33348",
+      "7465"
+    ],
+    "x": 8363.42,
+    "y": 2346.58
+  }
+]

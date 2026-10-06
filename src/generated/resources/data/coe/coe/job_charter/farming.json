@@ -1,0 +1,7 @@
+{
+  "min_level": 3,
+  "requires_tech": [
+    "coe:unlock_farming"
+  ],
+  "work_type": "farming"
+}

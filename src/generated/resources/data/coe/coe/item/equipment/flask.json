@@ -1,0 +1,5 @@
+{
+  "coe:item_template": {
+    "extend": "coe:base"
+  }
+}

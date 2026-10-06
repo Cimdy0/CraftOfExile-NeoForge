@@ -1,0 +1,7 @@
+{
+  "convert": {
+    "cold": 1,
+    "replace": false
+  },
+  "tag": "minecraft:is_freezing"
+}

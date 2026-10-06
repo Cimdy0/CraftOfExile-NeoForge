@@ -1,0 +1,44 @@
+{
+  "aoe_ranges": {},
+  "cast": {},
+  "cast_particle": "minecraft:angry_villager",
+  "cast_sound": "minecraft:entity.ravager.roar",
+  "cost": [],
+  "params": {
+    "warcry_damage": 0.0,
+    "warcry_knockback": 0.0,
+    "warcry_radius": 3.5
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "$warcry_damage",
+                "can_crit": 1.0,
+                "damage_type": "physical",
+                "knockback": "$warcry_knockback"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": "$warcry_radius"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "warcry"
+  ]
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup_with_maces",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "17791",
+    "links": [
+      "13937",
+      "526",
+      "59777"
+    ],
+    "x": -10063.3,
+    "y": 4456.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup_with_maces",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "526",
+    "links": [
+      "17791",
+      "2645"
+    ],
+    "x": -10073.2,
+    "y": 4175.19
+  }
+]

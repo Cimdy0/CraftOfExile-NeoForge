@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "min($value * distinct:caused_ailment.8:victim_ignite / $per, $cap)"
+  },
+  "effect": "coe:stat/effect/inline_attribute_70",
+  "entry": "inline",
+  "params": {
+    "cap": 0.4,
+    "per": 1.0,
+    "value": 0.04
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

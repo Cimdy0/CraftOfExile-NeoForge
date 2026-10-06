@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_gain_of_physical_damage_as_extra_fire_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamage",
+    "id": "20511",
+    "links": [
+      "50228",
+      "53804"
+    ],
+    "x": -8156.53,
+    "y": -3363.34
+  }
+]

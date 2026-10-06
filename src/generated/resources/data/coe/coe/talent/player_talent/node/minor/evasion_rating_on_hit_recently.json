@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_if_you_have_hit_an_enemy_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeed",
+    "id": "47895",
+    "links": [
+      "43877",
+      "56493"
+    ],
+    "x": 5238.31,
+    "y": -208.975
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_curses_on_you",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_witchhunter_witchunternode",
+    "id": "6714",
+    "links": [
+      "41646",
+      "42583",
+      "5066"
+    ],
+    "x": -2097.34,
+    "y": 4370.32
+  }
+]

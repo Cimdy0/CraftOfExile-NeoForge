@@ -1,0 +1,8 @@
+{
+  "type": "aura_buffs_exclude_allies",
+  "identity_tags": [
+    "allies"
+  ],
+  "kind": "aura_buffs_exclude_allies",
+  "variant": "gate"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_damage_contribution",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "ignite"
+      },
+      {
+        "tag": "ailment"
+      },
+      {
+        "tag": "cold"
+      }
+    ]
+  }
+}

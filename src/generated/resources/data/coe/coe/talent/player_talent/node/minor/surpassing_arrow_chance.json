@@ -1,0 +1,99 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpass_chance_to_fire_an_additional_arrow",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "32319",
+    "links": [
+      "33542",
+      "57615"
+    ],
+    "x": 11851.7,
+    "y": 1038.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpass_chance_to_fire_an_additional_arrow",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "48836",
+    "links": [
+      "33542",
+      "57615"
+    ],
+    "x": 11851.7,
+    "y": 1288.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpass_chance_to_fire_an_additional_arrow",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "52800",
+    "links": [
+      "48773",
+      "57615"
+    ],
+    "x": 11229.2,
+    "y": 1163.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpass_chance_to_fire_an_additional_arrow",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "57615",
+    "links": [
+      "32319",
+      "48836",
+      "52800"
+    ],
+    "x": 11580.2,
+    "y": 1163.81
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "13845",
+    "links": [
+      "28408",
+      "28892"
+    ],
+    "x": -8776.24,
+    "y": -545.925
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "17625",
+    "links": [
+      "10873",
+      "47790"
+    ],
+    "x": -6062.5,
+    "y": -3045.95
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "27740",
+    "links": [
+      "12255",
+      "35792"
+    ],
+    "x": -6861.42,
+    "y": 8507.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "36389",
+    "links": [
+      "53989",
+      "61472"
+    ],
+    "x": -5002.78,
+    "y": 4783.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "4624",
+    "links": [
+      "49550",
+      "61935"
+    ],
+    "x": -3243.25,
+    "y": 4190.61
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "47790",
+    "links": [
+      "17625",
+      "18822"
+    ],
+    "x": -5997.79,
+    "y": -3158.02
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "53989",
+    "links": [
+      "29372",
+      "36389"
+    ],
+    "x": -4787.99,
+    "y": 4883.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "55746",
+    "links": [
+      "13241",
+      "61935"
+    ],
+    "x": -3268.23,
+    "y": 4000.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "60068",
+    "links": [
+      "37869",
+      "47263",
+      "55925"
+    ],
+    "x": -8776.24,
+    "y": -211.925
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_on_melee_hit_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "61935",
+    "links": [
+      "4624",
+      "55746"
+    ],
+    "x": -3484.73,
+    "y": 4125.9
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict_against_pinned_enemies",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "7782",
+    "links": [
+      "48805",
+      "64996"
+    ],
+    "x": 4748.75,
+    "y": -11059.2
+  }
+]

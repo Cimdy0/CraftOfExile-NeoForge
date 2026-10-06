@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_while_on_full_energy_shield",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldnodeoffensive",
+    "id": "36450",
+    "links": [
+      "10881",
+      "11838"
+    ],
+    "x": 3832.63,
+    "y": -9337.35
+  }
+]

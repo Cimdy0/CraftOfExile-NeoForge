@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:invoked_skills_have_inc_max_energy",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "338",
+    "links": [
+      "38069"
+    ],
+    "x": 1802.15,
+    "y": -8728.16
+  }
+]

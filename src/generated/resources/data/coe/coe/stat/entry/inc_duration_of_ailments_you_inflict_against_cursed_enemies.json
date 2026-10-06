@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "kind": "curse",
+    "output": "flag"
+  },
+  "effect": "coe:stat/effect/inline_attribute_52",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_53"
+}

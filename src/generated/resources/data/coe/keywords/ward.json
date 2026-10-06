@@ -1,0 +1,23 @@
+{
+  "aliases": [
+    "Ward",
+    "守护",
+    "精魄"
+  ],
+  "description": [
+    [
+      "$[ward]",
+      "是一层临时的吸收层，可吸收命中并随时间衰减。"
+    ],
+    [
+      "它只能由特定效果补充，并可配合",
+      "$[energy_shield]",
+      "使用。"
+    ]
+  ],
+  "id": "ward",
+  "keys": [
+    "coe:keyword.ward"
+  ],
+  "title": "@coe:keyword.ward"
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_endurance_frenzy_and_power_charge_duration",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividstag",
+    "id": "19027",
+    "links": [
+      "21156",
+      "40471",
+      "7847"
+    ],
+    "x": 9860.54,
+    "y": 603.555
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_endurance_frenzy_and_power_charge_duration",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividstag",
+    "id": "21156",
+    "links": [
+      "19027",
+      "34623"
+    ],
+    "x": 10077.1,
+    "y": 478.555
+  }
+]

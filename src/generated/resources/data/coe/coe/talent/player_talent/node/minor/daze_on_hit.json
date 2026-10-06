@@ -1,0 +1,102 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_daze_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "16013",
+    "links": [
+      "16140",
+      "39881",
+      "41811"
+    ],
+    "x": 8531.88,
+    "y": -2509.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_daze_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "16140",
+    "links": [
+      "16013",
+      "31286"
+    ],
+    "x": 8363.88,
+    "y": -2367.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_daze_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "25851",
+    "links": [
+      "16705",
+      "36270",
+      "52695",
+      "57230"
+    ],
+    "x": 6172.4,
+    "y": -4402.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_daze_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "36270",
+    "links": [
+      "25851",
+      "5009",
+      "57230"
+    ],
+    "x": 6498.21,
+    "y": -4779.48
+  }
+]

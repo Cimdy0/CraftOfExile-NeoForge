@@ -1,0 +1,13 @@
+{
+  "parent": "defence",
+  "children": [
+    "armor",
+    "energy_shield",
+    "deflect",
+    "evasion",
+    "guard",
+    "parry",
+    "resistance",
+    "block"
+  ]
+}

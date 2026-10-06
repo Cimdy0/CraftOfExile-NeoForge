@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:stat/effect/inline_accuracy_penalty_at_range_563",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

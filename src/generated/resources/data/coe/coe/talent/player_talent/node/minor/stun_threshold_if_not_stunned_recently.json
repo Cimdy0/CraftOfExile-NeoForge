@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_if_you_haven_t_been_stunned_recently",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "10677",
+    "links": [
+      "53935",
+      "56638"
+    ],
+    "x": 2744.42,
+    "y": -3512.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_if_you_haven_t_been_stunned_recently",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "56638",
+    "links": [
+      "10677",
+      "58329"
+    ],
+    "x": 2968.44,
+    "y": -3572.15
+  }
+]

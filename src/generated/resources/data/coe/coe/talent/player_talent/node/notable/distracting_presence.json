@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_in_your_presence_have_inc_cooldown_recovery_rate",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_greenattacksmallpassive",
+    "id": "44765",
+    "links": [
+      "26663"
+    ],
+    "x": 266.481,
+    "y": 8487.6
+  }
+]

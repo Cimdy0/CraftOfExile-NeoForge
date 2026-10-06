@@ -1,0 +1,20 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_minecraft_movement_speed_op_add_value_0_3"
+      },
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_minecraft_attack_speed_op_add_value_0_3"
+      },
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_cast_speed_op_add_value_0_3"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "hasted"
+}

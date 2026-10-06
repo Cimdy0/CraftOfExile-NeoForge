@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_daggers",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "20429",
+    "links": [
+      "28797",
+      "3419"
+    ],
+    "x": 10159.2,
+    "y": -4912.73
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_daggers",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "28797",
+    "links": [
+      "20429",
+      "632"
+    ],
+    "x": 10320.6,
+    "y": -5060.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_daggers",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "632",
+    "links": [
+      "28797",
+      "56366"
+    ],
+    "x": 10657.3,
+    "y": -5268.96
+  }
+]

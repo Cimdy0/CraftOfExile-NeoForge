@@ -1,0 +1,8 @@
+{
+  "type": "ammo_not_expended_chance",
+  "identity_tags": [
+    "crossbow"
+  ],
+  "kind": "ammo_not_expended_chance",
+  "variant": "rolled"
+}

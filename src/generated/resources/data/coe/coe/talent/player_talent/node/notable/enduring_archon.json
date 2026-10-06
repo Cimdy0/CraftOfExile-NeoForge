@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_archon_buff_duration",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongenericnotable",
+    "id": "59070",
+    "links": [
+      "32309"
+    ],
+    "x": -3544.92,
+    "y": -9603.35
+  }
+]

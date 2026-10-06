@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_cold_resistance",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_elemental_damage_as_extra_cold_damage",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamagenode",
+    "id": "41972",
+    "links": [
+      "56649",
+      "60515"
+    ],
+    "x": 488.435,
+    "y": -11452.5
+  }
+]

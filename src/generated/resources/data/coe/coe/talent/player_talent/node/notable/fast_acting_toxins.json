@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damaging_ailments_deal_damage_faster",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "55",
+    "links": [
+      "13030"
+    ],
+    "x": 4219.73,
+    "y": 5087.65
+  }
+]

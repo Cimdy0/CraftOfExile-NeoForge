@@ -1,0 +1,13 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/staff/template/none",
+    "reqs": {
+      "l": 2.0
+    },
+    "skills": {
+      "coe:preset_lightning_bolt": {
+        "id": "coe:preset_lightning_bolt"
+      }
+    }
+  }
+}

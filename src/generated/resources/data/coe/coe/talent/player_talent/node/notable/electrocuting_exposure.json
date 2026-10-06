@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_lightning_damage_against_electrocuted_enemies",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "7275",
+    "links": [
+      "23724"
+    ],
+    "x": -798.455,
+    "y": 9336.63
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * min(min(attribute:coe:strength, attribute:coe:dexterity), attribute:coe:intelligence) / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_188",
+  "entry": "inline",
+  "params": {
+    "per": 5.0,
+    "value": 0.02
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

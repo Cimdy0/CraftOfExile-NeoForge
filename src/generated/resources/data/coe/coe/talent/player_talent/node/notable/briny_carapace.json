@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_for_each_time_you_ve_been_stunned_recently",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "53935",
+    "links": [
+      "10677"
+    ],
+    "x": 2804.44,
+    "y": -3288.1
+  }
+]

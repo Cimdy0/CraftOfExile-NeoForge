@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "count",
+    "mode": "recently",
+    "name": "taken_stun"
+  },
+  "effect": "coe:stat/effect/inline_immune_613",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

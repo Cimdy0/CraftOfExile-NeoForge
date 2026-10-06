@@ -1,0 +1,28 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_resistances_of_each_elemental_damage_type_you_have_been_hit_damage_with_recently",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldominion2",
+    "id": "43250",
+    "links": [
+      "22697",
+      "34818",
+      "35404",
+      "43077"
+    ],
+    "x": -9485.55,
+    "y": -2055.78
+  }
+]

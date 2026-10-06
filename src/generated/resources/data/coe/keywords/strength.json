@@ -1,0 +1,23 @@
+{
+  "aliases": [
+    "Strength",
+    "力量"
+  ],
+  "description": [
+    [
+      "$[strength]",
+      "是一种提供",
+      "$[life]",
+      "并提高近战",
+      "$[damage]",
+      "的",
+      "$[attribute]",
+      "。"
+    ]
+  ],
+  "id": "strength",
+  "keys": [
+    "coe:keyword.strength"
+  ],
+  "title": "@coe:keyword.strength"
+}

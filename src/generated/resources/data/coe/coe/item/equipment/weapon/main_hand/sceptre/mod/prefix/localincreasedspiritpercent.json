@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "local",
+      "refs": [
+        "coe:inc_max_spirit"
+      ],
+      "vars": [
+        "value"
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "lord_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 20.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 8,
+        "name": "baron_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 32.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "viscount_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 33.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "marquess",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 39.0
+          }
+        },
+        "weight": 600
+      },
+      {
+        "level": 46,
+        "name": "count_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 45.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 60,
+        "name": "duke_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 51.0
+          }
+        },
+        "weight": 200
+      },
+      {
+        "level": 75,
+        "name": "prince_s",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 60.0,
+            "min": 56.0
+          }
+        },
+        "weight": 100
+      },
+      {
+        "level": 82,
+        "name": "king_s",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 65.0,
+            "min": 61.0
+          }
+        },
+        "weight": 50
+      }
+    ]
+  }
+}

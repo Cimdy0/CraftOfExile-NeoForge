@@ -1,0 +1,99 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_used_from_mana_flasks",
+            "vars": {
+              "value": -0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "17706",
+    "links": [
+      "42076",
+      "46972"
+    ],
+    "x": 1458.34,
+    "y": -3527.28
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_used_from_mana_flasks",
+            "vars": {
+              "value": -0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "23839",
+    "links": [
+      "47418",
+      "51006"
+    ],
+    "x": 7353.19,
+    "y": -1798.01
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_used_from_mana_flasks",
+            "vars": {
+              "value": -0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "42076",
+    "links": [
+      "17706",
+      "4203"
+    ],
+    "x": 1600.36,
+    "y": -3445.28
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_used_from_mana_flasks",
+            "vars": {
+              "value": -0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "51006",
+    "links": [
+      "23839",
+      "41877",
+      "53958"
+    ],
+    "x": 7357.63,
+    "y": -1978.6
+  }
+]

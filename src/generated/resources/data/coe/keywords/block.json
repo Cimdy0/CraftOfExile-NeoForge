@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "Block",
+    "Blocking",
+    "格挡"
+  ],
+  "description": [
+    [
+      "$[block]",
+      "提供完全避开命中",
+      "$[damage]",
+      "的几率。"
+    ],
+    [
+      "法术格挡可抵御法术命中；二者均与",
+      "$[evasion]",
+      "和",
+      "$[dodge]",
+      "不同。"
+    ]
+  ],
+  "id": "block",
+  "keys": [
+    "coe:keyword.block"
+  ],
+  "title": "@coe:keyword.block"
+}

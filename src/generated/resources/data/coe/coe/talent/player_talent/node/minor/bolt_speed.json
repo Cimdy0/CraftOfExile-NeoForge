@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_bolt_speed",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "54985",
+    "links": [
+      "14602",
+      "60191"
+    ],
+    "x": -3003.07,
+    "y": 7144.02
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_bolt_speed",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "60191",
+    "links": [
+      "37612",
+      "54985"
+    ],
+    "x": -3179.85,
+    "y": 7320.8
+  }
+]

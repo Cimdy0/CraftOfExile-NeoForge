@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:meta_energy_max",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "meta"
+  }
+}

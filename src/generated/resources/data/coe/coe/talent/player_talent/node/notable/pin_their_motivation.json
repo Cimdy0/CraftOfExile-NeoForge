@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_pinned_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:pinned_enemies_cannot_deal_critical_hits",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedprojectilespeednode",
+    "id": "4447",
+    "links": [
+      "18470",
+      "3234"
+    ],
+    "x": 2756.47,
+    "y": 6162.5
+  }
+]

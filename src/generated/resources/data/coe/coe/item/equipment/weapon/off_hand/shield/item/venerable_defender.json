@@ -1,0 +1,15 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/off_hand/shield/template/strength_dexterity",
+    "reqs": {
+      "dex": 64.0,
+      "l": 62.0,
+      "str": 64.0
+    },
+    "skills": {
+      "coe:preset_raise_shield": {
+        "id": "coe:preset_raise_shield"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "coe:bleeding",
+      "required": false
+    },
+    {
+      "id": "coe:poison",
+      "required": false
+    },
+    {
+      "id": "coe:ignite",
+      "required": false
+    },
+    {
+      "id": "coe:dot_physical",
+      "required": false
+    },
+    {
+      "id": "coe:dot_chaos",
+      "required": false
+    },
+    {
+      "id": "coe:dot_fire",
+      "required": false
+    },
+    {
+      "id": "coe:dot_cold",
+      "required": false
+    },
+    {
+      "id": "coe:dot_light",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_health_recovery_rate",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:regenerate_of_max_health_per_second",
+            "vars": {
+              "value": 0.0075
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedmaximumlifenotable",
+    "id": "50609",
+    "links": [
+      "11916",
+      "14926"
+    ],
+    "x": -182.505,
+    "y": 3700.21
+  }
+]

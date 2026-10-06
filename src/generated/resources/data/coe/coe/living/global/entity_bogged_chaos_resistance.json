@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    {
+      "type": "entity_flag",
+      "types": [
+        "minecraft:bogged"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_resist_chaos_10"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_convert_phys_to_chaos_100"
+    }
+  ]
+}

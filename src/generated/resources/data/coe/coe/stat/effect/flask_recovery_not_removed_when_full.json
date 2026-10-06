@@ -1,0 +1,5 @@
+{
+  "type": "flask_recovery_not_removed_when_full",
+  "kind": "flask_recovery_not_removed_when_full",
+  "variant": "gate"
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_with_daggers",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "62001",
+    "links": [
+      "54058"
+    ],
+    "x": 11090.4,
+    "y": -5494.33
+  }
+]

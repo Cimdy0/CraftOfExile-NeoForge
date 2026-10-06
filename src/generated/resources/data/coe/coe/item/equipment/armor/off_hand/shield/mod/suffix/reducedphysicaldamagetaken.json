@@ -1,0 +1,74 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:add_physical_damage_reduction"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 32,
+        "name": "of_the_watchman",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 4.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 41,
+        "name": "of_the_custodian",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 5.0,
+            "min": 5.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 53,
+        "name": "of_the_sentry",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 6.0,
+            "min": 6.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 66,
+        "name": "of_the_protector",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 7.0,
+            "min": 7.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 77,
+        "name": "of_the_conservator",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 8.0,
+            "min": 8.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

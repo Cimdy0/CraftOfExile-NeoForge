@@ -1,0 +1,143 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_rage",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "10484",
+    "links": [
+      "17092",
+      "42660"
+    ],
+    "x": -8076.15,
+    "y": -604.357
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_rage",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "16347",
+    "links": [
+      "52373",
+      "52556"
+    ],
+    "x": -5503.08,
+    "y": 8702.86
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_rage",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "17092",
+    "links": [
+      "10484",
+      "3723"
+    ],
+    "x": -8158.15,
+    "y": -746.385
+  },
+  {
+    "icon": "passives_rage",
+    "id": "18441",
+    "links": [
+      "28002",
+      "34181"
+    ],
+    "x": -4914.48,
+    "y": -3117.96
+  },
+  {
+    "icon": "passives_rage",
+    "id": "34181",
+    "links": [
+      "18441",
+      "45422"
+    ],
+    "x": -4789.48,
+    "y": -3334.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_rage",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "52373",
+    "links": [
+      "16347",
+      "37276",
+      "56342"
+    ],
+    "x": -5727.11,
+    "y": 8762.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_rage",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "52556",
+    "links": [
+      "16347",
+      "28304"
+    ],
+    "x": -5443.06,
+    "y": 8926.88
+  }
+]

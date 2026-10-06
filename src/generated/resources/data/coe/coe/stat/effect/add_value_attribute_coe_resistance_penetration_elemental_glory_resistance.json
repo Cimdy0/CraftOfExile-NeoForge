@@ -1,0 +1,18 @@
+{
+  "type": "attribute",
+  "attribute": "coe:resistance_penetration",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "glory"
+      },
+      {
+        "tag": "resistance"
+      },
+      {
+        "tag": "elemental"
+      }
+    ]
+  }
+}

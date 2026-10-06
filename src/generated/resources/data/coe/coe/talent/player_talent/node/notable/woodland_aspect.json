@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:charms_applied_to_you_have_inc_effect",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnotable1",
+    "id": "62803",
+    "links": [
+      "38497",
+      "48462"
+    ],
+    "x": 7429.98,
+    "y": 8930.1
+  }
+]

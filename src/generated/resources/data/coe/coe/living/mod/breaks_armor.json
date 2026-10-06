@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_armor_break_op_add_value_0_1_armor_break"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "breaks_armor"
+}

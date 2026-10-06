@@ -1,0 +1,8 @@
+{
+  "members": [
+    "coe:add_fire_damage_minmax",
+    "coe:add_fire_damage",
+    "coe:extra_fire_damage"
+  ],
+  "slot": {}
+}

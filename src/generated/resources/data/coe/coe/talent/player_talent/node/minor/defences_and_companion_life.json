@@ -1,0 +1,292 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "22368",
+    "links": [
+      "16484",
+      "29930",
+      "63182"
+    ],
+    "x": 3601.85,
+    "y": 6420.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "27048",
+    "links": [
+      "39495",
+      "47375"
+    ],
+    "x": 11024.0,
+    "y": 2449.53
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "47375",
+    "links": [
+      "27048",
+      "63618"
+    ],
+    "x": 11305.3,
+    "y": 2677.45
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "51807",
+    "links": [
+      "55635",
+      "57089"
+    ],
+    "x": -8253.67,
+    "y": -6131.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "57089",
+    "links": [
+      "51807",
+      "55450"
+    ],
+    "x": -8111.65,
+    "y": -6049.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "59647",
+    "links": [
+      "30910",
+      "8791"
+    ],
+    "x": 4051.82,
+    "y": 9933.36
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "63182",
+    "links": [
+      "22368",
+      "29930",
+      "8789"
+    ],
+    "x": 3645.61,
+    "y": 6863.03
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "63618",
+    "links": [
+      "31129",
+      "47375"
+    ],
+    "x": 11588.9,
+    "y": 2604.19
+  }
+]

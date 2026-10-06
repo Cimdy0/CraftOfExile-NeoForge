@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_one_of_your_minions_has_died_recently",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagespells",
+    "id": "8397",
+    "links": [
+      "41130"
+    ],
+    "x": -1573.72,
+    "y": -5206.19
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "aliases": [
+    "Channeling",
+    "Channel",
+    "引导"
+  ],
+  "description": [
+    [
+      "$[channeling]",
+      "$[skill]",
+      "在按住攻击键时持续释放，反复造成效果。"
+    ],
+    [
+      "$[channeling]",
+      "时移动速度通常会被降低。"
+    ]
+  ],
+  "id": "channeling",
+  "keys": [
+    "coe:keyword.channeling"
+  ],
+  "title": "@coe:keyword.channeling"
+}

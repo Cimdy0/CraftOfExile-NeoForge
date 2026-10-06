@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_hindered_enemies",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_hinder_enemies_on_hit_with_spells",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagespells",
+    "id": "61444",
+    "links": [
+      "15180",
+      "34096"
+    ],
+    "x": -3910.15,
+    "y": -2981.11
+  }
+]

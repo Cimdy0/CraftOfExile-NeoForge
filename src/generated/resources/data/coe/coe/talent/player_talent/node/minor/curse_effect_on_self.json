@@ -1,0 +1,98 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_curses_on_you",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldnodeoffensive",
+    "id": "36474",
+    "links": [
+      "24767",
+      "31925"
+    ],
+    "x": -5842.29,
+    "y": -8243.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_curses_on_you",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldnodeoffensive",
+    "id": "38596",
+    "links": [
+      "31925",
+      "35408"
+    ],
+    "x": -6300.11,
+    "y": -8244.85
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_curses_on_you",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "50107",
+    "links": [
+      "50881",
+      "5594"
+    ],
+    "x": 3127.94,
+    "y": -7482.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_curses_on_you",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "50881",
+    "links": [
+      "50107",
+      "55420"
+    ],
+    "x": 3127.94,
+    "y": -7646.13
+  }
+]

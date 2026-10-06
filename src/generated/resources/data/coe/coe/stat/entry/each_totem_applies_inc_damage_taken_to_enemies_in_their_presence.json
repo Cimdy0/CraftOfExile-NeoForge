@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * presence_count:ally.totem / $per"
+  },
+  "effect": "coe:stat/effect/inline_presence_aura_1072",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 0.02
+  },
+  "targets": "coe:stat/targets/inline_inline_1071"
+}

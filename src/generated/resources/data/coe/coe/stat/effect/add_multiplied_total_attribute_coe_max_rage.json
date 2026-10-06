@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_rage",
+  "operation": "add_multiplied_total"
+}

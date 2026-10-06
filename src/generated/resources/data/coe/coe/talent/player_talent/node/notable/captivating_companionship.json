@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_from_hit_damage_is_taken_from_your_damageable_companion_s_health_before_you",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_your_companion_is_in_your_presence",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "32799",
+    "links": [
+      "10041",
+      "23961"
+    ],
+    "x": 4013.27,
+    "y": 9394.24
+  }
+]

@@ -1,0 +1,262 @@
+{
+  "ladders": {
+    "armor~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:armor_inc_local"
+        },
+        "max": 14.0,
+        "min": 14.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:evasion_inc_local"
+        },
+        "max": 14.0,
+        "min": 14.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_inc_local"
+        },
+        "max": 14.0,
+        "min": 14.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:armor_inc_local"
+        },
+        "max": 16.0,
+        "min": 16.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:evasion_inc_local"
+        },
+        "max": 16.0,
+        "min": 16.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_inc_local"
+        },
+        "max": 16.0,
+        "min": 16.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:armor_inc_local"
+        },
+        "max": 18.0,
+        "min": 18.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:evasion_inc_local"
+        },
+        "max": 18.0,
+        "min": 18.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_inc_local"
+        },
+        "max": 18.0,
+        "min": 18.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:armor_inc_local"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:evasion_inc_local"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_inc_local"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      }
+    ],
+    "wand|staff~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:spell_damage_inc"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:spell_damage_inc"
+        },
+        "max": 25.0,
+        "min": 25.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:spell_damage_inc"
+        },
+        "max": 30.0,
+        "min": 30.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:spell_damage_inc"
+        },
+        "max": 35.0,
+        "min": 35.0,
+        "tier": "perfect"
+      }
+    ],
+    "weapon, !wand, !staff, !off_hand~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:attack_physical_damage_inc"
+        },
+        "max": 14.0,
+        "min": 14.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:attack_physical_damage_inc"
+        },
+        "max": 16.0,
+        "min": 16.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:attack_physical_damage_inc"
+        },
+        "max": 18.0,
+        "min": 18.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:attack_physical_damage_inc"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      }
+    ]
+  }
+}

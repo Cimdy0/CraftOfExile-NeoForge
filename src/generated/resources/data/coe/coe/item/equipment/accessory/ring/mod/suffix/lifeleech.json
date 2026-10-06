@@ -1,0 +1,39 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:leech_physical_damage_as_life"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 21,
+        "name": "of_the_locust",
+        "tier": 1,
+        "values": {
+          "value": {
+            "max": 6.9,
+            "min": 6.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 38,
+        "name": "of_the_remora",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 7.9,
+            "min": 7.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_trap_damage",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapdamage",
+    "id": "27417",
+    "links": [
+      "64295",
+      "8644"
+    ],
+    "x": 8677.92,
+    "y": -7180.28
+  }
+]

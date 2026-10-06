@@ -1,0 +1,9 @@
+{
+  "type": "entity_stage_skip_chance",
+  "identity_tags": [
+    "plant"
+  ],
+  "kind": "entity_stage_skip_chance",
+  "roll_mode": "count",
+  "variant": "rolled"
+}

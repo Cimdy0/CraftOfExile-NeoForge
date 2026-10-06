@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_resistances_op_add_value_0_5_chaos"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "chaos_resistant"
+}

@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:stat/effect/inline_ally_damage_applies_to_self_207",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:storm_and_plant_spells_deal_more_damage",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:storm_and_plant_spells_cost_more",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:storm_and_plant_spells_have_more_duration",
+            "vars": {
+              "value": -0.75
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidwildsurgeincantation",
+    "id": "49363",
+    "links": [
+      "44733"
+    ],
+    "x": -3496.22,
+    "y": -6579.23
+  }
+]

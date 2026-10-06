@@ -1,0 +1,9 @@
+{
+  "members": [
+    "coe:add_max_health",
+    "coe:armor_evasion_inc_local",
+    "coe:energy_evasion_inc_local",
+    "coe:evasion_inc_local"
+  ],
+  "slot": {}
+}

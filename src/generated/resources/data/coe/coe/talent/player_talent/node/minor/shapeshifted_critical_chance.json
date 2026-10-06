@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "61896",
+    "links": [
+      "20289",
+      "48314",
+      "53354",
+      "8850"
+    ],
+    "x": -10520.3,
+    "y": -3710.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "8850",
+    "links": [
+      "61896"
+    ],
+    "x": -10520.3,
+    "y": -3933.98
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_in_your_presence_have_inc_health_regeneration_rate",
+            "vars": {
+              "value": -0.75
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "9896",
+    "links": [
+      "40006"
+    ],
+    "x": -4361.86,
+    "y": -9358.09
+  }
+]

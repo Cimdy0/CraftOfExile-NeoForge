@@ -1,0 +1,297 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_armor_local"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "lacquered",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 16.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 1,
+        "name": "supple",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 9.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 1,
+        "name": "blessed",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 9.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 8,
+        "name": "studded",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 56.0,
+            "min": 28.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "ribbed",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 77.0,
+            "min": 57.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "pliant",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 17.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "anointed",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 17.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "fortified",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 98.0,
+            "min": 78.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "plated",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 127.0,
+            "min": 99.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "flexible",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 71.0,
+            "min": 47.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "sanctified",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 71.0,
+            "min": 47.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "carapaced",
+        "tier": 12,
+        "values": {
+          "value": {
+            "max": 159.0,
+            "min": 128.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "durable",
+        "tier": 13,
+        "values": {
+          "value": {
+            "max": 85.0,
+            "min": 72.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "hallowed",
+        "tier": 14,
+        "values": {
+          "value": {
+            "max": 85.0,
+            "min": 72.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "encased",
+        "tier": 15,
+        "values": {
+          "value": {
+            "max": 190.0,
+            "min": 160.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "sturdy",
+        "tier": 16,
+        "values": {
+          "value": {
+            "max": 102.0,
+            "min": 86.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "beatified",
+        "tier": 17,
+        "values": {
+          "value": {
+            "max": 102.0,
+            "min": 86.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "enveloped",
+        "tier": 18,
+        "values": {
+          "value": {
+            "max": 221.0,
+            "min": 191.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "resilient",
+        "tier": 19,
+        "values": {
+          "value": {
+            "max": 127.0,
+            "min": 103.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "consecrated",
+        "tier": 20,
+        "values": {
+          "value": {
+            "max": 127.0,
+            "min": 103.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "abating",
+        "tier": 21,
+        "values": {
+          "value": {
+            "max": 248.0,
+            "min": 222.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "adaptable",
+        "tier": 22,
+        "values": {
+          "value": {
+            "max": 149.0,
+            "min": 128.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "saintly",
+        "tier": 23,
+        "values": {
+          "value": {
+            "max": 149.0,
+            "min": 128.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "unmoving",
+        "tier": 24,
+        "values": {
+          "value": {
+            "max": 277.0,
+            "min": 249.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

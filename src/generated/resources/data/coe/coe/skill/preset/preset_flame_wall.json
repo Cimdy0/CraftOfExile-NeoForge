@@ -1,0 +1,73 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": "coe:level_table(10, 12, 15, 17, 20, 23, 26, 30, 34, 38, 43, 48, 54, 60, 67, 74, 82, 91, 101, 111, 123, 135, 149, 164, 180, 198, 217, 237, 260, 284, 311, 339, 370, 404, 441, 480, 523, 570, 620, 674)"
+    }
+  ],
+  "params": {
+    "wall_damage": 0.0,
+    "wall_duration": 200.0,
+    "wall_health": 0.0,
+    "wall_interval": 20.0,
+    "wall_range": 2.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_spawn": {
+                "attack_range": "$wall_range",
+                "duration": "$wall_duration",
+                "entity_id": "coe:wall_fire",
+                "health": "$wall_health",
+                "interval": "$wall_interval"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 2.6, base = 10.6, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "fire"
+              }
+            },
+            "trigger": "on_tick"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_ignite",
+                    "vars": {
+                      "value": 0.2
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_tick"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "wall"
+  ]
+}

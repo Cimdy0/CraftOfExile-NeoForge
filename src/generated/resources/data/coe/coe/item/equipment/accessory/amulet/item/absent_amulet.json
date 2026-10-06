@@ -1,0 +1,31 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:accessory/amulet/template/none",
+    "reqs": {
+      "l": 50.0
+    },
+    "skills": {
+      "coe:preset_archmage": {
+        "id": "coe:preset_archmage"
+      },
+      "coe:preset_cast_on_critical": {
+        "id": "coe:preset_cast_on_critical"
+      },
+      "coe:preset_cast_on_dodge": {
+        "id": "coe:preset_cast_on_dodge"
+      },
+      "coe:preset_cast_on_elemental_ailment": {
+        "id": "coe:preset_cast_on_elemental_ailment"
+      },
+      "coe:preset_eternal_rage": {
+        "id": "coe:preset_eternal_rage"
+      },
+      "coe:preset_rhoa_mount": {
+        "id": "coe:preset_rhoa_mount"
+      },
+      "coe:preset_trinity": {
+        "id": "coe:preset_trinity"
+      }
+    }
+  }
+}

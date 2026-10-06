@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_flasks_applied_to_you_grant_guard_for_seconds_equal_to_of_the_health_recovery_per_second_they_apply",
+            "vars": {
+              "value": 4.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "15617",
+    "links": [
+      "45962"
+    ],
+    "x": -3759.41,
+    "y": 5937.79
+  }
+]

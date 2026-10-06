@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/one_hand/wand/template/intelligence",
+    "reqs": {
+      "int": 46.0,
+      "l": 25.0
+    },
+    "skills": {
+      "coe:preset_galvanic_field": {
+        "id": "coe:preset_galvanic_field"
+      }
+    }
+  }
+}

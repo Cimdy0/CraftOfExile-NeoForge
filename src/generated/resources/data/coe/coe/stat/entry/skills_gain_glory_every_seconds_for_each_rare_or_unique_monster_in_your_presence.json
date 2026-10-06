@@ -1,0 +1,12 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * presence_rarity:count / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_810",
+  "entry": "inline",
+  "params": {
+    "per": 1.0
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:create_lightning_elemental_infusion_remnants_instead_of_fire"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:create_cold_elemental_infusion_remnants_instead_of_lightning"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:create_fire_elemental_infusion_remnants_instead_of_cold"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystoneelementalequilibrium",
+    "id": "46742",
+    "links": [
+      "50104"
+    ],
+    "x": -4102.54,
+    "y": -10310.9
+  }
+]

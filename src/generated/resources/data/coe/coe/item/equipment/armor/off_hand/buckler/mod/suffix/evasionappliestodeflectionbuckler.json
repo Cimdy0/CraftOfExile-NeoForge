@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:evasion_applies_to_deflection"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_deflecting",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "of_bending",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 14.0,
+            "min": 12.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 36,
+        "name": "of_curvation",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 17.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 48,
+        "name": "of_diversion",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 18.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 66,
+        "name": "of_flexure",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 23.0,
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 81,
+        "name": "of_warping",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 24.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

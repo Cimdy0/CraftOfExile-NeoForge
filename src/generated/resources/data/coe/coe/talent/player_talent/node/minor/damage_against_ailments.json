@@ -1,0 +1,123 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_affected_by_elemental_ailments",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagenode",
+    "id": "15969",
+    "links": [
+      "15838",
+      "41129",
+      "59376"
+    ],
+    "x": -2076.24,
+    "y": -5035.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_affected_by_elemental_ailments",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagenode",
+    "id": "21572",
+    "links": [
+      "6660",
+      "7526"
+    ],
+    "x": 5873.12,
+    "y": 6361.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_affected_by_elemental_ailments",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagenode",
+    "id": "24338",
+    "links": [
+      "41129",
+      "48581"
+    ],
+    "x": -2190.33,
+    "y": -5348.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_affected_by_elemental_ailments",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagenode",
+    "id": "41129",
+    "links": [
+      "15969",
+      "24338"
+    ],
+    "x": -2160.99,
+    "y": -5181.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_affected_by_elemental_ailments",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagenode",
+    "id": "6660",
+    "links": [
+      "21572",
+      "39050"
+    ],
+    "x": 6015.15,
+    "y": 6607.42
+  }
+]

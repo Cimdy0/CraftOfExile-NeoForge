@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_health_leech_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "33408",
+    "links": [
+      "53354"
+    ],
+    "x": -10368.6,
+    "y": -3933.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_amount_of_health_leech_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "53354",
+    "links": [
+      "20289",
+      "33408",
+      "36250",
+      "61896"
+    ],
+    "x": -10368.8,
+    "y": -3710.82
+  }
+]

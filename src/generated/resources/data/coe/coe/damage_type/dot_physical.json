@@ -1,0 +1,9 @@
+{
+  "ailment": true,
+  "extra_tags": [
+    "damage_over_time"
+  ],
+  "id": "dot_physical",
+  "slot": -1,
+  "stat_tag": "physical"
+}

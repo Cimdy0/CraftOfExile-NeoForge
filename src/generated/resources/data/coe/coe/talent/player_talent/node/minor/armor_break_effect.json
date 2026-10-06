@@ -1,0 +1,143 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_fully_broken_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "26830",
+    "links": [
+      "58814"
+    ],
+    "x": 2467.21,
+    "y": 11009.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_fully_broken_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "35594",
+    "links": [
+      "56016"
+    ],
+    "x": 2937.74,
+    "y": 10522.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_fully_broken_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "43174",
+    "links": [
+      "28542",
+      "47006"
+    ],
+    "x": -5748.11,
+    "y": 8167.23
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_fully_broken_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "43964",
+    "links": [
+      "14082",
+      "41645"
+    ],
+    "x": 5614.17,
+    "y": -8527.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_fully_broken_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "47006",
+    "links": [
+      "20350",
+      "43174"
+    ],
+    "x": -5665.11,
+    "y": 8456.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_fully_broken_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "65149",
+    "links": [
+      "56016"
+    ],
+    "x": 2653.69,
+    "y": 10358.4
+  }
+]

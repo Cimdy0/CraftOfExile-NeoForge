@@ -1,0 +1,31 @@
+{
+  "aliases": [
+    "Leech",
+    "Leeching",
+    "偷取",
+    "汲取"
+  ],
+  "description": [
+    [
+      "$[leech]",
+      "会根据造成",
+      "$[damage]",
+      "的一部分来恢复",
+      "$[life]",
+      "、",
+      "$[mana]",
+      "或",
+      "$[energy_shield]",
+      "。"
+    ],
+    [
+      "$[leech]",
+      "的量会在短时间内持续恢复，而非瞬间恢复。"
+    ]
+  ],
+  "id": "leech",
+  "keys": [
+    "coe:keyword.leech"
+  ],
+  "title": "@coe:keyword.leech"
+}

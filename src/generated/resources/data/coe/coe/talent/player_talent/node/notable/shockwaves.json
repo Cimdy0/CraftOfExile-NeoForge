@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_if_you_ve_stunned_an_enemy_with_a_two_handed_melee_weapon_recently",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "1087",
+    "links": [
+      "6923"
+    ],
+    "x": -4991.52,
+    "y": 3607.2
+  }
+]

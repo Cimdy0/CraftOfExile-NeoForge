@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_attack_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_meleeaoenode",
+    "id": "13987",
+    "links": [
+      "48531",
+      "7604"
+    ],
+    "x": 8943.99,
+    "y": 2157.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_attack_speed",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_meleeaoenode",
+    "id": "48531",
+    "links": [
+      "13987",
+      "56761"
+    ],
+    "x": 8760.96,
+    "y": 2146.61
+  }
+]

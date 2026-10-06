@@ -1,0 +1,4087 @@
+{
+ "totals": {
+  "attributes": 122,
+  "self_named": 10,
+  "welded": 83,
+  "plain": 29,
+  "statgen_wired": 89,
+  "tag_vocab": 146
+ },
+ "q1_semantic_dup_groups": [],
+ "q3_same_dim_multi_scope_families": [
+  {
+   "dim": "max",
+   "base_exists": [],
+   "welded": [
+    "MAX_ENDURANCE_CHARGES",
+    "META_ENERGY_MAX",
+    "MAX_FRENZY_CHARGES",
+    "MAX_MANA",
+    "MAX_POWER_CHARGES",
+    "MAX_RAGE",
+    "MAX_REGENERATION",
+    "MAX_RESISTANCES",
+    "MAX_SPIRIT",
+    "MAX_VOLATILITY",
+    "MAX_INFUSION"
+   ],
+   "protected": [
+    "MAX_ENDURANCE_CHARGES",
+    "META_ENERGY_MAX",
+    "MAX_FRENZY_CHARGES",
+    "MAX_MANA",
+    "MAX_POWER_CHARGES",
+    "MAX_RAGE",
+    "MAX_REGENERATION",
+    "MAX_RESISTANCES",
+    "MAX_SPIRIT",
+    "MAX_VOLATILITY",
+    "MAX_INFUSION"
+   ],
+   "members": [
+    {
+     "name": "MAX_ENDURANCE_CHARGES",
+     "scope": "charge|endurance",
+     "base_val": 3.0,
+     "statgen_tags": [
+      "ENDURANCE"
+     ]
+    },
+    {
+     "name": "MAX_FRENZY_CHARGES",
+     "scope": "charge|frenzy",
+     "base_val": 3.0,
+     "statgen_tags": [
+      "FRENZY"
+     ]
+    },
+    {
+     "name": "MAX_INFUSION",
+     "scope": "infusion",
+     "base_val": 1.0,
+     "statgen_tags": []
+    },
+    {
+     "name": "MAX_MANA",
+     "scope": "mana",
+     "base_val": 40.0,
+     "statgen_tags": []
+    },
+    {
+     "name": "MAX_POWER_CHARGES",
+     "scope": "charge|power",
+     "base_val": 3.0,
+     "statgen_tags": [
+      "POWER"
+     ]
+    },
+    {
+     "name": "MAX_RAGE",
+     "scope": "rage",
+     "base_val": 50.0,
+     "statgen_tags": []
+    },
+    {
+     "name": "MAX_REGENERATION",
+     "scope": "regen",
+     "base_val": 0.05,
+     "statgen_tags": [
+      "FLASK",
+      "HEALTH",
+      "REGEN",
+      "TOTEM"
+     ]
+    },
+    {
+     "name": "MAX_RESISTANCES",
+     "scope": "resistance",
+     "base_val": 0.75,
+     "statgen_tags": [
+      "CHAOS",
+      "COLD",
+      "ELEMENTAL",
+      "FIRE",
+      "LIGHTNING",
+      "MINION"
+     ]
+    },
+    {
+     "name": "MAX_SPIRIT",
+     "scope": "spirit",
+     "base_val": 0.0,
+     "statgen_tags": []
+    },
+    {
+     "name": "MAX_VOLATILITY",
+     "scope": "volatility",
+     "base_val": 100.0,
+     "statgen_tags": [
+      "VOLATILITY"
+     ]
+    },
+    {
+     "name": "META_ENERGY_MAX",
+     "scope": "energy|meta",
+     "base_val": 100.0,
+     "statgen_tags": [
+      "META"
+     ]
+    }
+   ]
+  },
+  {
+   "dim": "chance",
+   "base_exists": [],
+   "welded": [
+    "AILMENT_CHANCE",
+    "BLOCK_CHANCE",
+    "CRIT_CHANCE",
+    "DODGE_CHANCE",
+    "TAKEN_CRIT_CHANCE"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "AILMENT_CHANCE",
+     "scope": "ailment",
+     "base_val": 0.0,
+     "statgen_tags": [
+      "AILMENT",
+      "BLEED",
+      "CHILL",
+      "COLD",
+      "FIRE",
+      "FREEZE",
+      "IGNITE",
+      "LIGHTNING",
+      "MAIM",
+      "ONE_HANDED",
+      "POISON",
+      "SHOCK"
+     ]
+    },
+    {
+     "name": "BLOCK_CHANCE",
+     "scope": "block",
+     "base_val": 0.0,
+     "statgen_tags": []
+    },
+    {
+     "name": "CRIT_CHANCE",
+     "scope": "crit",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "ATTACK",
+      "CRIT",
+      "FORM",
+      "HERALD",
+      "MINION",
+      "WYVERN"
+     ]
+    },
+    {
+     "name": "DODGE_CHANCE",
+     "scope": "dodge",
+     "base_val": 0.0,
+     "statgen_tags": [
+      "DODGE"
+     ]
+    },
+    {
+     "name": "TAKEN_CRIT_CHANCE",
+     "scope": "crit|taken",
+     "base_val": 0.0,
+     "statgen_tags": []
+    }
+   ]
+  },
+  {
+   "dim": "rate|recovery",
+   "base_exists": [
+    "RECOVERY_RATE"
+   ],
+   "welded": [
+    "COOLDOWN_RECOVERY_RATE",
+    "FLASK_RECOVERY_RATE",
+    "ARCHON_RECOVERY_RATE"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "ARCHON_RECOVERY_RATE",
+     "scope": "archon",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "ARCHON"
+     ]
+    },
+    {
+     "name": "COOLDOWN_RECOVERY_RATE",
+     "scope": "cooldown",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "COMMAND",
+      "GRENADE"
+     ]
+    },
+    {
+     "name": "FLASK_RECOVERY_RATE",
+     "scope": "flask",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "FLASK",
+      "HEALTH",
+      "MANA"
+     ]
+    },
+    {
+     "name": "RECOVERY_RATE",
+     "scope": "",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "FLASK",
+      "HEALTH"
+     ]
+    }
+   ]
+  },
+  {
+   "dim": "magnitude",
+   "base_exists": [],
+   "welded": [
+    "AILMENT_MAGNITUDE",
+    "AURA_MAGNITUDE",
+    "REMNANT_MAGNITUDE"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "AILMENT_MAGNITUDE",
+     "scope": "ailment",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "AILMENT",
+      "ARCANE_SURGE",
+      "ARCHON",
+      "AURA",
+      "BANNER",
+      "BLEED",
+      "BLIND",
+      "CHILL",
+      "CURSE",
+      "DAMAGE_OVER_TIME",
+      "DAZE",
+      "EXPOSURE",
+      "FIRE",
+      "IGNITE",
+      "INCISION",
+      "INFUSION",
+      "JAGGED_GROUND",
+      "MARK",
+      "NON_DAMAGING",
+      "OFFERING",
+      "PARRY",
+      "POISON",
+      "SHOCK",
+      "SLOW",
+      "SPELL",
+      "TAKEN",
+      "WARCRY",
+      "WITHERED"
+     ]
+    },
+    {
+     "name": "AURA_MAGNITUDE",
+     "scope": "aura",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "AURA"
+     ]
+    },
+    {
+     "name": "REMNANT_MAGNITUDE",
+     "scope": "remnant",
+     "base_val": 1.0,
+     "statgen_tags": []
+    }
+   ]
+  },
+  {
+   "dim": "contribution",
+   "base_exists": [],
+   "welded": [
+    "AILMENT_DAMAGE_CONTRIBUTION",
+    "ELEMENTAL_DAMAGE_CONTRIBUTES_BLEEDING"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "AILMENT_DAMAGE_CONTRIBUTION",
+     "scope": "ailment|damage",
+     "base_val": 0.0,
+     "statgen_tags": []
+    },
+    {
+     "name": "ELEMENTAL_DAMAGE_CONTRIBUTES_BLEEDING",
+     "scope": "bleed|damage|elemental",
+     "base_val": 1.0,
+     "statgen_tags": []
+    }
+   ]
+  },
+  {
+   "dim": "duration",
+   "base_exists": [],
+   "welded": [
+    "AILMENT_DURATION",
+    "CHARM_DURATION"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "AILMENT_DURATION",
+     "scope": "ailment",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "AILMENT",
+      "ARCHON",
+      "BANNER",
+      "BEAST",
+      "BLEED",
+      "CHARGE",
+      "CHARM",
+      "CHILL",
+      "COLD",
+      "CURSE",
+      "DAMAGE_OVER_TIME",
+      "DAZE",
+      "FIRE",
+      "FLASK",
+      "FREEZE",
+      "GRENADE",
+      "HAZARD",
+      "IGNITE",
+      "INFUSION",
+      "JAGGED_GROUND",
+      "LIGHTNING",
+      "META",
+      "OFFERING",
+      "PARRY",
+      "PIN",
+      "POISON",
+      "SHOCK",
+      "STUN",
+      "TAKEN"
+     ]
+    },
+    {
+     "name": "CHARM_DURATION",
+     "scope": "charm",
+     "base_val": 1.0,
+     "statgen_tags": []
+    }
+   ]
+  },
+  {
+   "dim": "gained",
+   "base_exists": [],
+   "welded": [
+    "FLASK_CHARGES_GAINED",
+    "CHARM_CHARGES_GAINED"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "CHARM_CHARGES_GAINED",
+     "scope": "charge|charm",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "CHARM"
+     ]
+    },
+    {
+     "name": "FLASK_CHARGES_GAINED",
+     "scope": "charge|flask",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "FLASK"
+     ]
+    }
+   ]
+  },
+  {
+   "dim": "generation",
+   "base_exists": [],
+   "welded": [
+    "GLORY_GENERATION",
+    "VOLATILITY_GENERATION"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "GLORY_GENERATION",
+     "scope": "glory",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "GLORY"
+     ]
+    },
+    {
+     "name": "VOLATILITY_GENERATION",
+     "scope": "volatility",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "VOLATILITY"
+     ]
+    }
+   ]
+  },
+  {
+   "dim": "range",
+   "base_exists": [],
+   "welded": [
+    "PARRY_RANGE",
+    "PRESENCE_RANGE"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "PARRY_RANGE",
+     "scope": "parry",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "PARRY"
+     ]
+    },
+    {
+     "name": "PRESENCE_RANGE",
+     "scope": "presence",
+     "base_val": 6.0,
+     "statgen_tags": []
+    }
+   ]
+  },
+  {
+   "dim": "rate",
+   "base_exists": [],
+   "welded": [
+    "AILMENT_DAMAGE_RATE",
+    "REGENERATION_RATE"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "AILMENT_DAMAGE_RATE",
+     "scope": "ailment|damage",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "AILMENT",
+      "BLEED",
+      "DAMAGE_OVER_TIME",
+      "IGNITE",
+      "POISON"
+     ]
+    },
+    {
+     "name": "REGENERATION_RATE",
+     "scope": "regen",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "ENERGY",
+      "HEALTH",
+      "MANA",
+      "REGEN"
+     ]
+    }
+   ]
+  },
+  {
+   "dim": "recovery",
+   "base_exists": [],
+   "welded": [
+    "GUARD_RECOVERY",
+    "STUN_RECOVERY"
+   ],
+   "protected": [],
+   "members": [
+    {
+     "name": "GUARD_RECOVERY",
+     "scope": "guard",
+     "base_val": 0.0,
+     "statgen_tags": []
+    },
+    {
+     "name": "STUN_RECOVERY",
+     "scope": "stun",
+     "base_val": 1.0,
+     "statgen_tags": [
+      "STUN"
+     ]
+    }
+   ]
+  }
+ ],
+ "q2_welded_double_expression": [
+  {
+   "name": "BANNER_LINGER",
+   "overlap": [
+    "banner"
+   ],
+   "statgen_tags": [
+    "BANNER",
+    "TAKEN"
+   ]
+  },
+  {
+   "name": "CORPSE_RETAIN_CHANCE",
+   "overlap": [
+    "corpse"
+   ],
+   "statgen_tags": [
+    "CORPSE"
+   ]
+  },
+  {
+   "name": "AILMENT_BUILDUP",
+   "overlap": [
+    "ailment"
+   ],
+   "statgen_tags": [
+    "AILMENT",
+    "ELECTROCUTED",
+    "FREEZE",
+    "IGNITE",
+    "PIN",
+    "SPELL",
+    "STUN"
+   ]
+  },
+  {
+   "name": "AREA_OF_EFFECT",
+   "overlap": [
+    "area"
+   ],
+   "statgen_tags": [
+    "AREA",
+    "MELEE",
+    "MINION"
+   ]
+  },
+  {
+   "name": "AILMENT_CHANCE",
+   "overlap": [
+    "ailment"
+   ],
+   "statgen_tags": [
+    "AILMENT",
+    "BLEED",
+    "CHILL",
+    "COLD",
+    "FIRE",
+    "FREEZE",
+    "IGNITE",
+    "LIGHTNING",
+    "MAIM",
+    "ONE_HANDED",
+    "POISON",
+    "SHOCK"
+   ]
+  },
+  {
+   "name": "AILMENT_DAMAGE_RATE",
+   "overlap": [
+    "ailment"
+   ],
+   "statgen_tags": [
+    "AILMENT",
+    "BLEED",
+    "DAMAGE_OVER_TIME",
+    "IGNITE",
+    "POISON"
+   ]
+  },
+  {
+   "name": "AILMENT_DURATION",
+   "overlap": [
+    "ailment"
+   ],
+   "statgen_tags": [
+    "AILMENT",
+    "ARCHON",
+    "BANNER",
+    "BEAST",
+    "BLEED",
+    "CHARGE",
+    "CHARM",
+    "CHILL",
+    "COLD",
+    "CURSE",
+    "DAMAGE_OVER_TIME",
+    "DAZE",
+    "FIRE",
+    "FLASK",
+    "FREEZE",
+    "GRENADE",
+    "HAZARD",
+    "IGNITE",
+    "INFUSION",
+    "JAGGED_GROUND",
+    "LIGHTNING",
+    "META",
+    "OFFERING",
+    "PARRY",
+    "PIN",
+    "POISON",
+    "SHOCK",
+    "STUN",
+    "TAKEN"
+   ]
+  },
+  {
+   "name": "AILMENT_MAGNITUDE",
+   "overlap": [
+    "ailment"
+   ],
+   "statgen_tags": [
+    "AILMENT",
+    "ARCANE_SURGE",
+    "ARCHON",
+    "AURA",
+    "BANNER",
+    "BLEED",
+    "BLIND",
+    "CHILL",
+    "CURSE",
+    "DAMAGE_OVER_TIME",
+    "DAZE",
+    "EXPOSURE",
+    "FIRE",
+    "IGNITE",
+    "INCISION",
+    "INFUSION",
+    "JAGGED_GROUND",
+    "MARK",
+    "NON_DAMAGING",
+    "OFFERING",
+    "PARRY",
+    "POISON",
+    "SHOCK",
+    "SLOW",
+    "SPELL",
+    "TAKEN",
+    "WARCRY",
+    "WITHERED"
+   ]
+  },
+  {
+   "name": "CRIT_CHANCE",
+   "overlap": [
+    "crit"
+   ],
+   "statgen_tags": [
+    "ATTACK",
+    "CRIT",
+    "FORM",
+    "HERALD",
+    "MINION",
+    "WYVERN"
+   ]
+  },
+  {
+   "name": "ENERGY_RECHARGE",
+   "overlap": [
+    "energy"
+   ],
+   "statgen_tags": [
+    "ENERGY"
+   ]
+  },
+  {
+   "name": "LAUNCH_ADDITIONAL_PROJECTILE",
+   "overlap": [
+    "projectile"
+   ],
+   "statgen_tags": [
+    "ARROW",
+    "BOW",
+    "CROSSBOW",
+    "PROJECTILE"
+   ]
+  },
+  {
+   "name": "MAX_ENDURANCE_CHARGES",
+   "overlap": [
+    "endurance"
+   ],
+   "statgen_tags": [
+    "ENDURANCE"
+   ]
+  },
+  {
+   "name": "META_ENERGY_MAX",
+   "overlap": [
+    "meta"
+   ],
+   "statgen_tags": [
+    "META"
+   ]
+  },
+  {
+   "name": "MAX_FRENZY_CHARGES",
+   "overlap": [
+    "frenzy"
+   ],
+   "statgen_tags": [
+    "FRENZY"
+   ]
+  },
+  {
+   "name": "MAX_POWER_CHARGES",
+   "overlap": [
+    "power"
+   ],
+   "statgen_tags": [
+    "POWER"
+   ]
+  },
+  {
+   "name": "MAX_REGENERATION",
+   "overlap": [
+    "regen"
+   ],
+   "statgen_tags": [
+    "FLASK",
+    "HEALTH",
+    "REGEN",
+    "TOTEM"
+   ]
+  },
+  {
+   "name": "PARRY_RANGE",
+   "overlap": [
+    "parry"
+   ],
+   "statgen_tags": [
+    "PARRY"
+   ]
+  },
+  {
+   "name": "PROJECTILE_PIERCE",
+   "overlap": [
+    "projectile"
+   ],
+   "statgen_tags": [
+    "PROJECTILE"
+   ]
+  },
+  {
+   "name": "PROJECTILE_PIERCE_CHANCE",
+   "overlap": [
+    "projectile"
+   ],
+   "statgen_tags": [
+    "PROJECTILE"
+   ]
+  },
+  {
+   "name": "PROJECTILE_SPEED",
+   "overlap": [
+    "projectile"
+   ],
+   "statgen_tags": [
+    "BOLT",
+    "PROJECTILE"
+   ]
+  },
+  {
+   "name": "FLASK_RECOVERY_RATE",
+   "overlap": [
+    "flask"
+   ],
+   "statgen_tags": [
+    "FLASK",
+    "HEALTH",
+    "MANA"
+   ]
+  },
+  {
+   "name": "FLASK_CHARGES_GAINED",
+   "overlap": [
+    "flask"
+   ],
+   "statgen_tags": [
+    "FLASK"
+   ]
+  },
+  {
+   "name": "FLASK_NO_CONSUME_CHANCE",
+   "overlap": [
+    "flask"
+   ],
+   "statgen_tags": [
+    "FLASK"
+   ]
+  },
+  {
+   "name": "CHARM_CHARGES_GAINED",
+   "overlap": [
+    "charm"
+   ],
+   "statgen_tags": [
+    "CHARM"
+   ]
+  },
+  {
+   "name": "CHARM_ACTIVATION_CHANCE",
+   "overlap": [
+    "charm"
+   ],
+   "statgen_tags": [
+    "CHARM"
+   ]
+  },
+  {
+   "name": "CHARM_CHARGES_USED",
+   "overlap": [
+    "charm"
+   ],
+   "statgen_tags": [
+    "CHARM"
+   ]
+  },
+  {
+   "name": "CHARM_EFFECT",
+   "overlap": [
+    "charm"
+   ],
+   "statgen_tags": [
+    "CHARM"
+   ]
+  },
+  {
+   "name": "AURA_MAGNITUDE",
+   "overlap": [
+    "aura"
+   ],
+   "statgen_tags": [
+    "AURA"
+   ]
+  },
+  {
+   "name": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+   "overlap": [
+    "taken"
+   ],
+   "statgen_tags": [
+    "ENERGY_SHIELD",
+    "TAKEN"
+   ]
+  },
+  {
+   "name": "REMNANTS_COLLECTED_FURTHER_AWAY",
+   "overlap": [
+    "remnant"
+   ],
+   "statgen_tags": [
+    "REMNANT"
+   ]
+  },
+  {
+   "name": "DEFLECTION_RATING",
+   "overlap": [
+    "deflect"
+   ],
+   "statgen_tags": [
+    "DEFLECT",
+    "SURROUNDED"
+   ]
+  },
+  {
+   "name": "DODGE_CHANCE",
+   "overlap": [
+    "dodge"
+   ],
+   "statgen_tags": [
+    "DODGE"
+   ]
+  },
+  {
+   "name": "ARCHON_RECOVERY_RATE",
+   "overlap": [
+    "archon"
+   ],
+   "statgen_tags": [
+    "ARCHON"
+   ]
+  },
+  {
+   "name": "GLORY_GENERATION",
+   "overlap": [
+    "glory"
+   ],
+   "statgen_tags": [
+    "GLORY"
+   ]
+  },
+  {
+   "name": "MAX_VOLATILITY",
+   "overlap": [
+    "volatility"
+   ],
+   "statgen_tags": [
+    "VOLATILITY"
+   ]
+  },
+  {
+   "name": "VOLATILITY_GENERATION",
+   "overlap": [
+    "volatility"
+   ],
+   "statgen_tags": [
+    "VOLATILITY"
+   ]
+  },
+  {
+   "name": "VOLATILITY_DETONATION_TIME",
+   "overlap": [
+    "volatility"
+   ],
+   "statgen_tags": [
+    "VOLATILITY"
+   ]
+  },
+  {
+   "name": "STUN_RECOVERY",
+   "overlap": [
+    "stun"
+   ],
+   "statgen_tags": [
+    "STUN"
+   ]
+  },
+  {
+   "name": "REGENERATION_RATE",
+   "overlap": [
+    "regen"
+   ],
+   "statgen_tags": [
+    "ENERGY",
+    "HEALTH",
+    "MANA",
+    "REGEN"
+   ]
+  },
+  {
+   "name": "RESISTANCE_PENETRATION",
+   "overlap": [
+    "resistance"
+   ],
+   "statgen_tags": [
+    "ATTACK",
+    "ELEMENTAL",
+    "GLORY",
+    "RESISTANCE"
+   ]
+  },
+  {
+   "name": "STATUS_EXTRA_STACKS",
+   "overlap": [
+    "status"
+   ],
+   "statgen_tags": [
+    "STATUS"
+   ]
+  },
+  {
+   "name": "STATUS_MAX_STACKS",
+   "overlap": [
+    "status"
+   ],
+   "statgen_tags": [
+    "STATUS"
+   ]
+  },
+  {
+   "name": "REMNANT_EXTRA_CHANCE",
+   "overlap": [
+    "remnant"
+   ],
+   "statgen_tags": [
+    "REMNANT"
+   ]
+  }
+ ],
+ "zero_base_multiplier_suspects": [
+  "AILMENT_CHANCE",
+  "AVOID_AILMENT_CHANCE",
+  "BLOCK_CHANCE",
+  "ARMOR_BREAK",
+  "LEECH",
+  "PROJECTILE_PIERCE_CHANCE",
+  "FLASK_NO_CONSUME_CHANCE",
+  "CHARM_ACTIVATION_CHANCE",
+  "DEFEND_ARMOUR",
+  "DODGE_CHANCE",
+  "CORRUPTION_ENDURES_CHANCE",
+  "RESERVATION_EFFICIENCY",
+  "REMNANT_EXTRA_CHANCE",
+  "REMNANT_DOUBLE_CHANCE",
+  "AFTERSHOCK_CHANCE",
+  "PUPPET_MASTER_CHANCE",
+  "TAKEN_CRIT_CHANCE"
+ ],
+ "records": [
+  {
+   "name": "AMOUNT_LEECHED",
+   "kind": "Percentage",
+   "id": "amount_leeched",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope resource] 偷取量倍率（按资源作用域）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "amount"
+   ],
+   "other_tokens": [
+    "leech"
+   ],
+   "dim_key": "amount|leech",
+   "scope_key": "",
+   "statgen_tags": [
+    "HEALTH",
+    "LEECHING",
+    "MANA"
+   ],
+   "statgen_stmts": 3,
+   "protected": false
+  },
+  {
+   "name": "WORK_APTITUDE",
+   "kind": "Double",
+   "id": "work_aptitude",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[legacy] 全工种适应度加成；WorkSpeed 直接读取",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "aptitude"
+   ],
+   "other_tokens": [
+    "work"
+   ],
+   "dim_key": "aptitude|work",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": true
+  },
+  {
+   "name": "TALENT_AUTO_SMELT",
+   "kind": "Double",
+   "id": "talent_auto_smelt",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[reserved] 天赋：自动熔炼等级（预留，无消费端）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "auto",
+    "smelt",
+    "talent"
+   ],
+   "dim_key": "auto|smelt|talent",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "ITEM_CAPACITY",
+   "kind": "Double",
+   "id": "item_capacity",
+   "base": 16.0,
+   "min": "0",
+   "max": null,
+   "note": "[核心] 物品容量；CapacityHelper 读取",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "capacity"
+   ],
+   "other_tokens": [
+    "item"
+   ],
+   "dim_key": "capacity|item",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": true
+  },
+  {
+   "name": "AFTERSHOCK_CHANCE",
+   "kind": "Percentage",
+   "id": "aftershock_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope slam] 余震几率（归一 {slam}/{mace,slam}/{form,slam}）；AreaDeliveryExecutor 读取",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [
+    "aftershock"
+   ],
+   "dim_key": "chance|aftershock",
+   "scope_key": "",
+   "statgen_tags": [
+    "FORM",
+    "MACE"
+   ],
+   "statgen_stmts": 3,
+   "protected": false
+  },
+  {
+   "name": "CORRUPTION_ENDURES_CHANCE",
+   "kind": "Percentage",
+   "id": "corruption_endures_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 免死几率（corruption_endures keystone）；DamagePipeline:552 读取",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [
+    "corruption",
+    "endures"
+   ],
+   "dim_key": "chance|corruption|endures",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "PUPPET_MASTER_CHANCE",
+   "kind": "Percentage",
+   "id": "puppet_master_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·待归一] 傀儡师获得层数几率；SkillEvent 读取（应走 fire 通道 grant_on_event）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [
+    "master",
+    "puppet"
+   ],
+   "dim_key": "chance|master|puppet",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "SKILL_SLOT_COUNT",
+   "kind": "Double",
+   "id": "skill_slot_count",
+   "base": 9.0,
+   "min": "0",
+   "max": "10",
+   "note": "[核心] 技能槽数量上限；SkillScreen 读取",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "count",
+    "slot"
+   ],
+   "other_tokens": [
+    "skill"
+   ],
+   "dim_key": "count|slot|skill",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": true
+  },
+  {
+   "name": "DEXTERITY",
+   "kind": "Double",
+   "id": "dexterity",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[零基·禁inc] 敏捷（属性点）；base=0，仅 valueMod/pctAdd 安全",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "dexterity"
+   ],
+   "dim_key": "dexterity",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 2,
+   "protected": true
+  },
+  {
+   "name": "PUPPET_MASTER_DURATION",
+   "kind": "Percentage",
+   "id": "puppet_master_duration",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope puppet] 傀儡师持续（零基累积）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "duration"
+   ],
+   "other_tokens": [
+    "master",
+    "puppet"
+   ],
+   "dim_key": "duration|master|puppet",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "PUPPET_MASTER_EFFECT",
+   "kind": "Percentage",
+   "id": "puppet_master_effect",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope puppet] 傀儡师效果强度（零基累积）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "effect"
+   ],
+   "other_tokens": [
+    "master",
+    "puppet"
+   ],
+   "dim_key": "effect|master|puppet",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "RESERVATION_EFFICIENCY",
+   "kind": "Percentage",
+   "id": "reservation_efficiency",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope aura] 保留效率（降低精魂保留量）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "efficiency",
+    "reservation"
+   ],
+   "other_tokens": [],
+   "dim_key": "efficiency|reservation",
+   "scope_key": "",
+   "statgen_tags": [
+    "RESERVATION"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "TALENT_EXTRA_XP",
+   "kind": "Double",
+   "id": "talent_extra_xp",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[reserved] 天赋：额外经验（预留，无消费端）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "extra"
+   ],
+   "other_tokens": [
+    "talent",
+    "xp"
+   ],
+   "dim_key": "extra|talent|xp",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "TALENT_FORTUNE",
+   "kind": "Double",
+   "id": "talent_fortune",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[reserved] 天赋：幸运（预留，无消费端）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "fortune",
+    "talent"
+   ],
+   "dim_key": "fortune|talent",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "INTELLIGENCE",
+   "kind": "Double",
+   "id": "intelligence",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[零基·禁inc] 智力（属性点）；StatGen 以 inc(INC_INTELLIGENCE_2) 接 base=0 静默死，须改 pctAdd",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "intelligence"
+   ],
+   "dim_key": "intelligence",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 3,
+   "protected": true
+  },
+  {
+   "name": "DARKNESS_RESERVATION_LASTS",
+   "kind": "Percentage",
+   "id": "darkness_reservation_lasts",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope darkness] 黑暗保留持续；DarknessHelper 读取",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "lasts",
+    "reservation"
+   ],
+   "other_tokens": [
+    "darkness"
+   ],
+   "dim_key": "lasts|reservation|darkness",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "LEECH",
+   "kind": "Percentage",
+   "id": "leech",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope resource] 偷取率（按资源作用域）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "leech"
+   ],
+   "dim_key": "leech",
+   "scope_key": "",
+   "statgen_tags": [
+    "HEALTH",
+    "LEECHING",
+    "MANA"
+   ],
+   "statgen_stmts": 3,
+   "protected": false
+  },
+  {
+   "name": "TALENT_LOOTING",
+   "kind": "Double",
+   "id": "talent_looting",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[reserved] 天赋：掠夺（预留，无消费端）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "looting",
+    "talent"
+   ],
+   "dim_key": "looting|talent",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "TALENT_MAGNET",
+   "kind": "Double",
+   "id": "talent_magnet",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[reserved] 天赋：磁吸（预留，无消费端）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "magnet",
+    "talent"
+   ],
+   "dim_key": "magnet|talent",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "MAX_DARKNESS",
+   "kind": "Percentage",
+   "id": "max_darkness",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope darkness] 最大黑暗值；DarknessHelper 读取",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [
+    "darkness"
+   ],
+   "dim_key": "max|darkness",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": true
+  },
+  {
+   "name": "TALENT_MENDING",
+   "kind": "Double",
+   "id": "talent_mending",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[reserved] 天赋：修复（预留，无消费端）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "mending",
+    "talent"
+   ],
+   "dim_key": "mending|talent",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "FOUND_ITEM_NUMBER",
+   "kind": "Percentage",
+   "id": "found_item_number",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[零基·禁inc] 掉落物数量；StatGen 以 inc 接 base=0 静默死，须改 pctAdd",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "number"
+   ],
+   "other_tokens": [
+    "found",
+    "item"
+   ],
+   "dim_key": "number|found|item",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "LEECH_RATE",
+   "kind": "Percentage",
+   "id": "leech_rate",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 偷取速率倍率（归一）；DamageHelper:295 读取",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "rate"
+   ],
+   "other_tokens": [
+    "leech"
+   ],
+   "dim_key": "rate|leech",
+   "scope_key": "",
+   "statgen_tags": [
+    "LEECHING"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "RECOVERY_RATE",
+   "kind": "Percentage",
+   "id": "recovery_rate",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 跨来源恢复率倍率（Regen/Leech/Flask/Recoup 同乘）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "rate",
+    "recovery"
+   ],
+   "other_tokens": [],
+   "dim_key": "rate|recovery",
+   "scope_key": "",
+   "statgen_tags": [
+    "FLASK",
+    "HEALTH"
+   ],
+   "statgen_stmts": 3,
+   "protected": false
+  },
+  {
+   "name": "LEECHES_RESPONSE",
+   "kind": "Percentage",
+   "id": "leeches_response",
+   "base": 0.2,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope resource] 偷取响应（按资源作用域）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "response"
+   ],
+   "other_tokens": [
+    "leech"
+   ],
+   "dim_key": "response|leech",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "CAST_SPEED",
+   "kind": "Double",
+   "id": "cast_speed",
+   "base": 1.0,
+   "min": "0",
+   "max": "1024",
+   "note": "[核心] 施法速度倍率（与 ATTACK_SPEED 正交）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "speed"
+   ],
+   "other_tokens": [
+    "cast"
+   ],
+   "dim_key": "speed|cast",
+   "scope_key": "",
+   "statgen_tags": [
+    "AREA",
+    "ATTACK",
+    "BANNER",
+    "CURSE",
+    "MARK",
+    "MINION",
+    "SEAL",
+    "TOTEM",
+    "TRAP",
+    "WARCRY"
+   ],
+   "statgen_stmts": 17,
+   "protected": false
+  },
+  {
+   "name": "WORK_SPEED",
+   "kind": "Double",
+   "id": "work_speed",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[legacy] 全局工作速度倍率；WorkSpeed 直接读取（EntityAttributeModificationEvent 挂载全体）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [
+    "speed"
+   ],
+   "other_tokens": [
+    "work"
+   ],
+   "dim_key": "speed|work",
+   "scope_key": "",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": true
+  },
+  {
+   "name": "STRENGTH",
+   "kind": "Double",
+   "id": "strength",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[零基·禁inc] 力量（属性点）；base=0，仅 valueMod/pctAdd 安全",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "strength"
+   ],
+   "dim_key": "strength",
+   "scope_key": "",
+   "statgen_tags": [
+    "COMPANION"
+   ],
+   "statgen_stmts": 3,
+   "protected": true
+  },
+  {
+   "name": "THORNS",
+   "kind": "Percentage",
+   "id": "thorns",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 荆棘反伤倍率（受击方）",
+   "class": "PLAIN",
+   "scope_tokens": [],
+   "dim_tokens": [],
+   "other_tokens": [
+    "thorns"
+   ],
+   "dim_key": "thorns",
+   "scope_key": "",
+   "statgen_tags": [
+    "PHYSICAL"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "ACCURACY",
+   "kind": "Double",
+   "id": "accuracy",
+   "base": 15.0,
+   "min": "0",
+   "max": null,
+   "note": "[核心·scope attack] 命中准确率；命中判定读取（攻方，{attack} 作用域）",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "accuracy"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "accuracy",
+   "statgen_tags": [],
+   "statgen_stmts": 8,
+   "protected": false
+  },
+  {
+   "name": "CRIT_DAMAGE",
+   "kind": "Percentage",
+   "id": "crit_damage",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope crit] 暴击伤害倍率",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "crit",
+    "damage"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "crit|damage",
+   "statgen_tags": [
+    "ATTACK",
+    "CRIT",
+    "FORM",
+    "SPELL",
+    "WYVERN"
+   ],
+   "statgen_stmts": 5,
+   "protected": false
+  },
+  {
+   "name": "DAMAGE",
+   "kind": "Percentage",
+   "id": "damage",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope] 伤害倍率（归一属性，按 scope 区分 attack/spell/...）",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "damage"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "damage",
+   "statgen_tags": [
+    "AREA",
+    "ATTACK",
+    "AXE",
+    "BALLISTA",
+    "BANNER",
+    "BEAR",
+    "BOW",
+    "CHAOS",
+    "COLD",
+    "COMPANION",
+    "CROSSBOW",
+    "CURSE",
+    "DAMAGE",
+    "ELEMENTAL",
+    "EMPOWERED",
+    "FIRE",
+    "FORM",
+    "GRENADE",
+    "HAZARD",
+    "HERALD",
+    "LIGHTNING",
+    "MACE",
+    "MARK",
+    "MELEE",
+    "META",
+    "MINION",
+    "OFFERING",
+    "ONE_HANDED",
+    "PARRY",
+    "PHYSICAL",
+    "PROJECTILE",
+    "SPEAR",
+    "SPELL",
+    "SWORD",
+    "TAKEN",
+    "TOTEM",
+    "TRAP",
+    "TWO_HANDED",
+    "WARCRY",
+    "WOLF",
+    "WYVERN"
+   ],
+   "statgen_stmts": 57,
+   "protected": false
+  },
+  {
+   "name": "EVASION",
+   "kind": "Double",
+   "id": "evasion",
+   "base": 53.0,
+   "min": "0",
+   "max": null,
+   "note": "[核心] 闪避值",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "evasion"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "evasion",
+   "statgen_tags": [],
+   "statgen_stmts": 8,
+   "protected": false
+  },
+  {
+   "name": "GLORY",
+   "kind": "Percentage",
+   "id": "glory",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 荣耀资源（ResourceType.GLORY）",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "glory"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "glory",
+   "statgen_tags": [
+    "GLORY"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "KNOCKBACK",
+   "kind": "Percentage",
+   "id": "knockback",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 击退距离倍率",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "knockback"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "knockback",
+   "statgen_tags": [
+    "KNOCKBACK"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "RESISTANCES",
+   "kind": "Percentage",
+   "id": "resistances",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope element] 抗性（归一属性，按元素作用域读取）",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "resistance"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "resistance",
+   "statgen_tags": [
+    "CHAOS",
+    "COLD",
+    "ELEMENTAL",
+    "FIRE",
+    "LIGHTNING",
+    "MINION",
+    "RESISTANCE"
+   ],
+   "statgen_stmts": 16,
+   "protected": false
+  },
+  {
+   "name": "TAKEN_CRIT_DAMAGE",
+   "kind": "Percentage",
+   "id": "taken_crit_damage",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope taken,crit] 承暴击伤害倍率",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "crit",
+    "damage",
+    "taken"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "crit|damage|taken",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "TAKEN_DAMAGE",
+   "kind": "Percentage",
+   "id": "taken_damage",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope taken] 承伤倍率",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "damage",
+    "taken"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "damage|taken",
+   "statgen_tags": [
+    "CHAOS",
+    "PHYSICAL"
+   ],
+   "statgen_stmts": 6,
+   "protected": false
+  },
+  {
+   "name": "TOTEM_TAKEN_AURA",
+   "kind": "Percentage",
+   "id": "totem_taken_aura",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope totem,taken] 图腾承伤光环（攻击方读取附近图腾数）",
+   "class": "SELF_NAMED",
+   "scope_tokens": [
+    "aura",
+    "taken",
+    "totem"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [],
+   "dim_key": "",
+   "scope_key": "aura|taken|totem",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "CHARM_ACTIVATION_CHANCE",
+   "kind": "Percentage",
+   "id": "charm_activation_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope charm] 护符连锁触发几率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charm"
+   ],
+   "dim_tokens": [
+    "activation",
+    "chance"
+   ],
+   "other_tokens": [],
+   "dim_key": "activation|chance",
+   "scope_key": "charm",
+   "statgen_tags": [
+    "CHARM"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_THRESHOLD_ADAPTATION",
+   "kind": "Percentage",
+   "id": "ailment_threshold_adaptation",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 异常门槛适应倍率；StatusEngine:470 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment"
+   ],
+   "dim_tokens": [
+    "adaptation",
+    "threshold"
+   ],
+   "other_tokens": [],
+   "dim_key": "adaptation|threshold",
+   "scope_key": "ailment",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "ADD_EMPOWERED_ATTACKS",
+   "kind": "Double",
+   "id": "empowered_attacks",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[零基·禁inc] 战吼强化额外攻击次数；StatGen 以 inc 接 base=0 静默死，须改 pctAdd",
+   "class": "WELDED",
+   "scope_tokens": [
+    "attack",
+    "empowered"
+   ],
+   "dim_tokens": [
+    "add"
+   ],
+   "other_tokens": [],
+   "dim_key": "add",
+   "scope_key": "attack|empowered",
+   "statgen_tags": [
+    "TAKEN",
+    "WARCRY"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "ADDED_DAMAGE",
+   "kind": "Double",
+   "id": "added_damage",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[零基·禁inc] 附加伤害（按元素 valueMod 接）；base=0，禁 inc",
+   "class": "WELDED",
+   "scope_tokens": [
+    "damage"
+   ],
+   "dim_tokens": [
+    "added"
+   ],
+   "other_tokens": [],
+   "dim_key": "added",
+   "scope_key": "damage",
+   "statgen_tags": [
+    "ARMOR",
+    "CHAOS",
+    "COLD",
+    "ELEMENTAL",
+    "FIRE",
+    "LIGHTNING",
+    "PHYSICAL"
+   ],
+   "statgen_stmts": 7,
+   "protected": false
+  },
+  {
+   "name": "LAUNCH_ADDITIONAL_PROJECTILE",
+   "kind": "Double",
+   "id": "launch_additional_projectile",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope projectile] 额外投射物数量",
+   "class": "WELDED",
+   "scope_tokens": [
+    "projectile"
+   ],
+   "dim_tokens": [
+    "additional",
+    "launch"
+   ],
+   "other_tokens": [],
+   "dim_key": "additional|launch",
+   "scope_key": "projectile",
+   "statgen_tags": [
+    "ARROW",
+    "BOW",
+    "CROSSBOW",
+    "PROJECTILE"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_THRESHOLD_ADD",
+   "kind": "Double",
+   "id": "ailment_threshold_add",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment,threshold] 异常门槛加性（归一属性，所有异常共有）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment"
+   ],
+   "dim_tokens": [
+    "add",
+    "threshold"
+   ],
+   "other_tokens": [],
+   "dim_key": "add|threshold",
+   "scope_key": "ailment",
+   "statgen_tags": [
+    "STUN"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AFTERSHOCK_AREA",
+   "kind": "Percentage",
+   "id": "aftershock_area",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope slam] 余震范围效果倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "area"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [
+    "aftershock"
+   ],
+   "dim_key": "aftershock",
+   "scope_key": "area",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "REMNANTS_COLLECTED_FURTHER_AWAY",
+   "kind": "Percentage",
+   "id": "remnants_collected_further_away",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope remnant] 残迹收集距离倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "remnant"
+   ],
+   "dim_tokens": [
+    "away",
+    "collected",
+    "further"
+   ],
+   "other_tokens": [],
+   "dim_key": "away|collected|further",
+   "scope_key": "remnant",
+   "statgen_tags": [
+    "REMNANT"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "NO_SPIRIT_BASE_DARKNESS",
+   "kind": "Percentage",
+   "id": "no_spirit_base_darkness",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope darkness] 无精魂黑暗基底；DarknessHelper/ManaHelper 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "spirit"
+   ],
+   "dim_tokens": [
+    "base",
+    "no"
+   ],
+   "other_tokens": [
+    "darkness"
+   ],
+   "dim_key": "base|no|darkness",
+   "scope_key": "spirit",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "BASE_ENERGY_SHIELD_RECHARGE",
+   "kind": "Percentage",
+   "id": "base_energy_shield_recharge",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] ES 基础回复倍率；EnergyShieldHelper 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "energy"
+   ],
+   "dim_tokens": [
+    "base",
+    "recharge"
+   ],
+   "other_tokens": [
+    "shield"
+   ],
+   "dim_key": "base|recharge|shield",
+   "scope_key": "energy",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "ARMOR_BREAK",
+   "kind": "Percentage",
+   "id": "armor_break",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 护甲破坏倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "armor"
+   ],
+   "dim_tokens": [
+    "break"
+   ],
+   "other_tokens": [],
+   "dim_key": "break",
+   "scope_key": "armor",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_BUILDUP",
+   "kind": "Percentage",
+   "id": "ailment_buildup",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment] 异常积蓄倍率；StatGen 接线",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment"
+   ],
+   "dim_tokens": [
+    "buildup"
+   ],
+   "other_tokens": [],
+   "dim_key": "buildup",
+   "scope_key": "ailment",
+   "statgen_tags": [
+    "AILMENT",
+    "ELECTROCUTED",
+    "FREEZE",
+    "IGNITE",
+    "PIN",
+    "SPELL",
+    "STUN"
+   ],
+   "statgen_stmts": 9,
+   "protected": false
+  },
+  {
+   "name": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+   "kind": "Percentage",
+   "id": "damage_taken_bypasses_energy",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 承伤绕过 ES 比例",
+   "class": "WELDED",
+   "scope_tokens": [
+    "damage",
+    "energy",
+    "taken"
+   ],
+   "dim_tokens": [
+    "bypasses"
+   ],
+   "other_tokens": [],
+   "dim_key": "bypasses",
+   "scope_key": "damage|energy|taken",
+   "statgen_tags": [
+    "ENERGY_SHIELD",
+    "TAKEN"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_CHANCE",
+   "kind": "Percentage",
+   "id": "ailment_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment] 异常触发几率；StatGen 接线",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment"
+   ],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance",
+   "scope_key": "ailment",
+   "statgen_tags": [
+    "AILMENT",
+    "BLEED",
+    "CHILL",
+    "COLD",
+    "FIRE",
+    "FREEZE",
+    "IGNITE",
+    "LIGHTNING",
+    "MAIM",
+    "ONE_HANDED",
+    "POISON",
+    "SHOCK"
+   ],
+   "statgen_stmts": 12,
+   "protected": false
+  },
+  {
+   "name": "BLOCK_CHANCE",
+   "kind": "Percentage",
+   "id": "block_chance",
+   "base": 0.0,
+   "min": "0",
+   "max": "0.75",
+   "note": "[fold·scope block] 格挡几率（max 0.75）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "block"
+   ],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance",
+   "scope_key": "block",
+   "statgen_tags": [],
+   "statgen_stmts": 3,
+   "protected": false
+  },
+  {
+   "name": "CRIT_CHANCE",
+   "kind": "Percentage",
+   "id": "crit_chance",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope crit] 暴击几率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "crit"
+   ],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance",
+   "scope_key": "crit",
+   "statgen_tags": [
+    "ATTACK",
+    "CRIT",
+    "FORM",
+    "HERALD",
+    "MINION",
+    "WYVERN"
+   ],
+   "statgen_stmts": 8,
+   "protected": false
+  },
+  {
+   "name": "DODGE_CHANCE",
+   "kind": "Percentage",
+   "id": "dodge_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope dodge] 闪避几率（格挡判定读取）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "dodge"
+   ],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance",
+   "scope_key": "dodge",
+   "statgen_tags": [
+    "DODGE"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "TAKEN_CRIT_CHANCE",
+   "kind": "Percentage",
+   "id": "taken_crit_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope taken,crit] 被暴击几率（受害者侧）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "crit",
+    "taken"
+   ],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance",
+   "scope_key": "crit|taken",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AVOID_AILMENT_CHANCE",
+   "kind": "Percentage",
+   "id": "avoid_ailment_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment] 异常回避几率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment"
+   ],
+   "dim_tokens": [
+    "chance"
+   ],
+   "other_tokens": [
+    "avoid"
+   ],
+   "dim_key": "chance|avoid",
+   "scope_key": "ailment",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "REMNANT_DOUBLE_CHANCE",
+   "kind": "Percentage",
+   "id": "remnant_double_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope remnant] 残迹双倍几率；RemnantState:53 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "remnant"
+   ],
+   "dim_tokens": [
+    "chance",
+    "double"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance|double",
+   "scope_key": "remnant",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "REMNANT_EXTRA_CHANCE",
+   "kind": "Percentage",
+   "id": "remnant_extra_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope remnant] 额外残迹几率；RemnantState 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "remnant"
+   ],
+   "dim_tokens": [
+    "chance",
+    "extra"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance|extra",
+   "scope_key": "remnant",
+   "statgen_tags": [
+    "REMNANT"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "FLASK_NO_CONSUME_CHANCE",
+   "kind": "Percentage",
+   "id": "flask_no_consume_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope flask] Flask 不消耗充能几率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "flask"
+   ],
+   "dim_tokens": [
+    "chance",
+    "no"
+   ],
+   "other_tokens": [
+    "consume"
+   ],
+   "dim_key": "chance|no|consume",
+   "scope_key": "flask",
+   "statgen_tags": [
+    "FLASK"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "PROJECTILE_PIERCE_CHANCE",
+   "kind": "Percentage",
+   "id": "projectile_pierce_chance",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope projectile] 投射物穿透几率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "projectile"
+   ],
+   "dim_tokens": [
+    "chance",
+    "pierce"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance|pierce",
+   "scope_key": "projectile",
+   "statgen_tags": [
+    "PROJECTILE"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "CORPSE_RETAIN_CHANCE",
+   "kind": "Double",
+   "id": "corpse_retain_chance",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[fold·scope corpse] 消耗尸体不摧毁几率；ConsumeCorpseAction 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "corpse"
+   ],
+   "dim_tokens": [
+    "chance",
+    "retain"
+   ],
+   "other_tokens": [],
+   "dim_key": "chance|retain",
+   "scope_key": "corpse",
+   "statgen_tags": [
+    "CORPSE"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "RECENTLY_CONSUMED_DAMAGE",
+   "kind": "Double",
+   "id": "recently_consumed_damage",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[数据先行·待核] 近期消耗尸体攻击增伤点数；消费端待接",
+   "class": "WELDED",
+   "scope_tokens": [
+    "damage"
+   ],
+   "dim_tokens": [
+    "consumed",
+    "recently"
+   ],
+   "other_tokens": [],
+   "dim_key": "consumed|recently",
+   "scope_key": "damage",
+   "statgen_tags": [
+    "CORPSE"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_DAMAGE_CONTRIBUTION",
+   "kind": "Percentage",
+   "id": "ailment_damage_contribution",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment] 异常伤害贡献",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment",
+    "damage"
+   ],
+   "dim_tokens": [
+    "contribution"
+   ],
+   "other_tokens": [],
+   "dim_key": "contribution",
+   "scope_key": "ailment|damage",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "ELEMENTAL_DAMAGE_CONTRIBUTES_BLEEDING",
+   "kind": "Percentage",
+   "id": "elemental_damage_contributes_bleeding",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope bleeding] 元素伤害贡献流血比例",
+   "class": "WELDED",
+   "scope_tokens": [
+    "bleed",
+    "damage",
+    "elemental"
+   ],
+   "dim_tokens": [
+    "contribution"
+   ],
+   "other_tokens": [],
+   "dim_key": "contribution",
+   "scope_key": "bleed|damage|elemental",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "CURRENT_ENERGY_SHIELD_RECHARGE",
+   "kind": "Percentage",
+   "id": "current_energy_shield_recharge",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] ES 当前回复倍率；EnergyShieldHelper 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "energy"
+   ],
+   "dim_tokens": [
+    "current",
+    "recharge"
+   ],
+   "other_tokens": [
+    "shield"
+   ],
+   "dim_key": "current|recharge|shield",
+   "scope_key": "energy",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "DEFEND_ARMOUR",
+   "kind": "Percentage",
+   "id": "defend_armour",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[数据先行·待核] 护甲招架几率；当前无消费者（{crit} 作用域）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "armor"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [
+    "defend"
+   ],
+   "dim_key": "defend",
+   "scope_key": "armor",
+   "statgen_tags": [
+    "CRIT"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "VOLATILITY_DETONATION_TIME",
+   "kind": "Double",
+   "id": "volatility_detonation_time",
+   "base": 5.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope volatility] 波动爆炸延迟（秒）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "volatility"
+   ],
+   "dim_tokens": [
+    "detonation",
+    "time"
+   ],
+   "other_tokens": [],
+   "dim_key": "detonation|time",
+   "scope_key": "volatility",
+   "statgen_tags": [
+    "VOLATILITY"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_DURATION",
+   "kind": "Percentage",
+   "id": "ailment_duration",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment] 异常时长倍率（归一属性）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment"
+   ],
+   "dim_tokens": [
+    "duration"
+   ],
+   "other_tokens": [],
+   "dim_key": "duration",
+   "scope_key": "ailment",
+   "statgen_tags": [
+    "AILMENT",
+    "ARCHON",
+    "BANNER",
+    "BEAST",
+    "BLEED",
+    "CHARGE",
+    "CHARM",
+    "CHILL",
+    "COLD",
+    "CURSE",
+    "DAMAGE_OVER_TIME",
+    "DAZE",
+    "FIRE",
+    "FLASK",
+    "FREEZE",
+    "GRENADE",
+    "HAZARD",
+    "IGNITE",
+    "INFUSION",
+    "JAGGED_GROUND",
+    "LIGHTNING",
+    "META",
+    "OFFERING",
+    "PARRY",
+    "PIN",
+    "POISON",
+    "SHOCK",
+    "STUN",
+    "TAKEN"
+   ],
+   "statgen_stmts": 34,
+   "protected": false
+  },
+  {
+   "name": "CHARM_DURATION",
+   "kind": "Percentage",
+   "id": "charm_duration",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope charm] 护符效果时长倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charm"
+   ],
+   "dim_tokens": [
+    "duration"
+   ],
+   "other_tokens": [],
+   "dim_key": "duration",
+   "scope_key": "charm",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "CHARM_EFFECT",
+   "kind": "Percentage",
+   "id": "charm_effect",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope charm] 护符效果强度倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charm"
+   ],
+   "dim_tokens": [
+    "effect"
+   ],
+   "other_tokens": [],
+   "dim_key": "effect",
+   "scope_key": "charm",
+   "statgen_tags": [
+    "CHARM"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AREA_OF_EFFECT",
+   "kind": "Percentage",
+   "id": "area_of_effect",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope] 范围效果倍率；技能投送范围读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "area"
+   ],
+   "dim_tokens": [
+    "effect",
+    "of"
+   ],
+   "other_tokens": [],
+   "dim_key": "effect|of",
+   "scope_key": "area",
+   "statgen_tags": [
+    "AREA",
+    "MELEE",
+    "MINION"
+   ],
+   "statgen_stmts": 3,
+   "protected": false
+  },
+  {
+   "name": "REGENERATE_MANA_EQUAL_LIFE",
+   "kind": "Percentage",
+   "id": "regenerate_mana_equal_life",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 魔力再生等于生命比例",
+   "class": "WELDED",
+   "scope_tokens": [
+    "health",
+    "mana",
+    "regen"
+   ],
+   "dim_tokens": [
+    "equal"
+   ],
+   "other_tokens": [],
+   "dim_key": "equal",
+   "scope_key": "health|mana|regen",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "STATUS_EXTRA_STACKS",
+   "kind": "Percentage",
+   "id": "status_extra_stacks",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope status] 状态额外层数",
+   "class": "WELDED",
+   "scope_tokens": [
+    "status"
+   ],
+   "dim_tokens": [
+    "extra",
+    "stacks"
+   ],
+   "other_tokens": [],
+   "dim_key": "extra|stacks",
+   "scope_key": "status",
+   "statgen_tags": [
+    "STATUS"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "FOUND_ITEM_RARITY",
+   "kind": "Percentage",
+   "id": "found_item_rarity",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[零基·禁inc] 掉落物稀有度；StatGen 以 inc 接 base=0 静默死，须改 pctAdd",
+   "class": "WELDED",
+   "scope_tokens": [
+    "rarity"
+   ],
+   "dim_tokens": [],
+   "other_tokens": [
+    "found",
+    "item"
+   ],
+   "dim_key": "found|item",
+   "scope_key": "rarity",
+   "statgen_tags": [],
+   "statgen_stmts": 3,
+   "protected": false
+  },
+  {
+   "name": "CHARM_CHARGES_GAINED",
+   "kind": "Percentage",
+   "id": "charm_charges_gained",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope charm] 护符充能获得量倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charge",
+    "charm"
+   ],
+   "dim_tokens": [
+    "gained"
+   ],
+   "other_tokens": [],
+   "dim_key": "gained",
+   "scope_key": "charge|charm",
+   "statgen_tags": [
+    "CHARM"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "FLASK_CHARGES_GAINED",
+   "kind": "Percentage",
+   "id": "flask_charges_gained",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope flask] Flask 充能获得量倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charge",
+    "flask"
+   ],
+   "dim_tokens": [
+    "gained"
+   ],
+   "other_tokens": [],
+   "dim_key": "gained",
+   "scope_key": "charge|flask",
+   "statgen_tags": [
+    "FLASK"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "GLORY_GENERATION",
+   "kind": "Percentage",
+   "id": "glory_generation",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[悬空·待裁定] 荣耀生成速率；当前无消费端（注释称 Banner 读取不实），待接 fire 通道或删",
+   "class": "WELDED",
+   "scope_tokens": [
+    "glory"
+   ],
+   "dim_tokens": [
+    "generation"
+   ],
+   "other_tokens": [],
+   "dim_key": "generation",
+   "scope_key": "glory",
+   "statgen_tags": [
+    "GLORY"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "VOLATILITY_GENERATION",
+   "kind": "Percentage",
+   "id": "volatility_generation",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope volatility] 波动获取速率倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "volatility"
+   ],
+   "dim_tokens": [
+    "generation"
+   ],
+   "other_tokens": [],
+   "dim_key": "generation",
+   "scope_key": "volatility",
+   "statgen_tags": [
+    "VOLATILITY"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "RAGE_LOSS_GRACE",
+   "kind": "Double",
+   "id": "rage_loss_grace",
+   "base": 0.0,
+   "min": "0",
+   "max": "4096",
+   "note": "[核心] 怒气固有流失宽限期（tick）；RageHelper 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "rage"
+   ],
+   "dim_tokens": [
+    "grace",
+    "loss"
+   ],
+   "other_tokens": [],
+   "dim_key": "grace|loss",
+   "scope_key": "rage",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "NO_INHERENT_MANA_REGENERATION",
+   "kind": "Percentage",
+   "id": "no_inherent_mana_regeneration",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 禁用固有魔力再生",
+   "class": "WELDED",
+   "scope_tokens": [
+    "mana",
+    "regen"
+   ],
+   "dim_tokens": [
+    "inherent",
+    "no"
+   ],
+   "other_tokens": [],
+   "dim_key": "inherent|no",
+   "scope_key": "mana|regen",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "BANNER_LINGER",
+   "kind": "Double",
+   "id": "banner_linger",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[数据先行·待核] 战旗离开后增益残留秒数；消费端待接",
+   "class": "WELDED",
+   "scope_tokens": [
+    "banner"
+   ],
+   "dim_tokens": [
+    "linger"
+   ],
+   "other_tokens": [],
+   "dim_key": "linger",
+   "scope_key": "banner",
+   "statgen_tags": [
+    "BANNER",
+    "TAKEN"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "RAGE_LOSS_RATE",
+   "kind": "Percentage",
+   "id": "rage_loss_rate",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 怒气固有流失速率倍率；RageHelper 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "rage"
+   ],
+   "dim_tokens": [
+    "loss",
+    "rate"
+   ],
+   "other_tokens": [],
+   "dim_key": "loss|rate",
+   "scope_key": "rage",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_MAGNITUDE",
+   "kind": "Percentage",
+   "id": "ailment_magnitude",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment] 异常幅度倍率（归一属性，按异常名作用域）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment"
+   ],
+   "dim_tokens": [
+    "magnitude"
+   ],
+   "other_tokens": [],
+   "dim_key": "magnitude",
+   "scope_key": "ailment",
+   "statgen_tags": [
+    "AILMENT",
+    "ARCANE_SURGE",
+    "ARCHON",
+    "AURA",
+    "BANNER",
+    "BLEED",
+    "BLIND",
+    "CHILL",
+    "CURSE",
+    "DAMAGE_OVER_TIME",
+    "DAZE",
+    "EXPOSURE",
+    "FIRE",
+    "IGNITE",
+    "INCISION",
+    "INFUSION",
+    "JAGGED_GROUND",
+    "MARK",
+    "NON_DAMAGING",
+    "OFFERING",
+    "PARRY",
+    "POISON",
+    "SHOCK",
+    "SLOW",
+    "SPELL",
+    "TAKEN",
+    "WARCRY",
+    "WITHERED"
+   ],
+   "statgen_stmts": 37,
+   "protected": false
+  },
+  {
+   "name": "AURA_MAGNITUDE",
+   "kind": "Percentage",
+   "id": "aura_magnitude",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope aura] 光环幅度倍率（归一属性）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "aura"
+   ],
+   "dim_tokens": [
+    "magnitude"
+   ],
+   "other_tokens": [],
+   "dim_key": "magnitude",
+   "scope_key": "aura",
+   "statgen_tags": [
+    "AURA"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "REMNANT_MAGNITUDE",
+   "kind": "Double",
+   "id": "remnant_magnitude",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope remnant] 残迹幅度；RemnantState:54 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "remnant"
+   ],
+   "dim_tokens": [
+    "magnitude"
+   ],
+   "other_tokens": [],
+   "dim_key": "magnitude",
+   "scope_key": "remnant",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "MAX_ENDURANCE_CHARGES",
+   "kind": "Double",
+   "id": "max_endurance_charges",
+   "base": 3.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 最大耐力球数",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charge",
+    "endurance"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "charge|endurance",
+   "statgen_tags": [
+    "ENDURANCE"
+   ],
+   "statgen_stmts": 1,
+   "protected": true
+  },
+  {
+   "name": "MAX_FRENZY_CHARGES",
+   "kind": "Double",
+   "id": "max_frenzy_charges",
+   "base": 3.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 最大狂怒球",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charge",
+    "frenzy"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "charge|frenzy",
+   "statgen_tags": [
+    "FRENZY"
+   ],
+   "statgen_stmts": 1,
+   "protected": true
+  },
+  {
+   "name": "MAX_INFUSION",
+   "kind": "Double",
+   "id": "max_infusion",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope infusion] 元素灌入层数上限；InfusionHelper 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "infusion"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "infusion",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": true
+  },
+  {
+   "name": "MAX_MANA",
+   "kind": "Double",
+   "id": "max_mana",
+   "base": 40.0,
+   "min": "0",
+   "max": null,
+   "note": "[核心] 最大魔力",
+   "class": "WELDED",
+   "scope_tokens": [
+    "mana"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "mana",
+   "statgen_tags": [],
+   "statgen_stmts": 3,
+   "protected": true
+  },
+  {
+   "name": "MAX_POWER_CHARGES",
+   "kind": "Double",
+   "id": "max_power_charges",
+   "base": 3.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 最大能量球",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charge",
+    "power"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "charge|power",
+   "statgen_tags": [
+    "POWER"
+   ],
+   "statgen_stmts": 1,
+   "protected": true
+  },
+  {
+   "name": "MAX_RAGE",
+   "kind": "Double",
+   "id": "max_rage",
+   "base": 50.0,
+   "min": null,
+   "max": null,
+   "note": "[核心] 最大怒气",
+   "class": "WELDED",
+   "scope_tokens": [
+    "rage"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "rage",
+   "statgen_tags": [],
+   "statgen_stmts": 3,
+   "protected": true
+  },
+  {
+   "name": "MAX_REGENERATION",
+   "kind": "Double",
+   "id": "max_regeneration",
+   "base": 0.05,
+   "min": null,
+   "max": null,
+   "note": "[fold] 最大再生率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "regen"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "regen",
+   "statgen_tags": [
+    "FLASK",
+    "HEALTH",
+    "REGEN",
+    "TOTEM"
+   ],
+   "statgen_stmts": 17,
+   "protected": true
+  },
+  {
+   "name": "MAX_RESISTANCES",
+   "kind": "Percentage",
+   "id": "max_resistances",
+   "base": 0.75,
+   "min": null,
+   "max": null,
+   "note": "[核心] 最大抗性上限（0.75）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "resistance"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "resistance",
+   "statgen_tags": [
+    "CHAOS",
+    "COLD",
+    "ELEMENTAL",
+    "FIRE",
+    "LIGHTNING",
+    "MINION"
+   ],
+   "statgen_stmts": 9,
+   "protected": true
+  },
+  {
+   "name": "MAX_SPIRIT",
+   "kind": "Double",
+   "id": "max_spirit",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[核心] 最大精魂",
+   "class": "WELDED",
+   "scope_tokens": [
+    "spirit"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "spirit",
+   "statgen_tags": [],
+   "statgen_stmts": 2,
+   "protected": true
+  },
+  {
+   "name": "MAX_VOLATILITY",
+   "kind": "Double",
+   "id": "max_volatility",
+   "base": 100.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope volatility] 波动上限；VolatilityHelper 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "volatility"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "volatility",
+   "statgen_tags": [
+    "VOLATILITY"
+   ],
+   "statgen_stmts": 1,
+   "protected": true
+  },
+  {
+   "name": "META_ENERGY_MAX",
+   "kind": "Double",
+   "id": "meta_energy_max",
+   "base": 100.0,
+   "min": "0",
+   "max": null,
+   "note": "[核心] 元技能能量上限（base 100）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "energy",
+    "meta"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [],
+   "dim_key": "max",
+   "scope_key": "energy|meta",
+   "statgen_tags": [
+    "META"
+   ],
+   "statgen_stmts": 1,
+   "protected": true
+  },
+  {
+   "name": "MAX_ENERGY_SHIELD",
+   "kind": "Double",
+   "id": "max_energy_shield",
+   "base": 0.0,
+   "min": "0",
+   "max": null,
+   "note": "[核心] 最大能量护盾（ES）；StateCalculator 读取，承伤吸收层消费",
+   "class": "WELDED",
+   "scope_tokens": [
+    "energy"
+   ],
+   "dim_tokens": [
+    "max"
+   ],
+   "other_tokens": [
+    "shield"
+   ],
+   "dim_key": "max|shield",
+   "scope_key": "energy",
+   "statgen_tags": [],
+   "statgen_stmts": 3,
+   "protected": true
+  },
+  {
+   "name": "STATUS_MAX_STACKS",
+   "kind": "Percentage",
+   "id": "status_max_stacks",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope status] 状态最大层数",
+   "class": "WELDED",
+   "scope_tokens": [
+    "status"
+   ],
+   "dim_tokens": [
+    "max",
+    "stacks"
+   ],
+   "other_tokens": [],
+   "dim_key": "max|stacks",
+   "scope_key": "status",
+   "statgen_tags": [
+    "STATUS"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "DAMAGE_OVER_TIME_MULTIPLIER",
+   "kind": "Percentage",
+   "id": "damage_over_time_multiplier",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 持续伤害倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "damage"
+   ],
+   "dim_tokens": [
+    "multiplier",
+    "over",
+    "time"
+   ],
+   "other_tokens": [],
+   "dim_key": "multiplier|over|time",
+   "scope_key": "damage",
+   "statgen_tags": [
+    "DAMAGE_OVER_TIME"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "TAKE_NO_DAMAGE_VOLATILITY",
+   "kind": "Percentage",
+   "id": "take_no_damage_volatility",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[核心·scope volatility] 波动免伤；VolatilityDetonationManager 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "damage",
+    "volatility"
+   ],
+   "dim_tokens": [
+    "no"
+   ],
+   "other_tokens": [
+    "take"
+   ],
+   "dim_key": "no|take",
+   "scope_key": "damage|volatility",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "MANA_TAKE_OF_DAMAGE",
+   "kind": "Percentage",
+   "id": "mana_take_of_damage",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope] 受伤转魔力比例",
+   "class": "WELDED",
+   "scope_tokens": [
+    "damage",
+    "mana"
+   ],
+   "dim_tokens": [
+    "of"
+   ],
+   "other_tokens": [
+    "take"
+   ],
+   "dim_key": "of|take",
+   "scope_key": "damage|mana",
+   "statgen_tags": [
+    "MANA_TAKE"
+   ],
+   "statgen_stmts": 3,
+   "protected": false
+  },
+  {
+   "name": "RESISTANCE_PENETRATION",
+   "kind": "Percentage",
+   "id": "resistance_penetration",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope element] 抗性穿透（攻击方，全局乘数）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "resistance"
+   ],
+   "dim_tokens": [
+    "penetration"
+   ],
+   "other_tokens": [],
+   "dim_key": "penetration",
+   "scope_key": "resistance",
+   "statgen_tags": [
+    "ATTACK",
+    "ELEMENTAL",
+    "GLORY",
+    "RESISTANCE"
+   ],
+   "statgen_stmts": 6,
+   "protected": false
+  },
+  {
+   "name": "PROJECTILE_PIERCE",
+   "kind": "Double",
+   "id": "projectile_pierce",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope projectile] 投射物穿透次数",
+   "class": "WELDED",
+   "scope_tokens": [
+    "projectile"
+   ],
+   "dim_tokens": [
+    "pierce"
+   ],
+   "other_tokens": [],
+   "dim_key": "pierce",
+   "scope_key": "projectile",
+   "statgen_tags": [
+    "PROJECTILE"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "PROJECTILE_RANDOM_FIRE",
+   "kind": "Boolean",
+   "id": "projectile_random_fire",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope projectile] 投射物随机发射（布尔）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "fire",
+    "projectile"
+   ],
+   "dim_tokens": [
+    "random"
+   ],
+   "other_tokens": [],
+   "dim_key": "random",
+   "scope_key": "fire|projectile",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "PARRY_RANGE",
+   "kind": "Percentage",
+   "id": "parry_range",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope parry] 招架范围倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "parry"
+   ],
+   "dim_tokens": [
+    "range"
+   ],
+   "other_tokens": [],
+   "dim_key": "range",
+   "scope_key": "parry",
+   "statgen_tags": [
+    "PARRY"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "PRESENCE_RANGE",
+   "kind": "Double",
+   "id": "presence_range",
+   "base": 6.0,
+   "min": "0",
+   "max": null,
+   "note": "[核心·scope presence] 光环/威势范围；EntityOperationEvent 读取",
+   "class": "WELDED",
+   "scope_tokens": [
+    "presence"
+   ],
+   "dim_tokens": [
+    "range"
+   ],
+   "other_tokens": [],
+   "dim_key": "range",
+   "scope_key": "presence",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_DAMAGE_RATE",
+   "kind": "Percentage",
+   "id": "ailment_damage_rate",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment] 异常伤害速率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment",
+    "damage"
+   ],
+   "dim_tokens": [
+    "rate"
+   ],
+   "other_tokens": [],
+   "dim_key": "rate",
+   "scope_key": "ailment|damage",
+   "statgen_tags": [
+    "AILMENT",
+    "BLEED",
+    "DAMAGE_OVER_TIME",
+    "IGNITE",
+    "POISON"
+   ],
+   "statgen_stmts": 6,
+   "protected": false
+  },
+  {
+   "name": "REGENERATION_RATE",
+   "kind": "Double",
+   "id": "regeneration_rate",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 再生速率倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "regen"
+   ],
+   "dim_tokens": [
+    "rate"
+   ],
+   "other_tokens": [],
+   "dim_key": "rate",
+   "scope_key": "regen",
+   "statgen_tags": [
+    "ENERGY",
+    "HEALTH",
+    "MANA",
+    "REGEN"
+   ],
+   "statgen_stmts": 4,
+   "protected": false
+  },
+  {
+   "name": "ARCHON_RECOVERY_RATE",
+   "kind": "Percentage",
+   "id": "archon_recovery_rate",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope archon] Archon 恢复速率倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "archon"
+   ],
+   "dim_tokens": [
+    "rate",
+    "recovery"
+   ],
+   "other_tokens": [],
+   "dim_key": "rate|recovery",
+   "scope_key": "archon",
+   "statgen_tags": [
+    "ARCHON"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "COOLDOWN_RECOVERY_RATE",
+   "kind": "Percentage",
+   "id": "cooldown_recovery_rate",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 冷却回复速率倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "cooldown"
+   ],
+   "dim_tokens": [
+    "rate",
+    "recovery"
+   ],
+   "other_tokens": [],
+   "dim_key": "rate|recovery",
+   "scope_key": "cooldown",
+   "statgen_tags": [
+    "COMMAND",
+    "GRENADE"
+   ],
+   "statgen_stmts": 4,
+   "protected": false
+  },
+  {
+   "name": "FLASK_RECOVERY_RATE",
+   "kind": "Percentage",
+   "id": "flask_recovery_rate",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope flask] Flask 回复量倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "flask"
+   ],
+   "dim_tokens": [
+    "rate",
+    "recovery"
+   ],
+   "other_tokens": [],
+   "dim_key": "rate|recovery",
+   "scope_key": "flask",
+   "statgen_tags": [
+    "FLASK",
+    "HEALTH",
+    "MANA"
+   ],
+   "statgen_stmts": 4,
+   "protected": false
+  },
+  {
+   "name": "DEFLECTION_RATING",
+   "kind": "Percentage",
+   "id": "deflection_rating",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope deflect] 招架判定强度（格挡判定读取）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "deflect"
+   ],
+   "dim_tokens": [
+    "rating"
+   ],
+   "other_tokens": [],
+   "dim_key": "rating",
+   "scope_key": "deflect",
+   "statgen_tags": [
+    "DEFLECT",
+    "SURROUNDED"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "ENERGY_RECHARGE",
+   "kind": "Percentage",
+   "id": "energy_recharge",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 能量（施法资源）回复速率倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "energy"
+   ],
+   "dim_tokens": [
+    "recharge"
+   ],
+   "other_tokens": [],
+   "dim_key": "recharge",
+   "scope_key": "energy",
+   "statgen_tags": [
+    "ENERGY"
+   ],
+   "statgen_stmts": 2,
+   "protected": false
+  },
+  {
+   "name": "GUARD_RECOVERY",
+   "kind": "Percentage",
+   "id": "guard_recovery",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope guard] Guard 护盾回复量",
+   "class": "WELDED",
+   "scope_tokens": [
+    "guard"
+   ],
+   "dim_tokens": [
+    "recovery"
+   ],
+   "other_tokens": [],
+   "dim_key": "recovery",
+   "scope_key": "guard",
+   "statgen_tags": [],
+   "statgen_stmts": 0,
+   "protected": false
+  },
+  {
+   "name": "STUN_RECOVERY",
+   "kind": "Percentage",
+   "id": "stun_recovery",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope stun] 眩晕恢复速率倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "stun"
+   ],
+   "dim_tokens": [
+    "recovery"
+   ],
+   "other_tokens": [],
+   "dim_key": "recovery",
+   "scope_key": "stun",
+   "statgen_tags": [
+    "STUN"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "CROSS_BOW_RELOAD_TIME",
+   "kind": "Percentage",
+   "id": "cross_bow_reload_time",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope crossbow] 弩装填时间倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "bow"
+   ],
+   "dim_tokens": [
+    "reload",
+    "time"
+   ],
+   "other_tokens": [
+    "cross"
+   ],
+   "dim_key": "reload|time|cross",
+   "scope_key": "bow",
+   "statgen_tags": [
+    "CROSSBOW"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "PROJECTILE_SPEED",
+   "kind": "Percentage",
+   "id": "projectile_speed",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope projectile] 投射物速度倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "projectile"
+   ],
+   "dim_tokens": [
+    "speed"
+   ],
+   "other_tokens": [],
+   "dim_key": "speed",
+   "scope_key": "projectile",
+   "statgen_tags": [
+    "BOLT",
+    "PROJECTILE"
+   ],
+   "statgen_stmts": 4,
+   "protected": false
+  },
+  {
+   "name": "CULLING_STRIKE_THRESHOLD",
+   "kind": "Percentage",
+   "id": "culling_strike_threshold",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold] 斩杀阈值倍率",
+   "class": "WELDED",
+   "scope_tokens": [
+    "culling"
+   ],
+   "dim_tokens": [
+    "strike",
+    "threshold"
+   ],
+   "other_tokens": [],
+   "dim_key": "strike|threshold",
+   "scope_key": "culling",
+   "statgen_tags": [],
+   "statgen_stmts": 1,
+   "protected": false
+  },
+  {
+   "name": "AILMENT_THRESHOLD",
+   "kind": "Double",
+   "id": "ailment_threshold",
+   "base": 0.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope ailment,threshold] 异常门槛倍率（归一属性）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "ailment"
+   ],
+   "dim_tokens": [
+    "threshold"
+   ],
+   "other_tokens": [],
+   "dim_key": "threshold",
+   "scope_key": "ailment",
+   "statgen_tags": [
+    "CHILL",
+    "ELEMENTAL",
+    "FREEZE",
+    "STUN"
+   ],
+   "statgen_stmts": 4,
+   "protected": false
+  },
+  {
+   "name": "CHARM_CHARGES_USED",
+   "kind": "Percentage",
+   "id": "charm_charges_used",
+   "base": 1.0,
+   "min": null,
+   "max": null,
+   "note": "[fold·scope charm] 护符充能消耗倍率（<1 减耗）",
+   "class": "WELDED",
+   "scope_tokens": [
+    "charge",
+    "charm"
+   ],
+   "dim_tokens": [
+    "used"
+   ],
+   "other_tokens": [],
+   "dim_key": "used",
+   "scope_key": "charge|charm",
+   "statgen_tags": [
+    "CHARM"
+   ],
+   "statgen_stmts": 1,
+   "protected": false
+  }
+ ]
+}

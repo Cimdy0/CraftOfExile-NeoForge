@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpass_chance_to_fire_an_additional_arrow",
+            "vars": {
+              "value": 0.24
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "33542",
+    "links": [
+      "32319",
+      "48836"
+    ],
+    "x": 12068.2,
+    "y": 1163.81
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_mirror_of_refraction",
+  "vars": {
+    "tier": 1.0
+  }
+}

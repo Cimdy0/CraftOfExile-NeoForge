@@ -1,0 +1,28 @@
+{
+  "aliases": [
+    "Scorch",
+    "Scorched",
+    "灼热",
+    "焚烧"
+  ],
+  "description": [
+    [
+      "$[scorch]",
+      "是一种强力的火焰异常，会降低目标的火焰",
+      "$[resistance]",
+      "。"
+    ],
+    [
+      "它对应",
+      "$[brittle]",
+      "（冰霜）与",
+      "$[sap]",
+      "（闪电）。"
+    ]
+  ],
+  "id": "scorch",
+  "keys": [
+    "coe:keyword.scorch"
+  ],
+  "title": "@coe:keyword.scorch"
+}

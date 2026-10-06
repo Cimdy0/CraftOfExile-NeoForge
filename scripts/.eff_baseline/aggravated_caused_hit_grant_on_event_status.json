@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "aggravated",
+  "tags": [
+    "caused_hit"
+  ],
+  "target": "status"
+}

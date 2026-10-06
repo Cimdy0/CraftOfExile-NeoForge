@@ -1,0 +1,791 @@
+[
+ {
+  "href": "Reforging_Bench",
+  "kind": "OTHER",
+  "title": "Reforging_Bench"
+ },
+ {
+  "href": "Gem",
+  "kind": "OTHER",
+  "title": "Gems"
+ },
+ {
+  "href": "Liquid_Emotions",
+  "kind": "OTHER",
+  "title": "Liquid Emotions"
+ },
+ {
+  "href": "Ascendancy_class",
+  "kind": "OTHER",
+  "title": "Ascendancy"
+ },
+ {
+  "href": "Waystones",
+  "kind": "OTHER",
+  "title": "Waystone"
+ },
+ {
+  "href": "EndGame",
+  "kind": "OTHER",
+  "title": "Endgame"
+ },
+ {
+  "href": "Primal_Avatar",
+  "kind": "GEM",
+  "title": "Primal Avatar",
+  "Class": "Skill Gems",
+  "ItemType": "Metadata/Items/Gem/SkillGemPrimalAvatar",
+  "Id": "PrimalAvatar",
+  "Type": "Duration"
+ },
+ {
+  "href": "Abyssal_Apparition",
+  "kind": "GEM",
+  "title": "Abyssal Apparition",
+  "Class": "Skill Gems",
+  "ItemType": "Metadata/Items/Gem/SkillGemTriggeredAbyssalApparition",
+  "Id": "TriggeredAbyssalApparition",
+  "Type": "Spell, Triggerable, Triggered, InbuiltTrigger, AttackInPlace"
+ },
+ {
+  "href": "Kinetic_Bash",
+  "kind": "ITEM",
+  "title": "Kinetic Bash",
+  "Class": "Skill Gems",
+  "ItemType": "Metadata/Items/Gems/SkillGemHazardousHoldout",
+  "Id": "HazardousHoldout",
+  "Type": "Channel, UsableWhileMoving, Attack, Area, Physical, Melee"
+ },
+ {
+  "href": "Gelid_Palm",
+  "kind": "ITEM",
+  "title": "Gelid Palm",
+  "Class": "Skill Gems",
+  "ItemType": "Metadata/Items/Gems/SkillGemGelidPalm",
+  "Id": "GelidPalm",
+  "Type": "Buff, HasReservation, Area, Cold, Attack, OngoingSkill, Persistent, NoAttackOrCastTime, AttackInPlace"
+ },
+ {
+  "href": "Smash_to_Smithereens",
+  "kind": "ITEM",
+  "title": "Smash to Smithereens",
+  "Class": "Skill Gems",
+  "ItemType": "Metadata/Items/Gems/SkillGemSmashToSmithereens",
+  "Id": "SmashToSmithereens",
+  "Type": "Attack, Area, Triggered, InbuiltTrigger, Triggerable, NoAttackOrCastTime, AttackInPlace, Fire, Cooldown"
+ },
+ {
+  "href": "Shroud",
+  "kind": "ITEM",
+  "title": "Shroud",
+  "Class": "Skill Gems",
+  "ItemType": "Metadata/Items/Gems/SkillGemShroud",
+  "Id": "Shroud",
+  "Type": "Spell, Buff, HasReservation, OngoingSkill, Persistent, AttackInPlace"
+ },
+ {
+  "href": "Grenade",
+  "kind": "GEM",
+  "title": "Grenade",
+  "Class": "Skill Gems",
+  "ItemType": "Metadata/Items/Gem/SkillGemPlayerDefaultGrenadeLauncher",
+  "Id": "PlayerDefaultGrenadeLauncher",
+  "Type": "Attack, RangedAttack, Area, ProjectileNumber, ProjectileSpeed, Cooldown, Triggerable, Grenade, UsableWhileMoving, DetonatesAfterTime, Projectile, Duration, MirageArcherCanUse, Physical"
+ },
+ {
+  "href": "Styrns_Anthem",
+  "kind": "GEM",
+  "title": "Styrn's Anthem",
+  "Class": "Support Gems",
+  "ItemType": "Metadata/Items/Gem/SupportGemKnightsAnthem",
+  "Id": "KnightsAnthemSupport"
+ },
+ {
+  "href": "Cast_on_Melee_Kill",
+  "kind": "ITEM",
+  "title": "Cast on Melee Kill",
+  "Class": "Meta Skill Gem",
+  "ItemType": "Metadata/Items/Gems/SkillGemCastOnMeleeKill",
+  "Id": "CastOnMeleeKill",
+  "Type": "HasReservation, OngoingSkill, Meta, Persistent, Buff, CanHaveMultipleOngoingSkillInstances, GeneratesEnergy, Triggers"
+ },
+ {
+  "href": "Cast_on_Death",
+  "kind": "ITEM",
+  "title": "Cast on Death",
+  "Class": "Meta Skill Gem",
+  "ItemType": "Metadata/Items/Gems/SkillGemCastOnDeath",
+  "Id": "CastOnDeath",
+  "Type": "HasReservation, OngoingSkill, Meta, Persistent, Buff, CanHaveMultipleOngoingSkillInstances, GeneratesEnergy, Triggers"
+ },
+ {
+  "href": "Cast_when_Damage_Taken",
+  "kind": "ITEM",
+  "title": "Cast when Damage Taken",
+  "Class": "Meta Skill Gem",
+  "ItemType": "Metadata/Items/Gems/SkillGemCastWhenDamageTaken",
+  "Id": "CastWhenDamageTaken",
+  "Type": "HasReservation, OngoingSkill, Meta, Persistent, Buff, CanHaveMultipleOngoingSkillInstances, Triggers"
+ },
+ {
+  "href": "Summon_Companion",
+  "kind": "ITEM",
+  "title": "Summon Companion",
+  "Class": "Meta Skill Gem",
+  "ItemType": "Metadata/Items/Gems/SkillGemSummonMercenaryCompanion",
+  "Id": "SummonMercenaryCompanion",
+  "Type": "Minion, MinionsCanExplode, CreatesMinion, HasReservation, Meta, Persistent, Singlular, Companion, CreatesCompanion, AttackInPlace"
+ },
+ {
+  "href": "Curse_on_Block",
+  "kind": "ITEM",
+  "title": "Curse on Block",
+  "Class": "Meta Skill Gem",
+  "ItemType": "Metadata/Items/Gems/SkillGemCastCurseOnBlock",
+  "Id": "CastCurseOnBlock",
+  "Type": "HasReservation, OngoingSkill, Meta, Persistent, Buff, CanHaveMultipleOngoingSkillInstances, GeneratesEnergy, Triggers, AttackInPlace"
+ },
+ {
+  "href": "Vessel_of_Kulemak",
+  "kind": "OTHER",
+  "title": "Vessel of Kulemak"
+ },
+ {
+  "href": "The_Bodach",
+  "kind": "OTHER",
+  "title": "The Bodach"
+ },
+ {
+  "href": "Atziris_Temple",
+  "kind": "OTHER",
+  "title": "Atziri's Temple"
+ },
+ {
+  "href": "The_Arbiter_of_Ash",
+  "kind": "OTHER",
+  "title": "The Arbiter of Ash"
+ },
+ {
+  "href": "The_Arbiter_of_Divinity",
+  "kind": "OTHER",
+  "title": "The Arbiter of Divinity"
+ },
+ {
+  "href": "The_Raven_Trickster",
+  "kind": "OTHER",
+  "title": "The Raven Trickster"
+ },
+ {
+  "href": "It_That_Was_Esh",
+  "kind": "OTHER",
+  "title": "It That Was Esh"
+ },
+ {
+  "href": "It_That_Was_Tul",
+  "kind": "OTHER",
+  "title": "It That Was Tul"
+ },
+ {
+  "href": "The_Aberration",
+  "kind": "OTHER",
+  "title": "The Aberration"
+ },
+ {
+  "href": "Study_the_Chains",
+  "kind": "OTHER",
+  "title": "Study the Chains"
+ },
+ {
+  "href": "Memories_of_the_Vaal",
+  "kind": "OTHER",
+  "title": "Memories of the Vaal"
+ },
+ {
+  "href": "Memories_of_the_Maraketh",
+  "kind": "OTHER",
+  "title": "Memories of the Maraketh"
+ },
+ {
+  "href": "Memories_of_the_Ezomytes",
+  "kind": "OTHER",
+  "title": "Memories of the Ezomytes"
+ },
+ {
+  "href": "Memories_of_the_Karui",
+  "kind": "OTHER",
+  "title": "Memories of the Karui"
+ },
+ {
+  "href": "Derelict_Mansion",
+  "kind": "OTHER",
+  "title": "Derelict Mansion"
+ },
+ {
+  "href": "The_Jade_Isles",
+  "kind": "OTHER",
+  "title": "The Jade Isles"
+ },
+ {
+  "href": "Sacred_Reservoir",
+  "kind": "OTHER",
+  "title": "Sacred Reservoir"
+ },
+ {
+  "href": "Dynamism",
+  "kind": "OTHER",
+  "title": "Dynamism"
+ },
+ {
+  "href": "Efficient_Inscriptions",
+  "kind": "OTHER",
+  "title": "Efficient Inscriptions"
+ },
+ {
+  "href": "Evocational_Practitioner",
+  "kind": "OTHER",
+  "title": "Evocational Practitioner"
+ },
+ {
+  "href": "Invoker",
+  "kind": "OTHER",
+  "title": "Invoker"
+ },
+ {
+  "href": "Monk",
+  "kind": "OTHER",
+  "title": "Monk"
+ },
+ {
+  "href": "Bones_of_Ullr",
+  "kind": "OTHER",
+  "title": "Bones of Ullr Lattice Sandals"
+ },
+ {
+  "href": "Umbilicus_Immortalis",
+  "kind": "OTHER",
+  "title": "Umbilicus Immortalis Linen Belt"
+ },
+ {
+  "href": "Necromantle",
+  "kind": "OTHER",
+  "title": "Necromantle Bone Raiment"
+ },
+ {
+  "href": "Carrion_Call",
+  "kind": "OTHER",
+  "title": "Carrion Call Engraved Focus"
+ },
+ {
+  "href": "Trenchtimbre",
+  "kind": "OTHER",
+  "title": "Trenchtimbre Spiked Club"
+ },
+ {
+  "href": "Chober_Chaber",
+  "kind": "OTHER",
+  "title": "Chober Chaber Leaden Greathammer"
+ },
+ {
+  "href": "The_Dark_Defiler",
+  "kind": "OTHER",
+  "title": "The Dark Defiler Rattling Sceptre"
+ },
+ {
+  "href": "Heartbound_Loop",
+  "kind": "OTHER",
+  "title": "Heartbound Loop Pearl Ring"
+ },
+ {
+  "href": "Vis_Mortis",
+  "kind": "OTHER",
+  "title": "Vis Mortis Plated Raiment"
+ },
+ {
+  "href": "The_Ravens_Flock",
+  "kind": "OTHER",
+  "title": "The Raven's Flock Perching Staff"
+ },
+ {
+  "href": "Answered_Call",
+  "kind": "OTHER",
+  "title": "Answered Call"
+ },
+ {
+  "href": "Warrior",
+  "kind": "OTHER",
+  "title": "Warrior"
+ },
+ {
+  "href": "Living_Weapon",
+  "kind": "OTHER",
+  "title": "Living Weapon"
+ },
+ {
+  "href": "Smith_of_Kitava",
+  "kind": "OTHER",
+  "title": "Smith of Kitava"
+ },
+ {
+  "href": "Barya_of_Navira",
+  "kind": "OTHER",
+  "title": "Barya of Navira"
+ },
+ {
+  "href": "Disciple_of_Varashta",
+  "kind": "OTHER",
+  "title": "Disciple of Varashta"
+ },
+ {
+  "href": "Sorceress",
+  "kind": "OTHER",
+  "title": "Sorceress"
+ },
+ {
+  "href": "Barya_of_Kelari",
+  "kind": "OTHER",
+  "title": "Barya of Kelari"
+ },
+ {
+  "href": "Barya_of_Ruzhan",
+  "kind": "OTHER",
+  "title": "Barya of Ruzhan"
+ },
+ {
+  "href": "Unleash_Hell",
+  "kind": "OTHER",
+  "title": "Unleash Hell!"
+ },
+ {
+  "href": "Tactician",
+  "kind": "OTHER",
+  "title": "Tactician"
+ },
+ {
+  "href": "Mercenary",
+  "kind": "OTHER",
+  "title": "Mercenary"
+ },
+ {
+  "href": "Spirit_Walker",
+  "kind": "OTHER",
+  "title": "Spirit Walker"
+ },
+ {
+  "href": "Huntress",
+  "kind": "OTHER",
+  "title": "Huntress"
+ },
+ {
+  "href": "The_Soul_Meridian",
+  "kind": "OTHER",
+  "title": "The Soul Meridian"
+ },
+ {
+  "href": "Lord_of_Horrors",
+  "kind": "OTHER",
+  "title": "Lord of Horrors"
+ },
+ {
+  "href": "Dead_can_Dance",
+  "kind": "OTHER",
+  "title": "Dead can Dance"
+ },
+ {
+  "href": "Relentless_Fallen",
+  "kind": "OTHER",
+  "title": "Relentless Fallen"
+ },
+ {
+  "href": "Right_Hand_of_Darkness",
+  "kind": "OTHER",
+  "title": "Right Hand of Darkness"
+ },
+ {
+  "href": "Grip_of_Evil",
+  "kind": "OTHER",
+  "title": "Grip of Evil"
+ },
+ {
+  "href": "Necrotic_Touch",
+  "kind": "OTHER",
+  "title": "Necrotic Touch"
+ },
+ {
+  "href": "Restless_Dead",
+  "kind": "OTHER",
+  "title": "Restless Dead"
+ },
+ {
+  "href": "Growing_Swarm",
+  "kind": "OTHER",
+  "title": "Growing Swarm"
+ },
+ {
+  "href": "At_your_Command",
+  "kind": "OTHER",
+  "title": "At your Command"
+ },
+ {
+  "href": "Among_the_Hordes",
+  "kind": "OTHER",
+  "title": "Among the Hordes"
+ },
+ {
+  "href": "Gravedigger",
+  "kind": "OTHER",
+  "title": "Gravedigger"
+ },
+ {
+  "href": "Necrotised_Flesh",
+  "kind": "OTHER",
+  "title": "Necrotised Flesh"
+ },
+ {
+  "href": "Left_Hand_of_Darkness",
+  "kind": "OTHER",
+  "title": "Left Hand of Darkness"
+ },
+ {
+  "href": "Crystalline_Flesh",
+  "kind": "OTHER",
+  "title": "Crystalline Flesh"
+ },
+ {
+  "href": "Vile_Mending",
+  "kind": "OTHER",
+  "title": "Vile Mending"
+ },
+ {
+  "href": "Regenerative_Flesh",
+  "kind": "OTHER",
+  "title": "Regenerative Flesh"
+ },
+ {
+  "href": "Living_Death",
+  "kind": "OTHER",
+  "title": "Living Death"
+ },
+ {
+  "href": "Expendable_Army",
+  "kind": "OTHER",
+  "title": "Expendable Army"
+ },
+ {
+  "href": "Entropic_Incarnation",
+  "kind": "OTHER",
+  "title": "Entropic Incarnation"
+ },
+ {
+  "href": "Gigantic_Following",
+  "kind": "OTHER",
+  "title": "Gigantic Following"
+ },
+ {
+  "href": "Emboldening_Lead",
+  "kind": "OTHER",
+  "title": "Emboldening Lead"
+ },
+ {
+  "href": "Silent_Guardian",
+  "kind": "OTHER",
+  "title": "Silent Guardian"
+ },
+ {
+  "href": "Holy_Protector",
+  "kind": "OTHER",
+  "title": "Holy Protector"
+ },
+ {
+  "href": "Lust_for_Sacrifice",
+  "kind": "OTHER",
+  "title": "Lust for Sacrifice"
+ },
+ {
+  "href": "Long_Distance_Relationship",
+  "kind": "OTHER",
+  "title": "Long Distance Relationship"
+ },
+ {
+  "href": "Lifelong_Friend",
+  "kind": "OTHER",
+  "title": "Lifelong Friend"
+ },
+ {
+  "href": "Pack_Encouragement",
+  "kind": "OTHER",
+  "title": "Pack Encouragement"
+ },
+ {
+  "href": "Licking_Wounds",
+  "kind": "OTHER",
+  "title": "Licking Wounds"
+ },
+ {
+  "href": "Unstable_Bond",
+  "kind": "OTHER",
+  "title": "Unstable Bond"
+ },
+ {
+  "href": "Lord_of_the_Squall",
+  "kind": "OTHER",
+  "title": "Lord of the Squall"
+ },
+ {
+  "href": "Replenishing_Horde",
+  "kind": "OTHER",
+  "title": "Replenishing Horde"
+ },
+ {
+  "href": "Infernalist",
+  "kind": "OTHER",
+  "title": "Infernalist"
+ },
+ {
+  "href": "Witch",
+  "kind": "OTHER",
+  "title": "Witch"
+ },
+ {
+  "href": "Hierarchy",
+  "kind": "OTHER",
+  "title": "Hierarchy"
+ },
+ {
+  "href": "Slum_Lord",
+  "kind": "OTHER",
+  "title": "Slum Lord"
+ },
+ {
+  "href": "Axiom_Warden",
+  "kind": "OTHER",
+  "title": "Axiom Warden"
+ },
+ {
+  "href": "Fiery_Leadership",
+  "kind": "OTHER",
+  "title": "Fiery Leadership"
+ },
+ {
+  "href": "Fight_as_One",
+  "kind": "OTHER",
+  "title": "Fight as One"
+ },
+ {
+  "href": "Summer_Meadows",
+  "kind": "OTHER",
+  "title": "Summer Meadows"
+ },
+ {
+  "href": "Quickened_Corpses",
+  "kind": "OTHER",
+  "title": "Quickened Corpses"
+ },
+ {
+  "href": "Ambivalent_Command",
+  "kind": "OTHER",
+  "title": "Ambivalent Command"
+ },
+ {
+  "href": "Commanding_Rage",
+  "kind": "OTHER",
+  "title": "Commanding Rage"
+ },
+ {
+  "href": "Greater_Pattern",
+  "kind": "OTHER",
+  "title": "Greater Pattern"
+ },
+ {
+  "href": "Stench_of_Carrion",
+  "kind": "OTHER",
+  "title": "Stench of Carrion"
+ },
+ {
+  "href": "Necrosis",
+  "kind": "OTHER",
+  "title": "Necrosis"
+ },
+ {
+  "href": "Wrapped_in_Dread",
+  "kind": "OTHER",
+  "title": "Wrapped in Dread"
+ },
+ {
+  "href": "Hand_in_the_Grave",
+  "kind": "OTHER",
+  "title": "Hand in the Grave"
+ },
+ {
+  "href": "Corpses_Clutch",
+  "kind": "OTHER",
+  "title": "Corpse's Clutch"
+ },
+ {
+  "href": "Buried_Alive",
+  "kind": "OTHER",
+  "title": "Buried Alive"
+ },
+ {
+  "href": "Sacrifice_of_Loyalty",
+  "kind": "OTHER",
+  "title": "Sacrifice of Loyalty"
+ },
+ {
+  "href": "The_Flesh_Poppet",
+  "kind": "OTHER",
+  "title": "The Flesh Poppet Vicious Talisman"
+ },
+ {
+  "href": "The_Unleashed",
+  "kind": "OTHER",
+  "title": "The Unleashed Revered Vestments"
+ },
+ {
+  "href": "Surge_of_the_Tide",
+  "kind": "OTHER",
+  "title": "Surge of the Tide Lumbering Talisman"
+ },
+ {
+  "href": "Conall_the_Hunted",
+  "kind": "OTHER",
+  "title": "Conall the Hunted"
+ },
+ {
+  "href": "Primal_Rage",
+  "kind": "OTHER",
+  "title": "Primal Rage"
+ },
+ {
+  "href": "Invigorating_Hate",
+  "kind": "OTHER",
+  "title": "Invigorating Hate"
+ },
+ {
+  "href": "Boon_of_the_Beast",
+  "kind": "OTHER",
+  "title": "Boon of the Beast"
+ },
+ {
+  "href": "Shifted_Strikes",
+  "kind": "OTHER",
+  "title": "Shifted Strikes"
+ },
+ {
+  "href": "Bears_Roar",
+  "kind": "OTHER",
+  "title": "Bear's Roar"
+ },
+ {
+  "href": "Wyverns_Breath",
+  "kind": "OTHER",
+  "title": "Wyvern's Breath"
+ },
+ {
+  "href": "Wolfs_Howl",
+  "kind": "OTHER",
+  "title": "Wolf's Howl"
+ },
+ {
+  "href": "Insulating_Hide",
+  "kind": "OTHER",
+  "title": "Insulating Hide"
+ },
+ {
+  "href": "Spirit_of_the_Bear",
+  "kind": "OTHER",
+  "title": "Spirit of the Bear"
+ },
+ {
+  "href": "Hide_of_the_Bear",
+  "kind": "OTHER",
+  "title": "Hide of the Bear"
+ },
+ {
+  "href": "Bashing_Beast",
+  "kind": "OTHER",
+  "title": "Bashing Beast"
+ },
+ {
+  "href": "Blood_of_the_Wolf",
+  "kind": "OTHER",
+  "title": "Blood of the Wolf"
+ },
+ {
+  "href": "Spirit_of_the_Wolf",
+  "kind": "OTHER",
+  "title": "Spirit of the Wolf"
+ },
+ {
+  "href": "Scales_of_the_Wyvern",
+  "kind": "OTHER",
+  "title": "Scales of the Wyvern"
+ },
+ {
+  "href": "Spirit_of_the_Wyvern",
+  "kind": "OTHER",
+  "title": "Spirit of the Wyvern"
+ },
+ {
+  "href": "Surging_Beast",
+  "kind": "OTHER",
+  "title": "Surging Beast"
+ },
+ {
+  "href": "Rallying_Form",
+  "kind": "OTHER",
+  "title": "Rallying Form"
+ },
+ {
+  "href": "Solus_Ipse",
+  "kind": "OTHER",
+  "title": "Solus Ipse Grand Visage"
+ },
+ {
+  "href": "Crystalline_Resistance",
+  "kind": "OTHER",
+  "title": "Crystalline Resistance"
+ },
+ {
+  "href": "Gem_Enthusiast",
+  "kind": "OTHER",
+  "title": "Gem Enthusiast"
+ },
+ {
+  "href": "Crystallised_Immunities",
+  "kind": "OTHER",
+  "title": "Crystallised Immunities"
+ },
+ {
+  "href": "Unnatural_Resilience",
+  "kind": "OTHER",
+  "title": "Unnatural Resilience"
+ },
+ {
+  "href": "Conductive_Embrace",
+  "kind": "OTHER",
+  "title": "Conductive Embrace"
+ },
+ {
+  "href": "Integrated_Efficiency",
+  "kind": "OTHER",
+  "title": "Integrated Efficiency"
+ },
+ {
+  "href": "Gemling_Legionnaire",
+  "kind": "OTHER",
+  "title": "Gemling Legionnaire"
+ },
+ {
+  "href": "Thaumaturgical_Infusion",
+  "kind": "OTHER",
+  "title": "Thaumaturgical Infusion"
+ },
+ {
+  "href": "Coming_Soon",
+  "kind": "ITEM",
+  "title": "Coming Soon",
+  "Class": "Skill Gems",
+  "ItemType": "Metadata/Items/Gems/SkillGemUnknown1",
+  "Id": "Unknown1"
+ }
+]

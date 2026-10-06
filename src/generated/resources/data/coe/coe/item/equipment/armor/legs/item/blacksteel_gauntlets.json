@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:armor/legs/template/strength_dexterity",
+    "reqs": {
+      "dex": 55.0,
+      "l": 80.0,
+      "str": 55.0
+    }
+  }
+}

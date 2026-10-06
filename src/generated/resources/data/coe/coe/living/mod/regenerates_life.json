@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_max_regeneration_op_add_value_0_02_health_regen"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "regenerates_life"
+}

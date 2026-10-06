@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_evasion_per_item_energy_shield_on_equipped_helmet",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "55193",
+    "links": [
+      "10944"
+    ],
+    "x": 5995.34,
+    "y": -584.865
+  }
+]

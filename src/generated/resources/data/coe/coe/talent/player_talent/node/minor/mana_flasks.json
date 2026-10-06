@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "1973",
+    "links": [
+      "28214",
+      "8607"
+    ],
+    "x": -7317.84,
+    "y": 453.685
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "28214",
+    "links": [
+      "1973",
+      "58295"
+    ],
+    "x": -7317.84,
+    "y": 289.685
+  }
+]

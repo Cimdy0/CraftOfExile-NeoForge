@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_for_each_hazard_triggered_recently_up_to",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trap",
+    "id": "42032",
+    "links": [
+      "17523"
+    ],
+    "x": 10299.3,
+    "y": 4740.9
+  }
+]

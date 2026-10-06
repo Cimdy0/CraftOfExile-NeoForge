@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:archon_recovery_period_expires_faster",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongenericnotable",
+    "id": "31773",
+    "links": [
+      "17061"
+    ],
+    "x": -3415.51,
+    "y": -10086.3
+  }
+]

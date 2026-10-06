@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_mana_on_kill",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mana",
+    "id": "52241",
+    "links": [
+      "58115",
+      "94"
+    ],
+    "x": 1828.18,
+    "y": -5035.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_mana_on_kill",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mana",
+    "id": "58115",
+    "links": [
+      "11672",
+      "52241"
+    ],
+    "x": 1746.18,
+    "y": -4871.12
+  }
+]

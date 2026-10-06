@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "1"
+  },
+  "effect": "coe:stat/effect/inline_cannot_recover_health_other_than_from_health_leech_511",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

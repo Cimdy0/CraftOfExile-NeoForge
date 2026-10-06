@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Magnitude",
+    "效果数值",
+    "强度"
+  ],
+  "description": [
+    [
+      "$[magnitude]",
+      "是效果的规模；它会缩放异常强度、",
+      "$[leech]",
+      "量及类似词缀。"
+    ]
+  ],
+  "id": "magnitude",
+  "keys": [
+    "coe:keyword.magnitude"
+  ],
+  "title": "@coe:keyword.magnitude"
+}

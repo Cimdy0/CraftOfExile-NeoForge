@@ -1,0 +1,10 @@
+{
+  "members": [
+    "coe:add_armor_local",
+    "coe:add_evasion_local",
+    "coe:armor_evasion_inc_local",
+    "coe:energy_evasion_inc_local",
+    "coe:evasion_inc_local"
+  ],
+  "slot": {}
+}

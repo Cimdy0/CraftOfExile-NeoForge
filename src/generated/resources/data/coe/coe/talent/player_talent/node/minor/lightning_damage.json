@@ -1,0 +1,795 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "11315",
+    "links": [
+      "48846",
+      "5961"
+    ],
+    "x": 2015.42,
+    "y": 9673.14
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "11736",
+    "links": [
+      "18651",
+      "62677"
+    ],
+    "x": 1249.73,
+    "y": -11026.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "17025",
+    "links": [
+      "13515",
+      "17057"
+    ],
+    "x": -1610.33,
+    "y": -9722.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "17057",
+    "links": [
+      "17025",
+      "22784",
+      "45497"
+    ],
+    "x": -1446.33,
+    "y": -9804.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "17420",
+    "links": [
+      "15356",
+      "18717",
+      "25565"
+    ],
+    "x": 9124.17,
+    "y": -3861.86
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "18593",
+    "links": [
+      "47080",
+      "47387"
+    ],
+    "x": -10577.4,
+    "y": -391.035
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "18651",
+    "links": [
+      "11736",
+      "63863"
+    ],
+    "x": 1129.94,
+    "y": -11238.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "18717",
+    "links": [
+      "17420",
+      "60483"
+    ],
+    "x": 8862.26,
+    "y": -3861.86
+  },
+  {
+    "icon": "passives_lightningdamagenode",
+    "id": "19953",
+    "links": [
+      "3544",
+      "50142"
+    ],
+    "x": -11718.4,
+    "y": 600.039
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "20649",
+    "links": [
+      "2582",
+      "62998",
+      "65290"
+    ],
+    "x": 9947.79,
+    "y": 2860.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "21560",
+    "links": [
+      "44405",
+      "46819"
+    ],
+    "x": -204.425,
+    "y": -7142.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "23724",
+    "links": [
+      "38270",
+      "7275"
+    ],
+    "x": -609.775,
+    "y": 9493.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "25565",
+    "links": [
+      "17420",
+      "722",
+      "8273"
+    ],
+    "x": 9234.09,
+    "y": -4261.87
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "26905",
+    "links": [
+      "28975",
+      "8821"
+    ],
+    "x": 1414.12,
+    "y": -12145.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "30662",
+    "links": [
+      "26291",
+      "45383"
+    ],
+    "x": -6906.44,
+    "y": -363.325
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "33292",
+    "links": [
+      "3251",
+      "57928"
+    ],
+    "x": 4784.23,
+    "y": -9692.38
+  },
+  {
+    "icon": "passives_lightningdamagenode",
+    "id": "3544",
+    "links": [
+      "18353",
+      "19953"
+    ],
+    "x": -11626.9,
+    "y": 941.545
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "37113",
+    "links": [
+      "28982",
+      "47080"
+    ],
+    "x": -10559.1,
+    "y": -803.165
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "38270",
+    "links": [
+      "23724",
+      "29402"
+    ],
+    "x": -484.775,
+    "y": 9376.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "43303",
+    "links": [
+      "50498",
+      "57928"
+    ],
+    "x": 4997.21,
+    "y": -9613.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "44345",
+    "links": [
+      "48833",
+      "64352"
+    ],
+    "x": 2947.79,
+    "y": 4537.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "44405",
+    "links": [
+      "21560",
+      "60878"
+    ],
+    "x": -382.905,
+    "y": -7264.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "45383",
+    "links": [
+      "23930",
+      "30662"
+    ],
+    "x": -7073.34,
+    "y": -333.895
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "47080",
+    "links": [
+      "18593",
+      "37113"
+    ],
+    "x": -10673.3,
+    "y": -593.395
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "48833",
+    "links": [
+      "4",
+      "44345",
+      "5564"
+    ],
+    "x": 3228.15,
+    "y": 4292.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "48846",
+    "links": [
+      "11315",
+      "44566"
+    ],
+    "x": 1657.19,
+    "y": 9770.52
+  },
+  {
+    "icon": "passives_lightningdamagenode",
+    "id": "50142",
+    "links": [
+      "19953",
+      "58197"
+    ],
+    "x": -12302.0,
+    "y": 649.639
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "54675",
+    "links": [
+      "58814",
+      "5961"
+    ],
+    "x": 2281.59,
+    "y": 10332.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "57928",
+    "links": [
+      "33292",
+      "43303"
+    ],
+    "x": 5022.51,
+    "y": -9397.47
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "5961",
+    "links": [
+      "11315",
+      "5295",
+      "54675"
+    ],
+    "x": 2260.4,
+    "y": 9939.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "60483",
+    "links": [
+      "18717",
+      "36540",
+      "7809"
+    ],
+    "x": 8733.08,
+    "y": -3633.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "63863",
+    "links": [
+      "18651",
+      "27785",
+      "8821"
+    ],
+    "x": 1367.44,
+    "y": -11645.1
+  },
+  {
+    "icon": "passives_lightningdamagenode",
+    "id": "64083",
+    "links": [
+      "12940",
+      "25570"
+    ],
+    "x": -3427.75,
+    "y": -11534.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "64352",
+    "links": [
+      "26786",
+      "44345"
+    ],
+    "x": 2806.74,
+    "y": 4311.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_lightning_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "8821",
+    "links": [
+      "26905",
+      "55554",
+      "63863"
+    ],
+    "x": 1249.73,
+    "y": -11848.7
+  }
+]

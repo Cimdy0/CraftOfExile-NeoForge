@@ -1,0 +1,105 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_fire_damage_minmax"
+    },
+    "tiers": [
+      {
+        "level": 5,
+        "name": "fervent",
+        "tier": 1,
+        "values": {
+          "max": {
+            "max": 15.0,
+            "min": 13.0
+          },
+          "min": {
+            "min": 13.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "ardent",
+        "tier": 2,
+        "values": {
+          "max": {
+            "max": 18.0,
+            "min": 16.0
+          },
+          "min": {
+            "max": 18.0,
+            "min": 16.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "fanatic_s",
+        "tier": 3,
+        "values": {
+          "max": {
+            "max": 21.0,
+            "min": 19.0
+          },
+          "min": {
+            "max": 21.0,
+            "min": 19.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 46,
+        "name": "zealot_s",
+        "tier": 4,
+        "values": {
+          "max": {
+            "max": 24.0,
+            "min": 22.0
+          },
+          "min": {
+            "max": 24.0,
+            "min": 22.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 60,
+        "name": "infernal",
+        "tier": 5,
+        "values": {
+          "max": {
+            "max": 27.0,
+            "min": 25.0
+          },
+          "min": {
+            "max": 27.0,
+            "min": 25.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 80,
+        "name": "flamebound",
+        "tier": 6,
+        "values": {
+          "max": {
+            "max": 30.0,
+            "min": 28.0
+          },
+          "min": {
+            "max": 30.0,
+            "min": 28.0
+          }
+        },
+        "weight": 500
+      }
+    ]
+  }
+}

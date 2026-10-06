@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_from_using_skills_while_moving",
+            "vars": {
+              "value": -0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "29843",
+    "links": [
+      "20831",
+      "35987"
+    ],
+    "x": 2485.97,
+    "y": 1959.95
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_from_using_skills_while_moving",
+            "vars": {
+              "value": -0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "48585",
+    "links": [
+      "20831",
+      "56325"
+    ],
+    "x": 2890.88,
+    "y": 2251.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_from_using_skills_while_moving",
+            "vars": {
+              "value": -0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "56325",
+    "links": [
+      "21280",
+      "48585"
+    ],
+    "x": 3195.27,
+    "y": 2366.42
+  }
+]

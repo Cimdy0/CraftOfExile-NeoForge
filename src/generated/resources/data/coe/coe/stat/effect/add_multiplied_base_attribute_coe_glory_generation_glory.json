@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:glory_generation",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "glory"
+  }
+}

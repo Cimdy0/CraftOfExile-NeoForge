@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "recently_gained_rage",
+    "window": 0.0
+  },
+  "effect": "coe:stat/effect/inline_presence_aura_1088",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1087"
+}

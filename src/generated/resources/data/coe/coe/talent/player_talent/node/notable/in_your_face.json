@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_damage_with_hit_damage_at_close_range",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_meleeaoenode",
+    "id": "57379",
+    "links": [
+      "15427",
+      "39190"
+    ],
+    "x": -9859.06,
+    "y": -827.832
+  }
+]

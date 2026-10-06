@@ -1,0 +1,89 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": "coe:level_table(7, 9, 10, 12, 14, 16, 18, 21, 24, 27, 30, 34, 38, 42, 47, 53, 58, 65, 72, 79, 87, 96, 106, 116, 128, 140, 154, 169, 185, 202, 221, 241, 263, 287, 313, 341, 372, 405, 441, 479)"
+    }
+  ],
+  "params": {
+    "wall_damage": 0.0,
+    "wall_duration": 200.0,
+    "wall_health": 0.0,
+    "wall_interval": 20.0,
+    "wall_range": 2.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_spawn": {
+                "attack_range": "$wall_range",
+                "duration": "$wall_duration",
+                "entity_id": "coe:wall_cold",
+                "health": "$wall_health",
+                "interval": "$wall_interval"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(9, 12, 16, 21, 26, 32, 38.5, 46, 54, 63, 73.5, 84, 96.5, 110.5, 126, 143.5, 162.5, 183.5, 207.5, 233.5, 263.5, 296.5, 333.5, 374.5, 421, 472.5, 531, 596, 669, 751.5, 844, 948.5, 1066, 1198.5, 1348.5, 1517.5, 1709, 1925.5, 2171, 2449.5)",
+                "can_crit": 1.0,
+                "damage_type": "cold"
+              }
+            },
+            "trigger": "on_tick"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_chill",
+                    "vars": {
+                      "value": 0.2
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_tick"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_freeze",
+                    "vars": {
+                      "value": 1.0
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_tick"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "wall"
+  ]
+}

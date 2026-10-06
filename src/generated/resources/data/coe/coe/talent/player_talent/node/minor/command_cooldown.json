@@ -1,0 +1,69 @@
+[
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "22133",
+    "links": [
+      "39857",
+      "761"
+    ],
+    "x": -5214.85,
+    "y": -1915.04
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_cooldown_recovery_rate_for_command_skills",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "35645",
+    "links": [
+      "6077"
+    ],
+    "x": -3915.69,
+    "y": -7172.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_cooldown_recovery_rate_for_command_skills",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "6077",
+    "links": [
+      "35645",
+      "8737"
+    ],
+    "x": -3709.27,
+    "y": -7173.96
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "761",
+    "links": [
+      "22133",
+      "51052"
+    ],
+    "x": -5431.35,
+    "y": -1540.04
+  }
+]

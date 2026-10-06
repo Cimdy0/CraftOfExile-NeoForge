@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_while_holding_a_shield",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "10508",
+    "links": [
+      "21684",
+      "53823"
+    ],
+    "x": -9121.78,
+    "y": 2130.78
+  }
+]

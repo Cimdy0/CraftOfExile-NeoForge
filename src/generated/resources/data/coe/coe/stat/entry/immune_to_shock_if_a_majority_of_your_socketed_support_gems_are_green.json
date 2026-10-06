@@ -1,0 +1,25 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "socket",
+      "aggregate": "count",
+      "color": "green",
+      "kind": "support"
+    },
+    "left_scale": 2.0,
+    "operator": ">",
+    "right": {
+      "type": "socket",
+      "aggregate": "count",
+      "kind": "support"
+    }
+  },
+  "effect": "coe:stat/effect/inline_immune_799",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

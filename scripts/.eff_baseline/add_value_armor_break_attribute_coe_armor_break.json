@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:armor_break",
+  "operation": "add_value",
+  "tags": [
+    "armor_break"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_volatility_when_an_allies_persistent_reviving_minion_is_minion_death",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_cursemitigationclusternode",
+    "id": "18485",
+    "links": [
+      "15809",
+      "54036"
+    ],
+    "x": -1940.55,
+    "y": -8720.27
+  }
+]

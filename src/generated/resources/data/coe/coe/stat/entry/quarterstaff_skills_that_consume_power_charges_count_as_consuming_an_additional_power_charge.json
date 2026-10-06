@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "1"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "wielding_quarterstaff"
+  },
+  "effect": "coe:stat/effect/inline_extra_charge_consumed_817",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_816"
+}

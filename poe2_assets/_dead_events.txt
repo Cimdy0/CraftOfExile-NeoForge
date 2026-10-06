@@ -1,0 +1,43 @@
+EventName total = 78   live(有发射点) = 65   dead(无发射点) = 13
+
+=== DEAD：已声明但无发射点（按被引用次数降序；引用>0 即有接线在等它）===
+  CAUSED_HIT                                   "caused_hit"   refs_in_gen=21
+  TAKEN_HIT                                    "taken_hit"   refs_in_gen=15
+  CAUSED_AILMENT                               "caused_ailment"   refs_in_gen=13
+  TAKEN_AILMENT                                "taken_ailment"   refs_in_gen=5
+  CAUSED_BLOCK                                 "caused_block"   refs_in_gen=4
+  COLLECT_REMNANT                              "collect_remnant"   refs_in_gen=2
+  CAUSED_PERFECT_PARRY                         "caused_perfect_parry"   refs_in_gen=1
+  TAKEN_BLOCK                                  "taken_block"   refs_in_gen=1
+  TAKEN_PARRY                                  "taken_parry"   refs_in_gen=1
+  TAKEN_PERFECT_PARRY                          "taken_perfect_parry"   refs_in_gen=1
+  CAUSED_DODGE                                 "caused_dodge"   refs_in_gen=1
+  TAKEN_DODGE                                  "taken_dodge"   refs_in_gen=1
+  MINION_REVIVED                               "minion_revived"   refs_in_gen=1
+
+=== LIVE 抽样（前 25）===
+  JOIN_LEVEL                                   refs=2  emit@EntityOperationEvent.java
+  LEAVE_LEVEL                                  refs=2  emit@EntityOperationEvent.java
+  MOUNT                                        refs=1  emit@EntityOperationEvent.java
+  DISMOUNT                                     refs=1  emit@EntityOperationEvent.java
+  TELEPORT                                     refs=1  emit@EntityOperationEvent.java
+  STRUCK_BY_LIGHTNING                          refs=1  emit@EntityOperationEvent.java
+  TRAVEL_DIMENSION                             refs=1  emit@EntityOperationEvent.java
+  CRIT                                         refs=4  emit@DamagePipeline.java,EntityOperationEvent.java,StatConditionIds.java
+  SHIELD_BLOCK                                 refs=4  emit@EntityOperationEvent.java
+  CHANGE_TARGET                                refs=1  emit@EntityOperationEvent.java
+  EQUIPMENT_CHANGE                             refs=1  emit@EntityOperationEvent.java
+  USE_ITEM_START                               refs=1  emit@EntityOperationEvent.java
+  USE_ITEM                                     refs=3  emit@EntityOperationEvent.java
+  USE_ITEM_STOP                                refs=1  emit@EntityOperationEvent.java
+  FALL                                         refs=1  emit@EntityOperationEvent.java
+  JUMP                                         refs=1  emit@EntityOperationEvent.java
+  KNOCKBACK                                    refs=1  emit@EntityOperationEvent.java
+  HEAL                                         refs=1  emit@EntityOperationEvent.java,LeechValue.java,WireRecent.java
+  USE_TOTEM                                    refs=3  emit@EntityOperationEvent.java
+  EFFECT_ADDED                                 refs=1  emit@EntityOperationEvent.java
+  EFFECT_REMOVED                               refs=1  emit@EntityOperationEvent.java
+  EFFECT_EXPIRED                               refs=1  emit@EntityOperationEvent.java
+  MOB_SPLIT                                    refs=1  emit@EntityOperationEvent.java
+  CONVERSION                                   refs=1  emit@EntityOperationEvent.java
+  DESTROY_BLOCK                                refs=1  emit@EntityOperationEvent.java

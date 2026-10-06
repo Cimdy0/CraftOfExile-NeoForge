@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_dual_wielding",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_nodedualwieldingdamage",
+    "id": "50273",
+    "links": [
+      "3131",
+      "4377",
+      "47893",
+      "63267"
+    ],
+    "x": 615.525,
+    "y": 5034.86
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_dual_wielding",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_nodedualwieldingdamage",
+    "id": "63267",
+    "links": [
+      "50273",
+      "65424"
+    ],
+    "x": 731.491,
+    "y": 4918.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_dual_wielding",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_nodedualwieldingdamage",
+    "id": "65424",
+    "links": [
+      "58109",
+      "63267"
+    ],
+    "x": 851.699,
+    "y": 4798.69
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_if_you_would_gain_rage_on_hit_damage_you_instead_gain_up_to_your_max_rage",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "29372",
+    "links": [
+      "53989",
+      "7720"
+    ],
+    "x": -4596.57,
+    "y": 4909.67
+  }
+]

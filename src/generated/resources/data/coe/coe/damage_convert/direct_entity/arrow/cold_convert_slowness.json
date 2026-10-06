@@ -1,0 +1,7 @@
+{
+  "additions": "minecraft:slowness",
+  "convert": {
+    "cold": 1,
+    "replace": false
+  }
+}

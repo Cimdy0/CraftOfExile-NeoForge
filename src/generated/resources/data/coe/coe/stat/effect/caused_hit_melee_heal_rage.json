@@ -1,0 +1,14 @@
+{
+  "type": "heal",
+  "resource": "rage",
+  "tags": {
+    "and": [
+      {
+        "tag": "melee"
+      },
+      {
+        "tag": "caused_hit"
+      }
+    ]
+  }
+}

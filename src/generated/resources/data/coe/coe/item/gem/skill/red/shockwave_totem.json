@@ -1,0 +1,25 @@
+{
+  "cost": [
+    {
+      "value": 14.0
+    }
+  ],
+  "entry": "read",
+  "ref": "coe:generic_totem",
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "aoe",
+    "melee",
+    "slam",
+    "duration",
+    "nova"
+  ],
+  "vars": {
+    "tier": 5.0,
+    "totem_damage": "coe:per_level_add_value(add = 2, base = 8, per = 1)",
+    "totem_health": 30.0
+  }
+}

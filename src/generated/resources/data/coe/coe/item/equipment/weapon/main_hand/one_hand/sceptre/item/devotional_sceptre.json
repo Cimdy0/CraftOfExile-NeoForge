@@ -1,0 +1,15 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/one_hand/sceptre/template/strength_intelligence",
+    "reqs": {
+      "int": 63.0,
+      "l": 45.0,
+      "str": 26.0
+    },
+    "skills": {
+      "coe:preset_skeletal_warrior": {
+        "id": "coe:preset_skeletal_warrior"
+      }
+    }
+  }
+}

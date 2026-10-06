@@ -1,0 +1,24 @@
+{
+  "layers": [
+    {
+      "coe:particle_ring": {
+        "interval": 4,
+        "particle": {
+          "type": "minecraft:snowflake"
+        },
+        "radius_scale": 0.8,
+        "samples": 14,
+        "speed": 0.015,
+        "y_offset": 0.1
+      }
+    },
+    {
+      "coe:model": {
+        "scale": 0.7,
+        "spin_deg_per_tick": 0.8,
+        "texture": "coe:textures/entity/prop/orb",
+        "y_offset": 0.15
+      }
+    }
+  ]
+}

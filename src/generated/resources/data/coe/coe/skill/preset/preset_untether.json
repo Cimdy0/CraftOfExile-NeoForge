@@ -1,0 +1,41 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": 5.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(15.5, 22.5, 32.5, 44, 57.5, 72.5, 90, 109.5, 132.5, 157.5, 187.5, 221, 260, 304, 355, 413.5, 481, 558.5, 648, 751.5, 870.5, 1008.5, 1168.5, 1354, 1569, 1820, 2111.5, 2451.5, 2849, 3313.5, 3857.5, 4496, 5246, 6128.5, 7168, 8395, 9846, 11563.5, 13601, 16021)",
+                "can_crit": 1.0,
+                "damage_type": "physical"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 2.5
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

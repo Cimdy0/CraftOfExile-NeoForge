@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_daze_enemies_whose_hit_damage_you_block_with_a_raised_shield",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "10500",
+    "links": [
+      "21161",
+      "6900"
+    ],
+    "x": -7049.55,
+    "y": 5850.06
+  }
+]

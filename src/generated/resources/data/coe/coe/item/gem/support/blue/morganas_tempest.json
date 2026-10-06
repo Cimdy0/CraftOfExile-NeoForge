@@ -1,0 +1,23 @@
+{
+  "allow_type": [
+    "storm"
+  ],
+  "effects": [
+    {
+      "coe:delivery_mod": {
+        "delivery": "area",
+        "params": {
+          "radius_multiplier": 0.75
+        }
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.0,
+  "max_level": 20.0,
+  "require": {
+    "intelligence": 5.0
+  },
+  "reservation_multiplier": 1.0,
+  "tag": "morganas_tempest"
+}

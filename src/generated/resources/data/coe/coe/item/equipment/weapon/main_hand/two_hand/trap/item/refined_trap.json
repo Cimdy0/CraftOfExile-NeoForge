@@ -1,0 +1,8 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/trap/template/none",
+    "reqs": {
+      "l": 65.0
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:herald_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:herald_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heraldbuffeffectnode2",
+    "id": "57190",
+    "links": [
+      "27859"
+    ],
+    "x": 1188.06,
+    "y": 8751.62
+  }
+]

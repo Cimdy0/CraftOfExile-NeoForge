@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:add_launch_additional_projectile_bolt"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 25.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusintelligence",
+    "id": "39567",
+    "links": [
+      "50755",
+      "50816"
+    ],
+    "x": 2922.78,
+    "y": -10630.7
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:totem_spirit_reservation",
+  "operation": "add_value"
+}

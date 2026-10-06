@@ -1,0 +1,119 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "39495",
+    "links": [
+      "27048",
+      "27705",
+      "46386"
+    ],
+    "x": 11053.8,
+    "y": 2092.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "39986",
+    "links": [
+      "46386",
+      "57933"
+    ],
+    "x": 11330.5,
+    "y": 1564.9
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "44309",
+    "links": [
+      "36025",
+      "44485"
+    ],
+    "x": -11625.3,
+    "y": -5058.29
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "44485",
+    "links": [
+      "44309",
+      "7553"
+    ],
+    "x": -11960.3,
+    "y": -5117.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "46386",
+    "links": [
+      "39495",
+      "39986"
+    ],
+    "x": 11403.3,
+    "y": 1937.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "57933",
+    "links": [
+      "16150",
+      "39986"
+    ],
+    "x": 11768.8,
+    "y": 1960.45
+  }
+]

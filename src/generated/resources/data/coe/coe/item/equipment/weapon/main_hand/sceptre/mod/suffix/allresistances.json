@@ -1,0 +1,81 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:all_resistances"
+    },
+    "tiers": [
+      {
+        "level": 12,
+        "name": "of_adjustment",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 3.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 26,
+        "name": "of_acclimatisation",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 8.0,
+            "min": 6.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 40,
+        "name": "of_adaptation",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 11.0,
+            "min": 9.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 54,
+        "name": "of_evolution",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 14.0,
+            "min": 12.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 68,
+        "name": "of_progression",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 15.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 80,
+        "name": "of_metamorphosis",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 18.0,
+            "min": 17.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

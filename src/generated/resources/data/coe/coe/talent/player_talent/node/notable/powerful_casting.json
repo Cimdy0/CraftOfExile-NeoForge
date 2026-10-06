@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_per_strength",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "3281",
+    "links": [
+      "35720"
+    ],
+    "x": -1513.28,
+    "y": -2332.55
+  }
+]

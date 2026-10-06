@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_critical_hit_chance",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "15809",
+    "links": [
+      "18485",
+      "26945",
+      "31175",
+      "54036"
+    ],
+    "x": -2107.54,
+    "y": -8675.53
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_critical_hit_chance",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "18160",
+    "links": [
+      "22783",
+      "26945"
+    ],
+    "x": -2065.55,
+    "y": -8169.77
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_critical_hit_chance",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "26945",
+    "links": [
+      "15809",
+      "18160"
+    ],
+    "x": -2098.96,
+    "y": -8343.83
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_damage_of_enemies_hit_damage_you_to_be_unlucky",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_damage_with_hit_damage_to_be_lucky",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredrabbitnotable",
+    "id": "11774",
+    "links": [
+      "58513"
+    ],
+    "x": 7334.57,
+    "y": 8277.54
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "19966",
+    "links": [
+      "57079",
+      "829"
+    ],
+    "x": -11028.1,
+    "y": -5655.53
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_minion_duration",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "52676",
+    "links": [
+      "47420"
+    ],
+    "x": -6946.4,
+    "y": -9125.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_minion_duration",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "53444",
+    "links": [
+      "59093",
+      "752"
+    ],
+    "x": -6916.94,
+    "y": -8506.91
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "829",
+    "links": [
+      "19966",
+      "36025"
+    ],
+    "x": -11144.4,
+    "y": -5335.96
+  }
+]

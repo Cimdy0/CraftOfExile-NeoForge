@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_endurance_charges",
+  "operation": "add_value",
+  "tags": [
+    "endurance"
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:consuming_glory_grants_you_inc_attack_damage_per_glory_consumed_for_seconds_up_to",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "15606",
+    "links": [
+      "40736"
+    ],
+    "x": -7887.61,
+    "y": 8041.42
+  }
+]

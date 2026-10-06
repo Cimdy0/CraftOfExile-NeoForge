@@ -1,0 +1,8 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:accessory/amulet/template/none",
+    "reqs": {
+      "l": 8.0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_magnitude",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "not": {
+          "tag": "taken"
+        }
+      },
+      {
+        "tag": "poison"
+      }
+    ]
+  }
+}

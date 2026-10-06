@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 1.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_taken_while_on_low_health",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "51867",
+    "links": [
+      "17924"
+    ],
+    "x": -5443.28,
+    "y": 6845.42
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "sfx.click": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/click", "stream": false }
+    ]
+  },
+  "sfx.hover": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/hover", "stream": false }
+    ]
+  },
+  "sfx.open": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/open", "stream": false }
+    ]
+  },
+  "sfx.close": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/close", "stream": false }
+    ]
+  },
+  "sfx.tab": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/tab", "stream": false }
+    ]
+  },
+  "sfx.scroll": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/scroll", "stream": false }
+    ]
+  },
+  "sfx.put": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/put", "stream": false }
+    ]
+  },
+  "sfx.cut_ok": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/cut_ok", "stream": false }
+    ]
+  },
+  "sfx.warn": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/warn", "stream": false }
+    ]
+  },
+  "sfx.err": {
+    "category": "ui",
+    "sounds": [
+      { "name": "coe:sfx/err", "stream": false }
+    ]
+  }
+}

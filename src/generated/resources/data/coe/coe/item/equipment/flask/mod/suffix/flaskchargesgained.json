@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:flask_charges_gained"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_the_constant",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 23.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 13,
+        "name": "of_the_continuous",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 31.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "of_the_endless",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 39.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 48,
+        "name": "of_the_bottomless",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 47.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 63,
+        "name": "of_the_perpetual",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 62.0,
+            "min": 55.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 82,
+        "name": "of_the_eternal",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 70.0,
+            "min": 63.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:stat_conversion_of_max_energy_shield_to_max_mana",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:mana_costs_are_doubled",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystoneeldritchbattery",
+    "id": "57513",
+    "links": [
+      "29240"
+    ],
+    "x": 3444.63,
+    "y": -9280.49
+  }
+]

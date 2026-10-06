@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_on_kill",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_mana_on_kill",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "21792",
+    "links": [
+      "23244",
+      "29899"
+    ],
+    "x": 4786.73,
+    "y": 9048.06
+  }
+]

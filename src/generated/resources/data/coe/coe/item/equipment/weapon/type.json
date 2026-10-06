@@ -1,0 +1,12 @@
+{
+  "coe:item_weight": [
+    {
+      "type": "coe:main_hand",
+      "weight": 1000
+    },
+    {
+      "type": "coe:off_hand",
+      "weight": 1000
+    }
+  ]
+}

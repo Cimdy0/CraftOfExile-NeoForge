@@ -1,0 +1,30 @@
+{
+  "aoe_ranges": {
+    "curse_duration": "$curse_duration",
+    "curse_range": "$curse_range"
+  },
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cast_particle": "minecraft:reverse_portal",
+  "cast_sound": "minecraft:block.beacon.activate",
+  "cost": [],
+  "params": {
+    "curse_duration": 100.0,
+    "curse_range": 24.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "curse"
+  ]
+}

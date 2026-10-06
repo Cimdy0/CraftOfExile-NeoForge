@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/two_hand_sword/template/strength_dexterity",
+    "reqs": {
+      "dex": 45.0,
+      "l": 45.0,
+      "str": 45.0
+    }
+  }
+}

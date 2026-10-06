@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * attribute:coe:max_mana / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_71",
+  "entry": "inline",
+  "params": {
+    "per": 100.0,
+    "value": 0.03
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

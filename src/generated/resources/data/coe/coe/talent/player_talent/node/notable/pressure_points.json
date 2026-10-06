@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_freeze_buildup",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingattacksnotable2",
+    "id": "28329",
+    "links": [
+      "36723",
+      "46533"
+    ],
+    "x": 6795.36,
+    "y": 6961.59
+  }
+]

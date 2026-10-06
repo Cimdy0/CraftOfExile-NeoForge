@@ -1,0 +1,48 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": -0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectiledmgnode",
+    "id": "30701",
+    "links": [
+      "55308"
+    ],
+    "x": -4943.86,
+    "y": -2483.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_speed",
+            "vars": {
+              "value": -0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeedbow",
+    "id": "49130",
+    "links": [
+      "30132"
+    ],
+    "x": 7505.97,
+    "y": 1440.64
+  }
+]

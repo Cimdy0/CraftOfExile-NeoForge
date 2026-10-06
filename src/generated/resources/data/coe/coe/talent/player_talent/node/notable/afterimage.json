@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_if_you_have_hit_an_enemy_recently",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_from_using_skills_while_moving",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "4716",
+    "links": [
+      "24748"
+    ],
+    "x": -2197.48,
+    "y": 6665.33
+  }
+]

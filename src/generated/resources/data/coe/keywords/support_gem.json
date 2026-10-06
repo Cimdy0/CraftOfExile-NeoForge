@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "Support Gem",
+    "Support",
+    "辅助宝石",
+    "辅助"
+  ],
+  "description": [
+    [
+      "$[support_gem]",
+      "会修改其所连接",
+      "$[skill]",
+      "的行为。"
+    ],
+    [
+      "$[support_gem]",
+      "本身不会造成",
+      "$[damage]",
+      "。"
+    ]
+  ],
+  "id": "support_gem",
+  "keys": [
+    "coe:keyword.support_gem"
+  ],
+  "title": "@coe:keyword.support_gem"
+}

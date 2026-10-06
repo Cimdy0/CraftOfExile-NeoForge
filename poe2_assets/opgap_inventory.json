@@ -1,0 +1,3828 @@
+{
+ "ACCURACY": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_ACCURACY",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_ACCURACY",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "ADD_EMPOWERED_ATTACKS": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_EMPOWERED_ATTACKS_TAKEN_WARCRY",
+    "op": "ADD_VALUE",
+    "tags": [
+     "TAKEN",
+     "WARCRY",
+     "not"
+    ]
+   }
+  ]
+ },
+ "AFTERSHOCK_AREA": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AFTERSHOCK_AREA_SLAM",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "SLAM"
+    ]
+   }
+  ]
+ },
+ "AFTERSHOCK_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AFTERSHOCK_CHANCE_FORM_SLAM",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FORM",
+     "SLAM"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AFTERSHOCK_CHANCE_MACE_SLAM",
+    "op": "ADD_VALUE",
+    "tags": [
+     "MACE",
+     "SLAM"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AFTERSHOCK_CHANCE_SLAM",
+    "op": "ADD_VALUE",
+    "tags": [
+     "SLAM"
+    ]
+   }
+  ]
+ },
+ "AILMENT_BUILDUP": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_BUILDUP_DAMAGE_OVER_TIME_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "BLEED",
+     "DAMAGE_OVER_TIME",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_CHILL_COE_AILMENT_BUILDUP_ELEMENTAL_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "CHILL",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "DAMAGE_OVER_TIME",
+     "ELEMENTAL",
+     "IGNITE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_DAMAGE_OVER_TIME_POISON_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "DAMAGE_OVER_TIME",
+     "POISON",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_ELECTROCUTE_ELEMENTAL_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELECTROCUTE",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_ELEMENTAL_FREEZE_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELEMENTAL",
+     "FREEZE",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_ELEMENTAL_NON_DAMAGING_SHOCK_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "SHOCK",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_FREEZE_SPELL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "FREEZE",
+     "SPELL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_IGNITE_SPELL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "IGNITE",
+     "SPELL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_PIN_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "PIN",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_ELECTROCUTED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ELECTROCUTED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_FREEZE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "FREEZE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_PIN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "PIN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "STUN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN",
+    "op": "ADD_VALUE",
+    "tags": [
+     "STUN"
+    ]
+   }
+  ]
+ },
+ "AILMENT_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "AILMENT"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_COLD",
+    "op": "ADD_VALUE",
+    "tags": [
+     "AILMENT",
+     "COLD"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_FIRE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "AILMENT",
+     "FIRE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_LIGHTNING",
+    "op": "ADD_VALUE",
+    "tags": [
+     "AILMENT",
+     "LIGHTNING"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_ONE_HANDED",
+    "op": "ADD_VALUE",
+    "tags": [
+     "AILMENT",
+     "ONE_HANDED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_BLEED_COE_AILMENT_CHANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "BLEED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHILL_COE_AILMENT_CHANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHILL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_CHANCE_FREEZE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FREEZE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_CHANCE_IGNITE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "IGNITE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_CHANCE_MAIM",
+    "op": "ADD_VALUE",
+    "tags": [
+     "MAIM"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_CHANCE_POISON",
+    "op": "ADD_VALUE",
+    "tags": [
+     "POISON"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_CHANCE_SHOCK",
+    "op": "ADD_VALUE",
+    "tags": [
+     "SHOCK"
+    ]
+   }
+  ]
+ },
+ "AILMENT_DAMAGE_RATE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_DAMAGE_RATE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "BLEED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLEED_COE_AILMENT_DAMAGE_RATE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BLEED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE_DAMAGE_OVER_TIME",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE_OVER_TIME"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE_IGNITE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "IGNITE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE_POISON",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "POISON"
+    ]
+   }
+  ]
+ },
+ "AILMENT_DURATION": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "BLEED",
+     "DAMAGE_OVER_TIME",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "BLEED",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_CHILL_COE_AILMENT_DURATION_ELEMENTAL_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "CHILL",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_CHILL_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "CHILL",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_COLD",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "COLD"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "DAMAGE_OVER_TIME",
+     "ELEMENTAL",
+     "IGNITE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_POISON_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "DAMAGE_OVER_TIME",
+     "POISON",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_ELECTROCUTE_ELEMENTAL_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELECTROCUTE",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_ELEMENTAL_FREEZE_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELEMENTAL",
+     "FREEZE",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_ELEMENTAL_NON_DAMAGING_SHOCK_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "SHOCK",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_FIRE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "FIRE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_FREEZE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "FREEZE",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_IGNITE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "IGNITE",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_LIGHTNING",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "LIGHTNING"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_PIN_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "PIN",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_POISON_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "POISON",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_SHOCK_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "SHOCK",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN_2",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ARCHON_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ARCHON",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BANNER_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BANNER",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BEAST_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BEAST",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BLEED",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARGE_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHARGE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARM_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHARM",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_CURSE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CURSE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE_OVER_TIME",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_DAZE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAZE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_FLASK_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "FLASK",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_GRENADE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "GRENADE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_HAZARD_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "HAZARD",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_IGNITE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "IGNITE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_INFUSION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "INFUSION",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_JAGGED_GROUND_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "JAGGED_GROUND",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_OFFERING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "OFFERING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_PARRY_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "PARRY",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_PIN_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "PIN",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_POISON_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "POISON",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_STUN_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "STUN",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "TAKEN",
+     "not"
+    ]
+   }
+  ]
+ },
+ "AILMENT_MAGNITUDE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "BLEED",
+     "DAMAGE_OVER_TIME",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "BLEED",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_MAGNITUDE_TAKEN_2",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "BLEED",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_CHILL_COE_AILMENT_MAGNITUDE_ELEMENTAL_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "CHILL",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_CHILL_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "CHILL",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_CHILL_COE_AILMENT_MAGNITUDE_TAKEN_2",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "CHILL",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "DAMAGE_OVER_TIME",
+     "ELEMENTAL",
+     "IGNITE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_POISON_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "DAMAGE_OVER_TIME",
+     "POISON",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_ELECTROCUTE_ELEMENTAL_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELECTROCUTE",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_ELEMENTAL_FREEZE_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELEMENTAL",
+     "FREEZE",
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_ELEMENTAL_NON_DAMAGING_SHOCK_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "ELEMENTAL",
+     "NON_DAMAGING",
+     "SHOCK",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_FREEZE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "FREEZE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_IGNITE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "IGNITE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_IGNITE_TAKEN_2",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "IGNITE",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_PIN_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "PIN",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_POISON_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "POISON",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_SPELL_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "SHOCK",
+     "SPELL",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "SHOCK",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_TAKEN_2",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "SHOCK",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AILMENT",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ARCANE_SURGE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ARCANE_SURGE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ARCHON_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ARCHON",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_AURA_BANNER_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AURA",
+     "BANNER",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_AURA_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AURA",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_AURA_COE_AILMENT_MAGNITUDE_TAKEN_2",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AURA",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BLIND",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHILL_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHILL",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_CURSE_FIRE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CURSE",
+     "FIRE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_CURSE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CURSE",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_CURSE_TAKEN_2",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CURSE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE_OVER_TIME",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAZE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAZE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_EXPOSURE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "EXPOSURE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_IGNITE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "IGNITE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_INCISION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "INCISION",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_INFUSION_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "INFUSION",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_JAGGED_GROUND_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "JAGGED_GROUND",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_MARK_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "MARK",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_NON_DAMAGING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "NON_DAMAGING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_OFFERING_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "OFFERING",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_PARRY_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "PARRY",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_POISON_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "POISON",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "SHOCK",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SLOW_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "SLOW",
+     "TAKEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WARCRY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "TAKEN",
+     "WARCRY",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WITHERED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "TAKEN",
+     "WITHERED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WITHERED_2",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "TAKEN",
+     "WITHERED",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_MAGNITUDE_TAKEN",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "AILMENT",
+     "BLEED",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_EXPOSURE_TAKEN",
+    "op": "ADD_VALUE",
+    "tags": [
+     "EXPOSURE",
+     "TAKEN",
+     "not"
+    ]
+   }
+  ]
+ },
+ "AILMENT_THRESHOLD": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHILL_COE_AILMENT_THRESHOLD_FREEZE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHILL",
+     "FREEZE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD_ELEMENTAL",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELEMENTAL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD_STUN",
+    "op": "ADD_VALUE",
+    "tags": [
+     "STUN"
+    ]
+   }
+  ]
+ },
+ "AILMENT_THRESHOLD_ADD": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD_ADD_STUN",
+    "op": "ADD_VALUE",
+    "tags": [
+     "STUN"
+    ]
+   }
+  ]
+ },
+ "AMOUNT_LEECHED": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "missing": [
+   "ADD_VALUE"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AMOUNT_ATTRIBUTE_COE_AMOUNT_LEECHED_HEALTH_LEECHING",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AMOUNT",
+     "HEALTH",
+     "LEECHING"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AMOUNT_ATTRIBUTE_COE_AMOUNT_LEECHED_LEECHING_MANA",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AMOUNT",
+     "LEECHING",
+     "MANA"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_AMOUNT_ATTRIBUTE_COE_AMOUNT_LEECHED_LEECHING",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "AMOUNT",
+     "LEECHING"
+    ]
+   }
+  ]
+ },
+ "ARCHON_RECOVERY_RATE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ARCHON_ATTRIBUTE_COE_ARCHON_RECOVERY_RATE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ARCHON"
+    ]
+   }
+  ]
+ },
+ "ARMOR_BREAK": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ARMOR_BREAK_ATTRIBUTE_COE_ARMOR_BREAK",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ARMOR_BREAK"
+    ]
+   }
+  ]
+ },
+ "BANNER_LINGER": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_BANNER_COE_BANNER_LINGER_TAKEN",
+    "op": "ADD_VALUE",
+    "tags": [
+     "BANNER",
+     "TAKEN",
+     "not"
+    ]
+   }
+  ]
+ },
+ "BLOCK_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_BLOCK_CHANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "CAST_SPEED": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTRIBUTE_COE_CAST_SPEED_CURSE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AREA",
+     "CURSE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CAST_SPEED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ATTACK"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BANNER_COE_CAST_SPEED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BANNER"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_MARK",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "MARK"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_MINION",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_SEAL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "SEAL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_TOTEM",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "TOTEM"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_TRAP",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "TRAP"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_WARCRY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "WARCRY"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_CAST_SPEED",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_CAST_SPEED",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "CHARM_ACTIVATION_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHARM_COE_CHARM_ACTIVATION_CHANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHARM"
+    ]
+   }
+  ]
+ },
+ "CHARM_CHARGES_GAINED": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARM_COE_CHARM_CHARGES_GAINED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHARM"
+    ]
+   }
+  ]
+ },
+ "CHARM_CHARGES_USED": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARM_COE_CHARM_CHARGES_USED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHARM"
+    ]
+   }
+  ]
+ },
+ "CHARM_EFFECT": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARM_COE_CHARM_EFFECT",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHARM"
+    ]
+   }
+  ]
+ },
+ "COOLDOWN_RECOVERY_RATE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE_COMMAND",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "COMMAND"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE_GRENADE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "GRENADE"
+    ]
+   }
+  ]
+ },
+ "CORPSE_RETAIN_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_CORPSE_RETAIN_CHANCE_CORPSE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CORPSE"
+    ]
+   }
+  ]
+ },
+ "CRIT_CHANCE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_CHANCE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ATTACK"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_CHANCE_CRIT",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ATTACK",
+     "CRIT"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_CRIT_CHANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CRIT",
+     "FORM",
+     "WYVERN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_HERALD",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "HERALD"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_MINION",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTACK_ATTRIBUTE_COE_CRIT_CHANCE_CRIT",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ATTACK",
+     "CRIT"
+    ]
+   }
+  ]
+ },
+ "CRIT_DAMAGE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ATTACK",
+     "CRIT"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_CRIT_DAMAGE",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_CRIT_DAMAGE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT_FORM_WYVERN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CRIT",
+     "FORM",
+     "WYVERN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ATTACK",
+     "CRIT"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT_SPELL",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CRIT",
+     "SPELL"
+    ]
+   }
+  ]
+ },
+ "CROSS_BOW_RELOAD_TIME": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CROSS_BOW_RELOAD_TIME_CROSSBOW",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CROSSBOW"
+    ]
+   }
+  ]
+ },
+ "DAMAGE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AREA",
+     "ATTACK",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ATTACK",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ATTACK",
+     "DAMAGE",
+     "ELEMENTAL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE_EMPOWERED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ATTACK",
+     "DAMAGE",
+     "EMPOWERED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_AXE_COE_DAMAGE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AXE",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BALLISTA_COE_DAMAGE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BALLISTA",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BANNER_COE_DAMAGE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BANNER",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BEAR_COE_DAMAGE_FIRE_FORM",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BEAR",
+     "FIRE",
+     "FORM"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BEAR_COE_DAMAGE_FORM_PHYSICAL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BEAR",
+     "FORM",
+     "PHYSICAL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BOW_COE_DAMAGE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BOW",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHAOS_COE_DAMAGE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHAOS",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHAOS_COE_DAMAGE_FORM_WYVERN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHAOS",
+     "FORM",
+     "WYVERN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "COLD",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE_SPELL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "COLD",
+     "DAMAGE",
+     "SPELL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COLD_FORM_WOLF",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "COLD",
+     "FORM",
+     "WOLF"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COMPANION_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "COMPANION",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_CROSSBOW_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CROSSBOW",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_CURSE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CURSE",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "ELEMENTAL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "FIRE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE_SPELL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "FIRE",
+     "SPELL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_GRENADE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "GRENADE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HAZARD",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "HAZARD"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "HERALD"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "LIGHTNING"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING_SPELL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "LIGHTNING",
+     "SPELL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MACE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "MACE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MARK",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "MARK"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "MELEE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_META",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "META"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MINION",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_OFFERING",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "OFFERING"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ONE_HANDED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "ONE_HANDED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_PARRY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "PARRY"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_PHYSICAL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "PHYSICAL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_PROJECTILE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "PROJECTILE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPEAR",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "SPEAR"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "SPELL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SWORD",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "SWORD"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "TAKEN",
+     "not"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_TRAP",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "TRAP"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_TWO_HANDED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "TWO_HANDED"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_WARCRY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE",
+     "WARCRY"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_ELEMENTAL_SPELL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ELEMENTAL",
+     "SPELL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_FORM_LIGHTNING_WYVERN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "FORM",
+     "LIGHTNING",
+     "WYVERN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_FORM_PHYSICAL_WOLF",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "FORM",
+     "PHYSICAL",
+     "WOLF"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_TOTEM",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "TOTEM"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_DAMAGE_DAMAGE_MACE",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "DAMAGE",
+     "MACE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_DAMAGE_DAMAGE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHAOS",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "COLD",
+     "DAMAGE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "DAMAGE",
+     "FIRE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+    "op": "ADD_VALUE",
+    "tags": [
+     "DAMAGE",
+     "LIGHTNING"
+    ]
+   }
+  ]
+ },
+ "DAMAGE_OVER_TIME_MULTIPLIER": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_OVER_TIME_MULTIPLIER_DAMAGE_OVER_TIME",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DAMAGE_OVER_TIME"
+    ]
+   }
+  ]
+ },
+ "DAMAGE_TAKEN_BYPASSES_ENERGY": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_TAKEN_BYPASSES_ENERGY_ENERGY_SHIELD_TAKEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ENERGY_SHIELD",
+     "TAKEN"
+    ]
+   }
+  ]
+ },
+ "DEFLECTION_RATING": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DEFLECTION_RATING_DEFLECT",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "DEFLECT"
+    ]
+   }
+  ]
+ },
+ "DEXTERITY": {
+  "have": [
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_DEXTERITY",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_DEXTERITY",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "DODGE_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_DODGE_CHANCE_DODGE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "DODGE"
+    ]
+   }
+  ]
+ },
+ "EFFECT_AREA": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTRIBUTE_COE_AREA_OF_EFFECT_MELEE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "AREA",
+     "MELEE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT_MINION",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "MINION"
+    ]
+   }
+  ]
+ },
+ "ENERGY_RECHARGE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ENERGY_RECHARGE_ENERGY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ENERGY"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_ENERGY_RECHARGE_ENERGY",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ENERGY"
+    ]
+   }
+  ]
+ },
+ "EVASION": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_EVASION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "FLASK_CHARGES_GAINED": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_CHARGES_GAINED_FLASK",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "FLASK"
+    ]
+   }
+  ]
+ },
+ "FLASK_NO_CONSUME_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_FLASK_NO_CONSUME_CHANCE_FLASK",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FLASK"
+    ]
+   }
+  ]
+ },
+ "FLASK_RECOVERY_RATE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "FLASK",
+     "HEALTH"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_MANA",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "FLASK",
+     "MANA"
+    ]
+   }
+  ]
+ },
+ "FOUND_ITEM_NUMBER": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_FOUND_ITEM_NUMBER",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "FOUND_ITEM_RARITY": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_FOUND_ITEM_RARITY",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "GLORY": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_GLORY_GLORY",
+    "op": "ADD_VALUE",
+    "tags": [
+     "GLORY"
+    ]
+   }
+  ]
+ },
+ "GLORY_GENERATION": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_GLORY_GENERATION_GLORY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "GLORY"
+    ]
+   }
+  ]
+ },
+ "INTELLIGENCE": {
+  "have": [
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_INTELLIGENCE",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_INTELLIGENCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "KNOCKBACK": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_KNOCKBACK",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "KNOCKBACK_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_KNOCKBACK_CHANCE_KNOCKBACK",
+    "op": "ADD_VALUE",
+    "tags": [
+     "KNOCKBACK"
+    ]
+   }
+  ]
+ },
+ "LAUNCH_ADDITIONAL_PROJECTILE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ARROW_ATTRIBUTE_BOW_COE_LAUNCH_ADDITIONAL_PROJECTILE_PROJECTILE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ARROW",
+     "BOW",
+     "PROJECTILE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ARROW_ATTRIBUTE_COE_LAUNCH_ADDITIONAL_PROJECTILE_CROSSBOW_PROJECTILE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ARROW",
+     "CROSSBOW",
+     "PROJECTILE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_LAUNCH_ADDITIONAL_PROJECTILE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "LEECH": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_LEECH_HEALTH",
+    "op": "ADD_VALUE",
+    "tags": [
+     "HEALTH"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_LEECH_HEALTH_LEECHING",
+    "op": "ADD_VALUE",
+    "tags": [
+     "HEALTH",
+     "LEECHING"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_LEECH_MANA",
+    "op": "ADD_VALUE",
+    "tags": [
+     "MANA"
+    ]
+   }
+  ]
+ },
+ "LEECH_RATE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_LEECH_RATE_LEECHING",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "LEECHING"
+    ]
+   }
+  ]
+ },
+ "MANA_TAKE_OF_DAMAGE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MANA_TAKE_OF_DAMAGE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MANA_TAKE_OF_DAMAGE_MANA_TAKE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "MANA_TAKE"
+    ]
+   }
+  ]
+ },
+ "MAX_BLOCK": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_BLOCK",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "MAX_ENDURANCE_CHARGES": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_ENDURANCE_CHARGES_ENDURANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ENDURANCE"
+    ]
+   }
+  ]
+ },
+ "MAX_ENERGY_SHIELD": {
+  "have": [
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_MAX_ENERGY_SHIELD",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_ENERGY_SHIELD",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "MAX_FRENZY_CHARGES": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_FRENZY_CHARGES_FRENZY",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FRENZY"
+    ]
+   }
+  ]
+ },
+ "MAX_MANA": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_MANA",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "MAX_POWER_CHARGES": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_POWER_CHARGES_POWER",
+    "op": "ADD_VALUE",
+    "tags": [
+     "POWER"
+    ]
+   }
+  ]
+ },
+ "MAX_RAGE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_RAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RAGE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "MAX_REGENERATION": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_FLASK_HEALTH_REGEN",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FLASK",
+     "HEALTH",
+     "REGEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN",
+    "op": "ADD_VALUE",
+    "tags": [
+     "HEALTH",
+     "REGEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN_TOTEM",
+    "op": "ADD_VALUE",
+    "tags": [
+     "HEALTH",
+     "REGEN",
+     "TOTEM"
+    ]
+   }
+  ]
+ },
+ "MAX_RESISTANCES": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_MAX_RESISTANCES",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHAOS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_COLD",
+    "op": "ADD_VALUE",
+    "tags": [
+     "COLD"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_COLD_MINION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "COLD",
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_ELEMENTAL_MINION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELEMENTAL",
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_FIRE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FIRE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_FIRE_MINION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FIRE",
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_LIGHTNING",
+    "op": "ADD_VALUE",
+    "tags": [
+     "LIGHTNING"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_LIGHTNING_MINION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "LIGHTNING",
+     "MINION"
+    ]
+   }
+  ]
+ },
+ "MAX_SPIRIT": {
+  "have": [
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_MAX_SPIRIT",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_SPIRIT",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "MAX_VOLATILITY": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_VOLATILITY_VOLATILITY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "VOLATILITY"
+    ]
+   }
+  ]
+ },
+ "META_ENERGY_MAX": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_META_ENERGY_MAX_META",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "META"
+    ]
+   }
+  ]
+ },
+ "PARRY_RANGE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_PARRY_RANGE_PARRY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "PARRY"
+    ]
+   }
+  ]
+ },
+ "PROJECTILE_PIERCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_PROJECTILE_PIERCE_PROJECTILE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "PROJECTILE"
+    ]
+   }
+  ]
+ },
+ "PROJECTILE_PIERCE_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_PROJECTILE_PIERCE_CHANCE_PROJECTILE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "PROJECTILE"
+    ]
+   }
+  ]
+ },
+ "PROJECTILE_SPEED": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BOLT_COE_PROJECTILE_SPEED",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "BOLT"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_PROJECTILE_SPEED_PROJECTILE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "PROJECTILE"
+    ]
+   }
+  ]
+ },
+ "PUPPET_MASTER_DURATION": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_PUPPET_MASTER_DURATION_PUPPET_MASTER",
+    "op": "ADD_VALUE",
+    "tags": [
+     "PUPPET_MASTER"
+    ]
+   }
+  ]
+ },
+ "PUPPET_MASTER_EFFECT": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_PUPPET_MASTER_EFFECT_PUPPET_MASTER",
+    "op": "ADD_VALUE",
+    "tags": [
+     "PUPPET_MASTER"
+    ]
+   }
+  ]
+ },
+ "RAGE_LOSS_GRACE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RAGE_LOSS_GRACE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "RAGE_LOSS_RATE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_RAGE_LOSS_RATE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "RECOVERY_RATE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_RECOVERY_RATE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "REGENERATION_RATE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_ENERGY_REGEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ENERGY",
+     "REGEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_MANA_REGEN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "MANA",
+     "REGEN"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_REGENERATION_RATE_HEALTH_REGEN",
+    "op": "ADD_VALUE",
+    "tags": [
+     "HEALTH",
+     "REGEN"
+    ]
+   }
+  ]
+ },
+ "REMNANTS_COLLECTED_FURTHER_AWAY": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REMNANTS_COLLECTED_FURTHER_AWAY_REMNANT",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "REMNANT"
+    ]
+   }
+  ]
+ },
+ "REMNANT_EXTRA_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_REMNANT_EXTRA_CHANCE_REMNANT",
+    "op": "ADD_VALUE",
+    "tags": [
+     "REMNANT"
+    ]
+   }
+  ]
+ },
+ "RESERVATION_EFFICIENCY": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESERVATION_EFFICIENCY_RESERVATION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "RESERVATION"
+    ]
+   }
+  ]
+ },
+ "RESISTANCES": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_RESISTANCES",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHAOS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_RESISTANCES_MINION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHAOS",
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_COLD",
+    "op": "ADD_VALUE",
+    "tags": [
+     "COLD"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_COLD_MINION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "COLD",
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_ELEMENTAL",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELEMENTAL"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_ELEMENTAL_MINION_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELEMENTAL",
+     "MINION",
+     "RESISTANCE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_ELEMENTAL_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELEMENTAL",
+     "RESISTANCE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_FIRE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FIRE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_FIRE_MINION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FIRE",
+     "MINION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_LIGHTNING",
+    "op": "ADD_VALUE",
+    "tags": [
+     "LIGHTNING"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_LIGHTNING_MINION",
+    "op": "ADD_VALUE",
+    "tags": [
+     "LIGHTNING",
+     "MINION"
+    ]
+   }
+  ]
+ },
+ "RESISTANCE_PENETRATION": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTACK_ATTRIBUTE_COE_RESISTANCE_PENETRATION_ELEMENTAL_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ATTACK",
+     "ELEMENTAL",
+     "RESISTANCE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_RESISTANCE_PENETRATION_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHAOS",
+     "RESISTANCE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_COLD_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "COLD",
+     "RESISTANCE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_ELEMENTAL_GLORY_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELEMENTAL",
+     "GLORY",
+     "RESISTANCE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_ELEMENTAL_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELEMENTAL",
+     "RESISTANCE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_FIRE_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FIRE",
+     "RESISTANCE"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_LIGHTNING_RESISTANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "LIGHTNING",
+     "RESISTANCE"
+    ]
+   }
+  ]
+ },
+ "STATUS_EXTRA_STACKS": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_BLEED_COE_STATUS_EXTRA_STACKS_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "BLEED",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHILL_COE_STATUS_EXTRA_STACKS_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHILL",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_EXTRA_STACKS_ELECTROCUTE_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELECTROCUTE",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_EXTRA_STACKS_FREEZE_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FREEZE",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_EXTRA_STACKS_IGNITE_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "IGNITE",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_EXTRA_STACKS_PIN_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "PIN",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_EXTRA_STACKS_POISON_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "POISON",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_EXTRA_STACKS_SHOCK_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "SHOCK",
+     "STATUS"
+    ]
+   }
+  ]
+ },
+ "STATUS_MAX_STACKS": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_BLEED_COE_STATUS_MAX_STACKS_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "BLEED",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_CHILL_COE_STATUS_MAX_STACKS_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "CHILL",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_MAX_STACKS_ELECTROCUTE_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ELECTROCUTE",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_MAX_STACKS_FREEZE_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "FREEZE",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_MAX_STACKS_IGNITE_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "IGNITE",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_MAX_STACKS_PIN_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "PIN",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_MAX_STACKS_POISON_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "POISON",
+     "STATUS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STATUS_MAX_STACKS_SHOCK_STATUS",
+    "op": "ADD_VALUE",
+    "tags": [
+     "SHOCK",
+     "STATUS"
+    ]
+   }
+  ]
+ },
+ "STRENGTH": {
+  "have": [
+   "ADD_MULTIPLIED_TOTAL",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_STRENGTH",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_STRENGTH_COMPANION",
+    "op": "ADD_MULTIPLIED_TOTAL",
+    "tags": [
+     "COMPANION"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_STRENGTH",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "STUN_RECOVERY": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_STUN_RECOVERY_STUN",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "STUN"
+    ]
+   }
+  ]
+ },
+ "TAKEN_CRIT_CHANCE": {
+  "have": [
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_TAKEN_CRIT_CHANCE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "TAKEN_CRIT_DAMAGE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE",
+   "ADD_VALUE"
+  ],
+  "missing": [
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_TAKEN_CRIT_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_VALUE_ATTRIBUTE_COE_TAKEN_CRIT_DAMAGE",
+    "op": "ADD_VALUE",
+    "tags": [
+     "ALWAYS"
+    ]
+   }
+  ]
+ },
+ "TAKEN_DAMAGE": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHAOS_COE_TAKEN_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "CHAOS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_TAKEN_DAMAGE",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "ALWAYS"
+    ]
+   },
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_TAKEN_DAMAGE_PHYSICAL",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "PHYSICAL"
+    ]
+   }
+  ]
+ },
+ "VOLATILITY_DETONATION_TIME": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_VOLATILITY_DETONATION_TIME_VOLATILITY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "VOLATILITY"
+    ]
+   }
+  ]
+ },
+ "VOLATILITY_GENERATION": {
+  "have": [
+   "ADD_MULTIPLIED_BASE"
+  ],
+  "missing": [
+   "ADD_VALUE",
+   "ADD_MULTIPLIED_TOTAL"
+  ],
+  "effs": [
+   {
+    "name": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_VOLATILITY_GENERATION_VOLATILITY",
+    "op": "ADD_MULTIPLIED_BASE",
+    "tags": [
+     "VOLATILITY"
+    ]
+   }
+  ]
+ }
+}

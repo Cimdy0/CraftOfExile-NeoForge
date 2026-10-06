@@ -1,0 +1,11 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:inc_evasion",
+    "coe:inc_energy_shield"
+  ],
+  "vars": [
+    "value",
+    "value"
+  ]
+}

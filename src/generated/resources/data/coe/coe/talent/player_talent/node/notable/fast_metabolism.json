@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_leeching_health",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifeleech",
+    "id": "8827",
+    "links": [
+      "16691",
+      "2888"
+    ],
+    "x": -4749.89,
+    "y": 10821.6
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_ice_shard",
+  "vars": {
+    "tier": 5.0
+  }
+}

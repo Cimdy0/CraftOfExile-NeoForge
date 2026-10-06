@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_reservation_efficiency_of_companion_skills",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "44699",
+    "links": [
+      "10315",
+      "16150"
+    ],
+    "x": 12345.7,
+    "y": 2292.24
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_reservation_efficiency_of_companion_skills",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "47443",
+    "links": [
+      "10315",
+      "31129"
+    ],
+    "x": 12118.1,
+    "y": 2530.75
+  }
+]

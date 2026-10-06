@@ -1,0 +1,105 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_cold_damage_minmax"
+    },
+    "tiers": [
+      {
+        "level": 5,
+        "name": "malignant",
+        "tier": 1,
+        "values": {
+          "max": {
+            "max": 30.0,
+            "min": 26.0
+          },
+          "min": {
+            "min": 26.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "pernicious",
+        "tier": 2,
+        "values": {
+          "max": {
+            "max": 36.0,
+            "min": 31.0
+          },
+          "min": {
+            "max": 36.0,
+            "min": 31.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "destructive",
+        "tier": 3,
+        "values": {
+          "max": {
+            "max": 42.0,
+            "min": 37.0
+          },
+          "min": {
+            "max": 42.0,
+            "min": 37.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 46,
+        "name": "malicious",
+        "tier": 4,
+        "values": {
+          "max": {
+            "max": 48.0,
+            "min": 43.0
+          },
+          "min": {
+            "max": 48.0,
+            "min": 43.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 60,
+        "name": "ruthless",
+        "tier": 5,
+        "values": {
+          "max": {
+            "max": 54.0,
+            "min": 49.0
+          },
+          "min": {
+            "max": 54.0,
+            "min": 49.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 80,
+        "name": "frostbound",
+        "tier": 6,
+        "values": {
+          "max": {
+            "max": 60.0,
+            "min": 55.0
+          },
+          "min": {
+            "max": 60.0,
+            "min": 55.0
+          }
+        },
+        "weight": 500
+      }
+    ]
+  }
+}

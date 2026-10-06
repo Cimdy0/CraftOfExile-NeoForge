@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_shapeshift_slam_skills_you_use_yourself_to_cause_an_additional_aftershock",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnode",
+    "id": "34490",
+    "links": [
+      "18972",
+      "63085"
+    ],
+    "x": -9524.42,
+    "y": -6435.02
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:invocation_spells_have_inc_critical_damage_bonus",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "29288",
+    "links": [
+      "16024"
+    ],
+    "x": 5336.9,
+    "y": -6322.31
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_frenzy_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "13341",
+    "links": [
+      "18451",
+      "56841",
+      "63255"
+    ],
+    "x": 3041.57,
+    "y": 2768.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_frenzy_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "18451",
+    "links": [
+      "13341",
+      "30047",
+      "56841"
+    ],
+    "x": 2899.54,
+    "y": 3014.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_frenzy_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildbear",
+    "id": "24210",
+    "links": [
+      "26932",
+      "7526"
+    ],
+    "x": 5279.5,
+    "y": 6427.73
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_frenzy_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildbear",
+    "id": "26932",
+    "links": [
+      "24210",
+      "34543"
+    ],
+    "x": 5443.5,
+    "y": 6677.73
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_frenzy_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "41873",
+    "links": [
+      "48773",
+      "55995"
+    ],
+    "x": 10923.8,
+    "y": 1282.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_frenzy_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "55995",
+    "links": [
+      "41873",
+      "57970"
+    ],
+    "x": 11147.8,
+    "y": 1342.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_frenzy_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "56841",
+    "links": [
+      "13341",
+      "18451",
+      "61312"
+    ],
+    "x": 2757.52,
+    "y": 2768.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_frenzy_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "57970",
+    "links": [
+      "21537",
+      "55995"
+    ],
+    "x": 11087.8,
+    "y": 1566.13
+  }
+]

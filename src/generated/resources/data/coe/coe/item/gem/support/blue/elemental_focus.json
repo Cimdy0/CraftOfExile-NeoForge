@@ -1,0 +1,23 @@
+{
+  "allow_type": [
+    "damage",
+    "attack",
+    "crossbow"
+  ],
+  "effects": [
+    {
+      "coe:effect_mod": {
+        "damage_type": "elemental",
+        "more": 1.25
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.0,
+  "max_level": 20.0,
+  "require": {
+    "intelligence": 5.0
+  },
+  "reservation_multiplier": 1.0,
+  "tag": "elemental_focus"
+}

@@ -1,0 +1,116 @@
+{
+  "bonuses": {
+    "ladders": {
+      "armor~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:armor_inc_local"
+          },
+          "max": 44.0,
+          "min": 36.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:evasion_inc_local"
+          },
+          "max": 44.0,
+          "min": 36.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:energy_inc_local"
+          },
+          "max": 44.0,
+          "min": 36.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:armor_inc_local"
+          },
+          "max": 67.0,
+          "min": 56.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:evasion_inc_local"
+          },
+          "max": 67.0,
+          "min": 56.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:energy_inc_local"
+          },
+          "max": 67.0,
+          "min": 56.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:armor_inc_local"
+          },
+          "max": 79.0,
+          "min": 68.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:evasion_inc_local"
+          },
+          "max": 79.0,
+          "min": 68.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:energy_inc_local"
+          },
+          "max": 79.0,
+          "min": 68.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_armor_local"
+          },
+          "max": 79.0,
+          "min": 68.0,
+          "tier": "perfect"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_evasion_local"
+          },
+          "max": 79.0,
+          "min": 68.0,
+          "tier": "perfect"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_energy_local"
+          },
+          "max": 79.0,
+          "min": 68.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

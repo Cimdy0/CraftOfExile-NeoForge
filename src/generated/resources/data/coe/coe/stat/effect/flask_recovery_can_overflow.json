@@ -1,0 +1,5 @@
+{
+  "type": "flask_recovery_can_overflow",
+  "kind": "flask_recovery_can_overflow",
+  "variant": "gate"
+}

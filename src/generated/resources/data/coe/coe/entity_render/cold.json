@@ -1,0 +1,22 @@
+{
+  "layers": [
+    {
+      "coe:particle_point": {
+        "count": 1,
+        "interval": 1,
+        "particle": {
+          "type": "minecraft:snowflake"
+        },
+        "speed": 0.0,
+        "spread": 0.08,
+        "y_offset": 0.0
+      }
+    },
+    {
+      "coe:model": {
+        "cross": false,
+        "texture": "coe:textures/entity/prop/cold"
+      }
+    }
+  ]
+}

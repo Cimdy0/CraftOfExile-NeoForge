@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_break_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "61796",
+    "links": [
+      "25300",
+      "8260"
+    ],
+    "x": -8409.55,
+    "y": 328.735
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_break_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "8260",
+    "links": [
+      "21453",
+      "61796"
+    ],
+    "x": -8193.04,
+    "y": 203.735
+  }
+]

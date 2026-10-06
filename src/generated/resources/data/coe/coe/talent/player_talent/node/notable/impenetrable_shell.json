@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:defend_with_of_armor_against_hit_damage_from_enemies_that_are_further_than_xm_away",
+            "vars": {
+              "value": 1.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "65023",
+    "links": [
+      "13942"
+    ],
+    "x": -1529.48,
+    "y": 6665.33
+  }
+]

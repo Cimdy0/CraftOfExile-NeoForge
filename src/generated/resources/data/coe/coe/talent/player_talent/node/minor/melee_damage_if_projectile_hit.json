@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_damage_if_you_ve_dealt_a_projectile_attack_hit_damage_in_the_past_eight_seconds",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_meleeaoenode",
+    "id": "45650",
+    "links": [
+      "30047",
+      "36997",
+      "9572"
+    ],
+    "x": 3440.08,
+    "y": 2962.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_damage_if_you_ve_dealt_a_projectile_attack_hit_damage_in_the_past_eight_seconds",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_meleeaoenode",
+    "id": "9572",
+    "links": [
+      "12822",
+      "45650"
+    ],
+    "x": 3525.08,
+    "y": 2814.87
+  }
+]

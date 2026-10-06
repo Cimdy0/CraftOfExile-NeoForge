@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_near_enemies_you_mark_are_blinded",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_mark_cannot_deal_critical_hits",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "51602",
+    "links": [
+      "23305"
+    ],
+    "x": 8365.09,
+    "y": 1769.99
+  }
+]

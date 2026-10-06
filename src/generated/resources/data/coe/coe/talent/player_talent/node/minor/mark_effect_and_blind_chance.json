@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_your_mark_skills",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_blind_enemies_on_hit_damage_with_attacks",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "44280",
+    "links": [
+      "23305",
+      "35534"
+    ],
+    "x": 8481.06,
+    "y": 1885.96
+  }
+]

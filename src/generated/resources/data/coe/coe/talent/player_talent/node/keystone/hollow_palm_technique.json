@@ -1,0 +1,58 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:can_attack_as_though_using_a_quarterstaff_while_both_of_your_hand_slots_are_empty",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:unarmed_attacks_that_would_use_an_equipped_quarterstaff_s_damage_have_base_unarmed_damage_physical_damage_replaced_with_damage_based_on_their_skill_level"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:unarmed_attacks_that_would_use_an_equipped_quarterstaff_s_damage_have_more_attack_speed_per_item_evasion_on_equipped_armor_items",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:unarmed_attacks_that_would_use_an_equipped_quarterstaff_s_damage_have_to_critical_hit_chance_per_item_energy_shield_on_equipped_armor_items",
+            "vars": {
+              "value": 0.001
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hollowpalmtechniquekeystone",
+    "id": "64601",
+    "links": [
+      "41877"
+    ],
+    "x": 7273.71,
+    "y": -2633.18
+  }
+]

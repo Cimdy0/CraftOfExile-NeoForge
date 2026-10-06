@@ -1,0 +1,27 @@
+{
+  "coe:item_template": {
+    "extend": "coe:base",
+    "stats": {
+      "attack_crit": {
+        "entry": "read",
+        "ref": "coe:add_crit_chance"
+      },
+      "attack_damage": {
+        "entry": "read",
+        "ref": "coe:add_attack_damage"
+      },
+      "attack_speed": {
+        "entry": "read",
+        "ref": "coe:add_inc_attack_speed"
+      },
+      "reload_time": {
+        "entry": "read",
+        "ref": "coe:add_reload_time"
+      },
+      "spirit": {
+        "entry": "read",
+        "ref": "coe:add_max_spirit"
+      }
+    }
+  }
+}

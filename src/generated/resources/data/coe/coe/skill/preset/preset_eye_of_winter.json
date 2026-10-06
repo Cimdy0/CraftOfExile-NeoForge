@@ -1,0 +1,40 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:small_flame",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [
+    {
+      "value": "coe:level_table(19, 22, 26, 30, 35, 40, 46, 52, 59, 66, 75, 84, 94, 105, 117, 130, 144, 159, 176, 195, 215, 236, 260, 286, 314, 345, 378, 414, 453, 496, 542, 592, 646, 705, 769, 838, 913, 994, 1081, 1176)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(1.5, 2.5, 3.5, 4, 5, 6.5, 7.5, 9.5, 11, 13, 15, 17.5, 20, 23, 26, 30, 34, 38.5, 43.5, 49.5, 56, 63.5, 71.5, 80.5, 91, 102.5, 115.5, 130, 147, 166, 187.5, 211.5, 239, 270, 305, 345, 391, 443, 502.5, 570)",
+                "can_crit": 1.0,
+                "damage_type": "cold"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_projectile": {
+            "ref": {
+              "ref": "coe:arrow",
+              "render": "coe:blue/eye_of_winter"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

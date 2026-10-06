@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:all_bonuses_from_equipped_amulet_apply_to_your_minions_instead_of_you",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_necromantictalismankeystone",
+    "id": "39935",
+    "links": [
+      "44344"
+    ],
+    "x": -3184.23,
+    "y": -9385.96
+  }
+]

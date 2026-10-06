@@ -1,0 +1,48 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnode",
+    "id": "32186",
+    "links": [
+      "26104"
+    ],
+    "x": -8501.1,
+    "y": -7430.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnode",
+    "id": "55672",
+    "links": [
+      "26104"
+    ],
+    "x": -8724.49,
+    "y": -7407.85
+  }
+]

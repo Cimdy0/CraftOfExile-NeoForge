@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_chance_for_an_additional_projectile_when_forking",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "9151",
+    "links": [
+      "33245",
+      "42302"
+    ],
+    "x": 7181.82,
+    "y": 2075.69
+  }
+]

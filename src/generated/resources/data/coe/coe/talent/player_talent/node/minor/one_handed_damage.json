@@ -1,0 +1,223 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "13356",
+    "links": [
+      "18489",
+      "6229"
+    ],
+    "x": -4066.8,
+    "y": 8360.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "13474",
+    "links": [
+      "16084",
+      "54811"
+    ],
+    "x": -5314.13,
+    "y": 2829.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "16084",
+    "links": [
+      "13474",
+      "57552"
+    ],
+    "x": -5314.13,
+    "y": 2655.72
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "16538",
+    "links": [
+      "44330",
+      "9217"
+    ],
+    "x": 342.715,
+    "y": 6423.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "17316",
+    "links": [
+      "34201",
+      "40244",
+      "62986"
+    ],
+    "x": 5114.28,
+    "y": 8325.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "18489",
+    "links": [
+      "12751",
+      "13356",
+      "37258"
+    ],
+    "x": -4308.29,
+    "y": 8460.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "57552",
+    "links": [
+      "16084",
+      "24871",
+      "46696"
+    ],
+    "x": -5314.13,
+    "y": 2434.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "61281",
+    "links": [
+      "21755",
+      "9217"
+    ],
+    "x": 178.715,
+    "y": 6707.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_one_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "9217",
+    "links": [
+      "16538",
+      "47733",
+      "5108",
+      "61281"
+    ],
+    "x": 260.715,
+    "y": 6565.73
+  }
+]

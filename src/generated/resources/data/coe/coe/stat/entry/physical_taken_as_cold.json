@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:stat/effect/inline_damage_taken_convert_858",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

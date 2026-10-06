@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/one_hand/one_hand_axe/template/strength_dexterity",
+    "reqs": {
+      "dex": 22.0,
+      "l": 37.0,
+      "str": 52.0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "min($value * presence_count:ally.summoned / $per, $cap)"
+  },
+  "effect": "coe:stat/effect/inline_attribute_222",
+  "entry": "inline",
+  "params": {
+    "cap": 0.8,
+    "per": 1.0,
+    "value": 0.05
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,21 @@
+{
+  "effects": [
+    {
+      "coe:effect_mod": {
+        "added_damage": {
+          "damage_type": "chaos",
+          "max": "coe:per_level_add_value(add = 0, base = 8, per = 2.6)",
+          "min": "coe:per_level_add_value(add = 0, base = 1, per = 0.35)"
+        }
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.3,
+  "max_level": 20.0,
+  "require": {
+    "intelligence": 5.0
+  },
+  "reservation_multiplier": 1.3,
+  "tag": "added_chaos_damage"
+}

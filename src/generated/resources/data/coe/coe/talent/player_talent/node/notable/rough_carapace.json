@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_physical_thorns_damage_equal_to_of_max_health_while_shapeshifted",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "57002",
+    "links": [
+      "47633"
+    ],
+    "x": -4148.17,
+    "y": -647.707
+  }
+]

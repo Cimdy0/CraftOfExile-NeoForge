@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:base_bleeding_duration",
+  "operation": "set_value"
+}

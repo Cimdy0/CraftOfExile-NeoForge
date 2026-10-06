@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_per_of_your_lowest_attributes",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "16618",
+    "links": [
+      "24511",
+      "35688"
+    ],
+    "x": 575.984,
+    "y": 12271.5
+  }
+]

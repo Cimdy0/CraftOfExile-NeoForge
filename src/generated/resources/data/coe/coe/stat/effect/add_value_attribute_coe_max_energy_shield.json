@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_energy_shield",
+  "operation": "add_value"
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parried_debuff_buff_magnitude",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parry_hit_damage_area_of_effect",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "41770",
+    "links": [
+      "16484",
+      "33080",
+      "9441"
+    ],
+    "x": 3465.46,
+    "y": 5618.99
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_from_equipped_shield",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorandenergyshieldnode",
+    "id": "23940",
+    "links": [
+      "14342",
+      "17349"
+    ],
+    "x": -10591.5,
+    "y": -5430.09
+  }
+]

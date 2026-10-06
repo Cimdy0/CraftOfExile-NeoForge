@@ -1,0 +1,33 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:launch_additional_projectile_bolt"
+    },
+    "tiers": [
+      {
+        "level": 55,
+        "name": "of_shelling",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 82,
+        "name": "of_bursting",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 125
+      }
+    ]
+  }
+}

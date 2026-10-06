@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_when_a_charm_is_used_to_use_another_charm_without_consuming_charges",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "21111",
+    "links": [
+      "28823",
+      "33099",
+      "38463"
+    ],
+    "x": 6836.09,
+    "y": 8742.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_when_a_charm_is_used_to_use_another_charm_without_consuming_charges",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_charmnode1",
+    "id": "28823",
+    "links": [
+      "21111",
+      "59303"
+    ],
+    "x": 7009.37,
+    "y": 9389.19
+  }
+]

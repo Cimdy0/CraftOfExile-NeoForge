@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_of_enemy_elemental_damage_resistances_while_shapeshifted",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnode",
+    "id": "65189",
+    "links": [
+      "17260",
+      "6222"
+    ],
+    "x": -5893.26,
+    "y": -603.739
+  }
+]

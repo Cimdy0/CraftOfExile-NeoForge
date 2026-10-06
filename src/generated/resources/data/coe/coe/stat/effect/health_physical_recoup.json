@@ -1,0 +1,9 @@
+{
+  "type": "recoup",
+  "from_type": {
+    "tag": "physical"
+  },
+  "resources": [
+    "health"
+  ]
+}

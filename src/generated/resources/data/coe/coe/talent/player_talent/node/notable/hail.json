@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:empowered_attacks_gain_of_damage_as_extra_cold_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "44974",
+    "links": [
+      "60700"
+    ],
+    "x": 5965.19,
+    "y": -239.805
+  }
+]

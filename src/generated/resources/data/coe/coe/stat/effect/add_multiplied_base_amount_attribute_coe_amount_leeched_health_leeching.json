@@ -1,0 +1,18 @@
+{
+  "type": "attribute",
+  "attribute": "coe:amount_leeched",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "leeching"
+      },
+      {
+        "tag": "amount"
+      },
+      {
+        "tag": "health"
+      }
+    ]
+  }
+}

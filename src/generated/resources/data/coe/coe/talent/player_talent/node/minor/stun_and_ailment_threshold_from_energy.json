@@ -1,0 +1,330 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "13307",
+    "links": [
+      "3894",
+      "58789"
+    ],
+    "x": -2297.58,
+    "y": -9965.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "14666",
+    "links": [
+      "9642",
+      "2254"
+    ],
+    "x": 146.295,
+    "y": -3752.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "17602",
+    "links": [
+      "59798",
+      "59799",
+      "61403"
+    ],
+    "x": 6668.1,
+    "y": -8981.04
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "25363",
+    "links": [
+      "44098",
+      "1823",
+      "34531"
+    ],
+    "x": -2125.82,
+    "y": -6600.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "26614",
+    "links": [
+      "44344",
+      "46275"
+    ],
+    "x": -2864.23,
+    "y": -9786.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "44098",
+    "links": [
+      "25363",
+      "4061",
+      "34531"
+    ],
+    "x": -1909.32,
+    "y": -6225.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "46275",
+    "links": [
+      "26614",
+      "3894"
+    ],
+    "x": -2654.79,
+    "y": -9759.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "517",
+    "links": [
+      "39037",
+      "61027",
+      "9642"
+    ],
+    "x": 419.295,
+    "y": -4284.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_ailment_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_additional_stun_threshold_equal_to_of_max_energy_shield",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "58789",
+    "links": [
+      "13307",
+      "54521"
+    ],
+    "x": -2216.74,
+    "y": -10160.7
+  }
+]

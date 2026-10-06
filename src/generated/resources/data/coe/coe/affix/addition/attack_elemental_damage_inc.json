@@ -1,0 +1,17 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:inc_fire_damage"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:inc_cold_damage"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:inc_lightning_damage"
+    }
+  ]
+}

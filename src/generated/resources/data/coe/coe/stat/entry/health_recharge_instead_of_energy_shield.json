@@ -1,0 +1,12 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:stat/effect/inline_resource_convert_432",
+  "entry": "inline",
+  "params": {
+    "value": 1.0
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_blood_pact",
+  "vars": {
+    "tier": 1.0
+  }
+}

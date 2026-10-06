@@ -1,0 +1,50 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_max_mana"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 33,
+        "name": "cognizant",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 3.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 60,
+        "name": "perceptive",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 6.0,
+            "min": 5.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 75,
+        "name": "mnemonic",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 8.0,
+            "min": 7.0
+          }
+        },
+        "weight": 300
+      }
+    ]
+  }
+}

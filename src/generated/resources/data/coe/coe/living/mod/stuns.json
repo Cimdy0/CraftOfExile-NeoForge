@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_ailment_buildup_op_add_value_1_stun"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "stuns"
+}

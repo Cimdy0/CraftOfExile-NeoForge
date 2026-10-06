@@ -1,0 +1,57 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:all_attributes"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_the_clouds",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 2.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 11,
+        "name": "of_the_sky",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 7.0,
+            "min": 5.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 22,
+        "name": "of_the_meteor",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 10.0,
+            "min": 8.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 33,
+        "name": "of_the_comet",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 11.0
+          }
+        },
+        "weight": 400
+      }
+    ]
+  }
+}

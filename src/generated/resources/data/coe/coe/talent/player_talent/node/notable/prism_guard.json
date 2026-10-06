@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_elemental_damage",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementalresistance2",
+    "id": "62034",
+    "links": [
+      "33939",
+      "4442",
+      "55931"
+    ],
+    "x": -9765.33,
+    "y": 710.665
+  }
+]

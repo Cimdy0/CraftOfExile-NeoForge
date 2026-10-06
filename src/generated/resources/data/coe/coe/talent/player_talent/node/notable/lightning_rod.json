@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_lightning_damage_with_hit_damage_to_be_lucky",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "44566",
+    "links": [
+      "48846"
+    ],
+    "x": 1353.57,
+    "y": 9646.22
+  }
+]

@@ -1,0 +1,226 @@
+package com.cimdy.coe.data.gen.stat.wirings.wire.attribute;
+
+import com.cimdy.coe.data.gen.stat.StatGen;
+
+import com.cimdy.coe.data.gen.stat.wirings.WiringDsl;
+
+import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.area.AreaDeliveryExecutor;
+import com.cimdy.coe.data.codec.support.math.context.nodes.value.base.EventHistoryValue;
+import com.cimdy.coe.data.codec.support.math.context.nodes.value.base.LivingStateValue;
+import com.cimdy.coe.data.codec.support.math.context.nodes.value.entity.presence.PresenceRarityValue;
+import com.cimdy.coe.data.codec.support.stat.condition.RelationCondition;
+import com.cimdy.coe.data.codec.support.stat.StatIds;
+import com.cimdy.coe.data.codec.support.stat.entry.StatEntry;
+import com.cimdy.coe.data.gen.stat.StatConditionIds;
+import com.cimdy.coe.data.gen.stat.effect.StatEffectIds;
+import com.cimdy.coe.data.gen.stat.StatTargetIds;
+import com.cimdy.coe.event.combat.SummonEvent;
+import net.minecraft.resources.Identifier;
+
+import java.util.Map;
+
+import static com.cimdy.coe.data.gen.stat.wirings.WiringDsl.*;
+
+/** WireSpeed 域接线（57 条）。 */
+public final class WireSpeed {
+
+    private WireSpeed() {
+    }
+
+    public static void build(Map<Identifier, StatEntry> map) {
+        map.put(StatIds.INC_WARCRY_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_WARCRY));
+        map.put(StatIds.ACTION_SPEED_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.ACTION_SPEED_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.ACTION_SPEED_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        map.put(StatIds.ADRENALINE_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.ADRENALINE_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.ADRENALINE_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        map.put(StatIds.ARCANE_SURGE_CAST_SPEED, self(StatConditionIds.COND_ARCANE_SURGE_STATUS, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.BANNER_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BANNER_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.BANNER_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.BANNER_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BANNER_MINECRAFT_MOVEMENT_SPEED));
+        map.put(StatIds.COMPANIONS_HAVE_INC_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COMPANION_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.FORM_BEAR_ATTACK_SPEED, self(StatConditionIds.COND_FORM_BEAR, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.FORM_WOLF_ATTACK_SPEED, self(StatConditionIds.COND_FORM_WOLF, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.FORM_WOLF_MOVEMENT_SPEED, self(StatConditionIds.COND_FORM_WOLF, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        map.put(StatIds.GRENADE_SKILLS_HAVE_COOLDOWN_USE, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE_GRENADE));
+        // INC_AREA_OF_EFFECT_OF_CURSES → 增 EFFECT_AREA 属性（与 INC_AREA_OF_EFFECT / INC_AREA_OF_EFFECT_FOR_ATTACKS 同族，复用通用 AoE EFF，
+        // 作用域过滤交由 AreaDeliveryExecutor.readEffectArea 的读点承担；原误接 CAST_SPEED 的 {CURSE,AREA} EFF 实增施法速度，非 AoE，已修正）。
+        map.put(StatIds.INC_AREA_OF_EFFECT_OF_CURSES, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT));
+        map.put(StatIds.INC_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.INC_ATTACK_SPEED_WHILE_A_RARE_OR_UNIQUE_ENEMY_IS_IN_YOUR_PRESENCE, self(StatConditionIds.COND_PRESENCE_RARITY_RARE_UNIQUE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_RARITY));
+        map.put(StatIds.INC_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.INC_CAST_SPEED_WHILE_ON_FULL_MANA, self(StatConditionIds.COND_FULL_MANA_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.INC_COOLDOWN_RECOVERY_RATE, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE));
+        map.put(StatIds.INC_MINION_ATTACK_SPEED, relation(RelationCondition.Relation.MINION, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_MINION));
+        map.put(StatIds.INC_MINION_MOVEMENT_SPEED, relation(RelationCondition.Relation.MINION, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED_MINION_MOVEMENT));
+        map.put(StatIds.INC_MINION_REVIVE, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MINION_REVIVE_SPEED));
+        map.put(StatIds.INC_MINIONS_ATTACK_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.INC_MINIONS_COOLDOWN_RECOVERY_RATE, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE));
+        map.put(StatIds.INC_MINIONS_COOLDOWN_RECOVERY_RATE_COMMAND, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE_COMMAND));
+        map.put(StatIds.INC_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        map.put(StatIds.INC_MOVEMENT_SPEED_STATIONARY, stat(StatConditionIds.COND_MOVEMENT_STATIONARY, StatTargetIds.TGT_INLINE_SELF, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED_MOVEMENT));
+        map.put(StatIds.INC_RELOAD_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CROSS_BOW_RELOAD_TIME_CROSSBOW));
+        // ADD_RELOAD_TIME → 武器固有装填时间（基础值直接代入，落 CROSS_BOW_RELOAD_TIME 属性，ADD_VALUE）。
+        map.put(StatIds.ADD_RELOAD_TIME, self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_CROSS_BOW_RELOAD_TIME));
+        map.put(StatIds.INC_SKILL_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        // === channelling 条件族（COND_CHANNELLING_LIVING_STATE 已 live）===
+        // 「{X}% increased Skill Speed with Channelling Skills」：沿用 INC_SKILL_SPEED 的全局施放速度 EFF，仅在引导时生效。
+        map.put(StatIds.INC_SKILL_SPEED_WITH_CHANNELLING_SKILLS, self(StatConditionIds.COND_CHANNELLING_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        // 「{X}% increased Skill Speed with Command Skills」——沿用 INC_SKILL_SPEED 同源 CAST_SPEED EFF，
+        // 仅切 command 作用域标签（与 MINIONS_DEAL_INC_DAMAGE_WITH_COMMAND_SKILLS /
+        // MINIONS_HAVE_INC_COOLDOWN_RECOVERY_RATE_FOR_COMMAND_SKILLS 等同族「with Command Skills」写法一致，
+        // 零新增属性 / COND，仅复刻 command 标签 EFF）。
+        map.put(StatIds.INC_SKILL_SPEED_WITH_COMMAND_SKILLS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_COMMAND));
+        map.put(StatIds.INC_TOTEM_PLACEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_TOTEM));
+        map.put(StatIds.INC_TRAP_THROW_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_TRAP));
+        map.put(StatIds.MARK_USE_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_MARK));
+        map.put(StatIds.MINION_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_MINION));
+        map.put(StatIds.MINION_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED_MINION));
+        map.put(StatIds.MINIONS_HAVE_INC_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.MORE_SKILL_SPEED_WHILE_OFF_HAND_IS_EMPTY_AND_YOU_HAVE_A_ONE_HANDED_MARTIAL_WEAPON_EQUIPPED_IN_YOUR_MAIN_HAND, self(StatConditionIds.COND_LIVING_STATE_OFF_HAND_EMPTY_ONE_HANDED_MARTIAL, StatEffectIds.EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.ONSLAUGHT_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.ONSLAUGHT_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.ONSLAUGHT_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        map.put(StatIds.SEAL_GAIN_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_SEAL));
+        // ===================== 技能标签族·施放速度 =====================
+        // 「Mark Skills have X% increased Use Speed」——与上一行/上方 MARK_USE_SPEED 同义异写：
+        // 「Use Speed」在引擎里就是 CAST_SPEED 的 {MARK} 作用域变体（同一 EFF、同一标签），
+        // 差别只在语措（PoE2 对非施法类技能称 Use Speed，对法术称 Cast Speed）。
+        map.put(StatIds.MARK_SKILLS_HAVE_INC_USE_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_MARK));
+        // 「Sealed Skills have X% increased Seal gain frequency」——与 SEAL_GAIN_SPEED 同义异写：
+        // 「Seal gain frequency」= 封印积攒速率，落点同为 CAST_SPEED 的 {SEAL} 作用域变体。
+        map.put(StatIds.SEALED_SKILLS_HAVE_INC_SEAL_GAIN_FREQUENCY, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_SEAL));
+        map.put(StatIds.WARCRY_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_WARCRY));
+        // INC_CROSSBOW_RELOAD_SPEED → CROSS_BOW_RELOAD_TIME（行 177：{CROSSBOW}）。
+        map.put(StatIds.INC_CROSSBOW_RELOAD_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CROSS_BOW_RELOAD_TIME_CROSSBOW));
+        // INC_TRAP_THROWING_SPEED → CAST_SPEED（行 168：{TRAP}）。
+        map.put(StatIds.INC_TRAP_THROWING_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_TRAP));
+        map.put(StatIds.INC_ATTACK_SPEED_WHILE_LEECHING, self(StatConditionIds.COND_LEECHING_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.INC_MOVEMENT_SPEED_WHILE_SPRINTING, self(StatConditionIds.COND_SPRINTING_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        map.put(StatIds.INC_ATTACK_SPEED_WHILE_DUAL_WIELDING, self(StatConditionIds.COND_DUAL_WIELD_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.INC_ATTACK_SPEED_WHILE_HOLDING_A_SHIELD, self(StatConditionIds.COND_HOLDING_SHIELD_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.INC_ATTACK_SPEED_WHILE_SURROUNDED, self(StatConditionIds.COND_LIVING_STATE_SURROUNDED, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        // 同构扩展：非低蓝时 INC 攻速 → 通用 !low_mana 取反 COND（LivingStateValue 解析层取反，引擎真读）。
+        map.put(StatIds.INC_ATTACK_SPEED_WHILE_NOT_ON_LOW_MANA, self(StatConditionIds.COND_NOT_LOW_MANA_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.INC_CAST_SPEED_WHILE_CHILLED, self(StatConditionIds.COND_CHILL_STATUS, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.INC_CAST_SPEED_WHILE_IGNITED, self(StatConditionIds.COND_IGNITE_STATUS, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.INC_MOVEMENT_SPEED_WHILE_DUAL_WIELDING, self(StatConditionIds.COND_DUAL_WIELD_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        map.put(StatIds.INC_MOVEMENT_SPEED_WHILE_SURROUNDED, self(StatConditionIds.COND_LIVING_STATE_SURROUNDED, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        // 3) 变形时 INC 技能速度 —— 复用 INC_SKILL_SPEED 同源 EFF（, MULTIPLIED_BASE）切 COND_LIVING_STATE_SHAPESHIFTED。
+        map.put(StatIds.INC_SKILL_SPEED_WHILE_SHAPESHIFTED, self(StatConditionIds.COND_LIVING_STATE_SHAPESHIFTED, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        // ── ：RECENTLY / RARE-UNIQUE 安全带（harvest_conditions.py 扩展 COND_MAP 后新扫出，均有 StatGen 先例，零新增 EFF/COND）──
+        // 机制：COND_COUNT_KILL_RECENTLY（EventHistoryValue，自侧）与 COND_PRESENCE_RARITY_RARE_UNIQUE（PresenceRarityValue，自侧 TGT_SELF_ONLY）
+        // 在 已有先例；仅复用 base 的精确 EFF + 既有 COND。C5 缺口项（INC_STUN_THRESHOLD_*/INC_BLOCK_CHANCE_WHILE_* 的 flat base EFF）仍跳过。
+        // 1) 近期击杀后 INC 攻速 / 移速 —— 复用 INC_ATTACK_SPEED / INC_MOVEMENT_SPEED 同源 MULTIPLIED_BASE EFF，切 COND_COUNT_KILL_RECENTLY。
+        map.put(StatIds.INC_ATTACK_SPEED_IF_YOU_VE_KILLED_RECENTLY, self(StatConditionIds.COND_COUNT_KILL_RECENTLY, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.INC_MOVEMENT_SPEED_IF_YOU_VE_KILLED_RECENTLY, self(StatConditionIds.COND_COUNT_KILL_RECENTLY, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        // WHEN_ON_FULL_HEALTH —— 镜像 INC_CAST_SPEED（复用其 EFF 与 COND，零新增注册）
+        map.put(StatIds.INC_CAST_SPEED_WHEN_ON_FULL_HEALTH, self(StatConditionIds.COND_FULL_LIFE_LIVING_STATE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        // WHEN_ON_LOW_HEALTH —— 镜像 INC_CAST_SPEED（复用其 EFF 与 COND，零新增注册）
+        map.put(StatIds.INC_CAST_SPEED_WHEN_ON_LOW_HEALTH, self(StatConditionIds.COND_LIVING_STATE_LOW_LIFE, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+
+        // INC_COOLDOWN_RECOVERY_RATE_FOR_GRENADE_SKILLS：INC_COOLDOWN_RECOVERY_RATE 的 GRENADE 作用域变体（复用既有 EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE_GRENADE，零新增注册）
+        map.put(StatIds.INC_COOLDOWN_RECOVERY_RATE_FOR_GRENADE_SKILLS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE_GRENADE));
+
+        // 近期事件条件：镜像 base 的 EFF，条件走 EventHistoryValue
+        map.put(StatIds.INC_ATTACK_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY, self(StatConditionIds.COND_COUNT_RECENTLY_CAUSED_CRIT, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        // 近期事件条件：镜像 base 的 EFF，条件走 EventHistoryValue
+        map.put(StatIds.INC_CAST_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY, self(StatConditionIds.COND_COUNT_RECENTLY_CAUSED_CRIT, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        // 近期事件条件：镜像 base 的 EFF，条件走 EventHistoryValue
+        map.put(StatIds.INC_ATTACK_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY, self(StatConditionIds.COND_COUNT_RECENTLY_CAUSED_PARRY, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        // 近期事件条件：镜像 base 的 EFF，条件走 EventHistoryValue
+        map.put(StatIds.INC_MOVEMENT_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY, self(StatConditionIds.COND_COUNT_RECENTLY_CAUSED_PARRY, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+        // 近期事件条件：镜像 base 的 EFF，条件走 EventHistoryValue
+        map.put(StatIds.INC_SKILL_SPEED_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY, self(StatConditionIds.COND_CONSUME_FRENZY_COUNT_RECENTLY, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+
+        // 使用魔力药剂后的近期事件条件（复用 base 的 EFF）
+        map.put(StatIds.INC_CAST_SPEED_IF_YOU_VE_USED_A_MANA_FLASK_RECENTLY, self(StatConditionIds.COND_COUNT_RECENTLY_USE_ITEM, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+
+        // 被击中后的近期事件条件（复用 base 的 EFF）
+        map.put(StatIds.INC_ATTACK_SPEED_IF_YOU_VE_BEEN_HIT_RECENTLY, self(StatConditionIds.COND_COUNT_RECENTLY_TAKEN_HIT, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        // 发起攻击后的近期事件条件（复用 base 的 EFF）
+        map.put(StatIds.INC_CAST_SPEED_IF_YOU_VE_ATTACKED_RECENTLY, self(StatConditionIds.COND_COUNT_RECENTLY_ATTACK_START, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+
+        // hybrid：攻击速度 + 施法速度 共享同一 X%
+        map.put(StatIds.INC_ATTACK_AND_CAST_SPEED, groupSelf(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        // hybrid + 近期召唤图腾条件
+        map.put(StatIds.INC_ATTACK_AND_CAST_SPEED_IF_YOU_VE_SUMMONED_A_TOTEM_RECENTLY, groupSelfWhen(StatConditionIds.COND_COUNT_RECENTLY_USE_TOTEM, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        // ── 药水效果生效中（COND_FLASK_ACTIVE_* 读 FLASK_ACTIVE 附件；R3 读点 FlaskHelper.tick 真实填充）──
+        // 任意药水生效中：攻击速度 +X%
+        map.put(StatIds.INC_ATTACK_SPEED_DURING_ANY_FLASK_EFFECT, self(StatConditionIds.COND_FLASK_ACTIVE_ANY, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        // 任一魔力药水生效中：攻击速度 + 施法速度 +X%（hybrid，复用 base 双 EFF）
+        map.put(StatIds.INC_ATTACK_AND_CAST_SPEED_DURING_EFFECT_OF_ANY_MANA_FLASK, groupSelfWhen(StatConditionIds.COND_FLASK_ACTIVE_MANA, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+
+        // hybrid：召唤物 攻击速度 + 施法速度 共享 X%（成员均带 MINION 标签）
+        map.put(StatIds.MINIONS_HAVE_INC_ATTACK_AND_CAST_SPEED, groupSelf(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_MINION, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_MINION));
+
+        // 持弓时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_BOWS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_BOW));
+        // 持斧时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_AXES, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_AXE));
+        // 持弩时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_CROSSBOWS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_CROSSBOW));
+        // 持长矛时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_SPEARS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_SPEAR));
+        // 持剑时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_SWORDS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_SWORD));
+        // 持匕首时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_DAGGERS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_DAGGER));
+        // 持链枷时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_FLAILS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_FLAIL));
+        // 持长杖时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_QUARTERSTAVES, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_QUARTERSTAFF));
+        // 持单手武器时攻击速度
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_ONE_HANDED_WEAPONS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_ONE_HANDED));
+        // 近战攻击速度
+        map.put(StatIds.INC_MELEE_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_MELEE));
+        // 战吼冷却回复
+        map.put(StatIds.INC_WARCRY_COOLDOWN_RECOVERY_RATE, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COOLDOWN_RECOVERY_RATE_WARCRY));
+        // 召唤物攻击速度
+        map.put(StatIds.MINIONS_HAVE_INC_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_MINION));
+
+        // INC_ATTACK_SPEED 的 MELEE 作用域变体（复用既有 EFF）
+        map.put(StatIds.INC_ATTACK_SPEED_WITH_ONE_HANDED_MELEE_WEAPONS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_MELEE));
+
+        // INC_ATTACK_SPEED 的 ATTACK+BALLISTA 作用域变体
+        map.put(StatIds.ATTACKS_USED_BY_BALLISTAS_HAVE_INC_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_ATTACK_BALLISTA));
+        // INC_ATTACK_SPEED 的 ATTACK+TOTEM 作用域变体
+        map.put(StatIds.ATTACKS_USED_BY_TOTEMS_HAVE_INC_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_ATTACK_TOTEM));
+        // INC_MOVEMENT_SPEED 的 COMPANION 作用域变体
+        map.put(StatIds.COMPANIONS_HAVE_INC_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MOVEMENT_SPEED_COMPANION));
+        // INC_CAST_SPEED 的 COLD 作用域变体
+        map.put(StatIds.INC_CAST_SPEED_WITH_COLD_SKILLS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CAST_SPEED_COLD));
+        // INC_COOLDOWN_RECOVERY_RATE 的 MINION 作用域变体
+        map.put(StatIds.MINIONS_HAVE_INC_COOLDOWN_RECOVERY_RATE, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COOLDOWN_RECOVERY_RATE_MINION));
+        // INC_MINIONS_COOLDOWN_RECOVERY_RATE 的 COMMAND 作用域变体（复用既有 EFF）
+        map.put(StatIds.MINIONS_HAVE_INC_COOLDOWN_RECOVERY_RATE_FOR_COMMAND_SKILLS, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE_COMMAND));
+        // INC_MOVEMENT_SPEED 的 MINION 作用域变体（复用既有 EFF）
+        map.put(StatIds.MINIONS_HAVE_INC_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED_MINION));
+        // INC_CAST_SPEED 的 SPELL+TOTEM 作用域变体
+        map.put(StatIds.SPELLS_CAST_BY_TOTEMS_HAVE_INC_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CAST_SPEED_SPELL_TOTEM));
+        // hybrid：攻速+施法速度共享 X%，并限定 ELEMENTAL 技能
+        map.put(StatIds.INC_ATTACK_AND_CAST_SPEED_WITH_ELEMENTAL_SKILLS, groupSelf(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_ELEMENTAL, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CAST_SPEED_ELEMENTAL));
+        // hybrid：攻速+施法速度共享 X%，并限定 LIGHTNING 技能
+        map.put(StatIds.INC_ATTACK_AND_CAST_SPEED_WITH_LIGHTNING_SKILLS, groupSelf(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_ATTACK_SPEED_LIGHTNING, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CAST_SPEED_LIGHTNING));
+
+        // ===================== 召唤物复活速度 =====================
+        // 「Minions Revive 25% faster」——落点 MINION_REVIVE_SPEED（base=1.0 的倍率基准，非零基，inc 合规）。
+        // 复活机制见 SummonEvent：永久召唤物（coe:summoned 且 MINION_EXPIRE==0）
+        // 濒死不真死，进入 100tick÷本倍率 的倒计时，归零时满血复归并发射 MINION_REVIVED。
+        map.put(StatIds.MINIONS_REVIVING_FASTER, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MINION_REVIVE_SPEED));
+        // 「Minions Reviving {X}% faster if all your Minions are Companions」：复用上条同一 EFF（MINION_REVIVE_SPEED 倍率），
+        // 仅叠加 COND_ALL_MINIONS_ARE_COMPANIONS 门控——LivingStateValue#all_minions_are_companions 按归属枚举持有者召唤物，
+        // 要求至少一个且每个都带 IS_COMPANION 标记（Companion = 召唤物上的标记，非独立实体类；与 presence_count 的
+        // SUMMONED 持久键是两个独立标记，故不可按计数相等近似）。无召唤物时门控不成立，避免空集真空白嫖。
+        // R3 安全：SummonEvent.reviveTicks 真实读 owner.getAttributeValue(MINION_REVIVE_SPEED) 缩放复活倒计时（100tick ÷ 倍率）。
+        map.put(StatIds.MINIONS_REVIVING_FASTER_IF_ALL_YOUR_MINIONS_ARE_COMPANIONS,
+                self(StatConditionIds.COND_ALL_MINIONS_ARE_COMPANIONS, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MINION_REVIVE_SPEED));
+        // ── 按层加速模板（StatusBehavior#speedPerStack 的 $value 注入目标）──
+        // 疾风（每层 +1% 攻速/移速）、噬魂者（每层 +1% 攻速/施法速度）等可叠层增益走这三条；
+        // 缺本条目则 StatRead 静默失败，叠层加速恒为 no-op。EFF 与 ACTION_SPEED_* 同源，零新增注册。
+        map.put(StatIds.SPEED_PER_STACK_ATTACK_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED));
+        map.put(StatIds.SPEED_PER_STACK_CAST_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED));
+        map.put(StatIds.SPEED_PER_STACK_MOVEMENT_SPEED, self(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED));
+    }
+}

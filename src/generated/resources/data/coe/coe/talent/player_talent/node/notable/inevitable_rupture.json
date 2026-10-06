@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_attack_hit_damage_to_apply_ten_incision",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "22817",
+    "links": [
+      "22962",
+      "55724"
+    ],
+    "x": 7125.44,
+    "y": 6789.98
+  }
+]

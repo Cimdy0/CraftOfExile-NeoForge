@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:apply_debilitate_to_enemies_metres_in_front_of_you_while_your_shield_is_raised",
+            "vars": {
+              "value": 30.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "45751",
+    "links": [
+      "6900"
+    ],
+    "x": -7472.17,
+    "y": 5930.06
+  }
+]

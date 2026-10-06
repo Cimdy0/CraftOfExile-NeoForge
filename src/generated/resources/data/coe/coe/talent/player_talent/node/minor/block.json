@@ -1,0 +1,369 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "11980",
+    "links": [
+      "20504",
+      "38814",
+      "52836"
+    ],
+    "x": 2952.67,
+    "y": 8082.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "18629",
+    "links": [
+      "64327",
+      "7721"
+    ],
+    "x": -3067.29,
+    "y": 2195.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "18831",
+    "links": [
+      "39658",
+      "49545",
+      "60505"
+    ],
+    "x": 4227.83,
+    "y": 1918.24
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "23192",
+    "links": [
+      "33452",
+      "42578"
+    ],
+    "x": -9189.0,
+    "y": 2376.63
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "30143",
+    "links": [
+      "22057",
+      "33445",
+      "34201"
+    ],
+    "x": 5544.92,
+    "y": 8671.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "30390",
+    "links": [
+      "33978",
+      "36163"
+    ],
+    "x": -4841.44,
+    "y": 2159.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "33445",
+    "links": [
+      "30143",
+      "37244"
+    ],
+    "x": 5721.69,
+    "y": 8744.43
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "33452",
+    "links": [
+      "23192",
+      "52796",
+      "59785"
+    ],
+    "x": -9602.0,
+    "y": 1954.01
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "36163",
+    "links": [
+      "16725",
+      "30390",
+      "31609"
+    ],
+    "x": -4391.48,
+    "y": 2275.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "39517",
+    "links": [
+      "53373",
+      "64327"
+    ],
+    "x": -3401.29,
+    "y": 2529.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "39658",
+    "links": [
+      "15030",
+      "18831"
+    ],
+    "x": 4450.95,
+    "y": 1719.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "42578",
+    "links": [
+      "23192",
+      "57471"
+    ],
+    "x": -8858.56,
+    "y": 2276.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "52836",
+    "links": [
+      "11980",
+      "56806",
+      "62341"
+    ],
+    "x": 2751.21,
+    "y": 8145.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_block_chance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "62341",
+    "links": [
+      "20504",
+      "38814",
+      "52836"
+    ],
+    "x": 2595.46,
+    "y": 8288.54
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_health_when_you_block",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blockstr",
+    "id": "20504",
+    "links": [
+      "11980",
+      "62341"
+    ],
+    "x": 2995.2,
+    "y": 8568.45
+  }
+]

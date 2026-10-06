@@ -1,0 +1,92 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:stun_duration_inc"
+      },
+      "tiers": [
+        {
+          "level": 5,
+          "name": "of_impact",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 11.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 18,
+          "name": "of_dazing",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 16.0,
+              "min": 14.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 30,
+          "name": "of_stunning",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 19.0,
+              "min": 17.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 44,
+          "name": "of_slamming",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 22.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 58,
+          "name": "of_staggering",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 26.0,
+              "min": 23.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 71,
+          "name": "of_the_concussion",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 30.0,
+              "min": 27.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:claw",
+      "coe:dagger",
+      "coe:flail",
+      "coe:one_hand_axe",
+      "coe:one_hand_sword",
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

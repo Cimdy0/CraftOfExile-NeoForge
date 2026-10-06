@@ -1,0 +1,13 @@
+{
+  "parent": "elemental",
+  "children": [
+    "shock",
+    "cold",
+    "chill",
+    "fire",
+    "freeze",
+    "electrocuted",
+    "lightning",
+    "ignite"
+  ]
+}

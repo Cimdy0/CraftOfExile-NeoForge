@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/one_hand/sceptre/template/intelligence",
+    "reqs": {
+      "int": 12.0,
+      "l": 6.0
+    },
+    "skills": {
+      "coe:preset_discipline": {
+        "id": "coe:preset_discipline"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "one_hand, !wand, !staff, !sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_cold_damage"
+          },
+          "max": 13.0,
+          "min": 11.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_cold_damage"
+          },
+          "max": 20.0,
+          "min": 17.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_cold_damage"
+          },
+          "max": 24.0,
+          "min": 20.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:extra_cold_damage"
+          },
+          "max": 27.0,
+          "min": 23.0,
+          "tier": "perfect"
+        }
+      ],
+      "two_hand~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_cold_damage"
+          },
+          "max": 20.0,
+          "min": 16.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_cold_damage"
+          },
+          "max": 30.0,
+          "min": 25.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_cold_damage"
+          },
+          "max": 36.0,
+          "min": 30.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:extra_cold_damage"
+          },
+          "max": 40.0,
+          "min": 34.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

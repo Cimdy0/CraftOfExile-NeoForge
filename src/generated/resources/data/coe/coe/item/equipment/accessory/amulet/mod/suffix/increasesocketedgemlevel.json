@@ -1,0 +1,158 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_socketed_gem_level"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 5,
+        "name": "of_combat",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 5,
+        "name": "of_the_taskmaster",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 5,
+        "name": "of_the_archer",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 10,
+        "name": "of_the_mage",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 41,
+        "name": "of_dueling",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 41,
+        "name": "of_the_despot",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 41,
+        "name": "of_the_fletcher",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 41,
+        "name": "of_the_enchanter",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 75,
+        "name": "of_battle",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 100
+      },
+      {
+        "level": 75,
+        "name": "of_the_overseer",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 100
+      },
+      {
+        "level": 75,
+        "name": "of_the_sharpshooter",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 100
+      },
+      {
+        "level": 75,
+        "name": "of_the_sorcerer",
+        "tier": 12,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 100
+      }
+    ]
+  }
+}

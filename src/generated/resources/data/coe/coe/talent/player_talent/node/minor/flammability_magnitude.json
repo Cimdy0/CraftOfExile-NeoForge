@@ -1,0 +1,365 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "26952",
+    "links": [
+      "31626",
+      "58814",
+      "59661"
+    ],
+    "x": 2821.81,
+    "y": 10959.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "32271",
+    "links": [
+      "51795",
+      "54311"
+    ],
+    "x": -5943.19,
+    "y": -3877.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "37746",
+    "links": [
+      "45503",
+      "6544"
+    ],
+    "x": -5276.31,
+    "y": 1455.86
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamage",
+    "id": "37905",
+    "links": [
+      "10423",
+      "57571"
+    ],
+    "x": 11192.4,
+    "y": -2904.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "38292",
+    "links": [
+      "33397",
+      "51248"
+    ],
+    "x": -3614.38,
+    "y": 437.511
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "38300",
+    "links": [
+      "39716",
+      "57373"
+    ],
+    "x": -2893.96,
+    "y": -6643.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "39716",
+    "links": [
+      "31326",
+      "38300",
+      "54911"
+    ],
+    "x": -2750.44,
+    "y": -6944.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "45503",
+    "links": [
+      "37746",
+      "51369"
+    ],
+    "x": -5034.82,
+    "y": 1356.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "46300",
+    "links": [
+      "52774",
+      "57832",
+      "63021"
+    ],
+    "x": -1300.9,
+    "y": -11385.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "5084",
+    "links": [
+      "35324",
+      "52774"
+    ],
+    "x": -1300.9,
+    "y": -11669.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "52774",
+    "links": [
+      "46300",
+      "5084"
+    ],
+    "x": -1382.9,
+    "y": -11527.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "54311",
+    "links": [
+      "28482",
+      "32271"
+    ],
+    "x": -5930.42,
+    "y": -4054.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "57373",
+    "links": [
+      "38300",
+      "44733"
+    ],
+    "x": -3215.38,
+    "y": -6401.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamage",
+    "id": "57571",
+    "links": [
+      "28101",
+      "37905"
+    ],
+    "x": 11189.4,
+    "y": -2615.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flammability_buff_magnitude",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "9796",
+    "links": [
+      "52746",
+      "62310"
+    ],
+    "x": -3572.23,
+    "y": 9916.18
+  }
+]

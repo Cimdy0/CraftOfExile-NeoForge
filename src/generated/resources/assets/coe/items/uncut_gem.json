@@ -1,0 +1,152 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_1"
+        },
+        "when": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_2"
+        },
+        "when": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_3"
+        },
+        "when": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_4"
+        },
+        "when": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_5"
+        },
+        "when": 5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_6"
+        },
+        "when": 6
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_7"
+        },
+        "when": 7
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_8"
+        },
+        "when": 8
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_9"
+        },
+        "when": 9
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_10"
+        },
+        "when": 10
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_11"
+        },
+        "when": 11
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_12"
+        },
+        "when": 12
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_13"
+        },
+        "when": 13
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_14"
+        },
+        "when": 14
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_15"
+        },
+        "when": 15
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_16"
+        },
+        "when": 16
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_17"
+        },
+        "when": 17
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_18"
+        },
+        "when": 18
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_19"
+        },
+        "when": 19
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_skill_gem_20"
+        },
+        "when": 20
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "coe:item/uncut_skill_gem_1"
+    },
+    "property": "coe:gem_tier"
+  }
+}

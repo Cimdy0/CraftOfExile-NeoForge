@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attack_skills_during_any_flask_effect",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "38895",
+    "links": [
+      "8697"
+    ],
+    "x": 3808.99,
+    "y": 8549.36
+  }
+]

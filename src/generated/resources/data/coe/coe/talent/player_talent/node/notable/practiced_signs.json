@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cast_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_castspeed",
+    "id": "36302",
+    "links": [
+      "22290",
+      "29502",
+      "47307"
+    ],
+    "x": 0.005,
+    "y": -3281.45
+  }
+]

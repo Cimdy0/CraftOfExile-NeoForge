@@ -1,0 +1,15 @@
+{
+  "type": "presence_aura",
+  "elemental": "none",
+  "grant_attribute": "coe:regeneration_rate",
+  "tags": {
+    "and": [
+      {
+        "tag": "regen"
+      },
+      {
+        "tag": "health"
+      }
+    ]
+  }
+}

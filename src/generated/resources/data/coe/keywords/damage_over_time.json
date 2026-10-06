@@ -1,0 +1,35 @@
+{
+  "aliases": [
+    "Damage over Time",
+    "DoT",
+    "持续伤害",
+    "持续"
+  ],
+  "description": [
+    [
+      "$[damage_over_time]",
+      "会逐步造成",
+      "$[damage]",
+      "；",
+      "$[bleed]",
+      "、",
+      "$[poison]",
+      "与",
+      "$[ignite]",
+      "都属于",
+      "$[damage_over_time]",
+      "效果。"
+    ],
+    [
+      "$[damage_over_time]",
+      "会无视部分基于命中的减伤手段，例如",
+      "$[armour]",
+      "。"
+    ]
+  ],
+  "id": "damage_over_time",
+  "keys": [
+    "coe:keyword.damage_over_time"
+  ],
+  "title": "@coe:keyword.damage_over_time"
+}

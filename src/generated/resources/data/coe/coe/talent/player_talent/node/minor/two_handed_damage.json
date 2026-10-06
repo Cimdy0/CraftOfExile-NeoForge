@@ -1,0 +1,270 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "14997",
+    "links": [
+      "28370",
+      "47856"
+    ],
+    "x": -376.015,
+    "y": 4798.23
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "26092",
+    "links": [
+      "30123",
+      "52392"
+    ],
+    "x": -5481.13,
+    "y": 3810.01
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "30123",
+    "links": [
+      "26092",
+      "64939",
+      "6923"
+    ],
+    "x": -5314.13,
+    "y": 3854.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "32561",
+    "links": [
+      "47856",
+      "51825"
+    ],
+    "x": -656.299,
+    "y": 5078.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "34210",
+    "links": [
+      "54811",
+      "64939"
+    ],
+    "x": -5314.13,
+    "y": 3397.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "47856",
+    "links": [
+      "14997",
+      "32561"
+    ],
+    "x": -536.091,
+    "y": 4958.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "51825",
+    "links": [
+      "13708",
+      "32561",
+      "47363",
+      "9164"
+    ],
+    "x": -765.193,
+    "y": 5187.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "64312",
+    "links": [
+      "23861",
+      "54886",
+      "63451"
+    ],
+    "x": -4588.07,
+    "y": 5427.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "64939",
+    "links": [
+      "30123",
+      "34210"
+    ],
+    "x": -5314.13,
+    "y": 3684.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "6923",
+    "links": [
+      "1087",
+      "30123"
+    ],
+    "x": -5147.13,
+    "y": 3810.01
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_two_handed_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_2handeddamage",
+    "id": "9164",
+    "links": [
+      "25513",
+      "51825"
+    ],
+    "x": -884.694,
+    "y": 5306.9
+  }
+]

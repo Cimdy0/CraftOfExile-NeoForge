@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_against_bleeding_enemies",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "19796",
+    "links": [
+      "18308",
+      "21627",
+      "55066"
+    ],
+    "x": -694.041,
+    "y": 10566.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_against_bleeding_enemies",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "55066",
+    "links": [
+      "19129",
+      "19796",
+      "21721"
+    ],
+    "x": -593.5,
+    "y": 10326.0
+  }
+]

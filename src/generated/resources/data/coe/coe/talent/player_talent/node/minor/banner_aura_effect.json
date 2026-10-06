@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_aura_buff_magnitude",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "65439",
+    "links": [
+      "12821",
+      "48026"
+    ],
+    "x": -3907.68,
+    "y": 9627.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_aura_buff_magnitude",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "6623",
+    "links": [
+      "12821",
+      "48026"
+    ],
+    "x": -4049.71,
+    "y": 9545.58
+  }
+]

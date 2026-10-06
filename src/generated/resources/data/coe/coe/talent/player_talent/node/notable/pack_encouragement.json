@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_for_each_minion_in_your_presence_up_to_a_max_of",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnode1",
+    "id": "21784",
+    "links": [
+      "50118",
+      "53893"
+    ],
+    "x": -8188.97,
+    "y": -5725.95
+  }
+]

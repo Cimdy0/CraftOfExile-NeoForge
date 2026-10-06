@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_from_equipped_body_armor",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_from_equipped_body_armor",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorandenergyshieldnode",
+    "id": "5728",
+    "links": [
+      "14439",
+      "17349"
+    ],
+    "x": -10158.4,
+    "y": -5430.09
+  }
+]

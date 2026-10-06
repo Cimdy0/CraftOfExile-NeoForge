@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed_if_you_ve_summoned_a_totem_recently",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "51820",
+    "links": [
+      "38124",
+      "48979",
+      "5398"
+    ],
+    "x": -6429.9,
+    "y": -6729.0
+  }
+]

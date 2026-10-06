@@ -1,0 +1,15 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "physical",
+    "fire",
+    "chaos",
+    "cold",
+    "lightning"
+  ],
+  "mode": "gain",
+  "tags": {
+    "tag": "empowered"
+  },
+  "to": "cold"
+}

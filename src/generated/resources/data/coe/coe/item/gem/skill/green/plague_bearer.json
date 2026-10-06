@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_plague_bearer",
+  "vars": {
+    "tier": 1.0
+  }
+}

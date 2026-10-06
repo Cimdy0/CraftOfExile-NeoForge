@@ -1,0 +1,16 @@
+{
+  "cost": 2,
+  "effect": {
+    "efficiency": [
+      {
+        "multiplier": 1.25,
+        "work_type": "mining"
+      }
+    ]
+  },
+  "name": "采矿效率 I",
+  "prerequisites": [
+    "coe:base_research"
+  ],
+  "y": 2.0
+}

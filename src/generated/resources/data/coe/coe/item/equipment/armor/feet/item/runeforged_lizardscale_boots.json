@@ -1,0 +1,9 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:armor/feet/template/dexterity",
+    "reqs": {
+      "dex": 45.0,
+      "l": 33.0
+    }
+  }
+}

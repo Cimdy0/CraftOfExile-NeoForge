@@ -1,0 +1,12 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "ignite_history_fire_taken"
+  },
+  "conditions": {
+    "type": "ignited_by_source"
+  },
+  "effect": "coe:stat/effect/inline_ignite_history_fire_taken_571",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,8 @@
+{
+  "members": [
+    "coe:add_lightning_damage_minmax",
+    "coe:add_lightning_damage",
+    "coe:extra_lightning_damage"
+  ],
+  "slot": {}
+}

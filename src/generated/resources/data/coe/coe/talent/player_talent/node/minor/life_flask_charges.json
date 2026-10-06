@@ -1,0 +1,146 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "13619",
+    "links": [
+      "12208",
+      "59600"
+    ],
+    "x": 5658.94,
+    "y": 4039.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "28106",
+    "links": [
+      "30392",
+      "3775"
+    ],
+    "x": 5016.55,
+    "y": 10537.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "3775",
+    "links": [
+      "28106",
+      "45244"
+    ],
+    "x": 4874.52,
+    "y": 10619.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "45709",
+    "links": [
+      "52803",
+      "7412"
+    ],
+    "x": 6378.78,
+    "y": -819.642
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_recovery_from_flasks",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalsnake",
+    "id": "59446",
+    "links": [
+      "22115",
+      "4544"
+    ],
+    "x": 5253.43,
+    "y": 131.979
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "7412",
+    "links": [
+      "45709",
+      "57945"
+    ],
+    "x": 6378.78,
+    "y": -450.288
+  }
+]

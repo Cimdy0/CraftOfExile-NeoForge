@@ -1,0 +1,21 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "damage",
+      "mode": "crit"
+    },
+    "operator": ">",
+    "right": {
+      "type": "const",
+      "value": 0.0
+    }
+  },
+  "effect": "coe:stat/effect/inline_attribute_168",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

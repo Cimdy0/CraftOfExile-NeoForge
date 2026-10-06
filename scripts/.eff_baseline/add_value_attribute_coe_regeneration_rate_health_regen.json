@@ -1,0 +1,9 @@
+{
+  "type": "attribute",
+  "attribute": "coe:regeneration_rate",
+  "operation": "add_value",
+  "tags": [
+    "health",
+    "regen"
+  ]
+}

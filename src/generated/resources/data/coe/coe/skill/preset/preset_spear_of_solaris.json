@@ -1,0 +1,66 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:witch",
+  "cast_sound": "minecraft:entity.witch.throw",
+  "cost": [
+    {
+      "value": "coe:level_table(13, 15, 17, 20, 23, 25, 28, 31, 35, 39, 42, 47, 51, 56, 61, 66, 72, 78, 84, 91, 98, 106, 114, 123, 132, 142, 152, 163, 174, 187, 200, 213, 228, 243, 260, 277, 295, 314, 335, 356)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 4.5, base = 17.8, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "fire"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_ignite",
+                    "vars": {
+                      "value": 0.2
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_create_ground": {
+                "duration": 80.0,
+                "ground_status": "on_ignited_ground",
+                "radius": 2.0
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_projectile": {
+            "ref": {
+              "ref": "coe:arrow",
+              "render": "coe:green/spear_of_solaris"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "dexterity": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_and_reductions_to_companion_damage_also_apply_to_you",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "16150",
+    "links": [
+      "44699",
+      "57933"
+    ],
+    "x": 12070.4,
+    "y": 2129.97
+  }
+]

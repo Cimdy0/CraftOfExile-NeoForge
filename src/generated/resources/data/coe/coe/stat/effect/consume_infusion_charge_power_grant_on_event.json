@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "power",
+  "tags": {
+    "tag": "consume_infusion"
+  },
+  "target": "charge"
+}

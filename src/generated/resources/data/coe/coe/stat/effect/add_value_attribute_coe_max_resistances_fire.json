@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_resistances",
+  "operation": "add_value",
+  "tags": {
+    "tag": "fire"
+  }
+}

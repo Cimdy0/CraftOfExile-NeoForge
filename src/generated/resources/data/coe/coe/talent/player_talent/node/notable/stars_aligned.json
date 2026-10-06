@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_with_hits_is_lucky_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "2486",
+    "links": [
+      "19341",
+      "63732"
+    ],
+    "x": 1353.01,
+    "y": 6256.98
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:offering_damage_bonus",
+  "operation": "add_value",
+  "tags": {
+    "tag": "minion"
+  }
+}

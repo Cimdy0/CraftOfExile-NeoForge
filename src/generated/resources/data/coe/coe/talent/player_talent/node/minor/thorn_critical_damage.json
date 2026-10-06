@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_thorns_critical_damage_bonus",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "14459",
+    "links": [
+      "14654",
+      "5544"
+    ],
+    "x": -6288.69,
+    "y": 278.547
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_thorns_critical_damage_bonus",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "5544",
+    "links": [
+      "14459",
+      "43711"
+    ],
+    "x": -6288.69,
+    "y": 562.603
+  }
+]

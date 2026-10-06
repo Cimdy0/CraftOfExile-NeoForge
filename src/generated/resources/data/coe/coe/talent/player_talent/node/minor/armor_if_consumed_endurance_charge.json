@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_if_you_ve_consumed_an_endurance_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "19122",
+    "links": [
+      "22616",
+      "23062",
+      "28432"
+    ],
+    "x": -4889.11,
+    "y": -169.955
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_if_you_ve_consumed_an_endurance_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "23062",
+    "links": [
+      "19122",
+      "28432"
+    ],
+    "x": -4747.08,
+    "y": -415.955
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_if_you_ve_consumed_an_endurance_charge_recently",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "28432",
+    "links": [
+      "19122",
+      "20416",
+      "23062"
+    ],
+    "x": -4605.06,
+    "y": -169.955
+  }
+]

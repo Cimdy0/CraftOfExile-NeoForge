@@ -1,0 +1,9 @@
+{
+  "type": "attribute",
+  "attribute": "coe:resistances",
+  "operation": "add_value",
+  "tags": [
+    "minion",
+    "chaos"
+  ]
+}

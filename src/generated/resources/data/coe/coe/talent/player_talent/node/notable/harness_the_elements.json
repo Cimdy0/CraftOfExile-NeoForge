@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_for_each_type_of_elemental_ailment_on_enemy",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "12611",
+    "links": [
+      "32155",
+      "44204",
+      "64213"
+    ],
+    "x": 5581.73,
+    "y": 1347.41
+  }
+]

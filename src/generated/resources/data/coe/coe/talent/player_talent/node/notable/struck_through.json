@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_have_to_critical_hit_chance",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "39369",
+    "links": [
+      "2936",
+      "54983"
+    ],
+    "x": 11701.0,
+    "y": 272.057
+  }
+]

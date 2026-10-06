@@ -1,0 +1,215 @@
+[
+  {
+    "icon": "passives_movementspeedandevasion",
+    "id": "11464",
+    "links": [
+      "27405",
+      "38707"
+    ],
+    "x": -7502.73,
+    "y": -1193.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_legstrength",
+    "id": "17045",
+    "links": [
+      "37519",
+      "55131"
+    ],
+    "x": -2553.42,
+    "y": 8874.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredrabbit",
+    "id": "29285",
+    "links": [
+      "16602",
+      "38463",
+      "9745"
+    ],
+    "x": 7093.09,
+    "y": 8212.83
+  },
+  {
+    "icon": "passives_movementspeedandevasion",
+    "id": "30781",
+    "links": [
+      "27405",
+      "63772"
+    ],
+    "x": -6997.73,
+    "y": -1193.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_legstrength",
+    "id": "37519",
+    "links": [
+      "17045",
+      "32564"
+    ],
+    "x": -2434.42,
+    "y": 8668.39
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_if_you_ve_killed_recently",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedrunspeeddex",
+    "id": "40341",
+    "links": [
+      "17340",
+      "21274"
+    ],
+    "x": 599.155,
+    "y": 7972.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedrunspeeddex",
+    "id": "59653",
+    "links": [
+      "35987",
+      "61106"
+    ],
+    "x": 1884.97,
+    "y": 1536.95
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedrunspeeddex",
+    "id": "61106",
+    "links": [
+      "49691",
+      "59653"
+    ],
+    "x": 1644.01,
+    "y": 1436.41
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_if_you_ve_killed_recently",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedrunspeeddex",
+    "id": "62051",
+    "links": [
+      "17340",
+      "21755"
+    ],
+    "x": 265.155,
+    "y": 7638.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredrabbit",
+    "id": "9745",
+    "links": [
+      "29285",
+      "58513"
+    ],
+    "x": 7334.57,
+    "y": 8527.54
+  }
+]

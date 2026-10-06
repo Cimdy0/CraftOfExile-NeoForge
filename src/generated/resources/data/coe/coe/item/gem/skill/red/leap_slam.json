@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_leap_slam",
+  "vars": {
+    "tier": 7.0
+  }
+}

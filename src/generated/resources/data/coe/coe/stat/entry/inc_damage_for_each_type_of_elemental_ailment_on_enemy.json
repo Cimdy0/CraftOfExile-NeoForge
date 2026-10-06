@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * elemental_ailment_type_count / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_210",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 0.15
+  },
+  "targets": "coe:stat/targets/inline_inline_1075"
+}

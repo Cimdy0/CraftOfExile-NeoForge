@@ -1,0 +1,8 @@
+{
+  "type": "flask_life_recovery_share",
+  "identity_tags": [
+    "companion"
+  ],
+  "kind": "flask_life_recovery_share",
+  "variant": "gate"
+}

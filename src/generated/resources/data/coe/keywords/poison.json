@@ -1,0 +1,28 @@
+{
+  "aliases": [
+    "Poison",
+    "Poisoned",
+    "中毒"
+  ],
+  "description": [
+    [
+      "$[poison]",
+      "是一种混沌",
+      "$[damage_over_time]",
+      "异常，每次施加都会叠加。"
+    ],
+    [
+      "$[poison]",
+      "不受",
+      "$[ailment_threshold]",
+      "影响，并能部分无视敌人",
+      "$[resistance]",
+      "。"
+    ]
+  ],
+  "id": "poison",
+  "keys": [
+    "coe:keyword.poison"
+  ],
+  "title": "@coe:keyword.poison"
+}

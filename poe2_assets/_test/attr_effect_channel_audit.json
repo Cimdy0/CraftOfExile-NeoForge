@@ -1,0 +1,747 @@
+{
+ "engine_effect_types": {
+  "ChanceOnEventStatEffect": "FIRE",
+  "ChargeConvertStatEffect": "FIRE",
+  "CreateGroundOnAilmentEffect": "FIRE",
+  "DamageConvertStatEffect": "DAMAGE_CONVERT",
+  "DamageStatEffect": "FIRE",
+  "DamageTakenConvertStatEffect": "DAMAGE_TAKEN_CONVERT",
+  "DeliveryStatEffect": "DELIVERY",
+  "GrantOnEventStatEffect": "FIRE",
+  "HitFlagStatEffect": "HIT_FLAG",
+  "ImmuneStatEffect": "IMMUNE",
+  "LeechStatEffect": "FIRE",
+  "LuckyStatEffect": "LUCKY",
+  "ModifierStatEffect": "FOLD",
+  "PresenceAuraStatEffect": "AURA",
+  "RandomConvertStatEffect": "DAMAGE_CONVERT",
+  "RandomTakenConvertStatEffect": "DAMAGE_TAKEN_CONVERT",
+  "RecoupStatEffect": "FIRE",
+  "RequirementStatEffect": "INERT",
+  "ResourceConvertStatEffect": "RESOURCE_CONVERT",
+  "ResourceStatEffect": "FIRE",
+  "StatusStatEffect": "FIRE"
+ },
+ "effect_type_count": 21,
+ "candidates": {
+  "AILMENT_MAGNITUDE": {
+   "entry_count": 34,
+   "kinds": {
+    "FOLD": 34
+   },
+   "all_fold": true,
+   "entries": [
+    {
+     "stat_id": "ADD_EXPOSURE",
+     "helper": "add",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "EXPOSURE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_AILMENT_MAGNITUDE",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "AILMENT",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_SHOCK_MAGNITUDE",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "SHOCK",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "CHILL",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_POISON_MAGNITUDE",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "POISON",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_IGNITE_BUFF_MAGNITUDE",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "IGNITE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_EFFECT_OF_ARCANE_SURGE_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "ARCANE_SURGE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "BANNER_SKILLS_HAVE_INC_AURA_BUFF_MAGNITUDE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "AURA",
+      "BANNER",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "AILMENT",
+      "BLEED"
+     ]
+    },
+    {
+     "stat_id": "INC_BLIND_EFFECT",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "BLIND",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_EFFECT_TAKEN",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "AURA",
+      "TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_MAGNITUDE",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "AURA",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_EFFECT_OF_CURSES_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "CURSE",
+      "TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_EFFECT_OF_ARCHON_BUFFS_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "ARCHON",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_EFFECT_OF_SHOCK_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "AILMENT",
+      "SHOCK"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_EFFECT_OF_WITHERED_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "WITHERED"
+     ]
+    },
+    {
+     "stat_id": "INC_EFFECT_OF_CHILL_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "AILMENT",
+      "CHILL"
+     ]
+    },
+    {
+     "stat_id": "INC_CURSE_BUFF_MAGNITUDE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "CURSE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "DAMAGE_OVER_TIME",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "MORE_BLEEDING_MAGNITUDE_INFLICTED",
+     "helper": "more",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "AILMENT",
+      "BLEED",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_MAGNITUDE_OF_DAZE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "DAZE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_EXPOSURE_EFFECT",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "EXPOSURE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_FLAMMABILITY_MAGNITUDE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "CURSE",
+      "FIRE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_IGNITE_MAGNITUDE_TAKEN",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "AILMENT",
+      "IGNITE"
+     ]
+    },
+    {
+     "stat_id": "INC_INCISION_MAGNITUDE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "INCISION",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_INFUSION_MAGNITUDE",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "INFUSION",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BUFF_MAGNITUDE_OF_JAGGED_GROUND_YOU_CREATE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "JAGGED_GROUND",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_MARK_EFFECT",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "MARK",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_NON_DAMAGING_AILMENT_MAGNITUDE",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "NON_DAMAGING",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "OFFERING_SKILLS_HAVE_INC_BUFF_EFFECT",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "OFFERING",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_PARRIED_DEBUFF_BUFF_MAGNITUDE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "PARRY",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_SLOWING_POTENCY_OF_DEBUFFS_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "SLOW"
+     ]
+    },
+    {
+     "stat_id": "INC_TOTAL_POWER_COUNTED_BY_WARCRIES",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "WARCRY",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_WITHERED_BUFF_MAGNITUDE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "WITHERED",
+      "!TAKEN"
+     ]
+    }
+   ]
+  },
+  "AURA_MAGNITUDE": {
+   "entry_count": 1,
+   "kinds": {
+    "FOLD": 1
+   },
+   "all_fold": true,
+   "entries": [
+    {
+     "stat_id": "INC_AURA_MAGNITUDE",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "AURA"
+     ]
+    }
+   ]
+  },
+  "REMNANT_MAGNITUDE": {
+   "entry_count": 0,
+   "kinds": {},
+   "all_fold": null,
+   "entries": []
+  },
+  "AILMENT_DURATION": {
+   "entry_count": 30,
+   "kinds": {
+    "FOLD": 30
+   },
+   "all_fold": true,
+   "entries": [
+    {
+     "stat_id": "INC_AILMENT_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "AILMENT",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_ARCHON_BUFF_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "ARCHON",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "BANNER_SKILLS_HAVE_INC_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "BANNER",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BEAST_AILMENT_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "BEAST",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BLEED_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "BLEED",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_BLEEDING_DURATION_TAKEN",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "BLEED",
+      "AILMENT"
+     ]
+    },
+    {
+     "stat_id": "INC_FRENZY_CHARGE_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "CHARGE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_CHARM_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "CHARM",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_DURATION_OF_AILMENTS_ON_YOU",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "AILMENT"
+     ]
+    },
+    {
+     "stat_id": "INC_CHILL_DURATION_TAKEN",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "CHILL",
+      "AILMENT"
+     ]
+    },
+    {
+     "stat_id": "INC_CURSE_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "CURSE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_DURATION_OF_DAMAGING_AILMENTS_ON_ENEMIES",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "DAMAGE_OVER_TIME",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_DAZE_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "DAZE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_DEBUFF_EXPIRY",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "AILMENT"
+     ]
+    },
+    {
+     "stat_id": "INC_FLASK_EFFECT_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "FLASK",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_FREEZE_DURATION_TAKEN",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "FREEZE",
+      "AILMENT"
+     ]
+    },
+    {
+     "stat_id": "INC_GRENADE_DETONATION_TIME",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "GRENADE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_HAZARD_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "HAZARD",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_IGNITE_DURATION_ON_ENEMIES",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "IGNITE",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_IGNITE_DURATION_TAKEN",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "IGNITE",
+      "AILMENT"
+     ]
+    },
+    {
+     "stat_id": "INC_INFUSION_DURATION",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "INFUSION",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_JAGGED_GROUND_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "JAGGED_GROUND",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_OFFERING_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "OFFERING",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_PARRIED_DEBUFF_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "META",
+      "PARRY",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_PINNED_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "PIN",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_POISON_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "POISON",
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_POISON_DURATION_TAKEN",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "POISON",
+      "AILMENT"
+     ]
+    },
+    {
+     "stat_id": "INC_SHOCK_DURATION_TAKEN",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "TAKEN",
+      "SHOCK",
+      "AILMENT"
+     ]
+    },
+    {
+     "stat_id": "INC_SKILL_EFFECT_DURATION",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "!TAKEN"
+     ]
+    },
+    {
+     "stat_id": "INC_STUN_DURATION",
+     "helper": "valueMod",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "STUN",
+      "!TAKEN"
+     ]
+    }
+   ]
+  },
+  "CHARM_DURATION": {
+   "entry_count": 0,
+   "kinds": {},
+   "all_fold": null,
+   "entries": []
+  },
+  "CHARM_EFFECT": {
+   "entry_count": 1,
+   "kinds": {
+    "FOLD": 1
+   },
+   "all_fold": true,
+   "entries": [
+    {
+     "stat_id": "INC_CHARM_EFFECT",
+     "helper": "inc",
+     "effect": "ModifierStatEffect",
+     "kind": "FOLD",
+     "tags": [
+      "CHARM"
+     ]
+    }
+   ]
+  }
+ }
+}

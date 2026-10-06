@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:overgrown_plant_skills_armor_break_inc_armor",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "9009",
+    "links": [
+      "32239"
+    ],
+    "x": -6291.04,
+    "y": -7138.67
+  }
+]

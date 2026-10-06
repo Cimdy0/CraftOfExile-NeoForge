@@ -1,0 +1,101 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "10835",
+    "links": [
+      "48026",
+      "53367"
+    ],
+    "x": -4267.95,
+    "y": 9753.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "11752",
+    "links": [
+      "18801",
+      "57616",
+      "62258",
+      "62455"
+    ],
+    "x": -1501.68,
+    "y": 7635.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "18801",
+    "links": [
+      "11752",
+      "54818",
+      "63360"
+    ],
+    "x": -1501.68,
+    "y": 8068.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "57616",
+    "links": [
+      "11752",
+      "56388"
+    ],
+    "x": -1500.37,
+    "y": 7380.21
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "mod": {
+    "skills": [
+      {
+        "level": 3,
+        "skill": "coe:wolf_rake"
+      }
+    ],
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_minecraft_attack_speed_op_add_value_0_2"
+      }
+    ],
+    "weight": 600
+  },
+  "name": "feral_slasher"
+}

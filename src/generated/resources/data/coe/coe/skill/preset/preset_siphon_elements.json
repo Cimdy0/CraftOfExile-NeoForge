@@ -1,0 +1,128 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "modifiers": [
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_chance": {
+                  "actions": [
+                    {
+                      "coe:action_infusion_remnant": {
+                        "kind": "cold"
+                      }
+                    }
+                  ],
+                  "chance": "charge:power * 0.05"
+                }
+              },
+              "trigger": "on_hit"
+            }
+          ],
+          "event_name": "caused_ailment",
+          "event_type": "custom",
+          "require_tags": [
+            "freeze"
+          ]
+        }
+      }
+    },
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_chance": {
+                  "actions": [
+                    {
+                      "coe:action_infusion_remnant": {
+                        "kind": "fire"
+                      }
+                    }
+                  ],
+                  "chance": 0.05
+                }
+              },
+              "trigger": "on_hit"
+            }
+          ],
+          "event_name": "caused_ailment",
+          "event_type": "custom",
+          "require_tags": [
+            "ignite",
+            "fresh_ailment"
+          ]
+        }
+      }
+    },
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_chance": {
+                  "actions": [
+                    {
+                      "coe:action_infusion_remnant": {
+                        "kind": "lightning"
+                      }
+                    }
+                  ],
+                  "chance": 0.05
+                }
+              },
+              "trigger": "on_hit"
+            }
+          ],
+          "event_name": "caused_ailment",
+          "event_type": "custom",
+          "require_tags": [
+            "shock",
+            "fresh_ailment"
+          ]
+        }
+      }
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "buff",
+    "persistent",
+    "remnant",
+    "fire",
+    "cold",
+    "lightning"
+  ]
+}

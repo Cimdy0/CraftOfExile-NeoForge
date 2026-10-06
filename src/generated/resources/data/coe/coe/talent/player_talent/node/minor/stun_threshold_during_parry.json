@@ -1,0 +1,124 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_while_parrying",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "13379",
+    "links": [
+      "27761",
+      "53539"
+    ],
+    "x": 3866.11,
+    "y": 2806.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_while_parrying",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "17447",
+    "links": [
+      "24843",
+      "29320",
+      "7526"
+    ],
+    "x": 5751.86,
+    "y": 5605.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_while_parrying",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "29320",
+    "links": [
+      "1680",
+      "17447",
+      "56860"
+    ],
+    "x": 6050.37,
+    "y": 5588.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_while_parrying",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "36997",
+    "links": [
+      "27761",
+      "45650"
+    ],
+    "x": 3599.3,
+    "y": 2962.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold_while_parrying",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "52410",
+    "links": [
+      "12116",
+      "20414"
+    ],
+    "x": 10454.3,
+    "y": 5730.12
+  }
+]

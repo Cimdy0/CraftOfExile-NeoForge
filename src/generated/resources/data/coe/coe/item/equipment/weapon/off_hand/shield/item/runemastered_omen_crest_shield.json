@@ -1,0 +1,15 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/off_hand/shield/template/strength_intelligence",
+    "reqs": {
+      "int": 38.0,
+      "l": 48.0,
+      "str": 38.0
+    },
+    "skills": {
+      "coe:preset_raise_shield": {
+        "id": "coe:preset_raise_shield"
+      }
+    }
+  }
+}

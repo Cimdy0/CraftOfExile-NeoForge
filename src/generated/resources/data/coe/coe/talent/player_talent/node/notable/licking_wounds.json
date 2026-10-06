@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_and_mana_regeneration_rate_for_each_minion_in_your_presence_up_to_a_max_of",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifeandmana",
+    "id": "55375",
+    "links": [
+      "23195",
+      "38433",
+      "40511"
+    ],
+    "x": -6232.51,
+    "y": -6126.75
+  }
+]

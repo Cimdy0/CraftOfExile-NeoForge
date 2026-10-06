@@ -1,0 +1,627 @@
+[
+  {
+    "icon": "passives_auraeffect",
+    "id": "12610",
+    "links": [
+      "30979",
+      "4873"
+    ],
+    "x": -3266.45,
+    "y": -6016.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "16121",
+    "links": [
+      "56334",
+      "61421"
+    ],
+    "x": 10104.0,
+    "y": -5597.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "25304",
+    "links": [
+      "40453",
+      "61056"
+    ],
+    "x": 6566.07,
+    "y": -9446.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "26236",
+    "links": [
+      "38069",
+      "8522"
+    ],
+    "x": 1585.64,
+    "y": -8935.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "38069",
+    "links": [
+      "26236",
+      "338"
+    ],
+    "x": 1802.15,
+    "y": -8974.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "40453",
+    "links": [
+      "14231",
+      "25304"
+    ],
+    "x": 6501.36,
+    "y": -9204.77
+  },
+  {
+    "icon": "passives_auraeffect",
+    "id": "4873",
+    "links": [
+      "12610",
+      "12683"
+    ],
+    "x": -3049.94,
+    "y": -6141.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "52260",
+    "links": [
+      "3688",
+      "52351"
+    ],
+    "x": 4173.88,
+    "y": -6272.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "52351",
+    "links": [
+      "22219",
+      "52260"
+    ],
+    "x": 4031.85,
+    "y": -6190.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "61056",
+    "links": [
+      "25304",
+      "40399"
+    ],
+    "x": 6389.29,
+    "y": -9623.03
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "8522",
+    "links": [
+      "20861",
+      "26236"
+    ],
+    "x": 1585.64,
+    "y": -8685.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "13537",
+    "links": [
+      "49455",
+      "54521"
+    ],
+    "x": -2323.5,
+    "y": -10559.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "15408",
+    "links": [
+      "2254",
+      "34006"
+    ],
+    "x": 329.459,
+    "y": -2732.55
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "19355",
+    "links": [
+      "50755",
+      "62230"
+    ],
+    "x": 3209.74,
+    "y": -10902.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "29432",
+    "links": [
+      "4061",
+      "44733"
+    ],
+    "x": -2331.94,
+    "y": -6231.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_energy_shield",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "30346",
+    "links": [
+      "29695",
+      "34006",
+      "44871"
+    ],
+    "x": 307.2,
+    "y": -2332.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "34006",
+    "links": [
+      "15408",
+      "30346"
+    ],
+    "x": 213.493,
+    "y": -2616.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "36994",
+    "links": [
+      "27491",
+      "7424"
+    ],
+    "x": -1486.69,
+    "y": -6719.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "37974",
+    "links": [
+      "50816",
+      "62230"
+    ],
+    "x": 2635.83,
+    "y": -10902.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "38105",
+    "links": [
+      "44299",
+      "6006"
+    ],
+    "x": -2903.56,
+    "y": -10687.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "4061",
+    "links": [
+      "27491",
+      "29432",
+      "44098"
+    ],
+    "x": -1909.32,
+    "y": -5987.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_energy_shield",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "44871",
+    "links": [
+      "30346",
+      "54447",
+      "56216"
+    ],
+    "x": 136.065,
+    "y": -1694.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "48030",
+    "links": [
+      "11672",
+      "41372",
+      "62436"
+    ],
+    "x": 1488.43,
+    "y": -4425.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "49455",
+    "links": [
+      "13537",
+      "44299"
+    ],
+    "x": -2491.09,
+    "y": -10687.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "6006",
+    "links": [
+      "38105",
+      "47168"
+    ],
+    "x": -3071.15,
+    "y": -10559.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "62436",
+    "links": [
+      "3215",
+      "48030"
+    ],
+    "x": 1665.21,
+    "y": -4248.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshield",
+    "id": "7424",
+    "links": [
+      "11679",
+      "1823",
+      "36994"
+    ],
+    "x": -1909.32,
+    "y": -6963.67
+  }
+]

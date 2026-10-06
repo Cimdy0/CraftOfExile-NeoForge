@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_if_you_would_gain_endurance_charges_you_instead_gain_up_to_max_endurance_charges",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "12601",
+    "links": [
+      "35745",
+      "483",
+      "50908"
+    ],
+    "x": -2349.32,
+    "y": -2834.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_if_you_would_gain_endurance_charges_you_instead_gain_up_to_max_endurance_charges",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "35745",
+    "links": [
+      "12601",
+      "483"
+    ],
+    "x": -2349.32,
+    "y": -2550.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_that_if_you_would_gain_endurance_charges_you_instead_gain_up_to_max_endurance_charges",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "483",
+    "links": [
+      "12601",
+      "35745",
+      "6744"
+    ],
+    "x": -2595.32,
+    "y": -2692.66
+  }
+]

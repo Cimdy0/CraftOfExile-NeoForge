@@ -1,0 +1,33 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_max_elemental_resistance"
+    },
+    "tiers": [
+      {
+        "level": 75,
+        "name": "of_the_deathless",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 125
+      },
+      {
+        "level": 81,
+        "name": "of_the_everlasting",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 125
+      }
+    ]
+  }
+}

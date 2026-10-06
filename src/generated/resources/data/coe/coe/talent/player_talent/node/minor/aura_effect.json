@@ -1,0 +1,175 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "12462",
+    "links": [
+      "50558",
+      "64299"
+    ],
+    "x": -3570.72,
+    "y": -2061.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "17655",
+    "links": [
+      "17517",
+      "19873",
+      "50216",
+      "63209",
+      "64299"
+    ],
+    "x": -3139.44,
+    "y": -1812.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "45354",
+    "links": [
+      "21568",
+      "64948"
+    ],
+    "x": -6533.67,
+    "y": -4773.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "48264",
+    "links": [
+      "12964",
+      "64948"
+    ],
+    "x": -6327.22,
+    "y": -4932.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "50558",
+    "links": [
+      "12462",
+      "32194",
+      "39540",
+      "58651"
+    ],
+    "x": -3704.09,
+    "y": -2138.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "61836",
+    "links": [
+      "52807",
+      "65243"
+    ],
+    "x": -6249.23,
+    "y": -390.275
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "64948",
+    "links": [
+      "45354",
+      "48264"
+    ],
+    "x": -6253.7,
+    "y": -4657.97
+  }
+]

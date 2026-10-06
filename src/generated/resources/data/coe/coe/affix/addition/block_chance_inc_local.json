@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:inc_block_chance"
+  ],
+  "vars": [
+    "value"
+  ]
+}

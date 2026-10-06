@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_total_power_counted_by_warcries",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "27540",
+    "links": [
+      "35876",
+      "62973"
+    ],
+    "x": -6069.18,
+    "y": 2426.22
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_total_power_counted_by_warcries",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "62973",
+    "links": [
+      "26070",
+      "27540"
+    ],
+    "x": -5896.29,
+    "y": 2426.22
+  }
+]

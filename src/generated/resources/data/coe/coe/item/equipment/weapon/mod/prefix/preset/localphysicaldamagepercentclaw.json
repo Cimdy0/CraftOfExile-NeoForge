@@ -1,0 +1,116 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:attack_physical_damage_inc"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "heavy",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 40.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 8,
+          "name": "serrated",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 64.0,
+              "min": 50.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 16,
+          "name": "wicked",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 84.0,
+              "min": 65.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 33,
+          "name": "vicious",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 109.0,
+              "min": 85.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 46,
+          "name": "bloodthirsty",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 134.0,
+              "min": 110.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 60,
+          "name": "cruel",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 154.0,
+              "min": 135.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 75,
+          "name": "tyrannical",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 169.0,
+              "min": 155.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 82,
+          "name": "merciless",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 179.0,
+              "min": 170.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:claw",
+      "coe:dagger",
+      "coe:flail",
+      "coe:one_hand_axe",
+      "coe:one_hand_sword",
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/off_hand/buckler/template/dexterity",
+    "reqs": {
+      "dex": 64.0,
+      "l": 45.0
+    },
+    "skills": {
+      "coe:preset_parry": {
+        "id": "coe:preset_parry"
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": -0.03
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_have_inc_attack_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_have_inc_cast_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionattackspeed",
+    "id": "13108",
+    "links": [
+      "37778",
+      "49543"
+    ],
+    "x": -8884.13,
+    "y": -4014.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed",
+            "vars": {
+              "value": -0.03
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_have_inc_attack_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_have_inc_cast_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionattackspeed",
+    "id": "49543",
+    "links": [
+      "13108",
+      "63243"
+    ],
+    "x": -8648.92,
+    "y": -3577.95
+  }
+]

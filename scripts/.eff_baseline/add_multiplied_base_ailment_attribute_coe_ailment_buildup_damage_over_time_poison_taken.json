@@ -1,0 +1,11 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_buildup",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "!taken",
+    "ailment",
+    "poison",
+    "damage_over_time"
+  ]
+}

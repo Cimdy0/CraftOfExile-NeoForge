@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:inc_movement_speed_stationary"
+    }
+  ]
+}

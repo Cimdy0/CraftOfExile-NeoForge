@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_freeze_buildup",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_freeze_by_you_have_to_cold_resistance",
+            "vars": {
+              "value": -0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "16142",
+    "links": [
+      "31825",
+      "5390"
+    ],
+    "x": 10817.1,
+    "y": 2793.58
+  }
+]

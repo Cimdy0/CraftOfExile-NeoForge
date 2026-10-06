@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_ignited_by_you_permanently_take_inc_fire_damage_for_each_second_they_have_ever_been_ignited_by_you_up_to_a_max_of",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "43939",
+    "links": [
+      "56214"
+    ],
+    "x": -8526.46,
+    "y": -5419.21
+  }
+]

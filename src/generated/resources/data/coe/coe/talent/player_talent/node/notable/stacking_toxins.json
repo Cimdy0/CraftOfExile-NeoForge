@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:targets_can_be_affected_by_of_your_poisons_at_the_same_time",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": -0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "63759",
+    "links": [
+      "24401",
+      "26565"
+    ],
+    "x": 6359.19,
+    "y": 2492.09
+  }
+]

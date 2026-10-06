@@ -1,0 +1,7 @@
+{
+  "type": "heal",
+  "resource": "rage",
+  "tags": [
+    "ignite"
+  ]
+}

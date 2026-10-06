@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "parrying"
+  },
+  "effect": "coe:stat/effect/inline_hit_flag_865",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:stat/effect/inline_equipment_bonus_to_minions_1038",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

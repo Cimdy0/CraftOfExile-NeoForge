@@ -1,0 +1,9 @@
+{
+  "type": "attribute",
+  "attribute": "coe:empowered_attacks",
+  "operation": "add_value",
+  "tags": [
+    "warcry",
+    "!taken"
+  ]
+}

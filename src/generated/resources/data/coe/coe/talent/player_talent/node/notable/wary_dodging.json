@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:cannot_be_light_stunned_if_you_haven_t_been_hit_damage_recently",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "64650",
+    "links": [
+      "30210",
+      "35058"
+    ],
+    "x": 4789.34,
+    "y": 7039.05
+  }
+]

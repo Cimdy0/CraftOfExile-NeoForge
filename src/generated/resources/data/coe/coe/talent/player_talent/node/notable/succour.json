@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate_during_effect_of_any_health_flask",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "30392",
+    "links": [
+      "13157",
+      "28106"
+    ],
+    "x": 4990.49,
+    "y": 10339.5
+  }
+]

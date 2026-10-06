@@ -1,0 +1,8 @@
+{
+  "type": "entity_category_limit",
+  "identity_tags": [
+    "fissure"
+  ],
+  "kind": "entity_category_limit",
+  "variant": "magnitude"
+}

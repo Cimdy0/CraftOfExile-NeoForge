@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup_if_you_have_shapeshifted_to_an_animal_form_recently",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnotable",
+    "id": "41620",
+    "links": [
+      "14996"
+    ],
+    "x": -5562.78,
+    "y": -2451.83
+  }
+]

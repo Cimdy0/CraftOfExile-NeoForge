@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_apply_incision_to_take_inc_physical_damage_per_incision",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "42714",
+    "links": [
+      "55724",
+      "58644"
+    ],
+    "x": 6890.46,
+    "y": 6461.48
+  }
+]

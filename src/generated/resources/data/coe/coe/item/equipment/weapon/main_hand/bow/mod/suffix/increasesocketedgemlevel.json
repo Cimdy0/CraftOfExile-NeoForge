@@ -1,0 +1,62 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_socketed_gem_level"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 18,
+        "name": "of_the_fletcher",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 750
+      },
+      {
+        "level": 36,
+        "name": "of_the_sharpshooter",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 55,
+        "name": "of_the_marksman",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 81,
+        "name": "of_the_sniper",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 4.0,
+            "min": 4.0
+          }
+        },
+        "weight": 100
+      }
+    ]
+  }
+}

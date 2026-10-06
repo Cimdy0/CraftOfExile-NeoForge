@@ -1,0 +1,27 @@
+{
+  "layers": [
+    {
+      "coe:particle_ring": {
+        "particle": {
+          "type": "minecraft:sculk_soul"
+        },
+        "y_offset": 0.05
+      }
+    },
+    {
+      "coe:particle_pillar": {
+        "density": 8,
+        "particle": {
+          "type": "minecraft:sculk_soul"
+        },
+        "radius_scale": 0.35
+      }
+    },
+    {
+      "coe:model": {
+        "scale": 0.8,
+        "texture": "coe:textures/entity/prop/chaos"
+      }
+    }
+  ]
+}

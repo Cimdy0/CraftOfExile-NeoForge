@@ -1,0 +1,32 @@
+{
+  "aliases": [
+    "Ignite",
+    "Ignited",
+    "点燃"
+  ],
+  "description": [
+    [
+      "$[ignite]",
+      "是一种来自",
+      "$[fire_damage]",
+      "的",
+      "$[elemental_ailment]",
+      "，会造成火焰",
+      "$[damage_over_time]",
+      "。"
+    ],
+    [
+      "$[ignite]",
+      "的持续时间和",
+      "$[damage]",
+      "会随点燃该次命中的",
+      "$[fire_damage]",
+      "而提升。"
+    ]
+  ],
+  "id": "ignite",
+  "keys": [
+    "coe:keyword.ignite"
+  ],
+  "title": "@coe:keyword.ignite"
+}

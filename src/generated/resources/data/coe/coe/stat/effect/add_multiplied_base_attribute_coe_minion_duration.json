@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:minion_duration",
+  "operation": "add_multiplied_base"
+}

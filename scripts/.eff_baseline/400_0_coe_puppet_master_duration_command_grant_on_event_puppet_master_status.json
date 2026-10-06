@@ -1,0 +1,11 @@
+{
+  "type": "grant_on_event",
+  "base_duration": 400.0,
+  "duration_attr": "coe:puppet_master_duration",
+  "param": "puppet_master",
+  "tags": [
+    "command",
+    "puppet_master"
+  ],
+  "target": "status"
+}

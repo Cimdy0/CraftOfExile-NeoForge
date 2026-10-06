@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_projectiles_to_pierce_enemies_within_xm_distance_of_you",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "17553",
+    "links": [
+      "19342",
+      "38479"
+    ],
+    "x": 2141.41,
+    "y": 6680.14
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_projectiles_to_pierce_enemies_within_xm_distance_of_you",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "19573",
+    "links": [
+      "19342",
+      "38479"
+    ],
+    "x": 1964.63,
+    "y": 6986.33
+  }
+]

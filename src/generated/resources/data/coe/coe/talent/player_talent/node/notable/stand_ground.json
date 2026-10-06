@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:regenerate_of_max_health_per_second_while_affected_by_any_damaging_ailment",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:regenerate_of_max_health_per_second_while_stationary",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifepercentage",
+    "id": "6304",
+    "links": [
+      "32600"
+    ],
+    "x": -5389.99,
+    "y": 344.085
+  }
+]

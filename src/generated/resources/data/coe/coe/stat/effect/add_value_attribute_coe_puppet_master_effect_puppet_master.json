@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:puppet_master_effect",
+  "operation": "add_value",
+  "tags": {
+    "tag": "puppet_master"
+  }
+}

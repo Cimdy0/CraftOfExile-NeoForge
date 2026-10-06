@@ -1,0 +1,338 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraareaofeffect",
+    "id": "11463",
+    "links": [
+      "17664"
+    ],
+    "x": 8320.97,
+    "y": 2188.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalmonkey",
+    "id": "17792",
+    "links": [
+      "42226",
+      "48734"
+    ],
+    "x": 10486.8,
+    "y": 649.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "21861",
+    "links": [
+      "60551",
+      "65243"
+    ],
+    "x": -6555.25,
+    "y": -308.275
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "26194",
+    "links": [
+      "37872",
+      "53166"
+    ],
+    "x": 729.705,
+    "y": 6763.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraareaofeffect",
+    "id": "33348",
+    "links": [
+      "17664"
+    ],
+    "x": 8521.83,
+    "y": 2389.03
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "45162",
+    "links": [
+      "24801",
+      "63031",
+      "8171"
+    ],
+    "x": -8381.62,
+    "y": 7618.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "4921",
+    "links": [
+      "13524",
+      "50023"
+    ],
+    "x": -3866.88,
+    "y": 7830.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "52807",
+    "links": [
+      "14654",
+      "60551",
+      "61836"
+    ],
+    "x": -6309.25,
+    "y": -166.247
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "53166",
+    "links": [
+      "19223",
+      "26194"
+    ],
+    "x": 552.928,
+    "y": 6837.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "53675",
+    "links": [
+      "15782",
+      "59498"
+    ],
+    "x": -4694.67,
+    "y": -6646.36
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "5740",
+    "links": [
+      "10671",
+      "40687"
+    ],
+    "x": 3800.66,
+    "y": 10787.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "59498",
+    "links": [
+      "53675",
+      "54814"
+    ],
+    "x": -4612.67,
+    "y": -6340.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "60551",
+    "links": [
+      "21861",
+      "52807"
+    ],
+    "x": -6473.25,
+    "y": -166.247
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_presence_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "8171",
+    "links": [
+      "31545",
+      "45162"
+    ],
+    "x": -8256.61,
+    "y": 7402.29
+  }
+]

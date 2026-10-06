@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_maces",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "13937",
+    "links": [
+      "14693",
+      "17791",
+      "59777"
+    ],
+    "x": -9998.64,
+    "y": 4698.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_maces",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "14693",
+    "links": [
+      "13937",
+      "13980"
+    ],
+    "x": -9895.06,
+    "y": 4978.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_maces",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "375",
+    "links": [
+      "12276",
+      "52829"
+    ],
+    "x": -10481.6,
+    "y": 4698.46
+  }
+]

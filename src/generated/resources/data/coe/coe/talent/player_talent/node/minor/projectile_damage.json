@@ -1,0 +1,907 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_deal_inc_damage_with_hits_against_enemies_further_than_xm",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "10648",
+    "links": [
+      "11825",
+      "26400"
+    ],
+    "x": 7512.05,
+    "y": 4152.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "12078",
+    "links": [
+      "41877",
+      "53771",
+      "57462"
+    ],
+    "x": 7698.37,
+    "y": -2543.31
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "13081",
+    "links": [
+      "14254",
+      "44605",
+      "48588"
+    ],
+    "x": 451.065,
+    "y": 2535.41
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "14045",
+    "links": [
+      "33848",
+      "36070",
+      "65176"
+    ],
+    "x": 3647.31,
+    "y": 5022.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_deal_inc_damage_with_hits_against_enemies_within_xm",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "18049",
+    "links": [
+      "47374",
+      "5802"
+    ],
+    "x": 7434.9,
+    "y": 4574.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "19342",
+    "links": [
+      "17553",
+      "19573",
+      "27493",
+      "46296"
+    ],
+    "x": 2189.18,
+    "y": 6911.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "22049",
+    "links": [
+      "55429",
+      "60505"
+    ],
+    "x": 3638.69,
+    "y": 1581.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "22795",
+    "links": [
+      "28992",
+      "42781"
+    ],
+    "x": 2932.6,
+    "y": 1160.18
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "2455",
+    "links": [
+      "48588",
+      "59915"
+    ],
+    "x": 334.748,
+    "y": 2215.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_deal_inc_damage_with_hits_against_enemies_further_than_xm",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "26400",
+    "links": [
+      "10648",
+      "8904"
+    ],
+    "x": 7750.05,
+    "y": 4152.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "27493",
+    "links": [
+      "17118",
+      "19342"
+    ],
+    "x": 2322.55,
+    "y": 6988.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectiledmgnode",
+    "id": "28800",
+    "links": [
+      "2955",
+      "55308"
+    ],
+    "x": -5085.88,
+    "y": -2565.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectiledmgnode",
+    "id": "2955",
+    "links": [
+      "28002",
+      "28800"
+    ],
+    "x": -5085.88,
+    "y": -2729.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "33053",
+    "links": [
+      "10909",
+      "17726",
+      "4844"
+    ],
+    "x": 2252.83,
+    "y": 2770.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "33245",
+    "links": [
+      "31918",
+      "45331",
+      "6792",
+      "9151"
+    ],
+    "x": 7427.82,
+    "y": 2075.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "35234",
+    "links": [
+      "35660",
+      "56651",
+      "6789"
+    ],
+    "x": 1771.39,
+    "y": 800.31
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "4313",
+    "links": [
+      "28992",
+      "6789"
+    ],
+    "x": 2262.88,
+    "y": 865.015
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "43578",
+    "links": [
+      "41210",
+      "49657"
+    ],
+    "x": 523.845,
+    "y": 3886.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_deal_inc_damage_with_hits_against_enemies_further_than_xm",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "47157",
+    "links": [
+      "516",
+      "54818",
+      "61347"
+    ],
+    "x": -1169.57,
+    "y": 7800.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_deal_inc_damage_with_hits_against_enemies_within_xm",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "47374",
+    "links": [
+      "11825",
+      "18049"
+    ],
+    "x": 7315.9,
+    "y": 4368.14
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "4844",
+    "links": [
+      "33053",
+      "58013"
+    ],
+    "x": 2442.54,
+    "y": 2745.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "48588",
+    "links": [
+      "13081",
+      "2455"
+    ],
+    "x": 413.943,
+    "y": 2367.97
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "49406",
+    "links": [
+      "51944",
+      "52125"
+    ],
+    "x": 196.307,
+    "y": 9909.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_deal_inc_damage_with_hits_against_enemies_further_than_xm",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "516",
+    "links": [
+      "47157",
+      "48215",
+      "7201"
+    ],
+    "x": -1386.08,
+    "y": 7675.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "51944",
+    "links": [
+      "43829",
+      "47683",
+      "49406",
+      "51728"
+    ],
+    "x": 305.201,
+    "y": 9800.87
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "52361",
+    "links": [
+      "26107",
+      "53771"
+    ],
+    "x": 7984.38,
+    "y": -3061.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "53771",
+    "links": [
+      "12078",
+      "52361"
+    ],
+    "x": 8104.59,
+    "y": -2941.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "55429",
+    "links": [
+      "22049",
+      "42781"
+    ],
+    "x": 3398.9,
+    "y": 1369.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "56651",
+    "links": [
+      "35234",
+      "38143",
+      "50459"
+    ],
+    "x": 1535.77,
+    "y": 727.985
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "58013",
+    "links": [
+      "4844",
+      "50795"
+    ],
+    "x": 2594.34,
+    "y": 2861.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "59028",
+    "links": [
+      "41210",
+      "8092"
+    ],
+    "x": 630.601,
+    "y": 3487.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "59915",
+    "links": [
+      "2455",
+      "50986",
+      "7741",
+      "97"
+    ],
+    "x": 136.855,
+    "y": 1689.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "65176",
+    "links": [
+      "14045",
+      "42250"
+    ],
+    "x": 3489.69,
+    "y": 5113.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "6789",
+    "links": [
+      "35234",
+      "4313"
+    ],
+    "x": 2055.32,
+    "y": 706.603
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "6792",
+    "links": [
+      "2408",
+      "33245"
+    ],
+    "x": 7595.82,
+    "y": 2075.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_deal_inc_damage_with_hits_against_enemies_further_than_xm",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "7201",
+    "links": [
+      "48215",
+      "516",
+      "64488"
+    ],
+    "x": -1346.35,
+    "y": 7373.47
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "8092",
+    "links": [
+      "44605",
+      "59028"
+    ],
+    "x": 549.761,
+    "y": 3292.73
+  }
+]

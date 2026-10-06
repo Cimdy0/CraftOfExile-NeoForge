@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:add_multiplied_base_attribute_coe_damage_damage_taken",
+  "entry": "inline",
+  "targets": "coe:self_only"
+}

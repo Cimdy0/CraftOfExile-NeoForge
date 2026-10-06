@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_ailment_chance_op_add_value_1_bleed"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "always_bleeds"
+}

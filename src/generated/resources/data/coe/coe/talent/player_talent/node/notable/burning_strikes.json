@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_fire_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "6544",
+    "links": [
+      "37746",
+      "56061"
+    ],
+    "x": -5520.97,
+    "y": 1563.1
+  }
+]

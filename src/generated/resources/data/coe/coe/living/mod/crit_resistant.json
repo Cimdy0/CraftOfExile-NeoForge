@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_crit_damage_op_add_value_-0_8_taken"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "crit_resistant"
+}

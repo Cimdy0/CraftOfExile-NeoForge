@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:damage_taken_bypasses_energy",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "energy_shield"
+      },
+      {
+        "tag": "taken"
+      }
+    ]
+  }
+}

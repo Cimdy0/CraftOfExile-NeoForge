@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "entity_flag",
+      "dimension": "minecraft:the_nether"
+    }
+  ],
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_resist_fire_20"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_convert_phys_to_fire_70"
+    }
+  ]
+}

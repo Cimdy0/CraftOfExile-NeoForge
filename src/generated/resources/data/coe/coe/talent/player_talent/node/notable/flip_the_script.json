@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_when_you_heavy_stun_a_rare_or_unique_enemy",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "4985",
+    "links": [
+      "7204"
+    ],
+    "x": -7494.69,
+    "y": 1560.92
+  }
+]

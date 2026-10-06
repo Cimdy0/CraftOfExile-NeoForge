@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_knock_back_bleeding_enemies_with_hit_damage",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "61104",
+    "links": [
+      "20837",
+      "49473"
+    ],
+    "x": 3779.38,
+    "y": 3832.89
+  }
+]

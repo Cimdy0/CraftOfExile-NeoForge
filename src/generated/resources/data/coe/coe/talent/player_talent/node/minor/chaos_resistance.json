@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_chaos_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamage2",
+    "id": "9663",
+    "links": [
+      "19359",
+      "41886"
+    ],
+    "x": 9901.73,
+    "y": -5888.48
+  }
+]

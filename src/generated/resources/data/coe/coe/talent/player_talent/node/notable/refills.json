@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_flasks_gain_charges_per_second",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskstr",
+    "id": "45244",
+    "links": [
+      "23343",
+      "3775"
+    ],
+    "x": 4732.5,
+    "y": 10537.4
+  }
+]

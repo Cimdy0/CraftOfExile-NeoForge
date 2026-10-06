@@ -1,0 +1,9 @@
+{
+  "type": "additional_spawn_chance",
+  "identity_tags": [
+    "fissure"
+  ],
+  "kind": "additional_spawn_chance",
+  "roll_mode": "count",
+  "variant": "rolled"
+}

@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "attribute:coe:projectile_speed - 1"
+  },
+  "effect": "coe:stat/effect/inline_attribute_208",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,15 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "1"
+  },
+  "conditions": {
+    "type": "count",
+    "mode": "recently",
+    "name": "es_recharge_started",
+    "window": 40.0
+  },
+  "effect": "coe:stat/effect/inline_status_522",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

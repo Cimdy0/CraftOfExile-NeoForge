@@ -1,0 +1,68 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "global",
+        "stats": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_socketed_gem_level"
+          }
+        ]
+      },
+      "tiers": [
+        {
+          "level": 18,
+          "name": "of_dueling",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 2.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 36,
+          "name": "of_conflict",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 3.0,
+              "min": 3.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 55,
+          "name": "of_battle",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 4.0,
+              "min": 4.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 81,
+          "name": "of_war",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 5.0,
+              "min": 5.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

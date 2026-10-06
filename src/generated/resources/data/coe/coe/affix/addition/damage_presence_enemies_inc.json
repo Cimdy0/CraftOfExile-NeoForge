@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:inc_damage_presence_enemies"
+    }
+  ]
+}

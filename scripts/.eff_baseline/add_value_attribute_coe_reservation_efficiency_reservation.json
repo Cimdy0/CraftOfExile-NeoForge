@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:reservation_efficiency",
+  "operation": "add_value",
+  "tags": [
+    "reservation"
+  ]
+}

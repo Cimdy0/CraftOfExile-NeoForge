@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_lightning_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnotable",
+    "id": "30546",
+    "links": [
+      "27216",
+      "27611"
+    ],
+    "x": -8285.9,
+    "y": -8071.65
+  }
+]

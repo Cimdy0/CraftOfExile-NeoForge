@@ -1,0 +1,24 @@
+{
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:rarity_magic_max_health"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:rarity_magic_scale"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:rarity_magic_movement_speed"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:rarity_magic_attack_speed"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:rarity_magic_cast_speed"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_lightning_resistance"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_the_cloud",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 6.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 13,
+        "name": "of_the_squall",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 15.0,
+            "min": 11.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "of_the_storm",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 16.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 37,
+        "name": "of_the_thunderhead",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 25.0,
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 49,
+        "name": "of_the_tempest",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 26.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "of_the_maelstrom",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 35.0,
+            "min": 31.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 71,
+        "name": "of_the_lightning",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 36.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 82,
+        "name": "of_ephij",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 45.0,
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

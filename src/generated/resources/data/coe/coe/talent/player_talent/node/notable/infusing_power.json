@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_when_collecting_an_elemental_infusion_to_gain_an_additional_elemental_infusion_of_the_same_type",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnotable1",
+    "id": "24764",
+    "links": [
+      "12324"
+    ],
+    "x": -4956.7,
+    "y": -10063.0
+  }
+]

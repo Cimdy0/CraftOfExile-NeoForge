@@ -1,0 +1,18 @@
+{
+  "cost": [
+    {}
+  ],
+  "entry": "read",
+  "ref": "coe:generic_shapeshift_physical_rage",
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "bear"
+  ],
+  "vars": {
+    "dmg": "coe:per_level_add_value(add = 4, base = 18, per = 2)",
+    "tier": 1.0
+  }
+}

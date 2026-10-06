@@ -1,0 +1,9 @@
+{
+  "type": "immune",
+  "statuses": [
+    "bleed",
+    "ignite",
+    "poison",
+    "corrupted_blood"
+  ]
+}

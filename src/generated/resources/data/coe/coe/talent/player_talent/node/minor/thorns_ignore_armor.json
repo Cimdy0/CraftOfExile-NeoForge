@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:thorns_damage_has_chance_to_ignore_enemy_armor",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "21089",
+    "links": [
+      "31848",
+      "54701"
+    ],
+    "x": -7513.43,
+    "y": 2210.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:thorns_damage_has_chance_to_ignore_enemy_armor",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnode1",
+    "id": "31848",
+    "links": [
+      "21089",
+      "40117"
+    ],
+    "x": -7296.92,
+    "y": 2085.67
+  }
+]

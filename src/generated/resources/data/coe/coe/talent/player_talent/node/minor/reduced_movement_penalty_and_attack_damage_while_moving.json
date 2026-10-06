@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_moving",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_from_using_skills_while_moving",
+            "vars": {
+              "value": -0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_legstrength",
+    "id": "23360",
+    "links": [
+      "36114",
+      "53566"
+    ],
+    "x": 4477.02,
+    "y": 8397.87
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_moving",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_penalty_from_using_skills_while_moving",
+            "vars": {
+              "value": -0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_legstrength",
+    "id": "4364",
+    "links": [
+      "23736",
+      "51463"
+    ],
+    "x": 4106.71,
+    "y": 8349.12
+  }
+]

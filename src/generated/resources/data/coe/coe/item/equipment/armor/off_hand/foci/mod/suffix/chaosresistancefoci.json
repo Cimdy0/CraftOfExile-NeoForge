@@ -1,0 +1,81 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_chaos_resistance"
+    },
+    "tiers": [
+      {
+        "level": 16,
+        "name": "of_the_lost",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 4.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 30,
+        "name": "of_banishment",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 11.0,
+            "min": 8.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 44,
+        "name": "of_eviction",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 15.0,
+            "min": 12.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 56,
+        "name": "of_expulsion",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 19.0,
+            "min": 16.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 68,
+        "name": "of_exile",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 23.0,
+            "min": 20.0
+          }
+        },
+        "weight": 250
+      },
+      {
+        "level": 81,
+        "name": "of_bameth",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 27.0,
+            "min": 24.0
+          }
+        },
+        "weight": 250
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:attacks_have_chance_to_maim_on_hit_damage"
+    }
+  ]
+}

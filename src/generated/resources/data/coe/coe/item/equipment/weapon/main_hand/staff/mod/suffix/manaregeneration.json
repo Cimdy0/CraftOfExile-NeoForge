@@ -1,0 +1,81 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:mana_regeneration_rate_inc"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "of_excitement",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 18,
+        "name": "of_joy",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 30.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 29,
+        "name": "of_elation",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 59.0,
+            "min": 45.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 42,
+        "name": "of_bliss",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 74.0,
+            "min": 60.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 55,
+        "name": "of_euphoria",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 75.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 79,
+        "name": "of_nirvana",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 104.0,
+            "min": 90.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

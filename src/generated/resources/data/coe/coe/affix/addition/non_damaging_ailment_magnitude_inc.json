@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:inc_non_damaging_ailment_magnitude"
+    }
+  ]
+}

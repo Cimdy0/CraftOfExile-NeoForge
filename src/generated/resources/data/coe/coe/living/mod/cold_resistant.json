@@ -1,0 +1,16 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_resistances_op_add_value_0_5_cold"
+      },
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_max_resistances_op_add_value_0_1_cold"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "cold_resistant"
+}

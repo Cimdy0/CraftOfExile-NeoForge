@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_minecraft_max_health_op_add_multiplied_base_0_5"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "increased_life"
+}

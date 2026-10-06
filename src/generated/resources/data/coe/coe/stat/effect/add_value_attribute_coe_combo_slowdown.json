@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:combo_slowdown",
+  "operation": "add_value"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "damage",
+  "tags": {
+    "and": [
+      {
+        "tag": "physical"
+      },
+      {
+        "tag": "taken_hit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:armor/legs/template/strength_intelligence",
+    "reqs": {
+      "int": 13.0,
+      "l": 16.0,
+      "str": 13.0
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_mace_slam_skills_you_use_yourself_to_cause_an_additional_aftershock",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:strike_skills_you_use_yourself_with_maces_have_chance_to_deal_splash_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "13980",
+    "links": [
+      "12276",
+      "14693"
+    ],
+    "x": -10113.8,
+    "y": 5105.13
+  }
+]

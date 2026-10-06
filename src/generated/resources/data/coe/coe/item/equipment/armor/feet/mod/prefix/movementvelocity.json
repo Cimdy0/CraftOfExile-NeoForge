@@ -1,0 +1,81 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:movement_speed_inc"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "runner_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 10.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "sprinter_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 15.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "stallion_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 20.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "gazelle_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 25.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "cheetah_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 30.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 82,
+        "name": "hellion_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 35.0,
+            "min": 35.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

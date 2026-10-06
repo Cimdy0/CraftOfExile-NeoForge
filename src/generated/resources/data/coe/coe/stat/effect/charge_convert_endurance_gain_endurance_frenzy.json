@@ -1,0 +1,9 @@
+{
+  "type": "charge_convert",
+  "from": "endurance",
+  "mode": "convert",
+  "tags": {
+    "tag": "gain_endurance"
+  },
+  "to": "frenzy"
+}

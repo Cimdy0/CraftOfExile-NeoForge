@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_per_glory_consumed",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "50023",
+    "links": [
+      "4921",
+      "59180"
+    ],
+    "x": -4057.89,
+    "y": 8060.05
+  }
+]

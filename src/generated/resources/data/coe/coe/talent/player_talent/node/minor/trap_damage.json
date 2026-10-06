@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_trap_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapdamage",
+    "id": "34912",
+    "links": [
+      "4664",
+      "59538",
+      "62496"
+    ],
+    "x": 8923.65,
+    "y": -6587.02
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_trap_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapdamage",
+    "id": "62496",
+    "links": [
+      "34912",
+      "8644"
+    ],
+    "x": 8790.32,
+    "y": -6760.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_trap_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapdamage",
+    "id": "8644",
+    "links": [
+      "27417",
+      "62496"
+    ],
+    "x": 8706.5,
+    "y": -6963.14
+  }
+]

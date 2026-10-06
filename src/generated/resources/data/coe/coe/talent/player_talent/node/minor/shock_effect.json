@@ -1,0 +1,123 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "1953",
+    "links": [
+      "23905",
+      "40480"
+    ],
+    "x": 5316.81,
+    "y": -1530.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "23905",
+    "links": [
+      "1953",
+      "27875"
+    ],
+    "x": 5664.01,
+    "y": -1616.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "44932",
+    "links": [
+      "50701",
+      "54984"
+    ],
+    "x": 8107.74,
+    "y": 5039.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "50277",
+    "links": [
+      "32301",
+      "50701"
+    ],
+    "x": 7815.76,
+    "y": 5381.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_shock_you_inflict",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "50701",
+    "links": [
+      "37813",
+      "44932",
+      "50277"
+    ],
+    "x": 7874.86,
+    "y": 5154.88
+  }
+]

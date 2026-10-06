@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_rake",
+  "vars": {
+    "tier": 1.0
+  }
+}

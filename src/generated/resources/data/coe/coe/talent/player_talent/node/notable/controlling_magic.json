@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_for_spells",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hit_damage_have_inc_critical_hit_chance_against_you",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "13823",
+    "links": [
+      "32054",
+      "46088"
+    ],
+    "x": 3603.01,
+    "y": -9634.68
+  }
+]

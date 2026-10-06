@@ -1,0 +1,31 @@
+{
+  "aliases": [
+    "Chaos Damage",
+    "Chaos",
+    "混沌伤害"
+  ],
+  "description": [
+    [
+      "$[chaos]",
+      "是五种",
+      "$[damage]",
+      "类型之一，也是",
+      "$[poison]",
+      "的基础。"
+    ],
+    [
+      "与其他元素不同，它无法造成",
+      "$[freeze]",
+      "、",
+      "$[shock]",
+      "或",
+      "$[ignite]",
+      "。"
+    ]
+  ],
+  "id": "chaos",
+  "keys": [
+    "coe:keyword.chaos"
+  ],
+  "title": "@coe:keyword.chaos"
+}

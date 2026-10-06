@@ -1,0 +1,98 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_lightning_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningresistnode",
+    "id": "22697",
+    "links": [
+      "43250",
+      "5862"
+    ],
+    "x": -9653.55,
+    "y": -1913.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_lightning_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "36540",
+    "links": [
+      "56988",
+      "60483"
+    ],
+    "x": 8733.08,
+    "y": -3371.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_lightning_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningstr",
+    "id": "41363",
+    "links": [
+      "62498",
+      "62518"
+    ],
+    "x": -7267.3,
+    "y": 7857.22
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_lightning_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningresistnode",
+    "id": "5862",
+    "links": [
+      "22697",
+      "53123"
+    ],
+    "x": -9860.55,
+    "y": -1839.28
+  }
+]

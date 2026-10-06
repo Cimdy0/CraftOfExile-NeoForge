@@ -1,0 +1,44 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_and_cast_speed",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity_and_intelligence",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_harrier",
+    "id": "49220",
+    "links": [
+      "14725",
+      "21336",
+      "33866",
+      "36778",
+      "4157",
+      "44223",
+      "53960",
+      "58182"
+    ],
+    "x": 2243.98,
+    "y": -1446.94
+  }
+]

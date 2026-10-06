@@ -1,0 +1,29 @@
+{
+  "aliases": [
+    "Fire Damage",
+    "Fire",
+    "火焰伤害"
+  ],
+  "description": [
+    [
+      "$[fire_damage]",
+      "是一种元素伤害类型，也是",
+      "$[ignite]",
+      "与",
+      "$[scorch]",
+      "的基础。"
+    ],
+    [
+      "火焰",
+      "$[resistance]",
+      "可降低所受的",
+      "$[fire_damage]",
+      "。"
+    ]
+  ],
+  "id": "fire_damage",
+  "keys": [
+    "coe:keyword.fire_damage"
+  ],
+  "title": "@coe:keyword.fire_damage"
+}

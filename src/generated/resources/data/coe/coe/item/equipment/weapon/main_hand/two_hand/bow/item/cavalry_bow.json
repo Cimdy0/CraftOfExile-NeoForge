@@ -1,0 +1,9 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/bow/template/dexterity",
+    "reqs": {
+      "dex": 149.0,
+      "l": 72.0
+    }
+  }
+}

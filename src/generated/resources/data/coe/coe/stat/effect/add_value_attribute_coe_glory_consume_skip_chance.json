@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:glory_consume_skip_chance",
+  "operation": "add_value",
+  "tags": {
+    "tag": "glory"
+  }
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:arrows_pierce_an_additional_target",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "7651",
+    "links": [
+      "21788"
+    ],
+    "x": 11492.7,
+    "y": 4765.67
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_socketed_gem_level"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "of_explosives",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 18,
+        "name": "of_shrapnel",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 2.0,
+            "min": 2.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 36,
+        "name": "of_sabotage",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 55,
+        "name": "of_detonation",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 4.0,
+            "min": 4.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 81,
+        "name": "of_pyrotechnics",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 5.0,
+            "min": 5.0
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    {
+      "type": "entity_flag",
+      "biome_tags": [
+        "c:is_cold"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_resist_cold_20"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_convert_phys_to_cold_60"
+    }
+  ]
+}

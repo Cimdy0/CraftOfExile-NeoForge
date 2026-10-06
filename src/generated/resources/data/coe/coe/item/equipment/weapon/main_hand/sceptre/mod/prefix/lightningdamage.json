@@ -1,0 +1,153 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_lightning_damage_minmax"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "humming",
+        "tier": 1,
+        "values": {
+          "max": {
+            "max": 7.0,
+            "min": 5.0
+          },
+          "min": {
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 8,
+        "name": "buzzing",
+        "tier": 2,
+        "values": {
+          "max": {
+            "max": 15.0,
+            "min": 10.0
+          },
+          "min": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "snapping",
+        "tier": 3,
+        "values": {
+          "max": {
+            "max": 22.0,
+            "min": 16.0
+          },
+          "min": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "crackling",
+        "tier": 4,
+        "values": {
+          "max": {
+            "max": 27.0,
+            "min": 23.0
+          },
+          "min": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 46,
+        "name": "sparking",
+        "tier": 5,
+        "values": {
+          "max": {
+            "max": 32.0,
+            "min": 28.0
+          },
+          "min": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 54,
+        "name": "arcing",
+        "tier": 6,
+        "values": {
+          "max": {
+            "max": 40.0,
+            "min": 33.0
+          },
+          "min": {
+            "max": 2.0,
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 60,
+        "name": "shocking",
+        "tier": 7,
+        "values": {
+          "max": {
+            "max": 47.0,
+            "min": 41.0
+          },
+          "min": {
+            "max": 2.0,
+            "min": 1.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 65,
+        "name": "discharging",
+        "tier": 8,
+        "values": {
+          "max": {
+            "max": 59.0,
+            "min": 48.0
+          },
+          "min": {
+            "max": 3.0,
+            "min": 1.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 75,
+        "name": "electrocuting",
+        "tier": 9,
+        "values": {
+          "max": {
+            "max": 71.0,
+            "min": 60.0
+          },
+          "min": {
+            "max": 4.0,
+            "min": 1.0
+          }
+        },
+        "weight": 200
+      }
+    ]
+  }
+}

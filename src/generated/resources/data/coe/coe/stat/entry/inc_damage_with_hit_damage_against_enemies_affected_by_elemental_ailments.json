@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "output": "flag",
+    "tag": "elemental"
+  },
+  "effect": "coe:stat/effect/inline_attribute_210",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_243"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_against_bleeding_enemies",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_aggravate_bleeding_on_targets_you_critically_hit_with_attacks",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "49661",
+    "links": [
+      "33391"
+    ],
+    "x": 4758.1,
+    "y": 7289.29
+  }
+]

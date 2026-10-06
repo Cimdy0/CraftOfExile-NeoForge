@@ -1,0 +1,12 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_buildup",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "electrocute",
+    "!taken",
+    "non_damaging",
+    "elemental",
+    "ailment"
+  ]
+}

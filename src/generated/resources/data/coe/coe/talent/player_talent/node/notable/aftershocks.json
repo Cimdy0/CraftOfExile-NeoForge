@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:slam_skills_you_use_yourself_have_inc_aftershock_area_of_effect",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "50253",
+    "links": [
+      "41493"
+    ],
+    "x": -5918.9,
+    "y": 4065.73
+  }
+]

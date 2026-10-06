@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:skills_gain_glory_every_seconds_for_each_rare_or_unique_monster_in_your_presence",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "63031",
+    "links": [
+      "45162"
+    ],
+    "x": -8619.62,
+    "y": 7618.79
+  }
+]

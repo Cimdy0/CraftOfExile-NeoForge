@@ -1,0 +1,69 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_max_spirit"
+    },
+    "tiers": [
+      {
+        "level": 16,
+        "name": "lady_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 30.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 25,
+        "name": "baronness",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 37.0,
+            "min": 34.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "viscountess",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 38.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 46,
+        "name": "marchioness",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 43.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 54,
+        "name": "countess",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 47.0
+          }
+        },
+        "weight": 400
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/staff/template/intelligence",
+    "reqs": {
+      "int": 23.0,
+      "l": 11.0
+    },
+    "skills": {
+      "coe:preset_firebolt": {
+        "id": "coe:preset_firebolt"
+      }
+    }
+  }
+}

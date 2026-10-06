@@ -1,0 +1,149 @@
+﻿Shard categories (11): ['Claws', 'One_Hand_Swords', 'Sceptres', 'Bows', 'Two_Hand_Axes', 'Crossbows', 'Quivers', 'Foci', 'Body_Armours', 'Rings', 'Mana_Flasks']
+Output root: E:\McModding\Modding\CraftOfExile-NeoForge\poe2_assets
+Manifest: manifest_shard1.csv
+Pixelating: ['Body_Armours', 'Boots', 'Gloves', 'Helmets']
+============================================================
+[Claws] fetching https://poe2db.tw/cn/Claws
+[Claws] found 13 basetype items
+    [1/13] Crude_Claw (粗制利爪) -> 8488 bytes
+    [2/13] Pict_Claw (绘彩利爪) -> 9224 bytes
+    [3/13] Wolfbone_Claw (狼骨利爪) -> 9286 bytes
+    [4/13] Forked_Claw (分叉利爪) -> 8314 bytes
+    [5/13] Plated_Claw (护板利爪) -> 8846 bytes
+    [6/13] Edged_Claw (锋刃利爪) -> 11360 bytes
+    [7/13] Arced_Claw (弧形利爪) -> 10892 bytes
+    [8/13] Hooked_Claw (钩齿利爪) -> 11800 bytes
+    [9/13] Razorglass_Claw (琉锋利爪) -> 11980 bytes
+    [10/13] Sharktooth_Claw (鲨颚爪) -> 11930 bytes
+    [11/13] Armoured_Claw (重装利爪) -> 9296 bytes
+    [12/13] Piercing_Claw (洞穿利爪) -> 10094 bytes
+    [13/13] Talon_Claw (猛禽利爪) -> 8756 bytes
+[Claws] done: 13/13 downloaded, 0 pixelated, 0 failed
+[One_Hand_Swords] fetching https://poe2db.tw/cn/One_Hand_Swords
+[One_Hand_Swords] found 15 basetype items
+    [1/15] Golden_Blade (金色之刃) -> 10280 bytes
+    [2/15] Energy_Blade (能量之刃) -> 14942 bytes
+    [3/15] Shortsword (短剑) -> 10280 bytes
+    [4/15] Broadsword (阔剑) -> 10586 bytes
+    [5/15] Vampiric_Blade (喋血之刃) -> 10604 bytes
+    [6/15] Scimitar (弯刀) -> 12254 bytes
+    [7/15] Charred_Shortsword (焦痕短剑) -> 13890 bytes
+    [8/15] Sickle_Sword (镰刃剑) -> 14468 bytes
+    [9/15] Falchion (弯刃大刀) -> 12966 bytes
+    [10/15] Treasured_Blade (珍奇之刃) -> 15538 bytes
+    [11/15] Cutlass (军用长刀) -> 15638 bytes
+    [12/15] Runic_Shortsword (符文短剑) -> 14664 bytes
+    [13/15] Messer (大砍刀) -> 16648 bytes
+    [14/15] Commander_Sword (统帅利剑) -> 11982 bytes
+    [15/15] Dark_Blade (黑暗之锋) -> 14808 bytes
+[One_Hand_Swords] done: 15/15 downloaded, 0 pixelated, 0 failed
+[Sceptres] fetching https://poe2db.tw/cn/Sceptres
+[Sceptres] found 28 basetype items
+    [1/28] The_Dark_Defiler () -> 8932 bytes
+    [2/28] Sylvans_Effigy () -> 14926 bytes
+    [3/28] Font_of_Power () -> 11122 bytes
+    [4/28] Sacred_Flame () -> 13026 bytes
+    [5/28] Guiding_Palm_of_the_Heart () -> 13114 bytes
+    [6/28] Guiding_Palm_of_the_Eye () -> 13464 bytes
+    [7/28] Guiding_Palm_of_the_Mind () -> 13924 bytes
+    [8/28] Palm_of_the_Dreamer () -> 13844 bytes
+    [9/28] Rattling_Sceptre (罪孽权杖) -> 9950 bytes
+    [10/28] Stoic_Sceptre (克己权杖) -> 7726 bytes
+    [11/28] Lupine_Sceptre (幽狼权杖) -> 7810 bytes
+    [12/28] Omen_Sceptre (预兆权杖) -> 8950 bytes
+    [13/28] Ochre_Sceptre (赤色权杖) -> 8730 bytes
+    [14/28] Shrine_Sceptre (圣地权杖) -> 12180 bytes
+    [15/28] Devouring_Sceptre (吞噬权杖) -> 10318 bytes
+    [16/28] Clasped_Sceptre (握扣权杖) -> 10988 bytes
+    [17/28] Devotional_Sceptre (虔诚权杖) -> 10630 bytes
+    [18/28] Wrath_Sceptre (愤怒权杖) -> 9906 bytes
+    [19/28] Aromatic_Sceptre (芳香权杖) -> 9950 bytes
+    [20/28] Pious_Sceptre (虔信权杖) -> 9950 bytes
+    [21/28] Hallowed_Sceptre (崇圣权杖) -> 9950 bytes
+    [22/28] Lesser_Essence_of_Command (次级命令精华) -> 2616 bytes
+    [23/28] Essence_of_Command (命令精华) -> 4956 bytes
+    [24/28] Greater_Essence_of_Command (强效命令精华) -> 5364 bytes
+    [25/28] Perfect_Essence_of_Command (完美命令精华) -> 7290 bytes
+    [26/28] Adaptive_Alloy (适性合金) -> 4086 bytes
+    [27/28] Prismatic_Alloy (棱镜合金) -> 4078 bytes
+    [28/28] The_Runebinders_Alloy (符文缚者的合金) -> 5284 bytes
+[Sceptres] done: 28/28 downloaded, 0 pixelated, 0 failed
+[Bows] fetching https://poe2db.tw/cn/Bows
+[Bows] found 67 basetype items
+    [1/67] Widowhail () -> 17004 bytes
+    [2/67] Quill_Rain () -> 16990 bytes
+    [3/67] Ironbound () -> 13922 bytes
+    [4/67] Splinterheart () -> 22976 bytes
+    [5/67] Doomfletch () -> 17446 bytes
+    [6/67] Deaths_Harp () -> 20556 bytes
+    [7/67] Slivertongue () -> 21482 bytes
+    [8/67] Fairgraves_Curse () -> 22854 bytes
+    [9/67] Lioneyes_Glare () -> 16470 bytes
+    [10/67] Voltaxic_Rift () -> 25344 bytes
+    [11/67] Periphery () -> 32322 bytes
+    [12/67] Crude_Bow (粗制弓) -> 13828 bytes
+    [13/67] Shortbow (短弓) -> 11962 bytes
+    [14/67] Warden_Bow (监守弓) -> 10682 bytes
+    [15/67] Recurve_Bow (反曲弓) -> 10594 bytes
+    [16/67] Composite_Bow (复合弓) -> 10132 bytes
+    [17/67] Dualstring_Bow (双弦弓) -> 20650 bytes
+    [18/67] Cultist_Bow (教徒弓) -> 15676 bytes
+    [19/67] Zealot_Bow (狂热弓) -> 14932 bytes
+    [20/67] Artillery_Bow (轰击弓) -> 16308 bytes
+    [21/67] Tribal_Bow (部族弓) -> 17944 bytes
+    [22/67] Greatbow (巨弓) -> 13828 bytes
+    [23/67] Double_Limb_Bow (双臂弓) -> 13766 bytes
+    [24/67] Heavy_Bow (重装强弓) -> 10508 bytes
+    [25/67] Snakewood_Shortbow (蛇纹短弓) -> 11962 bytes
+    [26/67] Protector_Bow (保护者之弓) -> 10682 bytes
+    [27/67] Rider_Bow (骑射之弓) -> 10132 bytes
+    [28/67] Twin_Bow (双生之弓) -> 20650 bytes
+    [29/67] Adherent_Bow (联排之弓) -> 15676 bytes
+    [30/67] Militant_Bow (军用战弓) -> 14932 bytes
+    [31/67] Runeforged_Crude_Bow (符文粗制弓) -> 13828 bytes
+    [32/67] Runeforged_Shortbow (符文短弓) -> 10682 bytes
+    [33/67] Runeforged_Warden_Bow (符文监守弓) -> 10682 bytes
+    [34/67] Runeforged_Recurve_Bow (符文反曲弓) -> 10594 bytes
+    [35/67] Runeforged_Composite_Bow (符文复合弓) -> 10132 bytes
+    [36/67] Runeforged_Dualstring_Bow (符文双弦弓) -> 20650 bytes
+    [37/67] Runeforged_Zealot_Bow (符文狂热弓) -> 14932 bytes
+    [38/67] Ironwood_Shortbow (铁木短弓) -> 11962 bytes
+    [39/67] Cavalry_Bow (骑兵之弓) -> 10132 bytes
+    [40/67] Guardian_Bow (守护者之弓) -> 10682 bytes
+    [41/67] Gemini_Bow (双子之弓) -> 20650 bytes
+    [42/67] Fanatic_Bow (狂热之弓) -> 15676 bytes
+    [43/67] Warmonger_Bow (寻战之弓) -> 14932 bytes
+    [44/67] Obliterator_Bow (毁灭者之弓) -> 16308 bytes
+    [45/67] Heartwood_Shortbow (心木短弓) -> 11962 bytes
+    [46/67] The_Lethal_Draw () -> 26982 bytes
+    [47/67] Lesser_Essence_of_Abrasion (次级磨蚀精华) -> 2380 bytes
+    [48/67] Lesser_Essence_of_Flames (次级烈焰精华) -> 2532 bytes
+    [49/67] Lesser_Essence_of_Ice (次级冰霜精华) -> 2412 bytes
+    [50/67] Lesser_Essence_of_Electricity (次级电光精华) -> 2438 bytes
+    [51/67] Lesser_Essence_of_Haste (次级急速精华) -> 2392 bytes
+    [52/67] Essence_of_Abrasion (磨蚀精华) -> 5078 bytes
+    [53/67] Essence_of_Flames (烈焰精华) -> 5280 bytes
+    [54/67] Essence_of_Ice (冰霜精华) -> 5092 bytes
+    [55/67] Essence_of_Electricity (电光精华) -> 5120 bytes
+    [56/67] Essence_of_Haste (急速精华) -> 5074 bytes
+    [57/67] Greater_Essence_of_Abrasion (强效磨蚀精华) -> 4972 bytes
+    [58/67] Greater_Essence_of_Flames (强效火焰精华) -> 4132 bytes
+    [59/67] Greater_Essence_of_Ice (强效冰霜精华) -> 5022 bytes
+    [60/67] Greater_Essence_of_Electricity (强效电光精华) -> 5072 bytes
+    [61/67] Greater_Essence_of_Haste (强效急速精华) -> 5122 bytes
+    [62/67] Perfect_Essence_of_Abrasion (完美磨蚀精华) -> 6888 bytes
+    [63/67] Perfect_Essence_of_Flames (完美烈焰精华) -> 7374 bytes
+    [64/67] Perfect_Essence_of_Ice (完美冰霜精华) -> 6856 bytes
+    [65/67] Perfect_Essence_of_Electricity (完美电光精华) -> 7014 bytes
+    [66/67] Perfect_Essence_of_Battle (完美激战精华) -> 7448 bytes
+    [67/67] The_Runebinders_Alloy (符文缚者的合金) -> 5284 bytes
+[Bows] done: 67/67 downloaded, 0 pixelated, 0 failed
+[Two_Hand_Axes] fetching https://poe2db.tw/cn/Two_Hand_Axes
+[Two_Hand_Axes] found 13 basetype items
+    [1/13] Splitting_Greataxe (裂刃大斧) -> 8524 bytes
+    [retry 1/3] https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/Basetypes/2HAxe02.webp -> The read operation timed out; wait 0.7s
+    [2/13] Light_Halberd (轻装戟斧) -> 9280 bytes
+    [3/13] Executioner_Greataxe (惩罚者大斧) -> 12614 bytes
+    [4/13] Arched_Greataxe (弧刃大斧) -> 11692 bytes
+    [5/13] Elegant_Glaive (典雅战刃) -> 8986 bytes
+    [6/13] Savage_Greataxe (狂放大斧) -> 16078 bytes

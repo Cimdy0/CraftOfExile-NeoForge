@@ -1,0 +1,14 @@
+{
+  "type": "heal",
+  "resource": "health",
+  "tags": {
+    "and": [
+      {
+        "tag": "remnant"
+      },
+      {
+        "tag": "collect_remnant"
+      }
+    ]
+  }
+}

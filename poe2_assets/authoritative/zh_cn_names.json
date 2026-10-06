@@ -1,0 +1,3500 @@
+{
+  "_meta": {
+    "purpose": "权威 id -> 中文名。zh_tw 为 poe2db.tw/tw 原始繁体，zh_cn 为 opencc(t2s) 转换后的简体。",
+    "generator": "poe2_assets/authoritative/scripts/convert_zh.py",
+    "source": "design/refactor/skill-data/crawled/all_skills.json",
+    "opencc_config": "t2s",
+    "generated_at": "2026-09-20T20:52:16.805085+00:00",
+    "source_crawled_at": "2026-09-20T20:44:14.079Z",
+    "total_entries": 1059,
+    "with_zh": 793,
+    "without_zh_left_empty": 266,
+    "left_empty_ids": [
+      "ancestral_spirits",
+      "wildwoods_gifts",
+      "animus_exchange",
+      "animus_splinters",
+      "apocalypse",
+      "archon_of_chayula",
+      "align_fate",
+      "bleeding_concoction",
+      "ruzhans_trap",
+      "ruzhans_fury",
+      "ruzhans_reckoning",
+      "kelaris_deception",
+      "kelaris_judgment",
+      "naviras_well",
+      "naviras_fracturing",
+      "naviras_oasis",
+      "kelaris_malediction",
+      "elemental_expression",
+      "elemental_storm",
+      "encase_in_jade",
+      "explosive_concoction",
+      "fulminating_concoction",
+      "virtuous_barrier",
+      "life_remnants",
+      "meditate",
+      "moment_of_vulnerability",
+      "acidic_concoction",
+      "shattering_concoction",
+      "ruzhan2c_the_blazing_sword",
+      "summon_infernal_hound",
+      "kelari2c_the_tainted_sands",
+      "navira2c_the_last_mirage",
+      "elemental_surge",
+      "unbound_avatar",
+      "azmerian_swarms",
+      "azmerian_wolf",
+      "maul",
+      "bitter_dead",
+      "black_powder_blitz",
+      "blood_boil",
+      "fire_spell_on_hit",
+      "thundergods_wrath",
+      "cast_on_block",
+      "cast_on_charm_use",
+      "chaotic_surge",
+      "conductive_runes",
+      "crackling_palm",
+      "requiem",
+      "crushing_fear",
+      "demon_form",
+      "detonate_living",
+      "eternal_march",
+      "bursting_fen_toad",
+      "explosive_transmutation",
+      "fragments_of_the_past",
+      "frostflame_nova",
+      "futurepast",
+      "gemini_surge",
+      "grim_pillars",
+      "harbinger_of_madness",
+      "hollow_focus",
+      "hollow_form",
+      "hollow_resonance",
+      "hollow_shell",
+      "cackling_companions",
+      "inevitable_agony",
+      "into_the_breach",
+      "leylines",
+      "manifest_weapon",
+      "called_shots",
+      "midnight_zenith",
+      "mirage_deadeye",
+      "mist_raven",
+      "molten_crash",
+      "molten_shower",
+      "soaring_midnight",
+      "parry",
+      "phantasmal_arrow",
+      "pinnacle_of_power",
+      "axe_slash",
+      "mace_strike",
+      "sword_slash",
+      "bow_shot",
+      "claw_stab",
+      "crossbow_shot",
+      "dagger_stab",
+      "flail_strike",
+      "quarterstaff_strike",
+      "spear_stab",
+      "spear_throw",
+      "punch",
+      "powered_by_verisium",
+      "primal_bounty",
+      "queens_procession",
+      "rain_of_blades",
+      "refutation",
+      "remnants_of_kalguur",
+      "repulsion",
+      "righteous_descent",
+      "ritual_sacrifice",
+      "runic_reprieve",
+      "runic_tempering",
+      "sanguine_revelry",
+      "shattering_spite",
+      "raise_shield",
+      "rite_of_restoration",
+      "skyfall",
+      "sorcery_ward",
+      "spirit_vessel",
+      "consecrate",
+      "starborn_onslaught",
+      "supporting_fire",
+      "temper_weapon",
+      "temporal_rift",
+      "the_stars_answer",
+      "time_freeze",
+      "time_snap",
+      "triskelion_cascade",
+      "herald_of_the_royal_queen",
+      "herald_of_ice",
+      "valakos_charge",
+      "verisium_manifestations",
+      "vivid_stampede",
+      "void_illusion",
+      "voltaic_barrier",
+      "wardbound_minions",
+      "wild_protector",
+      "shred",
+      "rend",
+      "armour_piercing_rounds",
+      "entangle",
+      "explosive_grenade",
+      "falling_thunder",
+      "fragmentation_rounds",
+      "frozen_locus",
+      "furious_slam",
+      "glacial_cascade",
+      "killing_palm",
+      "lunar_assault",
+      "permafrost_bolts",
+      "volcano",
+      "flash_grenade",
+      "high_velocity_rounds",
+      "incendiary_shot",
+      "rolling_magma",
+      "staggering_palm",
+      "tempest_bell",
+      "wind_blast",
+      "wing_blast",
+      "pounce",
+      "attrition",
+      "briarpatch",
+      "ghost_dance",
+      "herald_of_blood",
+      "savage_fury",
+      "war_banner",
+      "fury_of_the_mountain",
+      "galvanic_shards",
+      "ice_shards",
+      "ice_strike",
+      "rapid_shot",
+      "tempest_flurry",
+      "thunderstorm",
+      "gas_grenade",
+      "vaulting_impact",
+      "arctic_howl",
+      "devour",
+      "artillery_ballista",
+      "explosive_shot",
+      "ferocious_roar",
+      "freezing_mark",
+      "glacial_bolt",
+      "spell_totem",
+      "voltaic_grenade",
+      "siphoning_strike",
+      "storm_wave",
+      "wave_of_frost",
+      "cross_slash",
+      "barkskin",
+      "barrier_invocation",
+      "defiance_banner",
+      "elemental_invocation",
+      "lingering_illusion",
+      "shard_scavenger",
+      "wolf_pack",
+      "charged_staff",
+      "hand_of_chayula",
+      "mantra_of_destruction",
+      "oil_barrage",
+      "oil_grenade",
+      "siege_ballista",
+      "stormblast_bolts",
+      "thrashing_vines",
+      "rampage",
+      "emergency_reload",
+      "hailstorm_rounds",
+      "mortar_cannon",
+      "shattering_palm",
+      "shockburst_rounds",
+      "tornado",
+      "whirling_assault",
+      "cluster_grenade",
+      "flicker_strike",
+      "gathering_storm",
+      "plasma_blast",
+      "siege_cascade",
+      "walking_calamity",
+      "lunar_blessing",
+      "flame_breath",
+      "cast_on_dodge",
+      "charge_regulation",
+      "dread_banner",
+      "feral_invocation",
+      "reapers_invocation",
+      "trinity",
+      "arbiters_reach",
+      "breachlords_amalgam",
+      "cathas_brilliance",
+      "concussive_runes",
+      "eshs_prowess",
+      "fist_of_kalguur",
+      "healing_runes",
+      "her_declaration",
+      "medveds_felling",
+      "mc3b3rrigans_insight",
+      "olroths_conviction",
+      "olroths_hubris",
+      "prototype_seventeen",
+      "runeforged_blades",
+      "runic_extraction",
+      "runic_infusion",
+      "scouring_flame",
+      "seraphs_heart",
+      "styrns_ferocity",
+      "styrns_mountain",
+      "tangmazus_thurible",
+      "tricksters_shard",
+      "tuls_avalanche",
+      "uhtreds_constellation",
+      "uhtreds_rite",
+      "voranas_siege",
+      "vruuns_aftermath",
+      "blight",
+      "frost_nova",
+      "cyclone",
+      "lacerate",
+      "puncture",
+      "toxic_rain",
+      "consume_corpse",
+      "ground_slam",
+      "perforate",
+      "wrath",
+      "grace",
+      "primal_avatar",
+      "abyssal_apparition",
+      "kinetic_bash",
+      "gelid_palm",
+      "smash_to_smithereens",
+      "shroud",
+      "grenade",
+      "styrns_anthem",
+      "cast_on_melee_kill",
+      "cast_on_death",
+      "cast_when_damage_taken",
+      "summon_companion",
+      "curse_on_block"
+    ],
+    "note": "以 _ 开头的键是元数据，datagen 消费时请跳过；其余键均为权威 skill id。",
+    "iron_rule": "name_zh 缺失的条目一律留空，不得臆造中文名。",
+    "unchanged_after_t2s_count": 189,
+    "unchanged_after_t2s_note": "t2s 转换前后完全相同的条目（多为单字词、含罗马数字的 tier 变体如「流血 I」，或本身已是简体形态）。仅供参考，不视为缺陷。",
+    "not_idempotent_count": 0,
+    "not_idempotent_note": "对 zh_cn 再跑一次 t2s 仍会变化的条目 = opencc 未转干净的繁体残留；这是真实缺陷清单，请人工复核。",
+    "not_idempotent_items": [],
+    "crosscheck_vs_zh_names_json": {
+      "loaded": true,
+      "key_space": "poe2db 页名（PascalCase），经 source_url_tw 末段桥接",
+      "zh_names_entry_count": 821,
+      "matched_by_page": 793,
+      "leftover_keys": 28,
+      "leftover_are_dnt": true,
+      "leftover_keys_list": [
+        "DNT_Crushing_Earth",
+        "DNT-UNUSED_Axe_Chop",
+        "DNT-UNUSED_Axe_Slash",
+        "DNT-UNUSED_Spinning_Throw",
+        "DNT-UNUSED_Leaping_Axe_Catch",
+        "DNT-UNUSED_Axe_Execute",
+        "DNT-UNUSED_Axe_Leaping_Chop",
+        "DNT-UNUSED_Axe_Whirling_Slash",
+        "DNT-UNUSED_Axe_Raised_Chop",
+        "DNT-UNUSED_Axe_Heavy_Cleave",
+        "DNT-UNUSED_Spiral_Throw",
+        "DNT-UNUSED_Spear_Vortex",
+        "DNT-UNUSED_Claw_Rake",
+        "DNT-UNUSED_Evasive_Strike",
+        "DNT_Soul_Link",
+        "DNT_Flame_Link",
+        "DNT_Fungal_Terrain",
+        "DNT-UNUSED_Iron_Will",
+        "DNT-UNUSED_Iron_Grip",
+        "DNT-UNUSED_Timerot",
+        "DNT_Stone_Slam_Aegis",
+        "DNT_Totemic_Aegis",
+        "DNT-UNUSED_Titanic_Arrows",
+        "DNT-UNUSED_Spiral_Projectiles_I",
+        "DNT_Tangmazu_Lineage",
+        "DNT_Tekarus_Snare",
+        "DNT-UNUSED_Spectral_Palm",
+        "DNT_From_the_Grave"
+      ],
+      "name_zh_mismatch_count": 0,
+      "mismatch_samples": []
+    }
+  },
+  "boneshatter": {
+    "zh_tw": "碎骨",
+    "zh_cn": "碎骨"
+  },
+  "earthquake": {
+    "zh_tw": "震地",
+    "zh_cn": "震地"
+  },
+  "rolling_slam": {
+    "zh_tw": "翻騰重擊",
+    "zh_cn": "翻腾重击"
+  },
+  "armour_breaker": {
+    "zh_tw": "護甲碎擊",
+    "zh_cn": "护甲碎击"
+  },
+  "infernal_cry": {
+    "zh_tw": "煉獄戰吼",
+    "zh_cn": "炼狱战吼"
+  },
+  "shield_charge": {
+    "zh_tw": "重盾衝鋒",
+    "zh_cn": "重盾冲锋"
+  },
+  "shockwave_totem": {
+    "zh_tw": "震波圖騰",
+    "zh_cn": "震波图腾"
+  },
+  "herald_of_ash": {
+    "zh_tw": "灰燼之捷",
+    "zh_cn": "灰烬之捷"
+  },
+  "iron_ward": {
+    "zh_tw": "鋼鐵守護",
+    "zh_cn": "钢铁守护"
+  },
+  "magma_barrier": {
+    "zh_tw": "熔岩屏障",
+    "zh_cn": "熔岩屏障"
+  },
+  "scavenged_plating": {
+    "zh_tw": "拾荒者護板",
+    "zh_cn": "拾荒者护板"
+  },
+  "molten_blast": {
+    "zh_tw": "熔火爆破",
+    "zh_cn": "熔火爆破"
+  },
+  "perfect_strike": {
+    "zh_tw": "完美打擊",
+    "zh_cn": "完美打击"
+  },
+  "resonating_shield": {
+    "zh_tw": "共鳴之盾",
+    "zh_cn": "共鸣之盾"
+  },
+  "earthshatter": {
+    "zh_tw": "碎地重擊",
+    "zh_cn": "碎地重击"
+  },
+  "leap_slam": {
+    "zh_tw": "躍擊",
+    "zh_cn": "跃击"
+  },
+  "shield_wall": {
+    "zh_tw": "盾牆",
+    "zh_cn": "盾墙"
+  },
+  "volcanic_fissure": {
+    "zh_tw": "炎火脈動",
+    "zh_cn": "炎火脉动"
+  },
+  "overwhelming_presence": {
+    "zh_tw": "壓倒性的存在",
+    "zh_cn": "压倒性的存在"
+  },
+  "time_of_need": {
+    "zh_tw": "緊急時刻",
+    "zh_cn": "紧急时刻"
+  },
+  "forge_hammer": {
+    "zh_tw": "鍛造之錘",
+    "zh_cn": "锻造之锤"
+  },
+  "fortifying_cry": {
+    "zh_tw": "堅韌之吼",
+    "zh_cn": "坚韧之吼"
+  },
+  "sunder": {
+    "zh_tw": "大地震擊",
+    "zh_cn": "大地震击"
+  },
+  "seismic_cry": {
+    "zh_tw": "裂地戰吼",
+    "zh_cn": "裂地战吼"
+  },
+  "stampede": {
+    "zh_tw": "踐踏",
+    "zh_cn": "践踏"
+  },
+  "supercharged_slam": {
+    "zh_tw": "超載重擊",
+    "zh_cn": "超载重击"
+  },
+  "ancestral_cry": {
+    "zh_tw": "先祖戰吼",
+    "zh_cn": "先祖战吼"
+  },
+  "ancestral_warrior_totem": {
+    "zh_tw": "先祖戰士圖騰",
+    "zh_cn": "先祖战士图腾"
+  },
+  "hammer_of_the_gods": {
+    "zh_tw": "眾神之錘",
+    "zh_cn": "众神之锤"
+  },
+  "berserk": {
+    "zh_tw": "狂戰",
+    "zh_cn": "狂战"
+  },
+  "eternal_rage": {
+    "zh_tw": "無盡怒火",
+    "zh_cn": "无尽怒火"
+  },
+  "companion3a_7b07d": {
+    "zh_tw": "盟友：{0}",
+    "zh_cn": "盟友：{0}"
+  },
+  "disengage": {
+    "zh_tw": "脫離戰鬥",
+    "zh_cn": "脱离战斗"
+  },
+  "escape_shot": {
+    "zh_tw": "逃脫之矢",
+    "zh_cn": "逃脱之矢"
+  },
+  "explosive_spear": {
+    "zh_tw": "爆炸長矛",
+    "zh_cn": "爆炸长矛"
+  },
+  "lightning_arrow": {
+    "zh_tw": "閃電箭矢",
+    "zh_cn": "闪电箭矢"
+  },
+  "lightning_rod": {
+    "zh_tw": "雷霆之杖",
+    "zh_cn": "雷霆之杖"
+  },
+  "poisonburst_arrow": {
+    "zh_tw": "毒爆箭矢",
+    "zh_cn": "毒爆箭矢"
+  },
+  "twister": {
+    "zh_tw": "旋風",
+    "zh_cn": "旋风"
+  },
+  "whirling_slash": {
+    "zh_tw": "迴旋斬",
+    "zh_cn": "回旋斩"
+  },
+  "cull_the_weak": {
+    "zh_tw": "撲殺弱者",
+    "zh_cn": "扑杀弱者"
+  },
+  "fangs_of_frost": {
+    "zh_tw": "刺骨寒冰",
+    "zh_cn": "刺骨寒冰"
+  },
+  "freezing_salvo": {
+    "zh_tw": "凍結齊射",
+    "zh_cn": "冻结齐射"
+  },
+  "lightning_spear": {
+    "zh_tw": "閃電長矛",
+    "zh_cn": "闪电长矛"
+  },
+  "rake": {
+    "zh_tw": "陰爪",
+    "zh_cn": "阴爪"
+  },
+  "snipe": {
+    "zh_tw": "狙擊",
+    "zh_cn": "狙击"
+  },
+  "stormcaller_arrow": {
+    "zh_tw": "風暴呼喚箭矢",
+    "zh_cn": "风暴呼唤箭矢"
+  },
+  "vine_arrow": {
+    "zh_tw": "藤蔓箭矢",
+    "zh_cn": "藤蔓箭矢"
+  },
+  "herald_of_thunder": {
+    "zh_tw": "閃電之捷",
+    "zh_cn": "闪电之捷"
+  },
+  "plague_bearer": {
+    "zh_tw": "病疫之難",
+    "zh_cn": "病疫之难"
+  },
+  "wind_dancer": {
+    "zh_tw": "風魔舞者",
+    "zh_cn": "风魔舞者"
+  },
+  "barrage": {
+    "zh_tw": "彈幕",
+    "zh_cn": "弹幕"
+  },
+  "electrocuting_arrow": {
+    "zh_tw": "電極箭矢",
+    "zh_cn": "电极箭矢"
+  },
+  "icetipped_arrows": {
+    "zh_tw": "冰鏃箭矢",
+    "zh_cn": "冰镞箭矢"
+  },
+  "rapid_assault": {
+    "zh_tw": "極速進攻",
+    "zh_cn": "极速进攻"
+  },
+  "spearfield": {
+    "zh_tw": "長矛之錐",
+    "zh_cn": "长矛之锥"
+  },
+  "storm_lance": {
+    "zh_tw": "風暴之槍",
+    "zh_cn": "风暴之枪"
+  },
+  "toxic_growth": {
+    "zh_tw": "毒素植栽",
+    "zh_cn": "毒素植栽"
+  },
+  "blood_hunt": {
+    "zh_tw": "鮮血狩獵",
+    "zh_cn": "鲜血狩猎"
+  },
+  "gas_arrow": {
+    "zh_tw": "毒氣箭矢",
+    "zh_cn": "毒气箭矢"
+  },
+  "glacial_lance": {
+    "zh_tw": "冰川之槍",
+    "zh_cn": "冰川之枪"
+  },
+  "snipers_mark": {
+    "zh_tw": "狙擊者印記",
+    "zh_cn": "狙击者印记"
+  },
+  "tame_beast": {
+    "zh_tw": "馴獸",
+    "zh_cn": "驯兽"
+  },
+  "voltaic_mark": {
+    "zh_tw": "電流印記",
+    "zh_cn": "电流印记"
+  },
+  "combat_frenzy": {
+    "zh_tw": "戰鬥狂怒",
+    "zh_cn": "战斗狂怒"
+  },
+  "herald_of_plague": {
+    "zh_tw": "瘟疫之捷",
+    "zh_cn": "瘟疫之捷"
+  },
+  "mirage_archer": {
+    "zh_tw": "幻影射手",
+    "zh_cn": "幻影射手"
+  },
+  "trail_of_caltrops": {
+    "zh_tw": "蒺藜之徑",
+    "zh_cn": "蒺藜之径"
+  },
+  "bloodhounds_mark": {
+    "zh_tw": "鮮血獵犬印記",
+    "zh_cn": "鲜血猎犬印记"
+  },
+  "detonating_arrow": {
+    "zh_tw": "爆破箭矢",
+    "zh_cn": "爆破箭矢"
+  },
+  "ice_shot": {
+    "zh_tw": "冰霜射擊",
+    "zh_cn": "冰霜射击"
+  },
+  "primal_strikes": {
+    "zh_tw": "原始打擊",
+    "zh_cn": "原始打击"
+  },
+  "rain_of_arrows": {
+    "zh_tw": "箭雨",
+    "zh_cn": "箭雨"
+  },
+  "thunderous_leap": {
+    "zh_tw": "雷霆跳躍",
+    "zh_cn": "雷霆跳跃"
+  },
+  "elemental_sundering": {
+    "zh_tw": "元素崩裂",
+    "zh_cn": "元素崩裂"
+  },
+  "shockchain_arrow": {
+    "zh_tw": "電鍊箭矢",
+    "zh_cn": "电炼箭矢"
+  },
+  "tornado_shot": {
+    "zh_tw": "龍捲射擊",
+    "zh_cn": "龙卷射击"
+  },
+  "whirlwind_lance": {
+    "zh_tw": "旋風之槍",
+    "zh_cn": "旋风之枪"
+  },
+  "magnetic_salvo": {
+    "zh_tw": "電磁齊射",
+    "zh_cn": "电磁齐射"
+  },
+  "spear_of_solaris": {
+    "zh_tw": "日耀長矛",
+    "zh_cn": "日耀长矛"
+  },
+  "spiral_volley": {
+    "zh_tw": "螺旋之弦",
+    "zh_cn": "螺旋之弦"
+  },
+  "toxic_domain": {
+    "zh_tw": "毒素領域",
+    "zh_cn": "毒素领域"
+  },
+  "wind_serpents_fury": {
+    "zh_tw": "勁風蝮蛇之怒",
+    "zh_cn": "劲风蝮蛇之怒"
+  },
+  "alchemists_boon": {
+    "zh_tw": "煉金師恩惠",
+    "zh_cn": "炼金师恩惠"
+  },
+  "rhoa_mount": {
+    "zh_tw": "恐喙鳥坐騎",
+    "zh_cn": "恐喙鸟坐骑"
+  },
+  "untether": {
+    "zh_tw": "解脫",
+    "zh_cn": "解脱"
+  },
+  "abyssal_pact": {
+    "zh_tw": "深淵冥約",
+    "zh_cn": "深渊冥约"
+  },
+  "bone_blast": {
+    "zh_tw": "骨之爆破",
+    "zh_cn": "骨之爆破"
+  },
+  "cast_on_freeze": {
+    "zh_tw": "冰凍時施放",
+    "zh_cn": "冰冻时施放"
+  },
+  "cast_on_ignite": {
+    "zh_tw": "點燃時施放",
+    "zh_cn": "点燃时施放"
+  },
+  "cast_on_shock": {
+    "zh_tw": "感電時施放",
+    "zh_cn": "感电时施放"
+  },
+  "chaos_bolt": {
+    "zh_tw": "混沌弩箭",
+    "zh_cn": "混沌弩箭"
+  },
+  "coiling_bolts": {
+    "zh_tw": "寂纏彈",
+    "zh_cn": "寂缠弹"
+  },
+  "conductivity": {
+    "zh_tw": "導電",
+    "zh_cn": "导电"
+  },
+  "decompose": {
+    "zh_tw": "分解",
+    "zh_cn": "分解"
+  },
+  "dark_pact": {
+    "zh_tw": "暗夜血契",
+    "zh_cn": "暗夜血契"
+  },
+  "discipline": {
+    "zh_tw": "紀律",
+    "zh_cn": "纪律"
+  },
+  "enervating_nova": {
+    "zh_tw": "超能新星",
+    "zh_cn": "超能新星"
+  },
+  "exsanguinate": {
+    "zh_tw": "抽血",
+    "zh_cn": "抽血"
+  },
+  "feast_of_flesh": {
+    "zh_tw": "血肉盛宴",
+    "zh_cn": "血肉盛宴"
+  },
+  "firebolt": {
+    "zh_tw": "火彈",
+    "zh_cn": "火弹"
+  },
+  "flammability": {
+    "zh_tw": "易燃",
+    "zh_cn": "易燃"
+  },
+  "freezing_shards": {
+    "zh_tw": "冰凍裂片",
+    "zh_cn": "冰冻裂片"
+  },
+  "fulmination": {
+    "zh_tw": "劇烈爆發",
+    "zh_cn": "剧烈爆发"
+  },
+  "galvanic_field": {
+    "zh_tw": "電光領域",
+    "zh_cn": "电光领域"
+  },
+  "heart_of_ice": {
+    "zh_tw": "冰雪之心",
+    "zh_cn": "冰雪之心"
+  },
+  "hypothermia": {
+    "zh_tw": "急凍",
+    "zh_cn": "急冻"
+  },
+  "icestorm": {
+    "zh_tw": "冰風暴",
+    "zh_cn": "冰风暴"
+  },
+  "impurity": {
+    "zh_tw": "不淨",
+    "zh_cn": "不净"
+  },
+  "lightning_bolt": {
+    "zh_tw": "雷彈",
+    "zh_cn": "雷弹"
+  },
+  "malice": {
+    "zh_tw": "絕滅恨惡",
+    "zh_cn": "绝灭恨恶"
+  },
+  "mana_drain": {
+    "zh_tw": "魔力吸取",
+    "zh_cn": "魔力吸取"
+  },
+  "mirror_of_refraction": {
+    "zh_tw": "鏡面折射",
+    "zh_cn": "镜面折射"
+  },
+  "power_siphon": {
+    "zh_tw": "力量抽取",
+    "zh_cn": "力量抽取"
+  },
+  "purity_of_fire": {
+    "zh_tw": "火焰淨化",
+    "zh_cn": "火焰净化"
+  },
+  "purity_of_ice": {
+    "zh_tw": "冰霜淨化",
+    "zh_cn": "冰霜净化"
+  },
+  "purity_of_lightning": {
+    "zh_tw": "閃電淨化",
+    "zh_cn": "闪电净化"
+  },
+  "reap": {
+    "zh_tw": "收割",
+    "zh_cn": "收割"
+  },
+  "sigil_of_power": {
+    "zh_tw": "咒符之力",
+    "zh_cn": "咒符之力"
+  },
+  "skeletal_sniper": {
+    "zh_tw": "骷髏狙擊手",
+    "zh_cn": "骷髅狙击手"
+  },
+  "skeletal_warrior": {
+    "zh_tw": "骷髏戰士",
+    "zh_cn": "骷髅战士"
+  },
+  "solar_orb": {
+    "zh_tw": "日耀球",
+    "zh_cn": "日耀球"
+  },
+  "soulrend": {
+    "zh_tw": "靈體撕裂",
+    "zh_cn": "灵体撕裂"
+  },
+  "spellslinger": {
+    "zh_tw": "拋法者",
+    "zh_cn": "抛法者"
+  },
+  "spiraling_conspiracy": {
+    "zh_tw": "邪鴉旋纏",
+    "zh_cn": "邪鸦旋缠"
+  },
+  "ember_fusillade": {
+    "zh_tw": "餘燼齊射",
+    "zh_cn": "余烬齐射"
+  },
+  "spark": {
+    "zh_tw": "電球",
+    "zh_cn": "电球"
+  },
+  "unleash": {
+    "zh_tw": "釋放",
+    "zh_cn": "释放"
+  },
+  "volatile_dead": {
+    "zh_tw": "致命之息",
+    "zh_cn": "致命之息"
+  },
+  "wither": {
+    "zh_tw": "死亡凋零",
+    "zh_cn": "死亡凋零"
+  },
+  "contagion": {
+    "zh_tw": "瘟疫",
+    "zh_cn": "瘟疫"
+  },
+  "flame_wall": {
+    "zh_tw": "烈焰之牆",
+    "zh_cn": "烈焰之墙"
+  },
+  "frost_bomb": {
+    "zh_tw": "寒霜爆",
+    "zh_cn": "寒霜爆"
+  },
+  "ice_nova": {
+    "zh_tw": "冰霜新星",
+    "zh_cn": "冰霜新星"
+  },
+  "unearth": {
+    "zh_tw": "屍術矢",
+    "zh_cn": "尸术矢"
+  },
+  "bone_cage": {
+    "zh_tw": "骨牢",
+    "zh_cn": "骨牢"
+  },
+  "enfeeble": {
+    "zh_tw": "衰弱",
+    "zh_cn": "衰弱"
+  },
+  "essence_drain": {
+    "zh_tw": "靈魂吸取",
+    "zh_cn": "灵魂吸取"
+  },
+  "fireball": {
+    "zh_tw": "火球",
+    "zh_cn": "火球"
+  },
+  "frost_darts": {
+    "zh_tw": "寒霜之鏢",
+    "zh_cn": "寒霜之镖"
+  },
+  "living_bomb": {
+    "zh_tw": "活體炸彈",
+    "zh_cn": "活体炸弹"
+  },
+  "orb_of_storms": {
+    "zh_tw": "風暴漩渦",
+    "zh_cn": "风暴漩涡"
+  },
+  "skeletal_arsonist": {
+    "zh_tw": "骷髏縱火者",
+    "zh_cn": "骷髅纵火者"
+  },
+  "arctic_armour": {
+    "zh_tw": "極地裝甲",
+    "zh_cn": "极地装甲"
+  },
+  "convalescence": {
+    "zh_tw": "恢復期",
+    "zh_cn": "恢复期"
+  },
+  "grim_feast": {
+    "zh_tw": "冷酷之宴",
+    "zh_cn": "冷酷之宴"
+  },
+  "mana_remnants": {
+    "zh_tw": "魔力痕跡",
+    "zh_cn": "魔力痕迹"
+  },
+  "raging_spirits": {
+    "zh_tw": "憤怒狂靈",
+    "zh_cn": "愤怒狂灵"
+  },
+  "ravenous_swarm": {
+    "zh_tw": "貪婪蟲群",
+    "zh_cn": "贪婪虫群"
+  },
+  "withering_presence": {
+    "zh_tw": "凋零光環",
+    "zh_cn": "凋零光环"
+  },
+  "arc": {
+    "zh_tw": "電弧",
+    "zh_cn": "电弧"
+  },
+  "bonestorm": {
+    "zh_tw": "骸骨風暴",
+    "zh_cn": "骸骨风暴"
+  },
+  "frostbolt": {
+    "zh_tw": "寒冰彈",
+    "zh_cn": "寒冰弹"
+  },
+  "pain_offering": {
+    "zh_tw": "劇痛獻祭",
+    "zh_cn": "剧痛献祭"
+  },
+  "raise_zombie": {
+    "zh_tw": "殭屍復甦",
+    "zh_cn": "僵尸复苏"
+  },
+  "skeletal_frost_mage": {
+    "zh_tw": "骷髏霜寒法師",
+    "zh_cn": "骷髅霜寒法师"
+  },
+  "snap": {
+    "zh_tw": "迸裂",
+    "zh_cn": "迸裂"
+  },
+  "bind_spectre": {
+    "zh_tw": "束縛幽魂",
+    "zh_cn": "束缚幽魂"
+  },
+  "detonate_dead": {
+    "zh_tw": "屍體爆破",
+    "zh_cn": "尸体爆破"
+  },
+  "elemental_weakness": {
+    "zh_tw": "元素要害",
+    "zh_cn": "元素要害"
+  },
+  "mana_tempest": {
+    "zh_tw": "魔力暴風",
+    "zh_cn": "魔力暴风"
+  },
+  "profane_ritual": {
+    "zh_tw": "瀆神祭祀",
+    "zh_cn": "渎神祭祀"
+  },
+  "temporal_chains": {
+    "zh_tw": "時空鎖鏈",
+    "zh_cn": "时空锁链"
+  },
+  "vulnerability": {
+    "zh_tw": "脆弱",
+    "zh_cn": "脆弱"
+  },
+  "blasphemy": {
+    "zh_tw": "瀆神",
+    "zh_cn": "渎神"
+  },
+  "blink": {
+    "zh_tw": "閃現",
+    "zh_cn": "闪现"
+  },
+  "cast_on_minion_death": {
+    "zh_tw": "召喚物死亡時施放",
+    "zh_cn": "召唤物死亡时施放"
+  },
+  "siphon_elements": {
+    "zh_tw": "虹吸元素",
+    "zh_cn": "虹吸元素"
+  },
+  "dark_effigy": {
+    "zh_tw": "黑暗雕像",
+    "zh_cn": "黑暗雕像"
+  },
+  "despair": {
+    "zh_tw": "絕望",
+    "zh_cn": "绝望"
+  },
+  "frost_wall": {
+    "zh_tw": "冰牆",
+    "zh_cn": "冰墙"
+  },
+  "incinerate": {
+    "zh_tw": "燒毀",
+    "zh_cn": "烧毁"
+  },
+  "lightning_warp": {
+    "zh_tw": "閃電傳送",
+    "zh_cn": "闪电传送"
+  },
+  "skeletal_reaver": {
+    "zh_tw": "骷髏掠奪者",
+    "zh_cn": "骷髅掠夺者"
+  },
+  "ball_lightning": {
+    "zh_tw": "天雷之珠",
+    "zh_cn": "天雷之珠"
+  },
+  "bone_offering": {
+    "zh_tw": "骸骨奉獻",
+    "zh_cn": "骸骨奉献"
+  },
+  "comet": {
+    "zh_tw": "彗星",
+    "zh_cn": "彗星"
+  },
+  "firestorm": {
+    "zh_tw": "烈炎風暴",
+    "zh_cn": "烈炎风暴"
+  },
+  "hexblast": {
+    "zh_tw": "咒術枯萎",
+    "zh_cn": "咒术枯萎"
+  },
+  "skeletal_storm_mage": {
+    "zh_tw": "骷髏風暴法師",
+    "zh_cn": "骷髅风暴法师"
+  },
+  "eye_of_winter": {
+    "zh_tw": "凜冬之眼",
+    "zh_cn": "凛冬之眼"
+  },
+  "flameblast": {
+    "zh_tw": "烈焰爆破",
+    "zh_cn": "烈焰爆破"
+  },
+  "lightning_conduit": {
+    "zh_tw": "導雷",
+    "zh_cn": "导雷"
+  },
+  "skeletal_brute": {
+    "zh_tw": "骷髏巨獸",
+    "zh_cn": "骷髅巨兽"
+  },
+  "skeletal_cleric": {
+    "zh_tw": "骷髏牧師",
+    "zh_cn": "骷髅牧师"
+  },
+  "soul_offering": {
+    "zh_tw": "靈魂獻祭",
+    "zh_cn": "灵魂献祭"
+  },
+  "archmage": {
+    "zh_tw": "大法師",
+    "zh_cn": "大法师"
+  },
+  "cast_on_critical": {
+    "zh_tw": "暴擊時施放",
+    "zh_cn": "暴击时施放"
+  },
+  "cast_on_elemental_ailment": {
+    "zh_tw": "元素異常狀態時施放",
+    "zh_cn": "元素异常状态时施放"
+  },
+  "elemental_conflux": {
+    "zh_tw": "元素匯流",
+    "zh_cn": "元素汇流"
+  },
+  "sacrifice": {
+    "zh_tw": "獻祭",
+    "zh_cn": "献祭"
+  },
+  "amanamus_tithe": {
+    "zh_tw": "阿姆那姆的稅賦",
+    "zh_cn": "阿姆那姆的税赋"
+  },
+  "ataluis_bloodletting": {
+    "zh_tw": "阿特路伊的出血",
+    "zh_cn": "阿特路伊的出血"
+  },
+  "auto_reload": {
+    "zh_tw": "自動裝填",
+    "zh_cn": "自动装填"
+  },
+  "bloodlust": {
+    "zh_tw": "嗜血",
+    "zh_cn": "嗜血"
+  },
+  "brutus_brain": {
+    "zh_tw": "布魯特斯的腦",
+    "zh_cn": "布鲁特斯的脑"
+  },
+  "cirels_cultivation": {
+    "zh_tw": "西瑞爾的耕植",
+    "zh_cn": "西瑞尔的耕植"
+  },
+  "paquates_pact": {
+    "zh_tw": "帕科特的協議",
+    "zh_cn": "帕科特的协议"
+  },
+  "daressos_passion": {
+    "zh_tw": "德瑞索的熱情",
+    "zh_cn": "德瑞索的热情"
+  },
+  "dauntless": {
+    "zh_tw": "無畏",
+    "zh_cn": "无畏"
+  },
+  "einhars_beastrite": {
+    "zh_tw": "埃哈的野獸儀式",
+    "zh_cn": "埃哈的野兽仪式"
+  },
+  "flamepierce": {
+    "zh_tw": "烈焰穿透",
+    "zh_cn": "烈焰穿透"
+  },
+  "tawhoas_tending": {
+    "zh_tw": "塔赫亞的照顧",
+    "zh_cn": "塔赫亚的照顾"
+  },
+  "helbryms_hide": {
+    "zh_tw": "海爾賓姆的躲藏",
+    "zh_cn": "海尔宾姆的躲藏"
+  },
+  "infernal_legion_iii": {
+    "zh_tw": "煉獄軍團 III",
+    "zh_cn": "炼狱军团 III"
+  },
+  "kaoms_madness": {
+    "zh_tw": "岡姆的癲狂",
+    "zh_cn": "冈姆的癫狂"
+  },
+  "rusted_spikes": {
+    "zh_tw": "銹蝕尖刺",
+    "zh_cn": "锈蚀尖刺"
+  },
+  "spar": {
+    "zh_tw": "打擊練習",
+    "zh_cn": "打击练习"
+  },
+  "uhtreds_augury": {
+    "zh_tw": "烏特雷的占卜術",
+    "zh_cn": "乌特雷的占卜术"
+  },
+  "uhtreds_exodus": {
+    "zh_tw": "烏特雷的出走",
+    "zh_cn": "乌特雷的出走"
+  },
+  "uhtreds_omen": {
+    "zh_tw": "烏特雷的徵兆",
+    "zh_cn": "乌特雷的征兆"
+  },
+  "uruks_smelting": {
+    "zh_tw": "厄羅克的鍛鍊",
+    "zh_cn": "厄罗克的锻炼"
+  },
+  "uulnetols_embrace": {
+    "zh_tw": "烏爾尼多的擁抱",
+    "zh_cn": "乌尔尼多的拥抱"
+  },
+  "vruuns_inevitability": {
+    "zh_tw": "弗倫的必然",
+    "zh_cn": "弗伦的必然"
+  },
+  "xophs_pyre": {
+    "zh_tw": "索伏的燃焰",
+    "zh_cn": "索伏的燃焰"
+  },
+  "zerphis_infamy": {
+    "zh_tw": "澤佛伊的惡名",
+    "zh_cn": "泽佛伊的恶名"
+  },
+  "fire_attunement": {
+    "zh_tw": "火焰同調",
+    "zh_cn": "火焰同调"
+  },
+  "armour_demolisher_i": {
+    "zh_tw": "護甲破壞者 I",
+    "zh_cn": "护甲破坏者 I"
+  },
+  "armour_explosion": {
+    "zh_tw": "護甲爆破",
+    "zh_cn": "护甲爆破"
+  },
+  "battershout": {
+    "zh_tw": "猛擊吶喊",
+    "zh_cn": "猛击呐喊"
+  },
+  "bleed_i": {
+    "zh_tw": "流血 I",
+    "zh_cn": "流血 I"
+  },
+  "brink_i": {
+    "zh_tw": "邊緣 I",
+    "zh_cn": "边缘 I"
+  },
+  "brutality_i": {
+    "zh_tw": "野性殘暴 I",
+    "zh_cn": "野性残暴 I"
+  },
+  "compressed_duration_i": {
+    "zh_tw": "縮短持續時間 I",
+    "zh_cn": "缩短持续时间 I"
+  },
+  "double_barrel_i": {
+    "zh_tw": "雙管 I",
+    "zh_cn": "双管 I"
+  },
+  "efficiency_i": {
+    "zh_tw": "效率 I",
+    "zh_cn": "效率 I"
+  },
+  "elemental_armament_i": {
+    "zh_tw": "元素武裝 I",
+    "zh_cn": "元素武装 I"
+  },
+  "execute_i": {
+    "zh_tw": "處刑 I",
+    "zh_cn": "处刑 I"
+  },
+  "fist_of_war_i": {
+    "zh_tw": "拳霸 I",
+    "zh_cn": "拳霸 I"
+  },
+  "enduring_impact_i": {
+    "zh_tw": "堅忍衝擊 I",
+    "zh_cn": "坚忍冲击 I"
+  },
+  "eternal_flame_i": {
+    "zh_tw": "永恆烈焰 I",
+    "zh_cn": "永恒烈焰 I"
+  },
+  "ignite_i": {
+    "zh_tw": "點燃 I",
+    "zh_cn": "点燃 I"
+  },
+  "impact_shockwave": {
+    "zh_tw": "衝擊震波",
+    "zh_cn": "冲击震波"
+  },
+  "meat_shield_i": {
+    "zh_tw": "肉盾 I",
+    "zh_cn": "肉盾 I"
+  },
+  "opening_move": {
+    "zh_tw": "先聲奪人",
+    "zh_cn": "先声夺人"
+  },
+  "prolonged_duration_i": {
+    "zh_tw": "延長持續時間 I",
+    "zh_cn": "延长持续时间 I"
+  },
+  "rage_i": {
+    "zh_tw": "盛怒 I",
+    "zh_cn": "盛怒 I"
+  },
+  "steadfast_i": {
+    "zh_tw": "穩若泰山 I",
+    "zh_cn": "稳若泰山 I"
+  },
+  "stomping_ground": {
+    "zh_tw": "重踏地面",
+    "zh_cn": "重踏地面"
+  },
+  "tireless": {
+    "zh_tw": "孜孜不倦",
+    "zh_cn": "孜孜不倦"
+  },
+  "upheaval_i": {
+    "zh_tw": "動亂 I",
+    "zh_cn": "动乱 I"
+  },
+  "vanguard_i": {
+    "zh_tw": "無懼先鋒 I",
+    "zh_cn": "无惧先锋 I"
+  },
+  "vitality_i": {
+    "zh_tw": "活力 I",
+    "zh_cn": "活力 I"
+  },
+  "aftershock_i": {
+    "zh_tw": "餘震 I",
+    "zh_cn": "余震 I"
+  },
+  "armour_break_i": {
+    "zh_tw": "護甲破壞 I",
+    "zh_cn": "护甲破坏 I"
+  },
+  "behead_i": {
+    "zh_tw": "斬首 I",
+    "zh_cn": "斩首 I"
+  },
+  "font_of_blood": {
+    "zh_tw": "鮮血器皿",
+    "zh_cn": "鲜血器皿"
+  },
+  "lifetap": {
+    "zh_tw": "活栓",
+    "zh_cn": "活栓"
+  },
+  "brutality_ii": {
+    "zh_tw": "野性殘暴 II",
+    "zh_cn": "野性残暴 II"
+  },
+  "concoct_i": {
+    "zh_tw": "調製 I",
+    "zh_cn": "调制 I"
+  },
+  "crater": {
+    "zh_tw": "隕石坑",
+    "zh_cn": "陨石坑"
+  },
+  "defy_i": {
+    "zh_tw": "違抗 I",
+    "zh_cn": "违抗 I"
+  },
+  "direstrike_i": {
+    "zh_tw": "極惡打擊 I",
+    "zh_cn": "极恶打击 I"
+  },
+  "double_barrel_ii": {
+    "zh_tw": "雙管 II",
+    "zh_cn": "双管 II"
+  },
+  "elemental_armament_ii": {
+    "zh_tw": "元素武裝 II",
+    "zh_cn": "元素武装 II"
+  },
+  "exploit_weakness": {
+    "zh_tw": "攻其之弱",
+    "zh_cn": "攻其之弱"
+  },
+  "fan_the_flames": {
+    "zh_tw": "灼炎扇舞I",
+    "zh_cn": "灼炎扇舞I"
+  },
+  "fire_penetration_i": {
+    "zh_tw": "火焰穿透 I",
+    "zh_cn": "火焰穿透 I"
+  },
+  "fresh_clip_i": {
+    "zh_tw": "全新彈夾 I",
+    "zh_cn": "全新弹夹 I"
+  },
+  "hardy_totems_i": {
+    "zh_tw": "堅韌圖騰 I",
+    "zh_cn": "坚韧图腾 I"
+  },
+  "herbalism_i": {
+    "zh_tw": "藥草學 I",
+    "zh_cn": "药草学 I"
+  },
+  "infernal_legion_i": {
+    "zh_tw": "煉獄軍團 I",
+    "zh_cn": "炼狱军团 I"
+  },
+  "jagged_ground_i": {
+    "zh_tw": "碎裂地面 I",
+    "zh_cn": "碎裂地面 I"
+  },
+  "life_leech_i": {
+    "zh_tw": "生命偷取 I",
+    "zh_cn": "生命偷取 I"
+  },
+  "mark_for_death": {
+    "zh_tw": "死亡標記",
+    "zh_cn": "死亡标记"
+  },
+  "minion_splash_i": {
+    "zh_tw": "召喚物擴散I",
+    "zh_cn": "召唤物扩散I"
+  },
+  "persistent_ground_i": {
+    "zh_tw": "持續地面 I",
+    "zh_cn": "持续地面 I"
+  },
+  "raging_cry": {
+    "zh_tw": "憤怒戰吼",
+    "zh_cn": "愤怒战吼"
+  },
+  "refraction_i": {
+    "zh_tw": "折射 I",
+    "zh_cn": "折射 I"
+  },
+  "remnant_potency_i": {
+    "zh_tw": "痕跡強度 I",
+    "zh_cn": "痕迹强度 I"
+  },
+  "retaliate_i": {
+    "zh_tw": "報復 I",
+    "zh_cn": "报复 I"
+  },
+  "selfless_remnants": {
+    "zh_tw": "無私痕跡",
+    "zh_cn": "无私痕迹"
+  },
+  "short_fuse_i": {
+    "zh_tw": "易怒 I",
+    "zh_cn": "易怒 I"
+  },
+  "skittering_stone_i": {
+    "zh_tw": "飛掠之石 I",
+    "zh_cn": "飞掠之石 I"
+  },
+  "tectonic_slams": {
+    "zh_tw": "震波猛擊",
+    "zh_cn": "震波猛击"
+  },
+  "stun_i": {
+    "zh_tw": "暈眩 I",
+    "zh_cn": "晕眩 I"
+  },
+  "thornskin_i": {
+    "zh_tw": "荊棘之皮 I",
+    "zh_cn": "荆棘之皮 I"
+  },
+  "urgent_totems_i": {
+    "zh_tw": "應急圖騰 I",
+    "zh_cn": "应急图腾 I"
+  },
+  "vanguard_ii": {
+    "zh_tw": "無懼先鋒 II",
+    "zh_cn": "无惧先锋 II"
+  },
+  "volcanic_eruption": {
+    "zh_tw": "火山迸發",
+    "zh_cn": "火山迸发"
+  },
+  "armour_break_ii": {
+    "zh_tw": "護甲破壞 II",
+    "zh_cn": "护甲破坏 II"
+  },
+  "armour_demolisher_ii": {
+    "zh_tw": "護甲破壞者 II",
+    "zh_cn": "护甲破坏者 II"
+  },
+  "barbs_i": {
+    "zh_tw": "倒刺 I",
+    "zh_cn": "倒刺 I"
+  },
+  "behead_ii": {
+    "zh_tw": "斬首 II",
+    "zh_cn": "斩首 II"
+  },
+  "bleed_ii": {
+    "zh_tw": "流血 II",
+    "zh_cn": "流血 II"
+  },
+  "branching_fissures_i": {
+    "zh_tw": "分岔裂縫 I",
+    "zh_cn": "分岔裂缝 I"
+  },
+  "brink_ii": {
+    "zh_tw": "邊緣 II",
+    "zh_cn": "边缘 II"
+  },
+  "cannibalism_i": {
+    "zh_tw": "食人 I",
+    "zh_cn": "食人 I"
+  },
+  "clash": {
+    "zh_tw": "交鋒",
+    "zh_cn": "交锋"
+  },
+  "compressed_duration_ii": {
+    "zh_tw": "縮短持續時間 II",
+    "zh_cn": "缩短持续时间 II"
+  },
+  "cool_headed": {
+    "zh_tw": "冷靜",
+    "zh_cn": "冷静"
+  },
+  "corrupting_cry_i": {
+    "zh_tw": "汙染戰吼 I",
+    "zh_cn": "污染战吼 I"
+  },
+  "deadly_resolve": {
+    "zh_tw": "致死決意",
+    "zh_cn": "致死决意"
+  },
+  "searing_flame_i": {
+    "zh_tw": "燒灼烈焰 I",
+    "zh_cn": "烧灼烈焰 I"
+  },
+  "deep_cuts_i": {
+    "zh_tw": "深度切割 I",
+    "zh_cn": "深度切割 I"
+  },
+  "fist_of_war_ii": {
+    "zh_tw": "拳霸 II",
+    "zh_cn": "拳霸 II"
+  },
+  "haemocrystals": {
+    "zh_tw": "血晶",
+    "zh_cn": "血晶"
+  },
+  "eternal_flame_ii": {
+    "zh_tw": "永恆烈焰 II",
+    "zh_cn": "永恒烈焰 II"
+  },
+  "ignite_ii": {
+    "zh_tw": "點燃 II",
+    "zh_cn": "点燃 II"
+  },
+  "immolate": {
+    "zh_tw": "犧牲",
+    "zh_cn": "牺牲"
+  },
+  "knockback": {
+    "zh_tw": "擊退",
+    "zh_cn": "击退"
+  },
+  "life_leech_ii": {
+    "zh_tw": "生命偷取 II",
+    "zh_cn": "生命偷取 II"
+  },
+  "meat_shield_ii": {
+    "zh_tw": "肉盾 II",
+    "zh_cn": "肉盾 II"
+  },
+  "persistent_ground_ii": {
+    "zh_tw": "持續地面 II",
+    "zh_cn": "持续地面 II"
+  },
+  "prolonged_duration_ii": {
+    "zh_tw": "延長持續時間 II",
+    "zh_cn": "延长持续时间 II"
+  },
+  "quill_burst": {
+    "zh_tw": "驟羽爆發",
+    "zh_cn": "骤羽爆发"
+  },
+  "refraction_ii": {
+    "zh_tw": "折射 II",
+    "zh_cn": "折射 II"
+  },
+  "reinforced_totems_i": {
+    "zh_tw": "強化圖騰 I",
+    "zh_cn": "强化图腾 I"
+  },
+  "remnant_potency_ii": {
+    "zh_tw": "痕跡強度 II",
+    "zh_cn": "痕迹强度 II"
+  },
+  "rending_apex": {
+    "zh_tw": "撕裂頂點",
+    "zh_cn": "撕裂顶点"
+  },
+  "rip": {
+    "zh_tw": "撕毀",
+    "zh_cn": "撕毁"
+  },
+  "rupture": {
+    "zh_tw": "殘破",
+    "zh_cn": "残破"
+  },
+  "splinter_totem_i": {
+    "zh_tw": "殘片圖騰 I",
+    "zh_cn": "残片图腾 I"
+  },
+  "steadfast_ii": {
+    "zh_tw": "穩若泰山 II",
+    "zh_cn": "稳若泰山 II"
+  },
+  "stoicism_i": {
+    "zh_tw": "堅忍 I",
+    "zh_cn": "坚忍 I"
+  },
+  "tear": {
+    "zh_tw": "撕裂",
+    "zh_cn": "撕裂"
+  },
+  "urgent_totems_ii": {
+    "zh_tw": "應急圖騰 II",
+    "zh_cn": "应急图腾 II"
+  },
+  "aftershock_ii": {
+    "zh_tw": "餘震 II",
+    "zh_cn": "余震 II"
+  },
+  "ancestral_call_i": {
+    "zh_tw": "先祖怒嚎 I",
+    "zh_cn": "先祖怒嚎 I"
+  },
+  "armour_break_iii": {
+    "zh_tw": "護甲破壞 III",
+    "zh_cn": "护甲破坏 III"
+  },
+  "cannibalism_ii": {
+    "zh_tw": "食人 II",
+    "zh_cn": "食人 II"
+  },
+  "concoct_ii": {
+    "zh_tw": "調製 II",
+    "zh_cn": "调制 II"
+  },
+  "searing_flame_ii": {
+    "zh_tw": "燒灼烈焰 II",
+    "zh_cn": "烧灼烈焰 II"
+  },
+  "direstrike_ii": {
+    "zh_tw": "極惡打擊 II",
+    "zh_cn": "极恶打击 II"
+  },
+  "echoing_cry": {
+    "zh_tw": "迴響戰吼",
+    "zh_cn": "回响战吼"
+  },
+  "efficiency_ii": {
+    "zh_tw": "效率 II",
+    "zh_cn": "效率 II"
+  },
+  "enraged_warcry_i": {
+    "zh_tw": "激怒戰吼 I",
+    "zh_cn": "激怒战吼 I"
+  },
+  "execute_ii": {
+    "zh_tw": "處刑 II",
+    "zh_cn": "处刑 II"
+  },
+  "exposing_cry": {
+    "zh_tw": "暴露戰吼",
+    "zh_cn": "暴露战吼"
+  },
+  "fan_the_flames_ii": {
+    "zh_tw": "灼炎扇舞II",
+    "zh_cn": "灼炎扇舞II"
+  },
+  "fire_exposure": {
+    "zh_tw": "火焰曝曬",
+    "zh_cn": "火焰曝晒"
+  },
+  "fresh_clip_ii": {
+    "zh_tw": "全新彈夾 II",
+    "zh_cn": "全新弹夹 II"
+  },
+  "hardy_totems_ii": {
+    "zh_tw": "堅韌圖騰 II",
+    "zh_cn": "坚韧图腾 II"
+  },
+  "enduring_impact_ii": {
+    "zh_tw": "堅忍衝擊 II",
+    "zh_cn": "坚忍冲击 II"
+  },
+  "herbalism_ii": {
+    "zh_tw": "藥草學 II",
+    "zh_cn": "药草学 II"
+  },
+  "eternal_flame_iii": {
+    "zh_tw": "永恆烈焰 III",
+    "zh_cn": "永恒烈焰 III"
+  },
+  "incision": {
+    "zh_tw": "切割",
+    "zh_cn": "切割"
+  },
+  "long_fuse_i": {
+    "zh_tw": "長引線 I",
+    "zh_cn": "长引线 I"
+  },
+  "mark_for_death_ii": {
+    "zh_tw": "死亡標記 II",
+    "zh_cn": "死亡标记 II"
+  },
+  "heavy_swing": {
+    "zh_tw": "沉重揮擊",
+    "zh_cn": "沉重挥击"
+  },
+  "rage_ii": {
+    "zh_tw": "盛怒 II",
+    "zh_cn": "盛怒 II"
+  },
+  "rageforged_i": {
+    "zh_tw": "盛怒鍛造 I",
+    "zh_cn": "盛怒锻造 I"
+  },
+  "remnant_potency_iii": {
+    "zh_tw": "痕跡強度 III",
+    "zh_cn": "痕迹强度 III"
+  },
+  "retaliate_ii": {
+    "zh_tw": "報復 II",
+    "zh_cn": "报复 II"
+  },
+  "short_fuse_ii": {
+    "zh_tw": "易怒 II",
+    "zh_cn": "易怒 II"
+  },
+  "skittering_stone_ii": {
+    "zh_tw": "飛掠之石 II",
+    "zh_cn": "飞掠之石 II"
+  },
+  "stun_ii": {
+    "zh_tw": "暈眩 II",
+    "zh_cn": "晕眩 II"
+  },
+  "syzygy": {
+    "zh_tw": "朔望",
+    "zh_cn": "朔望"
+  },
+  "thornskin_ii": {
+    "zh_tw": "荊棘之皮 II",
+    "zh_cn": "荆棘之皮 II"
+  },
+  "urgent_totems_iii": {
+    "zh_tw": "應急圖騰 III",
+    "zh_cn": "应急图腾 III"
+  },
+  "vitality_ii": {
+    "zh_tw": "活力 II",
+    "zh_cn": "活力 II"
+  },
+  "ancestral_call_ii": {
+    "zh_tw": "先祖怒嚎 II",
+    "zh_cn": "先祖怒嚎 II"
+  },
+  "barbs_iii": {
+    "zh_tw": "倒刺 III",
+    "zh_cn": "倒刺 III"
+  },
+  "barbs_ii": {
+    "zh_tw": "倒刺 II",
+    "zh_cn": "倒刺 II"
+  },
+  "bleed_iv": {
+    "zh_tw": "流血 IV",
+    "zh_cn": "流血 IV"
+  },
+  "bleed_iii": {
+    "zh_tw": "流血 III",
+    "zh_cn": "流血 III"
+  },
+  "brambleslam": {
+    "zh_tw": "荊棘猛擊",
+    "zh_cn": "荆棘猛击"
+  },
+  "branching_fissures_ii": {
+    "zh_tw": "分岔裂縫 II",
+    "zh_cn": "分岔裂缝 II"
+  },
+  "brutality_iii": {
+    "zh_tw": "野性殘暴 III",
+    "zh_cn": "野性残暴 III"
+  },
+  "corrupting_cry_ii": {
+    "zh_tw": "汙染戰吼 II",
+    "zh_cn": "污染战吼 II"
+  },
+  "deep_cuts_ii": {
+    "zh_tw": "深度切割 II",
+    "zh_cn": "深度切割 II"
+  },
+  "defy_ii": {
+    "zh_tw": "違抗 II",
+    "zh_cn": "违抗 II"
+  },
+  "double_barrel_iii": {
+    "zh_tw": "雙管 III",
+    "zh_cn": "双管 III"
+  },
+  "elemental_armament_iii": {
+    "zh_tw": "元素武裝 III",
+    "zh_cn": "元素武装 III"
+  },
+  "enraged_warcry_ii": {
+    "zh_tw": "激怒戰吼 II",
+    "zh_cn": "激怒战吼 II"
+  },
+  "execute_iii": {
+    "zh_tw": "處刑 III",
+    "zh_cn": "处刑 III"
+  },
+  "fire_penetration_ii": {
+    "zh_tw": "火焰穿透 II",
+    "zh_cn": "火焰穿透 II"
+  },
+  "fist_of_war_iii": {
+    "zh_tw": "拳霸 III",
+    "zh_cn": "拳霸 III"
+  },
+  "heft": {
+    "zh_tw": "分量",
+    "zh_cn": "分量"
+  },
+  "holy_descent": {
+    "zh_tw": "神聖血統",
+    "zh_cn": "神圣血统"
+  },
+  "ignite_iii": {
+    "zh_tw": "點燃 III",
+    "zh_cn": "点燃 III"
+  },
+  "infernal_legion_ii": {
+    "zh_tw": "煉獄軍團 II",
+    "zh_cn": "炼狱军团 II"
+  },
+  "jagged_ground_ii": {
+    "zh_tw": "碎裂地面 II",
+    "zh_cn": "碎裂地面 II"
+  },
+  "life_leech_iii": {
+    "zh_tw": "生命偷取 III",
+    "zh_cn": "生命偷取 III"
+  },
+  "long_fuse_ii": {
+    "zh_tw": "長引線 II",
+    "zh_cn": "长引线 II"
+  },
+  "minion_splash_ii": {
+    "zh_tw": "召喚物擴散II",
+    "zh_cn": "召唤物扩散II"
+  },
+  "persistent_ground_iii": {
+    "zh_tw": "持續地面 III",
+    "zh_cn": "持续地面 III"
+  },
+  "rage_iii": {
+    "zh_tw": "盛怒 III",
+    "zh_cn": "盛怒 III"
+  },
+  "rageforged_ii": {
+    "zh_tw": "盛怒鍛造 II",
+    "zh_cn": "盛怒锻造 II"
+  },
+  "refraction_iii": {
+    "zh_tw": "折射 III",
+    "zh_cn": "折射 III"
+  },
+  "reinforced_totems_ii": {
+    "zh_tw": "強化圖騰 II",
+    "zh_cn": "强化图腾 II"
+  },
+  "splinter_totem_ii": {
+    "zh_tw": "殘片圖騰 II",
+    "zh_cn": "残片图腾 II"
+  },
+  "stoicism_ii": {
+    "zh_tw": "堅忍 II",
+    "zh_cn": "坚忍 II"
+  },
+  "stun_iii": {
+    "zh_tw": "暈眩 III",
+    "zh_cn": "晕眩 III"
+  },
+  "upheaval_ii": {
+    "zh_tw": "動亂 II",
+    "zh_cn": "动乱 II"
+  },
+  "ailiths_chimes": {
+    "zh_tw": "艾里絲的管鐘",
+    "zh_cn": "艾里丝的管钟"
+  },
+  "arjuns_medal": {
+    "zh_tw": "亞瓊的獎章",
+    "zh_cn": "亚琼的奖章"
+  },
+  "arakaalis_lust": {
+    "zh_tw": "艾爾卡莉之慾",
+    "zh_cn": "艾尔卡莉之欲"
+  },
+  "atziris_impatience": {
+    "zh_tw": "阿茲里的不耐",
+    "zh_cn": "阿兹里的不耐"
+  },
+  "rathas_assault": {
+    "zh_tw": "菈妲的強襲",
+    "zh_cn": "菈妲的强袭"
+  },
+  "dreamers_knell": {
+    "zh_tw": "幻夢者的喪鐘",
+    "zh_cn": "幻梦者的丧钟"
+  },
+  "murderous_intent": {
+    "zh_tw": "殺人意圖",
+    "zh_cn": "杀人意图"
+  },
+  "eonyrs_thunder": {
+    "zh_tw": "伊歐涅的雷霆",
+    "zh_cn": "伊欧涅的雷霆"
+  },
+  "ferocity": {
+    "zh_tw": "狂暴",
+    "zh_cn": "狂暴"
+  },
+  "garukhans_resolve": {
+    "zh_tw": "卡洛翰的決心",
+    "zh_cn": "卡洛翰的决心"
+  },
+  "overabundance_iii": {
+    "zh_tw": "過剩 III",
+    "zh_cn": "过剩 III"
+  },
+  "life_bounty": {
+    "zh_tw": "生命恩惠",
+    "zh_cn": "生命恩惠"
+  },
+  "lockdown": {
+    "zh_tw": "封鎖",
+    "zh_cn": "封锁"
+  },
+  "malady": {
+    "zh_tw": "疾病",
+    "zh_cn": "疾病"
+  },
+  "mana_bounty": {
+    "zh_tw": "魔力恩惠",
+    "zh_cn": "魔力恩惠"
+  },
+  "overextend": {
+    "zh_tw": "過分擴張",
+    "zh_cn": "过分扩张"
+  },
+  "dominus_grasp": {
+    "zh_tw": "神主的掌握",
+    "zh_cn": "神主的掌握"
+  },
+  "rakiatas_flow": {
+    "zh_tw": "萊基亞塔的流動",
+    "zh_cn": "莱基亚塔的流动"
+  },
+  "rigwalds_ferocity": {
+    "zh_tw": "瑞佛的狂暴",
+    "zh_cn": "瑞佛的狂暴"
+  },
+  "stormchain": {
+    "zh_tw": "風暴之鏈",
+    "zh_cn": "风暴之链"
+  },
+  "tacatis_ire": {
+    "zh_tw": "特卡蒂的憤怒",
+    "zh_cn": "特卡蒂的愤怒"
+  },
+  "tasalios_rhythm": {
+    "zh_tw": "塔薩里奧的律動",
+    "zh_cn": "塔萨里奥的律动"
+  },
+  "ricochet_iii": {
+    "zh_tw": "彈射 III",
+    "zh_cn": "弹射 III"
+  },
+  "tuls_stillness": {
+    "zh_tw": "托沃的寧靜",
+    "zh_cn": "托沃的宁静"
+  },
+  "lightning_attunement": {
+    "zh_tw": "閃電同調",
+    "zh_cn": "闪电同调"
+  },
+  "blindside": {
+    "zh_tw": "偷襲",
+    "zh_cn": "偷袭"
+  },
+  "chain_i": {
+    "zh_tw": "連鎖 I",
+    "zh_cn": "连锁 I"
+  },
+  "charge_profusion_i": {
+    "zh_tw": "充能滿盈 I",
+    "zh_cn": "充能满盈 I"
+  },
+  "combo_finisher_i": {
+    "zh_tw": "連擊終結輔助 I",
+    "zh_cn": "连击终结辅助 I"
+  },
+  "corrosion": {
+    "zh_tw": "衰敗",
+    "zh_cn": "衰败"
+  },
+  "escalating_poison": {
+    "zh_tw": "遞增之毒",
+    "zh_cn": "递增之毒"
+  },
+  "heightened_accuracy_i": {
+    "zh_tw": "強化命中 I",
+    "zh_cn": "强化命中 I"
+  },
+  "overabundance_i": {
+    "zh_tw": "過剩 I",
+    "zh_cn": "过剩 I"
+  },
+  "innervate": {
+    "zh_tw": "亢奮",
+    "zh_cn": "亢奋"
+  },
+  "life_drain": {
+    "zh_tw": "生命吸取",
+    "zh_cn": "生命吸取"
+  },
+  "multishot_i": {
+    "zh_tw": "多重射擊 I",
+    "zh_cn": "多重射击 I"
+  },
+  "pierce_i": {
+    "zh_tw": "穿透 I",
+    "zh_cn": "穿透 I"
+  },
+  "pin_i": {
+    "zh_tw": "釘身 I",
+    "zh_cn": "钉身 I"
+  },
+  "poison_i": {
+    "zh_tw": "中毒 I",
+    "zh_cn": "中毒 I"
+  },
+  "precision_i": {
+    "zh_tw": "精準 I",
+    "zh_cn": "精准 I"
+  },
+  "projectile_acceleration_i": {
+    "zh_tw": "投射物加速 I",
+    "zh_cn": "投射物加速 I"
+  },
+  "projectile_deceleration_i": {
+    "zh_tw": "投射物減速 I",
+    "zh_cn": "投射物减速 I"
+  },
+  "pursuit_i": {
+    "zh_tw": "追擊 I",
+    "zh_cn": "追击 I"
+  },
+  "rapid_attacks_i": {
+    "zh_tw": "疾速攻擊 I",
+    "zh_cn": "疾速攻击 I"
+  },
+  "retreat_i": {
+    "zh_tw": "撤退 I",
+    "zh_cn": "撤退 I"
+  },
+  "shock": {
+    "zh_tw": "感電",
+    "zh_cn": "感电"
+  },
+  "slow_potency": {
+    "zh_tw": "緩速強度",
+    "zh_cn": "缓速强度"
+  },
+  "swift_affliction_i": {
+    "zh_tw": "極速苦痛 I",
+    "zh_cn": "极速苦痛 I"
+  },
+  "window_of_opportunity_i": {
+    "zh_tw": "機會之窗 I",
+    "zh_cn": "机会之窗 I"
+  },
+  "adhesive_grenades_i": {
+    "zh_tw": "黏性擲彈 I",
+    "zh_cn": "黏性掷弹 I"
+  },
+  "admixture": {
+    "zh_tw": "混合劑",
+    "zh_cn": "混合剂"
+  },
+  "ammo_conservation_i": {
+    "zh_tw": "彈藥保存 I",
+    "zh_cn": "弹药保存 I"
+  },
+  "blind_i": {
+    "zh_tw": "致盲 I",
+    "zh_cn": "致盲 I"
+  },
+  "bounty_i": {
+    "zh_tw": "寶物 I",
+    "zh_cn": "宝物 I"
+  },
+  "cadence": {
+    "zh_tw": "終止",
+    "zh_cn": "终止"
+  },
+  "chain_ii": {
+    "zh_tw": "連鎖 II",
+    "zh_cn": "连锁 II"
+  },
+  "inhibitor": {
+    "zh_tw": "抑制劑",
+    "zh_cn": "抑制剂"
+  },
+  "commiserate": {
+    "zh_tw": "憐憫",
+    "zh_cn": "怜悯"
+  },
+  "deadly_poison_i": {
+    "zh_tw": "致命毒藥 I",
+    "zh_cn": "致命毒药 I"
+  },
+  "delayed_gratification": {
+    "zh_tw": "延遲滿足感",
+    "zh_cn": "延迟满足感"
+  },
+  "durability": {
+    "zh_tw": "耐久",
+    "zh_cn": "耐久"
+  },
+  "electrocute": {
+    "zh_tw": "電刑",
+    "zh_cn": "电刑"
+  },
+  "longshot_i": {
+    "zh_tw": "遠程射擊 I",
+    "zh_cn": "远程射击 I"
+  },
+  "frenzied_riposte": {
+    "zh_tw": "狂亂反擊",
+    "zh_cn": "狂乱反击"
+  },
+  "frozen_spite": {
+    "zh_tw": "凍結怨恨",
+    "zh_cn": "冻结怨恨"
+  },
+  "heightened_charges": {
+    "zh_tw": "能量球增強",
+    "zh_cn": "能量球增强"
+  },
+  "lasting_shock": {
+    "zh_tw": "持續感電",
+    "zh_cn": "持续感电"
+  },
+  "lightning_penetration": {
+    "zh_tw": "閃電穿透",
+    "zh_cn": "闪电穿透"
+  },
+  "maim": {
+    "zh_tw": "癱瘓",
+    "zh_cn": "瘫痪"
+  },
+  "momentum": {
+    "zh_tw": "氣勢",
+    "zh_cn": "气势"
+  },
+  "multishot_ii": {
+    "zh_tw": "多重射擊 II",
+    "zh_cn": "多重射击 II"
+  },
+  "nova_projectiles_i": {
+    "zh_tw": "新星投射物I",
+    "zh_cn": "新星投射物I"
+  },
+  "overreach": {
+    "zh_tw": "無遠弗屆",
+    "zh_cn": "无远弗届"
+  },
+  "pin_ii": {
+    "zh_tw": "釘身 II",
+    "zh_cn": "钉身 II"
+  },
+  "second_wind_i": {
+    "zh_tw": "恢復 I",
+    "zh_cn": "恢复 I"
+  },
+  "shocking_leap": {
+    "zh_tw": "震擊之躍",
+    "zh_cn": "震击之跃"
+  },
+  "bursting_plague": {
+    "zh_tw": "爆裂瘟疫",
+    "zh_cn": "爆裂瘟疫"
+  },
+  "ricochet_i": {
+    "zh_tw": "彈射 I",
+    "zh_cn": "弹射 I"
+  },
+  "volt": {
+    "zh_tw": "電壓",
+    "zh_cn": "电压"
+  },
+  "adhesive_grenades_ii": {
+    "zh_tw": "黏性擲彈 II",
+    "zh_cn": "黏性掷弹 II"
+  },
+  "alignment_i": {
+    "zh_tw": "聯合 I",
+    "zh_cn": "联合 I"
+  },
+  "caltrops": {
+    "zh_tw": "蒺藜",
+    "zh_cn": "蒺藜"
+  },
+  "charged_shots_i": {
+    "zh_tw": "充能射擊 I",
+    "zh_cn": "充能射击 I"
+  },
+  "close_combat_i": {
+    "zh_tw": "近身戰 I",
+    "zh_cn": "近身战 I"
+  },
+  "combo_finisher_ii": {
+    "zh_tw": "連擊終結輔助 II",
+    "zh_cn": "连击终结辅助 II"
+  },
+  "cooldown_recovery_i": {
+    "zh_tw": "冷卻時間恢復 I",
+    "zh_cn": "冷却时间恢复 I"
+  },
+  "culmination_i": {
+    "zh_tw": "頂點 I",
+    "zh_cn": "顶点 I"
+  },
+  "deadly_herald": {
+    "zh_tw": "致命先驅",
+    "zh_cn": "致命先驱"
+  },
+  "deliberation": {
+    "zh_tw": "審慎",
+    "zh_cn": "审慎"
+  },
+  "longshot_ii": {
+    "zh_tw": "遠程射擊 II",
+    "zh_cn": "远程射击 II"
+  },
+  "fork": {
+    "zh_tw": "分岔",
+    "zh_cn": "分岔"
+  },
+  "heightened_accuracy_ii": {
+    "zh_tw": "強化命中 II",
+    "zh_cn": "强化命中 II"
+  },
+  "soul_drain": {
+    "zh_tw": "魂魄吸取",
+    "zh_cn": "魂魄吸取"
+  },
+  "mobility": {
+    "zh_tw": "機動性",
+    "zh_cn": "机动性"
+  },
+  "neural_overload": {
+    "zh_tw": "神經超載",
+    "zh_cn": "神经超载"
+  },
+  "pierce_ii": {
+    "zh_tw": "穿透 II",
+    "zh_cn": "穿透 II"
+  },
+  "poison_spores": {
+    "zh_tw": "劇毒孢子",
+    "zh_cn": "剧毒孢子"
+  },
+  "poison_ii": {
+    "zh_tw": "中毒 II",
+    "zh_cn": "中毒 II"
+  },
+  "practiced_combo": {
+    "zh_tw": "熟練連擊",
+    "zh_cn": "熟练连击"
+  },
+  "projectile_deceleration_ii": {
+    "zh_tw": "投射物減速 II",
+    "zh_cn": "投射物减速 II"
+  },
+  "punch_through": {
+    "zh_tw": "透勁拳",
+    "zh_cn": "透劲拳"
+  },
+  "pursuit_ii": {
+    "zh_tw": "追擊 II",
+    "zh_cn": "追击 II"
+  },
+  "rearm_i": {
+    "zh_tw": "重新佈署 I",
+    "zh_cn": "重新布署 I"
+  },
+  "retreat_ii": {
+    "zh_tw": "撤退 II",
+    "zh_cn": "撤退 II"
+  },
+  "salvo": {
+    "zh_tw": "齊射",
+    "zh_cn": "齐射"
+  },
+  "streamlined_rounds": {
+    "zh_tw": "子彈如流",
+    "zh_cn": "子弹如流"
+  },
+  "swift_affliction_ii": {
+    "zh_tw": "極速苦痛 II",
+    "zh_cn": "极速苦痛 II"
+  },
+  "warm_blooded": {
+    "zh_tw": "滿腔熱血",
+    "zh_cn": "满腔热血"
+  },
+  "alignment_ii": {
+    "zh_tw": "聯合 II",
+    "zh_cn": "联合 II"
+  },
+  "ammo_conservation_ii": {
+    "zh_tw": "彈藥保存 II",
+    "zh_cn": "弹药保存 II"
+  },
+  "bounty_ii": {
+    "zh_tw": "懸賞 II",
+    "zh_cn": "悬赏 II"
+  },
+  "controlled_hazard": {
+    "zh_tw": "危險抑制",
+    "zh_cn": "危险抑制"
+  },
+  "cooldown_recovery_ii": {
+    "zh_tw": "冷卻時間恢復 II",
+    "zh_cn": "冷却时间恢复 II"
+  },
+  "culling_strike_i": {
+    "zh_tw": "撲殺 I",
+    "zh_cn": "扑杀 I"
+  },
+  "deadly_poison_ii": {
+    "zh_tw": "致命毒藥 II",
+    "zh_cn": "致命毒药 II"
+  },
+  "delayed_reaction": {
+    "zh_tw": "延遲反應",
+    "zh_cn": "延迟反应"
+  },
+  "hit_and_run": {
+    "zh_tw": "打帶跑",
+    "zh_cn": "打带跑"
+  },
+  "impale": {
+    "zh_tw": "穿刺",
+    "zh_cn": "穿刺"
+  },
+  "overabundance_ii": {
+    "zh_tw": "過剩 II",
+    "zh_cn": "过剩 II"
+  },
+  "lightning_exposure": {
+    "zh_tw": "閃電曝曬",
+    "zh_cn": "闪电曝晒"
+  },
+  "nimble_reload": {
+    "zh_tw": "靈活裝填",
+    "zh_cn": "灵活装填"
+  },
+  "nova_projectiles_ii": {
+    "zh_tw": "新星投射物II",
+    "zh_cn": "新星投射物II"
+  },
+  "overcharge": {
+    "zh_tw": "強化聚能",
+    "zh_cn": "强化聚能"
+  },
+  "payload": {
+    "zh_tw": "承載",
+    "zh_cn": "承载"
+  },
+  "perfected_endurance": {
+    "zh_tw": "絕對堅毅",
+    "zh_cn": "绝对坚毅"
+  },
+  "perfection": {
+    "zh_tw": "完美",
+    "zh_cn": "完美"
+  },
+  "precision_ii": {
+    "zh_tw": "精準 II",
+    "zh_cn": "精准 II"
+  },
+  "projectile_acceleration_ii": {
+    "zh_tw": "投射物加速 II",
+    "zh_cn": "投射物加速 II"
+  },
+  "rapid_attacks_ii": {
+    "zh_tw": "疾速攻擊 II",
+    "zh_cn": "疾速攻击 II"
+  },
+  "second_wind_ii": {
+    "zh_tw": "恢復 II",
+    "zh_cn": "恢复 II"
+  },
+  "spectral_volley": {
+    "zh_tw": "靈體齊射",
+    "zh_cn": "灵体齐射"
+  },
+  "ricochet_ii": {
+    "zh_tw": "彈射 II",
+    "zh_cn": "弹射 II"
+  },
+  "alignment_iii": {
+    "zh_tw": "聯合 III",
+    "zh_cn": "联合 III"
+  },
+  "ammo_conservation_iii": {
+    "zh_tw": "彈藥保存 III",
+    "zh_cn": "弹药保存 III"
+  },
+  "blind_ii": {
+    "zh_tw": "致盲 II",
+    "zh_cn": "致盲 II"
+  },
+  "chain_iii": {
+    "zh_tw": "連鎖 III",
+    "zh_cn": "连锁 III"
+  },
+  "charge_profusion_ii": {
+    "zh_tw": "充能滿盈 II",
+    "zh_cn": "充能满盈 II"
+  },
+  "charged_mark": {
+    "zh_tw": "蓄電印記",
+    "zh_cn": "蓄电印记"
+  },
+  "charged_shots_ii": {
+    "zh_tw": "充能射擊 II",
+    "zh_cn": "充能射击 II"
+  },
+  "close_combat_ii": {
+    "zh_tw": "近身戰 II",
+    "zh_cn": "近身战 II"
+  },
+  "culling_strike_ii": {
+    "zh_tw": "撲殺 II",
+    "zh_cn": "扑杀 II"
+  },
+  "culmination_ii": {
+    "zh_tw": "頂點 II",
+    "zh_cn": "顶点 II"
+  },
+  "pierce_iii": {
+    "zh_tw": "穿透 III",
+    "zh_cn": "穿透 III"
+  },
+  "pin_iii": {
+    "zh_tw": "釘身 III",
+    "zh_cn": "钉身 III"
+  },
+  "poison_iii": {
+    "zh_tw": "中毒 III",
+    "zh_cn": "中毒 III"
+  },
+  "projectile_acceleration_iii": {
+    "zh_tw": "投射物加速 III",
+    "zh_cn": "投射物加速 III"
+  },
+  "pursuit_iii": {
+    "zh_tw": "追擊 III",
+    "zh_cn": "追击 III"
+  },
+  "rapid_attacks_iii": {
+    "zh_tw": "疾速攻擊 III",
+    "zh_cn": "疾速攻击 III"
+  },
+  "rearm_ii": {
+    "zh_tw": "重新佈署 II",
+    "zh_cn": "重新布署 II"
+  },
+  "retreat_iii": {
+    "zh_tw": "撤退 III",
+    "zh_cn": "撤退 III"
+  },
+  "second_wind_iii": {
+    "zh_tw": "恢復 III",
+    "zh_cn": "恢复 III"
+  },
+  "swift_affliction_iii": {
+    "zh_tw": "極速苦痛 III",
+    "zh_cn": "极速苦痛 III"
+  },
+  "window_of_opportunity_ii": {
+    "zh_tw": "機會之窗 II",
+    "zh_cn": "机会之窗 II"
+  },
+  "ahns_citadel": {
+    "zh_tw": "漢恩的城塞",
+    "zh_cn": "汉恩的城塞"
+  },
+  "arbiters_ignition": {
+    "zh_tw": "仲裁者的燃灼",
+    "zh_cn": "仲裁者的燃灼"
+  },
+  "atziris_allure": {
+    "zh_tw": "阿茲里的魅惑",
+    "zh_cn": "阿兹里的魅惑"
+  },
+  "atziris_call": {
+    "zh_tw": "阿茲里的呼喚",
+    "zh_cn": "阿兹里的呼唤"
+  },
+  "atziris_communion": {
+    "zh_tw": "阿茲里的共融",
+    "zh_cn": "阿兹里的共融"
+  },
+  "bhatairs_vengeance": {
+    "zh_tw": "瓦特爾的復仇",
+    "zh_cn": "瓦特尔的复仇"
+  },
+  "commandment": {
+    "zh_tw": "誡命",
+    "zh_cn": "诫命"
+  },
+  "diallas_desire": {
+    "zh_tw": "達拉的渴望",
+    "zh_cn": "达拉的渴望"
+  },
+  "doedres_undoing": {
+    "zh_tw": "德瑞的毀滅",
+    "zh_cn": "德瑞的毁灭"
+  },
+  "shock_siphon": {
+    "zh_tw": "電擊虹吸",
+    "zh_cn": "电击虹吸"
+  },
+  "eshs_radiance": {
+    "zh_tw": "艾許的光芒",
+    "zh_cn": "艾许的光芒"
+  },
+  "ixchels_torment": {
+    "zh_tw": "薩雷許的折磨",
+    "zh_cn": "萨雷许的折磨"
+  },
+  "freezefork": {
+    "zh_tw": "冰凍之叉",
+    "zh_cn": "冰冻之叉"
+  },
+  "guatelitzis_ablation": {
+    "zh_tw": "瓜特利斯的消融",
+    "zh_cn": "瓜特利斯的消融"
+  },
+  "hayoxis_fulmination": {
+    "zh_tw": "荷霖蔡的轟鳴",
+    "zh_cn": "荷霖蔡的轰鸣"
+  },
+  "kalisas_crescendo": {
+    "zh_tw": "卡莉莎的漸強",
+    "zh_cn": "卡莉莎的渐强"
+  },
+  "khatals_rejuvenation": {
+    "zh_tw": "卡塔爾的恢復",
+    "zh_cn": "卡塔尔的恢复"
+  },
+  "kulemaks_dominion": {
+    "zh_tw": "骷髏馬克的支配",
+    "zh_cn": "骷髅马克的支配"
+  },
+  "kurgals_leash": {
+    "zh_tw": "柯戈的繩索",
+    "zh_cn": "柯戈的绳索"
+  },
+  "morganas_tempest": {
+    "zh_tw": "魔甘娜的風暴",
+    "zh_cn": "魔甘娜的风暴"
+  },
+  "oisc3adns_oath": {
+    "zh_tw": "歐辛的誓言",
+    "zh_cn": "欧辛的誓言"
+  },
+  "romiras_requital": {
+    "zh_tw": "羅米拉的報復",
+    "zh_cn": "罗米拉的报复"
+  },
+  "shock_conduction_ii": {
+    "zh_tw": "感電傳導II",
+    "zh_cn": "感电传导II"
+  },
+  "tecrods_revenge": {
+    "zh_tw": "特克羅德的復仇",
+    "zh_cn": "特克罗德的复仇"
+  },
+  "varashtas_blessing": {
+    "zh_tw": "瓦拉什塔的祝福",
+    "zh_cn": "瓦拉什塔的祝福"
+  },
+  "vilentas_propulsion": {
+    "zh_tw": "范尼達的奮進",
+    "zh_cn": "范尼达的奋进"
+  },
+  "siones_temper": {
+    "zh_tw": "西奧妮的鍛鍊",
+    "zh_cn": "西奥妮的锻炼"
+  },
+  "xibaquas_rending": {
+    "zh_tw": "賽巴昆的撕裂",
+    "zh_cn": "赛巴昆的撕裂"
+  },
+  "zarokhs_refrain": {
+    "zh_tw": "澤洛克的克制",
+    "zh_cn": "泽洛克的克制"
+  },
+  "zarokhs_revolt": {
+    "zh_tw": "澤洛克的反叛",
+    "zh_cn": "泽洛克的反叛"
+  },
+  "cold_attunement": {
+    "zh_tw": "冰冷同調",
+    "zh_cn": "冰冷同调"
+  },
+  "ambush": {
+    "zh_tw": "伏擊",
+    "zh_cn": "伏击"
+  },
+  "arcane_surge": {
+    "zh_tw": "秘能波動",
+    "zh_cn": "秘能波动"
+  },
+  "burgeon_i": {
+    "zh_tw": "萌發 I",
+    "zh_cn": "萌发 I"
+  },
+  "clarity_i": {
+    "zh_tw": "清晰 I",
+    "zh_cn": "清晰 I"
+  },
+  "concentrated_area": {
+    "zh_tw": "集中範圍",
+    "zh_cn": "集中范围"
+  },
+  "controlled_destruction": {
+    "zh_tw": "精準破壞",
+    "zh_cn": "精准破坏"
+  },
+  "creeping_chill": {
+    "zh_tw": "寒冰蔓延",
+    "zh_cn": "寒冰蔓延"
+  },
+  "crescendo_i": {
+    "zh_tw": "逐漸增強 I",
+    "zh_cn": "逐渐增强 I"
+  },
+  "crystalline_shards": {
+    "zh_tw": "結晶碎片",
+    "zh_cn": "结晶碎片"
+  },
+  "heightened_curse": {
+    "zh_tw": "增強詛咒",
+    "zh_cn": "增强诅咒"
+  },
+  "coursing_current": {
+    "zh_tw": "雷鳴湍流",
+    "zh_cn": "雷鸣湍流"
+  },
+  "elemental_army": {
+    "zh_tw": "元素軍隊",
+    "zh_cn": "元素军队"
+  },
+  "expanse": {
+    "zh_tw": "廣闊區域",
+    "zh_cn": "广阔区域"
+  },
+  "hourglass": {
+    "zh_tw": "沙漏",
+    "zh_cn": "沙漏"
+  },
+  "ice_bite_i": {
+    "zh_tw": "霜咬 I",
+    "zh_cn": "霜咬 I"
+  },
+  "impending_doom": {
+    "zh_tw": "末日厄運",
+    "zh_cn": "末日厄运"
+  },
+  "last_gasp": {
+    "zh_tw": "臨終恐息",
+    "zh_cn": "临终恐息"
+  },
+  "deep_freeze": {
+    "zh_tw": "深度冰凍",
+    "zh_cn": "深度冰冻"
+  },
+  "magnified_area_i": {
+    "zh_tw": "增幅光環 I",
+    "zh_cn": "增幅光环 I"
+  },
+  "mark_of_siphoning": {
+    "zh_tw": "汲取印記",
+    "zh_cn": "汲取印记"
+  },
+  "minion_pact_i": {
+    "zh_tw": "召喚物契約 I",
+    "zh_cn": "召唤物契约 I"
+  },
+  "perpetual_charge": {
+    "zh_tw": "永恆充能",
+    "zh_cn": "永恒充能"
+  },
+  "profanity_i": {
+    "zh_tw": "褻瀆 I",
+    "zh_cn": "亵渎 I"
+  },
+  "rapid_casting_i": {
+    "zh_tw": "疾速施法 I",
+    "zh_cn": "疾速施法 I"
+  },
+  "sacrificial_lamb_i": {
+    "zh_tw": "獻祭羔羊 I",
+    "zh_cn": "献祭羔羊 I"
+  },
+  "spell_cascade": {
+    "zh_tw": "秘能爆發",
+    "zh_cn": "秘能爆发"
+  },
+  "thrill_of_the_kill": {
+    "zh_tw": "殺戮渴望",
+    "zh_cn": "杀戮渴望"
+  },
+  "fortress_i": {
+    "zh_tw": "堡壘 I",
+    "zh_cn": "堡垒 I"
+  },
+  "withering_touch": {
+    "zh_tw": "凋零之觸",
+    "zh_cn": "凋零之触"
+  },
+  "zenith_i": {
+    "zh_tw": "極盛 I",
+    "zh_cn": "极盛 I"
+  },
+  "abiding_hex": {
+    "zh_tw": "永久咒術",
+    "zh_cn": "永久咒术"
+  },
+  "acrimony": {
+    "zh_tw": "毒辣",
+    "zh_cn": "毒辣"
+  },
+  "ambrosia": {
+    "zh_tw": "仙饌蜜酒",
+    "zh_cn": "仙馔蜜酒"
+  },
+  "bidding_i": {
+    "zh_tw": "出價 I",
+    "zh_cn": "出价 I"
+  },
+  "bone_shrapnel": {
+    "zh_tw": "骨片",
+    "zh_cn": "骨片"
+  },
+  "boundless_energy_i": {
+    "zh_tw": "無盡能量 I",
+    "zh_cn": "无尽能量 I"
+  },
+  "catharsis": {
+    "zh_tw": "宣洩",
+    "zh_cn": "宣泄"
+  },
+  "frost_nexus": {
+    "zh_tw": "冰霜匯聚",
+    "zh_cn": "冰霜汇聚"
+  },
+  "cold_penetration": {
+    "zh_tw": "冰冷穿透",
+    "zh_cn": "冰冷穿透"
+  },
+  "considered_casting": {
+    "zh_tw": "細思施法",
+    "zh_cn": "细思施法"
+  },
+  "crackling_barrier": {
+    "zh_tw": "電流屏障",
+    "zh_cn": "电流屏障"
+  },
+  "danse_macabre": {
+    "zh_tw": "骷髏之舞",
+    "zh_cn": "骷髅之舞"
+  },
+  "deathmarch": {
+    "zh_tw": "死亡行進",
+    "zh_cn": "死亡行进"
+  },
+  "embitter": {
+    "zh_tw": "激怒",
+    "zh_cn": "激怒"
+  },
+  "empowered_sparks_i": {
+    "zh_tw": "強化電球I",
+    "zh_cn": "强化电球I"
+  },
+  "encroaching_ground": {
+    "zh_tw": "進逼地面",
+    "zh_cn": "进逼地面"
+  },
+  "excise": {
+    "zh_tw": "切除",
+    "zh_cn": "切除"
+  },
+  "accelerated_growth": {
+    "zh_tw": "飛速生長",
+    "zh_cn": "飞速生长"
+  },
+  "fiery_death": {
+    "zh_tw": "火熱死寂",
+    "zh_cn": "火热死寂"
+  },
+  "harmonic_remnants_i": {
+    "zh_tw": "和諧的痕跡 I",
+    "zh_cn": "和谐的痕迹 I"
+  },
+  "focused_curse": {
+    "zh_tw": "專注詛咒",
+    "zh_cn": "专注诅咒"
+  },
+  "freeze": {
+    "zh_tw": "冰凍",
+    "zh_cn": "冰冻"
+  },
+  "glacier": {
+    "zh_tw": "冰河",
+    "zh_cn": "冰河"
+  },
+  "gorge": {
+    "zh_tw": "峽谷",
+    "zh_cn": "峡谷"
+  },
+  "icicle": {
+    "zh_tw": "冰柱",
+    "zh_cn": "冰柱"
+  },
+  "intense_agony": {
+    "zh_tw": "劇烈苦痛",
+    "zh_cn": "剧烈苦痛"
+  },
+  "living_lightning": {
+    "zh_tw": "活躍閃電",
+    "zh_cn": "活跃闪电"
+  },
+  "loyalty": {
+    "zh_tw": "忠誠",
+    "zh_cn": "忠诚"
+  },
+  "mana_flare": {
+    "zh_tw": "魔力閃焰",
+    "zh_cn": "魔力闪焰"
+  },
+  "font_of_mana": {
+    "zh_tw": "魔力器皿",
+    "zh_cn": "魔力器皿"
+  },
+  "mana_leech": {
+    "zh_tw": "魔力偷取",
+    "zh_cn": "魔力偷取"
+  },
+  "minion_instability": {
+    "zh_tw": "復仇之靈",
+    "zh_cn": "复仇之灵"
+  },
+  "mysticism_i": {
+    "zh_tw": "秘術 I",
+    "zh_cn": "秘术 I"
+  },
+  "pinpoint_critical": {
+    "zh_tw": "精確暴擊",
+    "zh_cn": "精确暴击"
+  },
+  "potent_exposure": {
+    "zh_tw": "強力曝曬",
+    "zh_cn": "强力曝晒"
+  },
+  "shock_conduction": {
+    "zh_tw": "感電傳導",
+    "zh_cn": "感电传导"
+  },
+  "spell_echo": {
+    "zh_tw": "法術迴響",
+    "zh_cn": "法术回响"
+  },
+  "rising_tempest": {
+    "zh_tw": "崛起風暴",
+    "zh_cn": "崛起风暴"
+  },
+  "upwelling_i": {
+    "zh_tw": "湧升流 I",
+    "zh_cn": "涌升流 I"
+  },
+  "wildfire": {
+    "zh_tw": "燐火",
+    "zh_cn": "燐火"
+  },
+  "chaos_attunement": {
+    "zh_tw": "混沌同調",
+    "zh_cn": "混沌同调"
+  },
+  "ambrosia_ii": {
+    "zh_tw": "仙饌蜜酒 II",
+    "zh_cn": "仙馔蜜酒 II"
+  },
+  "astral_projection": {
+    "zh_tw": "星空投影",
+    "zh_cn": "星空投影"
+  },
+  "biting_frost_i": {
+    "zh_tw": "刺骨冰霜I",
+    "zh_cn": "刺骨冰霜I"
+  },
+  "brittle_armour": {
+    "zh_tw": "易碎鎧甲",
+    "zh_cn": "易碎铠甲"
+  },
+  "chaotic_freeze": {
+    "zh_tw": "混沌冰凍",
+    "zh_cn": "混沌冰冻"
+  },
+  "corpse_conservation": {
+    "zh_tw": "屍體保存",
+    "zh_cn": "尸体保存"
+  },
+  "cursed_ground": {
+    "zh_tw": "詛咒地面",
+    "zh_cn": "诅咒地面"
+  },
+  "decaying_hex": {
+    "zh_tw": "腐朽咒術",
+    "zh_cn": "腐朽咒术"
+  },
+  "drain_ailments": {
+    "zh_tw": "汲取異常狀態",
+    "zh_cn": "汲取异常状态"
+  },
+  "elemental_discharge": {
+    "zh_tw": "元素解放",
+    "zh_cn": "元素解放"
+  },
+  "elemental_focus": {
+    "zh_tw": "元素專注",
+    "zh_cn": "元素专注"
+  },
+  "energy_capacitor": {
+    "zh_tw": "儲能",
+    "zh_cn": "储能"
+  },
+  "energy_retention": {
+    "zh_tw": "能量保留",
+    "zh_cn": "能量保留"
+  },
+  "essence_harvest": {
+    "zh_tw": "精髓收割",
+    "zh_cn": "精髓收割"
+  },
+  "eternal_mark": {
+    "zh_tw": "永恆印記",
+    "zh_cn": "永恒印记"
+  },
+  "execrate": {
+    "zh_tw": "咒怨",
+    "zh_cn": "咒怨"
+  },
+  "extraction": {
+    "zh_tw": "提取",
+    "zh_cn": "提取"
+  },
+  "feeding_frenzy_i": {
+    "zh_tw": "豢養狂熱 I",
+    "zh_cn": "豢养狂热 I"
+  },
+  "harmonic_remnants_ii": {
+    "zh_tw": "和諧的痕跡 II",
+    "zh_cn": "和谐的痕迹 II"
+  },
+  "fluke": {
+    "zh_tw": "僥倖",
+    "zh_cn": "侥幸"
+  },
+  "frostfire": {
+    "zh_tw": "霜火",
+    "zh_cn": "霜火"
+  },
+  "gambleshot": {
+    "zh_tw": "博弈射擊",
+    "zh_cn": "博弈射击"
+  },
+  "hex_bloom": {
+    "zh_tw": "咒術綻放",
+    "zh_cn": "咒术绽放"
+  },
+  "ice_bite_ii": {
+    "zh_tw": "霜咬 II",
+    "zh_cn": "霜咬 II"
+  },
+  "supercritical": {
+    "zh_tw": "超暴擊",
+    "zh_cn": "超暴击"
+  },
+  "inexorable_critical_i": {
+    "zh_tw": "無情暴擊 I",
+    "zh_cn": "无情暴击 I"
+  },
+  "magnified_area_ii": {
+    "zh_tw": "增幅光環 II",
+    "zh_cn": "增幅光环 II"
+  },
+  "muster": {
+    "zh_tw": "召集",
+    "zh_cn": "召集"
+  },
+  "practical_magic_i": {
+    "zh_tw": "實用魔法 I",
+    "zh_cn": "实用魔法 I"
+  },
+  "ritualistic_curse": {
+    "zh_tw": "儀式詛咒",
+    "zh_cn": "仪式诅咒"
+  },
+  "sacrificial_lamb_ii": {
+    "zh_tw": "獻祭羔羊 II",
+    "zh_cn": "献祭羔羊 II"
+  },
+  "sacrificial_offering": {
+    "zh_tw": "犧牲奉獻",
+    "zh_cn": "牺牲奉献"
+  },
+  "electromagnetism": {
+    "zh_tw": "磁化電極",
+    "zh_cn": "磁化电极"
+  },
+  "static_shocks": {
+    "zh_tw": "靜電震盪",
+    "zh_cn": "静电震荡"
+  },
+  "stormfire": {
+    "zh_tw": "烈風暴",
+    "zh_cn": "烈风暴"
+  },
+  "strong_hearted": {
+    "zh_tw": "不屈之心",
+    "zh_cn": "不屈之心"
+  },
+  "thrill_of_the_kill_ii": {
+    "zh_tw": "殺戮渴望II",
+    "zh_cn": "杀戮渴望II"
+  },
+  "verglas": {
+    "zh_tw": "冰淞",
+    "zh_cn": "冰淞"
+  },
+  "volatility": {
+    "zh_tw": "易爆",
+    "zh_cn": "易爆"
+  },
+  "fortress_ii": {
+    "zh_tw": "堡壘 II",
+    "zh_cn": "堡垒 II"
+  },
+  "wildshards_i": {
+    "zh_tw": "野性碎片 I",
+    "zh_cn": "野性碎片 I"
+  },
+  "zenith_ii": {
+    "zh_tw": "極盛 II",
+    "zh_cn": "极盛 II"
+  },
+  "advancing_storm": {
+    "zh_tw": "推進風暴",
+    "zh_cn": "推进风暴"
+  },
+  "bidding_ii": {
+    "zh_tw": "出價 II",
+    "zh_cn": "出价 II"
+  },
+  "blazing_critical": {
+    "zh_tw": "燃焰暴擊",
+    "zh_cn": "燃焰暴击"
+  },
+  "boundless_energy_ii": {
+    "zh_tw": "無盡能量 II",
+    "zh_cn": "无尽能量 II"
+  },
+  "burgeon_ii": {
+    "zh_tw": "萌發 II",
+    "zh_cn": "萌发 II"
+  },
+  "burning_inscription": {
+    "zh_tw": "爆燃銘文",
+    "zh_cn": "爆燃铭文"
+  },
+  "clarity_ii": {
+    "zh_tw": "清晰 II",
+    "zh_cn": "清晰 II"
+  },
+  "cold_exposure": {
+    "zh_tw": "冰冷曝曬",
+    "zh_cn": "冰冷曝晒"
+  },
+  "concussive_spells": {
+    "zh_tw": "震盪法術",
+    "zh_cn": "震荡法术"
+  },
+  "crazed_minions": {
+    "zh_tw": "發狂召喚物",
+    "zh_cn": "发狂召唤物"
+  },
+  "crescendo_ii": {
+    "zh_tw": "逐漸增強 II",
+    "zh_cn": "逐渐增强 II"
+  },
+  "derange": {
+    "zh_tw": "精神錯亂",
+    "zh_cn": "精神错乱"
+  },
+  "empowered_sparks_ii": {
+    "zh_tw": "強化電球II",
+    "zh_cn": "强化电球II"
+  },
+  "feeding_frenzy_ii": {
+    "zh_tw": "豢養狂熱 II",
+    "zh_cn": "豢养狂热 II"
+  },
+  "hulking_minions": {
+    "zh_tw": "巨大召喚物",
+    "zh_cn": "巨大召唤物"
+  },
+  "inexorable_critical_ii": {
+    "zh_tw": "無情暴擊 II",
+    "zh_cn": "无情暴击 II"
+  },
+  "living_lightning_ii": {
+    "zh_tw": "活躍閃電 II",
+    "zh_cn": "活跃闪电 II"
+  },
+  "mark_of_siphoning_ii": {
+    "zh_tw": "汲取印記 II",
+    "zh_cn": "汲取印记 II"
+  },
+  "minion_pact_ii": {
+    "zh_tw": "召喚物契約 II",
+    "zh_cn": "召唤物契约 II"
+  },
+  "mysticism_ii": {
+    "zh_tw": "秘術 II",
+    "zh_cn": "秘术 II"
+  },
+  "rapid_casting_ii": {
+    "zh_tw": "疾速施法 II",
+    "zh_cn": "疾速施法 II"
+  },
+  "upwelling_ii": {
+    "zh_tw": "湧升流 I",
+    "zh_cn": "涌升流 I"
+  },
+  "bidding_iii": {
+    "zh_tw": "出價 III",
+    "zh_cn": "出价 III"
+  },
+  "biting_frost_ii": {
+    "zh_tw": "刺骨冰霜II",
+    "zh_cn": "刺骨冰霜II"
+  },
+  "catalysing_elements": {
+    "zh_tw": "催化元素",
+    "zh_cn": "催化元素"
+  },
+  "chaos_mastery": {
+    "zh_tw": "混沌專精",
+    "zh_cn": "混沌专精"
+  },
+  "cold_mastery": {
+    "zh_tw": "冰冷專精",
+    "zh_cn": "冰冷专精"
+  },
+  "crescendo_iii": {
+    "zh_tw": "逐漸增強 III",
+    "zh_cn": "逐渐增强 III"
+  },
+  "expand": {
+    "zh_tw": "擴展",
+    "zh_cn": "扩展"
+  },
+  "accelerated_growth_ii": {
+    "zh_tw": "飛速生長II",
+    "zh_cn": "飞速生长II"
+  },
+  "fire_mastery": {
+    "zh_tw": "火焰專精",
+    "zh_cn": "火焰专精"
+  },
+  "lightning_mastery": {
+    "zh_tw": "閃電專精",
+    "zh_cn": "闪电专精"
+  },
+  "minion_mastery": {
+    "zh_tw": "召喚物專精",
+    "zh_cn": "召唤物专精"
+  },
+  "physical_mastery": {
+    "zh_tw": "物理專精",
+    "zh_cn": "物理专精"
+  },
+  "practical_magic_ii": {
+    "zh_tw": "實用魔法 II",
+    "zh_cn": "实用魔法 II"
+  },
+  "profanity_ii": {
+    "zh_tw": "褻瀆 II",
+    "zh_cn": "亵渎 II"
+  },
+  "rapid_casting_iii": {
+    "zh_tw": "疾速施法 III",
+    "zh_cn": "疾速施法 III"
+  },
+  "wildshards_ii": {
+    "zh_tw": "野性碎片 II",
+    "zh_cn": "野性碎片 II"
+  },
+  "ruthless": {
+    "zh_tw": "殘暴",
+    "zh_cn": "残暴"
+  },
+  "unbreakable": {
+    "zh_tw": "堅不可破",
+    "zh_cn": "坚不可破"
+  },
+  "prolonged_duration_iii": {
+    "zh_tw": "延長持續時間 III",
+    "zh_cn": "延长持续时间 III"
+  },
+  "frozen_vortex": {
+    "zh_tw": "凍結漩渦",
+    "zh_cn": "冻结漩涡"
+  },
+  "enervation": {
+    "zh_tw": "削弱",
+    "zh_cn": "削弱"
+  },
+  "chance_to_freeze": {
+    "zh_tw": "冰凍機率",
+    "zh_cn": "冰冻机率"
+  },
+  "invocation": {
+    "zh_tw": "祈願",
+    "zh_cn": "祈愿"
+  },
+  "devastate": {
+    "zh_tw": "蹂躪",
+    "zh_cn": "蹂躏"
+  },
+  "spreading_frost": {
+    "zh_tw": "擴散寒冰",
+    "zh_cn": "扩散寒冰"
+  },
+  "energy_barrier": {
+    "zh_tw": "能量屏障",
+    "zh_cn": "能量屏障"
+  },
+  "wind_wave": {
+    "zh_tw": "疾風之波",
+    "zh_cn": "疾风之波"
+  },
+  "infusion": {
+    "zh_tw": "注入",
+    "zh_cn": "注入"
+  },
+  "break_endurance": {
+    "zh_tw": "打破忍耐",
+    "zh_cn": "打破忍耐"
+  },
+  "premeditation": {
+    "zh_tw": "預謀",
+    "zh_cn": "预谋"
+  },
+  "hinder": {
+    "zh_tw": "阻礙",
+    "zh_cn": "阻碍"
+  },
+  "soulbreaker": {
+    "zh_tw": "破魂者",
+    "zh_cn": "破魂者"
+  },
+  "daze": {
+    "zh_tw": "目眩",
+    "zh_cn": "目眩"
+  },
+  "break_posture": {
+    "zh_tw": "破壞姿態",
+    "zh_cn": "破坏姿态"
+  },
+  "dazing_cry": {
+    "zh_tw": "目眩戰吼",
+    "zh_cn": "目眩战吼"
+  },
+  "font_of_rage": {
+    "zh_tw": "盛怒器皿",
+    "zh_cn": "盛怒器皿"
+  },
+  "aftershock_iii": {
+    "zh_tw": "餘震 III",
+    "zh_cn": "余震 III"
+  },
+  "lasting_ground": {
+    "zh_tw": "持續性地面",
+    "zh_cn": "持续性地面"
+  },
+  "leverage": {
+    "zh_tw": "槓桿",
+    "zh_cn": "杠杆"
+  },
+  "potential": {
+    "zh_tw": "潛力",
+    "zh_cn": "潜力"
+  },
+  "flow": {
+    "zh_tw": "流動",
+    "zh_cn": "流动"
+  },
+  "adhesive_grenades_iii": {
+    "zh_tw": "黏性擲彈 III",
+    "zh_cn": "黏性掷弹 III"
+  },
+  "tremors": {
+    "zh_tw": "威震",
+    "zh_cn": "威震"
+  },
+  "rally": {
+    "zh_tw": "集結",
+    "zh_cn": "集结"
+  },
+  "hoarfrost": {
+    "zh_tw": "白霜",
+    "zh_cn": "白霜"
+  },
+  "reverberate": {
+    "zh_tw": "回響",
+    "zh_cn": "回响"
+  },
+  "dazzle": {
+    "zh_tw": "目眩",
+    "zh_cn": "目眩"
+  },
+  "unyielding": {
+    "zh_tw": "屹立不搖",
+    "zh_cn": "屹立不摇"
+  },
+  "desperation": {
+    "zh_tw": "絕望",
+    "zh_cn": "绝望"
+  },
+  "excoriate": {
+    "zh_tw": "痛斥",
+    "zh_cn": "痛斥"
+  },
+  "unbending": {
+    "zh_tw": "永不屈服",
+    "zh_cn": "永不屈服"
+  },
+  "magnetic_remnants": {
+    "zh_tw": "磁性痕跡",
+    "zh_cn": "磁性痕迹"
+  },
+  "ancestral_call_iii": {
+    "zh_tw": "先祖怒嚎 III",
+    "zh_cn": "先祖怒嚎 III"
+  },
+  "unsteady_tempo": {
+    "zh_tw": "不穩節奏",
+    "zh_cn": "不稳节奏"
+  },
+  "ancestral_aid": {
+    "zh_tw": "先祖援助",
+    "zh_cn": "先祖援助"
+  },
+  "rime": {
+    "zh_tw": "霧淞",
+    "zh_cn": "雾淞"
+  },
+  "arms_length": {
+    "zh_tw": "伸手可及",
+    "zh_cn": "伸手可及"
+  },
+  "charm_bounty": {
+    "zh_tw": "護符恩惠",
+    "zh_cn": "护符恩惠"
+  },
+  "untouchable": {
+    "zh_tw": "無法觸碰",
+    "zh_cn": "无法触碰"
+  },
+  "unabating": {
+    "zh_tw": "勢頭不減",
+    "zh_cn": "势头不减"
+  },
+  "first_blood": {
+    "zh_tw": "浴血鬥士",
+    "zh_cn": "浴血斗士"
+  },
+  "hobble": {
+    "zh_tw": "跛行",
+    "zh_cn": "跛行"
+  },
+  "volatile_power": {
+    "zh_tw": "不穩定的力量",
+    "zh_cn": "不稳定的力量"
+  },
+  "unerring_power": {
+    "zh_tw": "精準力量",
+    "zh_cn": "精准力量"
+  },
+  "see_red": {
+    "zh_tw": "赤紅目光",
+    "zh_cn": "赤红目光"
+  },
+  "undermine": {
+    "zh_tw": "破壞",
+    "zh_cn": "破坏"
+  },
+  "outmaneuver": {
+    "zh_tw": "出奇制勝",
+    "zh_cn": "出奇制胜"
+  },
+  "tumult": {
+    "zh_tw": "紛亂",
+    "zh_cn": "纷乱"
+  },
+  "relentless_rage": {
+    "zh_tw": "無盡怒火",
+    "zh_cn": "无尽怒火"
+  },
+  "flame_pillar": {
+    "zh_tw": "火炎之柱",
+    "zh_cn": "火炎之柱"
+  },
+  "spinning_inferno": {
+    "zh_tw": "旋轉獄火",
+    "zh_cn": "旋转狱火"
+  },
+  "elemental_siphon": {
+    "zh_tw": "元素虹吸",
+    "zh_cn": "元素虹吸"
+  },
+  "detonate_minion": {
+    "zh_tw": "引爆召喚物",
+    "zh_cn": "引爆召唤物"
+  },
+  "his_vile_intrusion": {
+    "zh_tw": "他的惡毒入侵",
+    "zh_cn": "他的恶毒入侵"
+  },
+  "his_dark_horizon": {
+    "zh_tw": "他的黑暗視界",
+    "zh_cn": "他的黑暗视界"
+  },
+  "his_scattering_calamity": {
+    "zh_tw": "他的散布災禍",
+    "zh_cn": "他的散布灾祸"
+  },
+  "his_winnowing_flame": {
+    "zh_tw": "他的飛舞烈焰",
+    "zh_cn": "他的飞舞烈焰"
+  },
+  "his_grave_command": {
+    "zh_tw": "他的死墓命令",
+    "zh_cn": "他的死墓命令"
+  },
+  "soul_crystal3a_7b07d": {
+    "zh_tw": "靈魂水晶：{0}",
+    "zh_cn": "灵魂水晶：{0}"
+  },
+  "spectre3a_7b07d": {
+    "zh_tw": "幽魂：{0}",
+    "zh_cn": "幽魂：{0}"
+  },
+  "his_foul_emergence": {
+    "zh_tw": "他的惡臭降臨",
+    "zh_cn": "他的恶臭降临"
+  },
+  "greatwood_ii": {
+    "zh_tw": "大森林 II",
+    "zh_cn": "大森林 II"
+  },
+  "cast_on_melee_stun": {
+    "zh_tw": "近戰擊暈時施放",
+    "zh_cn": "近战击晕时施放"
+  },
+  "fusillade": {
+    "zh_tw": "聚靈之杖",
+    "zh_cn": "聚灵之杖"
+  },
+  "demon_magus": {
+    "zh_tw": "惡魔瑪格思",
+    "zh_cn": "恶魔玛格思"
+  },
+  "cast_when_stunned": {
+    "zh_tw": "暈眩時施放",
+    "zh_cn": "晕眩时施放"
+  },
+  "cast_while_channelling": {
+    "zh_tw": "引導時施放",
+    "zh_cn": "引导时施放"
+  },
+  "hydra_familiar": {
+    "zh_tw": "九頭蛇近親",
+    "zh_cn": "九头蛇近亲"
+  },
+  "nadir": {
+    "zh_tw": "消沉",
+    "zh_cn": "消沉"
+  }
+}

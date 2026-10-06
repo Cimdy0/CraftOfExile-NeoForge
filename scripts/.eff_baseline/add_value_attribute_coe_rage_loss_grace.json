@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:rage_loss_grace",
+  "operation": "add_value"
+}

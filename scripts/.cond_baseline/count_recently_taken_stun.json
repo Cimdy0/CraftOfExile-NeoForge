@@ -1,0 +1,7 @@
+[
+  {
+    "type": "count",
+    "mode": "recently",
+    "name": "taken_stun"
+  }
+]

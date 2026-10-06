@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_culling_strike_threshold_against_immobilised_enemies",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "29899",
+    "links": [
+      "19001",
+      "21792"
+    ],
+    "x": 4609.95,
+    "y": 8953.29
+  }
+]

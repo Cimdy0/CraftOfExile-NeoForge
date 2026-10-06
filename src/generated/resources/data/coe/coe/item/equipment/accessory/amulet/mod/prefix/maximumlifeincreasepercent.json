@@ -1,0 +1,45 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:max_health_inc"
+    },
+    "tiers": [
+      {
+        "level": 33,
+        "name": "hopeful",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 3.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 60,
+        "name": "optimistic",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 6.0,
+            "min": 5.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 75,
+        "name": "confident",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 8.0,
+            "min": 7.0
+          }
+        },
+        "weight": 300
+      }
+    ]
+  }
+}

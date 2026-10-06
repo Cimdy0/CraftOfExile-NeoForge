@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:charges_gained",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "mana"
+  }
+}

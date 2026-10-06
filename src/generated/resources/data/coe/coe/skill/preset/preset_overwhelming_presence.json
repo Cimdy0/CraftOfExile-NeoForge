@@ -1,0 +1,59 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_stat": {
+                "duration": 60.0,
+                "effects": [
+                  {
+                    "amount": {
+                      "type": "inline",
+                      "value": "-0.15 - 0.005263157894736842 * (skill.level - 1)"
+                    },
+                    "effect": "coe:stat/effect/inline_presence_aura_1243",
+                    "entry": "inline",
+                    "targets": "coe:stat/targets/inline_inline_1242"
+                  },
+                  {
+                    "amount": {
+                      "type": "inline",
+                      "value": "-0.15 - 0.004736842105263157 * (skill.level - 1)"
+                    },
+                    "effect": "coe:stat/effect/inline_presence_aura_1245",
+                    "entry": "inline",
+                    "targets": "coe:stat/targets/inline_inline_1244"
+                  }
+                ],
+                "id": "coe:stat_overwhelming_presence"
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ]
+      }
+    }
+  ],
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "aura",
+    "buff",
+    "persistent"
+  ]
+}

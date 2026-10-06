@@ -1,0 +1,26 @@
+{
+  "layers": [
+    {
+      "coe:particle_ring": {
+        "particle": {
+          "type": "minecraft:smoke"
+        },
+        "y_offset": 0.1
+      }
+    },
+    {
+      "coe:particle_pillar": {
+        "particle": {
+          "type": "minecraft:smoke"
+        }
+      }
+    },
+    {
+      "coe:model": {
+        "scale": 1.2,
+        "spin_deg_per_tick": 0.5,
+        "texture": "coe:textures/entity/prop/hazard"
+      }
+    }
+  ]
+}

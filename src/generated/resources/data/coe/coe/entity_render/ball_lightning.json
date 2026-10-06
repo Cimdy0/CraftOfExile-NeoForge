@@ -1,0 +1,22 @@
+{
+  "layers": [
+    {
+      "coe:particle_ring": {
+        "interval": 2,
+        "particle": {
+          "type": "minecraft:electric_spark"
+        },
+        "radius_scale": 0.35,
+        "samples": 10,
+        "y_offset": 0.1
+      }
+    },
+    {
+      "coe:model": {
+        "scale": 0.6,
+        "spin_deg_per_tick": 1.5,
+        "texture": "coe:textures/entity/prop/ball_lightning"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_archon_buffs_on_you",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongeneric",
+    "id": "43842",
+    "links": [
+      "28092",
+      "5695"
+    ],
+    "x": -3480.21,
+    "y": -9844.83
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_archon_buffs_on_you",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archonofundeathnode",
+    "id": "45333",
+    "links": [
+      "26926",
+      "59781"
+    ],
+    "x": -1247.57,
+    "y": -10845.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_archon_buffs_on_you",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongeneric",
+    "id": "50535",
+    "links": [
+      "10612",
+      "42045"
+    ],
+    "x": -856.155,
+    "y": -10845.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_archon_buffs_on_you",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongeneric",
+    "id": "51234",
+    "links": [
+      "15991",
+      "27434"
+    ],
+    "x": 907.215,
+    "y": -10817.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_archon_buffs_on_you",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongeneric",
+    "id": "55938",
+    "links": [
+      "41394",
+      "58363"
+    ],
+    "x": 4641.6,
+    "y": -9138.18
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_archon_buffs_on_you",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongeneric",
+    "id": "58363",
+    "links": [
+      "40313",
+      "55938"
+    ],
+    "x": 4655.42,
+    "y": -9374.35
+  }
+]

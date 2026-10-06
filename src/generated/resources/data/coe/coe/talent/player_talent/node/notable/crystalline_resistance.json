@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_all_max_elemental_resistances_if_you_have_at_least_red_green_and_blue_support_gems_socketed",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_gemling_gemlingnode",
+    "id": "32151",
+    "links": [
+      "3685"
+    ],
+    "x": -2211.36,
+    "y": 10325.0
+  }
+]

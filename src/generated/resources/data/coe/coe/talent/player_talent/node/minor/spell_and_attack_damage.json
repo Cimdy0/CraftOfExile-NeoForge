@@ -1,0 +1,40 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_inquistitor_increasedelementaldamageattackcastespeed",
+    "id": "50084",
+    "links": [
+      "1143",
+      "28446",
+      "45923",
+      "61525"
+    ],
+    "x": -1527.89,
+    "y": -734.805
+  }
+]

@@ -1,0 +1,573 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "1447",
+    "links": [
+      "14945",
+      "22393"
+    ],
+    "x": -4428.32,
+    "y": -5602.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "17501",
+    "links": [
+      "22783",
+      "54036"
+    ],
+    "x": -1782.13,
+    "y": -8343.83
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "22221",
+    "links": [
+      "57079",
+      "64139"
+    ],
+    "x": -11557.6,
+    "y": -5929.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "22393",
+    "links": [
+      "1447",
+      "28458"
+    ],
+    "x": -4261.32,
+    "y": -5557.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "22783",
+    "links": [
+      "15885",
+      "17501",
+      "18160"
+    ],
+    "x": -1815.55,
+    "y": -8169.77
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "28458",
+    "links": [
+      "22393",
+      "38972"
+    ],
+    "x": -4094.32,
+    "y": -5602.65
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "29985",
+    "links": [
+      "17229",
+      "61113"
+    ],
+    "x": -6878.23,
+    "y": -5992.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "33612",
+    "links": [
+      "40200",
+      "8983"
+    ],
+    "x": -4354.84,
+    "y": -10976.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "3443",
+    "links": [
+      "14548",
+      "55180",
+      "63545"
+    ],
+    "x": 1798.44,
+    "y": -6916.71
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "36025",
+    "links": [
+      "32474",
+      "44309",
+      "829"
+    ],
+    "x": -11263.1,
+    "y": -4986.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "37594",
+    "links": [
+      "50104",
+      "8983"
+    ],
+    "x": -4397.91,
+    "y": -10369.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "40200",
+    "links": [
+      "22331",
+      "33612",
+      "61842"
+    ],
+    "x": -4283.82,
+    "y": -11181.0
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "43385",
+    "links": [
+      "64139",
+      "7553"
+    ],
+    "x": -11932.6,
+    "y": -5712.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "44951",
+    "links": [
+      "50216",
+      "5777"
+    ],
+    "x": -2936.4,
+    "y": -2239.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "47155",
+    "links": [
+      "17394",
+      "35896",
+      "63545"
+    ],
+    "x": 2034.62,
+    "y": -7402.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "50720",
+    "links": [
+      "11376",
+      "30523",
+      "34199",
+      "43557",
+      "59362"
+    ],
+    "x": -160.381,
+    "y": -10220.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "54036",
+    "links": [
+      "15809",
+      "17501",
+      "18485",
+      "30720"
+    ],
+    "x": -1773.55,
+    "y": -8675.53
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "58651",
+    "links": [
+      "49357",
+      "50558",
+      "5777"
+    ],
+    "x": -3324.0,
+    "y": -2380.78
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "61113",
+    "links": [
+      "29985",
+      "53910"
+    ],
+    "x": -6628.23,
+    "y": -5992.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "61842",
+    "links": [
+      "14712",
+      "33240",
+      "40200",
+      "50483"
+    ],
+    "x": -4283.82,
+    "y": -11351.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "63545",
+    "links": [
+      "3443",
+      "34520",
+      "47155"
+    ],
+    "x": 2048.44,
+    "y": -7166.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "64653",
+    "links": [
+      "47420"
+    ],
+    "x": -7299.95,
+    "y": -8772.41
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "8737",
+    "links": [
+      "25927",
+      "41511",
+      "56284",
+      "6077",
+      "95"
+    ],
+    "x": -3697.15,
+    "y": -7461.02
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "8983",
+    "links": [
+      "22331",
+      "33612",
+      "37594"
+    ],
+    "x": -4283.82,
+    "y": -10683.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "9065",
+    "links": [
+      "23382",
+      "752"
+    ],
+    "x": -6680.9,
+    "y": -8742.95
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_deal_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "95",
+    "links": [
+      "1433",
+      "8737"
+    ],
+    "x": -4084.76,
+    "y": -7312.1
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetration_cold_resistance",
+            "vars": {
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments_against_enemies_with_exposure",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamagenode",
+    "id": "55835",
+    "links": [
+      "20909",
+      "52537"
+    ],
+    "x": 9431.91,
+    "y": -3521.12
+  }
+]

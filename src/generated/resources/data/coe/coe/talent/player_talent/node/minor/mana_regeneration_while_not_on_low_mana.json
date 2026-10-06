@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate_while_not_on_low_mana",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "14048",
+    "links": [
+      "34717",
+      "52053"
+    ],
+    "x": 6898.63,
+    "y": -380.495
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate_while_not_on_low_mana",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "34717",
+    "links": [
+      "14048",
+      "24120"
+    ],
+    "x": 7097.38,
+    "y": -547.495
+  }
+]

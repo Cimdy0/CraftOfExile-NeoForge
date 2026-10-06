@@ -1,0 +1,29 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_daze_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stun2h",
+    "id": "21945",
+    "links": [
+      "14262",
+      "26572",
+      "39128",
+      "54545",
+      "61718"
+    ],
+    "x": 10290.9,
+    "y": -481.595
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:flask_no_consume_chance",
+  "operation": "add_value",
+  "tags": [
+    "flask"
+  ]
+}

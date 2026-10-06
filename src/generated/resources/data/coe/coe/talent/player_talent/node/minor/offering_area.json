@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offering_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "43713",
+    "links": [
+      "27009",
+      "3051",
+      "35602",
+      "45570"
+    ],
+    "x": 452.015,
+    "y": -9772.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offering_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "45570",
+    "links": [
+      "29009",
+      "43713"
+    ],
+    "x": 202.015,
+    "y": -9772.2
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "Freeze",
+    "Frozen",
+    "冰冻",
+    "冻结"
+  ],
+  "description": [
+    [
+      "$[freeze]",
+      "是一种",
+      "$[elemental_ailment]",
+      "，会使目标无法移动或行动。"
+    ],
+    [
+      "$[freeze]",
+      "值累积到冰冻阈值时会触发冰冻；其持续时间随超出阈值的幅度而增加。"
+    ],
+    [
+      "$[freeze]",
+      "同时也会施加",
+      "$[chill]",
+      "。另见碎裂与",
+      "$[stun]",
+      "。"
+    ]
+  ],
+  "id": "freeze",
+  "keys": [
+    "coe:keyword.freeze"
+  ],
+  "title": "@coe:keyword.freeze"
+}

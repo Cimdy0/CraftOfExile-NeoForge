@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_ailment_threshold_op_add_value_1_5_stun"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "stun_resistant"
+}

@@ -1,0 +1,542 @@
+{
+ "WORK_APTITUDE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"work_aptitude\", 0.0"
+ },
+ "WORK_SPEED": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"work_speed\", 1.0"
+ },
+ "MAX_DARKNESS": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"max_darkness\", 1.0"
+ },
+ "MAX_ENDURANCE_CHARGES": {
+  "base": 3.0,
+  "zero_marker": false,
+  "args": "\"max_endurance_charges\", 3"
+ },
+ "MAX_ENERGY_SHIELD": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"max_energy_shield\", 0, 0"
+ },
+ "MAX_FRENZY_CHARGES": {
+  "base": 3.0,
+  "zero_marker": false,
+  "args": "\"max_frenzy_charges\", 3"
+ },
+ "MAX_INFUSION": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"max_infusion\", 1.0"
+ },
+ "MAX_MANA": {
+  "base": 40.0,
+  "zero_marker": false,
+  "args": "\"max_mana\", 40, 0"
+ },
+ "MAX_POWER_CHARGES": {
+  "base": 3.0,
+  "zero_marker": false,
+  "args": "\"max_power_charges\", 3"
+ },
+ "MAX_RAGE": {
+  "base": 50.0,
+  "zero_marker": false,
+  "args": "\"max_rage\", 50"
+ },
+ "MAX_REGENERATION": {
+  "base": 0.05,
+  "zero_marker": false,
+  "args": "\"max_regeneration\", 0.05"
+ },
+ "MAX_RESISTANCES": {
+  "base": 0.75,
+  "zero_marker": false,
+  "args": "\"max_resistances\", 0.75"
+ },
+ "MAX_BLOCK": {
+  "base": 0.75,
+  "zero_marker": false,
+  "args": "\"max_block\", 0.75"
+ },
+ "MAX_SPIRIT": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"max_spirit\", 0, 0"
+ },
+ "MAX_VOLATILITY": {
+  "base": 100.0,
+  "zero_marker": false,
+  "args": "\"max_volatility\", 100.0"
+ },
+ "META_ENERGY_MAX": {
+  "base": 100.0,
+  "zero_marker": false,
+  "args": "\"meta_energy_max\", 100, 0"
+ },
+ "BASE_ENERGY_SHIELD_RECHARGE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"base_energy_shield_recharge\", 1.0"
+ },
+ "CURRENT_ENERGY_SHIELD_RECHARGE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"current_energy_shield_recharge\", 1.0"
+ },
+ "DARKNESS_RESERVATION_LASTS": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"darkness_reservation_lasts\", 1.0"
+ },
+ "ENERGY_RECHARGE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"energy_recharge\", 1.0"
+ },
+ "GLORY": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"glory\", 0.0"
+ },
+ "GLORY_GENERATION": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"glory_generation\", 1.0"
+ },
+ "RAGE_LOSS_GRACE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"rage_loss_grace\", 0, 0, 4096"
+ },
+ "RAGE_LOSS_RATE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"rage_loss_rate\", 1.0"
+ },
+ "RESERVATION_EFFICIENCY": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"reservation_efficiency\", 0.0"
+ },
+ "VOLATILITY_DETONATION_TIME": {
+  "base": 5.0,
+  "zero_marker": false,
+  "args": "\"volatility_detonation_time\", 5.0"
+ },
+ "VOLATILITY_GENERATION": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"volatility_generation\", 1.0"
+ },
+ "DEXTERITY": {
+  "base": 0.0,
+  "zero_marker": true,
+  "args": "\"dexterity\", 0, 0"
+ },
+ "INTELLIGENCE": {
+  "base": 0.0,
+  "zero_marker": true,
+  "args": "\"intelligence\", 0, 0"
+ },
+ "STRENGTH": {
+  "base": 0.0,
+  "zero_marker": true,
+  "args": "\"strength\", 0, 0"
+ },
+ "AILMENT_BUILDUP": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"ailment_buildup\", 1.0"
+ },
+ "AILMENT_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"ailment_chance\", 0.0"
+ },
+ "AILMENT_DAMAGE_CONTRIBUTION": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"ailment_damage_contribution\", 0.0"
+ },
+ "AILMENT_DAMAGE_RATE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"ailment_damage_rate\", 1.0"
+ },
+ "AILMENT_DURATION": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"ailment_duration\", 1.0"
+ },
+ "AILMENT_MAGNITUDE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"ailment_magnitude\", 1.0"
+ },
+ "AILMENT_THRESHOLD": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"ailment_threshold\", 0.0"
+ },
+ "AILMENT_THRESHOLD_ADAPTATION": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"ailment_threshold_adaptation\", 1.0"
+ },
+ "AILMENT_THRESHOLD_ADD": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"ailment_threshold_add\", 0.0"
+ },
+ "AFTERSHOCK_AREA": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"aftershock_area\", 1.0"
+ },
+ "AFTERSHOCK_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"aftershock_chance\", 0.0"
+ },
+ "ARCHON_RECOVERY_RATE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"archon_recovery_rate\", 1.0"
+ },
+ "CHARM_ACTIVATION_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"charm_activation_chance\", 0.0"
+ },
+ "CHARM_CHARGES_GAINED": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"charm_charges_gained\", 1.0"
+ },
+ "CHARM_CHARGES_USED": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"charm_charges_used\", 1.0"
+ },
+ "CHARM_EFFECT": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"charm_effect\", 1.0"
+ },
+ "GUARD_RECOVERY": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"guard_recovery\", 0.0"
+ },
+ "PUPPET_MASTER_DURATION": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"puppet_master_duration\", 0.0"
+ },
+ "PUPPET_MASTER_EFFECT": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"puppet_master_effect\", 0.0"
+ },
+ "REMNANTS_COLLECTED_FURTHER_AWAY": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"remnants_collected_further_away\", 1.0"
+ },
+ "REMNANT_DOUBLE_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"remnant_double_chance\", 0.0"
+ },
+ "REMNANT_EXTRA_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"remnant_extra_chance\", 0.0"
+ },
+ "REMNANT_MAGNITUDE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"remnant_magnitude\", 1.0"
+ },
+ "ACCURACY": {
+  "base": 15.0,
+  "zero_marker": false,
+  "args": "\"accuracy\", 15, 0"
+ },
+ "EFFECT_AREA": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"area_of_effect\", 1.0"
+ },
+ "ARMOR_BREAK": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"armor_break\", 0.0"
+ },
+ "BLOCK_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"block_chance\", 0.0"
+ },
+ "CAST_SPEED": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"cast_speed\", 1, 0, 1024"
+ },
+ "COOLDOWN_RECOVERY_RATE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"cooldown_recovery_rate\", 1.0"
+ },
+ "CRIT_CHANCE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"crit_chance\", 1.0"
+ },
+ "CRIT_DAMAGE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"crit_damage\", 1.0"
+ },
+ "CROSS_BOW_RELOAD_TIME": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"cross_bow_reload_time\", 1.0"
+ },
+ "DAMAGE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"damage\", 1.0"
+ },
+ "DAMAGE_OVER_TIME_MULTIPLIER": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"damage_over_time_multiplier\", 1.0"
+ },
+ "DEFLECTION_RATING": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"deflection_rating\", 1.0"
+ },
+ "DODGE_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"dodge_chance\", 0.0"
+ },
+ "EVASION": {
+  "base": 53.0,
+  "zero_marker": false,
+  "args": "\"evasion\", 53, 0"
+ },
+ "KNOCKBACK": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"knockback\", 1.0"
+ },
+ "KNOCKBACK_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"knockback_chance\", 0.0"
+ },
+ "PARRY_RANGE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"parry_range\", 1.0"
+ },
+ "STUN_RECOVERY": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"stun_recovery\", 1.0"
+ },
+ "DAMAGE_TAKEN_BYPASSES_ENERGY": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"damage_taken_bypasses_energy\", 1.0"
+ },
+ "TAKEN_CRIT_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"taken_crit_chance\", 0.0"
+ },
+ "TAKEN_CRIT_DAMAGE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"taken_crit_damage\", 1.0"
+ },
+ "TAKEN_DAMAGE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"taken_damage\", 1.0"
+ },
+ "AVOID_AILMENT_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"avoid_ailment_chance\", 0"
+ },
+ "RESISTANCES": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"resistances\", 0.0"
+ },
+ "RESISTANCE_PENETRATION": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"resistance_penetration\", 0.0"
+ },
+ "STATUS_EXTRA_STACKS": {
+  "base": 0.0,
+  "zero_marker": true,
+  "args": "\"status_extra_stacks\", 0.0"
+ },
+ "STATUS_MAX_STACKS": {
+  "base": 0.0,
+  "zero_marker": true,
+  "args": "\"status_max_stacks\", 0.0"
+ },
+ "AMOUNT_LEECHED": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"amount_leeched\", 1.0"
+ },
+ "FLASK_CHARGES_GAINED": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"flask_charges_gained\", 1.0"
+ },
+ "FLASK_NO_CONSUME_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"flask_no_consume_chance\", 0.0"
+ },
+ "FLASK_RECOVERY_RATE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"flask_recovery_rate\", 1.0"
+ },
+ "LEECH": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"leech\", 0"
+ },
+ "LEECHES_RESPONSE": {
+  "base": 0.2,
+  "zero_marker": false,
+  "args": "\"leeches_response\", 0.20"
+ },
+ "LEECH_RATE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"leech_rate\", 1.0"
+ },
+ "MANA_TAKE_OF_DAMAGE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"mana_take_of_damage\", 0.0"
+ },
+ "RECOVERY_RATE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"recovery_rate\", 1.0"
+ },
+ "REGENERATION_RATE": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"regeneration_rate\", 1"
+ },
+ "LAUNCH_ADDITIONAL_PROJECTILE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"launch_additional_projectile\", 0"
+ },
+ "PROJECTILE_PIERCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"projectile_pierce\", 0"
+ },
+ "PROJECTILE_PIERCE_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"projectile_pierce_chance\", 0"
+ },
+ "PROJECTILE_SPEED": {
+  "base": 1.0,
+  "zero_marker": false,
+  "args": "\"projectile_speed\", 1.0"
+ },
+ "TALENT_AUTO_SMELT": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"talent_auto_smelt\", 0, 0"
+ },
+ "TALENT_EXTRA_XP": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"talent_extra_xp\", 0, 0"
+ },
+ "TALENT_FORTUNE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"talent_fortune\", 0, 0"
+ },
+ "TALENT_LOOTING": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"talent_looting\", 0, 0"
+ },
+ "TALENT_MAGNET": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"talent_magnet\", 0, 0"
+ },
+ "TALENT_MENDING": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"talent_mending\", 0, 0"
+ },
+ "ADD_EMPOWERED_ATTACKS": {
+  "base": 0.0,
+  "zero_marker": true,
+  "args": "\"empowered_attacks\", 0, 0"
+ },
+ "BANNER_LINGER": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"banner_linger\", 0, 0"
+ },
+ "CORPSE_RETAIN_CHANCE": {
+  "base": 0.0,
+  "zero_marker": false,
+  "args": "\"corpse_retain_chance\", 0, 0"
+ },
+ "FOUND_ITEM_NUMBER": {
+  "base": 0.0,
+  "zero_marker": true,
+  "args": "\"found_item_number\", 0"
+ },
+ "FOUND_ITEM_RARITY": {
+  "base": 0.0,
+  "zero_marker": true,
+  "args": "\"found_item_rarity\", 0"
+ },
+ "ITEM_CAPACITY": {
+  "base": 16.0,
+  "zero_marker": false,
+  "args": "\"item_capacity\", 16, 0"
+ },
+ "PRESENCE_RANGE": {
+  "base": 6.0,
+  "zero_marker": false,
+  "args": "\"presence_range\", 6.0, 0"
+ },
+ "SKILL_SLOT_COUNT": {
+  "base": 9.0,
+  "zero_marker": false,
+  "args": "\"skill_slot_count\", 9, 0, 10"
+ }
+}

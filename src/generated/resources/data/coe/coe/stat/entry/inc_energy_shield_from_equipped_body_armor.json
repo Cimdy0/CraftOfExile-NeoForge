@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * equipment_stat:chest.energy / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_1061",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 1.0
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_volatility_on_kill",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "24150",
+    "links": [
+      "44369",
+      "61403"
+    ],
+    "x": 6148.35,
+    "y": -8425.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_volatility_on_kill",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "29990",
+    "links": [
+      "30808",
+      "36217",
+      "47477"
+    ],
+    "x": 10175.8,
+    "y": -2332.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_volatility_on_kill",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "30102",
+    "links": [
+      "43944",
+      "53177",
+      "62578"
+    ],
+    "x": 7034.63,
+    "y": -4806.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_volatility_on_kill",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "44369",
+    "links": [
+      "24150",
+      "30748"
+    ],
+    "x": 5815.88,
+    "y": -8184.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_volatility_on_kill",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "45798",
+    "links": [
+      "46615",
+      "51741",
+      "62578"
+    ],
+    "x": 6990.63,
+    "y": -4325.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_volatility_on_kill",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "62578",
+    "links": [
+      "30102",
+      "45798"
+    ],
+    "x": 6860.57,
+    "y": -4522.67
+  }
+]

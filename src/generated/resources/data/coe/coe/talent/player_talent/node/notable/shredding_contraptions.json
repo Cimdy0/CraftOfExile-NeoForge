@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_affected_by_your_hazards_recently_have_inc_armor",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_affected_by_your_hazards_recently_have_inc_evasion",
+            "vars": {
+              "value": -0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trap",
+    "id": "14211",
+    "links": [
+      "43238",
+      "50879"
+    ],
+    "x": 4919.12,
+    "y": 5747.96
+  }
+]

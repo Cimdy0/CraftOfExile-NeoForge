@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "entity_flag",
+      "dimension": "minecraft:the_end"
+    }
+  ],
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_resist_elemental_10"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_convert_phys_to_chaos_70"
+    }
+  ]
+}

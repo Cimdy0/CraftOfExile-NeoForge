@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_spell_skills_to_fire_additional_projectiles",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "38614",
+    "links": [
+      "27662",
+      "44201",
+      "55241"
+    ],
+    "x": 2760.07,
+    "y": -6585.35
+  }
+]

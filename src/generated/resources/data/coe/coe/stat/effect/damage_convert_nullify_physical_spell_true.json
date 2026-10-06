@@ -1,0 +1,12 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "physical"
+  ],
+  "hits_only": true,
+  "mode": "nullify",
+  "tags": {
+    "tag": "spell"
+  },
+  "to": ""
+}

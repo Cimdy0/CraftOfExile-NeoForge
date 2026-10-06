@@ -1,0 +1,148 @@
+﻿Shard categories (11): ['Daggers', 'One_Hand_Axes', 'Spears', 'Staves', 'Two_Hand_Maces', 'Traps', 'Shields', 'Gloves', 'Helmets', 'Belts', 'Charms']
+Output root: E:\McModding\Modding\CraftOfExile-NeoForge\poe2_assets
+Manifest: manifest_shard2.csv
+Pixelating: ['Body_Armours', 'Boots', 'Gloves', 'Helmets']
+============================================================
+[Daggers] fetching https://poe2db.tw/cn/Daggers
+[Daggers] found 14 basetype items
+    [1/14] Ethereal_Blade (虚空飞刃) -> 3638 bytes
+    [retry 1/3] https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Basetypes/Dagger01.webp -> The read operation timed out; wait 0.7s
+    [2/14] Glass_Shank (玻璃利片) -> 6464 bytes
+    [3/14] Crone_Knife (巫妪小刀) -> 6726 bytes
+    [4/14] Simple_Dagger (朴实匕首) -> 6118 bytes
+    [5/14] Skinning_Knife (剥皮刀) -> 6694 bytes
+    [6/14] Moon_Dagger (月刃匕首) -> 6368 bytes
+    [7/14] Engraved_Knife (雕纹小刀) -> 7284 bytes
+    [8/14] Obsidian_Dagger (黑曜石匕首) -> 8134 bytes
+    [9/14] Bloodletting_Dagger (放血匕首) -> 9574 bytes
+    [10/14] Mail_Breaker (拆信刀) -> 8704 bytes
+    [11/14] Kris_Knife (波刃小刀) -> 6300 bytes
+    [12/14] Parrying_Dagger (格挡匕首) -> 8212 bytes
+    [13/14] Arcane_Dirk (秘术短匕) -> 8194 bytes
+    [14/14] Cinquedea (五指剑) -> 8690 bytes
+[Daggers] done: 14/14 downloaded, 0 pixelated, 0 failed
+[One_Hand_Axes] fetching https://poe2db.tw/cn/One_Hand_Axes
+[One_Hand_Axes] found 13 basetype items
+    [1/13] Dull_Hatchet (钝锋手斧) -> 8356 bytes
+    [2/13] Hook_Axe (钩斧) -> 8536 bytes
+    [3/13] Bearded_Axe (钩刃斧) -> 7342 bytes
+    [4/13] Extended_Cleaver (长柄战斧) -> 9212 bytes
+    [5/13] Bandit_Hatchet (盗匪手斧) -> 11012 bytes
+    [6/13] Crescent_Axe (月牙斧) -> 9878 bytes
+    [7/13] Carving_Hatchet (刨肉手斧) -> 12320 bytes
+    [8/13] Sacrificial_Axe (奉献之斧) -> 15330 bytes
+    [9/13] Boarding_Hatchet (跳帮手斧) -> 10670 bytes
+    [10/13] Fury_Cleaver (暴怒战斧) -> 15504 bytes
+    [11/13] Battle_Axe (鏖战之斧) -> 13126 bytes
+    [12/13] Profane_Cleaver (亵渎战斧) -> 15136 bytes
+    [13/13] Dread_Hatchet (恐惧手斧) -> 13700 bytes
+[One_Hand_Axes] done: 13/13 downloaded, 0 pixelated, 0 failed
+[Spears] fetching https://poe2db.tw/cn/Spears
+[Spears] found 47 basetype items
+    [1/47] Splinter_of_Lorrata () -> 12010 bytes
+    [2/47] Tyrannys_Grip () -> 10702 bytes
+    [3/47] Chainsting () -> 13014 bytes
+    [4/47] Skysliver () -> 11304 bytes
+    [5/47] Daevatas_Wind () -> 8818 bytes
+    [6/47] Tangletongue () -> 9158 bytes
+    [7/47] Saithas_Spear () -> 13676 bytes
+    [8/47] Spire_of_Ire () -> 12346 bytes
+    [9/47] Atziris_Contempt () -> 11812 bytes
+    [10/47] The_Ordained () -> 10344 bytes
+    [11/47] Hardwood_Spear (硬木长矛) -> 5764 bytes
+    [12/47] Ironhead_Spear (铁头长矛) -> 5156 bytes
+    [13/47] Hunting_Spear (狩猎长矛) -> 5944 bytes
+    [14/47] Winged_Spear (飞翼长矛) -> 6164 bytes
+    [15/47] War_Spear (历战长矛) -> 7008 bytes
+    [16/47] Forked_Spear (分叉长矛) -> 6434 bytes
+    [17/47] Barbed_Spear (倒刺长矛) -> 7864 bytes
+    [18/47] Broad_Spear (宽首长矛) -> 6880 bytes
+    [19/47] Crossblade_Spear (十字长矛) -> 6776 bytes
+    [20/47] Seaglass_Spear (海琉长矛) -> 8724 bytes
+    [21/47] Sword_Spear (剑刃长矛) -> 7004 bytes
+    [22/47] Striking_Spear (精标长矛) -> 8266 bytes
+    [23/47] Helix_Spear (螺旋长矛) -> 7682 bytes
+    [24/47] Steelhead_Spear (钢头战矛) -> 5156 bytes
+    [25/47] Coursing_Spear (追击战矛) -> 5944 bytes
+    [26/47] Swift_Spear (迅捷战矛) -> 7008 bytes
+    [27/47] Branched_Spear (分叉战矛) -> 6434 bytes
+    [28/47] Jagged_Spear (锯齿战矛) -> 7864 bytes
+    [29/47] Massive_Spear (重型战矛) -> 6880 bytes
+    [30/47] Runeforged_Hardwood_Spear (符文硬木长矛) -> 5764 bytes
+    [31/47] Runeforged_Ironhead_Spear (符文铁头长矛) -> 5156 bytes
+    [32/47] Runemastered_Ironhead_Spear (符文师匠铁头长矛) -> 5156 bytes
+    [33/47] Runeforged_Hunting_Spear (符文狩猎长矛) -> 5944 bytes
+    [34/47] Runeforged_Winged_Spear (符文飞翼长矛) -> 6164 bytes
+    [35/47] Runeforged_War_Spear (符文历战长矛) -> 7008 bytes
+    [36/47] Runeforged_Forked_Spear (符文分叉长矛) -> 6434 bytes
+    [37/47] Runeforged_Barbed_Spear (符文倒刺长矛) -> 7864 bytes
+    [38/47] Orichalcum_Spear (奥利哈刚战矛) -> 5156 bytes
+    [39/47] Soaring_Spear (翱翔战矛) -> 6164 bytes
+    [40/47] Pronged_Spear (叉尖战矛) -> 6434 bytes
+    [41/47] Stalking_Spear (潜行战矛) -> 5944 bytes
+    [42/47] Flying_Spear (飞行战矛) -> 7008 bytes
+    [43/47] Grand_Spear (宏伟战矛) -> 6880 bytes
+    [44/47] Spiked_Spear (尖刺战矛) -> 7864 bytes
+    [45/47] Guardian_Spear (守护者战矛) -> 6776 bytes
+    [46/47] Akoyan_Spear (阿科扬战矛) -> 8724 bytes
+    [47/47] The_Runefathers_Alloy (符文之父的合金) -> 5482 bytes
+[Spears] done: 47/47 downloaded, 0 pixelated, 0 failed
+[Staves] fetching https://poe2db.tw/cn/Staves
+[Staves] found 43 basetype items
+    [1/43] Dusk_Vigil () -> 11724 bytes
+    [2/43] Taryns_Shiver () -> 11166 bytes
+    [3/43] Earthbound () -> 11792 bytes
+    [4/43] The_Searing_Touch () -> 10718 bytes
+    [5/43] Sire_of_Shards () -> 14004 bytes
+    [6/43] The_Burden_of_Shadows () -> 10902 bytes
+    [7/43] The_Unborn_Lich () -> 11718 bytes
+    [8/43] The_Whispering_Ice () -> 14476 bytes
+    [9/43] Atziris_Rule () -> 11136 bytes
+    [10/43] The_Ravens_Flock () -> 13844 bytes
+    [11/43] Ashen_Staff (枯灰长杖) -> 7704 bytes
+    [12/43] Gelid_Staff (冰寒长杖) -> 10012 bytes
+    [13/43] Voltaic_Staff (雷霆长杖) -> 7304 bytes
+    [14/43] Spriggan_Staff (鬼灵长杖) -> 11638 bytes
+    [15/43] Pyrophyte_Staff (耐火长杖) -> 9518 bytes
+    [16/43] Chiming_Staff (鸣谐长杖) -> 8350 bytes
+    [17/43] Rending_Staff (撕裂长杖) -> 10258 bytes
+    [18/43] Reaping_Staff (收割长杖) -> 10696 bytes
+    [19/43] Icicle_Staff (冰柱长杖) -> 9696 bytes
+    [20/43] Roaring_Staff (咆哮长杖) -> 11722 bytes
+    [21/43] Paralysing_Staff (麻痹长杖) -> 9418 bytes
+    [22/43] Sanctified_Staff (神圣长杖) -> 12708 bytes
+    [23/43] Dark_Staff (暗黑长杖) -> 10996 bytes
+    [24/43] Ravenous_Staff (饕餮法杖) -> 7704 bytes
+    [25/43] Permafrost_Staff (永霜法杖) -> 10012 bytes
+    [26/43] Reflecting_Staff (反射长杖) -> 10012 bytes
+    [27/43] Perching_Staff (栖鸟长杖) -> 10258 bytes
+    [28/43] Lesser_Essence_of_Sorcery (次级魔法精华) -> 2488 bytes
+    [29/43] Essence_of_Sorcery (魔法精华) -> 5196 bytes
+    [30/43] Greater_Essence_of_Sorcery (强效魔法精华) -> 5158 bytes
+    [31/43] Perfect_Essence_of_Sorcery (完美魔法精华) -> 7214 bytes
+    [32/43] Lesser_Essence_of_Seeking (次级寻觅精华) -> 2306 bytes
+    [33/43] Essence_of_Seeking (寻觅精华) -> 4564 bytes
+    [34/43] Greater_Essence_of_Seeking (强效寻觅精华) -> 5104 bytes
+    [35/43] Lesser_Essence_of_Alacrity (次级迅捷精华) -> 2368 bytes
+    [36/43] Essence_of_Alacrity (迅捷精华) -> 4704 bytes
+    [37/43] Greater_Essence_of_Alacrity (强效迅捷精华) -> 5160 bytes
+    [38/43] Perfect_Essence_of_Alacrity (完美迅捷精华) -> 7202 bytes
+    [39/43] Adaptive_Alloy (适性合金) -> 4086 bytes
+    [40/43] Prismatic_Alloy (棱镜合金) -> 4078 bytes
+    [41/43] Celestial_Alloy (天界合金) -> 3832 bytes
+    [42/43] Transcendent_Alloy (超凡合金) -> 3646 bytes
+    [43/43] The_Runebinders_Alloy (符文缚者的合金) -> 5284 bytes
+[Staves] done: 43/43 downloaded, 0 pixelated, 0 failed
+[Two_Hand_Maces] fetching https://poe2db.tw/cn/Two_Hand_Maces
+[Two_Hand_Maces] found 52 basetype items
+    [1/52] Hoghunt () -> 17114 bytes
+    [2/52] Hrimnors_Hymn () -> 10850 bytes
+    [3/52] Trephina () -> 12828 bytes
+    [4/52] Brain_Rattler () -> 10940 bytes
+    [5/52] The_Empty_Roar () -> 13752 bytes
+    [6/52] Shyaba () -> 15088 bytes
+    [7/52] Chober_Chaber () -> 13680 bytes
+    [8/52] Quecholli () -> 17688 bytes
+    [9/52] Tidebreaker () -> 15528 bytes
+    [10/52] Marohi_Erqi () -> 14462 bytes
+    [11/52] The_Hammer_of_Faith () -> 13588 bytes

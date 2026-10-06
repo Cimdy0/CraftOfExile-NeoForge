@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "count",
+    "mode": "recently",
+    "name": "form_changed"
+  },
+  "effect": "coe:stat/effect/inline_attribute_216",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

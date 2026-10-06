@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_culling_strike_threshold_against_rare_or_unique_enemies",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_executioner",
+    "id": "36341",
+    "links": [
+      "41171"
+    ],
+    "x": 2812.83,
+    "y": 11910.9
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "aliases": [
+    "Curse",
+    "Curses",
+    "诅咒"
+  ],
+  "description": [
+    [
+      "$[curse]",
+      "是施加在敌人身上、使其状态恶化的咒术（例如提高所受",
+      "$[damage]",
+      "）。"
+    ],
+    [
+      "通常只能施加一个",
+      "$[curse]",
+      "，除非获得更高的诅咒上限。"
+    ]
+  ],
+  "id": "curse",
+  "keys": [
+    "coe:keyword.curse"
+  ],
+  "title": "@coe:keyword.curse"
+}

@@ -1,0 +1,129 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "multi",
+      "parts": [
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "key": "value"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "caster_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 30.0
+          },
+          "value_2": {
+            "max": 40.0,
+            "min": 34.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 11,
+        "name": "conjuror_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 48.0,
+            "min": 39.0
+          },
+          "value_2": {
+            "max": 48.0,
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 23,
+        "name": "wizard_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 58.0,
+            "min": 49.0
+          },
+          "value_2": {
+            "max": 56.0,
+            "min": 49.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 38,
+        "name": "warlock_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 68.0,
+            "min": 59.0
+          },
+          "value_2": {
+            "max": 66.0,
+            "min": 57.0
+          }
+        },
+        "weight": 600
+      },
+      {
+        "level": 48,
+        "name": "mage_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 78.0,
+            "min": 69.0
+          },
+          "value_2": {
+            "max": 74.0,
+            "min": 67.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 63,
+        "name": "archmage_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 88.0,
+            "min": 79.0
+          },
+          "value_2": {
+            "max": 82.0,
+            "min": 75.0
+          }
+        },
+        "weight": 200
+      },
+      {
+        "level": 79,
+        "name": "lich_s",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 98.0,
+            "min": 89.0
+          },
+          "value_2": {
+            "max": 90.0,
+            "min": 83.0
+          }
+        },
+        "weight": 100
+      }
+    ]
+  }
+}

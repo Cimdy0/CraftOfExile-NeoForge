@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:chance_to_avoid_death",
+  "operation": "add_value"
+}

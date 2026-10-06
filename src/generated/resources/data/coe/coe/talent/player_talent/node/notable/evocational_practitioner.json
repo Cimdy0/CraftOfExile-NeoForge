@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_if_you_ve_triggered_a_skill_recently",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_gain_inc_energy_if_you_ve_dealt_a_critical_hit_damage_recently",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ashfrostandstorm",
+    "id": "41753",
+    "links": [
+      "56334"
+    ],
+    "x": 10039.3,
+    "y": -5356.19
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:skills_have_a_chance_to_not_consume_glory",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "13524",
+    "links": [
+      "4921",
+      "54923"
+    ],
+    "x": -3586.52,
+    "y": 7933.74
+  }
+]

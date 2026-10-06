@@ -1,0 +1,190 @@
+{
+  "ladders": {
+    "armor~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_cold_resistance"
+        },
+        "max": 10.0,
+        "min": 10.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_cold_resistance"
+        },
+        "max": 14.0,
+        "min": 14.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_cold_resistance"
+        },
+        "max": 18.0,
+        "min": 18.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_cold_resistance"
+        },
+        "max": 22.0,
+        "min": 22.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      }
+    ],
+    "wand|staff~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:extra_cold_damage"
+        },
+        "max": 6.0,
+        "min": 6.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:extra_cold_damage"
+        },
+        "max": 8.0,
+        "min": 8.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:extra_cold_damage"
+        },
+        "max": 10.0,
+        "min": 10.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:extra_cold_damage"
+        },
+        "max": 12.0,
+        "min": 12.0,
+        "tier": "perfect"
+      }
+    ],
+    "weapon, !wand, !staff, !off_hand~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_cold_damage"
+        },
+        "max": 5.0,
+        "min": 3.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_cold_damage"
+        },
+        "max": 10.0,
+        "min": 6.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_cold_damage"
+        },
+        "max": 15.0,
+        "min": 9.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_cold_damage"
+        },
+        "max": 20.0,
+        "min": 16.0,
+        "tier": "perfect"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+        // === C3 registry-driven 安全接线（SEG/op 源自 StatEffectGen 已注册 effect，零新增 effect 注册） ===
+        map.put(StatIds.TO_STRENGTH, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_STRENGTH));
+        map.put(StatIds.TO_DEXTERITY, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_DEXTERITY));
+        map.put(StatIds.TO_INTELLIGENCE, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_INTELLIGENCE));
+        map.put(StatIds.INC_DAMAGE, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE));
+        map.put(StatIds.TO_MAX_ENERGY_SHIELD, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_ENERGY_SHIELD));
+        map.put(StatIds.TO_MAX_MANA, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_MANA));

@@ -1,0 +1,1440 @@
+{
+ "total_scale_family": 89,
+ "wired": 19,
+ "unwired": 70,
+ "unwired_entries": [
+  {
+   "constant": "ALLIES_IN_YOUR_PRESENCE_REGENERATE_RAGE_PER_SECOND_IF_YOU_HAVE_GAIN_RAGE_RECENTLY",
+   "path": "allies_in_your_presence_regenerate_rage_per_second_if_you_have_gain_rage_recently",
+   "template": "Allies in your Presence Regenerate {X} Rage per second if you have gain Rage Recently",
+   "raws": [
+    "[Allies] in your [Presence] Regenerate 5 [Rage] per second if you have gained [Rage] [Recently]"
+   ],
+   "values": [
+    [
+     [
+      5.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "ARROWS_GAIN_CRITICAL_HIT_CHANCE_AS_THEY_TRAVEL_FARTHER_UP_TO_INC_CRITICAL_HIT_CHANCE_AFTER_METRES",
+   "path": "arrows_gain_critical_hit_chance_as_they_travel_farther_up_to_inc_critical_hit_chance_after_metres",
+   "template": "Arrows gain Critical Hit Chance as they travel farther, up to {X}% increased Critical Hit Chance after {X} metres",
+   "raws": [
+    "Arrows gain [Critical|Critical Hit] Chance as they travel farther, up to 40% increased [Critical|Critical Hit] Chance after 7 metres"
+   ],
+   "values": [
+    [
+     [
+      0.4,
+      "%"
+     ],
+     [
+      7.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "ATTACKS_USED_BY_TOTEMS_HAVE_INC_ATTACK_SPEED_PER_SUMMONED_TOTEM",
+   "path": "attacks_used_by_totems_have_inc_attack_speed_per_summoned_totem",
+   "template": "Attacks used by Totems have {X}% increased Attack Speed per Summoned Totem",
+   "raws": [
+    "[Attack|Attacks] used by [Totem|Totems] have 4% increased [Attack] Speed per Summoned [Totem|Totem]",
+    "[Attack|Attacks] used by [Totem|Totems] have 3% increased [Attack] Speed per Summoned [Totem|Totem]"
+   ],
+   "values": [
+    [
+     [
+      0.04,
+      "%"
+     ]
+    ],
+    [
+     [
+      0.03,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "CHANCE_THAT_IF_YOU_WOULD_GAIN_ENDURANCE_CHARGES_YOU_INSTEAD_GAIN_UP_TO_MAX_ENDURANCE_CHARGES",
+   "path": "chance_that_if_you_would_gain_endurance_charges_you_instead_gain_up_to_max_endurance_charges",
+   "template": "{X}% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges",
+   "raws": [
+    "2% chance that if you would gain [Charges|Endurance Charges], you instead gain up to maximum [Charges|Endurance Charges]"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "CHANCE_THAT_IF_YOU_WOULD_GAIN_FRENZY_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_FRENZY_CHARGES",
+   "path": "chance_that_if_you_would_gain_frenzy_charges_you_instead_gain_up_to_your_max_number_of_frenzy_charges",
+   "template": "{X}% chance that if you would gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges",
+   "raws": [
+    "2% chance that if you would gain [Charges|Frenzy Charges], you instead gain up to your maximum number of [Charges|Frenzy Charges]"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "CHANCE_THAT_IF_YOU_WOULD_GAIN_POWER_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_POWER_CHARGES",
+   "path": "chance_that_if_you_would_gain_power_charges_you_instead_gain_up_to_your_max_number_of_power_charges",
+   "template": "{X}% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges",
+   "raws": [
+    "2% chance that if you would gain [Charges|Power Charges], you instead gain up to your maximum number of [Charges|Power Charges]"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "CHANCE_THAT_IF_YOU_WOULD_GAIN_RAGE_ON_HIT_DAMAGE_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_RAGE",
+   "path": "chance_that_if_you_would_gain_rage_on_hit_damage_you_instead_gain_up_to_your_max_rage",
+   "template": "{X}% chance that if you would gain Rage on HitDamage, you instead gain up to your maximum Rage",
+   "raws": [
+    "4% chance that if you would gain [Rage] on [HitDamage|Hit], you instead gain up to your maximum Rage"
+   ],
+   "values": [
+    [
+     [
+      0.04,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "CHARMS_GAIN_CHARGES_PER_SECOND",
+   "path": "charms_gain_charges_per_second",
+   "template": "Charms gain {X} charges per Second",
+   "raws": [
+    "[Charm|Charms] gain 0.15 charges per Second"
+   ],
+   "values": [
+    [
+     [
+      0.15,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_OF_MAX_HEALTH_PER_RAGE_CONSUMED",
+   "path": "consume_all_rage_when_shapeshifting_to_human_form_to_recover_of_max_health_per_rage_consumed",
+   "template": "Consume all Rage when Shapeshifting to Human form to recover {X}% of maximum life per Rage Consumed",
+   "raws": [
+    "Consume all [Rage] when [Shapeshift|Shapeshifting] to Human form to recover 1% of maximum life per [Rage] Consumed"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "CONSUMING_GLORY_GRANTS_YOU_INC_ATTACK_DAMAGE_PER_GLORY_CONSUMED_FOR_SECONDS_UP_TO",
+   "path": "consuming_glory_grants_you_inc_attack_damage_per_glory_consumed_for_seconds_up_to",
+   "template": "Consuming Glory grants you {X}% increased Attack damage per Glory consumed for {X} seconds, up to {X}%",
+   "raws": [
+    "Consuming [Glory] grants you 3% increased [Attack] damage per [Glory] consumed for 6 seconds, up to 60%"
+   ],
+   "values": [
+    [
+     [
+      0.03,
+      "%"
+     ],
+     [
+      6.0,
+      ""
+     ],
+     [
+      0.6,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "ENEMIES_IGNITED_BY_YOU_PERMANENTLY_TAKE_INC_FIRE_DAMAGE_FOR_EACH_SECOND_THEY_HAVE_EVER_BEEN_IGNITED_BY_YOU_UP_TO_A_MAX_OF",
+   "path": "enemies_ignited_by_you_permanently_take_inc_fire_damage_for_each_second_they_have_ever_been_ignited_by_you_up_to_a_max_of",
+   "template": "Enemies Ignited by you permanently take {X}% increased Fire Damage for each second they have ever been Ignited by you, up to a maximum of {X}%",
+   "raws": [
+    "Enemies [Ignite|Ignited] by you permanently take 1% increased [Fire] Damage for each second they have ever been [Ignite|Ignited] by you, up to a maximum of 10%"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ],
+     [
+      0.1,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "ENEMIES_YOU_APPLY_INCISION_TO_TAKE_INC_PHYSICAL_DAMAGE_PER_INCISION",
+   "path": "enemies_you_apply_incision_to_take_inc_physical_damage_per_incision",
+   "template": "Enemies you apply Incision to take {X}% increased Physical Damage per Incision",
+   "raws": [
+    "Enemies you apply [Incision] to take 2% increased [Physical] Damage per [Incision]"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "EVERY_FIVE_RAGE_ALSO_GRANTS_YOU_INC_MINION_ATTACK_SPEED",
+   "path": "every_five_rage_also_grants_you_inc_minion_attack_speed",
+   "template": "Every five Rage also grants you {X}% increased Minion Attack Speed",
+   "raws": [
+    "Every five [Rage] also grants you 2% increased Minion Attack Speed"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "EVERY_RAGE_ALSO_GRANTS_INC_ARMOR",
+   "path": "every_rage_also_grants_inc_armor",
+   "template": "Every Rage also grants {X}% increased Armour",
+   "raws": [
+    "Every [Rage] also grants 1% increased [Armour]"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "EVERY_RAGE_ALSO_GRANTS_INC_STUN_THRESHOLD",
+   "path": "every_rage_also_grants_inc_stun_threshold",
+   "template": "Every Rage also grants {X}% increased Stun Threshold",
+   "raws": [
+    "Every [Rage] also grants 2% increased [StunThreshold|Stun Threshold]"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "GAIN_HEALTH_PER_ENEMY_KILLED",
+   "path": "gain_health_per_enemy_killed",
+   "template": "gain {X} Life per enemy killed",
+   "raws": [
+    "Gain 3 Life per enemy killed",
+    "Gain 5 Life per enemy killed",
+    "Gain 20 Life per enemy killed"
+   ],
+   "values": [
+    [
+     [
+      3.0,
+      ""
+     ]
+    ],
+    [
+     [
+      5.0,
+      ""
+     ]
+    ],
+    [
+     [
+      20.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_PER_ENDURANCE_CHARGE_CONSUMED_RECENTLY",
+   "path": "gain_of_damage_as_extra_fire_damage_per_endurance_charge_consumed_recently",
+   "template": "gain {X}% of Damage as Extra Fire Damage per Endurance Charge consumed Recently",
+   "raws": [
+    "Gain 2% of Damage as Extra [Fire] Damage per [Charges|Endurance Charge] consumed [Recently]"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "HEALTH_FLASKS_APPLIED_TO_YOU_GRANT_GUARD_FOR_SECONDS_EQUAL_TO_OF_THE_HEALTH_RECOVERY_PER_SECOND_THEY_APPLY",
+   "path": "health_flasks_applied_to_you_grant_guard_for_seconds_equal_to_of_the_health_recovery_per_second_they_apply",
+   "template": "Life Flasks applied to you grant Guard for {X} seconds equal to {X}% of the Life Recovery per Second they apply",
+   "raws": [
+    "Life [Flask|Flasks] applied to you grant [Guard] for 4 seconds equal to 8% of the Life Recovery per Second they apply"
+   ],
+   "values": [
+    [
+     [
+      4.0,
+      ""
+     ],
+     [
+      0.08,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND",
+   "path": "health_flasks_gain_charges_per_second",
+   "template": "Life Flasks gain {X} charges per Second",
+   "raws": [
+    "Life [Flask|Flasks] gain 0.1 charges per Second",
+    "Life [Flask|Flasks] gain 0.15 charges per Second"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      ""
+     ]
+    ],
+    [
+     [
+      0.15,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "HEALTH_PER_DEXTERITY",
+   "path": "health_per_dexterity",
+   "template": "+{X} Life per {X} Dexterity",
+   "raws": [
+    "+1 Life per 4 [Dexterity]"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      ""
+     ],
+     [
+      4.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_AREA_OF_EFFECT_FOR_ATTACKS_PER_ENEMY_YOU_VE_IGNITED_IN_THE_LAST_SECONDS_UP_TO",
+   "path": "inc_area_of_effect_for_attacks_per_enemy_you_ve_ignited_in_the_last_seconds_up_to",
+   "template": "{X}% increased Area of Effect for Attacks per Enemy you've Ignited in the last {X} seconds, up to {X}%",
+   "raws": [
+    "4% increased Area of Effect for [Attack|Attacks] per Enemy you've [Ignite|Ignited] in the last 8 seconds, up to 40%"
+   ],
+   "values": [
+    [
+     [
+      0.04,
+      "%"
+     ],
+     [
+      8.0,
+      ""
+     ],
+     [
+      0.4,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_ARMOR_AND_EVASION_PER_SUMMONED_TOTEM_IN_YOUR_PRESENCE",
+   "path": "inc_armor_and_evasion_per_summoned_totem_in_your_presence",
+   "template": "{X}% increased Armour and Evasion Rating per Summoned Totem in your Presence",
+   "raws": [
+    "10% increased [Armour] and [Evasion] Rating per Summoned [Totem] in your [Presence]"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_ATTACK_DAMAGE_FOR_EACH_DIFFERENT_NON_INSTANT_SPELL_YOU_VE_USED_IN_THE_PAST_SECONDS",
+   "path": "inc_attack_damage_for_each_different_non_instant_spell_you_ve_used_in_the_past_seconds",
+   "template": "{X}% increased Attack Damage for each different Non-Instant Spell you've used in the past {X} seconds",
+   "raws": [
+    "12% increased [Attack] Damage for each different Non-Instant [Spell] you've used in the past 8 seconds"
+   ],
+   "values": [
+    [
+     [
+      0.12,
+      "%"
+     ],
+     [
+      8.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_ATTACK_DAMAGE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF",
+   "path": "inc_attack_damage_for_each_minion_in_your_presence_up_to_a_max_of",
+   "template": "{X}% increased Attack Damage for each Minion in your Presence, up to a maximum of {X}%",
+   "raws": [
+    "5% increased [Attack] Damage for each [Minion] in your [Presence], up to a maximum of 80%"
+   ],
+   "values": [
+    [
+     [
+      0.05,
+      "%"
+     ],
+     [
+      0.8,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_ATTACK_DAMAGE_PER_ITEM_ARMOR_AND_ITEM_EVASION_ON_EQUIPPED_SHIELD",
+   "path": "inc_attack_damage_per_item_armor_and_item_evasion_on_equipped_shield",
+   "template": "{X}% increased Attack Damage per {X} Item Armour and ItemEvasion on Equipped Shield",
+   "raws": [
+    "4% increased [Attack] Damage per 75 [ItemArmour|Item Armour] and [ItemEvasion|Evasion] on Equipped Shield",
+    "2% increased [Attack] Damage per 75 [ItemArmour|Item Armour] and [ItemEvasion|Evasion] on Equipped Shield"
+   ],
+   "values": [
+    [
+     [
+      0.04,
+      "%"
+     ],
+     [
+      75.0,
+      ""
+     ]
+    ],
+    [
+     [
+      0.02,
+      "%"
+     ],
+     [
+      75.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_ATTACK_DAMAGE_PER_SUMMONED_TOTEM_IN_YOUR_PRESENCE",
+   "path": "inc_attack_damage_per_summoned_totem_in_your_presence",
+   "template": "{X}% increased Attack Damage per Summoned Totem in your Presence",
+   "raws": [
+    "10% increased [Attack] Damage per Summoned [Totem] in your [Presence]"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_ATTACK_SPEED_PER_ACCURACY_UP_TO",
+   "path": "inc_attack_speed_per_accuracy_up_to",
+   "template": "{X}% increased Attack Speed per {X} Accuracy Rating, up to {X}%",
+   "raws": [
+    "1% increased [Attack] Speed per 400 [Accuracy|Accuracy] Rating, up to 20%"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ],
+     [
+      400.0,
+      ""
+     ],
+     [
+      0.2,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_ATTACK_SPEED_PER_DEXTERITY",
+   "path": "inc_attack_speed_per_dexterity",
+   "template": "{X}% increased Attack Speed per {X} Dexterity",
+   "raws": [
+    "1% increased [Attack] Speed per 25 [Dexterity]"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ],
+     [
+      25.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_ATTACK_SPEED_PER_ENEMY_IN_CLOSE_RANGE",
+   "path": "inc_attack_speed_per_enemy_in_close_range",
+   "template": "{X}% increased Attack Speed per Enemy in Close Range",
+   "raws": [
+    "3% increased [Attack] Speed per Enemy in [CloseRange|Close Range]"
+   ],
+   "values": [
+    [
+     [
+      0.03,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_CAST_SPEED_FOR_EACH_DIFFERENT_SPELL_YOU_VE_CAST_IN_THE_LAST_EIGHT_SECONDS",
+   "path": "inc_cast_speed_for_each_different_spell_you_ve_cast_in_the_last_eight_seconds",
+   "template": "{X}% increased Cast Speed for each different Spell you've Cast in the last eight seconds",
+   "raws": [
+    "6% increased Cast Speed for each different [Spell] you've Cast in the last eight seconds",
+    "4% increased Cast Speed for each different [Spell] you've Cast in the last eight seconds"
+   ],
+   "values": [
+    [
+     [
+      0.06,
+      "%"
+     ]
+    ],
+    [
+     [
+      0.04,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_CAST_SPEED_PER_SPELL_ECHOED_RECENTLY_UP_TO",
+   "path": "inc_cast_speed_per_spell_echoed_recently_up_to",
+   "template": "{X}% increased Cast Speed per Spell Echoed Recently, up to {X}%",
+   "raws": [
+    "6% increased Cast Speed per [Spell|Spell] Echoed [Recently], up to 30%"
+   ],
+   "values": [
+    [
+     [
+      0.06,
+      "%"
+     ],
+     [
+      0.3,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_DAMAGE_FOR_EACH_DIFFERENT_WARCRY_YOU_VE_USED_RECENTLY",
+   "path": "inc_damage_for_each_different_warcry_you_ve_used_recently",
+   "template": "{X}% increased Damage for each different Warcry you've used Recently",
+   "raws": [
+    "20% increased Damage for each different [Warcry|Warcry] you've used [Recently|Recently]"
+   ],
+   "values": [
+    [
+     [
+      0.2,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_DAMAGE_FOR_EACH_HAZARD_TRIGGERED_RECENTLY_UP_TO",
+   "path": "inc_damage_for_each_hazard_triggered_recently_up_to",
+   "template": "{X}% increased Damage for each Hazard triggered Recently, up to {X}%",
+   "raws": [
+    "10% increased Damage for each [Hazard] triggered [Recently], up to 50%"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      "%"
+     ],
+     [
+      0.5,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_DAMAGE_FOR_EACH_TIME_YOU_VE_WARCRIED_RECENTLY",
+   "path": "inc_damage_for_each_time_you_ve_warcried_recently",
+   "template": "{X}% increased Damage for each time you've Warcried Recently",
+   "raws": [
+    "8% increased Damage for each time you've [Warcry|Warcried] [Recently|Recently]"
+   ],
+   "values": [
+    [
+     [
+      0.08,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_DAMAGE_FOR_EACH_TYPE_OF_ELEMENTAL_AILMENT_ON_ENEMY",
+   "path": "inc_damage_for_each_type_of_elemental_ailment_on_enemy",
+   "template": "{X}% increased Damage for each type of Elemental Ailment on Enemy",
+   "raws": [
+    "20% increased Damage for each type of [ElementalAilments|Elemental Ailment] on Enemy"
+   ],
+   "values": [
+    [
+     [
+      0.2,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_DAMAGE_PER_CHANCE_TO_BLOCK",
+   "path": "inc_damage_per_chance_to_block",
+   "template": "{X}% increased Damage per {X}% Chance to Block",
+   "raws": [
+    "1% increased Damage per 1% Chance to [Block|Block]"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ],
+     [
+      0.01,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_DAMAGE_PER_OF_YOUR_LOWEST_ATTRIBUTES",
+   "path": "inc_damage_per_of_your_lowest_attributes",
+   "template": "{X}% increased Damage per {X} of your lowest Attributes",
+   "raws": [
+    "2% increased Damage per 5 of your lowest [Attributes|Attribute]"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ],
+     [
+      5.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_DAMAGE_PER_STRENGTH",
+   "path": "inc_damage_per_strength",
+   "template": "{X}% increased Damage per {X} Strength",
+   "raws": [
+    "1% increased Damage per 15 [Strength]"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ],
+     [
+      15.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_DAMAGE_WITH_CROSSBOWS_FOR_EACH_TYPE_OF_AMMUNITION_FIRED_IN_THE_PAST_SECONDS",
+   "path": "inc_damage_with_crossbows_for_each_type_of_ammunition_fired_in_the_past_seconds",
+   "template": "{X}% increased Damage with Crossbows for each type of Ammunition fired in the past {X} seconds",
+   "raws": [
+    "25% increased Damage with [Crossbow|Crossbows] for each type of [Ammunition|Ammunition] fired in the past 10 seconds"
+   ],
+   "values": [
+    [
+     [
+      0.25,
+      "%"
+     ],
+     [
+      10.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_EVASION_PER_INTELLIGENCE",
+   "path": "inc_evasion_per_intelligence",
+   "template": "{X}% increased Evasion Rating per {X} Intelligence",
+   "raws": [
+    "3% increased [Evasion] Rating per 10 [Intelligence]"
+   ],
+   "values": [
+    [
+     [
+      0.03,
+      "%"
+     ],
+     [
+      10.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_HEALTH_AND_MANA_REGENERATION_RATE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF",
+   "path": "inc_health_and_mana_regeneration_rate_for_each_minion_in_your_presence_up_to_a_max_of",
+   "template": "{X}% increased Life and Mana Regeneration Rate for each Minion in your Presence, up to a maximum of {X}%",
+   "raws": [
+    "5% increased Life and Mana Regeneration Rate for each [Minion] in your [Presence], up to a maximum of 40%"
+   ],
+   "values": [
+    [
+     [
+      0.05,
+      "%"
+     ],
+     [
+      0.4,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_MOVEMENT_SPEED_FOR_EACH_TIME_YOU_VE_BLOCKED_IN_THE_PAST_SECONDS",
+   "path": "inc_movement_speed_for_each_time_you_ve_blocked_in_the_past_seconds",
+   "template": "{X}% increased Movement Speed for each time you've Blocked in the past {X} seconds",
+   "raws": [
+    "1% increased Movement Speed for each time you've Blocked in the past 10 seconds"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ],
+     [
+      10.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_POISON_DURATION_FOR_EACH_POISON_YOU_HAVE_INFLICTED_RECENTLY_UP_TO_A_MAX_OF",
+   "path": "inc_poison_duration_for_each_poison_you_have_inflicted_recently_up_to_a_max_of",
+   "template": "{X}% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of {X}%",
+   "raws": [
+    "10% increased [Poison] Duration for each [Poison] you have inflicted Recently, up to a maximum of 100%"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      "%"
+     ],
+     [
+      1.0,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_SKILL_EFFECT_DURATION_PER_ENEMY_YOU_VE_FREEZE_IN_THE_LAST_SECONDS_UP_TO",
+   "path": "inc_skill_effect_duration_per_enemy_you_ve_freeze_in_the_last_seconds_up_to",
+   "template": "{X}% increased Skill Effect Duration per Enemy you've Freeze in the last {X} seconds, up to {X}%",
+   "raws": [
+    "8% increased Skill Effect Duration per Enemy you've [Freeze|Frozen] in the last 8 seconds, up to 40%"
+   ],
+   "values": [
+    [
+     [
+      0.08,
+      "%"
+     ],
+     [
+      8.0,
+      ""
+     ],
+     [
+      0.4,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_SPELL_DAMAGE_FOR_EACH_DIFFERENT_NON_INSTANT_ATTACK_YOU_VE_USED_IN_THE_PAST_SECONDS",
+   "path": "inc_spell_damage_for_each_different_non_instant_attack_you_ve_used_in_the_past_seconds",
+   "template": "{X}% increased Spell Damage for each different Non-Instant Attack you've used in the past {X} seconds",
+   "raws": [
+    "12% increased [Spell] Damage for each different Non-Instant [Attack] you've used in the past 8 seconds"
+   ],
+   "values": [
+    [
+     [
+      0.12,
+      "%"
+     ],
+     [
+      8.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_SPELL_DAMAGE_PER_MAX_MANA",
+   "path": "inc_spell_damage_per_max_mana",
+   "template": "{X}% increased Spell Damage per {X} maximum Mana",
+   "raws": [
+    "3% increased [Spell] Damage per 100 maximum Mana"
+   ],
+   "values": [
+    [
+     [
+      0.03,
+      "%"
+     ],
+     [
+      100.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_SPELL_DAMAGE_PER_STRENGTH",
+   "path": "inc_spell_damage_per_strength",
+   "template": "{X}% increased Spell Damage per {X} Strength",
+   "raws": [
+    "2% increased Spell Damage per 10 [Strength]"
+   ],
+   "values": [
+    [
+     [
+      0.02,
+      "%"
+     ],
+     [
+      10.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_STUN_THRESHOLD_FOR_EACH_TIME_YOU_VE_BEEN_HIT_DAMAGE_BY_AN_ENEMY_RECENTLY_UP_TO",
+   "path": "inc_stun_threshold_for_each_time_you_ve_been_hit_damage_by_an_enemy_recently_up_to",
+   "template": "{X}% increased Stun Threshold for each time you've been HitDamage by an Enemy Recently, up to {X}%",
+   "raws": [
+    "10% increased [StunThreshold|Stun Threshold] for each time you've been [HitDamage|Hit] by an Enemy [Recently], up to 100%"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      "%"
+     ],
+     [
+      1.0,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INC_STUN_THRESHOLD_FOR_EACH_TIME_YOU_VE_BEEN_STUNNED_RECENTLY",
+   "path": "inc_stun_threshold_for_each_time_you_ve_been_stunned_recently",
+   "template": "{X}% increased Stun Threshold for each time you've been Stunned Recently",
+   "raws": [
+    "100% increased [StunThreshold|Stun Threshold] for each time you've been [Stun|Stunned] [Recently]"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "INVOCATION_SKILLS_INSTEAD_TRIGGER_SPELLS_EVERY_SECONDS",
+   "path": "invocation_skills_instead_trigger_spells_every_seconds",
+   "template": "Invocation Skills instead Trigger Spells every {X} seconds",
+   "raws": [
+    "[Invoke|Invocation] Skills instead [Trigger] [Spell|Spells] every 2 seconds"
+   ],
+   "values": [
+    [
+     [
+      2.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "MANA_FLASKS_GAIN_CHARGES_PER_SECOND",
+   "path": "mana_flasks_gain_charges_per_second",
+   "template": "Mana Flasks gain {X} charges per Second",
+   "raws": [
+    "Mana [Flask|Flasks] gain 0.1 charges per Second"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "MINIONS_DEAL_INC_DAMAGE_WITH_COMMAND_SKILLS_FOR_EACH_DIFFERENT_TYPE_OF_PERSISTENT_MINION_IN_YOUR_PRESENCE",
+   "path": "minions_deal_inc_damage_with_command_skills_for_each_different_type_of_persistent_minion_in_your_presence",
+   "template": "Minions deal {X}% increased Damage with Command Skills for each different type of Persistent Minion in your Presence",
+   "raws": [
+    "[Minion|Minions] deal 10% increased Damage with [Command] Skills for each different type of [Persistent] [Minion] in your [Presence]"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "OF_PHYSICAL_DAMAGE_PREVENTED_RECOUPED_AS_ENERGY_SHIELD_PER_ENEMY_POWER",
+   "path": "of_physical_damage_prevented_recouped_as_energy_shield_per_enemy_power",
+   "template": "{X}% of Physical Damage prevented Recouped as Energy Shield per enemy Power",
+   "raws": [
+    "5% of [Physical] Damage prevented [Recoup|Recouped] as [EnergyShield|Energy Shield] per enemy [Power]"
+   ],
+   "values": [
+    [
+     [
+      0.05,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_IF_YOU_VE_USED_A_HEALTH_FLASK_IN_THE_PAST_SECONDS",
+   "path": "regenerate_of_max_health_per_second_if_you_ve_used_a_health_flask_in_the_past_seconds",
+   "template": "Regenerate {X}% of maximum Life per Second if you've used a Life Flask in the past {X} seconds",
+   "raws": [
+    "Regenerate 1% of maximum Life per Second if you've used a Life [Flask] in the past 10 seconds"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ],
+     [
+      10.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_YOU_HAVE_A_TOTEM",
+   "path": "regenerate_of_max_health_per_second_while_you_have_a_totem",
+   "template": "Regenerate {X}% of maximum Life per second while you have a Totem",
+   "raws": [
+    "Regenerate 1% of maximum Life per second while you have a [Totem|Totem]"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "REGENERATE_RAGE_PER_SECOND_PER_RAGE_SPENT_RECENTLY",
+   "path": "regenerate_rage_per_second_per_rage_spent_recently",
+   "template": "Regenerate {X} Rage per second per {X} Rage spent Recently",
+   "raws": [
+    "Regenerate 1 [Rage] per second per 4 [Rage] spent [Recently]"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      ""
+     ],
+     [
+      4.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "SKILLS_DEAL_INC_DAMAGE_PER_COMBO_CONSUMED_UP_TO",
+   "path": "skills_deal_inc_damage_per_combo_consumed_up_to",
+   "template": "Skills deal {X}% increased Damage per Combo consumed, up to {X}%",
+   "raws": [
+    "Skills deal 8% increased Damage per [Combo] consumed, up to 40%"
+   ],
+   "values": [
+    [
+     [
+      0.08,
+      "%"
+     ],
+     [
+      0.4,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "SKILLS_GAIN_GLORY_EVERY_SECONDS_FOR_EACH_RARE_OR_UNIQUE_MONSTER_IN_YOUR_PRESENCE",
+   "path": "skills_gain_glory_every_seconds_for_each_rare_or_unique_monster_in_your_presence",
+   "template": "Skills gain {X} Glory every {X} seconds for each Rare or Unique monster in your Presence",
+   "raws": [
+    "Skills gain 1 [Glory] every 2 seconds for each [Rarity|Rare or Unique] monster in your [Presence]"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      ""
+     ],
+     [
+      2.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "SPELLS_CAST_BY_TOTEMS_HAVE_INC_CAST_SPEED_PER_SUMMONED_TOTEM",
+   "path": "spells_cast_by_totems_have_inc_cast_speed_per_summoned_totem",
+   "template": "Spells Cast by Totems have {X}% increased Cast Speed per Summoned Totem",
+   "raws": [
+    "[Spell|Spells] Cast by [Totem|Totems] have 3% increased Cast Speed per Summoned [Totem|Totem]"
+   ],
+   "values": [
+    [
+     [
+      0.03,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "TO_AILMENT_THRESHOLD_PER_DEXTERITY",
+   "path": "to_ailment_threshold_per_dexterity",
+   "template": "+{X} to Ailment Threshold per Dexterity",
+   "raws": [
+    "+4 to [AilmentThreshold|Ailment Threshold] per [Dexterity|Dexterity]"
+   ],
+   "values": [
+    [
+     [
+      4.0,
+      "to"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "TO_ARMOR_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_BOOTS",
+   "path": "to_armor_per_item_energy_shield_on_equipped_boots",
+   "template": "+{X} to Armour per {X} Item Energy Shield on Equipped Boots",
+   "raws": [
+    "+2 to [Armour] per 1 [ItemEnergyShield|Item Energy Shield] on Equipped Boots"
+   ],
+   "values": [
+    [
+     [
+      2.0,
+      "to"
+     ],
+     [
+      1.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "TO_EVASION_PER_ITEM_ARMOR_ON_EQUIPPED_GLOVES",
+   "path": "to_evasion_per_item_armor_on_equipped_gloves",
+   "template": "+{X} to Evasion Rating per {X} Item Armour on Equipped Gloves",
+   "raws": [
+    "+1 to [Evasion] Rating per 1 [ItemArmour|Item Armour] on Equipped Gloves"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      "to"
+     ],
+     [
+      1.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "TO_EVASION_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_HELMET",
+   "path": "to_evasion_per_item_energy_shield_on_equipped_helmet",
+   "template": "+{X} to Evasion Rating per {X} Item Energy Shield on Equipped Helmet",
+   "raws": [
+    "+1 to [Evasion] Rating per 1 [ItemEnergyShield|Item Energy Shield] on Equipped Helmet"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      "to"
+     ],
+     [
+      1.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "TO_MAX_ENERGY_SHIELD_PER_ITEM_ARMOR_ON_EQUIPPED_HELMET",
+   "path": "to_max_energy_shield_per_item_armor_on_equipped_helmet",
+   "template": "+{X} to Maximum Energy Shield per {X} Item Armour on Equipped Helmet",
+   "raws": [
+    "+1 to Maximum [EnergyShield|Energy Shield] per 8 [ItemArmour|Item Armour] on Equipped Helmet"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      "to"
+     ],
+     [
+      8.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "TO_MAX_ENERGY_SHIELD_PER_ITEM_EVASION_ON_EQUIPPED_BODY_ARMOR",
+   "path": "to_max_energy_shield_per_item_evasion_on_equipped_body_armor",
+   "template": "+{X} to Maximum Energy Shield per {X} Item Evasion on Equipped Body Armour",
+   "raws": [
+    "+1 to Maximum [EnergyShield|Energy Shield] per 12 [ItemEvasion|Item Evasion] on Equipped Body Armour"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      "to"
+     ],
+     [
+      12.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "TO_STUN_THRESHOLD_PER_DEXTERITY",
+   "path": "to_stun_threshold_per_dexterity",
+   "template": "+{X} to Stun Threshold per Dexterity",
+   "raws": [
+    "+1 to [StunThreshold|Stun Threshold] per [Dexterity|Dexterity]"
+   ],
+   "values": [
+    [
+     [
+      1.0,
+      "to"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "TO_STUN_THRESHOLD_PER_STRENGTH",
+   "path": "to_stun_threshold_per_strength",
+   "template": "+{X} to Stun Threshold per Strength",
+   "raws": [
+    "+3 to [StunThreshold|Stun Threshold] per [Strength|Strength]"
+   ],
+   "values": [
+    [
+     [
+      3.0,
+      "to"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "UNARMED_ATTACKS_THAT_WOULD_USE_AN_EQUIPPED_QUARTERSTAFF_S_DAMAGE_HAVE_BASE_UNARMED_DAMAGE_PHYSICAL_DAMAGE_REPLACED_WITH_DAMAGE_BASED_ON_THEIR_SKILL_LEVEL_MORE_ATTACK_SPEED_PER_ITEM_EVASION_ON_EQUIPPED_ARMOR_ITEMS_TO_CRITICAL_HIT_CHANCE_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_ARMOR_ITEMS",
+   "path": "unarmed_attacks_that_would_use_an_equipped_quarterstaff_s_damage_have_base_unarmed_damage_physical_damage_replaced_with_damage_based_on_their_skill_level_more_attack_speed_per_item_evasion_on_equipped_armor_items_to_critical_hit_chance_per_item_energy_shield_on_equipped_armor_items",
+   "template": "Unarmed Attacks that would use an Equipped Quarterstaff's damage have: • Base UnarmedDamage Physical damage replaced with damage based on their Skill Level • {X}% more Attack Speed per {X} Item Evasion on Equipped Armour Items • +{X}% to Critical Hit Chance per {X} Item Energy Shield on Equipped Armour Items",
+   "raws": [
+    "[UnarmedAttack|Unarmed Attacks] that would use an [Equipped] [Quarterstaff]'s damage have: • Base [UnarmedDamage|Unarmed] [Physical] damage replaced with damage based on their Skill Level • 1% more [Attack] Speed per 75 [ItemEvasion|Item Evasion] on [EquipArmour|Equipped Armour Items] • +0.1% to [Critical|Critical Hit Chance] per 10 [ItemEnergyShield|Item Energy Shield] on [EquipArmour|Equipped Armour Items]"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ],
+     [
+      75.0,
+      ""
+     ],
+     [
+      0.001,
+      "%"
+     ],
+     [
+      10.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "VOLATILE_POWER_ALSO_GRANTS_INC_CRITICAL_HIT_CHANCE_PER_VOLATILITY_EXPLODED",
+   "path": "volatile_power_also_grants_inc_critical_hit_chance_per_volatility_exploded",
+   "template": "Volatile Power also grants {X}% increased Critical Hit chance per Volatility exploded",
+   "raws": [
+    "[Volatility|Volatile Power] also grants 1% increased [Critical|Critical Hit chance] per [Volatility] exploded"
+   ],
+   "values": [
+    [
+     [
+      0.01,
+      "%"
+     ]
+    ]
+   ],
+   "wired": false
+  },
+  {
+   "constant": "WHEN_YOU_SHAPESHIFT_TO_HUMAN_FORM_GAIN_INC_SPELL_DAMAGE_PER_SECOND_YOU_WERE_SHAPESHIFTED_UP_TO_A_MAX_OF_FOR_SECONDS",
+   "path": "when_you_shapeshift_to_human_form_gain_inc_spell_damage_per_second_you_were_shapeshifted_up_to_a_max_of_for_seconds",
+   "template": "When you Shapeshift to Human form, gain {X}% increased Spell Damage per second you were Shapeshifted, up to a maximum of {X}%, for {X} seconds",
+   "raws": [
+    "When you [Shapeshift] to Human form, gain 10% increased [Spell] Damage per second you were [Shapeshift|Shapeshifted], up to a maximum of 80%, for 8 seconds"
+   ],
+   "values": [
+    [
+     [
+      0.1,
+      "%"
+     ],
+     [
+      0.8,
+      "%"
+     ],
+     [
+      8.0,
+      ""
+     ]
+    ]
+   ],
+   "wired": false
+  }
+ ],
+ "wired_constants": [
+  "ALLIES_IN_YOUR_PRESENCE_REGENERATE_OF_YOUR_MAX_HEALTH_PER_SECOND",
+  "DAMAGE_PENETRATES_ELEMENTAL_DAMAGE_RESISTANCES_FOR_EACH_TIME_YOU_VE_USED_A_SKILL_THAT_REQUIRES_GLORY_IN_THE_PAST_SECONDS",
+  "EVERY_RAGE_ALSO_GRANTS_INC_FIRE_DAMAGE",
+  "EVERY_RAGE_ALSO_GRANTS_INC_PHYSICAL_DAMAGE",
+  "EVERY_RAGE_ALSO_GRANTS_INC_SPELL_DAMAGE",
+  "EVERY_RAGE_ALSO_GRANTS_YOU_INC_MINION_DAMAGE",
+  "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_FOR_EVERY_DIFFERENT_GRENADE_FIRED_IN_THE_PAST_SECONDS",
+  "INC_DAMAGE_PER_CURSE_ON_YOU",
+  "INC_FIRE_DAMAGE_PER_ENDURANCE_CHARGE_CONSUMED_RECENTLY",
+  "MINIONS_REGENERATE_OF_MAX_HEALTH_PER_SECOND",
+  "RECOVER_OF_MAX_HEALTH_FOR_EACH_ENDURANCE_CHARGE_CONSUMED",
+  "RECOVER_OF_MAX_HEALTH_PER_GLORY_CONSUMED",
+  "REGENERATE_OF_MAX_HEALTH_PER_SECOND",
+  "REGENERATE_OF_MAX_HEALTH_PER_SECOND_IF_YOU_HAVE_BEEN_HIT_RECENTLY",
+  "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_AFFECTED_BY_ANY_DAMAGING_AILMENT",
+  "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_ON_LOW_HEALTH",
+  "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_STATIONARY",
+  "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_SURROUNDED",
+  "TOTEMS_REGENERATE_OF_MAX_HEALTH_PER_SECOND"
+ ]
+}

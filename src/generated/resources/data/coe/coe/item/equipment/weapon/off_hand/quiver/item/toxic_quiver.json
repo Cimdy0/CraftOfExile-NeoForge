@@ -1,0 +1,8 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/off_hand/quiver/template/none",
+    "reqs": {
+      "l": 39.0
+    }
+  }
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_blinded_enemies",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "10011",
+    "links": [
+      "28441",
+      "32721"
+    ],
+    "x": 6344.7,
+    "y": -1933.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_blinded_enemies",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkaccuracychakra",
+    "id": "4467",
+    "links": [
+      "42347",
+      "8302"
+    ],
+    "x": 11018.8,
+    "y": -2253.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_blinded_enemies",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "5988",
+    "links": [
+      "38459",
+      "61373"
+    ],
+    "x": 4068.87,
+    "y": 1041.23
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_blinded_enemies",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "61373",
+    "links": [
+      "5988",
+      "63610",
+      "65009"
+    ],
+    "x": 4216.1,
+    "y": 792.235
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_blinded_enemies",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkaccuracychakra",
+    "id": "8302",
+    "links": [
+      "42974",
+      "4467"
+    ],
+    "x": 10802.3,
+    "y": -2292.64
+  }
+]

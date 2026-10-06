@@ -1,0 +1,29 @@
+{
+  "aliases": [
+    "Critical Hit",
+    "Critical",
+    "Crit",
+    "暴击",
+    "暴击率"
+  ],
+  "description": [
+    [
+      "$[critical]",
+      "会将该次命中的",
+      "$[damage]",
+      "乘以暴击伤害加成。"
+    ],
+    [
+      "暴击率与",
+      "$[brittle]",
+      "都会提高打出",
+      "$[critical]",
+      "的几率。"
+    ]
+  ],
+  "id": "critical",
+  "keys": [
+    "coe:keyword.critical"
+  ],
+  "title": "@coe:keyword.critical"
+}

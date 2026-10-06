@@ -1,0 +1,23 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_inflict_bleeding_on_cannot_regenerate_health"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "33229",
+    "links": [
+      "64996",
+      "8938"
+    ],
+    "x": 4326.12,
+    "y": -10969.2
+  }
+]

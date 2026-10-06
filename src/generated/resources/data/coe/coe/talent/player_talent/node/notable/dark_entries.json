@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_level_of_all_chaos_skills",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "63074",
+    "links": [
+      "63891"
+    ],
+    "x": 2070.55,
+    "y": -11153.8
+  }
+]

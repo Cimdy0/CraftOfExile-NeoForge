@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_critical_hit_chance",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_meleeaoenode",
+    "id": "38663",
+    "links": [
+      "3516",
+      "39564",
+      "49618"
+    ],
+    "x": -2370.07,
+    "y": 7379.36
+  }
+]

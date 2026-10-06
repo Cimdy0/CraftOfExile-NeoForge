@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_lightning_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningstr",
+    "id": "4442",
+    "links": [
+      "59886",
+      "62034"
+    ],
+    "x": -9598.33,
+    "y": 999.917
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_lightning_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningstr",
+    "id": "59886",
+    "links": [
+      "23307",
+      "4442"
+    ],
+    "x": -9169.88,
+    "y": 988.325
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "group",
+    "nodes": [
+      {
+        "type": "living_state",
+        "mode": "moving"
+      },
+      {
+        "type": "skill_using_element",
+        "element": "fire"
+      }
+    ]
+  },
+  "effect": "coe:stat/effect/inline_attribute_1232",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": [
+    "Intelligence",
+    "智慧",
+    "智力"
+  ],
+  "description": [
+    [
+      "$[intelligence]",
+      "是一种提供",
+      "$[energy_shield]",
+      "与",
+      "$[mana]",
+      "的",
+      "$[attribute]",
+      "。"
+    ]
+  ],
+  "id": "intelligence",
+  "keys": [
+    "coe:keyword.intelligence"
+  ],
+  "title": "@coe:keyword.intelligence"
+}

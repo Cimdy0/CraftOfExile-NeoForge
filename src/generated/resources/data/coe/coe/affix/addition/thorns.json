@@ -1,0 +1,15 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:thorns",
+      "value_var": "min"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:thorns",
+      "value_var": "max"
+    }
+  ]
+}

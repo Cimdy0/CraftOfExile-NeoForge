@@ -1,0 +1,52 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:found_item_rarity_inc"
+      },
+      "tiers": [
+        {
+          "level": 3,
+          "name": "of_plunder",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 6.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 24,
+          "name": "of_raiding",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 14.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 40,
+          "name": "of_archaeology",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 18.0,
+              "min": 15.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:feet",
+      "coe:head",
+      "coe:legs"
+    ]
+  }
+}

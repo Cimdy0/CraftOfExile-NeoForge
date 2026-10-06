@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_damage_converted_to_fire_damage",
+            "vars": {
+              "value": 0.75
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:deal_no_non_fire_damage",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_keystoneavataroffire",
+    "id": "18684",
+    "links": [
+      "27296"
+    ],
+    "x": -10198.3,
+    "y": 3732.13
+  }
+]

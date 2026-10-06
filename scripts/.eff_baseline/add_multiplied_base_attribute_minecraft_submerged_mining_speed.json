@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "minecraft:submerged_mining_speed",
+  "operation": "add_multiplied_base"
+}

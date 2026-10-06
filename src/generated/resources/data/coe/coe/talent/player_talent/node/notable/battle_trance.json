@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_rage",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "37276",
+    "links": [
+      "52373"
+    ],
+    "x": -5667.08,
+    "y": 8986.91
+  }
+]

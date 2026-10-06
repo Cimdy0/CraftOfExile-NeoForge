@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_cannot_be_light_stunned_if_you_ve_been_stunned_recently",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "26479",
+    "links": [
+      "64324",
+      "6900"
+    ],
+    "x": -7894.8,
+    "y": 5850.06
+  }
+]

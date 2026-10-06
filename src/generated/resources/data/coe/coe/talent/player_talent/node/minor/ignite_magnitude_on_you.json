@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_ignite_on_you",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "17885",
+    "links": [
+      "11392",
+      "23630"
+    ],
+    "x": -11171.9,
+    "y": -2340.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_ignite_on_you",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "19794",
+    "links": [
+      "23630",
+      "51868"
+    ],
+    "x": -11505.9,
+    "y": -2340.06
+  }
+]

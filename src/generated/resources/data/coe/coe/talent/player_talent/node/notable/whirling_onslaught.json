@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_onslaught_on_killing_blow_with_axes",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damageaxe",
+    "id": "11178",
+    "links": [
+      "39448"
+    ],
+    "x": -9362.64,
+    "y": 6637.0
+  }
+]

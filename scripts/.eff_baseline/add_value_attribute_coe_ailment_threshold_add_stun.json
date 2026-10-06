@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_threshold_add",
+  "operation": "add_value",
+  "tags": [
+    "stun"
+  ]
+}

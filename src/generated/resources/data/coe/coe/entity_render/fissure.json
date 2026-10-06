@@ -1,0 +1,31 @@
+{
+  "layers": [
+    {
+      "coe:particle_ring": {
+        "interval": 8,
+        "particle": {
+          "type": "minecraft:smoke"
+        },
+        "samples": 14,
+        "speed": 0.01,
+        "y_offset": 0.05
+      }
+    },
+    {
+      "coe:particle_point": {
+        "interval": 8,
+        "particle": {
+          "type": "minecraft:poof"
+        },
+        "spread": 0.15,
+        "y_offset": 0.05
+      }
+    },
+    {
+      "coe:model": {
+        "scale": 0.45,
+        "texture": "coe:textures/entity/prop/hazard"
+      }
+    }
+  ]
+}

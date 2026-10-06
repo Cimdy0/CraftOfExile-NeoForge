@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:gain_physical_damage_as_extra"
+    }
+  ]
+}

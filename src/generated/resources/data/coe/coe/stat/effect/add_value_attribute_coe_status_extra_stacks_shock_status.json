@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:status_extra_stacks",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "shock"
+      },
+      {
+        "tag": "status"
+      }
+    ]
+  }
+}

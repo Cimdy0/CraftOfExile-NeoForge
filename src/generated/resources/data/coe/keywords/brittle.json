@@ -1,0 +1,24 @@
+{
+  "aliases": [
+    "Brittle",
+    "脆弱"
+  ],
+  "description": [
+    [
+      "$[brittle]",
+      "是一种强力的冰霜异常，会为攻击者的暴击率提供加成。"
+    ],
+    [
+      "它对应",
+      "$[scorch]",
+      "（火焰）与",
+      "$[sap]",
+      "（闪电）。"
+    ]
+  ],
+  "id": "brittle",
+  "keys": [
+    "coe:keyword.brittle"
+  ],
+  "title": "@coe:keyword.brittle"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:skill_level_bonus",
+  "operation": "add_value",
+  "tags": {
+    "tag": "cold"
+  }
+}

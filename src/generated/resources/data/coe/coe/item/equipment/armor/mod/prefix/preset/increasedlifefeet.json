@@ -1,0 +1,123 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_max_health"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "hale",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 10.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 6,
+          "name": "healthy",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 29.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 16,
+          "name": "sanguine",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 39.0,
+              "min": 30.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 24,
+          "name": "stalwart",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 59.0,
+              "min": 40.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 33,
+          "name": "stout",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 69.0,
+              "min": 60.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 38,
+          "name": "robust",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 84.0,
+              "min": 70.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 46,
+          "name": "rotund",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 99.0,
+              "min": 85.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 54,
+          "name": "virile",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 119.0,
+              "min": 100.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "athlete_s",
+          "tier": 9,
+          "values": {
+            "value": {
+              "max": 149.0,
+              "min": 120.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:feet",
+      "coe:legs"
+    ]
+  }
+}

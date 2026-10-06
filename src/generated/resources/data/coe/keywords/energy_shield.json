@@ -1,0 +1,32 @@
+{
+  "aliases": [
+    "Energy Shield",
+    "ES",
+    "能量护盾",
+    "护盾"
+  ],
+  "description": [
+    [
+      "$[energy_shield]",
+      "会在",
+      "$[life]",
+      "之前吸收",
+      "$[damage]",
+      "，并在一段时间未受",
+      "$[damage]",
+      "后再生。"
+    ],
+    [
+      "常会与",
+      "$[ward]",
+      "、",
+      "$[evasion]",
+      "搭配。"
+    ]
+  ],
+  "id": "energy_shield",
+  "keys": [
+    "coe:keyword.energy_shield"
+  ],
+  "title": "@coe:keyword.energy_shield"
+}

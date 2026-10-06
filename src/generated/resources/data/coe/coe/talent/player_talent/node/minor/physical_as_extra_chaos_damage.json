@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_chaos_damage",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "45086",
+    "links": [
+      "34520",
+      "58002"
+    ],
+    "x": 2474.92,
+    "y": -7440.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_chaos_damage",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "witchbonestorm",
+    "id": "55575",
+    "links": [
+      "34520",
+      "58002"
+    ],
+    "x": 2706.85,
+    "y": -7208.19
+  }
+]

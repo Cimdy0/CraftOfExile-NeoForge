@@ -1,0 +1,210 @@
+[
+ {
+  "sid": "INC_AREA_OF_EFFECT_IF_YOU_VE_STUNNED_AN_ENEMY_WITH_A_TWO_HANDED_MELEE_WEAPON_RECENTLY",
+  "base": "INC_AREA_OF_EFFECT",
+  "scope": [
+   "MELEE"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTRIBUTE_COE_AREA_OF_EFFECT_MELEE",
+  "attr": "EFFECT_AREA",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "AREA",
+   "MELEE"
+  ]
+ },
+ {
+  "sid": "INC_ATTACK_SPEED_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "base": "INC_ATTACK_SPEED",
+  "scope": [
+   "COMPANION"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COMPANION_MINECRAFT_ATTACK_SPEED",
+  "attr": "ATTACK_SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "COMPANION"
+  ]
+ },
+ {
+  "sid": "INC_CHAOS_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_PLAGUE",
+  "base": "INC_CHAOS_DAMAGE",
+  "scope": [
+   "HERALD"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "HERALD"
+  ]
+ },
+ {
+  "sid": "INC_COLD_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ICE",
+  "base": "INC_COLD_DAMAGE",
+  "scope": [
+   "HERALD"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "HERALD"
+  ]
+ },
+ {
+  "sid": "INC_COOLDOWN_RECOVERY_RATE_FOR_GRENADE_SKILLS",
+  "base": "INC_COOLDOWN_RECOVERY_RATE",
+  "scope": [
+   "GRENADE"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE_GRENADE",
+  "attr": "COOLDOWN_RECOVERY_RATE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "GRENADE"
+  ]
+ },
+ {
+  "sid": "INC_DAMAGE_FOR_EACH_DIFFERENT_WARCRY_YOU_VE_USED_RECENTLY",
+  "base": "INC_DAMAGE",
+  "scope": [
+   "WARCRY"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_WARCRY",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "WARCRY"
+  ]
+ },
+ {
+  "sid": "INC_DAMAGE_FOR_EACH_HAZARD_TRIGGERED_RECENTLY_UP_TO",
+  "base": "INC_DAMAGE",
+  "scope": [
+   "HAZARD"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HAZARD",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "HAZARD"
+  ]
+ },
+ {
+  "sid": "INC_DAMAGE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "base": "INC_DAMAGE",
+  "scope": [
+   "COMPANION"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COMPANION_DAMAGE",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "COMPANION",
+   "DAMAGE"
+  ]
+ },
+ {
+  "sid": "INC_DAMAGE_WHILE_YOU_HAVE_A_TOTEM",
+  "base": "INC_DAMAGE",
+  "scope": [
+   "TOTEM"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_TOTEM",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "TOTEM"
+  ]
+ },
+ {
+  "sid": "INC_FIRE_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ASH",
+  "base": "INC_FIRE_DAMAGE",
+  "scope": [
+   "HERALD"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "HERALD"
+  ]
+ },
+ {
+  "sid": "INC_LIGHTNING_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_THUNDER",
+  "base": "INC_LIGHTNING_DAMAGE",
+  "scope": [
+   "HERALD"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "HERALD"
+  ]
+ },
+ {
+  "sid": "INC_PHYSICAL_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_BLOOD",
+  "base": "INC_PHYSICAL_DAMAGE",
+  "scope": [
+   "HERALD"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "HERALD"
+  ]
+ },
+ {
+  "sid": "INC_PROJECTILE_DAMAGE_IF_YOU_VE_DEALT_A_MELEE_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "base": "INC_PROJECTILE_DAMAGE",
+  "scope": [
+   "MELEE"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "MELEE"
+  ]
+ },
+ {
+  "sid": "INC_SPELL_DAMAGE_WHILE_WIELDING_A_MELEE_WEAPON",
+  "base": "INC_SPELL_DAMAGE",
+  "scope": [
+   "MELEE"
+  ],
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE",
+  "attr": "DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "tags": [
+   "DAMAGE",
+   "MELEE"
+  ]
+ },
+ {
+  "sid": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_YOU_HAVE_A_TOTEM",
+  "base": "REGENERATE_OF_MAX_HEALTH_PER_SECOND",
+  "scope": [
+   "TOTEM"
+  ],
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_REGENERATION_HEALTH_REGEN_TOTEM",
+  "attr": "MAX_REGENERATION",
+  "op": "ADD_VALUE",
+  "tags": [
+   "HEALTH",
+   "REGEN",
+   "TOTEM"
+  ]
+ }
+]

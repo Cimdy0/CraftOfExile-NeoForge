@@ -1,0 +1,129 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "multi",
+      "parts": [
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:add_max_mana"
+          },
+          "key": "value"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "sapper_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 15.0
+          },
+          "value_2": {
+            "max": 20.0,
+            "min": 17.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 11,
+        "name": "saboteur_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 20.0
+          },
+          "value_2": {
+            "max": 24.0,
+            "min": 21.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 23,
+        "name": "tinkerer_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 29.0,
+            "min": 25.0
+          },
+          "value_2": {
+            "max": 28.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 35,
+        "name": "mechanic_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 30.0
+          },
+          "value_2": {
+            "max": 33.0,
+            "min": 29.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 48,
+        "name": "engineer_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 39.0,
+            "min": 35.0
+          },
+          "value_2": {
+            "max": 37.0,
+            "min": 34.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 63,
+        "name": "inventor_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 44.0,
+            "min": 40.0
+          },
+          "value_2": {
+            "max": 41.0,
+            "min": 38.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 78,
+        "name": "artificer_s",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 49.0,
+            "min": 45.0
+          },
+          "value_2": {
+            "max": 45.0,
+            "min": 42.0
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

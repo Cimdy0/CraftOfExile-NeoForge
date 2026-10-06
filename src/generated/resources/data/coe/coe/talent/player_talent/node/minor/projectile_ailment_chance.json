@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_chance_to_inflict_ailments_with_projectiles",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeedbow",
+    "id": "1995",
+    "links": [
+      "30341"
+    ],
+    "x": 4791.75,
+    "y": 2293.82
+  }
+]

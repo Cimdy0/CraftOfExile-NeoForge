@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_pierce_an_enemy",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "31918",
+    "links": [
+      "33245",
+      "42302",
+      "4534",
+      "60323"
+    ],
+    "x": 7169.05,
+    "y": 2252.47
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_pierce_an_enemy",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "51728",
+    "links": [
+      "51944",
+      "6505"
+    ],
+    "x": 699.787,
+    "y": 9607.14
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_pierce_an_enemy",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "6505",
+    "links": [
+      "51728",
+      "55060"
+    ],
+    "x": 830.628,
+    "y": 9397.7
+  }
+]

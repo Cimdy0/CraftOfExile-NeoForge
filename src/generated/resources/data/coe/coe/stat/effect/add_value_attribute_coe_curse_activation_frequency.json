@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:curse_activation_frequency",
+  "operation": "add_value"
+}

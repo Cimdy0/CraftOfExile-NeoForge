@@ -1,0 +1,55 @@
+{
+  "cast": {
+    "crit": 0.1,
+    "time": 16.0
+  },
+  "cast_particle": "minecraft:cloud",
+  "cast_sound": "minecraft:block.beacon.activate",
+  "cost": [
+    {
+      "value": "coe:level_table(12, 14, 17, 20, 23, 26, 30, 34, 39, 44, 49, 55, 62, 69, 77, 86, 95, 105, 117, 129, 142, 157, 172, 189, 208, 228, 250, 274, 300, 328, 359, 392, 428, 467, 509, 555, 605, 658, 716, 779)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:level_table(4.5, 6, 8, 10, 13, 16, 19.5, 23, 28, 32.5, 38.5, 44.5, 51.5, 60, 69, 79.5, 91, 104, 119.5, 137, 156.5, 178.5, 203.5, 232.5, 266, 303.5, 347, 397, 453.5, 519, 594, 681, 780.5, 896, 1029, 1183, 1362, 1569, 1810, 2090)",
+                "can_crit": 1.0,
+                "damage_type": "lightning"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_infusion_remnant": {
+                "kind": "lightning"
+              }
+            },
+            "trigger": "on_pickup"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_orb": {
+            "radius": 3.5999999046325684,
+            "ref": {
+              "ref": "coe:orb",
+              "render": "coe:blue/orb_of_storms"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "storm"
+  ]
+}

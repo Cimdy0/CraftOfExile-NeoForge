@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_daggers",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "3419",
+    "links": [
+      "20429",
+      "30973",
+      "722"
+    ],
+    "x": 10041.5,
+    "y": -4728.01
+  }
+]

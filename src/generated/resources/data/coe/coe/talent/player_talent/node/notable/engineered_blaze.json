@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_area_of_effect_for_attacks_per_enemy_you_ve_ignited_in_the_last_seconds_up_to",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "2814",
+    "links": [
+      "41447",
+      "50516"
+    ],
+    "x": 3360.93,
+    "y": 10998.1
+  }
+]

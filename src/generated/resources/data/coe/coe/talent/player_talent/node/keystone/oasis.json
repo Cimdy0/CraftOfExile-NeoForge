@@ -1,0 +1,34 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:cannot_use_charms"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_recovery_from_flasks",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_oasiskeystone2",
+    "id": "25100",
+    "links": [
+      "16484"
+    ],
+    "x": 3733.3,
+    "y": 5789.19
+  }
+]

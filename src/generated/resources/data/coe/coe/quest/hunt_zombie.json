@@ -1,0 +1,16 @@
+{
+  "name": "清剿亡灵",
+  "objectives": [
+    {
+      "type": "kill",
+      "count": 10,
+      "target": "minecraft:zombie"
+    }
+  ],
+  "rewards": {
+    "research_points": 2,
+    "tech_points": 1,
+    "xp": 200
+  },
+  "sort_order": 10
+}

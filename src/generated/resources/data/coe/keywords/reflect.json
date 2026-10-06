@@ -1,0 +1,25 @@
+{
+  "aliases": [
+    "Reflect",
+    "Reflection",
+    "反伤",
+    "反射"
+  ],
+  "description": [
+    [
+      "$[reflect]",
+      "会将所承受",
+      "$[damage]",
+      "的一部分返还给攻击者。"
+    ],
+    [
+      "$[reflect]",
+      "常出现在某些地图词缀上，可为物理、元素或混沌类型。"
+    ]
+  ],
+  "id": "reflect",
+  "keys": [
+    "coe:keyword.reflect"
+  ],
+  "title": "@coe:keyword.reflect"
+}

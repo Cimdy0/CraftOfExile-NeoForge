@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "effect": "coe:stat/effect/inline_charm_guard_1157",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

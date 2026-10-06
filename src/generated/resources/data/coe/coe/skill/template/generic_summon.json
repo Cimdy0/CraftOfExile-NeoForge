@@ -1,0 +1,40 @@
+{
+  "aoe_ranges": {},
+  "cast": {
+    "cooldown": 60.0,
+    "crit": 0.0
+  },
+  "cast_particle": "minecraft:totem_of_undying",
+  "cast_sound": "minecraft:item.totem.use",
+  "cost": [],
+  "params": {
+    "summon_count": 2.0,
+    "summon_duration": 600.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_spawn": {
+                "count": "$summon_count",
+                "duration": "$summon_duration",
+                "entity_id": "minecraft:zombie",
+                "radius": 1.5
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "minion"
+  ]
+}

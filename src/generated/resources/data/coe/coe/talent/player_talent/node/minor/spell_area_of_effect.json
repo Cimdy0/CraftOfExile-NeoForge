@@ -1,0 +1,171 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "17711",
+    "links": [
+      "40783",
+      "46989"
+    ],
+    "x": 1057.83,
+    "y": -5957.03
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "18846",
+    "links": [
+      "35171",
+      "8660"
+    ],
+    "x": -5069.6,
+    "y": -5325.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "22949",
+    "links": [
+      "35171",
+      "44783",
+      "44872"
+    ],
+    "x": -5648.11,
+    "y": -5659.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "33180",
+    "links": [
+      "46989",
+      "60269"
+    ],
+    "x": 972.528,
+    "y": -6466.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "35171",
+    "links": [
+      "18846",
+      "22949"
+    ],
+    "x": -5191.85,
+    "y": -5782.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "46989",
+    "links": [
+      "17711",
+      "33180"
+    ],
+    "x": 1149.31,
+    "y": -6393.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:spell_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "52615",
+    "links": [
+      "37876",
+      "7302"
+    ],
+    "x": 8159.99,
+    "y": -7674.9
+  }
+]

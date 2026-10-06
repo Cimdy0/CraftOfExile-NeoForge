@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_against_immobilised_enemies",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:your_hits_cannot_be_evasion_by_pinned_enemies",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedprojectilespeednode",
+    "id": "12906",
+    "links": [
+      "3234",
+      "9272"
+    ],
+    "x": 2539.97,
+    "y": 5787.5
+  }
+]

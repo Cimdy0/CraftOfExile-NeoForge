@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_moving",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredfox",
+    "id": "26308",
+    "links": [
+      "27017",
+      "56729"
+    ],
+    "x": 5083.21,
+    "y": 8131.45
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_moving",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredfox",
+    "id": "27017",
+    "links": [
+      "21349",
+      "26308"
+    ],
+    "x": 4919.21,
+    "y": 7847.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_moving",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredfox",
+    "id": "56729",
+    "links": [
+      "26308",
+      "34201"
+    ],
+    "x": 4859.19,
+    "y": 8071.42
+  }
+]

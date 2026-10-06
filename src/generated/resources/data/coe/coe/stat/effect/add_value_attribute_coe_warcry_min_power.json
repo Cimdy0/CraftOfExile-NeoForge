@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:warcry_min_power",
+  "operation": "add_value"
+}

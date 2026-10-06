@@ -1,0 +1,31 @@
+{
+  "entry": "group",
+  "members": [
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "conditions": {
+        "type": "flask_active",
+        "resource": "mana"
+      },
+      "effect": "coe:stat/effect/inline_attribute_495",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    },
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "conditions": {
+        "type": "flask_active",
+        "resource": "mana"
+      },
+      "effect": "coe:stat/effect/inline_attribute_496",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    }
+  ]
+}

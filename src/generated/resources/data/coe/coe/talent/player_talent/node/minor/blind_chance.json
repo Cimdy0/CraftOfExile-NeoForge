@@ -1,0 +1,153 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_blind_enemies_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "11871",
+    "links": [
+      "24958",
+      "47235",
+      "53471"
+    ],
+    "x": 6517.59,
+    "y": -2578.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_blind_enemies_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "1801",
+    "links": [
+      "41017",
+      "60"
+    ],
+    "x": 9212.93,
+    "y": 409.52
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_blind_enemies_on_hit_damage_with_attacks",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "3660",
+    "links": [
+      "25619",
+      "42354",
+      "43562",
+      "57196"
+    ],
+    "x": 590.865,
+    "y": 10235.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_blind_enemies_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkaccuracychakra",
+    "id": "42974",
+    "links": [
+      "30808",
+      "46152",
+      "8302"
+    ],
+    "x": 10638.3,
+    "y": -2128.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_blind_enemies_on_hit_damage_with_attacks",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "43562",
+    "links": [
+      "25619",
+      "3660",
+      "42354",
+      "63445"
+    ],
+    "x": 1091.86,
+    "y": 9946.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_blind_enemies_on_hit_damage",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "60",
+    "links": [
+      "1801",
+      "19338",
+      "58426"
+    ],
+    "x": 8929.0,
+    "y": 632.637
+  }
+]

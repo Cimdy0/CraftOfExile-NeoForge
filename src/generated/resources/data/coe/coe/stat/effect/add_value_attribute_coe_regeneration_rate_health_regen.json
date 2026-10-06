@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:regeneration_rate",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "regen"
+      },
+      {
+        "tag": "health"
+      }
+    ]
+  }
+}

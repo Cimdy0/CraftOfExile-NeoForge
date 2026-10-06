@@ -1,0 +1,149 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_health_per_enemy_killed",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hiredkiller2",
+    "id": "24239",
+    "links": [
+      "34136",
+      "55846"
+    ],
+    "x": 3559.03,
+    "y": -482.855
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_health_per_enemy_killed",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hiredkiller2",
+    "id": "26931",
+    "links": [
+      "48198",
+      "7344"
+    ],
+    "x": 3102.56,
+    "y": -1405.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_on_kill",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hiredkiller2",
+    "id": "52464",
+    "links": [
+      "24958",
+      "54351",
+      "64927",
+      "8045"
+    ],
+    "x": 6899.0,
+    "y": -3144.07
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_on_kill",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hiredkiller2",
+    "id": "54351",
+    "links": [
+      "24062",
+      "52464",
+      "64927"
+    ],
+    "x": 6413.89,
+    "y": -3498.87
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_health_per_enemy_killed",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hiredkiller2",
+    "id": "55846",
+    "links": [
+      "24239",
+      "40213"
+    ],
+    "x": 3682.03,
+    "y": -411.841
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_health_per_enemy_killed",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hiredkiller2",
+    "id": "58182",
+    "links": [
+      "49220",
+      "7344"
+    ],
+    "x": 2768.56,
+    "y": -1984.1
+  }
+]

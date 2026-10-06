@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_elemental_archon_after_spending_of_your_max_mana",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongenericnotable",
+    "id": "27434",
+    "links": [
+      "41159",
+      "51234"
+    ],
+    "x": 507.041,
+    "y": -11053.8
+  }
+]

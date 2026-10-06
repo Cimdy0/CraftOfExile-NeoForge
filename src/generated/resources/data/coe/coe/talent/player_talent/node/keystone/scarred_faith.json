@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_physical_damage_prevented_recouped_as_energy_shield_per_enemy_power",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:energy_shield_does_not_recharge"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_cannot_recover_energy_shield_from_regeneration"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_cannot_recover_energy_shield_to_above_armor"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidalternateenergyshield",
+    "id": "49547",
+    "links": [
+      "28002"
+    ],
+    "x": -4997.46,
+    "y": -3305.76
+  }
+]

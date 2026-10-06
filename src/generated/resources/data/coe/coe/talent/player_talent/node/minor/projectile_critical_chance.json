@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_inc_critical_hit_chance_against_enemies_further_than_xm",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "61347",
+    "links": [
+      "47157",
+      "48215",
+      "64488"
+    ],
+    "x": -953.069,
+    "y": 7675.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_inc_critical_hit_chance_against_enemies_further_than_xm",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "64488",
+    "links": [
+      "48215",
+      "61347",
+      "7201"
+    ],
+    "x": -992.798,
+    "y": 7373.47
+  }
+]

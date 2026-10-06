@@ -1,0 +1,8 @@
+{
+  "type": "charge_cost_exempt",
+  "identity_tags": [
+    "totem"
+  ],
+  "kind": "charge_cost_exempt",
+  "variant": "gate"
+}

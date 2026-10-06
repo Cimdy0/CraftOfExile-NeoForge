@@ -1,0 +1,25 @@
+{
+  "aliases": [
+    "Projectile",
+    "Projectiles",
+    "投射物",
+    "弹射物"
+  ],
+  "description": [
+    [
+      "$[projectile]",
+      "是一种可",
+      "$[chaining]",
+      "、穿透或分叉的飞行命中。"
+    ],
+    [
+      "$[projectile]",
+      "行为在闪电与冰霜技能上较为常见。"
+    ]
+  ],
+  "id": "projectile",
+  "keys": [
+    "coe:keyword.projectile"
+  ],
+  "title": "@coe:keyword.projectile"
+}

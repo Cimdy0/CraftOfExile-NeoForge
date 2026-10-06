@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:bolts_fired_by_crossbow_attacks_have_chance_to_not_expend_ammunition_if_you_ve_reloaded_recently",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "7062",
+    "links": [
+      "16680",
+      "43155",
+      "44430"
+    ],
+    "x": 2343.8,
+    "y": 11466.4
+  }
+]

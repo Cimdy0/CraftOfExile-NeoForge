@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:max_rage_if_you_ve_used_a_skill_that_requires_glory_in_the_past_seconds",
+            "vars": {
+              "value": 15.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedphysicaldamage",
+    "id": "9323",
+    "links": [
+      "14509",
+      "65472"
+    ],
+    "x": -10635.9,
+    "y": -2928.04
+  }
+]

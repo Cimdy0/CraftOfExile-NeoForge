@@ -1,0 +1,9 @@
+[
+  {
+    "type": "presence_rarity",
+    "rarities": [
+      "rare",
+      "unique"
+    ]
+  }
+]

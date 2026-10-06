@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_volatility_when_you_are_stunned",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "46615",
+    "links": [
+      "45798",
+      "53177"
+    ],
+    "x": 7202.07,
+    "y": -4431.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_volatility_when_you_are_stunned",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "53177",
+    "links": [
+      "30102",
+      "43944",
+      "46615"
+    ],
+    "x": 7193.04,
+    "y": -4763.63
+  }
+]

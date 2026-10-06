@@ -1,0 +1,110 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hit_damage_against_you_have_inc_critical_damage_bonus",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildox",
+    "id": "25458",
+    "links": [
+      "34853",
+      "37568"
+    ],
+    "x": 6149.25,
+    "y": 5864.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hit_damage_against_you_have_inc_critical_damage_bonus",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildox",
+    "id": "34853",
+    "links": [
+      "25458",
+      "43044"
+    ],
+    "x": 6365.75,
+    "y": 5825.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hit_damage_against_you_have_inc_critical_damage_bonus",
+            "vars": {
+              "value": -0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildox",
+    "id": "37568",
+    "links": [
+      "25458",
+      "45370"
+    ],
+    "x": 6529.75,
+    "y": 5989.65
+  }
+]

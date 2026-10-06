@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_while_on_full_energy_shield",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_from_equipped_focus",
+            "vars": {
+              "value": 0.75
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldnodeoffensive",
+    "id": "11838",
+    "links": [
+      "33112",
+      "36450"
+    ],
+    "x": 4082.63,
+    "y": -9003.35
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:add_multiplied_base_attribute_coe_ailment_magnitude_curse_fire_taken"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 15,
+        "name": "of_ignition",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 51.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 30,
+        "name": "of_scorching",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 70.0,
+            "min": 61.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 45,
+        "name": "of_incineration",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 80.0,
+            "min": 71.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 60,
+        "name": "of_combustion",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 90.0,
+            "min": 81.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 75,
+        "name": "of_conflagration",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 100.0,
+            "min": 91.0
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

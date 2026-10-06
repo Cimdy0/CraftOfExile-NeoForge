@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "cannot_regen_health",
+  "tags": {
+    "tag": "fully_broke_armour"
+  },
+  "target": "status"
+}

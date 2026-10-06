@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_avoid_death_from_hit_damage",
+            "vars": {
+              "value": 0.07
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "49769",
+    "links": [
+      "1628",
+      "49258"
+    ],
+    "x": -7958.39,
+    "y": -9813.39
+  }
+]

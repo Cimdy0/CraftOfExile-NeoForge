@@ -1,0 +1,1491 @@
+{
+  "_meta": {
+    "purpose": "机制族草案 —— 给「按机制族批量还原未实现技能」提供可审阅的分组，不是最终族边界裁定。",
+    "generator": "poe2_assets/authoritative/scripts/build_mapping.js",
+    "generated_at": "2026-09-20T21:09:12.126Z",
+    "method_declaration": [
+      "skill / spirit 侧：以 type_tags + tags 共现为基础分簇，并用本地已实现成员的 delivery 分布给候选。type_tags 在 skill 侧非空率 99.5%，是可靠信号。",
+      "support 侧：**不使用 type_tags**（实测非空率仅 0.3%）。只用 tags 共现 + implicits 文本。",
+      "[Support] 单标签簇（110 条）单独用 implicits 规则切分，见 support_single_tag_cluster。"
+    ],
+    "family_boundary": "族边界由作者裁定。本文件只负责把 1059 条压成可审阅的口袋。",
+    "evidence_coverage": "13.8%"
+  },
+  "families_by_gem_type": {
+    "skill": [
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Melee",
+          "Strike"
+        ],
+        "count": 13,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "area": 2
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 13
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Meta",
+          "Persistent",
+          "Trigger"
+        ],
+        "count": 9,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@skill",
+        "review_size": 9
+      },
+      {
+        "tag_combo": [],
+        "count": 9,
+        "local_evidence_count": 8,
+        "delivery_distribution": {
+          "area": 5,
+          "projectile": 2,
+          "hazard": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "untagged@skill",
+        "review_size": 9
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Persistent",
+          "Remnant"
+        ],
+        "count": 5,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@skill",
+        "review_size": 5
+      },
+      {
+        "tag_combo": [
+          "Minion",
+          "Persistent"
+        ],
+        "count": 4,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Minion@skill",
+        "review_size": 4
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Melee",
+          "Physical",
+          "Strike"
+        ],
+        "count": 3,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "area": 2
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 3
+      },
+      {
+        "tag_combo": [
+          "Companion",
+          "Minion",
+          "Persistent",
+          "Physical"
+        ],
+        "count": 3,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Companion@skill",
+        "review_size": 3
+      },
+      {
+        "tag_combo": [
+          "Companion",
+          "Minion",
+          "Persistent"
+        ],
+        "count": 3,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Companion@skill",
+        "review_size": 3
+      },
+      {
+        "tag_combo": [
+          "Spell"
+        ],
+        "count": 3,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Spell@skill",
+        "review_size": 3
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Duration",
+          "Lightning",
+          "Projectile",
+          "Repeatable",
+          "Sustained"
+        ],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "projectile": 2
+        },
+        "top_delivery": "projectile",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Duration",
+          "Lightning",
+          "Projectile",
+          "Repeatable"
+        ],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "projectile": 2
+        },
+        "top_delivery": "projectile",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Duration",
+          "Projectile",
+          "Repeatable",
+          "Wind"
+        ],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "projectile": 2
+        },
+        "top_delivery": "projectile",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Lightning",
+          "Melee",
+          "Payoff",
+          "Strike"
+        ],
+        "count": 2,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Channelling",
+          "Melee",
+          "Physical"
+        ],
+        "count": 2,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Cold",
+          "Melee",
+          "Strike"
+        ],
+        "count": 2,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Duration",
+          "Melee",
+          "Slam"
+        ],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "area": 2
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Chaos",
+          "Duration",
+          "Repeatable",
+          "Spell"
+        ],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "area": 2
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Curse",
+          "Duration",
+          "Repeatable",
+          "Spell"
+        ],
+        "count": 2,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Duration",
+          "Physical",
+          "Repeatable",
+          "Spell"
+        ],
+        "count": 2,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Fire",
+          "Projectile",
+          "Repeatable",
+          "Spell"
+        ],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "projectile": 2
+        },
+        "top_delivery": "projectile",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Fire",
+          "Meta",
+          "Persistent",
+          "Trigger"
+        ],
+        "count": 2,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Lightning",
+          "Meta",
+          "Persistent",
+          "Trigger"
+        ],
+        "count": 2,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "Chaos",
+          "Duration",
+          "Projectile",
+          "Repeatable",
+          "Spell"
+        ],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "projectile": 2
+        },
+        "top_delivery": "projectile",
+        "suggested_family_name": "Chaos@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Fire",
+          "Projectile"
+        ],
+        "count": 2,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "projectile": 1
+        },
+        "top_delivery": "projectile",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Lightning",
+          "Projectile"
+        ],
+        "count": 2,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "projectile": 1
+        },
+        "top_delivery": "projectile",
+        "suggested_family_name": "AoE@skill",
+        "review_size": 2
+      }
+    ],
+    "support": [
+      {
+        "tag_combo": [
+          "Support"
+        ],
+        "count": 110,
+        "local_evidence_count": 3,
+        "delivery_distribution": {
+          "area": 3
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "Support@support",
+        "review_size": 110
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Persistent",
+          "Support"
+        ],
+        "count": 25,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "area": 2
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "Buff@support",
+        "review_size": 25
+      },
+      {
+        "tag_combo": [
+          "Attack",
+          "Support"
+        ],
+        "count": 24,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Attack@support",
+        "review_size": 24
+      },
+      {
+        "tag_combo": [
+          "Physical",
+          "Support"
+        ],
+        "count": 21,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "Physical@support",
+        "review_size": 21
+      },
+      {
+        "tag_combo": [
+          "Lineage",
+          "Support"
+        ],
+        "count": 20,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Lineage@support",
+        "review_size": 20
+      },
+      {
+        "tag_combo": [
+          "Projectile",
+          "Support"
+        ],
+        "count": 19,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Projectile@support",
+        "review_size": 19
+      },
+      {
+        "tag_combo": [
+          "Attack",
+          "Melee",
+          "Support"
+        ],
+        "count": 18,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Attack@support",
+        "review_size": 18
+      },
+      {
+        "tag_combo": [
+          "Attack",
+          "Melee",
+          "Strike",
+          "Support"
+        ],
+        "count": 13,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Attack@support",
+        "review_size": 13
+      },
+      {
+        "tag_combo": [
+          "Fire",
+          "Support"
+        ],
+        "count": 13,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Fire@support",
+        "review_size": 13
+      },
+      {
+        "tag_combo": [
+          "Spell",
+          "Support"
+        ],
+        "count": 13,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Spell@support",
+        "review_size": 13
+      },
+      {
+        "tag_combo": [
+          "Support",
+          "Totem"
+        ],
+        "count": 13,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Support@support",
+        "review_size": 13
+      },
+      {
+        "tag_combo": [
+          "Minion",
+          "Support"
+        ],
+        "count": 12,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Minion@support",
+        "review_size": 12
+      },
+      {
+        "tag_combo": [
+          "Chaos",
+          "Support"
+        ],
+        "count": 10,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Chaos@support",
+        "review_size": 10
+      },
+      {
+        "tag_combo": [
+          "Attack",
+          "Melee",
+          "Slam",
+          "Support"
+        ],
+        "count": 9,
+        "local_evidence_count": 3,
+        "delivery_distribution": {
+          "area": 3
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "Attack@support",
+        "review_size": 9
+      },
+      {
+        "tag_combo": [
+          "Ammunition",
+          "Projectile",
+          "Support"
+        ],
+        "count": 9,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Ammunition@support",
+        "review_size": 9
+      },
+      {
+        "tag_combo": [
+          "Cold",
+          "Support"
+        ],
+        "count": 8,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Cold@support",
+        "review_size": 8
+      },
+      {
+        "tag_combo": [
+          "Duration",
+          "Support"
+        ],
+        "count": 8,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Duration@support",
+        "review_size": 8
+      },
+      {
+        "tag_combo": [
+          "Lightning",
+          "Support"
+        ],
+        "count": 8,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Lightning@support",
+        "review_size": 8
+      },
+      {
+        "tag_combo": [
+          "Attack",
+          "Physical",
+          "Support"
+        ],
+        "count": 7,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Attack@support",
+        "review_size": 7
+      },
+      {
+        "tag_combo": [
+          "Attack",
+          "Projectile",
+          "Support"
+        ],
+        "count": 7,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Attack@support",
+        "review_size": 7
+      },
+      {
+        "tag_combo": [
+          "Channelling",
+          "Support"
+        ],
+        "count": 7,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Channelling@support",
+        "review_size": 7
+      },
+      {
+        "tag_combo": [
+          "Remnant",
+          "Support"
+        ],
+        "count": 7,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Remnant@support",
+        "review_size": 7
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Support"
+        ],
+        "count": 6,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "AoE@support",
+        "review_size": 6
+      },
+      {
+        "tag_combo": [
+          "Curse",
+          "Support"
+        ],
+        "count": 5,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Curse@support",
+        "review_size": 5
+      },
+      {
+        "tag_combo": [
+          "Support",
+          "Warcry"
+        ],
+        "count": 5,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Support@support",
+        "review_size": 5
+      }
+    ],
+    "spirit": [
+      {
+        "tag_combo": [
+          "Buff",
+          "Persistent"
+        ],
+        "count": 7,
+        "local_evidence_count": 4,
+        "delivery_distribution": {
+          "area": 2
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 7
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Aura",
+          "Banner",
+          "Buff",
+          "Conditional",
+          "Duration",
+          "Persistent"
+        ],
+        "count": 3,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 3
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Invocation",
+          "Meta",
+          "Persistent",
+          "Trigger"
+        ],
+        "count": 2,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Meta",
+          "Persistent",
+          "Trigger"
+        ],
+        "count": 2,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "Aura",
+          "Buff",
+          "Persistent"
+        ],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "self": 1
+        },
+        "top_delivery": "self",
+        "suggested_family_name": "Aura@spirit",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Duration",
+          "Persistent"
+        ],
+        "count": 2,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [],
+        "count": 2,
+        "local_evidence_count": 2,
+        "delivery_distribution": {
+          "area": 2
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "untagged@spirit",
+        "review_size": 2
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Buff",
+          "Duration",
+          "Hazard",
+          "Persistent",
+          "Physical",
+          "Projectile",
+          "Trigger"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "hazard": 1
+        },
+        "top_delivery": "hazard",
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Buff",
+          "Duration",
+          "Persistent",
+          "Physical",
+          "Plant",
+          "Spell",
+          "Sustained"
+        ],
+        "count": 1,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Cold",
+          "Fire",
+          "Invocation",
+          "Lightning",
+          "Meta",
+          "Persistent",
+          "Trigger"
+        ],
+        "count": 1,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Buff",
+          "Cold",
+          "Herald",
+          "Payoff",
+          "Persistent"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Buff",
+          "Fire",
+          "Melee",
+          "Persistent",
+          "Trigger"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "self": 1
+        },
+        "top_delivery": "self",
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Buff",
+          "Herald",
+          "Lightning",
+          "Payoff",
+          "Persistent"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Buff",
+          "Herald",
+          "Payoff",
+          "Persistent",
+          "Physical"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Attack",
+          "Buff",
+          "Melee",
+          "Persistent",
+          "Staged",
+          "Trigger"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Chaos",
+          "Lineage",
+          "Minion",
+          "Persistent",
+          "Spell",
+          "Support"
+        ],
+        "count": 1,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Cold",
+          "Duration",
+          "Fire",
+          "Lightning",
+          "Persistent",
+          "Physical"
+        ],
+        "count": 1,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Cold",
+          "Fire",
+          "Lightning",
+          "Meta",
+          "Persistent",
+          "Trigger"
+        ],
+        "count": 1,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Buff",
+          "Chaos",
+          "Nova",
+          "Persistent",
+          "Physical"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "self": 1
+        },
+        "top_delivery": "self",
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Buff",
+          "Duration",
+          "Fire",
+          "Herald",
+          "Persistent"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Chaos",
+          "Duration",
+          "Minion",
+          "Persistent",
+          "Physical"
+        ],
+        "count": 1,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Cold",
+          "Duration",
+          "Fire",
+          "Lightning",
+          "Persistent"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "self": 1
+        },
+        "top_delivery": "self",
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Cold",
+          "Fire",
+          "Lightning",
+          "Persistent",
+          "Remnant"
+        ],
+        "count": 1,
+        "local_evidence_count": 1,
+        "delivery_distribution": {
+          "area": 1
+        },
+        "top_delivery": "area",
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "Buff",
+          "Cold",
+          "Persistent",
+          "Spell",
+          "Staged",
+          "Sustained"
+        ],
+        "count": 1,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "Buff@spirit",
+        "review_size": 1
+      },
+      {
+        "tag_combo": [
+          "AoE",
+          "Aura",
+          "Buff",
+          "Meta",
+          "Persistent"
+        ],
+        "count": 1,
+        "local_evidence_count": 0,
+        "delivery_distribution": {},
+        "top_delivery": null,
+        "suggested_family_name": "AoE@spirit",
+        "review_size": 1
+      }
+    ]
+  },
+  "support_single_tag_cluster": {
+    "source_cluster": "[Support] 单标签簇",
+    "cluster_size": 110,
+    "known_blocker": "这批辅助在 poe2db 上没有任何细分标签，无法靠 tags 聚类自动收敛",
+    "approach": "改用 implicits + description_en 文本做规则式二次切分，目标是压到人工一次会议可裁定的组数",
+    "rule_note": "规则按优先级命中即停，保证组间互斥；multi_label_counts 给出多命中情况供交叉审视。",
+    "groups": [
+      {
+        "group": "rag_guard_resource",
+        "rule": "资源/守御类：怒气、守卫、魔力、生命",
+        "count": 12,
+        "members": [
+          "execute_i",
+          "opening_move",
+          "execute_ii",
+          "rageforged_i",
+          "execute_iii",
+          "rageforged_ii",
+          "life_drain",
+          "soul_drain",
+          "glacier",
+          "icicle",
+          "sacrificial_offering",
+          "relentless_rage"
+        ],
+        "samples": [
+          "execute_i",
+          "opening_move",
+          "execute_ii",
+          "rageforged_i",
+          "execute_iii"
+        ]
+      },
+      {
+        "group": "charge_generation",
+        "rule": "各类充能（耐力/狂怒/暴击球等）的获取与消耗",
+        "count": 11,
+        "members": [
+          "enduring_impact_i",
+          "enduring_impact_ii",
+          "ferocity",
+          "charge_profusion_i",
+          "heightened_charges",
+          "charge_profusion_ii",
+          "perpetual_charge",
+          "energy_barrier",
+          "break_endurance",
+          "potential",
+          "charm_bounty"
+        ],
+        "samples": [
+          "enduring_impact_i",
+          "enduring_impact_ii",
+          "ferocity",
+          "charge_profusion_i",
+          "heightened_charges"
+        ]
+      },
+      {
+        "group": "flask",
+        "rule": "药剂相关：充能获取、药剂效果、药剂持续",
+        "count": 10,
+        "members": [
+          "lifetap",
+          "concoct_i",
+          "concoct_ii",
+          "life_bounty",
+          "mana_bounty",
+          "bounty_i",
+          "bounty_ii",
+          "ambrosia",
+          "gorge",
+          "ambrosia_ii"
+        ],
+        "samples": [
+          "lifetap",
+          "concoct_i",
+          "concoct_ii",
+          "life_bounty",
+          "mana_bounty"
+        ]
+      },
+      {
+        "group": "armour_break_stun_pin",
+        "rule": "破甲 / 眩晕 / 压制",
+        "count": 9,
+        "members": [
+          "armour_demolisher_i",
+          "stun_i",
+          "armour_demolisher_ii",
+          "stun_ii",
+          "stun_iii",
+          "lockdown",
+          "ruthless",
+          "unbreakable",
+          "devastate"
+        ],
+        "samples": [
+          "armour_demolisher_i",
+          "stun_i",
+          "armour_demolisher_ii",
+          "stun_ii",
+          "stun_iii"
+        ]
+      },
+      {
+        "group": "ailment",
+        "rule": "异常状态（流血/中毒/点燃/感电/冰缓）相关",
+        "count": 8,
+        "members": [
+          "rusted_spikes",
+          "malady",
+          "commiserate",
+          "acrimony",
+          "elemental_focus",
+          "derange",
+          "enervation",
+          "chance_to_freeze"
+        ],
+        "samples": [
+          "rusted_spikes",
+          "malady",
+          "commiserate",
+          "acrimony",
+          "elemental_focus"
+        ]
+      },
+      {
+        "group": "generic_more_less_damage",
+        "rule": "通用增/减伤（无明显子主题）",
+        "count": 8,
+        "members": [
+          "fresh_clip_i",
+          "stoicism_i",
+          "fresh_clip_ii",
+          "stoicism_ii",
+          "momentum",
+          "perfection",
+          "premeditation",
+          "arms_length"
+        ],
+        "samples": [
+          "fresh_clip_i",
+          "stoicism_i",
+          "fresh_clip_ii",
+          "stoicism_ii",
+          "momentum"
+        ]
+      },
+      {
+        "group": "cooldown",
+        "rule": "冷却时间 / 使用间隔",
+        "count": 8,
+        "members": [
+          "persistent_ground_iii",
+          "second_wind_i",
+          "cooldown_recovery_i",
+          "cooldown_recovery_ii",
+          "second_wind_ii",
+          "second_wind_iii",
+          "hourglass",
+          "execrate"
+        ],
+        "samples": [
+          "persistent_ground_iii",
+          "second_wind_i",
+          "cooldown_recovery_i",
+          "cooldown_recovery_ii",
+          "second_wind_ii"
+        ]
+      },
+      {
+        "group": "critical",
+        "rule": "暴击率 / 暴击伤害 / 暴击触发",
+        "count": 8,
+        "members": [
+          "blindside",
+          "ambush",
+          "excise",
+          "pinpoint_critical",
+          "supercritical",
+          "inexorable_critical_i",
+          "inexorable_critical_ii",
+          "leverage"
+        ],
+        "samples": [
+          "blindside",
+          "ambush",
+          "excise",
+          "pinpoint_critical",
+          "supercritical"
+        ]
+      },
+      {
+        "group": "speed",
+        "rule": "攻击 / 施法 / 移动速度",
+        "count": 7,
+        "members": [
+          "upheaval_i",
+          "upheaval_ii",
+          "deliberation",
+          "mobility",
+          "boundless_energy_i",
+          "boundless_energy_ii",
+          "flow"
+        ],
+        "samples": [
+          "upheaval_i",
+          "upheaval_ii",
+          "deliberation",
+          "mobility",
+          "boundless_energy_i"
+        ]
+      },
+      {
+        "group": "duration",
+        "rule": "持续时间类修正",
+        "count": 7,
+        "members": [
+          "vanguard_i",
+          "persistent_ground_i",
+          "vanguard_ii",
+          "persistent_ground_ii",
+          "overabundance_i",
+          "overabundance_ii",
+          "lasting_ground"
+        ],
+        "samples": [
+          "vanguard_i",
+          "persistent_ground_i",
+          "vanguard_ii",
+          "persistent_ground_ii",
+          "overabundance_i"
+        ]
+      },
+      {
+        "group": "unclassified",
+        "rule": "未命中任何规则，需人工看原文",
+        "count": 7,
+        "members": [
+          "murderous_intent",
+          "blind_i",
+          "delayed_gratification",
+          "blind_ii",
+          "corpse_conservation",
+          "energy_capacitor",
+          "magnetic_remnants"
+        ],
+        "samples": [
+          "murderous_intent",
+          "blind_i",
+          "delayed_gratification",
+          "blind_ii",
+          "corpse_conservation"
+        ]
+      },
+      {
+        "group": "detonation",
+        "rule": "引爆 / 爆炸链",
+        "count": 4,
+        "members": [
+          "short_fuse_i",
+          "long_fuse_i",
+          "short_fuse_ii",
+          "long_fuse_ii"
+        ],
+        "samples": [
+          "short_fuse_i",
+          "long_fuse_i",
+          "short_fuse_ii",
+          "long_fuse_ii"
+        ]
+      },
+      {
+        "group": "cannot_or_limitation",
+        "rule": "限制类（\"不能…\" / 替代机制）",
+        "count": 4,
+        "members": [
+          "crystalline_shards",
+          "fortress_i",
+          "astral_projection",
+          "fortress_ii"
+        ],
+        "samples": [
+          "crystalline_shards",
+          "fortress_i",
+          "astral_projection",
+          "fortress_ii"
+        ]
+      },
+      {
+        "group": "minion_summon",
+        "rule": "召唤物相关",
+        "count": 3,
+        "members": [
+          "durability",
+          "danse_macabre",
+          "rising_tempest"
+        ],
+        "samples": [
+          "durability",
+          "danse_macabre",
+          "rising_tempest"
+        ]
+      },
+      {
+        "group": "cost_and_reservation",
+        "rule": "消耗与保留修正",
+        "count": 2,
+        "members": [
+          "efficiency_i",
+          "efficiency_ii"
+        ],
+        "samples": [
+          "efficiency_i",
+          "efficiency_ii"
+        ]
+      },
+      {
+        "group": "ground_surface",
+        "rule": "地面效果 / 裂隙 / 地表",
+        "count": 2,
+        "members": [
+          "branching_fissures_i",
+          "branching_fissures_ii"
+        ],
+        "samples": [
+          "branching_fissures_i",
+          "branching_fissures_ii"
+        ]
+      }
+    ],
+    "multi_label_counts": {
+      "0": 7,
+      "1": 24,
+      "2": 36,
+      "3": 21,
+      "4": 17,
+      "5": 4,
+      "6": 1
+    }
+  }
+}

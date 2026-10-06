@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_an_endurance_charge_when_you_heavy_stun_a_rare_or_unique_enemy",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "63451",
+    "links": [
+      "44406",
+      "57846",
+      "64312"
+    ],
+    "x": -4778.32,
+    "y": 5780.43
+  }
+]

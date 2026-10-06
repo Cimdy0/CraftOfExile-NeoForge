@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:every_five_rage_also_grants_you_inc_minion_attack_speed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:every_rage_also_grants_you_inc_minion_damage",
+            "vars": {
+              "value": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ragenotable",
+    "id": "42660",
+    "links": [
+      "10484",
+      "16413"
+    ],
+    "x": -7912.15,
+    "y": -604.357
+  }
+]

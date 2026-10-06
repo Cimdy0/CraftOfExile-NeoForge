@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offering_skills_have_inc_buff_effect",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "47821",
+    "links": [
+      "41033",
+      "59651"
+    ],
+    "x": 4030.36,
+    "y": -7766.72
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:offering_skills_have_inc_buff_effect",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "55872",
+    "links": [
+      "41033"
+    ],
+    "x": 4102.33,
+    "y": -8131.78
+  }
+]

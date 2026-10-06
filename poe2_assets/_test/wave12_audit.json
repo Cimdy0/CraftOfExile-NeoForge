@@ -1,0 +1,1343 @@
+{
+  "zero": [],
+  "gen_only": [],
+  "with_writer": [
+    {
+      "const": "ADDITIONAL_CURSE",
+      "snake": "additional_curse",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "ARROWS_PIERCE_ADDITIONAL_TARGET",
+      "snake": "arrows_pierce_additional_target",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "ATTACK_TEN_INCISION",
+      "snake": "attack_ten_incision",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "ATTACKS_CRITICAL",
+      "snake": "attacks_critical",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "ATTACKS_MAIM_POISONED",
+      "snake": "attacks_maim_poisoned",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "AURA_BUFFS_AFFECT_ALLIES",
+      "snake": "aura_buffs_affect_allies",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "BASE_ENERGY_SHIELD_RECHARGE",
+      "snake": "base_energy_shield_recharge",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "EnergyShieldHelper.java"
+      ]
+    },
+    {
+      "const": "BLIND_THEY_STUN",
+      "snake": "blind_they_stun",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "BUFFS_EXPIRE_SLOWER",
+      "snake": "buffs_expire_slower",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "CANNOT_BLINDED_FULL_LIFE",
+      "snake": "cannot_blinded_full_life",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "CANNOT_CRITICALLY_PARRYING",
+      "snake": "cannot_critically_parrying",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "CRITICAL_HERALD",
+      "snake": "critical_herald",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "CULLING_STRIKE_MARK",
+      "snake": "culling_strike_mark",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "CURRENT_ENERGY_SHIELD_RECHARGE",
+      "snake": "current_energy_shield_recharge",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "EnergyShieldHelper.java"
+      ]
+    },
+    {
+      "const": "DAMAGE_LUCKY",
+      "snake": "damage_lucky",
+      "attrRef": 1,
+      "statids": 2,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+      "snake": "damage_taken_bypasses_energy",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "DamagePipeline.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "DARKNESS_RESERVATION_LASTS",
+      "snake": "darkness_reservation_lasts",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "DarknessHelper.java"
+      ]
+    },
+    {
+      "const": "DEFEND_ARMOUR",
+      "snake": "defend_armour",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 2,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "DEFEND_ARMOUR_CRITICAL",
+      "snake": "defend_armour_critical",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED",
+      "snake": "elemental_ailment_application_shapeshifted",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "ELEMENTAL_DAMAGE_CONTRIBUTES_BLEEDING",
+      "snake": "elemental_damage_contributes_bleeding",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "AilmentHelper.java"
+      ]
+    },
+    {
+      "const": "FASTER_CURSE_ACTIVATION",
+      "snake": "faster_curse_activation",
+      "attrRef": 1,
+      "statids": 2,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "FASTER_START_INHERENT_RAGE",
+      "snake": "faster_start_inherent_rage",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "GLORY",
+      "snake": "glory",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 2,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "GRENADES_ACTIVATE_TIME",
+      "snake": "grenades_activate_time",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "IGNITES_CAUSE_REFLECTED_BACK",
+      "snake": "ignites_cause_reflected_back",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "INFLICT_BLEEDING_CANNOT_REGENERATE",
+      "snake": "inflict_bleeding_cannot_regenerate",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "INVOCATED_ENERGY",
+      "snake": "invocated_energy",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LEECH_LIFE_FASTER",
+      "snake": "leech_life_faster",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LEECH_LIFE_SLOWER",
+      "snake": "leech_life_slower",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LEVEL_ALL_CHAOS",
+      "snake": "level_all_chaos",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LEVEL_ALL_COLD",
+      "snake": "level_all_cold",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LIFE_CONVERTED_ENERGY_SHIELD",
+      "snake": "life_converted_energy_shield",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LIFE_DEXTERITY",
+      "snake": "life_dexterity",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LIFE_FLASKS_CHARGES",
+      "snake": "life_flasks_charges",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LIGHTNING_INFUSIONS",
+      "snake": "lightning_infusions",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "LOSE_COMBO_SLOWER",
+      "snake": "lose_combo_slower",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MACE_SLAM_CAUSE_ADDITIONAL",
+      "snake": "mace_slam_cause_additional",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MAGNITUDE_IMPALES_INFLICTED_SPELLS",
+      "snake": "magnitude_impales_inflicted_spells",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MANA_FLASKS_CHARGES",
+      "snake": "mana_flasks_charges",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MARK_BLINDED",
+      "snake": "mark_blinded",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MARK_CANNOT_CRITICAL",
+      "snake": "mark_cannot_critical",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "METRES_DODGE_ROLL_DISTANCE",
+      "snake": "metres_dodge_roll_distance",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "METRES_MELEE_STRIKE_RANGE",
+      "snake": "metres_melee_strike_range",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 2,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MINIONS_CRITICAL",
+      "snake": "minions_critical",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MINIONS_GIGANTIC",
+      "snake": "minions_gigantic",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MINIONS_INFLICT_WITHERED",
+      "snake": "minions_inflict_withered",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "NO_INHERENT_MANA_REGENERATION",
+      "snake": "no_inherent_mana_regeneration",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "ManaHelper.java"
+      ]
+    },
+    {
+      "const": "NO_SPIRIT_BASE_DARKNESS",
+      "snake": "no_spirit_base_darkness",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "DarknessHelper.java",
+        "ManaHelper.java"
+      ]
+    },
+    {
+      "const": "PLANTS_IMMEDIATELY_OVERGROW",
+      "snake": "plants_immediately_overgrow",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "RAGE_LIFE_FLASK",
+      "snake": "rage_life_flask",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "RECOVER_ALL_LIFE_KILL",
+      "snake": "recover_all_life_kill",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "REGENERATE_MANA_EQUAL_LIFE",
+      "snake": "regenerate_mana_equal_life",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "ManaHelper.java"
+      ]
+    },
+    {
+      "const": "RELOAD_CROSSBOW_IMMEDIATE",
+      "snake": "reload_crossbow_immediate",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "REMNANTS_COLLECTED_FURTHER_AWAY",
+      "snake": "remnants_collected_further_away",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "RemnantState.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "REMOVE_CURSE_CHANNELLING",
+      "snake": "remove_curse_channelling",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "REMOVE_CURSE_MANA_FLASK",
+      "snake": "remove_curse_mana_flask",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "REMOVE_ELEMENTAL_INFUSIONS_BUT",
+      "snake": "remove_elemental_infusions_but",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "REMOVE_IGNITE_WARCRY",
+      "snake": "remove_ignite_warcry",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "SHOCK_ELECTROCUTED",
+      "snake": "shock_electrocuted",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "STACKS_PUPPET_MASTER",
+      "snake": "stacks_puppet_master",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "STUN_THRESHOLD_STRENGTH",
+      "snake": "stun_threshold_strength",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "TAKE_NO_DAMAGE_VOLATILITY",
+      "snake": "take_no_damage_volatility",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "VolatilityDetonationManager.java"
+      ]
+    },
+    {
+      "const": "THORNS_CRITICAL",
+      "snake": "thorns_critical",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "UNAFFECTED_CHILL_DURING_DODGE",
+      "snake": "unaffected_chill_during_dodge",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "UNAFFECTED_CHILL_LEECHING_MANA",
+      "snake": "unaffected_chill_leeching_mana",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "UNAFFECTED_CHILLED_GROUND",
+      "snake": "unaffected_chilled_ground",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "UNAFFECTED_ELEMENTAL_WEAKNESS",
+      "snake": "unaffected_elemental_weakness",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "UNAFFECTED_SHOCKED_GROUND",
+      "snake": "unaffected_shocked_ground",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "WARCRIES_DEBILITATE",
+      "snake": "warcries_debilitate",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "WARCRIES_MINIMUM_POWER",
+      "snake": "warcries_minimum_power",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "WHICH_CREATE_FISSURES_ADDITIONAL",
+      "snake": "which_create_fissures_additional",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "ADDITIONAL_STUN_THRESHOLD_EQUAL_2",
+      "snake": "additional_stun_threshold_equal_2",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "BONUSES_AMULET_MINIONS",
+      "snake": "bonuses_amulet_minions",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "ELEMENTAL_RESISTANCES_RED_GREEN",
+      "snake": "elemental_resistances_red_green",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "IGNORE_MOVEMENT_PENALTIES_ARMOUR",
+      "snake": "ignore_movement_penalties_armour",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "METRES_MELEE_STRIKE_RANGE_2",
+      "snake": "metres_melee_strike_range_2",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "RAGE_SHAPESHIFTING_HUMAN_FORM",
+      "snake": "rage_shapeshifting_human_form",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "DEFLECTION_RATING",
+      "snake": "deflection_rating",
+      "attrRef": 3,
+      "statids": 0,
+      "gen": 2,
+      "res": 0,
+      "files": [
+        "BlockHelper.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "DODGE_CHANCE",
+      "snake": "dodge_chance",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "DamagePipeline.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "CORRUPTION_ENDURES_CHANCE",
+      "snake": "corruption_endures_chance",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "DamagePipeline.java"
+      ]
+    },
+    {
+      "const": "GUARD_RECOVERY",
+      "snake": "guard_recovery",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "DamagePipeline.java"
+      ]
+    },
+    {
+      "const": "ARCHON_RECOVERY_RATE",
+      "snake": "archon_recovery_rate",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java",
+        "StatusEngine.java"
+      ]
+    },
+    {
+      "const": "GLORY_GENERATION",
+      "snake": "glory_generation",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "MAX_VOLATILITY",
+      "snake": "max_volatility",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java",
+        "VolatilityHelper.java"
+      ]
+    },
+    {
+      "const": "VOLATILITY_GENERATION",
+      "snake": "volatility_generation",
+      "attrRef": 3,
+      "statids": 0,
+      "gen": 2,
+      "res": 0,
+      "files": [
+        "StatGen.java",
+        "VolatilityHelper.java"
+      ]
+    },
+    {
+      "const": "VOLATILITY_DETONATION_TIME",
+      "snake": "volatility_detonation_time",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java",
+        "VolatilityDetonationManager.java"
+      ]
+    },
+    {
+      "const": "MAX_INFUSION",
+      "snake": "max_infusion",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "InfusionHelper.java"
+      ]
+    },
+    {
+      "const": "LIGHT_RADIUS",
+      "snake": "light_radius",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "RESERVATION_EFFICIENCY",
+      "snake": "reservation_efficiency",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "SpiritManager.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "THORNS",
+      "snake": "thorns",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 3,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "STUN_RECOVERY",
+      "snake": "stun_recovery",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "COST_EFFICIENCY",
+      "snake": "cost_efficiency",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "SKILL_COST_LIFE",
+      "snake": "skill_cost_life",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "SKILL_COST_MANA",
+      "snake": "skill_cost_mana",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "KNOCKBACK",
+      "snake": "knockback",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 2,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "CULLING_STRIKE_THRESHOLD",
+      "snake": "culling_strike_threshold",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "REGENERATION_RATE",
+      "snake": "regeneration_rate",
+      "attrRef": 7,
+      "statids": 0,
+      "gen": 4,
+      "res": 0,
+      "files": [
+        "EnergyShieldHelper.java",
+        "HealthHelper.java",
+        "ManaHelper.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "RESISTANCES",
+      "snake": "resistances",
+      "attrRef": 34,
+      "statids": 0,
+      "gen": 30,
+      "res": 0,
+      "files": [
+        "AttributeEvent.java",
+        "DamageAction.java",
+        "DamageTypeConvert.java",
+        "DebuffStatusTypes.java",
+        "EntityGen.java",
+        "EquipmentValue.java",
+        "GenEvent.java",
+        "MobsInfo.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "RESISTANCE_PENETRATION",
+      "snake": "resistance_penetration",
+      "attrRef": 10,
+      "statids": 0,
+      "gen": 9,
+      "res": 0,
+      "files": [
+        "DamageHelper.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "STATUS_EXTRA_STACKS",
+      "snake": "status_extra_stacks",
+      "attrRef": 3,
+      "statids": 0,
+      "gen": 8,
+      "res": 0,
+      "files": [
+        "StatGen.java",
+        "StatusEngine.java"
+      ]
+    },
+    {
+      "const": "STATUS_MAX_STACKS",
+      "snake": "status_max_stacks",
+      "attrRef": 3,
+      "statids": 0,
+      "gen": 8,
+      "res": 0,
+      "files": [
+        "StatGen.java",
+        "StatusEngine.java"
+      ]
+    },
+    {
+      "const": "REMNANT_EXTRA_CHANCE",
+      "snake": "remnant_extra_chance",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "RemnantState.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "REMNANT_DOUBLE_CHANCE",
+      "snake": "remnant_double_chance",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "RemnantState.java"
+      ]
+    },
+    {
+      "const": "REMNANT_MAGNITUDE",
+      "snake": "remnant_magnitude",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "RemnantState.java"
+      ]
+    },
+    {
+      "const": "AFTERSHOCK_CHANCE",
+      "snake": "aftershock_chance",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "AreaDeliveryExecutor.java"
+      ]
+    },
+    {
+      "const": "AFTERSHOCK_CHANCE_MACE_SLAM",
+      "snake": "aftershock_chance_mace_slam",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "AreaDeliveryExecutor.java"
+      ]
+    },
+    {
+      "const": "AFTERSHOCK_CHANCE_SHAPESHIFT_SLAM",
+      "snake": "aftershock_chance_shapeshift_slam",
+      "attrRef": 1,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "AreaDeliveryExecutor.java"
+      ]
+    },
+    {
+      "const": "AFTERSHOCK_AREA",
+      "snake": "aftershock_area",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "AreaDeliveryExecutor.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "PUPPET_MASTER_CHANCE",
+      "snake": "puppet_master_chance",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "SkillEvent.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "PUPPET_MASTER_EFFECT",
+      "snake": "puppet_master_effect",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "BuffStatusTypes.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "PUPPET_MASTER_DURATION",
+      "snake": "puppet_master_duration",
+      "attrRef": 2,
+      "statids": 1,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "SkillEvent.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "STRENGTH",
+      "snake": "strength",
+      "attrRef": 8,
+      "statids": 0,
+      "gen": 4,
+      "res": 0,
+      "files": [
+        "AffixGenerator.java",
+        "Require.java",
+        "RequirePreset.java",
+        "StatGen.java",
+        "TalentNodeGen.java",
+        "TooltipEvent.java"
+      ]
+    },
+    {
+      "const": "TAKEN_CRIT_DAMAGE",
+      "snake": "taken_crit_damage",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 2,
+      "res": 0,
+      "files": [
+        "EntityGen.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "TAKEN_CRIT_CHANCE",
+      "snake": "taken_crit_chance",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 1,
+      "res": 0,
+      "files": [
+        "DamageHelper.java",
+        "StatGen.java"
+      ]
+    },
+    {
+      "const": "TAKEN_DAMAGE",
+      "snake": "taken_damage",
+      "attrRef": 8,
+      "statids": 0,
+      "gen": 6,
+      "res": 0,
+      "files": [
+        "DamagePipeline.java",
+        "StatGen.java",
+        "StatusBehavior.java"
+      ]
+    },
+    {
+      "const": "TOTEM_TAKEN_AURA",
+      "snake": "totem_taken_aura",
+      "attrRef": 2,
+      "statids": 0,
+      "gen": 0,
+      "res": 0,
+      "files": [
+        "DamagePipeline.java"
+      ]
+    },
+    {
+      "const": "ADDED_DAMAGE",
+      "snake": "added_damage",
+      "attrRef": 8,
+      "statids": 0,
+      "gen": 7,
+      "res": 0,
+      "files": [
+        "DamageHelper.java",
+        "StatGen.java"
+      ]
+    }
+  ]
+}

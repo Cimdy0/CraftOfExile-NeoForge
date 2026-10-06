@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_loss_of_rage_is_slower",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "270",
+    "links": [
+      "27980",
+      "56219"
+    ],
+    "x": -8500.77,
+    "y": -6794.46
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_loss_of_rage_is_slower",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "56219",
+    "links": [
+      "270",
+      "52764"
+    ],
+    "x": -8539.77,
+    "y": -7010.96
+  }
+]

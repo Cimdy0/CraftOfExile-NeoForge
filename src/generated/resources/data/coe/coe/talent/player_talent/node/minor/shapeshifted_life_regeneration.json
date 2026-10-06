@@ -1,0 +1,52 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate_while_shapeshifted",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "36250",
+    "links": [
+      "49214",
+      "53354",
+      "55897",
+      "56368"
+    ],
+    "x": -10252.9,
+    "y": -3509.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate_while_shapeshifted",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "56368",
+    "links": [
+      "36250",
+      "61393"
+    ],
+    "x": -10251.2,
+    "y": -3312.73
+  }
+]

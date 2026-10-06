@@ -1,0 +1,71 @@
+[
+  {
+    "icon": "passives_lifepercentage",
+    "id": "11580",
+    "links": [
+      "34769",
+      "51618"
+    ],
+    "x": -4152.04,
+    "y": -3397.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "23825",
+    "links": [
+      "11572",
+      "24325",
+      "48552"
+    ],
+    "x": -4827.89,
+    "y": -9014.32
+  },
+  {
+    "icon": "passives_lifepercentage",
+    "id": "34769",
+    "links": [
+      "11580",
+      "52115"
+    ],
+    "x": -4273.59,
+    "y": -3555.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_health_regeneration_rate",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_witchhunter_witchunternode",
+    "id": "42583",
+    "links": [
+      "10499",
+      "6714"
+    ],
+    "x": -2261.34,
+    "y": 4206.32
+  }
+]

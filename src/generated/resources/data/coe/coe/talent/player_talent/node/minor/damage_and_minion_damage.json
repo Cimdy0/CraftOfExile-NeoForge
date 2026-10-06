@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "15580",
+    "links": [
+      "49938",
+      "61977"
+    ],
+    "x": -6090.58,
+    "y": -3936.52
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "61471",
+    "links": [
+      "49153",
+      "61977"
+    ],
+    "x": -6090.58,
+    "y": -4424.52
+  },
+  {
+    "icon": "passives_miniondamageblue",
+    "id": "61977",
+    "links": [
+      "15580",
+      "61471"
+    ],
+    "x": -6155.96,
+    "y": -4180.52
+  }
+]

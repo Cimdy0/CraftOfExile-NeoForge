@@ -1,0 +1,124 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attack_skills_deal_inc_damage_while_holding_a_shield",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "30371",
+    "links": [
+      "27687",
+      "52796"
+    ],
+    "x": -8858.56,
+    "y": 1631.39
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attack_skills_deal_inc_damage_while_holding_a_shield",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "44707",
+    "links": [
+      "51735",
+      "54785",
+      "7628"
+    ],
+    "x": -1349.52,
+    "y": 4972.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attack_skills_deal_inc_damage_while_holding_a_shield",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "51735",
+    "links": [
+      "44707",
+      "6689"
+    ],
+    "x": -1507.93,
+    "y": 5015.24
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attack_skills_deal_inc_damage_while_holding_a_shield",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "52796",
+    "links": [
+      "30371",
+      "33452"
+    ],
+    "x": -9189.0,
+    "y": 1531.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attack_skills_deal_inc_damage_while_holding_a_shield",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldblock",
+    "id": "6689",
+    "links": [
+      "32885",
+      "45599",
+      "51735"
+    ],
+    "x": -1475.82,
+    "y": 5444.17
+  }
+]

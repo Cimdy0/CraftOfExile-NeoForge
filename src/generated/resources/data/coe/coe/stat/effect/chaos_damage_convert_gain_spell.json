@@ -1,0 +1,12 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "chaos"
+  ],
+  "hits_only": true,
+  "mode": "gain",
+  "tags": {
+    "tag": "spell"
+  },
+  "to": "chaos"
+}

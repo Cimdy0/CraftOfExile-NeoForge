@@ -1,0 +1,26 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_duration",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "ailment"
+      },
+      {
+        "tag": "elemental"
+      },
+      {
+        "tag": "non_damaging"
+      },
+      {
+        "not": {
+          "tag": "taken"
+        }
+      },
+      {
+        "tag": "electrocute"
+      }
+    ]
+  }
+}

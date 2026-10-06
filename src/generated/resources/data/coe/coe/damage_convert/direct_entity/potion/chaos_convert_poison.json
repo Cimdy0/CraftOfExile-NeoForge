@@ -1,0 +1,7 @@
+{
+  "additions": "minecraft:poison",
+  "convert": {
+    "chaos": 1,
+    "replace": false
+  }
+}

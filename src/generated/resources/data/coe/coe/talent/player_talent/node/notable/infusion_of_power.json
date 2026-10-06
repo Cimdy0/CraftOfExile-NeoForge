@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_a_power_charge_when_you_consume_an_elemental_infusion",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargeint",
+    "id": "59387",
+    "links": [
+      "51892"
+    ],
+    "x": 2081.9,
+    "y": -8262.87
+  }
+]

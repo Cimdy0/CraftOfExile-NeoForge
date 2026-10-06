@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:chance_to_poison_on_hit_damage"
+    }
+  ]
+}

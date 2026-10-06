@@ -1,0 +1,92 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "global",
+        "stats": [
+          {
+            "entry": "read",
+            "ref": "coe:armour_applies_elemental_damage"
+          }
+        ]
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "of_covering",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 14.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 16,
+          "name": "of_sheathing",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 25.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 36,
+          "name": "of_lining",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 31.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 48,
+          "name": "of_padding",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 37.0,
+              "min": 32.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 66,
+          "name": "of_furring",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 43.0,
+              "min": 38.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 81,
+          "name": "of_thermokryptance",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 50.0,
+              "min": 44.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:chest",
+      "coe:shield"
+    ]
+  }
+}

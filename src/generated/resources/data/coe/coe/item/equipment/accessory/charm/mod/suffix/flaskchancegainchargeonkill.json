@@ -1,0 +1,50 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:flask_chance_gain_charge_on_kill"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 8,
+        "name": "of_the_medic",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 26,
+        "name": "of_the_doctor",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 26.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 45,
+        "name": "of_the_surgeon",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 35.0,
+            "min": 31.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

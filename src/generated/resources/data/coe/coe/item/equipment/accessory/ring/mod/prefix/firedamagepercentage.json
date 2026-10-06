@@ -1,0 +1,81 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:fire_damage_inc"
+    },
+    "tiers": [
+      {
+        "level": 8,
+        "name": "searing",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 3.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "sizzling",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 12.0,
+            "min": 8.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "blistering",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 17.0,
+            "min": 13.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 46,
+        "name": "cauterising",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 22.0,
+            "min": 18.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 65,
+        "name": "volcanic",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 23.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 75,
+        "name": "magmatic",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 27.0
+          }
+        },
+        "weight": 500
+      }
+    ]
+  }
+}

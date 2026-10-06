@@ -1,0 +1,9 @@
+{
+  "type": "charge_convert",
+  "from": "power",
+  "mode": "convert",
+  "tags": {
+    "tag": "gain_power"
+  },
+  "to": "endurance"
+}

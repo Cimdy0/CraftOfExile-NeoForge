@@ -1,0 +1,34 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:dodge_roll_cannot_avoid_damage"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:take_more_damage_from_hits_while_dodge_rolling",
+            "vars": {
+              "value": -0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bulwarkkeystone",
+    "id": "56605",
+    "links": [
+      "31903"
+    ],
+    "x": -4163.59,
+    "y": 6722.67
+  }
+]

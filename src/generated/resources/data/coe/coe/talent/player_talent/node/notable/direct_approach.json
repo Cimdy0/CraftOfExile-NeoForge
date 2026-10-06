@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_against_enemies_that_are_affected_by_no_elemental_ailments",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "24483",
+    "links": [
+      "32660",
+      "51534"
+    ],
+    "x": -3682.63,
+    "y": -4807.36
+  }
+]

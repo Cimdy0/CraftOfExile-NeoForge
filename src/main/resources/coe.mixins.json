@@ -1,0 +1,53 @@
+{
+  "required": true,
+  "package": "com.cimdy.coe.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "attribute.DamageHandleEvent",
+    "attribute.EquipmentChange",
+    "attribute.LivingAttributeValue",
+    "attribute.RangeAttributeMixin",
+    "attribute.projectile.CrossbowReload",
+    "attribute.projectile.DragonFireBallEffect",
+    "attribute.projectile.FiredAmmunitionRecord",
+    "attribute.projectile.ProjectileInEnchant",
+    "attribute.projectile.ProjectileInShoot",
+    "attribute.projectile.ProjectileMixin",
+    "attribute.speed.ElderGuardianMixin",
+    "attribute.speed.GuardianMixin",
+    "attribute.speed.goal.BlazeAttackGoalMixin",
+    "attribute.speed.goal.MeleeAttackGoalMixin",
+    "attribute.speed.goal.OcelotAttackGoalMixin",
+    "attribute.speed.goal.RangedAttackGoalMixin",
+    "attribute.speed.goal.RangedBowAttackGoalMixin",
+    "attribute.speed.goal.RangedCrossbowAttackGoalMixin",
+    "attribute.speed.goal.ShulkerAttackGoalMixin",
+    "AbstractFurnaceBlockEntityAccessor",
+    "BlockEntityChangedMixin",
+    "LivingEntityMixin",
+    "CampAllianceMixin",
+    "effect.HealOrHarmMobEffectMixin",
+    "effect.PoisonMobEffectMixin",
+    "effect.RegenerationMobEffectMixin",
+    "effect.WitherMobEffectMixin",
+    "ServerChunkCacheMixin",
+    "attribute.PlayerAttackSweepMixin"
+  ],
+    "client": [
+    "MobSpawnMixin",
+    "client.render.Sprinting",
+    "client.screen.AbstractContainerScreenMixin",
+    "client.screen.EffectsInventoryMixin",
+    "client.screen.GuiMixin",
+    "client.screen.InventoryScreenMixin",
+    "client.render.ItemInHandLayerMixin",
+    "client.render.ItemInHandRendererMixin",
+    "client.render.MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

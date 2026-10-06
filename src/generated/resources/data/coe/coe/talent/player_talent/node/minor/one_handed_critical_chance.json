@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_one_handed_melee_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "12751",
+    "links": [
+      "18489",
+      "26490"
+    ],
+    "x": -4182.77,
+    "y": 8640.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_one_handed_melee_weapons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "26490",
+    "links": [
+      "12751",
+      "6229"
+    ],
+    "x": -3950.84,
+    "y": 8640.88
+  }
+]

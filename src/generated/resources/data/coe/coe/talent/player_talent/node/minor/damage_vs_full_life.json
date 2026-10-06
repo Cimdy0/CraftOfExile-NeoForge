@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_full_health",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "28371",
+    "links": [
+      "32183",
+      "52630",
+      "60560"
+    ],
+    "x": 8227.16,
+    "y": -594.435
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_full_health",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "60560",
+    "links": [
+      "28371",
+      "29527"
+    ],
+    "x": 8443.67,
+    "y": -719.435
+  }
+]

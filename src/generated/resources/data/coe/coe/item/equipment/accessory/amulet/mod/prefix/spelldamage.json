@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_spell_damage"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "apprentice_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 3.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "adept_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 12.0,
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "scholar_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 17.0,
+            "min": 13.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "professor_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 22.0,
+            "min": 18.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "occultist_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 23.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 75,
+        "name": "incanter_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_support_gem_1"
+        },
+        "when": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_support_gem_2"
+        },
+        "when": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_support_gem_3"
+        },
+        "when": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_support_gem_4"
+        },
+        "when": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "coe:item/uncut_support_gem_5"
+        },
+        "when": 5
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "coe:item/uncut_support_gem_1"
+    },
+    "property": "coe:gem_tier"
+  }
+}

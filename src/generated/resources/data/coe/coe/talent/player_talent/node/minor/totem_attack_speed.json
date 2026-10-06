@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_used_by_totems_have_inc_attack_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "16051",
+    "links": [
+      "31650",
+      "62609"
+    ],
+    "x": -5985.69,
+    "y": 6671.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attacks_used_by_totems_have_inc_attack_speed",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "24259",
+    "links": [
+      "25312",
+      "62609"
+    ],
+    "x": -5985.69,
+    "y": 7906.57
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_if_you_ve_killed_recently",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_if_you_ve_killed_recently",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedrunspeeddex",
+    "id": "17340",
+    "links": [
+      "40341",
+      "62051"
+    ],
+    "x": 610.223,
+    "y": 7627.51
+  }
+]

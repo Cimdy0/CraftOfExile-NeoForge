@@ -1,0 +1,51 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:charm_gain_charge"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 8,
+        "name": "of_the_foliage",
+        "tier": 1,
+        "values": {
+          "value": {
+            "max": 0.15,
+            "min": 0.15
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 26,
+        "name": "of_the_verdant",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 0.2,
+            "min": 0.2
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 45,
+        "name": "of_the_sylvan",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 0.25,
+            "min": 0.25
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_cost_efficiency_of_marks",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_if_you_ve_used_a_mark_recently",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "44756",
+    "links": [
+      "36927",
+      "44841"
+    ],
+    "x": 7778.15,
+    "y": 8416.73
+  }
+]

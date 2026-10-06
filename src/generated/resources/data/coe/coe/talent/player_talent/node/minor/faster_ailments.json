@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damaging_ailments_deal_damage_faster",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "13030",
+    "links": [
+      "55",
+      "8510"
+    ],
+    "x": 4037.79,
+    "y": 5340.36
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damaging_ailments_deal_damage_faster",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagechaosnode",
+    "id": "8510",
+    "links": [
+      "13030",
+      "36298"
+    ],
+    "x": 4283.46,
+    "y": 5565.69
+  }
+]

@@ -1,0 +1,1818 @@
+[
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance"
+  ],
+  "template": "{X}% increased Critical Hit Chance",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_FLAMMABILITY_BUFF_MAGNITUDE",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "flammability",
+   "buff",
+   "magnitude"
+  ],
+  "template": "{X}% increased Flammability BuffMagnitude",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "regeneration",
+   "rate"
+  ],
+  "template": "{X}% increased Life Regeneration rate",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "health"
+  ],
+  "template": "{X}% increased amount of Life LifeLeech",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "poison",
+   "inflict"
+  ],
+  "template": "{X}% increased BuffMagnitude of Poison you inflict",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MANA_COST_EFFICIENCY",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "cost",
+   "efficiency"
+  ],
+  "template": "{X}% increased Mana Cost Efficiency",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_FROM_EQUIPPED_SHIELD",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "evasion",
+   "energy",
+   "shield",
+   "shield"
+  ],
+  "template": "{X}% increased Armour, Evasion and Energy Shield from Equipped Shield",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EFFECT_OF_FULLY_BROKEN_ARMOR",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "effect",
+   "fully",
+   "broken",
+   "armor"
+  ],
+  "template": "{X}% increased effect of Fully Broken Armour",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MANA_RECOVERY_FROM_FLASKS",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "recovery",
+   "flasks"
+  ],
+  "template": "{X}% increased Mana Recovery from Flasks",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_PINNED_BUILDUP",
+  "op": "INC",
+  "attr": "AILMENT_BUILDUP",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "concept": [
+   "pinned",
+   "buildup"
+  ],
+  "template": "{X}% increased Pinned Buildup",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "bleeding",
+   "inflict"
+  ],
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "ignite"
+  ],
+  "template": "{X}% increased BuffMagnitude of Ignite on you",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_POWER_CHARGE_DURATION",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "power",
+   "duration"
+  ],
+  "template": "{X}% increased Power Charge Duration",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "ailment",
+   "inflict"
+  ],
+  "template": "{X}% increased BuffMagnitude of Ailments you inflict",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_FLAILS",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "flail"
+  ],
+  "template": "{X}% increased Damage with Flails",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_AREA_DAMAGE",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "area",
+   "damage"
+  ],
+  "template": "{X}% increased Area Damage",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ENDURANCE_CHARGE_DURATION",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "endurance",
+   "duration"
+  ],
+  "template": "{X}% increased Endurance Charge Duration",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_IF_YOU_VE_CONSUMED_AN_ENDURANCE_CHARGE_RECENTLY",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "ve",
+   "consumed",
+   "endurance"
+  ],
+  "template": "{X}% increased Armour if you've consumed an Endurance Charge Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BLEEDING_DURATION",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "bleeding",
+   "duration"
+  ],
+  "template": "{X}% increased Bleeding Duration",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "mana",
+   "recovery",
+   "flasks"
+  ],
+  "template": "{X}% increased Life and Mana Recovery from Flasks",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_FLAILS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance",
+   "flail"
+  ],
+  "template": "{X}% increased Critical Hit Chance with Flails",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_BREAK_DURATION",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "break",
+   "duration"
+  ],
+  "template": "{X}% increased Armour Break Duration",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_WHILE_BLEEDING",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "bleeding"
+  ],
+  "template": "{X}% increased Armour while Bleeding",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_CROSSBOWS",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "crossbows"
+  ],
+  "template": "{X}% increased Damage with Crossbows",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_AND_EVASION_WHILE_LEECHING",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "evasion",
+   "leeching"
+  ],
+  "template": "{X}% increased Armour and Evasion Rating while Leeching",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_HAVE_BEEN_HIT_DAMAGE_RECENTLY",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion"
+  ],
+  "template": "{X}% increased Evasion Rating if you have been HitDamage Recently",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "ve",
+   "consumed",
+   "frenzy"
+  ],
+  "template": "{X}% increased Evasion Rating if you've consumed a Frenzy Charge Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_WHILE_SPRINTING",
+  "op": "INC",
+  "attr": "MOVEMENT_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED",
+  "concept": [
+   "movement",
+   "speed",
+   "sprinting"
+  ],
+  "template": "{X}% increased Movement Speed while Sprinting",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EVASION_WHILE_SPRINTING",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "sprinting"
+  ],
+  "template": "{X}% increased Evasion Rating while Sprinting",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ENDURANCE_FRENZY_AND_POWER_CHARGE_DURATION",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "endurance",
+   "frenzy",
+   "power",
+   "duration"
+  ],
+  "template": "{X}% increased Endurance, Frenzy and Power Charge Duration",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_DAGGERS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance",
+   "daggers"
+  ],
+  "template": "{X}% increased Critical Hit Chance with Daggers",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_IF_YOU_HAVE_BEEN_HIT_DAMAGE_RECENTLY",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor"
+  ],
+  "template": "{X}% increased Armour if you have been HitDamage Recently",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_CHANNELLING",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "evasion",
+   "energy",
+   "shield",
+   "channelling"
+  ],
+  "template": "{X}% increased Armour, Evasion and Energy Shield while Channelling",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "damaging",
+   "ailment",
+   "inflict"
+  ],
+  "template": "{X}% increased BuffMagnitude of Non-Damaging Ailments you inflict",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "evasion",
+   "energy",
+   "shield"
+  ],
+  "template": "{X}% increased Armour, Evasion and Energy Shield",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_HEALTH_RECOVERY_RATE",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "recovery",
+   "rate"
+  ],
+  "template": "{X}% increased Life Recovery rate",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance",
+   "critical"
+  ],
+  "template": "{X}% increased Critical Hit Chance if you haven't dealt a Critical Hit Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE_WHILE_ON_LOW_HEALTH",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "regeneration",
+   "rate",
+   "health"
+  ],
+  "template": "{X}% increased Life Regeneration Rate while on Low Life",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_BALLISTA_IMMOBILISATION_BUILDUP",
+  "op": "INC",
+  "attr": "AILMENT_BUILDUP",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "concept": [
+   "ballista",
+   "immobilisation",
+   "buildup"
+  ],
+  "template": "{X}% increased Ballista Immobilisation buildup",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_STRENGTH_AND_DEXTERITY",
+  "op": "ADD",
+  "attr": "STRENGTH",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_STRENGTH",
+  "concept": [
+   "strength",
+   "dexterity"
+  ],
+  "template": "+{X} to Strength and Dexterity",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+  "op": "INC",
+  "attr": "MOVEMENT_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED",
+  "concept": [
+   "movement",
+   "speed",
+   "ve"
+  ],
+  "template": "{X}% increased Movement Speed if you've Killed Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_CROSSBOWS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance",
+   "crossbows"
+  ],
+  "template": "{X}% increased Critical Hit Chance with Crossbows",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BALLISTA_CRITICAL_HIT_CHANCE",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "ballista",
+   "critical",
+   "chance"
+  ],
+  "template": "{X}% increased Ballista Critical Hit Chance",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BALLISTA_CRITICAL_DAMAGE_BONUS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "ballista",
+   "critical",
+   "damage",
+   "bonus"
+  ],
+  "template": "{X}% increased Ballista Critical Damage Bonus",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion"
+  ],
+  "template": "{X}% increased Evasion Rating if you haven't been HitDamage Recently",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "bleeding",
+   "inflict",
+   "critical",
+   "hits"
+  ],
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict with Critical Hits",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CHARM_EFFECT_DURATION",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "charm",
+   "effect",
+   "duration"
+  ],
+  "template": "{X}% increased Charm Effect Duration",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_WITH_QUARTERSTAVES",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "damage",
+   "bonus",
+   "quarterstaves"
+  ],
+  "template": "{X}% increased Critical Damage Bonus with Quarterstaves",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_WITH_DAGGERS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "damage",
+   "bonus",
+   "daggers"
+  ],
+  "template": "{X}% increased Critical Damage Bonus with Daggers",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_FROM_EQUIPPED_BODY_ARMOR",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "body",
+   "armor"
+  ],
+  "template": "{X}% increased Armour from Equipped Body Armour",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor"
+  ],
+  "template": "{X}% increased Armour if you haven't been HitDamage Recently",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "bonus",
+   "critical"
+  ],
+  "template": "{X}% increased Critical Damage Bonus if you haven't dealt a Critical Hit Recently",
+  "bucket": "GAP"
+ },
+ {
+  "const": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "thorns",
+   "critical",
+   "damage",
+   "bonus"
+  ],
+  "template": "{X}% increased Thorns Critical Damage Bonus",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT_ON_TARGETS_THAT_ARE_NOT_POISONED",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "poison",
+   "inflict",
+   "targets",
+   "not",
+   "poisoned"
+  ],
+  "template": "{X}% increased BuffMagnitude of Poison you inflict on targets that are not Poisoned",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "GAIN_RAGE_WHEN_YOUR_HIT_DAMAGE_IGNITES_A_TARGET",
+  "op": "ADD",
+  "attr": "MAX_RAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RAGE",
+  "concept": [
+   "rage",
+   "ignites",
+   "target"
+  ],
+  "template": "gain {X} Rage when your HitDamage Ignites a target",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "damaging",
+   "ailment",
+   "inflict",
+   "critical",
+   "hits"
+  ],
+  "template": "{X}% increased BuffMagnitude of Damaging Ailments you inflict with Critical Hits",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_KILLED_RECENTLY",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance"
+  ],
+  "template": "{X}% increased Critical Hit Chance if you have Killed Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "op": "INC",
+  "attr": "AILMENT_MAGNITUDE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "concept": [
+   "buff",
+   "magnitude",
+   "damaging",
+   "ailment",
+   "inflict",
+   "critical",
+   "hits"
+  ],
+  "template": "{X}% increased BuffMagnitude of Non-Damaging Ailments you inflict with Critical Hits",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ACCURACY_AT_CLOSE_RANGE",
+  "op": "INC",
+  "attr": "ACCURACY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "concept": [
+   "accuracy",
+   "at",
+   "close",
+   "range"
+  ],
+  "template": "{X}% increased Accuracy Rating at Close Range",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_STRENGTH_AND_INTELLIGENCE",
+  "op": "ADD",
+  "attr": "STRENGTH",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_STRENGTH",
+  "concept": [
+   "strength",
+   "intelligence"
+  ],
+  "template": "+{X} to Strength and Intelligence",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ACCURACY_WHILE_DUAL_WIELDING",
+  "op": "INC",
+  "attr": "ACCURACY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "concept": [
+   "accuracy",
+   "dual",
+   "wielding"
+  ],
+  "template": "{X}% increased Accuracy Rating while Dual Wielding",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_AGAINST_DEMONS",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "demons"
+  ],
+  "template": "{X}% increased Damage against Demons",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DURATION_OF_AILMENTS_ON_BEASTS",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "duration",
+   "ailment",
+   "beasts"
+  ],
+  "template": "{X}% increased Duration of Ailments on Beasts",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_IMMOBILISATION_BUILDUP_AGAINST_CONSTRUCTS",
+  "op": "INC",
+  "attr": "AILMENT_BUILDUP",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "concept": [
+   "immobilisation",
+   "buildup",
+   "constructs"
+  ],
+  "template": "{X}% increased Immobilisation buildup against Constructs",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_HUMANOIDS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance",
+   "humanoids"
+  ],
+  "template": "{X}% increased Critical Hit Chance against Humanoids",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_DEXTERITY_AND_INTELLIGENCE",
+  "op": "ADD",
+  "attr": "DEXTERITY",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DEXTERITY",
+  "concept": [
+   "dexterity",
+   "intelligence"
+  ],
+  "template": "+{X} to Dexterity and Intelligence",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_IN_THE_PAST_SECONDS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "ve",
+   "critical",
+   "past",
+   "seconds"
+  ],
+  "template": "{X}% increased Damage if you've dealt a Critical Hit in the past {X} seconds",
+  "bucket": "GAP"
+ },
+ {
+  "const": "INC_HINDER_DURATION",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "hinder",
+   "duration"
+  ],
+  "template": "{X}% increased Hinder Duration",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EVASION_WHILE_YOU_HAVE_ENERGY_SHIELD",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "energy",
+   "shield"
+  ],
+  "template": "{X}% increased Evasion Rating while you have Energy Shield",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_HAZARD_IMMOBILISATION_BUILDUP",
+  "op": "INC",
+  "attr": "AILMENT_BUILDUP",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "concept": [
+   "hazard",
+   "immobilisation",
+   "buildup"
+  ],
+  "template": "{X}% increased Hazard Immobilisation buildup",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MANA_REGENERATION_RATE_WHILE_NOT_ON_LOW_MANA",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "regeneration",
+   "rate",
+   "not",
+   "mana"
+  ],
+  "template": "{X}% increased Mana Regeneration Rate while not on Low Mana",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_PENALTY_TO_ACCURACY_AT_RANGE",
+  "op": "INC",
+  "attr": "ACCURACY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "concept": [
+   "penalty",
+   "accuracy",
+   "at",
+   "range"
+  ],
+  "template": "{X}% increased penalty to Accuracy Rating at range",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_SPEARS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance",
+   "spears"
+  ],
+  "template": "{X}% increased Critical Hit Chance with Spears",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ACCURACY_WITH_SPEARS",
+  "op": "INC",
+  "attr": "ACCURACY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "concept": [
+   "accuracy",
+   "spears"
+  ],
+  "template": "{X}% increased Accuracy Rating with Spears",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_QUARTERSTAVES",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "chance",
+   "quarterstaves"
+  ],
+  "template": "{X}% increased Critical Hit Chance with Quarterstaves",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_THORNS_DAMAGE_IF_YOU_VE_BLOCKED_RECENTLY",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "thorns",
+   "damage",
+   "ve",
+   "blocked"
+  ],
+  "template": "{X}% increased Thorns damage if you've Blocked Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "GAIN_ARMOR_EQUAL_TO_OF_TOTAL_STRENGTH_REQUIREMENTS_OF_EQUIPPED_BOOTS_GLOVES_AND_HELMET",
+  "op": "ADD",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "strength",
+   "boots",
+   "gloves",
+   "helmet"
+  ],
+  "template": "gain Armour equal to {X}% of total Strength Requirements of Equipped Boots, Gloves and Helmet",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_WITH_FLAILS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "damage",
+   "bonus",
+   "flail"
+  ],
+  "template": "{X}% increased Critical Damage Bonus with Flails",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_MAX_RAGE_WHILE_WIELDING_AN_AXE",
+  "op": "ADD",
+  "attr": "MAX_RAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RAGE",
+  "concept": [
+   "rage",
+   "wielding",
+   "axe"
+  ],
+  "template": "+{X} to Maximum Rage while wielding an Axe",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_FOR_EACH_TIME_YOU_VE_WARCRIED_RECENTLY",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "time",
+   "ve",
+   "warcried"
+  ],
+  "template": "{X}% increased Damage for each time you've Warcried Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_PER_STRENGTH",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "strength"
+  ],
+  "template": "{X}% increased Damage per {X} Strength",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_ARMOR_WHILE_FROZEN",
+  "op": "ADD",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "frozen"
+  ],
+  "template": "+{X} to Armour while Frozen",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "GAIN_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK",
+  "op": "ADD",
+  "attr": "MAX_RAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RAGE",
+  "concept": [
+   "rage",
+   "use",
+   "health",
+   "flask"
+  ],
+  "template": "gain {X} Rage when you use a Life Flask",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_TAKEN_WHILE_ON_LOW_HEALTH",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health"
+  ],
+  "template": "{X}% increased Damage taken while on Low Life",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_ARMOR_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_BOOTS",
+  "op": "ADD",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "item",
+   "energy",
+   "shield",
+   "boots"
+  ],
+  "template": "+{X} to Armour per {X} Item Energy Shield on Equipped Boots",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "FASTER_START_OF_INHERENT_RAGE_LOSS",
+  "op": "INC",
+  "attr": "MAX_RAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_RAGE",
+  "concept": [
+   "start",
+   "inherent",
+   "rage",
+   "loss"
+  ],
+  "template": "{X}% faster start of inherent Rage loss",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_MAX_ENERGY_SHIELD_PER_ITEM_ARMOR_ON_EQUIPPED_HELMET",
+  "op": "ADD",
+  "attr": "MAX_ENERGY_SHIELD",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_ENERGY_SHIELD",
+  "concept": [
+   "energy",
+   "shield",
+   "item",
+   "armor",
+   "helmet"
+  ],
+  "template": "+{X} to Maximum Energy Shield per {X} Item Armour on Equipped Helmet",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_WHILE_LEECHING_HEALTH",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "leeching",
+   "health"
+  ],
+  "template": "{X}% increased Damage while Leeching Life",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_DURATION_OF_EACH_PUPPET_MASTER_STACK",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "duration",
+   "puppet",
+   "master",
+   "stack"
+  ],
+  "template": "{X}% increased Duration of each Puppet Master stack",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MANA_REGENERATION_RATE_WHILE_ON_FULL_HEALTH",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "regeneration",
+   "rate",
+   "health"
+  ],
+  "template": "{X}% increased Mana Regeneration Rate while on Full Life",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MAX_HEALTH_MANA_AND_ENERGY_SHIELD",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "mana",
+   "energy",
+   "shield"
+  ],
+  "template": "{X}% increased maximum Life, Mana and Energy Shield",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_AND_EVASION_WHEN_ON_LOW_HEALTH",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "evasion",
+   "health"
+  ],
+  "template": "{X}% increased Armour and Evasion Rating when on Low Life",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_EVASION_PER_ITEM_ARMOR_ON_EQUIPPED_GLOVES",
+  "op": "ADD",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "item",
+   "armor",
+   "gloves"
+  ],
+  "template": "+{X} to Evasion Rating per {X} Item Armour on Equipped Gloves",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_PER_CHANCE_TO_BLOCK",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "chance",
+   "block"
+  ],
+  "template": "{X}% increased Damage per {X}% Chance to Block",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MAX_HEALTH_IF_YOU_HAVE_AT_LEAST_RED_SUPPORT_GEMS_SOCKETED",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "at",
+   "least",
+   "red",
+   "support",
+   "gems",
+   "socketed"
+  ],
+  "template": "{X}% increased Maximum Life if you have at least {X} Red Support Gems Socketed",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MAX_MANA_IF_YOU_HAVE_AT_LEAST_BLUE_SUPPORT_GEMS_SOCKETED",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "at",
+   "least",
+   "blue",
+   "support",
+   "gems",
+   "socketed"
+  ],
+  "template": "{X}% increased Maximum Mana if you have at least {X} Blue Support Gems Socketed",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_IF_YOU_HAVE_AT_LEAST_GREEN_SUPPORT_GEMS_SOCKETED",
+  "op": "INC",
+  "attr": "MOVEMENT_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED",
+  "concept": [
+   "movement",
+   "speed",
+   "at",
+   "least",
+   "green",
+   "support",
+   "gems",
+   "socketed"
+  ],
+  "template": "{X}% increased Movement Speed if you have at least {X} Green Support Gems Socketed",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MANA_RECOVERY_RATE",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "recovery",
+   "rate"
+  ],
+  "template": "{X}% increased Mana Recovery rate",
+  "bucket": "CLEAN"
+ },
+ {
+  "const": "INC_DAMAGE_PER_OF_YOUR_LOWEST_ATTRIBUTES",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "lowest",
+   "attributes"
+  ],
+  "template": "{X}% increased Damage per {X} of your lowest Attributes",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_FLASK_HEALTH_RECOVERY_RATE",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "flask",
+   "health",
+   "recovery",
+   "rate"
+  ],
+  "template": "{X}% increased Flask Life Recovery rate",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_WHILE_DUAL_WIELDING",
+  "op": "INC",
+  "attr": "MOVEMENT_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED",
+  "concept": [
+   "movement",
+   "speed",
+   "dual",
+   "wielding"
+  ],
+  "template": "{X}% increased Movement Speed while Dual Wielding",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_CROSSBOWS_FOR_EACH_TYPE_OF_AMMUNITION_FIRED_IN_THE_PAST_SECONDS",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "crossbows",
+   "type",
+   "ammunition",
+   "fired",
+   "past",
+   "seconds"
+  ],
+  "template": "{X}% increased Damage with Crossbows for each type of Ammunition fired in the past {X} seconds",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_WITH_CROSSBOWS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "damage",
+   "bonus",
+   "crossbows"
+  ],
+  "template": "{X}% increased Critical Damage Bonus with Crossbows",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_MAX_HEALTH",
+  "op": "ADD",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health"
+  ],
+  "template": "+{X} to maximum Life",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "mana",
+   "recovery",
+   "flasks",
+   "active",
+   "charm"
+  ],
+  "template": "{X}% increased Life and Mana Recovery from Flasks while you have an active Charm",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_VE_DODGE_ROLLED_RECENTLY",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "ve",
+   "dodge",
+   "rolled"
+  ],
+  "template": "{X}% increased Evasion Rating if you've Dodge Rolled Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_FOR_EACH_TIME_YOU_VE_BLOCKED_IN_THE_PAST_SECONDS",
+  "op": "INC",
+  "attr": "MOVEMENT_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED",
+  "concept": [
+   "movement",
+   "speed",
+   "time",
+   "ve",
+   "blocked",
+   "past",
+   "seconds"
+  ],
+  "template": "{X}% increased Movement Speed for each time you've Blocked in the past {X} seconds",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_GAIN_A_POWER_CHARGE_RECENTLY",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "bonus",
+   "ve",
+   "power"
+  ],
+  "template": "{X}% increased Critical Damage Bonus if you've gain a Power Charge Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_DEALT_A_NON_CRITICAL_HIT_RECENTLY",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "bonus",
+   "ve",
+   "critical"
+  ],
+  "template": "{X}% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently",
+  "bucket": "GAP"
+ },
+ {
+  "const": "INC_BLIND_DURATION",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "blind",
+   "duration"
+  ],
+  "template": "{X}% increased Blind duration",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EVASION_IF_ENERGY_SHIELD_RECHARGE_HAS_STARTED_IN_THE_PAST_SECONDS",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "energy",
+   "shield",
+   "recharge",
+   "started",
+   "past",
+   "seconds"
+  ],
+  "template": "{X}% increased Evasion Rating if Energy Shield Recharge has started in the past {X} seconds",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_ENERGY_SHIELD",
+  "op": "INC",
+  "attr": "MOVEMENT_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED",
+  "concept": [
+   "movement",
+   "speed",
+   "energy",
+   "shield"
+  ],
+  "template": "{X}% increased Movement Speed while you have Energy Shield",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "ve",
+   "critical"
+  ],
+  "template": "{X}% increased Damage if you've dealt a Critical Hit Recently",
+  "bucket": "GAP"
+ },
+ {
+  "const": "INC_DAMAGE_DURING_ANY_FLASK_EFFECT",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "during",
+   "flask",
+   "effect"
+  ],
+  "template": "{X}% increased Damage during any Flask Effect",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DURATION_OF_BLEEDING_ON_YOU",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "duration",
+   "bleeding"
+  ],
+  "template": "{X}% increased Duration of Bleeding on You",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE_DURING_EFFECT_OF_ANY_HEALTH_FLASK",
+  "op": "INC",
+  "attr": "MAX_HEALTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MAX_HEALTH",
+  "concept": [
+   "health",
+   "regeneration",
+   "rate",
+   "during",
+   "effect",
+   "health",
+   "flask"
+  ],
+  "template": "{X}% increased Life Regeneration rate during Effect of any Life Flask",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EVASION_WHEN_ON_FULL_HEALTH",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "health"
+  ],
+  "template": "{X}% increased Evasion Rating when on Full Life",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_EVASION_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_HELMET",
+  "op": "ADD",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "item",
+   "energy",
+   "shield",
+   "helmet"
+  ],
+  "template": "+{X} to Evasion Rating per {X} Item Energy Shield on Equipped Helmet",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "active",
+   "charm"
+  ],
+  "template": "{X}% increased Damage while you have an active Charm",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "op": "INC",
+  "attr": "MOVEMENT_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED",
+  "concept": [
+   "movement",
+   "speed",
+   "active",
+   "charm"
+  ],
+  "template": "{X}% increased Movement Speed while you have an active Charm",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MANA_RECOVERY_RATE_DURING_EFFECT_OF_ANY_MANA_FLASK",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "recovery",
+   "rate",
+   "during",
+   "effect",
+   "mana",
+   "flask"
+  ],
+  "template": "{X}% increased Mana Recovery Rate during Effect of any Mana Flask",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MANA_COST_EFFICIENCY_WHILE_ON_LOW_MANA",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "cost",
+   "efficiency",
+   "mana"
+  ],
+  "template": "{X}% increased Mana Cost Efficiency while on Low Mana",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "TO_MAX_ENERGY_SHIELD_PER_ITEM_EVASION_ON_EQUIPPED_BODY_ARMOR",
+  "op": "ADD",
+  "attr": "MAX_ENERGY_SHIELD",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_ENERGY_SHIELD",
+  "concept": [
+   "energy",
+   "shield",
+   "item",
+   "evasion",
+   "body",
+   "armor"
+  ],
+  "template": "+{X} to Maximum Energy Shield per {X} Item Evasion on Equipped Body Armour",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY",
+  "op": "INC",
+  "attr": "MOVEMENT_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED",
+  "concept": [
+   "movement",
+   "speed",
+   "ve",
+   "successfully",
+   "parried"
+  ],
+  "template": "{X}% increased Movement Speed if you've successfully Parried Recently",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_WITH_SPEARS",
+  "op": "INC",
+  "attr": "CRIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "concept": [
+   "critical",
+   "damage",
+   "bonus",
+   "spears"
+  ],
+  "template": "{X}% increased Critical Damage Bonus with Spears",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EFFECT_OF_NON_DAMAGING_AILMENTS_ON_YOU",
+  "op": "INC",
+  "attr": "AILMENT_BUILDUP",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "concept": [
+   "effect",
+   "damaging",
+   "ailment"
+  ],
+  "template": "{X}% increased Effect of Non-Damaging Ailments on you",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_MANA_FLASK_CHARGES_GAIN",
+  "op": "INC",
+  "attr": "MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "concept": [
+   "mana",
+   "flask"
+  ],
+  "template": "{X}% increased Mana Flask Charges gain",
+  "bucket": "OP_GAP"
+ },
+ {
+  "const": "INC_EVASION_FROM_EQUIPPED_BODY_ARMOR",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "body",
+   "armor"
+  ],
+  "template": "{X}% increased Evasion Rating from Equipped Body Armour",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_FOR_EACH_HAZARD_TRIGGERED_RECENTLY_UP_TO",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "hazard",
+   "triggered",
+   "up"
+  ],
+  "template": "{X}% increased Damage for each Hazard triggered Recently, up to {X}%",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_EVASION_PER_INTELLIGENCE",
+  "op": "INC",
+  "attr": "EVASION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "concept": [
+   "evasion",
+   "intelligence"
+  ],
+  "template": "{X}% increased Evasion Rating per {X} Intelligence",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ACCURACY_WITH_QUARTERSTAVES",
+  "op": "INC",
+  "attr": "ACCURACY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "concept": [
+   "accuracy",
+   "quarterstaves"
+  ],
+  "template": "{X}% increased Accuracy Rating with Quarterstaves",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_WIELDING_A_QUARTERSTAFF",
+  "op": "INC",
+  "attr": "ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "concept": [
+   "armor",
+   "evasion",
+   "energy",
+   "shield",
+   "wielding",
+   "quarterstaff"
+  ],
+  "template": "{X}% increased Armour, Evasion and Energy Shield while wielding a Quarterstaff",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_DAGGERS",
+  "op": "INC",
+  "attr": "DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE",
+  "concept": [
+   "damage",
+   "daggers"
+  ],
+  "template": "{X}% increased Damage with Daggers",
+  "bucket": "REVIEW"
+ },
+ {
+  "const": "INC_POISON_DURATION_FOR_EACH_POISON_YOU_HAVE_INFLICTED_RECENTLY_UP_TO_A_MAX_OF",
+  "op": "INC",
+  "attr": "AILMENT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN",
+  "concept": [
+   "poison",
+   "duration",
+   "poison",
+   "inflicted",
+   "up"
+  ],
+  "template": "{X}% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of {X}%",
+  "bucket": "REVIEW"
+ }
+]

@@ -1,0 +1,53 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_modifier": {
+                "attribute": "coe:resistances",
+                "tags": [
+                  "chaos"
+                ],
+                "value": 0.1
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 1.5, base = 10, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 1.5, base = 10, per = 1)"
+  },
+  "tags": [
+    "aura",
+    "buff",
+    "persistent",
+    "chaos"
+  ]
+}

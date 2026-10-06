@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:charge_rate",
+  "operation": "add_value",
+  "tags": {
+    "tag": "flask"
+  }
+}

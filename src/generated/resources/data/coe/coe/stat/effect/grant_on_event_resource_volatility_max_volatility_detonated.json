@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "volatility_max",
+  "tags": {
+    "tag": "volatility_detonated"
+  },
+  "target": "resource"
+}

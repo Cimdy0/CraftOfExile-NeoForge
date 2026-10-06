@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_hit_damage_by_an_enemy",
+            "vars": {
+              "value": 3.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:every_rage_also_grants_inc_stun_threshold",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "7341",
+    "links": [
+      "56342"
+    ],
+    "x": -5946.57,
+    "y": 8472.91
+  }
+]

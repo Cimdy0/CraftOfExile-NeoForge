@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_ailments_you_inflict_against_cursed_enemies",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_curseeffectnode",
+    "id": "5594",
+    "links": [
+      "31908",
+      "50107"
+    ],
+    "x": 3269.96,
+    "y": -7400.13
+  }
+]

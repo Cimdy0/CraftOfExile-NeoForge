@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_your_hit_damage_ignites_a_target",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "14205",
+    "links": [
+      "25753",
+      "32932"
+    ],
+    "x": -3986.59,
+    "y": 5167.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_rage_when_your_hit_damage_ignites_a_target",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "7720",
+    "links": [
+      "29372",
+      "32932"
+    ],
+    "x": -4427.34,
+    "y": 4958.27
+  }
+]

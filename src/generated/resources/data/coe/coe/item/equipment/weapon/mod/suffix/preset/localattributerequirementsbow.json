@@ -1,0 +1,88 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "local",
+        "refs": [
+          "coe:reduced_attribute_requirements"
+        ],
+        "vars": [
+          "value"
+        ]
+      },
+      "tiers": [
+        {
+          "level": 24,
+          "name": "of_the_worthy",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 15.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 32,
+          "name": "of_the_apt",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 40,
+          "name": "of_the_talented",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 25.0,
+              "min": 25.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 52,
+          "name": "of_the_skilled",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 30.0,
+              "min": 30.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "of_the_proficient",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 35.0,
+              "min": 35.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:bow",
+      "coe:cross_bow",
+      "coe:one_hand_mace",
+      "coe:quarterstaff",
+      "coe:sceptre",
+      "coe:spear",
+      "coe:staff",
+      "coe:talisman",
+      "coe:two_hand_mace",
+      "coe:wand"
+    ]
+  }
+}

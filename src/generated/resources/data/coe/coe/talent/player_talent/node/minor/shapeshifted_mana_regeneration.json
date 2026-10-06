@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate_while_shapeshifted",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "55897",
+    "links": [
+      "14432",
+      "36250",
+      "48314"
+    ],
+    "x": -10443.8,
+    "y": -4121.17
+  }
+]

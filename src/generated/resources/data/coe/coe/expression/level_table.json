@@ -1,0 +1,1 @@
+"table(skill.level, $1..$40, $def)"

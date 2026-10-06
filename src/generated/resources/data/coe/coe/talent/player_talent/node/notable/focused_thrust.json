@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_melee_damage_with_spears_while_surrounded",
+            "vars": {
+              "value": 0.75
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_projectile_damage_with_spears_while_there_are_no_enemies_within_xm",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spearsnotable1",
+    "id": "9227",
+    "links": [
+      "35223",
+      "36677"
+    ],
+    "x": 8989.17,
+    "y": 6990.15
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "aoe_ranges": {},
+  "cast": {
+    "cooldown": 40.0
+  },
+  "cast_particle": "minecraft:note",
+  "cast_sound": "minecraft:block.bell.use",
+  "cost": [],
+  "params": {
+    "fissure_damage": 0.0,
+    "fissure_duration": 300.0,
+    "fissure_health": 20.0,
+    "fissure_interval": 20.0,
+    "fissure_range": 6.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_spawn": {
+                "attack_range": "$fissure_range",
+                "duration": "$fissure_duration",
+                "entity_id": "coe:fissure",
+                "health": "$fissure_health",
+                "interval": "$fissure_interval"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "$fissure_damage",
+                "can_crit": 1.0,
+                "damage_type": "physical"
+              }
+            },
+            "trigger": "on_tick"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "fissure"
+  ]
+}

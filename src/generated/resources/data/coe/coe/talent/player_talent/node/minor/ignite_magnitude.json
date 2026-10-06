@@ -1,0 +1,218 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "15522",
+    "links": [
+      "17348",
+      "24630"
+    ],
+    "x": -10851.3,
+    "y": 2815.77
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "17348",
+    "links": [
+      "11275",
+      "15522"
+    ],
+    "x": -10856.7,
+    "y": 3116.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "32364",
+    "links": [
+      "32858",
+      "59083"
+    ],
+    "x": 9807.86,
+    "y": 5902.41
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "34290",
+    "links": [
+      "35324",
+      "57832"
+    ],
+    "x": -1076.87,
+    "y": -11609.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "44092",
+    "links": [
+      "31326",
+      "54911"
+    ],
+    "x": -2750.44,
+    "y": -7272.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "44487",
+    "links": [
+      "39884",
+      "45137"
+    ],
+    "x": 3188.01,
+    "y": 4904.86
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "45137",
+    "links": [
+      "42250",
+      "44487"
+    ],
+    "x": 3163.03,
+    "y": 5094.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "57832",
+    "links": [
+      "34290",
+      "46300"
+    ],
+    "x": -1102.93,
+    "y": -11411.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ignite_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagestr",
+    "id": "59083",
+    "links": [
+      "32364",
+      "34015"
+    ],
+    "x": 9865.95,
+    "y": 5734.96
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_swords",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "54138",
+    "links": [
+      "37963",
+      "38564",
+      "61441"
+    ],
+    "x": -3314.67,
+    "y": 12098.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_speed_with_swords",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagesword",
+    "id": "61441",
+    "links": [
+      "45824",
+      "54138"
+    ],
+    "x": -2833.44,
+    "y": 11247.3
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_have_to_accuracy",
+            "vars": {
+              "value": 100.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_while_you_have_an_allies_in_your_presence",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "37872",
+    "links": [
+      "21871",
+      "26194"
+    ],
+    "x": 946.211,
+    "y": 6888.94
+  }
+]

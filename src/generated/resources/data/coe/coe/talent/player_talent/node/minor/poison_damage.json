@@ -1,0 +1,290 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "14882",
+    "links": [
+      "34015",
+      "5048"
+    ],
+    "x": 9399.45,
+    "y": 5859.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "23608",
+    "links": [
+      "24401",
+      "61741",
+      "6951"
+    ],
+    "x": 6142.68,
+    "y": 2701.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "29458",
+    "links": [
+      "28976",
+      "53595"
+    ],
+    "x": 11230.4,
+    "y": -1298.86
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "35644",
+    "links": [
+      "33815",
+      "45193",
+      "65009"
+    ],
+    "x": 4518.86,
+    "y": 952.616
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "4083",
+    "links": [
+      "33815",
+      "43677",
+      "45193"
+    ],
+    "x": 4647.75,
+    "y": 1433.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "45193",
+    "links": [
+      "35644",
+      "4083"
+    ],
+    "x": 4446.89,
+    "y": 1317.68
+  },
+  {
+    "icon": "passives_poison",
+    "id": "46069",
+    "links": [
+      "50184",
+      "6088"
+    ],
+    "x": -4860.65,
+    "y": -5976.0
+  },
+  {
+    "icon": "passives_poison",
+    "id": "50184",
+    "links": [
+      "46069",
+      "46628"
+    ],
+    "x": -4795.94,
+    "y": -6053.49
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "5048",
+    "links": [
+      "14882",
+      "261"
+    ],
+    "x": 9533.48,
+    "y": 5975.93
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "53595",
+    "links": [
+      "1723",
+      "29458",
+      "38628"
+    ],
+    "x": 11032.8,
+    "y": -1601.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "59644",
+    "links": [
+      "22517",
+      "42959"
+    ],
+    "x": 6911.88,
+    "y": 689.942
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "64325",
+    "links": [
+      "45304",
+      "61119"
+    ],
+    "x": 9026.76,
+    "y": -1551.07
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "6951",
+    "links": [
+      "23608",
+      "35901"
+    ],
+    "x": 5871.19,
+    "y": 2826.09
+  }
+]

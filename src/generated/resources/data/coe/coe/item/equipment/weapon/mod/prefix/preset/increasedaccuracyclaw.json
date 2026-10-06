@@ -1,0 +1,128 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_accuracy"
+      },
+      "tiers": [
+        {
+          "level": 8,
+          "name": "precise",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 11.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 13,
+          "name": "reliable",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 60.0,
+              "min": 33.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 18,
+          "name": "focused",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 84.0,
+              "min": 61.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 26,
+          "name": "deliberate",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 123.0,
+              "min": 85.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 36,
+          "name": "consistent",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 167.0,
+              "min": 124.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 48,
+          "name": "steady",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 236.0,
+              "min": 168.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 58,
+          "name": "hunter_s",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 346.0,
+              "min": 237.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 67,
+          "name": "ranger_s",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 450.0,
+              "min": 347.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 76,
+          "name": "amazon_s",
+          "tier": 9,
+          "values": {
+            "value": {
+              "max": 550.0,
+              "min": 451.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:claw",
+      "coe:dagger",
+      "coe:flail",
+      "coe:one_hand_axe",
+      "coe:one_hand_sword",
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

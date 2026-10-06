@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "presence",
+    "mode": "left",
+    "window": 80.0
+  },
+  "effect": "coe:stat/effect/inline_attribute_217",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_297"
+}

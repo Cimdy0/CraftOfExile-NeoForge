@@ -1,0 +1,128 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:thorns"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "thorny",
+          "tier": 1,
+          "values": {
+            "max": {
+              "max": 4.0,
+              "min": 3.0
+            },
+            "min": {
+              "min": 1.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 10,
+          "name": "spiny",
+          "tier": 2,
+          "values": {
+            "max": {
+              "max": 10.0,
+              "min": 7.0
+            },
+            "min": {
+              "max": 7.0,
+              "min": 5.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 19,
+          "name": "barbed",
+          "tier": 3,
+          "values": {
+            "max": {
+              "max": 23.0,
+              "min": 17.0
+            },
+            "min": {
+              "max": 16.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 38,
+          "name": "pointed",
+          "tier": 4,
+          "values": {
+            "max": {
+              "max": 53.0,
+              "min": 36.0
+            },
+            "min": {
+              "max": 35.0,
+              "min": 24.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 48,
+          "name": "spiked",
+          "tier": 5,
+          "values": {
+            "max": {
+              "max": 92.0,
+              "min": 61.0
+            },
+            "min": {
+              "max": 60.0,
+              "min": 40.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 63,
+          "name": "edged",
+          "tier": 6,
+          "values": {
+            "max": {
+              "max": 145.0,
+              "min": 98.0
+            },
+            "min": {
+              "max": 97.0,
+              "min": 64.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 74,
+          "name": "jagged",
+          "tier": 7,
+          "values": {
+            "max": {
+              "max": 220.0,
+              "min": 152.0
+            },
+            "min": {
+              "max": 151.0,
+              "min": 101.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:buckler",
+      "coe:chest",
+      "coe:shield"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_greenattacksmallpassive",
+    "id": "11066",
+    "links": [
+      "26663",
+      "54282"
+    ],
+    "x": 261.174,
+    "y": 8659.07
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_greenattacksmallpassive",
+    "id": "12451",
+    "links": [
+      "24922",
+      "33751"
+    ],
+    "x": 3941.17,
+    "y": 7740.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_greenattacksmallpassive",
+    "id": "14572",
+    "links": [
+      "11037",
+      "49657"
+    ],
+    "x": 136.547,
+    "y": 3867.23
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "17796",
+    "links": [
+      "22185",
+      "55412"
+    ],
+    "x": -2697.32,
+    "y": -10985.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_greenattacksmallpassive",
+    "id": "22533",
+    "links": [
+      "21274",
+      "26663"
+    ],
+    "x": 437.95,
+    "y": 8482.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_greenattacksmallpassive",
+    "id": "26663",
+    "links": [
+      "11066",
+      "22533",
+      "44765"
+    ],
+    "x": 502.655,
+    "y": 8723.77
+  },
+  {
+    "icon": "passives_movementspeedandevasion",
+    "id": "27405",
+    "links": [
+      "11464",
+      "30781"
+    ],
+    "x": -7281.1,
+    "y": -1418.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_greenattacksmallpassive",
+    "id": "33751",
+    "links": [
+      "12451",
+      "8810"
+    ],
+    "x": 3691.17,
+    "y": 7406.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_cooldown_recovery_rate",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_greenattacksmallpassive",
+    "id": "57039",
+    "links": [
+      "11037",
+      "44605"
+    ],
+    "x": 136.548,
+    "y": 3533.23
+  },
+  {
+    "icon": "passives_movementspeedandevasion",
+    "id": "63772",
+    "links": [
+      "30781",
+      "37888"
+    ],
+    "x": -6728.43,
+    "y": -1434.83
+  }
+]

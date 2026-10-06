@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_parrying",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "24843",
+    "links": [
+      "1680",
+      "17447",
+      "56860"
+    ],
+    "x": 5617.36,
+    "y": 5338.88
+  }
+]

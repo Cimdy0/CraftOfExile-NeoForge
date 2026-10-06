@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_from_equipped_body_armor",
+            "vars": {
+              "value": 0.8
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "32416",
+    "links": [
+      "27726",
+      "6529"
+    ],
+    "x": -2993.07,
+    "y": 1727.22
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_launch_additional_projectile_op_add_value_4"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "additional_projectiles"
+}

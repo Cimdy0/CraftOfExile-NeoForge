@@ -1,0 +1,1 @@
+"coe:convert_percent(input = attribute:coe:evasion, percent = attribute:coe:evasion_as_extra_armor)"

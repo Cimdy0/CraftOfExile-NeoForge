@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_thorns_damage_leeched_as_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnotable1",
+    "id": "17762",
+    "links": [
+      "2964"
+    ],
+    "x": -4149.68,
+    "y": 6117.24
+  }
+]

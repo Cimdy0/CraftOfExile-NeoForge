@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_minion_damage_while_you_have_at_least_two_different_active_offerings",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "27009",
+    "links": [
+      "43713"
+    ],
+    "x": 702.015,
+    "y": -9772.2
+  }
+]

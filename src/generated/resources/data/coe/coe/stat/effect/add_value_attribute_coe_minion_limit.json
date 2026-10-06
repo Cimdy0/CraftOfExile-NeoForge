@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:minion_limit",
+  "operation": "add_value"
+}

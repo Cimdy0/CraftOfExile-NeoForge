@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "daze"
+  },
+  "effect": "coe:stat/effect/inline_damage_convert_672",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_671"
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_for_each_different_non_instant_attack_you_ve_used_in_the_past_seconds",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_inquistitor_increasedelementaldamageattackcastespeed",
+    "id": "56237",
+    "links": [
+      "61835"
+    ],
+    "x": -9310.65,
+    "y": -5187.95
+  }
+]

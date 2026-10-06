@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "arcane_surge",
+  "tags": {
+    "tag": "caused_crit"
+  },
+  "target": "status"
+}

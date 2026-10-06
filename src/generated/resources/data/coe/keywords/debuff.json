@@ -1,0 +1,23 @@
+{
+  "aliases": [
+    "Debuff",
+    "Debuffs",
+    "减益",
+    "负面"
+  ],
+  "description": [
+    [
+      "$[debuff]",
+      "是一种负面临时效果；异常与",
+      "$[curse]",
+      "都属于",
+      "$[debuff]",
+      "。"
+    ]
+  ],
+  "id": "debuff",
+  "keys": [
+    "coe:keyword.debuff"
+  ],
+  "title": "@coe:keyword.debuff"
+}

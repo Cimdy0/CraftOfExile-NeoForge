@@ -1,0 +1,9 @@
+{
+  "type": "resource_convert",
+  "from": "energy_shield",
+  "mode": "replace",
+  "source_tags": [
+    "recharge"
+  ],
+  "to": "health"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_blind_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:blind_enemies_when_they_stun_you"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandblindnotable",
+    "id": "42354",
+    "links": [
+      "3660",
+      "43562"
+    ],
+    "x": 924.865,
+    "y": 10071.5
+  }
+]

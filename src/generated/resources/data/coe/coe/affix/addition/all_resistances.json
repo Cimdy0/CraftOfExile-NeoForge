@@ -1,0 +1,21 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:add_fire_resistance"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:add_cold_resistance"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:add_lightning_resistance"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:add_chaos_resistance"
+    }
+  ]
+}

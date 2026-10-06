@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:allies_in_your_presence_deal_inc_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "45586",
+    "links": [
+      "10305",
+      "14761"
+    ],
+    "x": -4907.69,
+    "y": 6296.75
+  }
+]

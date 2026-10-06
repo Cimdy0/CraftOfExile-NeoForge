@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_armor_equal_to_of_total_strength_requirements_of_equipped_boots_legs_and_helmet",
+            "vars": {
+              "value": 1.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_dmgreduction",
+    "id": "59589",
+    "links": [
+      "10830",
+      "52659"
+    ],
+    "x": -9449.77,
+    "y": 4077.68
+  }
+]

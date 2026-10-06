@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpass_chance_to_fire_an_additional_projectile",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "60323",
+    "links": [
+      "31918",
+      "45331",
+      "47560",
+      "9199"
+    ],
+    "x": 6506.82,
+    "y": 2075.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpass_chance_to_fire_an_additional_projectile",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "9199",
+    "links": [
+      "60323"
+    ],
+    "x": 6688.82,
+    "y": 2075.69
+  }
+]

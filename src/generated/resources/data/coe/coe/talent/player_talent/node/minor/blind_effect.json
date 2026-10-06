@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_blind_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkaccuracychakra",
+    "id": "40110",
+    "links": [
+      "42347",
+      "46152"
+    ],
+    "x": 11018.8,
+    "y": -2003.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_blind_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkaccuracychakra",
+    "id": "46152",
+    "links": [
+      "40110",
+      "42974"
+    ],
+    "x": 10802.3,
+    "y": -2046.64
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_blind_effect",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "63610",
+    "links": [
+      "38459",
+      "61373"
+    ],
+    "x": 3926.84,
+    "y": 795.235
+  }
+]

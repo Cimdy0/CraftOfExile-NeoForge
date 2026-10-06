@@ -1,0 +1,9 @@
+{
+  "type": "chaos_fire_spell_ignite_magnitude",
+  "identity_tags": [
+    "chaos",
+    "ignite"
+  ],
+  "kind": "chaos_fire_spell_ignite_magnitude",
+  "variant": "magnitude"
+}

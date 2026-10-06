@@ -1,0 +1,8 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:accessory/ring/template/none",
+    "reqs": {
+      "l": 12.0
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "allow_type": [
+    "cascadable"
+  ],
+  "effects": [
+    {
+      "coe:echo_mod": {
+        "area_inc": 0.4,
+        "delay_ticks": 10,
+        "scope": "tag",
+        "target": "spell"
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.5,
+  "max_level": 20.0,
+  "require": {
+    "intelligence": 5.0
+  },
+  "reservation_multiplier": 1.5,
+  "special": {
+    "cast_speed_multiplier": 0.7
+  },
+  "tag": "spell_echo"
+}

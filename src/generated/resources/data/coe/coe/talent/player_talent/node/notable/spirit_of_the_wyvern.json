@@ -1,0 +1,40 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy_while_shapeshifted",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnotable",
+    "id": "26104",
+    "links": [
+      "27611",
+      "32186",
+      "43282",
+      "55672"
+    ],
+    "x": -8692.57,
+    "y": -7703.86
+  }
+]

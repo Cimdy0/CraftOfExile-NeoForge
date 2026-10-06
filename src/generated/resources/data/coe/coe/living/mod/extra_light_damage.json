@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_damage_op_add_value_0_4_damage_lightning"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "extra_light_damage"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_arcane_surge_on_you",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "27626",
+    "links": [
+      "15628",
+      "54067"
+    ],
+    "x": -5560.32,
+    "y": -8409.77
+  }
+]

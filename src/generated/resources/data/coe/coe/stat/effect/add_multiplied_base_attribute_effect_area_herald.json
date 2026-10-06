@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:area_of_effect",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "herald"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:duration_mult",
+  "operation": "add_multiplied_total",
+  "tags": {
+    "and": [
+      {
+        "tag": "spell"
+      },
+      {
+        "tag": "plant"
+      }
+    ]
+  }
+}

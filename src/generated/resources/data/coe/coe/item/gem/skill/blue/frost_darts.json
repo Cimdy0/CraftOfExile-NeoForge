@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_frost_darts",
+  "vars": {
+    "tier": 1.0
+  }
+}

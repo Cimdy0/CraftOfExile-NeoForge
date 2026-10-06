@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_burning_enemies",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "51369",
+    "links": [
+      "27373",
+      "45503",
+      "56061"
+    ],
+    "x": -4870.82,
+    "y": 1520.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_burning_enemies",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamageint",
+    "id": "56061",
+    "links": [
+      "51369",
+      "6544"
+    ],
+    "x": -5034.82,
+    "y": 1684.57
+  }
+]

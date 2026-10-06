@@ -1,0 +1,21 @@
+{
+  "aliases": [
+    "Dexterity",
+    "敏捷"
+  ],
+  "description": [
+    [
+      "$[dexterity]",
+      "是一种提供",
+      "$[evasion]",
+      "与命中（准确率）的",
+      "$[attribute]",
+      "。"
+    ]
+  ],
+  "id": "dexterity",
+  "keys": [
+    "coe:keyword.dexterity"
+  ],
+  "title": "@coe:keyword.dexterity"
+}

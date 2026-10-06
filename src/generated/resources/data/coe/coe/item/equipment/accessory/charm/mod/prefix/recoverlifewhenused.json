@@ -1,0 +1,110 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:flask_recover_life"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "herbal",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 14,
+        "name": "floral",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 52.0,
+            "min": 35.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 26,
+        "name": "blooming",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 92.0,
+            "min": 63.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 36,
+        "name": "sprouting",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 130.0,
+            "min": 96.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 47,
+        "name": "petaled",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 180.0,
+            "min": 134.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 58,
+        "name": "botanic",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 230.0,
+            "min": 185.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 67,
+        "name": "natural",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 280.0,
+            "min": 235.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 76,
+        "name": "evergreen",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 350.0,
+            "min": 285.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

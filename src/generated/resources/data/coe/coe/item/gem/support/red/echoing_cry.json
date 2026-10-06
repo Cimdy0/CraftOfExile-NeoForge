@@ -1,0 +1,35 @@
+{
+  "allow_type": [
+    "warcry"
+  ],
+  "effects": [
+    {
+      "coe:echo_mod": {
+        "area_more_per_echo": 1.0,
+        "count": 2,
+        "delay_ticks": 26
+      }
+    },
+    {
+      "coe:delivery_mod": {
+        "delivery": "area",
+        "params": {
+          "radius_multiplier": 0.5
+        }
+      }
+    },
+    {
+      "coe:effect_mod": {
+        "less": 0.6
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.5,
+  "max_level": 20.0,
+  "require": {
+    "strength": 5.0
+  },
+  "reservation_multiplier": 1.5,
+  "tag": "echoing_cry"
+}

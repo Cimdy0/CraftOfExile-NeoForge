@@ -1,0 +1,141 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_max_mana"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "beryl",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 10.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 6,
+        "name": "cobalt",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "azure",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "teal",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 54.0,
+            "min": 35.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "cerulean",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 64.0,
+            "min": 55.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 38,
+        "name": "aqua",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 65.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "opalescent",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "gentian",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 104.0,
+            "min": 90.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 60,
+        "name": "chalybeous",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 124.0,
+            "min": 105.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "mazarine",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 149.0,
+            "min": 125.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 70,
+        "name": "blue",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 164.0,
+            "min": 150.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

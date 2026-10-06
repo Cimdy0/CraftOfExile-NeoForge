@@ -1,0 +1,62 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:presence_radius"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 23,
+        "name": "of_direction",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 36.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 40,
+        "name": "of_outreach",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 46.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 56,
+        "name": "of_guidance",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 65.0,
+            "min": 56.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 72,
+        "name": "of_influence",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 80.0,
+            "min": 66.0
+          }
+        },
+        "weight": 500
+      }
+    ]
+  }
+}

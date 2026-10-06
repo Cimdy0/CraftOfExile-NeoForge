@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_against_enemies_that_are_on_full_health",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "52630",
+    "links": [
+      "28371",
+      "61800"
+    ],
+    "x": 8378.96,
+    "y": -477.954
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_against_enemies_that_are_on_full_health",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "61800",
+    "links": [
+      "29527",
+      "52630"
+    ],
+    "x": 8508.37,
+    "y": -477.954
+  }
+]

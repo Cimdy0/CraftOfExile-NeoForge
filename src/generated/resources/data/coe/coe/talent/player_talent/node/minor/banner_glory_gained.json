@@ -1,0 +1,156 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation_for_banner_skills",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "12821",
+    "links": [
+      "4661",
+      "53367",
+      "65439",
+      "6623"
+    ],
+    "x": -3896.69,
+    "y": 9444.55
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation_for_banner_skills",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "16385",
+    "links": [
+      "46475",
+      "5098",
+      "53320"
+    ],
+    "x": -2027.48,
+    "y": 6000.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation_for_banner_skills",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "48026",
+    "links": [
+      "10835",
+      "20842",
+      "28175",
+      "65439",
+      "6623"
+    ],
+    "x": -4060.69,
+    "y": 9728.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation_for_banner_skills",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "53320",
+    "links": [
+      "16385",
+      "41651",
+      "43791"
+    ],
+    "x": -2027.48,
+    "y": 5716.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation_for_banner_skills",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "62258",
+    "links": [
+      "11752",
+      "21096",
+      "62455",
+      "63360"
+    ],
+    "x": -1751.68,
+    "y": 7635.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_glory_generation_for_banner_skills",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "63360",
+    "links": [
+      "18801",
+      "2864",
+      "62258"
+    ],
+    "x": -1751.68,
+    "y": 8068.09
+  }
+]

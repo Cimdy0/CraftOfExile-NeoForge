@@ -1,0 +1,32 @@
+{
+  "entry": "group",
+  "members": [
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "effect": "coe:stat/effect/inline_attribute_489",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    },
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "effect": "coe:stat/effect/inline_attribute_1110",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    },
+    {
+      "amount": {
+        "type": "inline",
+        "value": "$value"
+      },
+      "effect": "coe:stat/effect/inline_attribute_471",
+      "entry": "inline",
+      "targets": "coe:stat/targets/inline_inline_1"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "11292",
+    "links": [
+      "2575",
+      "56757"
+    ],
+    "x": -9064.75,
+    "y": 198.325
+  },
+  {
+    "icon": "passives_totemandbrandlife",
+    "id": "36197",
+    "links": [
+      "27096",
+      "59908"
+    ],
+    "x": -10898.3,
+    "y": -6472.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "38172",
+    "links": [
+      "4882",
+      "60568"
+    ],
+    "x": -3485.74,
+    "y": 3840.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "41186",
+    "links": [
+      "42710",
+      "58117"
+    ],
+    "x": -9716.02,
+    "y": 5827.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "41615",
+    "links": [
+      "10534",
+      "22616",
+      "49192"
+    ],
+    "x": -5460.44,
+    "y": -304.949
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "42710",
+    "links": [
+      "41186",
+      "5580"
+    ],
+    "x": -9858.05,
+    "y": 6402.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "44787",
+    "links": [
+      "14654",
+      "49192",
+      "51683"
+    ],
+    "x": -5710.44,
+    "y": -304.949
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "49192",
+    "links": [
+      "41615",
+      "43396",
+      "44787"
+    ],
+    "x": -5585.44,
+    "y": -271.455
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "56757",
+    "links": [
+      "10100",
+      "11292"
+    ],
+    "x": -8982.75,
+    "y": 504.353
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_totem_placement_speed",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "60568",
+    "links": [
+      "38172",
+      "46748",
+      "52348"
+    ],
+    "x": -3813.67,
+    "y": 4228.26
+  }
+]

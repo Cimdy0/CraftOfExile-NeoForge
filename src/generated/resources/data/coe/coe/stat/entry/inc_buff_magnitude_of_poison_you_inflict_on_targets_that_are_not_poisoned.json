@@ -1,0 +1,21 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "status",
+      "id": "poison"
+    },
+    "operator": "==",
+    "right": {
+      "type": "const",
+      "value": 0.0
+    }
+  },
+  "effect": "coe:stat/effect/inline_attribute_135",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_169"
+}

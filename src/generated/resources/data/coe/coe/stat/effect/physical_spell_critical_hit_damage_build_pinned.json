@@ -1,0 +1,21 @@
+{
+  "type": "grant_on_event",
+  "param": "pin",
+  "tags": {
+    "and": [
+      {
+        "tag": "physical"
+      },
+      {
+        "tag": "spell"
+      },
+      {
+        "tag": "crit"
+      },
+      {
+        "tag": "caused_hit"
+      }
+    ]
+  },
+  "target": "status"
+}

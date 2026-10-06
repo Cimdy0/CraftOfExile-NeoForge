@@ -1,0 +1,125 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_you_have_consumed_an_elemental_infusion_recently",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "18793",
+    "links": [
+      "33639",
+      "51194"
+    ],
+    "x": -956.525,
+    "y": -7892.82
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_you_have_consumed_an_elemental_infusion_recently",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "29391",
+    "links": [
+      "29009",
+      "29800",
+      "50715",
+      "5314",
+      "61354"
+    ],
+    "x": -265.995,
+    "y": -9489.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_you_have_consumed_an_elemental_infusion_recently",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "33639",
+    "links": [
+      "18793",
+      "24087"
+    ],
+    "x": -1048.03,
+    "y": -7801.31
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_you_have_consumed_an_elemental_infusion_recently",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "45522",
+    "links": [
+      "22314",
+      "64046"
+    ],
+    "x": -144.245,
+    "y": -3752.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage_if_you_have_consumed_an_elemental_infusion_recently",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "55909",
+    "links": [
+      "60230",
+      "64046"
+    ],
+    "x": -351.941,
+    "y": -4223.57
+  }
+]

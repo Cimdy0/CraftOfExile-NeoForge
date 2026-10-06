@@ -1,0 +1,77 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed_while_shapeshifted",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "43941",
+    "links": [
+      "48314",
+      "61393"
+    ],
+    "x": -10648.1,
+    "y": -3316.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed_while_shapeshifted",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "48314",
+    "links": [
+      "3348",
+      "43941",
+      "55897",
+      "61896"
+    ],
+    "x": -10650.0,
+    "y": -3509.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_skill_speed_while_shapeshifted",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnode",
+    "id": "9037",
+    "links": [
+      "17260",
+      "32353",
+      "61703"
+    ],
+    "x": -6094.12,
+    "y": -804.597
+  }
+]

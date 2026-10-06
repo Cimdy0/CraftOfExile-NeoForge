@@ -1,0 +1,8 @@
+{
+  "type": "equipment_bonus_to_minions",
+  "identity_tags": [
+    "amulet"
+  ],
+  "kind": "equipment_bonus_to_minions",
+  "variant": "gate"
+}

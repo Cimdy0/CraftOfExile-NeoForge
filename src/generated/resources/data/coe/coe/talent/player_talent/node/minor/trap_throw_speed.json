@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_trap_throwing_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapdamage",
+    "id": "43938",
+    "links": [
+      "37688",
+      "4664"
+    ],
+    "x": 9299.77,
+    "y": -6369.87
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_trap_throwing_speed",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapdamage",
+    "id": "4664",
+    "links": [
+      "34912",
+      "43938"
+    ],
+    "x": 9097.42,
+    "y": -6453.69
+  }
+]

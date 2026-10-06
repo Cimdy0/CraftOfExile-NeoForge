@@ -1,0 +1,74 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_spell_crit_chance"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 11,
+        "name": "of_menace",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 27.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 21,
+        "name": "of_havoc",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 39.0,
+            "min": 34.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 28,
+        "name": "of_disaster",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 46.0,
+            "min": 40.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 41,
+        "name": "of_calamity",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 53.0,
+            "min": 47.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 59,
+        "name": "of_ruin",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 59.0,
+            "min": 54.0
+          }
+        },
+        "weight": 250
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "allow_type": [
+    "unleashable",
+    "spell",
+    "AND"
+  ],
+  "effects": [
+    {
+      "coe:effect_mod": {
+        "less": 0.5
+      }
+    },
+    {
+      "coe:seal_mod": {
+        "gain_every_cast_time_multiplier": 200.0,
+        "max_seals": 3
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.5,
+  "max_level": 20.0,
+  "require": {
+    "intelligence": 5.0
+  },
+  "reservation_multiplier": 1.5,
+  "tag": "unleash"
+}

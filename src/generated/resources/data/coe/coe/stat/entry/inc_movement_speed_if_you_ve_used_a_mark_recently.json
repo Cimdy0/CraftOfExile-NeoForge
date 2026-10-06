@@ -1,0 +1,15 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "count",
+    "mode": "recently",
+    "name": "cast_skill",
+    "tag": "mark"
+  },
+  "effect": "coe:stat/effect/inline_attribute_497",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

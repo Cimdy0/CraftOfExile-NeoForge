@@ -1,0 +1,146 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_crossbow_reload_speed",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "12311",
+    "links": [
+      "3995",
+      "64119"
+    ],
+    "x": 1234.25,
+    "y": 7902.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_crossbow_reload_speed",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "16680",
+    "links": [
+      "48137",
+      "7062"
+    ],
+    "x": 2329.03,
+    "y": 11297.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_crossbow_reload_speed",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "25807",
+    "links": [
+      "53683",
+      "65468"
+    ],
+    "x": 1694.19,
+    "y": 11468.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_crossbow_reload_speed",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "30082",
+    "links": [
+      "43155",
+      "53683"
+    ],
+    "x": 2092.43,
+    "y": 11575.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_crossbow_reload_speed",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "3995",
+    "links": [
+      "12311",
+      "39298"
+    ],
+    "x": 1386.05,
+    "y": 8019.11
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_crossbow_reload_speed",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "48137",
+    "links": [
+      "16680",
+      "33887"
+    ],
+    "x": 2257.4,
+    "y": 11143.9
+  }
+]

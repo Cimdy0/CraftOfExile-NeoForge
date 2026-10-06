@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:invoked_spells_have_chance_to_consume_half_as_much_energy",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "24491",
+    "links": [
+      "18856"
+    ],
+    "x": 1802.15,
+    "y": -9298.16
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "debilitate",
+  "tags": {
+    "tag": "use_warcry_enemy"
+  },
+  "target": "status"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "lightning"
+  ],
+  "mode": "gain",
+  "to": "chaos"
+}

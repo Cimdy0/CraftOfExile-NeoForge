@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_when_you_gain_an_endurance_charge_to_gain_an_additional_endurance_charge",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "59433",
+    "links": [
+      "11027"
+    ],
+    "x": -8155.99,
+    "y": -4880.6
+  }
+]

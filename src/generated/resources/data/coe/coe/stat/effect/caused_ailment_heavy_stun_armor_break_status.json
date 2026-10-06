@@ -1,0 +1,16 @@
+{
+  "type": "grant_on_event",
+  "amount_is_magnitude": true,
+  "param": "armour_break",
+  "tags": {
+    "and": [
+      {
+        "tag": "heavy_stun"
+      },
+      {
+        "tag": "caused_ailment"
+      }
+    ]
+  },
+  "target": "status"
+}

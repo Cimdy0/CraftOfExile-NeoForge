@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_duration",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerareanotable",
+    "id": "53367",
+    "links": [
+      "10835",
+      "12821"
+    ],
+    "x": -3978.69,
+    "y": 9252.58
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_fire_damage_against_heavy_stunned_enemies",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_firedamagenode",
+    "id": "42390",
+    "links": [
+      "11433",
+      "13893"
+    ],
+    "x": -10448.3,
+    "y": 2593.37
+  }
+]

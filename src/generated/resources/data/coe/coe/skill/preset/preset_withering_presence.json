@@ -1,0 +1,52 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_stat": {
+                "duration": 60.0,
+                "effects": [
+                  {
+                    "amount": {
+                      "type": "inline",
+                      "value": 1.0
+                    },
+                    "effect": "coe:stat/effect/inline_presence_aura_1247",
+                    "entry": "inline",
+                    "targets": "coe:stat/targets/inline_inline_1246"
+                  }
+                ],
+                "id": "coe:stat_withering_presence"
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ]
+      }
+    }
+  ],
+  "require": {
+    "intelligence": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "aura",
+    "buff",
+    "persistent",
+    "chaos",
+    "duration"
+  ]
+}

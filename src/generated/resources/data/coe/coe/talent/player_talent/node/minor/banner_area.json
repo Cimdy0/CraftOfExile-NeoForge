@@ -1,0 +1,99 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "20842",
+    "links": [
+      "4661",
+      "48026"
+    ],
+    "x": -3978.69,
+    "y": 9920.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "21096",
+    "links": [
+      "56388",
+      "62258"
+    ],
+    "x": -1752.98,
+    "y": 7380.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "41651",
+    "links": [
+      "43791",
+      "5098",
+      "53320"
+    ],
+    "x": -1863.48,
+    "y": 5716.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banner_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerresourceareanode",
+    "id": "5098",
+    "links": [
+      "16385",
+      "41651"
+    ],
+    "x": -1863.48,
+    "y": 6000.56
+  }
+]

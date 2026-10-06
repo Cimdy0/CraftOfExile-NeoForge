@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:totems_gain_to_all_elemental_resistances",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:totems_have_additional_physical_damage_reduction",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "24438",
+    "links": [
+      "13171",
+      "46748",
+      "48121"
+    ],
+    "x": -4114.17,
+    "y": 4317.84
+  }
+]

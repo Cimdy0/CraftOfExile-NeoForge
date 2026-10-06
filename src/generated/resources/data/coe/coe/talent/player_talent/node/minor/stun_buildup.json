@@ -1,0 +1,462 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "10047",
+    "links": [
+      "4673",
+      "62757"
+    ],
+    "x": -7653.13,
+    "y": -1285.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "10251",
+    "links": [
+      "45327",
+      "7204"
+    ],
+    "x": -7853.22,
+    "y": 1517.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "17726",
+    "links": [
+      "11826",
+      "33053"
+    ],
+    "x": 2256.8,
+    "y": 2935.01
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "20547",
+    "links": [
+      "22558",
+      "33340",
+      "34412"
+    ],
+    "x": -4938.38,
+    "y": -1099.87
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "20691",
+    "links": [
+      "41739",
+      "60404"
+    ],
+    "x": -3447.4,
+    "y": 6692.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "21670",
+    "links": [
+      "27296",
+      "29358"
+    ],
+    "x": -9677.83,
+    "y": 3405.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "29358",
+    "links": [
+      "21670",
+      "44069",
+      "917"
+    ],
+    "x": -9478.42,
+    "y": 3377.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "33340",
+    "links": [
+      "20547",
+      "51267"
+    ],
+    "x": -5179.86,
+    "y": -1164.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "39581",
+    "links": [
+      "46325",
+      "6839"
+    ],
+    "x": -2176.59,
+    "y": 1158.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "41739",
+    "links": [
+      "20691",
+      "35265"
+    ],
+    "x": -3507.42,
+    "y": 6468.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "44069",
+    "links": [
+      "29358",
+      "65160"
+    ],
+    "x": -9347.58,
+    "y": 3167.63
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "44406",
+    "links": [
+      "63451",
+      "8600"
+    ],
+    "x": -5197.82,
+    "y": 5668.02
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "45327",
+    "links": [
+      "10251",
+      "59945"
+    ],
+    "x": -8000.45,
+    "y": 1602.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "46741",
+    "links": [
+      "49734",
+      "62757"
+    ],
+    "x": -7817.13,
+    "y": -1569.93
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "51267",
+    "links": [
+      "11886",
+      "33340"
+    ],
+    "x": -5244.57,
+    "y": -1406.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "57846",
+    "links": [
+      "38876",
+      "63451"
+    ],
+    "x": -4471.23,
+    "y": 6087.52
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "62757",
+    "links": [
+      "10047",
+      "46741"
+    ],
+    "x": -7593.11,
+    "y": -1509.91
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "6839",
+    "links": [
+      "39581",
+      "5710"
+    ],
+    "x": -2518.09,
+    "y": 1250.22
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "7204",
+    "links": [
+      "10251",
+      "4985",
+      "53527",
+      "64525"
+    ],
+    "x": -7711.19,
+    "y": 1435.92
+  }
+]

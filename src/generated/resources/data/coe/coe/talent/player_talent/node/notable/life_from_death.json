@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_on_kill",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_hiredkiller2",
+    "id": "7344",
+    "links": [
+      "26931",
+      "58182"
+    ],
+    "x": 3224.82,
+    "y": -1861.84
+  }
+]

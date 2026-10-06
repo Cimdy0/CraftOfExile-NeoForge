@@ -1,0 +1,7 @@
+{
+  "type": "charge_convert",
+  "mode": "ally_grant",
+  "tags": {
+    "tag": "gain_charge"
+  }
+}

@@ -1,0 +1,622 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "10192",
+    "links": [
+      "3823",
+      "60230"
+    ],
+    "x": -478.245,
+    "y": -4086.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "13748",
+    "links": [
+      "38338",
+      "41029",
+      "9141"
+    ],
+    "x": 3842.13,
+    "y": -5244.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "16367",
+    "links": [
+      "5257",
+      "5703",
+      "60692"
+    ],
+    "x": 3842.13,
+    "y": -4910.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "22314",
+    "links": [
+      "22821",
+      "45522",
+      "51184",
+      "51968"
+    ],
+    "x": -478.295,
+    "y": -3316.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "22359",
+    "links": [
+      "35760",
+      "55507",
+      "60692"
+    ],
+    "x": 3842.13,
+    "y": -4422.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "22439",
+    "links": [
+      "25101",
+      "44498",
+      "5936"
+    ],
+    "x": -612.805,
+    "y": -8303.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "22821",
+    "links": [
+      "22314",
+      "3823"
+    ],
+    "x": -478.295,
+    "y": -3566.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "23930",
+    "links": [
+      "45383",
+      "46024",
+      "50629",
+      "58295"
+    ],
+    "x": -7240.25,
+    "y": -363.325
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "24035",
+    "links": [
+      "40783",
+      "49804",
+      "60741"
+    ],
+    "x": 1341.67,
+    "y": -5546.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "24430",
+    "links": [
+      "3601",
+      "38707",
+      "50629",
+      "63037"
+    ],
+    "x": -7495.15,
+    "y": -793.725
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkelementalchakra",
+    "id": "2446",
+    "links": [
+      "37164",
+      "4059",
+      "50268"
+    ],
+    "x": 4880.31,
+    "y": -8121.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "26739",
+    "links": [
+      "43893",
+      "7777"
+    ],
+    "x": -5623.41,
+    "y": -7503.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "3218",
+    "links": [
+      "40803",
+      "48171",
+      "50629"
+    ],
+    "x": -6993.17,
+    "y": -797.657
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "35760",
+    "links": [
+      "22359",
+      "9141"
+    ],
+    "x": 4131.39,
+    "y": -4743.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "38338",
+    "links": [
+      "13748",
+      "5257",
+      "55507"
+    ],
+    "x": 3419.51,
+    "y": -5154.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "43893",
+    "links": [
+      "1433",
+      "26739",
+      "55101"
+    ],
+    "x": -5745.67,
+    "y": -7380.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "45497",
+    "links": [
+      "13333",
+      "17057",
+      "45885",
+      "61170"
+    ],
+    "x": -1446.33,
+    "y": -10165.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "50629",
+    "links": [
+      "23930",
+      "24430",
+      "3218"
+    ],
+    "x": -7241.96,
+    "y": -651.555
+  },
+  {
+    "icon": "passives_elementaldamage",
+    "id": "52993",
+    "links": [
+      "18081",
+      "9414"
+    ],
+    "x": -6821.89,
+    "y": -1824.91
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "55101",
+    "links": [
+      "43893",
+      "58016"
+    ],
+    "x": -5912.67,
+    "y": -7336.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "55507",
+    "links": [
+      "22359",
+      "38338",
+      "8569"
+    ],
+    "x": 3552.88,
+    "y": -4743.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "5936",
+    "links": [
+      "22439",
+      "39752",
+      "49512",
+      "65248"
+    ],
+    "x": -612.805,
+    "y": -8149.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "60230",
+    "links": [
+      "10192",
+      "55909",
+      "56935",
+      "58362"
+    ],
+    "x": -478.245,
+    "y": -4409.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "60741",
+    "links": [
+      "24035",
+      "33922"
+    ],
+    "x": 1505.67,
+    "y": -5382.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "9141",
+    "links": [
+      "13748",
+      "35760",
+      "5703"
+    ],
+    "x": 4264.76,
+    "y": -5154.29
+  },
+  {
+    "icon": "passives_elementaldamage",
+    "id": "9414",
+    "links": [
+      "49734",
+      "52993"
+    ],
+    "x": -7154.36,
+    "y": -1815.87
+  }
+]

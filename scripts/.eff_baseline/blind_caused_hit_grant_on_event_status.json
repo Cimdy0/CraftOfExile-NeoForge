@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "blind",
+  "tags": [
+    "caused_hit"
+  ],
+  "target": "status"
+}

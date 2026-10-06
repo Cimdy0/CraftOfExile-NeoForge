@@ -1,0 +1,99 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_if_you_have_consumed_a_corpse_recently",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "26804",
+    "links": [
+      "25557",
+      "55405",
+      "59909"
+    ],
+    "x": 3896.31,
+    "y": -7311.39
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_if_you_have_consumed_a_corpse_recently",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "55405",
+    "links": [
+      "25620",
+      "26804"
+    ],
+    "x": 3700.3,
+    "y": -7135.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_not_destroy_corpses_when_consuming_corpses",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "30539",
+    "links": [
+      "25620",
+      "59909"
+    ],
+    "x": 3521.31,
+    "y": -7094.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_not_destroy_corpses_when_consuming_corpses",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_corpsedamage",
+    "id": "59909",
+    "links": [
+      "26804",
+      "30539"
+    ],
+    "x": 3646.31,
+    "y": -7311.39
+  }
+]

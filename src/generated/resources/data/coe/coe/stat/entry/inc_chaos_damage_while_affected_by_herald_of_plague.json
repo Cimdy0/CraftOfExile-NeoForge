@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "herald_of_plague"
+  },
+  "effect": "coe:stat/effect/inline_attribute_224",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

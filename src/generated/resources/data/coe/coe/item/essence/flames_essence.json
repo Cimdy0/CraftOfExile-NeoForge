@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "one_hand, !wand, !staff, !sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_fire_damage"
+          },
+          "max": 16.0,
+          "min": 13.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_fire_damage"
+          },
+          "max": 24.0,
+          "min": 20.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_fire_damage"
+          },
+          "max": 44.0,
+          "min": 35.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:extra_fire_damage"
+          },
+          "max": 44.0,
+          "min": 35.0,
+          "tier": "perfect"
+        }
+      ],
+      "two_hand~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_fire_damage"
+          },
+          "max": 24.0,
+          "min": 20.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_fire_damage"
+          },
+          "max": 37.0,
+          "min": 30.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_fire_damage"
+          },
+          "max": 70.0,
+          "min": 56.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:extra_fire_damage"
+          },
+          "max": 70.0,
+          "min": 56.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

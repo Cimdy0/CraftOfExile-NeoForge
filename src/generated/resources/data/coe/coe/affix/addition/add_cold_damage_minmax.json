@@ -1,0 +1,15 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:add_cold_damage",
+      "value_var": "min"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:add_cold_damage",
+      "value_var": "max"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:cloud",
+  "cast_sound": "minecraft:block.beacon.activate",
+  "cost": [
+    {
+      "value": "coe:level_table(7, 8, 9, 11, 12, 14, 15, 17, 19, 21, 23, 26, 28, 31, 33, 36, 39, 43, 46, 50, 54, 58, 63, 68, 73, 78, 84, 90, 96, 103, 110, 118, 126, 134, 143, 153, 163, 174, 185, 197)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 3, base = 11.8, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "lightning"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_projectile": {
+            "ref": {
+              "ref": "coe:arrow",
+              "render": "coe:green/stormcaller_arrow"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "dexterity": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

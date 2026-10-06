@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_axes",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damageaxe",
+    "id": "57880",
+    "links": [
+      "11306",
+      "27082",
+      "6269"
+    ],
+    "x": -8803.85,
+    "y": 6487.27
+  }
+]

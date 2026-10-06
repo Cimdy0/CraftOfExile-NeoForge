@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_withered_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "26762",
+    "links": [
+      "35380",
+      "58022"
+    ],
+    "x": 7420.17,
+    "y": -8305.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_withered_buff_magnitude",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "35380",
+    "links": [
+      "26762",
+      "44373"
+    ],
+    "x": 7324.01,
+    "y": -8522.88
+  }
+]

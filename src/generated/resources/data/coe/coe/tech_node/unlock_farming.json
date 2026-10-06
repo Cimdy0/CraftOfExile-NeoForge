@@ -1,0 +1,11 @@
+{
+  "effect": {
+    "chunk_budget_add": 1,
+    "unlock_work_types": [
+      "farming"
+    ]
+  },
+  "min_level": 3,
+  "name": "农业生产",
+  "sort_order": 5
+}

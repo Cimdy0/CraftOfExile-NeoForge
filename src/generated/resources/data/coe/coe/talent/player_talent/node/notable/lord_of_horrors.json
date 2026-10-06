@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_reservation_efficiency_of_minion_skills",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_miniondamageblue",
+    "id": "33240",
+    "links": [
+      "61842"
+    ],
+    "x": -4341.09,
+    "y": -11671.5
+  }
+]

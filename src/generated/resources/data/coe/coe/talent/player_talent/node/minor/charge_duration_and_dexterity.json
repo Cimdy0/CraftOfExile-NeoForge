@@ -1,0 +1,39 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_endurance_frenzy_and_power_charge_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_dexterity",
+            "vars": {
+              "value": 5.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividstag",
+    "id": "34623",
+    "links": [
+      "14262",
+      "14769",
+      "21156"
+    ],
+    "x": 9942.54,
+    "y": 211.527
+  }
+]

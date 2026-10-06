@@ -1,0 +1,21 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "health",
+      "mode": "energy"
+    },
+    "operator": ">=",
+    "right": {
+      "type": "health",
+      "mode": "max_energy"
+    }
+  },
+  "effect": "coe:stat/effect/inline_attribute_71",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "volatility",
+  "tags": {
+    "tag": "kill"
+  },
+  "target": "resource"
+}

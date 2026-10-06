@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_crossbows_for_each_type_of_ammunition_fired_in_the_past_seconds",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "33887",
+    "links": [
+      "48137"
+    ],
+    "x": 2137.56,
+    "y": 11024.1
+  }
+]

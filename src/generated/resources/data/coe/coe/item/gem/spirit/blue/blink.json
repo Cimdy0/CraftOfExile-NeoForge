@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_blink",
+  "vars": {
+    "tier": 8.0
+  }
+}

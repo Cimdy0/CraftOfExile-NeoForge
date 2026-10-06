@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:rage_regen_per_rage_spent",
+  "operation": "add_value"
+}

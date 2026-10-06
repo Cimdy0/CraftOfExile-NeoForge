@@ -1,0 +1,23 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_magnitude",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "slow"
+      },
+      {
+        "tag": "ailment"
+      },
+      {
+        "tag": "hazard"
+      },
+      {
+        "not": {
+          "tag": "taken"
+        }
+      }
+    ]
+  }
+}

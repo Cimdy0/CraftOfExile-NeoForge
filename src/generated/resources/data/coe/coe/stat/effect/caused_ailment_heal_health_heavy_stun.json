@@ -1,0 +1,14 @@
+{
+  "type": "heal",
+  "resource": "health",
+  "tags": {
+    "and": [
+      {
+        "tag": "heavy_stun"
+      },
+      {
+        "tag": "caused_ailment"
+      }
+    ]
+  }
+}

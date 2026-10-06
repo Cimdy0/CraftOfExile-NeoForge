@@ -1,0 +1,129 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_energy_local"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "shining",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 11,
+        "name": "glimmering",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "glittering",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 25,
+        "name": "glowing",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 33.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 33,
+        "name": "radiating",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 41.0,
+            "min": 34.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "pulsing",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 51.0,
+            "min": 42.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 54,
+        "name": "blazing",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 61.0,
+            "min": 52.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 65,
+        "name": "dazzling",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 70.0,
+            "min": 62.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 70,
+        "name": "scintillating",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 79.0,
+            "min": 71.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 80,
+        "name": "incandescent",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 89.0,
+            "min": 80.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

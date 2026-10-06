@@ -1,0 +1,8 @@
+{
+  "type": "damage_taken_convert",
+  "mode": "extra",
+  "reduction": "armor",
+  "tags": {
+    "tag": "chaos"
+  }
+}

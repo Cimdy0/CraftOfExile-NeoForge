@@ -1,0 +1,69 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_crit_damage"
+    },
+    "tiers": [
+      {
+        "level": 8,
+        "name": "of_ire",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 10.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 21,
+        "name": "of_anger",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 19.0,
+            "min": 15.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 31,
+        "name": "of_rage",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 24.0,
+            "min": 20.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 45,
+        "name": "of_fury",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 29.0,
+            "min": 25.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 59,
+        "name": "of_ferocity",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 30.0
+          }
+        },
+        "weight": 250
+      }
+    ]
+  }
+}

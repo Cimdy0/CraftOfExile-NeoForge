@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:invoked_energy_cost_mult",
+  "operation": "add_value",
+  "tags": {
+    "tag": "invoked"
+  }
+}

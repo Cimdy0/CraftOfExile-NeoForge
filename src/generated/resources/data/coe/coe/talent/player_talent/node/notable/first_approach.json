@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_against_enemies_that_are_on_full_health",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:cannot_be_blinded_while_on_full_health",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_full_health",
+            "vars": {
+              "value": 0.8
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "29527",
+    "links": [
+      "60560",
+      "61800"
+    ],
+    "x": 8660.17,
+    "y": -594.435
+  }
+]

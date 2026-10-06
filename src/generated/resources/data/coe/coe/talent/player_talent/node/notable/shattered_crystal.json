@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ice_crystal_health",
+            "vars": {
+              "value": -0.6
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamagenode",
+    "id": "49740",
+    "links": [
+      "23455"
+    ],
+    "x": 3668.09,
+    "y": -8466.37
+  }
+]

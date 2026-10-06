@@ -1,0 +1,23 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:quarterstaff_skills_that_consume_power_charges_count_as_consuming_an_additional_power_charge"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagestaff",
+    "id": "9444",
+    "links": [
+      "31449",
+      "52399"
+    ],
+    "x": 10470.8,
+    "y": -2705.24
+  }
+]

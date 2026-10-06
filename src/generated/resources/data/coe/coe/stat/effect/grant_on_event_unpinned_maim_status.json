@@ -1,0 +1,10 @@
+{
+  "type": "grant_on_event",
+  "amount_is_duration": true,
+  "base_magnitude": 30.0,
+  "param": "maim",
+  "tags": {
+    "tag": "unpinned"
+  },
+  "target": "status"
+}

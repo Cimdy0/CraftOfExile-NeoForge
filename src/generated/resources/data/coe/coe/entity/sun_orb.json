@@ -1,0 +1,41 @@
+{
+  "type": "coe:orb",
+  "behavior": [
+    {
+      "coe:pulse": {
+        "interval": 28
+      }
+    },
+    {
+      "coe:detonate": {
+        "fuse": 200
+      }
+    },
+    {
+      "coe:aura": {
+        "interval": 28,
+        "status": "coe:ignite"
+      }
+    }
+  ],
+  "box_height": 0.6,
+  "on_aura": [
+    {
+      "coe:apply_status": {
+        "duration": 1200,
+        "status": "ignite"
+      }
+    }
+  ],
+  "on_expire": [
+    {
+      "coe:phase_on_hit": {
+        "trigger": "on_expire"
+      }
+    }
+  ],
+  "render": "coe:orb_fire",
+  "tags": [
+    "fire"
+  ]
+}

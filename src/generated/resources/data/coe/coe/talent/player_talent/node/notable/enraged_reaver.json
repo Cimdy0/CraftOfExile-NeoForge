@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_rage_while_wielding_an_axe",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damageaxe",
+    "id": "62439",
+    "links": [
+      "52300"
+    ],
+    "x": -8953.58,
+    "y": 7046.06
+  }
+]

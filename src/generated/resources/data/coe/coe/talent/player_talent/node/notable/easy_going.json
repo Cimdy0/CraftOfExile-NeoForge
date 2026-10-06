@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_reservation_efficiency_of_companion_skills",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "10315",
+    "links": [
+      "44699",
+      "47443"
+    ],
+    "x": 12637.9,
+    "y": 2423.74
+  }
+]

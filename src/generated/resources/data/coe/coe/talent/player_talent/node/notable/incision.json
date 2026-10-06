@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_incision",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "36630",
+    "links": [
+      "28268",
+      "49473",
+      "60829"
+    ],
+    "x": 3556.83,
+    "y": 3447.44
+  }
+]

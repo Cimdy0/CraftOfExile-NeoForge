@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "1"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "stun"
+  },
+  "effect": "coe:stat/effect/inline_blind_on_stun_taken_515",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,11 @@
+{
+  "convert": {
+    "chaos": 1,
+    "replace": false
+  },
+  "predicate": {
+    "types": [
+      "minecraft:dragon_fireball"
+    ]
+  }
+}

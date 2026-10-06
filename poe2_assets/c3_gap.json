@@ -1,0 +1,2648 @@
+[
+ {
+  "constant": "TO_ANY_ATTRIBUTES",
+  "template": "+{X} to any Attributes",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=attributes)"
+ },
+ {
+  "constant": "INC_MAX_ENERGY_SHIELD",
+  "template": "{X}% increased maximum Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=maximum energy shield)"
+ },
+ {
+  "constant": "INC_LIGHTNING_DAMAGE",
+  "template": "{X}% increased Lightning Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=lightning damage)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE",
+  "template": "{X}% increased Critical Hit Chance",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance)"
+ },
+ {
+  "constant": "INC_FLAMMABILITY_BUFF_MAGNITUDE",
+  "template": "{X}% increased Flammability BuffMagnitude",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=flammability buffmagnitude)"
+ },
+ {
+  "constant": "INC_PRESENCE_AREA_OF_EFFECT",
+  "template": "{X}% increased Presence Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=presence area effect)"
+ },
+ {
+  "constant": "INC_ARMOR_AND_EVASION",
+  "template": "{X}% increased Armour and Evasion Rating",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor and evasion)"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE",
+  "template": "{X}% increased Life Regeneration rate",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life regeneration rate)"
+ },
+ {
+  "constant": "INC_CHANCE_TO_INFLICT_AILMENTS",
+  "template": "{X}% increased chance to inflict Ailments",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=chance inflict ailments)"
+ },
+ {
+  "constant": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH",
+  "template": "{X}% increased amount of Life LifeLeech",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=amount life lifeleech)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Poison you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude poison inflict)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_SKILLS_WHILE_MOVING",
+  "template": "{X}% increased Movement Speed Penalty from using Skills while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed penalty using skills moving)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_FOR_ATTACKS",
+  "template": "{X}% increased Critical Hit Chance for Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance attacks)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Shock you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude shock inflict)"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_WITH_ATTACKS",
+  "template": "{X}% increased ElementalDamage Damage with Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=elementaldamage damage attacks)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_FOR_SPELLS",
+  "template": "{X}% increased Critical Hit Chance for Spells",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance spells)"
+ },
+ {
+  "constant": "INC_WARCRY_SPEED",
+  "template": "{X}% increased Warcry Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=warcry speed)"
+ },
+ {
+  "constant": "TO_ALL_ATTRIBUTES",
+  "template": "+{X} to all Attributes",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=all attributes)"
+ },
+ {
+  "constant": "INC_WARCRY_COOLDOWN_RECOVERY_RATE",
+  "template": "{X}% increased Warcry Cooldown Recovery Rate",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=warcry cooldown recovery rate)"
+ },
+ {
+  "constant": "INC_CRITICAL_SPELL_DAMAGE_BONUS",
+  "template": "{X}% increased Critical Spell Damage Bonus",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical spell damage bonus)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_ON_LOW_HEALTH",
+  "template": "{X}% increased Damage with HitDamage against Enemies that are on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage enemies that are low life)"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Damage while your Companion is in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage companion presence)"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY",
+  "template": "{X}% increased Mana Cost Efficiency",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana cost efficiency)"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_FROM_EQUIPPED_SHIELD",
+  "template": "{X}% increased Armour, Evasion and Energy Shield from Equipped Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor evasion and energy shield equipped shield)"
+ },
+ {
+  "constant": "INC_EFFECT_OF_FULLY_BROKEN_ARMOR",
+  "template": "{X}% increased effect of Fully Broken Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=effect fully broken armor)"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Armour, Evasion and Energy Shield while your Companion is in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor evasion and energy shield companion presence)"
+ },
+ {
+  "constant": "INC_MANA_RECOVERY_FROM_FLASKS",
+  "template": "{X}% increased Mana Recovery from Flasks",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana recovery flasks)"
+ },
+ {
+  "constant": "INC_PINNED_BUILDUP",
+  "template": "{X}% increased Pinned Buildup",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=pinned buildup)"
+ },
+ {
+  "constant": "INC_HEALTH_COST_OF_SKILLS",
+  "template": "{X}% increased Life Cost of Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life cost skills)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude bleeding inflict)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "template": "{X}% increased BuffMagnitude of Ignite on you",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude ignite)"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Damage while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage shapeshifted)"
+ },
+ {
+  "constant": "INC_POWER_CHARGE_DURATION",
+  "template": "{X}% increased Power Charge Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=power charge duration)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Ailments you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude ailments inflict)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_PLANT_SKILLS",
+  "template": "{X}% increased Damage with Plant Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage plant skills)"
+ },
+ {
+  "constant": "INC_SPELL_AREA_DAMAGE",
+  "template": "{X}% increased Spell Area Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell area damage)"
+ },
+ {
+  "constant": "INC_ELEMENTAL_INFUSION_DURATION",
+  "template": "{X}% increased Elemental Infusion duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=elemental infusion duration)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_SURROUNDED",
+  "template": "{X}% increased Attack Damage while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage surrounded)"
+ },
+ {
+  "constant": "INC_RESERVATION_EFFICIENCY_OF_HERALD_SKILLS",
+  "template": "{X}% increased Reservation Efficiency of Herald Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=reservation efficiency herald skills)"
+ },
+ {
+  "constant": "INC_MINION_DURATION",
+  "template": "{X}% increased Minion Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=minion duration)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_FOR_ATTACK_DAMAGE",
+  "template": "{X}% increased Critical Damage Bonus for Attack Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus attack damage)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_AFFECTED_BY_ELEMENTAL_AILMENTS",
+  "template": "{X}% increased Damage with HitDamage against Enemies affected by Elemental Ailments",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage enemies affected by elemental ailments)"
+ },
+ {
+  "constant": "TO_MAX_ENERGY_SHIELD",
+  "template": "+{X} to maximum Energy Shield",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum energy shield)"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_IF_YOU_HAVEN_T_BEEN_STUNNED_RECENTLY",
+  "template": "{X}% increased Stun Threshold if you haven't been Stunned Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun threshold haven t been stunned recently)"
+ },
+ {
+  "constant": "INC_CROSSBOW_RELOAD_SPEED",
+  "template": "{X}% increased Crossbow Reload Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=crossbow reload speed)"
+ },
+ {
+  "constant": "INC_FLASK_CHARGES_GAIN",
+  "template": "{X}% increased Flask Charges gain",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=flask charges)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_BOWS",
+  "template": "{X}% increased Attack Speed with Bows",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed bows)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_FLAILS",
+  "template": "{X}% increased Damage with Flails",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage flails)"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_STATIONARY",
+  "template": "{X}% increased Mana Regeneration Rate while stationary",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana regeneration rate stationary)"
+ },
+ {
+  "constant": "INC_AREA_DAMAGE",
+  "template": "{X}% increased Area Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area damage)"
+ },
+ {
+  "constant": "INC_SHOCK_DURATION",
+  "template": "{X}% increased Shock Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=shock duration)"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS",
+  "template": "{X}% increased Energy Shield from Equipped Focus",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=energy shield equipped focus)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_AN_ALLIES_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Attack Damage while you have an Allies in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage have allies presence)"
+ },
+ {
+  "constant": "INC_GLORY_GENERATION_FOR_BANNER_SKILLS",
+  "template": "{X}% increased Glory generation for Banner Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=glory generation banner skills)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_IF_YOU_HAVE_CONSUMED_AN_ELEMENTAL_INFUSION_RECENTLY",
+  "template": "{X}% increased Spell Damage if you have consumed an Elemental Infusion Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage have consumed elemental infusion recently)"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED_WITH_LIGHTNING_SKILLS",
+  "template": "{X}% increased Attack and Cast Speed with Lightning Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack and cast speed lightning skills)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_BLINDED_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Blinded Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage blinded enemies)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_MOVING",
+  "template": "{X}% increased Attack Damage while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage moving)"
+ },
+ {
+  "constant": "INC_BONUSES_GAIN_FROM_EQUIPPED_QUIVER",
+  "template": "{X}% increased bonuses gain from Equipped Quiver",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=bonuses equipped quiver)"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_STATIONARY",
+  "template": "{X}% increased Armour while stationary",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor stationary)"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_STATIONARY",
+  "template": "{X}% increased Life Regeneration Rate while stationary",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life regeneration rate stationary)"
+ },
+ {
+  "constant": "INC_SKILL_SPEED_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Skill Speed while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=skill speed shapeshifted)"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased ElementalDamage Damage while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=elementaldamage damage shapeshifted)"
+ },
+ {
+  "constant": "INC_MAX_ENERGY_SHIELD_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY",
+  "template": "{X}% increased maximum Energy Shield if you've consumed a Power Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=maximum energy shield ve consumed power charge recently)"
+ },
+ {
+  "constant": "INC_ENDURANCE_CHARGE_DURATION",
+  "template": "{X}% increased Endurance Charge Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=endurance charge duration)"
+ },
+ {
+  "constant": "INC_ARMOR_IF_YOU_VE_CONSUMED_AN_ENDURANCE_CHARGE_RECENTLY",
+  "template": "{X}% increased Armour if you've consumed an Endurance Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor ve consumed endurance charge recently)"
+ },
+ {
+  "constant": "INC_CHILL_DURATION_ON_ENEMIES",
+  "template": "{X}% increased Chill Duration on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=chill duration enemies)"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_SURROUNDED",
+  "template": "{X}% increased Armour while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor surrounded)"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_SURROUNDED",
+  "template": "{X}% increased Evasion Rating while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion surrounded)"
+ },
+ {
+  "constant": "INC_BLEEDING_DURATION",
+  "template": "{X}% increased Bleeding Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=bleeding duration)"
+ },
+ {
+  "constant": "INC_COOLDOWN_RECOVERY_RATE_FOR_GRENADE_SKILLS",
+  "template": "{X}% increased Cooldown Recovery Rate for Grenade Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cooldown recovery rate grenade skills)"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Accuracy Rating with One Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy one handed melee weapons)"
+ },
+ {
+  "constant": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS",
+  "template": "{X}% increased Life and Mana Recovery from Flasks",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life and mana recovery flasks)"
+ },
+ {
+  "constant": "INC_PARRY_HIT_DAMAGE_AREA_OF_EFFECT",
+  "template": "{X}% increased Parry HitDamage Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=parry hitdamage area effect)"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_WHILE_PARRYING",
+  "template": "{X}% increased Stun Threshold while Parrying",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun threshold parrying)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Attack Speed with One Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed one handed melee weapons)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_TRAPS",
+  "template": "{X}% increased Critical Hit Chance with Traps",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance traps)"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_OF_ANCESTRALLY_BOOSTED_ATTACKS",
+  "template": "{X}% increased Area of Effect of Ancestrally Boosted Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area effect ancestrally boosted attacks)"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Damage against Immobilised Enemies while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage immobilised enemies shapeshifted)"
+ },
+ {
+  "constant": "INC_LIGHT_RADIUS",
+  "template": "{X}% increased Light Radius",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=light radius)"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Armour while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor shapeshifted)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_FLAILS",
+  "template": "{X}% increased Critical Hit Chance with Flails",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance flails)"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_WHILE_CHANNELLING",
+  "template": "{X}% increased Stun Threshold while Channelling",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun threshold channelling)"
+ },
+ {
+  "constant": "INC_RESERVATION_EFFICIENCY_OF_MINION_SKILLS",
+  "template": "{X}% increased Reservation Efficiency of Minion Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=reservation efficiency minion skills)"
+ },
+ {
+  "constant": "INC_ARMOR_BREAK_DURATION",
+  "template": "{X}% increased Armour Break Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor break duration)"
+ },
+ {
+  "constant": "TO_MAX_ENDURANCE_CHARGES",
+  "template": "+{X} to Maximum Endurance Charges",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum endurance charges)"
+ },
+ {
+  "constant": "TO_MAX_POWER_CHARGES",
+  "template": "+{X} to Maximum Power Charges",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum power charges)"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED_WITH_ELEMENTAL_SKILLS",
+  "template": "{X}% increased Attack and Cast Speed with Elemental Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack and cast speed elemental skills)"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_BLEEDING",
+  "template": "{X}% increased Armour while Bleeding",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor bleeding)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_BURNING_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Burning Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage burning enemies)"
+ },
+ {
+  "constant": "TO_MAX_FRENZY_CHARGES",
+  "template": "+{X} to Maximum Frenzy Charges",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum frenzy charges)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_CROSSBOWS",
+  "template": "{X}% increased Damage with Crossbows",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage crossbows)"
+ },
+ {
+  "constant": "INC_ARMOR_AND_EVASION_WHILE_LEECHING",
+  "template": "{X}% increased Armour and Evasion Rating while Leeching",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor and evasion leeching)"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_HAVE_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you have been HitDamage Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion have been hitdamage recently)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Attack Speed while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed dual wielding)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "template": "{X}% increased Attack Damage against Rare or Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage rare or unique enemies)"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you've consumed a Frenzy Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion ve consumed frenzy charge recently)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_AGAINST_ENEMIES_AFFECTED_BY_INCISION",
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict against Enemies affected by Incision",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude bleeding inflict enemies affected by incision)"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_MOVING",
+  "template": "{X}% increased Evasion Rating while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion moving)"
+ },
+ {
+  "constant": "INC_DEFLECTION_RATING",
+  "template": "{X}% increased Deflection Rating",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=deflection)"
+ },
+ {
+  "constant": "INC_PROJECTILE_SPEED_FOR_SPELL_SKILLS",
+  "template": "{X}% increased Projectile Speed for Spell Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=projectile speed spell skills)"
+ },
+ {
+  "constant": "INC_EFFECT_OF_YOUR_MARK_SKILLS",
+  "template": "{X}% increased Effect of your Mark Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=effect mark skills)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_SPRINTING",
+  "template": "{X}% increased Movement Speed while Sprinting",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed sprinting)"
+ },
+ {
+  "constant": "INC_ATTACK_COLD_DAMAGE",
+  "template": "{X}% increased Attack Cold Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack cold damage)"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_SPRINTING",
+  "template": "{X}% increased Evasion Rating while Sprinting",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion sprinting)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_SPEARS",
+  "template": "{X}% increased Attack Speed with Spears",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed spears)"
+ },
+ {
+  "constant": "INC_ENDURANCE_FRENZY_AND_POWER_CHARGE_DURATION",
+  "template": "{X}% increased Endurance, Frenzy and Power Charge Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=endurance frenzy and power charge duration)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_DAGGERS",
+  "template": "{X}% increased Critical Hit Chance with Daggers",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance daggers)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_DAGGERS",
+  "template": "{X}% increased Attack Speed with Daggers",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed daggers)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Attack Speed with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed quarterstaves)"
+ },
+ {
+  "constant": "INC_ARMOR_IF_YOU_HAVE_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "{X}% increased Armour if you have been HitDamage Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor have been hitdamage recently)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_IGNITED_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Ignited Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage ignited enemies)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Critical Hit Chance while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance shapeshifted)"
+ },
+ {
+  "constant": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased amount of Life LifeLeech while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=amount life lifeleech shapeshifted)"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Life Regeneration rate while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life regeneration rate shapeshifted)"
+ },
+ {
+  "constant": "INC_ARMOR_BREAK_TAKEN",
+  "template": "{X}% increased Armour Break taken",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor break taken)"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_WITH_HIT_DAMAGE_AT_CLOSE_RANGE",
+  "template": "{X}% increased Melee Damage with HitDamage at Close Range",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=melee damage hitdamage at close range)"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED_IF_YOU_VE_SUMMONED_A_TOTEM_RECENTLY",
+  "template": "{X}% increased Attack and Cast Speed if you've summoned a Totem Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack and cast speed ve summoned totem recently)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_AXES",
+  "template": "{X}% increased Attack Speed with Axes",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed axes)"
+ },
+ {
+  "constant": "TO_MAX_RAGE_WHILE_SHAPESHIFTED",
+  "template": "+{X} to maximum Rage while Shapeshifted",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum rage shapeshifted)"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_ENEMIES_WITH_FULLY_BROKEN_ARMOR",
+  "template": "{X}% increased Damage against Enemies with Fully Broken Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage enemies fully broken armor)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_WARCRIES",
+  "template": "{X}% increased Damage with Warcries",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage warcries)"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_RECHARGE_RATE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Energy Shield Recharge Rate while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=energy shield recharge rate shapeshifted)"
+ },
+ {
+  "constant": "INC_ACCURACY_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Accuracy Rating while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy shapeshifted)"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_IF_YOU_HAVE_STUNNED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased Area of Effect if you have Stunned an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area effect have stunned enemy recently)"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+  "template": "{X}% increased Melee Damage against Immobilised Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=melee damage immobilised enemies)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_PENALTY_WHILE_ACTIVELY_BLOCKING",
+  "template": "{X}% increased Movement Speed Penalty while Actively Blocking",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed penalty actively blocking)"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_CHANNELLING",
+  "template": "{X}% increased Armour, Evasion and Energy Shield while Channelling",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor evasion and energy shield channelling)"
+ },
+ {
+  "constant": "INC_MANA_COST_OF_SKILLS",
+  "template": "{X}% increased Mana Cost of Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana cost skills)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT",
+  "template": "{X}% increased BuffMagnitude of Non-Damaging Ailments you inflict",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude non damaging ailments inflict)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "template": "{X}% increased Attack Damage if you have Shapeshifted to an Animal form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage have shapeshifted animal form recently)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_WHILE_YOU_HAVE_ARCANE_SURGE",
+  "template": "{X}% increased Spell Damage while you have Arcane Surge",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage have arcane surge)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Cast Speed if you've dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed ve dealt critical hit recently)"
+ },
+ {
+  "constant": "INC_CHANCE_TO_INFLICT_AILMENTS_WITH_PROJECTILES",
+  "template": "{X}% increased chance to inflict Ailments with Projectiles",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=chance inflict ailments projectiles)"
+ },
+ {
+  "constant": "INC_SKILL_SPEED_WITH_CHANNELLING_SKILLS",
+  "template": "{X}% increased Skill Speed with Channelling Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=skill speed channelling skills)"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD",
+  "template": "{X}% increased Armour, Evasion and Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor evasion and energy shield)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_WITH_SPELLS_THAT_COST_HEALTH",
+  "template": "{X}% increased Spell Damage with Spells that cost Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage spells that cost life)"
+ },
+ {
+  "constant": "INC_HEALTH_RECOVERY_RATE",
+  "template": "{X}% increased Life Recovery rate",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life recovery rate)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance if you haven't dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance haven t dealt critical hit recently)"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_ON_LOW_HEALTH",
+  "template": "{X}% increased Life Regeneration Rate while on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life regeneration rate low life)"
+ },
+ {
+  "constant": "INC_BALLISTA_IMMOBILISATION_BUILDUP",
+  "template": "{X}% increased Ballista Immobilisation buildup",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=ballista immobilisation buildup)"
+ },
+ {
+  "constant": "TO_MAX_MANA",
+  "template": "+{X} to maximum Mana",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum mana)"
+ },
+ {
+  "constant": "INC_FIRE_DAMAGE_PER_ENDURANCE_CHARGE_CONSUMED_RECENTLY",
+  "template": "{X}% increased Fire Damage per Endurance Charge consumed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=fire damage endurance charge consumed recently)"
+ },
+ {
+  "constant": "INC_CHANCE_TO_INFLICT_AILMENTS_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "template": "{X}% increased chance to inflict Ailments against Rare or Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=chance inflict ailments rare or unique enemies)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_ON_LOW_HEALTH",
+  "template": "{X}% increased Attack Damage while on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage low life)"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_HAVE_HIT_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you have Hit an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion have hit enemy recently)"
+ },
+ {
+  "constant": "INC_DURATION_OF_IGNITE_SHOCK_AND_CHILL_ON_ENEMIES",
+  "template": "{X}% increased Duration of Ignite, Shock and Chill on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=duration ignite shock and chill enemies)"
+ },
+ {
+  "constant": "TO_STRENGTH_AND_DEXTERITY",
+  "template": "+{X} to Strength and Dexterity",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=strength and dexterity)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+  "template": "{X}% increased Movement Speed if you've Killed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed ve killed recently)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Attack Damage while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage dual wielding)"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+  "template": "{X}% increased Damage against Immobilised Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage immobilised enemies)"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_WITH_MELEE_DAMAGE",
+  "template": "{X}% increased Stun Buildup with Melee Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun buildup melee damage)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_CROSSBOWS",
+  "template": "{X}% increased Critical Hit Chance with Crossbows",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance crossbows)"
+ },
+ {
+  "constant": "INC_PROJECTILE_STUN_BUILDUP",
+  "template": "{X}% increased Projectile Stun Buildup",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=projectile stun buildup)"
+ },
+ {
+  "constant": "INC_BALLISTA_CRITICAL_HIT_CHANCE",
+  "template": "{X}% increased Ballista Critical Hit Chance",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=ballista critical hit chance)"
+ },
+ {
+  "constant": "INC_BALLISTA_CRITICAL_DAMAGE_BONUS",
+  "template": "{X}% increased Ballista Critical Damage Bonus",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=ballista critical damage bonus)"
+ },
+ {
+  "constant": "INC_FLASK_AND_CHARM_CHARGES_GAIN",
+  "template": "{X}% increased Flask and Charm Charges gain",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=flask and charm charges)"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_WHILE_ON_FULL_HEALTH",
+  "template": "{X}% increased Stun Threshold while on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun threshold full life)"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you haven't been HitDamage Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion haven t been hitdamage recently)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict with Critical Hits",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude bleeding inflict critical hits)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "template": "{X}% increased Critical Damage Bonus against Enemies that are on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus enemies that are full life)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_WHILE_WIELDING_A_MELEE_WEAPON",
+  "template": "{X}% increased Spell Damage while wielding a Melee Weapon",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage wielding melee weapon)"
+ },
+ {
+  "constant": "INC_HAZARD_AREA_OF_EFFECT",
+  "template": "{X}% increased Hazard Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=hazard area effect)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_BLINDED_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Blinded Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance blinded enemies)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WITH_COLD_SKILLS",
+  "template": "{X}% increased Cast Speed with Cold Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed cold skills)"
+ },
+ {
+  "constant": "INC_CHARM_EFFECT_DURATION",
+  "template": "{X}% increased Charm Effect Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=effect duration)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "template": "{X}% increased Damage with HitDamage against Enemies that are on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage enemies that are full life)"
+ },
+ {
+  "constant": "INC_MELEE_ATTACK_SPEED",
+  "template": "{X}% increased Melee Attack Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=melee attack speed)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Critical Damage Bonus with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus quarterstaves)"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Stun Buildup with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun buildup quarterstaves)"
+ },
+ {
+  "constant": "INC_FREEZE_BUILDUP_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Freeze Buildup with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=freeze buildup quarterstaves)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_DAGGERS",
+  "template": "{X}% increased Critical Damage Bonus with Daggers",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus daggers)"
+ },
+ {
+  "constant": "INC_RESERVATION_EFFICIENCY_OF_COMPANION_SKILLS",
+  "template": "{X}% increased Reservation Efficiency of Companion Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=reservation efficiency companion skills)"
+ },
+ {
+  "constant": "INC_FREEZE_DURATION_ON_YOU",
+  "template": "{X}% increased Freeze Duration on you",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=freeze duration)"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_FOR_SKILLS_USED_BY_TOTEMS",
+  "template": "{X}% increased Area of Effect for Skills used by Totems",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area effect skills used by totems)"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Mana Regeneration Rate while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana regeneration rate shapeshifted)"
+ },
+ {
+  "constant": "INC_ARMOR_FROM_EQUIPPED_BODY_ARMOR",
+  "template": "{X}% increased Armour from Equipped Body Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor equipped body armor)"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_WITH_MACES",
+  "template": "{X}% increased Stun Buildup with Maces",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun buildup maces)"
+ },
+ {
+  "constant": "INC_ARMOR_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "template": "{X}% increased Armour if you haven't been HitDamage Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor haven t been hitdamage recently)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_PER_ITEM_ARMOR_AND_ITEM_EVASION_ON_EQUIPPED_SHIELD",
+  "template": "{X}% increased Attack Damage per {X} Item Armour and ItemEvasion on Equipped Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage item armor and itemevasion equipped shield)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Critical Damage Bonus if you haven't dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus haven t dealt critical hit recently)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHEN_ON_FULL_HEALTH",
+  "template": "{X}% increased Cast Speed when on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed full life)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_FOR_EACH_DIFFERENT_SPELL_YOU_VE_CAST_IN_THE_LAST_EIGHT_SECONDS",
+  "template": "{X}% increased Cast Speed for each different Spell you've Cast in the last eight seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed each different spell ve cast last eight seconds)"
+ },
+ {
+  "constant": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "template": "{X}% increased Thorns Critical Damage Bonus",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=thorns critical damage bonus)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_IF_YOU_HAVE_SHAPESHIFTED_TO_HUMAN_FORM_RECENTLY",
+  "template": "{X}% increased Spell Damage if you have Shapeshifted to Human form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage have shapeshifted human form recently)"
+ },
+ {
+  "constant": "INC_TOTEM_PLACEMENT_RANGE",
+  "template": "{X}% increased Totem Placement range",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=totem placement range)"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "template": "{X}% increased Stun buildup if you have Shapeshifted to an Animal form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun buildup have shapeshifted animal form recently)"
+ },
+ {
+  "constant": "INC_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "template": "{X}% increased ElementalAilments Ailment Application if you have Shapeshifted to an Animal form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=elementalailments ailment application have shapeshifted animal form recently)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance if you have Shapeshifted to an Animal form Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance have shapeshifted animal form recently)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_ONE_HANDED_WEAPONS",
+  "template": "{X}% increased Attack Speed with One Handed Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed one handed weapons)"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_AGAINST_ENEMIES_WITHIN_METRES",
+  "template": "{X}% increased Stun Buildup against enemies within {X} metres",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun buildup enemies within metres)"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES",
+  "template": "{X}% increased Melee Damage against Heavy Stunned enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=melee damage heavy stunned enemies)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT_ON_TARGETS_THAT_ARE_NOT_POISONED",
+  "template": "{X}% increased BuffMagnitude of Poison you inflict on targets that are not Poisoned",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude poison inflict targets that are not poisoned)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_VE_BEEN_HIT_RECENTLY",
+  "template": "{X}% increased Attack Speed if you've been Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed ve been hit recently)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_HINDERED_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Hindered Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage hindered enemies)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Critical Hit Chance with One Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance one handed melee weapons)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "template": "{X}% increased BuffMagnitude of Damaging Ailments you inflict with Critical Hits",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude damaging ailments inflict critical hits)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "template": "{X}% increased Critical Hit Chance against Enemies that are on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance enemies that are full life)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_KILLED_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance if you have Killed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance have killed recently)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_SWORDS",
+  "template": "{X}% increased Attack Speed with Swords",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed swords)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_LEECHING",
+  "template": "{X}% increased Attack Speed while Leeching",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed leeching)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "template": "{X}% increased BuffMagnitude of Non-Damaging Ailments you inflict with Critical Hits",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude non damaging ailments inflict critical hits)"
+ },
+ {
+  "constant": "INC_DAMAGE_IF_YOU_VE_TRIGGERED_A_SKILL_RECENTLY",
+  "template": "{X}% increased Damage if you've Triggered a Skill Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage ve triggered skill recently)"
+ },
+ {
+  "constant": "INC_ACCURACY_AT_CLOSE_RANGE",
+  "template": "{X}% increased Accuracy Rating at Close Range",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy at close range)"
+ },
+ {
+  "constant": "TO_STRENGTH_AND_INTELLIGENCE",
+  "template": "+{X} to Strength and Intelligence",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=strength and intelligence)"
+ },
+ {
+  "constant": "INC_MELEE_CRITICAL_HIT_CHANCE",
+  "template": "{X}% increased Melee Critical Hit Chance",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=melee critical hit chance)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_IF_YOU_HAVE_BEEN_HEAVY_STUNNED_RECENTLY",
+  "template": "{X}% increased Attack Damage if you have been Heavy Stunned Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage have been heavy stunned recently)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_NO_HEALTH_FLASK_USES_LEFT",
+  "template": "{X}% increased Attack Damage while you have no Life Flask uses left",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage have no life flask uses left)"
+ },
+ {
+  "constant": "INC_GRENADE_AREA_OF_EFFECT",
+  "template": "{X}% increased Grenade Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=grenade area effect)"
+ },
+ {
+  "constant": "INC_DAMAGE_FOR_EACH_TYPE_OF_ELEMENTAL_AILMENT_ON_ENEMY",
+  "template": "{X}% increased Damage for each type of Elemental Ailment on Enemy",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage each type elemental ailment enemy)"
+ },
+ {
+  "constant": "INC_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES",
+  "template": "{X}% increased Shock Chance against Electrocuted Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=shock chance electrocuted enemies)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_AGAINST_BLEEDING_ENEMIES",
+  "template": "{X}% increased Attack Damage against Bleeding Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage bleeding enemies)"
+ },
+ {
+  "constant": "INC_FREEZE_DURATION_ON_ENEMIES",
+  "template": "{X}% increased Freeze Duration on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=freeze duration enemies)"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_RECHARGE_RATE",
+  "template": "{X}% increased Energy Shield Recharge Rate",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=energy shield recharge rate)"
+ },
+ {
+  "constant": "INC_ACCURACY_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Accuracy Rating while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy dual wielding)"
+ },
+ {
+  "constant": "INC_ACCURACY_WHILE_MOVING",
+  "template": "{X}% increased Accuracy Rating while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy moving)"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_TWO_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Accuracy Rating with Two Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy two handed melee weapons)"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_DEMONS",
+  "template": "{X}% increased Damage against Demons",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage demons)"
+ },
+ {
+  "constant": "INC_DURATION_OF_AILMENTS_ON_BEASTS",
+  "template": "{X}% increased Duration of Ailments on Beasts",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=duration ailments beasts)"
+ },
+ {
+  "constant": "INC_IMMOBILISATION_BUILDUP_AGAINST_CONSTRUCTS",
+  "template": "{X}% increased Immobilisation buildup against Constructs",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=immobilisation buildup constructs)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_HUMANOIDS",
+  "template": "{X}% increased Critical Hit Chance against Humanoids",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance humanoids)"
+ },
+ {
+  "constant": "TO_DEXTERITY_AND_INTELLIGENCE",
+  "template": "+{X} to Dexterity and Intelligence",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=dexterity and intelligence)"
+ },
+ {
+  "constant": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Damage if you've dealt a Critical Hit in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage ve dealt critical hit past seconds)"
+ },
+ {
+  "constant": "INC_ACCURACY_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "template": "{X}% increased Accuracy Rating against Rare or Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy rare or unique enemies)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_AFFECTED_BY_AILMENTS",
+  "template": "{X}% increased Damage with HitDamage against Enemies affected by Ailments",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage enemies affected by ailments)"
+ },
+ {
+  "constant": "INC_PROJECTILE_DAMAGE_IF_YOU_VE_DEALT_A_MELEE_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "template": "{X}% increased Projectile Damage if you've dealt a Melee HitDamage in the past eight seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=projectile damage ve dealt melee hitdamage past eight seconds)"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "template": "{X}% increased Melee Damage if you've dealt a Projectile Attack HitDamage in the past eight seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=melee damage ve dealt projectile attack hitdamage past eight seconds)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_WHILE_ON_FULL_ENERGY_SHIELD",
+  "template": "{X}% increased Spell Damage while on Full Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage full energy shield)"
+ },
+ {
+  "constant": "INC_HINDER_DURATION",
+  "template": "{X}% increased Hinder Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=hinder duration)"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_YOU_HAVE_ENERGY_SHIELD",
+  "template": "{X}% increased Evasion Rating while you have Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion have energy shield)"
+ },
+ {
+  "constant": "INC_ATTACK_PHYSICAL_DAMAGE",
+  "template": "{X}% increased Attack Physical Damage",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack physical damage)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_DURING_ANY_FLASK_EFFECT",
+  "template": "{X}% increased Attack Speed during any Flask Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed during flask effect)"
+ },
+ {
+  "constant": "INC_POISON_DURATION_ON_YOU",
+  "template": "{X}% increased Poison Duration on you",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=poison duration)"
+ },
+ {
+  "constant": "INC_BLOCK_RECOVERY",
+  "template": "{X}% increased Block Recovery",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=block recovery)"
+ },
+ {
+  "constant": "INC_COST_EFFICIENCY",
+  "template": "{X}% increased Cost Efficiency",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cost efficiency)"
+ },
+ {
+  "constant": "INC_HAZARD_IMMOBILISATION_BUILDUP",
+  "template": "{X}% increased Hazard Immobilisation buildup",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=hazard immobilisation buildup)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Attack Speed while your Companion is in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed companion presence)"
+ },
+ {
+  "constant": "TO_STUN_THRESHOLD_PER_DEXTERITY",
+  "template": "+{X} to Stun Threshold per Dexterity",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=stun threshold dexterity)"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_NOT_ON_LOW_MANA",
+  "template": "{X}% increased Mana Regeneration Rate while not on Low Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana regeneration rate not low mana)"
+ },
+ {
+  "constant": "INC_PENALTY_TO_ACCURACY_AT_RANGE",
+  "template": "{X}% increased penalty to Accuracy Rating at range",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=penalty accuracy at range)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_HAVE_ENTERED_YOUR_PRESENCE_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance against Enemies that have entered your Presence Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance enemies that have entered presence recently)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_SPEARS",
+  "template": "{X}% increased Critical Hit Chance with Spears",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance spears)"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_SPEARS",
+  "template": "{X}% increased Accuracy Rating with Spears",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy spears)"
+ },
+ {
+  "constant": "INC_TRAP_THROWING_SPEED",
+  "template": "{X}% increased Trap Throwing Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=trap throwing speed)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_DAZED_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Dazed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance dazed enemies)"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_DAZED_ENEMIES",
+  "template": "{X}% increased Damage against Dazed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage dazed enemies)"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_AFFECTED_BY_A_HERALD",
+  "template": "{X}% increased Damage while affected by a Herald",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage affected by herald)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Critical Hit Chance with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance quarterstaves)"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_BOWS",
+  "template": "{X}% increased Accuracy Rating with Bows",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy bows)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_BOWS",
+  "template": "{X}% increased Critical Damage Bonus with Bows",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus bows)"
+ },
+ {
+  "constant": "INC_PHYSICAL_DAMAGE_WITH_BOWS",
+  "template": "{X}% increased Physical Damage with Bows",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=physical damage bows)"
+ },
+ {
+  "constant": "INC_ARMOR_WHILE_IGNITED",
+  "template": "{X}% increased Armour while Ignited",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor ignited)"
+ },
+ {
+  "constant": "INC_FIRE_DAMAGE_WHILE_IGNITED",
+  "template": "{X}% increased Fire Damage while Ignited",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=fire damage ignited)"
+ },
+ {
+  "constant": "INC_THORNS_DAMAGE_IF_YOU_VE_BLOCKED_RECENTLY",
+  "template": "{X}% increased Thorns damage if you've Blocked Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=thorns damage ve blocked recently)"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_FROM_EQUIPPED_BODY_ARMOR",
+  "template": "{X}% increased Energy Shield from Equipped Body Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=energy shield equipped body armor)"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_IF_YOU_VE_KILLED_RECENTLY",
+  "template": "{X}% increased Area of Effect if you've Killed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area effect ve killed recently)"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Stun buildup while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun buildup shapeshifted)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_FLAILS",
+  "template": "{X}% increased Attack Speed with Flails",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed flails)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_FOR_EACH_DIFFERENT_NON_INSTANT_SPELL_YOU_VE_USED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Attack Damage for each different Non-Instant Spell you've used in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage each different non instant spell ve used past seconds)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_FOR_EACH_DIFFERENT_NON_INSTANT_ATTACK_YOU_VE_USED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Spell Damage for each different Non-Instant Attack you've used in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage each different non instant attack ve used past seconds)"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_WHILE_SHAPESHIFTED",
+  "template": "{X}% increased Stun Threshold while Shapeshifted",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun threshold shapeshifted)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_FLAILS",
+  "template": "{X}% increased Critical Damage Bonus with Flails",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus flails)"
+ },
+ {
+  "constant": "TO_MAX_RAGE_WHILE_WIELDING_AN_AXE",
+  "template": "+{X} to Maximum Rage while wielding an Axe",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum rage wielding axe)"
+ },
+ {
+  "constant": "INC_CHANCE_TO_BLOCK_IF_YOU_VE_BLOCKED_WITH_A_RAISED_SHIELD_RECENTLY",
+  "template": "{X}% increased Chance to Block if you've Blocked with a raised Shield Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=chance block ve blocked raised shield recently)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_HOLDING_A_SHIELD",
+  "template": "{X}% increased Attack Speed while holding a Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed holding shield)"
+ },
+ {
+  "constant": "INC_SPIRIT_RESERVATION_EFFICIENCY_OF_SKILLS",
+  "template": "{X}% increased Spirit Reservation Efficiency of Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spirit reservation efficiency skills)"
+ },
+ {
+  "constant": "INC_DAMAGE_FOR_EACH_TIME_YOU_VE_WARCRIED_RECENTLY",
+  "template": "{X}% increased Damage for each time you've Warcried Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage each time ve warcried recently)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_IF_YOU_VE_CAST_A_SPELL_RECENTLY",
+  "template": "{X}% increased Attack Damage if you've Cast a Spell Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage ve cast spell recently)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_IF_YOU_VE_ATTACKED_RECENTLY",
+  "template": "{X}% increased Cast Speed if you've Attacked Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed ve attacked recently)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF",
+  "template": "{X}% increased Attack Damage for each Minion in your Presence, up to a maximum of {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage each minion presence up maximum)"
+ },
+ {
+  "constant": "INC_DAMAGE_PER_STRENGTH",
+  "template": "{X}% increased Damage per {X} Strength",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage strength)"
+ },
+ {
+  "constant": "INC_ARMOR_IF_YOU_VE_HIT_DAMAGE_AN_ENEMY_WITH_A_MELEE_ATTACK_RECENTLY",
+  "template": "{X}% increased Armour if you've HitDamage an Enemy with a Melee Attack Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor ve hitdamage enemy melee attack recently)"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_SHOCKED",
+  "template": "{X}% increased Mana Regeneration Rate while Shocked",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana regeneration rate shocked)"
+ },
+ {
+  "constant": "TO_ARMOR_WHILE_FROZEN",
+  "template": "+{X} to Armour while Frozen",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=armor frozen)"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_IGNITED",
+  "template": "{X}% increased Life Regeneration rate while Ignited",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life regeneration rate ignited)"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY_OF_ATTACKS_DURING_ANY_MANA_FLASK_EFFECT",
+  "template": "{X}% increased Mana Cost Efficiency of Attacks during any Mana Flask Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana cost efficiency attacks during mana flask effect)"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_FOR_EACH_TIME_YOU_VE_BEEN_HIT_DAMAGE_BY_AN_ENEMY_RECENTLY_UP_TO",
+  "template": "{X}% increased Stun Threshold for each time you've been HitDamage by an Enemy Recently, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun threshold each time ve been hitdamage by enemy recently up)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHEN_ON_LOW_HEALTH",
+  "template": "{X}% increased Cast Speed when on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed low life)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HITS_AGAINST_SHOCKED_ENEMIES",
+  "template": "{X}% increased Damage with Hits against Shocked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hits shocked enemies)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_PER_SPELL_ECHOED_RECENTLY_UP_TO",
+  "template": "{X}% increased Cast Speed per Spell Echoed Recently, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed spell echoed recently up)"
+ },
+ {
+  "constant": "INC_TOTEM_DURATION",
+  "template": "{X}% increased Totem Duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=totem duration)"
+ },
+ {
+  "constant": "INC_SKILL_EFFECT_DURATION_PER_ENEMY_YOU_VE_FREEZE_IN_THE_LAST_SECONDS_UP_TO",
+  "template": "{X}% increased Skill Effect Duration per Enemy you've Freeze in the last {X} seconds, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=skill effect duration enemy ve freeze last seconds up)"
+ },
+ {
+  "constant": "INC_HEALTH_AND_MANA_REGENERATION_RATE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF",
+  "template": "{X}% increased Life and Mana Regeneration Rate for each Minion in your Presence, up to a maximum of {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life and mana regeneration rate each minion presence up maximum)"
+ },
+ {
+  "constant": "INC_DAMAGE_PER_CURSE_ON_YOU",
+  "template": "{X}% increased Damage per Curse on you",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage curse)"
+ },
+ {
+  "constant": "INC_DURATION_OF_ELEMENTAL_AILMENTS_ON_ENEMIES",
+  "template": "{X}% increased Duration of Elemental Ailments on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=duration elemental ailments enemies)"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_YOU_HAVE_A_TOTEM",
+  "template": "{X}% increased Damage while you have a Totem",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage have totem)"
+ },
+ {
+  "constant": "INC_COST_EFFICIENCY_OF_ATTACKS",
+  "template": "{X}% increased Cost Efficiency of Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cost efficiency attacks)"
+ },
+ {
+  "constant": "INC_DAMAGE_TAKEN_WHILE_ON_LOW_HEALTH",
+  "template": "{X}% increased Damage taken while on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage taken low life)"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_DURING_EMPOWERED_ATTACKS",
+  "template": "{X}% increased Stun Threshold during Empowered Attacks",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun threshold during empowered attacks)"
+ },
+ {
+  "constant": "INC_DAMAGE_FOR_EACH_DIFFERENT_WARCRY_YOU_VE_USED_RECENTLY",
+  "template": "{X}% increased Damage for each different Warcry you've used Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage each different warcry ve used recently)"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_IF_YOU_VE_STUNNED_AN_ENEMY_WITH_A_TWO_HANDED_MELEE_WEAPON_RECENTLY",
+  "template": "{X}% increased Area of Effect if you've Stunned an Enemy with a Two Handed Melee Weapon Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area effect ve stunned enemy two handed melee weapon recently)"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_WHILE_YOU_HAVE_ARCANE_SURGE",
+  "template": "{X}% increased Area of Effect while you have Arcane Surge",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area effect have arcane surge)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHILE_IGNITED",
+  "template": "{X}% increased Cast Speed while Ignited",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed ignited)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_FIRE_SKILLS_WHILE_MOVING",
+  "template": "{X}% increased Movement Speed Penalty from using Fire Skills while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed penalty using fire skills moving)"
+ },
+ {
+  "constant": "TO_ARMOR_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_BOOTS",
+  "template": "+{X} to Armour per {X} Item Energy Shield on Equipped Boots",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=armor item energy shield equipped boots)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHILE_CHILLED",
+  "template": "{X}% increased Cast Speed while Chilled",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed chilled)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_COLD_SKILLS_WHILE_MOVING",
+  "template": "{X}% increased Movement Speed Penalty from using Cold Skills while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed penalty using cold skills moving)"
+ },
+ {
+  "constant": "TO_MAX_ENERGY_SHIELD_PER_ITEM_ARMOR_ON_EQUIPPED_HELMET",
+  "template": "+{X} to Maximum Energy Shield per {X} Item Armour on Equipped Helmet",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum energy shield item armor equipped helmet)"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_LEECHING_HEALTH",
+  "template": "{X}% increased Damage while Leeching Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage leeching life)"
+ },
+ {
+  "constant": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "template": "+{X} to maximum number of Elemental Infusions",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum number elemental infusions)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_SURROUNDED",
+  "template": "{X}% increased Movement Speed while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed surrounded)"
+ },
+ {
+  "constant": "INC_BLOCK_CHANCE_WHILE_SURROUNDED",
+  "template": "{X}% increased Block chance while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=block chance surrounded)"
+ },
+ {
+  "constant": "INC_ACCURACY_WHILE_SURROUNDED",
+  "template": "{X}% increased Accuracy Rating while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy surrounded)"
+ },
+ {
+  "constant": "INC_DURATION_OF_EACH_PUPPET_MASTER_STACK",
+  "template": "{X}% increased Duration of each Puppet Master stack",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=duration each puppet master stack)"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY_OF_COMMAND_SKILLS",
+  "template": "{X}% increased Mana Cost Efficiency of Command Skills",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana cost efficiency command skills)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_PER_ENEMY_IN_CLOSE_RANGE",
+  "template": "{X}% increased Attack Speed per Enemy in Close Range",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed enemy close range)"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_ON_FULL_HEALTH",
+  "template": "{X}% increased Mana Regeneration Rate while on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana regeneration rate full life)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "template": "{X}% increased Critical Damage Bonus with One Handed Melee Weapons",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus one handed melee weapons)"
+ },
+ {
+  "constant": "INC_CHILL_AND_FREEZE_DURATION_ON_ENEMIES",
+  "template": "{X}% increased Chill and Freeze Duration on Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=chill and freeze duration enemies)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_WHILE_ON_FULL_MANA",
+  "template": "{X}% increased Cast Speed while on Full Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed full mana)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_ARE_AFFECTED_BY_NO_ELEMENTAL_AILMENTS",
+  "template": "{X}% increased Critical Hit Chance against Enemies that are affected by no Elemental Ailments",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance enemies that are affected by no elemental ailments)"
+ },
+ {
+  "constant": "TO_STUN_THRESHOLD_PER_STRENGTH",
+  "template": "+{X} to Stun Threshold per Strength",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=stun threshold strength)"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_WHILE_MOVING",
+  "template": "{X}% increased Life Regeneration Rate while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life regeneration rate moving)"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_WHILE_YOU_HAVE_A_TOTEM",
+  "template": "{X}% increased Area of Effect while you have a Totem",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area effect have totem)"
+ },
+ {
+  "constant": "INC_ARMOR_AND_EVASION_PER_SUMMONED_TOTEM_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Armour and Evasion Rating per Summoned Totem in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor and evasion summoned totem presence)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_PER_SUMMONED_TOTEM_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Attack Damage per Summoned Totem in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage summoned totem presence)"
+ },
+ {
+  "constant": "INC_MAX_HEALTH_MANA_AND_ENERGY_SHIELD",
+  "template": "{X}% increased maximum Life, Mana and Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=maximum life mana and energy shield)"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_WHEN_ON_FULL_HEALTH",
+  "template": "{X}% increased Melee Damage when on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=melee damage full life)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_HAVEN_T_ATTACKED_RECENTLY",
+  "template": "{X}% increased Attack Speed if you haven't Attacked Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed haven t attacked recently)"
+ },
+ {
+  "constant": "INC_DAMAGE_AGAINST_UNDEAD_ENEMIES",
+  "template": "{X}% increased damage against Undead Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage undead enemies)"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_LEECHING",
+  "template": "{X}% increased Damage while Leeching",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage leeching)"
+ },
+ {
+  "constant": "INC_ENERGY_SHIELD_FROM_EQUIPPED_HELMET",
+  "template": "{X}% increased Energy Shield from Equipped Helmet",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=energy shield equipped helmet)"
+ },
+ {
+  "constant": "INC_ARMOR_AND_EVASION_WHEN_ON_LOW_HEALTH",
+  "template": "{X}% increased Armour and Evasion Rating when on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor and evasion low life)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS",
+  "template": "{X}% increased BuffMagnitude of Impales inflicted with Spells",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude impales inflicted spells)"
+ },
+ {
+  "constant": "TO_MAX_NUMBER_OF_PLACED_BANNERS",
+  "template": "+{X} to maximum number of placed Banners",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum number placed banners)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_IF_ONE_OF_YOUR_MINIONS_HAS_DIED_RECENTLY",
+  "template": "{X}% increased Spell Damage if one of your Minions has died Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage one minions has died recently)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_PER_STRENGTH",
+  "template": "{X}% increased Spell Damage per {X} Strength",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage strength)"
+ },
+ {
+  "constant": "TO_EVASION_PER_ITEM_ARMOR_ON_EQUIPPED_GLOVES",
+  "template": "+{X} to Evasion Rating per {X} Item Armour on Equipped Gloves",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=evasion item armor equipped gloves)"
+ },
+ {
+  "constant": "INC_DAMAGE_PER_CHANCE_TO_BLOCK",
+  "template": "{X}% increased Damage per {X}% Chance to Block",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage chance block)"
+ },
+ {
+  "constant": "TO_ACCURACY_AGAINST_BLEEDING_ENEMIES",
+  "template": "+{X} to Accuracy against Bleeding Enemies",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=accuracy bleeding enemies)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_SURROUNDED",
+  "template": "{X}% increased Attack Speed while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed surrounded)"
+ },
+ {
+  "constant": "INC_SURROUNDED_AREA_OF_EFFECT",
+  "template": "{X}% increased Surrounded Area of Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=surrounded area effect)"
+ },
+ {
+  "constant": "TO_MAX_COLD_INFUSIONS",
+  "template": "+{X} to maximum Cold Infusions",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum cold infusions)"
+ },
+ {
+  "constant": "TO_MAX_FIRE_INFUSIONS",
+  "template": "+{X} to maximum Fire Infusions",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum fire infusions)"
+ },
+ {
+  "constant": "TO_MAX_LIGHTNING_INFUSIONS",
+  "template": "+{X} to maximum Lightning Infusions",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum lightning infusions)"
+ },
+ {
+  "constant": "INC_MAX_HEALTH_IF_YOU_HAVE_AT_LEAST_RED_SUPPORT_GEMS_SOCKETED",
+  "template": "{X}% increased Maximum Life if you have at least {X} Red Support Gems Socketed",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=maximum life have at least red support gems socketed)"
+ },
+ {
+  "constant": "INC_MAX_MANA_IF_YOU_HAVE_AT_LEAST_BLUE_SUPPORT_GEMS_SOCKETED",
+  "template": "{X}% increased Maximum Mana if you have at least {X} Blue Support Gems Socketed",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=maximum mana have at least blue support gems socketed)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_HAVE_AT_LEAST_GREEN_SUPPORT_GEMS_SOCKETED",
+  "template": "{X}% increased Movement Speed if you have at least {X} Green Support Gems Socketed",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed have at least green support gems socketed)"
+ },
+ {
+  "constant": "TO_AILMENT_THRESHOLD_PER_DEXTERITY",
+  "template": "+{X} to Ailment Threshold per Dexterity",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=threshold dexterity)"
+ },
+ {
+  "constant": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+  "template": "+{X} to Level of all Cold Skills",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=level all cold skills)"
+ },
+ {
+  "constant": "INC_MANA_RECOVERY_RATE",
+  "template": "{X}% increased Mana Recovery rate",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana recovery rate)"
+ },
+ {
+  "constant": "INC_DAMAGE_PER_OF_YOUR_LOWEST_ATTRIBUTES",
+  "template": "{X}% increased Damage per {X} of your lowest Attributes",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage lowest attributes)"
+ },
+ {
+  "constant": "INC_ATTRIBUTES",
+  "template": "{X}% increased Attributes",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attributes)"
+ },
+ {
+  "constant": "INC_FLASK_HEALTH_RECOVERY_RATE",
+  "template": "{X}% increased Flask Life Recovery rate",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=flask life recovery rate)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+  "template": "{X}% increased Attack Speed if you've killed Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed ve killed recently)"
+ },
+ {
+  "constant": "INC_MINION_DAMAGE_WHILE_YOU_HAVE_AT_LEAST_TWO_DIFFERENT_ACTIVE_OFFERINGS",
+  "template": "{X}% increased Minion Damage while you have at least two different active Offerings",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=minion damage have at least two different active offerings)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Movement Speed while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed dual wielding)"
+ },
+ {
+  "constant": "INC_ATTACK_CRITICAL_HIT_CHANCE_WHILE_DUAL_WIELDING",
+  "template": "{X}% increased Attack Critical Hit Chance while Dual Wielding",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack critical hit chance dual wielding)"
+ },
+ {
+  "constant": "INC_STUN_BUILDUP_AGAINST_ENEMIES_THAT_ARE_ON_LOW_HEALTH",
+  "template": "{X}% increased Stun Buildup against Enemies that are on Low Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun buildup enemies that are low life)"
+ },
+ {
+  "constant": "INC_CAST_SPEED_IF_YOU_VE_USED_A_MANA_FLASK_RECENTLY",
+  "template": "{X}% increased Cast Speed if you've used a Mana Flask Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cast speed ve used mana flask recently)"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED",
+  "template": "{X}% increased Attack and Cast Speed",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack and cast speed)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_CROSSBOWS_FOR_EACH_TYPE_OF_AMMUNITION_FIRED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Damage with Crossbows for each type of Ammunition fired in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage crossbows each type ammunition fired past seconds)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WITH_CROSSBOWS",
+  "template": "{X}% increased Attack Speed with Crossbows",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed crossbows)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_CROSSBOWS",
+  "template": "{X}% increased Critical Damage Bonus with Crossbows",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus crossbows)"
+ },
+ {
+  "constant": "TO_LEVEL_OF_ALL_CHAOS_SKILLS",
+  "template": "+{X} to Level of all Chaos Skills",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=level all chaos skills)"
+ },
+ {
+  "constant": "TO_MAX_HEALTH",
+  "template": "+{X} to maximum Life",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum life)"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_IF_YOU_HAVE_SHOCKED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased Mana Regeneration Rate if you have Shocked an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana regeneration rate have shocked enemy recently)"
+ },
+ {
+  "constant": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "template": "{X}% increased Life and Mana Recovery from Flasks while you have an active Charm",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life and mana recovery flasks have active charm)"
+ },
+ {
+  "constant": "INC_EVASION_IF_YOU_VE_DODGE_ROLLED_RECENTLY",
+  "template": "{X}% increased Evasion Rating if you've Dodge Rolled Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion ve dodge rolled recently)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_RARE_AND_UNIQUE_ENEMIES",
+  "template": "{X}% increased Damage with HitDamage against Rare and Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hitdamage rare and unique enemies)"
+ },
+ {
+  "constant": "INC_CULLING_STRIKE_THRESHOLD_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "template": "{X}% increased Culling Strike Threshold against Rare or Unique Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=culling strike threshold rare or unique enemies)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_AGAINST_MAIMED_ENEMIES",
+  "template": "{X}% increased Attack Damage against Maimed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage maimed enemies)"
+ },
+ {
+  "constant": "INC_STUN_THRESHOLD_FOR_EACH_TIME_YOU_VE_BEEN_STUNNED_RECENTLY",
+  "template": "{X}% increased Stun Threshold for each time you've been Stunned Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=stun threshold each time ve been stunned recently)"
+ },
+ {
+  "constant": "INC_SPELL_DAMAGE_PER_MAX_MANA",
+  "template": "{X}% increased Spell Damage per {X} maximum Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=spell damage maximum mana)"
+ },
+ {
+  "constant": "INC_MANA_REGENERATION_RATE_WHILE_MOVING",
+  "template": "{X}% increased Mana Regeneration Rate while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana regeneration rate moving)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_FOR_EACH_TIME_YOU_VE_BLOCKED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Movement Speed for each time you've Blocked in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed each time ve blocked past seconds)"
+ },
+ {
+  "constant": "INC_AREA_OF_EFFECT_FOR_ATTACKS_PER_ENEMY_YOU_VE_IGNITED_IN_THE_LAST_SECONDS_UP_TO",
+  "template": "{X}% increased Area of Effect for Attacks per Enemy you've Ignited in the last {X} seconds, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=area effect attacks enemy ve ignited last seconds up)"
+ },
+ {
+  "constant": "INC_DURATION_OF_AILMENTS_YOU_INFLICT_AGAINST_CURSED_ENEMIES",
+  "template": "{X}% increased duration of Ailments you inflict against Cursed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=duration ailments inflict cursed enemies)"
+ },
+ {
+  "constant": "INC_HEALTH_RECOVERY_RATE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "template": "{X}% increased Life Recovery Rate while your Companion is in your Presence",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life recovery rate companion presence)"
+ },
+ {
+  "constant": "INC_EFFECT_OF_INCISION",
+  "template": "{X}% increased effect of Incision",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=effect incision)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_GAIN_A_POWER_CHARGE_RECENTLY",
+  "template": "{X}% increased Critical Damage Bonus if you've gain a Power Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus ve power charge recently)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_DEALT_A_NON_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus ve dealt non critical hit recently)"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_WITH_ATTACK_SKILLS_DURING_ANY_FLASK_EFFECT",
+  "template": "{X}% increased Elemental Damage with Attack Skills during any Flask Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=elemental damage attack skills during flask effect)"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_CHILLED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased ElementalDamage Damage if you've Chilled an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=elementaldamage damage ve chilled enemy recently)"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_IGNITED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased ElementalDamage Damage if you've Ignited an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=elementaldamage damage ve ignited enemy recently)"
+ },
+ {
+  "constant": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_SHOCKED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased ElementalDamage Damage if you've Shocked an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=elementaldamage damage ve shocked enemy recently)"
+ },
+ {
+  "constant": "INC_ELECTROCUTE_BUILDUP_AGAINST_SHOCKED_ENEMIES",
+  "template": "{X}% increased Electrocute Buildup against Shocked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=electrocute buildup shocked enemies)"
+ },
+ {
+  "constant": "INC_BLIND_DURATION",
+  "template": "{X}% increased Blind duration",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=blind duration)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_VE_PINNED_AN_ENEMY_RECENTLY",
+  "template": "{X}% increased Movement Speed if you've Pinned an Enemy Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed ve pinned enemy recently)"
+ },
+ {
+  "constant": "INC_EVASION_IF_ENERGY_SHIELD_RECHARGE_HAS_STARTED_IN_THE_PAST_SECONDS",
+  "template": "{X}% increased Evasion Rating if Energy Shield Recharge has started in the past {X} seconds",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion energy shield recharge has started past seconds)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_ENERGY_SHIELD",
+  "template": "{X}% increased Movement Speed while you have Energy Shield",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed have energy shield)"
+ },
+ {
+  "constant": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Damage if you've dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage ve dealt critical hit recently)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "template": "{X}% increased Attack Speed if you've dealt a Critical Hit Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed ve dealt critical hit recently)"
+ },
+ {
+  "constant": "INC_DAMAGE_DURING_ANY_FLASK_EFFECT",
+  "template": "{X}% increased Damage during any Flask Effect",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage during flask effect)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_BLEEDING_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Bleeding Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance bleeding enemies)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_AGAINST_PINNED_ENEMIES",
+  "template": "{X}% increased BuffMagnitude of Bleeding you inflict against Pinned Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude bleeding inflict pinned enemies)"
+ },
+ {
+  "constant": "INC_DURATION_OF_BLEEDING_ON_YOU",
+  "template": "{X}% increased Duration of Bleeding on You",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=duration bleeding)"
+ },
+ {
+  "constant": "INC_CULLING_STRIKE_THRESHOLD_AGAINST_IMMOBILISED_ENEMIES",
+  "template": "{X}% increased Culling Strike Threshold against Immobilised Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=culling strike threshold immobilised enemies)"
+ },
+ {
+  "constant": "INC_HEALTH_REGENERATION_RATE_DURING_EFFECT_OF_ANY_HEALTH_FLASK",
+  "template": "{X}% increased Life Regeneration rate during Effect of any Life Flask",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=life regeneration rate during effect life flask)"
+ },
+ {
+  "constant": "INC_DEFLECTION_RATING_WHILE_MOVING",
+  "template": "{X}% increased Deflection Rating while moving",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=deflection moving)"
+ },
+ {
+  "constant": "INC_DAMAGE_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "template": "{X}% increased Damage if you've consumed a Frenzy Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage ve consumed frenzy charge recently)"
+ },
+ {
+  "constant": "INC_SKILL_SPEED_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "template": "{X}% increased Skill Speed if you've consumed a Frenzy Charge Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=skill speed ve consumed frenzy charge recently)"
+ },
+ {
+  "constant": "INC_EVASION_WHEN_ON_FULL_HEALTH",
+  "template": "{X}% increased Evasion Rating when on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion full life)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_SHOCKED_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Shocked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance shocked enemies)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "template": "{X}% increased BuffMagnitude of Shock you inflict with Critical Hits",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude shock inflict critical hits)"
+ },
+ {
+  "constant": "INC_EVASION_WHILE_PARRYING",
+  "template": "{X}% increased Evasion Rating while Parrying",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion parrying)"
+ },
+ {
+  "constant": "TO_EVASION_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_HELMET",
+  "template": "+{X} to Evasion Rating per {X} Item Energy Shield on Equipped Helmet",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=evasion item energy shield equipped helmet)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_WHILE_NOT_ON_LOW_MANA",
+  "template": "{X}% increased Attack Speed while not on Low Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed not low mana)"
+ },
+ {
+  "constant": "INC_ATTACK_DAMAGE_WHILE_ON_FULL_HEALTH",
+  "template": "{X}% increased Attack Damage while on Full Life",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack damage full life)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_HITS_AGAINST_FROZEN_ENEMIES",
+  "template": "{X}% increased Damage with Hits against Frozen Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage hits frozen enemies)"
+ },
+ {
+  "constant": "INC_IGNITE_DURATION_ON_YOU",
+  "template": "{X}% increased Ignite Duration on you",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=ignite duration)"
+ },
+ {
+  "constant": "INC_SHOCK_DURATION_ON_YOU",
+  "template": "{X}% increased Shock duration on you",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=shock duration)"
+ },
+ {
+  "constant": "INC_DAMAGE_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "template": "{X}% increased Damage while you have an active Charm",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage have active charm)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "template": "{X}% increased Movement Speed while you have an active Charm",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed have active charm)"
+ },
+ {
+  "constant": "INC_MANA_RECOVERY_RATE_DURING_EFFECT_OF_ANY_MANA_FLASK",
+  "template": "{X}% increased Mana Recovery Rate during Effect of any Mana Flask",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana recovery rate during effect mana flask)"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY_WHILE_ON_LOW_MANA",
+  "template": "{X}% increased Mana Cost Efficiency while on Low Mana",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana cost efficiency low mana)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_PER_DEXTERITY",
+  "template": "{X}% increased Attack Speed per {X} Dexterity",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed dexterity)"
+ },
+ {
+  "constant": "TO_MAX_ENERGY_SHIELD_PER_ITEM_EVASION_ON_EQUIPPED_BODY_ARMOR",
+  "template": "+{X} to Maximum Energy Shield per {X} Item Evasion on Equipped Body Armour",
+  "kind": "SIMPLE_ADD",
+  "reason": "无注册effect(属性=maximum energy shield item evasion equipped body armor)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_PER_ACCURACY_UP_TO",
+  "template": "{X}% increased Attack Speed per {X} Accuracy Rating, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed accuracy up)"
+ },
+ {
+  "constant": "INC_MANA_COST_EFFICIENCY_OF_MARKS",
+  "template": "{X}% increased Mana Cost Efficiency of Marks",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana cost efficiency marks)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_VE_USED_A_MARK_RECENTLY",
+  "template": "{X}% increased Movement Speed if you've used a Mark Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed ve used mark recently)"
+ },
+ {
+  "constant": "INC_ATTACK_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY",
+  "template": "{X}% increased Attack Speed if you've successfully Parried Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack speed ve successfully parried recently)"
+ },
+ {
+  "constant": "INC_MOVEMENT_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY",
+  "template": "{X}% increased Movement Speed if you've successfully Parried Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=movement speed ve successfully parried recently)"
+ },
+ {
+  "constant": "INC_FLASK_CHARGES_USED",
+  "template": "{X}% increased Flask Charges used",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=flask charges used)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_THAT_HAVE_EXITED_YOUR_PRESENCE_RECENTLY",
+  "template": "{X}% increased Critical Damage Bonus against Enemies that have exited your Presence Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus enemies that have exited presence recently)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT_AGAINST_MARKED_ENEMIES",
+  "template": "{X}% increased BuffMagnitude of Ailments you inflict against Marked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude ailments inflict marked enemies)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_MARKED_ENEMIES",
+  "template": "{X}% increased Critical Hit Chance against Marked Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance marked enemies)"
+ },
+ {
+  "constant": "INC_CRITICAL_DAMAGE_BONUS_WITH_SPEARS",
+  "template": "{X}% increased Critical Damage Bonus with Spears",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical damage bonus spears)"
+ },
+ {
+  "constant": "INC_MELEE_DAMAGE_WITH_SPEARS_WHILE_SURROUNDED",
+  "template": "{X}% increased Melee Damage with Spears while Surrounded",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=melee damage spears surrounded)"
+ },
+ {
+  "constant": "INC_PROJECTILE_DAMAGE_WITH_SPEARS_WHILE_THERE_ARE_NO_ENEMIES_WITHIN_XM",
+  "template": "{X}% increased Projectile Damage with Spears while there are no Enemies within {X}m",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=projectile damage spears there are no enemies within m)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_WITH_EXPOSURE",
+  "template": "{X}% increased Critical Hit Chance against enemies with Exposure",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance enemies exposure)"
+ },
+ {
+  "constant": "INC_EFFECT_OF_NON_DAMAGING_AILMENTS_ON_YOU",
+  "template": "{X}% increased Effect of Non-Damaging Ailments on you",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=effect non damaging ailments)"
+ },
+ {
+  "constant": "INC_ATTACK_AND_CAST_SPEED_DURING_EFFECT_OF_ANY_MANA_FLASK",
+  "template": "{X}% increased Attack and Cast Speed during Effect of any Mana Flask",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=attack and cast speed during effect mana flask)"
+ },
+ {
+  "constant": "INC_MANA_FLASK_CHARGES_GAIN",
+  "template": "{X}% increased Mana Flask Charges gain",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=mana flask charges)"
+ },
+ {
+  "constant": "INC_CHANCE_TO_INFLICT_AILMENTS_AGAINST_ENEMIES_WITH_EXPOSURE",
+  "template": "{X}% increased chance to inflict Ailments against Enemies with Exposure",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=chance inflict ailments enemies exposure)"
+ },
+ {
+  "constant": "INC_BUFF_MAGNITUDE_OF_IGNITE_AGAINST_POISONED_ENEMIES",
+  "template": "{X}% increased BuffMagnitude of Ignite against Poisoned enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=buffmagnitude ignite poisoned enemies)"
+ },
+ {
+  "constant": "INC_DURATION_OF_POISONS_YOU_INFLICT_AGAINST_SLOWED_ENEMIES",
+  "template": "{X}% increased Duration of Poisons you inflict against Slowed Enemies",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=duration poisons inflict slowed enemies)"
+ },
+ {
+  "constant": "INC_EVASION_FROM_EQUIPPED_BODY_ARMOR",
+  "template": "{X}% increased Evasion Rating from Equipped Body Armour",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion equipped body armor)"
+ },
+ {
+  "constant": "INC_CRITICAL_HIT_CHANCE_IF_YOU_VE_TRIGGERED_A_SKILL_RECENTLY",
+  "template": "{X}% increased Critical Hit Chance if you've Triggered a Skill Recently",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=critical hit chance ve triggered skill recently)"
+ },
+ {
+  "constant": "INC_DAMAGE_FOR_EACH_HAZARD_TRIGGERED_RECENTLY_UP_TO",
+  "template": "{X}% increased Damage for each Hazard triggered Recently, up to {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage each hazard triggered recently up)"
+ },
+ {
+  "constant": "INC_EVASION_PER_INTELLIGENCE",
+  "template": "{X}% increased Evasion Rating per {X} Intelligence",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=evasion intelligence)"
+ },
+ {
+  "constant": "INC_COLD_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ICE",
+  "template": "{X}% increased Cold Damage while affected by Herald of Ice",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=cold damage affected by herald ice)"
+ },
+ {
+  "constant": "INC_FIRE_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ASH",
+  "template": "{X}% increased Fire Damage while affected by Herald of Ash",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=fire damage affected by herald ash)"
+ },
+ {
+  "constant": "INC_LIGHTNING_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_THUNDER",
+  "template": "{X}% increased Lightning Damage while affected by Herald of Thunder",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=lightning damage affected by herald thunder)"
+ },
+ {
+  "constant": "INC_CHAOS_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_PLAGUE",
+  "template": "{X}% increased Chaos Damage while affected by Herald of Plague",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=chaos damage affected by herald plague)"
+ },
+ {
+  "constant": "INC_PHYSICAL_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_BLOOD",
+  "template": "{X}% increased Physical Damage while affected by Herald of Blood",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=physical damage affected by herald blood)"
+ },
+ {
+  "constant": "INC_ACCURACY_WITH_QUARTERSTAVES",
+  "template": "{X}% increased Accuracy Rating with Quarterstaves",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=accuracy quarterstaves)"
+ },
+ {
+  "constant": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_WIELDING_A_QUARTERSTAFF",
+  "template": "{X}% increased Armour, Evasion and Energy Shield while wielding a Quarterstaff",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=armor evasion and energy shield wielding quarterstaff)"
+ },
+ {
+  "constant": "INC_DAMAGE_WITH_DAGGERS",
+  "template": "{X}% increased Damage with Daggers",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=damage daggers)"
+ },
+ {
+  "constant": "INC_DURATION_OF_AILMENTS_AGAINST_ENEMIES_WITH_EXPOSURE",
+  "template": "{X}% increased Duration of Ailments against Enemies with Exposure",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=duration ailments enemies exposure)"
+ },
+ {
+  "constant": "INC_POISON_DURATION_FOR_EACH_POISON_YOU_HAVE_INFLICTED_RECENTLY_UP_TO_A_MAX_OF",
+  "template": "{X}% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of {X}%",
+  "kind": "SIMPLE_INC",
+  "reason": "无注册effect(属性=poison duration each poison have inflicted recently up maximum)"
+ }
+]

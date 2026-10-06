@@ -1,0 +1,248 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "21495",
+    "links": [
+      "31433",
+      "43044"
+    ],
+    "x": 6679.27,
+    "y": 5090.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "28061",
+    "links": [
+      "35878",
+      "37389"
+    ],
+    "x": 4697.16,
+    "y": 3274.72
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "30905",
+    "links": [
+      "34201",
+      "64140",
+      "8697"
+    ],
+    "x": 4121.95,
+    "y": 8633.22
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "35878",
+    "links": [
+      "28061",
+      "50884"
+    ],
+    "x": 4545.36,
+    "y": 3391.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "42794",
+    "links": [
+      "11825",
+      "31433"
+    ],
+    "x": 7013.27,
+    "y": 4511.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "51336",
+    "links": [
+      "53965",
+      "56818",
+      "64140"
+    ],
+    "x": 3305.51,
+    "y": 8851.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "56818",
+    "links": [
+      "43423",
+      "51336",
+      "62510"
+    ],
+    "x": 3316.57,
+    "y": 8506.92
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "62510",
+    "links": [
+      "17118",
+      "56818",
+      "8697"
+    ],
+    "x": 3524.27,
+    "y": 8035.54
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "64140",
+    "links": [
+      "30905",
+      "3985",
+      "51336"
+    ],
+    "x": 3817.57,
+    "y": 8796.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_damage_with_attacks",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamagewithattacks2",
+    "id": "8697",
+    "links": [
+      "30905",
+      "38895",
+      "62510"
+    ],
+    "x": 3817.57,
+    "y": 8217.66
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:thorns_damage_has_chance_to_ignore_enemy_armor",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnotable1",
+    "id": "40117",
+    "links": [
+      "17903",
+      "31848"
+    ],
+    "x": -7080.42,
+    "y": 2210.67
+  }
+]

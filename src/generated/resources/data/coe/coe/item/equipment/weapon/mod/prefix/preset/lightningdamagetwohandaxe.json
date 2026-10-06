@@ -1,0 +1,175 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_lightning_damage_minmax"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "humming",
+          "tier": 1,
+          "values": {
+            "max": {
+              "max": 10.0,
+              "min": 7.0
+            },
+            "min": {
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 8,
+          "name": "buzzing",
+          "tier": 2,
+          "values": {
+            "max": {
+              "max": 27.0,
+              "min": 19.0
+            },
+            "min": {
+              "max": 2.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 16,
+          "name": "snapping",
+          "tier": 3,
+          "values": {
+            "max": {
+              "max": 43.0,
+              "min": 31.0
+            },
+            "min": {
+              "max": 3.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 33,
+          "name": "crackling",
+          "tier": 4,
+          "values": {
+            "max": {
+              "max": 76.0,
+              "min": 53.0
+            },
+            "min": {
+              "max": 4.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 46,
+          "name": "sparking",
+          "tier": 5,
+          "values": {
+            "max": {
+              "max": 88.0,
+              "min": 80.0
+            },
+            "min": {
+              "max": 4.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 54,
+          "name": "arcing",
+          "tier": 6,
+          "values": {
+            "max": {
+              "max": 122.0,
+              "min": 93.0
+            },
+            "min": {
+              "max": 6.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 60,
+          "name": "shocking",
+          "tier": 7,
+          "values": {
+            "max": {
+              "max": 162.0,
+              "min": 128.0
+            },
+            "min": {
+              "max": 8.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 65,
+          "name": "discharging",
+          "tier": 8,
+          "values": {
+            "max": {
+              "max": 231.0,
+              "min": 168.0
+            },
+            "min": {
+              "max": 13.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 75,
+          "name": "electrocuting",
+          "tier": 9,
+          "values": {
+            "max": {
+              "max": 300.0,
+              "min": 239.0
+            },
+            "min": {
+              "max": 16.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 81,
+          "name": "vapourising",
+          "tier": 10,
+          "values": {
+            "max": {
+              "max": 358.0,
+              "min": 310.0
+            },
+            "min": {
+              "max": 19.0,
+              "min": 1.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

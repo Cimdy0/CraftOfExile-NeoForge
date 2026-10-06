@@ -1,0 +1,174 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "11015",
+    "links": [
+      "45329",
+      "46431"
+    ],
+    "x": 6470.71,
+    "y": 9436.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "12329",
+    "links": [
+      "17523",
+      "18624"
+    ],
+    "x": 10082.8,
+    "y": 4615.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "17523",
+    "links": [
+      "12329",
+      "1778",
+      "42032"
+    ],
+    "x": 10299.3,
+    "y": 4990.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "18624",
+    "links": [
+      "12329",
+      "39608",
+      "48116"
+    ],
+    "x": 9915.79,
+    "y": 4576.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "22972",
+    "links": [
+      "43238",
+      "50879",
+      "7526"
+    ],
+    "x": 5206.64,
+    "y": 5913.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "46431",
+    "links": [
+      "11015",
+      "28199",
+      "38463"
+    ],
+    "x": 6576.88,
+    "y": 8924.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_hazard_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trapsmax",
+    "id": "50879",
+    "links": [
+      "14211",
+      "22972"
+    ],
+    "x": 5206.64,
+    "y": 5663.96
+  }
+]

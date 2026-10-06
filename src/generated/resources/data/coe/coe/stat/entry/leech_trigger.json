@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "attribute:coe:leech"
+  },
+  "effect": "coe:stat/effect/inline_leech_837",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

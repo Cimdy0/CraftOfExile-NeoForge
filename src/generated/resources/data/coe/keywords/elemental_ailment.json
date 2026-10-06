@@ -1,0 +1,45 @@
+{
+  "aliases": [
+    "Elemental Ailment",
+    "Elemental Ailments",
+    "元素异常"
+  ],
+  "description": [
+    [
+      "$[elemental_ailment]",
+      "由特定元素的",
+      "$[damage]",
+      "施加。"
+    ],
+    [
+      "$[freeze]",
+      "与",
+      "$[chill]",
+      "来自",
+      "$[cold_damage]",
+      "，",
+      "$[shock]",
+      "来自",
+      "$[lightning_damage]",
+      "，",
+      "$[ignite]",
+      "来自",
+      "$[fire_damage]",
+      "。"
+    ],
+    [
+      "它们的特殊变体分别为",
+      "$[scorch]",
+      "（火焰）、",
+      "$[brittle]",
+      "（冰霜）与",
+      "$[sap]",
+      "（闪电）。"
+    ]
+  ],
+  "id": "elemental_ailment",
+  "keys": [
+    "coe:keyword.elemental_ailment"
+  ],
+  "title": "@coe:keyword.elemental_ailment"
+}

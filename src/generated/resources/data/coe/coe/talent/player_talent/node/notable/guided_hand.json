@@ -1,0 +1,34 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:the_next_attack_you_use_within_seconds_after_heavy_stunning_a_rare_or_unique_enemy_is_ancestrally_boosted"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:ancestrally_boosted_attacks_deal_inc_damage",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_meleeaoenode",
+    "id": "4331",
+    "links": [
+      "17112"
+    ],
+    "x": -10588.9,
+    "y": 5580.44
+  }
+]

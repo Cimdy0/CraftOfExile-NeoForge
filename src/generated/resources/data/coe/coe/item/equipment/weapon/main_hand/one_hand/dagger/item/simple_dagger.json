@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/one_hand/dagger/template/dexterity_intelligence",
+    "reqs": {
+      "dex": 15.0,
+      "int": 15.0,
+      "l": 12.0
+    }
+  }
+}

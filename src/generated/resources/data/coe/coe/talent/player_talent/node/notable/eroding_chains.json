@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_of_armor_on_pinning_an_enemy",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedprojectilespeednode",
+    "id": "52684",
+    "links": [
+      "23993",
+      "8115"
+    ],
+    "x": -1845.12,
+    "y": 5209.16
+  }
+]

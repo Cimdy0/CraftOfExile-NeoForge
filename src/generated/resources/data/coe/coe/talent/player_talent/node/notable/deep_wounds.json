@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:attack_hit_damage_aggravate_any_bleeding_on_targets_which_is_older_than_seconds",
+            "vars": {
+              "value": 4.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "33216",
+    "links": [
+      "315",
+      "63814"
+    ],
+    "x": -927.125,
+    "y": 9061.83
+  }
+]

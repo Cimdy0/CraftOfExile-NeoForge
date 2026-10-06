@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_to_chaos_resistances",
+            "vars": {
+              "value": 0.13
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_gain_of_physical_damage_as_chaos_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionsandmananode",
+    "id": "30720",
+    "links": [
+      "54036"
+    ],
+    "x": -1858.55,
+    "y": -8528.3
+  }
+]

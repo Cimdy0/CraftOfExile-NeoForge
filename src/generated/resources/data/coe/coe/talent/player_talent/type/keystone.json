@@ -1,0 +1,9 @@
+{
+  "color": -5096490,
+  "display_name": {
+    "translate": "talent.type.coe.keystone"
+  },
+  "id": "keystone",
+  "keystone": true,
+  "radius": 44
+}

@@ -1,0 +1,7 @@
+{
+  "coe:item_template": {
+    "reqs": {
+      "l": "level"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:add_to_lightning_damage_to_attacks",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "48935",
+    "links": [
+      "26291",
+      "61367"
+    ],
+    "x": -6610.4,
+    "y": -475.569
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:add_to_lightning_damage_to_attacks",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "61367",
+    "links": [
+      "48935",
+      "64239"
+    ],
+    "x": -6764.57,
+    "y": -97.3668
+  }
+]

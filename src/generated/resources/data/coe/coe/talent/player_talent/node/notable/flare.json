@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_fire_damage_per_endurance_charge_consumed_recently",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "43584",
+    "links": [
+      "15494"
+    ],
+    "x": -2568.32,
+    "y": 3948.16
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_in_jagged_ground_you_create_take_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "icongroundslam",
+    "id": "3698",
+    "links": [
+      "33137",
+      "61927"
+    ],
+    "x": -6860.45,
+    "y": 6813.8
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "type": "attribute",
+  "attribute": "coe:damage",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "damage",
+    "grenade"
+  ]
+}

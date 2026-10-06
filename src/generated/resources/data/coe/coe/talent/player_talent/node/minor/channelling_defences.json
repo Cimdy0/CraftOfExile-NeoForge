@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_channelling",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingspeed",
+    "id": "36556",
+    "links": [
+      "1502",
+      "872"
+    ],
+    "x": -7167.85,
+    "y": -3478.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor_evasion_and_energy_shield_while_channelling",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingspeed",
+    "id": "872",
+    "links": [
+      "12232",
+      "36556"
+    ],
+    "x": -7326.27,
+    "y": -3600.23
+  }
+]

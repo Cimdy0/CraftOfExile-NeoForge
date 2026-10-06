@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:metres_to_melee_strike_range_if_you_ve_dealt_a_projectile_attack_hit_damage_in_the_past_eight_seconds",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_have_chance_to_fork_if_you_ve_dealt_a_melee_hit_damage_in_the_past_eight_seconds",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "12822",
+    "links": [
+      "46705",
+      "9572"
+    ],
+    "x": 3607.08,
+    "y": 2672.84
+  }
+]

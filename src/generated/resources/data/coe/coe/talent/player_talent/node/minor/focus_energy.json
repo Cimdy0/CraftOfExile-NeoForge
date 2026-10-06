@@ -1,0 +1,100 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_from_equipped_focus",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldnodeoffensive",
+    "id": "10881",
+    "links": [
+      "29240",
+      "33112",
+      "36450"
+    ],
+    "x": 3832.63,
+    "y": -9003.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_from_equipped_focus",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldnodeoffensive",
+    "id": "24767",
+    "links": [
+      "35408",
+      "36474"
+    ],
+    "x": -5928.45,
+    "y": -8611.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_from_equipped_focus",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldnodeoffensive",
+    "id": "33112",
+    "links": [
+      "10881",
+      "11838"
+    ],
+    "x": 3832.63,
+    "y": -8669.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_energy_shield_from_equipped_focus",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_shieldnodeoffensive",
+    "id": "35408",
+    "links": [
+      "23382",
+      "24767",
+      "38596"
+    ],
+    "x": -6212.5,
+    "y": -8611.42
+  }
+]

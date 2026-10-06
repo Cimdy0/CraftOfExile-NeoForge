@@ -1,0 +1,17 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * equipment_stat:head.evasion + equipment_stat:chest.evasion + equipment_stat:legs.evasion + equipment_stat:feet.evasion / $per"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "both_hands_empty"
+  },
+  "effect": "coe:stat/effect/inline_attribute_1065",
+  "entry": "inline",
+  "params": {
+    "per": 75.0,
+    "value": 0.01
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

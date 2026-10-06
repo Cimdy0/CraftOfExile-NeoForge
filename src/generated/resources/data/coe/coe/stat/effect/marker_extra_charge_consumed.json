@@ -1,0 +1,7 @@
+{
+  "type": "extra_charge_consumed",
+  "condition_tags": [
+    "power"
+  ],
+  "kind": "extra_charge_consumed"
+}

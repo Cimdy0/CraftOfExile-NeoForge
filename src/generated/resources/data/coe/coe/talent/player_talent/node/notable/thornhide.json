@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_thorns_critical_hit_chance",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnotable1",
+    "id": "43711",
+    "links": [
+      "5544"
+    ],
+    "x": -6534.69,
+    "y": 420.575
+  }
+]

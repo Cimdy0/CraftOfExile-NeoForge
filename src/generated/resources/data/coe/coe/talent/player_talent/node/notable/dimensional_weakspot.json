@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hit_damage_have_chance_to_treat_enemy_monster_elemental_damage_resistances_values_as_inverted",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "2344",
+    "links": [
+      "16485",
+      "23331",
+      "31778"
+    ],
+    "x": -7133.29,
+    "y": -7035.15
+  }
+]

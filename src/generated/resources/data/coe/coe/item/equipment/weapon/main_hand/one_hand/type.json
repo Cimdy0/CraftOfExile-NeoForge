@@ -1,0 +1,40 @@
+{
+  "coe:item_weight": [
+    {
+      "type": "coe:claw",
+      "weight": 1000
+    },
+    {
+      "type": "coe:dagger",
+      "weight": 1000
+    },
+    {
+      "type": "coe:one_hand_sword",
+      "weight": 1000
+    },
+    {
+      "type": "coe:one_hand_axe",
+      "weight": 1000
+    },
+    {
+      "type": "coe:one_hand_mace",
+      "weight": 1000
+    },
+    {
+      "type": "coe:sceptre",
+      "weight": 1000
+    },
+    {
+      "type": "coe:spear",
+      "weight": 1000
+    },
+    {
+      "type": "coe:flail",
+      "weight": 1000
+    },
+    {
+      "type": "coe:wand",
+      "weight": 1000
+    }
+  ]
+}

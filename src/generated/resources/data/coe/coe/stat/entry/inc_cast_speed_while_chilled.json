@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "chill"
+  },
+  "effect": "coe:stat/effect/inline_attribute_496",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

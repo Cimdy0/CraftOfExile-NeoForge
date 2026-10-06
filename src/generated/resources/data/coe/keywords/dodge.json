@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "Dodge",
+    "Dodging",
+    "闪避"
+  ],
+  "description": [
+    [
+      "$[dodge]",
+      "是一种避开敌人命中的几率，来源于闪避值及其他来源。"
+    ],
+    [
+      "与",
+      "$[block]",
+      "不同，",
+      "$[dodge]",
+      "不会减少已命中",
+      "$[damage]",
+      "的数值。"
+    ]
+  ],
+  "id": "dodge",
+  "keys": [
+    "coe:keyword.dodge"
+  ],
+  "title": "@coe:keyword.dodge"
+}

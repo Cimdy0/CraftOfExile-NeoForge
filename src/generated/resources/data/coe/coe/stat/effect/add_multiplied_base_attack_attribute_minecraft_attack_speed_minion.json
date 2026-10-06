@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "minecraft:attack_speed",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "attack"
+      },
+      {
+        "tag": "minion"
+      }
+    ]
+  }
+}

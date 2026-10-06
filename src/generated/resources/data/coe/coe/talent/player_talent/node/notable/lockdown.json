@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_against_maimed_enemies",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_are_maimed_for_seconds_after_becoming_unpinned",
+            "vars": {
+              "value": 4.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedprojectilespeednode",
+    "id": "31745",
+    "links": [
+      "3234"
+    ],
+    "x": 2333.85,
+    "y": 6156.5
+  }
+]

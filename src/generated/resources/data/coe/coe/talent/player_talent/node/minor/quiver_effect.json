@@ -1,0 +1,98 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_bonuses_gain_from_equipped_quiver",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeedbow",
+    "id": "1020",
+    "links": [
+      "35696",
+      "54631"
+    ],
+    "x": 7841.16,
+    "y": 1306.31
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_bonuses_gain_from_equipped_quiver",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeedbow",
+    "id": "12498",
+    "links": [
+      "30341",
+      "61356"
+    ],
+    "x": 4953.65,
+    "y": 2387.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_bonuses_gain_from_equipped_quiver",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeedbow",
+    "id": "54631",
+    "links": [
+      "1020",
+      "30132"
+    ],
+    "x": 7664.38,
+    "y": 1483.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_bonuses_gain_from_equipped_quiver",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeedbow",
+    "id": "61356",
+    "links": [
+      "12498",
+      "63888"
+    ],
+    "x": 4953.65,
+    "y": 2637.3
+  }
+]

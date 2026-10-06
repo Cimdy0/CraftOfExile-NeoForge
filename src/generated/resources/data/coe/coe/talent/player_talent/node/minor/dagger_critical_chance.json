@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_daggers",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "30973",
+    "links": [
+      "3419",
+      "49320"
+    ],
+    "x": 10237.3,
+    "y": -4777.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_daggers",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "49320",
+    "links": [
+      "30973",
+      "52215"
+    ],
+    "x": 10446.2,
+    "y": -4843.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_hit_chance_with_daggers",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "52215",
+    "links": [
+      "49320",
+      "56366"
+    ],
+    "x": 10794.6,
+    "y": -5031.25
+  }
+]

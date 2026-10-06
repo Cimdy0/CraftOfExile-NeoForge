@@ -1,0 +1,21 @@
+{
+  "aliases": [
+    "Spirit",
+    "精魂"
+  ],
+  "description": [
+    [
+      "$[spirit]",
+      "是一种由特定",
+      "$[skill]",
+      "保留的资源，类似于持续的",
+      "$[mana]",
+      "保留。"
+    ]
+  ],
+  "id": "spirit",
+  "keys": [
+    "coe:keyword.spirit"
+  ],
+  "title": "@coe:keyword.spirit"
+}

@@ -1,0 +1,10 @@
+{
+  "coe:item_template": {
+    "extend": "coe:weapon",
+    "reqs": {
+      "dex": "dexterity",
+      "l": "level",
+      "str": "strength"
+    }
+  }
+}

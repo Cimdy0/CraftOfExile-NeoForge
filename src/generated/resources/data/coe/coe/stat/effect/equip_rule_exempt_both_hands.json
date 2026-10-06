@@ -1,0 +1,8 @@
+{
+  "type": "equip_rule_exempt",
+  "identity_tags": [
+    "both_hands_occupancy"
+  ],
+  "kind": "equip_rule_exempt",
+  "variant": "gate"
+}

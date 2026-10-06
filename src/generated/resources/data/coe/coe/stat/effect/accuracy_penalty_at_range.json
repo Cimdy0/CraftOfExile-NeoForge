@@ -1,0 +1,5 @@
+{
+  "type": "accuracy_penalty_at_range",
+  "kind": "accuracy_penalty_at_range",
+  "variant": "magnitude"
+}

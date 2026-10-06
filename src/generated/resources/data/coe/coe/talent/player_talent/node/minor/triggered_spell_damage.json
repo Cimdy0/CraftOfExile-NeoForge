@@ -1,0 +1,172 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:triggered_spells_deal_inc_spell_damage",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "14231",
+    "links": [
+      "40453",
+      "47359",
+      "61403"
+    ],
+    "x": 6259.88,
+    "y": -9140.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:triggered_spells_deal_inc_spell_damage",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "22219",
+    "links": [
+      "41029",
+      "47614",
+      "52351"
+    ],
+    "x": 3815.35,
+    "y": -6229.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:triggered_spells_deal_inc_spell_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "43281",
+    "links": [
+      "47359",
+      "51934"
+    ],
+    "x": 6147.81,
+    "y": -9558.32
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:triggered_spells_deal_inc_spell_damage",
+            "vars": {
+              "value": 0.16
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "47359",
+    "links": [
+      "14231",
+      "43281"
+    ],
+    "x": 6083.1,
+    "y": -9316.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:triggered_spells_deal_inc_spell_damage",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "47614",
+    "links": [
+      "22219",
+      "3688"
+    ],
+    "x": 3949.85,
+    "y": -6496.61
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:triggered_spells_deal_inc_spell_damage",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "63668",
+    "links": [
+      "4328",
+      "9069"
+    ],
+    "x": 5539.71,
+    "y": -6166.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:triggered_spells_deal_inc_spell_damage",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "9069",
+    "links": [
+      "42245",
+      "63668"
+    ],
+    "x": 5392.48,
+    "y": -6081.69
+  }
+]

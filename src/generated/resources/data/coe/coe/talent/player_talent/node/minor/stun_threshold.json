@@ -1,0 +1,566 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "10372",
+    "links": [
+      "36191",
+      "55933"
+    ],
+    "x": -4381.17,
+    "y": -1542.65
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "10571",
+    "links": [
+      "48240",
+      "7392"
+    ],
+    "x": -4744.79,
+    "y": -1385.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstunchakra",
+    "id": "15424",
+    "links": [
+      "35151",
+      "51741",
+      "58157"
+    ],
+    "x": 7242.76,
+    "y": -3857.88
+  },
+  {
+    "icon": "passives_life1",
+    "id": "1628",
+    "links": [
+      "49769",
+      "57202",
+      "9554"
+    ],
+    "x": -8265.04,
+    "y": -9941.42
+  },
+  {
+    "icon": "passives_life1",
+    "id": "16332",
+    "links": [
+      "11160",
+      "49258"
+    ],
+    "x": -8381.72,
+    "y": -10340.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "17532",
+    "links": [
+      "24477",
+      "37612",
+      "61934"
+    ],
+    "x": -3366.12,
+    "y": 7831.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "18742",
+    "links": [
+      "62732",
+      "7721"
+    ],
+    "x": -2733.29,
+    "y": 2529.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "28361",
+    "links": [
+      "47782",
+      "48635"
+    ],
+    "x": -212.411,
+    "y": 5837.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstunchakra",
+    "id": "35151",
+    "links": [
+      "15424",
+      "44453"
+    ],
+    "x": 7320.08,
+    "y": -4017.36
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "36191",
+    "links": [
+      "10372",
+      "40325"
+    ],
+    "x": -4538.14,
+    "y": -1587.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "36709",
+    "links": [
+      "1913",
+      "63393"
+    ],
+    "x": -1842.78,
+    "y": 1554.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildboar",
+    "id": "37242",
+    "links": [
+      "16871",
+      "54031",
+      "61215"
+    ],
+    "x": 9275.0,
+    "y": 4666.3
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "38003",
+    "links": [
+      "47782",
+      "63526"
+    ],
+    "x": -212.411,
+    "y": 5587.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "40596",
+    "links": [
+      "53921",
+      "8600"
+    ],
+    "x": -6456.61,
+    "y": 5794.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkstunchakra",
+    "id": "44453",
+    "links": [
+      "35151",
+      "42760"
+    ],
+    "x": 7500.75,
+    "y": -3891.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "53373",
+    "links": [
+      "36629",
+      "39517",
+      "64192"
+    ],
+    "x": -3412.36,
+    "y": 2874.27
+  },
+  {
+    "icon": "passives_life1",
+    "id": "57202",
+    "links": [
+      "1628",
+      "4621"
+    ],
+    "x": -7842.42,
+    "y": -9533.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "58838",
+    "links": [
+      "26725",
+      "53921"
+    ],
+    "x": -7025.59,
+    "y": 4808.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildboar",
+    "id": "59368",
+    "links": [
+      "48116",
+      "61215",
+      "9532"
+    ],
+    "x": 9525.0,
+    "y": 4233.29
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildboar",
+    "id": "61215",
+    "links": [
+      "37242",
+      "59368"
+    ],
+    "x": 9616.51,
+    "y": 4574.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "61934",
+    "links": [
+      "17532",
+      "48418"
+    ],
+    "x": -3142.09,
+    "y": 7771.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "63393",
+    "links": [
+      "36709",
+      "7721"
+    ],
+    "x": -2092.78,
+    "y": 1804.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "64192",
+    "links": [
+      "53373",
+      "62732"
+    ],
+    "x": -3067.29,
+    "y": 2863.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "7392",
+    "links": [
+      "10571",
+      "40325"
+    ],
+    "x": -4744.79,
+    "y": -1558.08
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_threshold",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "917",
+    "links": [
+      "29358",
+      "65160"
+    ],
+    "x": -9469.83,
+    "y": 3623.89
+  }
+]

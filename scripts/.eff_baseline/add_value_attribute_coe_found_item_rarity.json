@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:found_item_rarity",
+  "operation": "add_value"
+}

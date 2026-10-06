@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_archmage",
+  "vars": {
+    "tier": 14.0
+  }
+}

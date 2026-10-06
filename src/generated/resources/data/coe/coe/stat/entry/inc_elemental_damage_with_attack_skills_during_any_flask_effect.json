@@ -1,0 +1,12 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "flask_active"
+  },
+  "effect": "coe:stat/effect/inline_attribute_189",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

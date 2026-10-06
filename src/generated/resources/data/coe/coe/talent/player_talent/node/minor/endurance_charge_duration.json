@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_endurance_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "21390",
+    "links": [
+      "25229",
+      "62498",
+      "7972"
+    ],
+    "x": -7025.42,
+    "y": 7573.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_endurance_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "25229",
+    "links": [
+      "21390",
+      "7972"
+    ],
+    "x": -7167.44,
+    "y": 7327.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_endurance_charge_duration",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "7972",
+    "links": [
+      "21390",
+      "25229",
+      "5663"
+    ],
+    "x": -6883.39,
+    "y": 7327.4
+  }
+]

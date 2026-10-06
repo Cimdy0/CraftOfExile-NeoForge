@@ -1,0 +1,18 @@
+{
+ "totals": {
+  "attributes": 122,
+  "live": 122,
+  "channel": 0,
+  "dead": 0,
+  "statids": 589,
+  "statids_impl": 584,
+  "statids_unimpl": 5,
+  "dead_scope_baked": 0,
+  "dead_plain": 0
+ },
+ "channel_attributes": [],
+ "dead_attributes": [],
+ "dead_scope_baked": [],
+ "dead_plain": [],
+ "statids_unimpl_count": 5
+}

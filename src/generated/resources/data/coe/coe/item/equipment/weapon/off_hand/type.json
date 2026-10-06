@@ -1,0 +1,20 @@
+{
+  "coe:item_weight": [
+    {
+      "type": "coe:quiver",
+      "weight": 1000
+    },
+    {
+      "type": "coe:shield",
+      "weight": 1000
+    },
+    {
+      "type": "coe:buckler",
+      "weight": 1000
+    },
+    {
+      "type": "coe:foci",
+      "weight": 1000
+    }
+  ]
+}

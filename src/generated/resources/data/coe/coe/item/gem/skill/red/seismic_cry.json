@@ -1,0 +1,22 @@
+{
+  "cost": [
+    {
+      "value": 19.0
+    }
+  ],
+  "entry": "read",
+  "ref": "coe:generic_warcry",
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "aoe"
+  ],
+  "vars": {
+    "tier": 11.0,
+    "warcry_damage": "coe:level_table(8.5, 11, 15, 20, 25, 31, 37.5, 45, 54, 64, 75, 87.5, 102.5, 118.5, 137.5, 159, 183, 211, 242.5, 279)",
+    "warcry_knockback": 1.0,
+    "warcry_radius": 4.0
+  }
+}

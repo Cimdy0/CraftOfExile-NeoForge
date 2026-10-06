@@ -1,0 +1,9 @@
+{
+  "coe:item_template": {
+    "extend": "coe:armor",
+    "reqs": {
+      "l": "level",
+      "str": "strength"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "Physical Damage",
+    "Physical",
+    "物理伤害"
+  ],
+  "description": [
+    [
+      "$[physical]",
+      "由",
+      "$[armour]",
+      "减免，也是",
+      "$[bleed]",
+      "的基础。"
+    ],
+    [
+      "它可被转化为火焰、冰霜、闪电或",
+      "$[chaos]",
+      "。"
+    ]
+  ],
+  "id": "physical",
+  "keys": [
+    "coe:keyword.physical"
+  ],
+  "title": "@coe:keyword.physical"
+}

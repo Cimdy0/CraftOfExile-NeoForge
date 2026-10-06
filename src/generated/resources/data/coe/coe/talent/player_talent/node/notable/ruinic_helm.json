@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_energy_shield_per_item_armor_on_equipped_helmet",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorandenergyshieldnode",
+    "id": "18959",
+    "links": [
+      "14328",
+      "869"
+    ],
+    "x": -4958.25,
+    "y": -7510.69
+  }
+]

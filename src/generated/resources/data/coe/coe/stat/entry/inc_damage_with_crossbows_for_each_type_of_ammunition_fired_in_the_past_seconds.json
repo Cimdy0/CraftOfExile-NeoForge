@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * distinct:fired_ammunition.10:ammo / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_229",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 0.25
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

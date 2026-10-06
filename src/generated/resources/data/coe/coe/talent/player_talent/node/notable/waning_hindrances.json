@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:debuffs_on_you_expire_faster",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "25211",
+    "links": [
+      "11330",
+      "3355"
+    ],
+    "x": -2461.15,
+    "y": -11385.2
+  }
+]

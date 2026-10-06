@@ -1,0 +1,31 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:deflected_hit_damage_cannot_inflict_maim_on_you"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:deflected_hit_damage_cannot_inflict_bleeding_on_you"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "34908",
+    "links": [
+      "3994"
+    ],
+    "x": 8282.57,
+    "y": 4201.1
+  }
+]

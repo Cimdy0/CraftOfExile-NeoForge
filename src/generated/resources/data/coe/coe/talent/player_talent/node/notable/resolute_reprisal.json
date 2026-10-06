@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parry_range",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:your_heavy_stun_buildup_empties_faster_if_you_ve_successfully_parried_recently",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklersnotable1",
+    "id": "56860",
+    "links": [
+      "24843",
+      "29320"
+    ],
+    "x": 5833.86,
+    "y": 5463.88
+  }
+]

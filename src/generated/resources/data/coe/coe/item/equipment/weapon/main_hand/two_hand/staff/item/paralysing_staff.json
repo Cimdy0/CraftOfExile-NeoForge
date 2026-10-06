@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/staff/template/intelligence",
+    "reqs": {
+      "int": 92.0,
+      "l": 52.0
+    },
+    "skills": {
+      "coe:preset_enervating_nova": {
+        "id": "coe:preset_enervating_nova"
+      }
+    }
+  }
+}

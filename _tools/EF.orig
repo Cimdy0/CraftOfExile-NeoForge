@@ -1,0 +1,404 @@
+package com.cimdy.coe.data.gen.essence;
+
+import com.cimdy.coe.data.codec.item.addition.ModAdditions;
+import com.cimdy.coe.data.codec.item.essence.EssenceFamily;
+import com.cimdy.coe.data.codec.item.mod.Location;
+import com.cimdy.coe.data.codec.item.tiered.BonusFamily;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import static com.cimdy.coe.data.codec.item.tiered.BonusFamily.bonus;
+import static com.cimdy.coe.data.codec.item.tiered.BonusFamily.branch;
+
+/**
+ * 精髓族<b>数据声明</b>（生成期的「存储类」）：一族一条 {@link BonusFamily}，
+ * <b>含该族全部阶</b>（{@code LESSER → NORMAL → GREATER → PERFECT} 或腐化单阶 {@code SPECIAL}）。
+ *
+ * <h2>与运行时存储类 {@code EssenceState} 的分工</h2>
+ * <ul>
+ *   <li>本类（生成侧）：<b>同族所有阶</b>集中在一条 {@link BonusFamily} 里 —— 一族一个 JSON 文件
+ *       （{@code data/coe/item/essence/<族名>.json}），扁平 {@code bonuses} 表每条 {@code TieredBonus} 自带分支与阶；
+ *       {@code location}（prefix / suffix）<b>逐条词缀声明</b>（见 {@code Bonus}），不在族级也不在条目级；</li> *   <li>{@code EssenceState}（运行侧）：<b>只含对应那一阶</b>的数据 —— 由 {@code EssenceRegistry}
+ *       按阶展开时经 {@link BonusFamily#resolve} 抽出一阶的 {@code Map<String, List<Bonus>>}
+ *       （已无 {@code tier} 字段），加上族名 / 阶 即该条目全部属性。</li>
+ * </ul>
+ * 二者因此<b>彼此分离</b>：本类不被任何运行时代码引用，只被 {@code EssenceFamilyProvider} 读取落盘。
+ *
+ * <h2>建造者逐阶声明</h2>
+ * 每次 {@code .tier(...)} 设定<b>下一阶</b>（从低往高）；只调用一次即 {@code SPECIAL}（腐化精髓）。
+ * 加成 {@code type} 直接给 <b>{@code ModAdditions} 常量</b>（{@code AdditionRead}），不写字符串 id —— 键写错在编译期即暴露；生成期只编码 ref、不解析。
+ *
+ * <p>精髓<b>没有需求等级概念</b>（该维度为符文专有）；族名与条目 id 不入 JSON，由「族名 + 阶」派生。</p>
+ */
+public final class EssenceFamilies {
+
+    private EssenceFamilies() {
+    }
+
+    /** 族名（键即文件名）→ 该族全部分阶加成。 */
+    private static final Map<String, EssenceFamily> FAMILIES = new LinkedHashMap<>();
+
+    static {
+        family("abrasion_essence", BonusFamily.builder()
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_ATTACK_DAMAGE, 6, 10, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_ATTACK_DAMAGE, 9, 14, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_ATTACK_DAMAGE, 10, 15, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_ATTACK_DAMAGE, 14, 21, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_ATTACK_DAMAGE, 16, 24, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_ATTACK_DAMAGE, 23, 35, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ATTACK_PHYSICAL_DAMAGE_INC, 16, 24, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ATTACK_PHYSICAL_DAMAGE_INC, 23, 35, Location.PREFIX))
+                )
+                .build());
+
+        family("battle_essence", BonusFamily.builder()
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_ACCURACY, 81, 109, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_ACCURACY, 81, 109, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_ACCURACY, 124, 167, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_ACCURACY, 124, 167, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_ACCURACY, 237, 346, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_ACCURACY, 237, 346, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_ACCURACY, 237, 346, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_ACCURACY, 237, 346, Location.PREFIX))
+                )
+                .build());
+
+        family("body_essence", BonusFamily.builder()
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 55, 64, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 46, 55, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 85, 99, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 70, 84, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 100, 119, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 85, 99, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.MAX_HEALTH_INC, 100, 119, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.MAX_HEALTH_INC, 85, 99, Location.PREFIX))
+                )
+                .build());
+
+        family("delirium_essence", BonusFamily.builder()
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 1, 1, Location.PREFIX))
+                )
+                .build());
+
+        family("electricity_essence", BonusFamily.builder()
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_LIGHTNING_DAMAGE, 1, 2, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_LIGHTNING_DAMAGE, 1, 3, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_LIGHTNING_DAMAGE, 1, 3, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_LIGHTNING_DAMAGE, 1, 4, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_LIGHTNING_DAMAGE, 1, 6, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_LIGHTNING_DAMAGE, 1, 8, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.EXTRA_LIGHTNING_DAMAGE, 1, 6, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.EXTRA_LIGHTNING_DAMAGE, 1, 8, Location.PREFIX))
+                )
+                .build());
+
+        family("enhancement_essence", BonusFamily.builder()
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ARMOR_INC_LOCAL, 36, 44, Location.PREFIX),
+                        bonus(ModAdditions.EVASION_INC_LOCAL, 36, 44, Location.PREFIX),
+                        bonus(ModAdditions.ENERGY_INC_LOCAL, 36, 44, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ARMOR_INC_LOCAL, 56, 67, Location.PREFIX),
+                        bonus(ModAdditions.EVASION_INC_LOCAL, 56, 67, Location.PREFIX),
+                        bonus(ModAdditions.ENERGY_INC_LOCAL, 56, 67, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ARMOR_INC_LOCAL, 68, 79, Location.PREFIX),
+                        bonus(ModAdditions.EVASION_INC_LOCAL, 68, 79, Location.PREFIX),
+                        bonus(ModAdditions.ENERGY_INC_LOCAL, 68, 79, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_ARMOR_LOCAL, 68, 79, Location.PREFIX),
+                        bonus(ModAdditions.ADD_EVASION_LOCAL, 68, 79, Location.PREFIX),
+                        bonus(ModAdditions.ADD_ENERGY_LOCAL, 68, 79, Location.PREFIX))
+                )
+                .build());
+
+        family("flames_essence", BonusFamily.builder()
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_FIRE_DAMAGE, 13, 16, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_FIRE_DAMAGE, 20, 24, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_FIRE_DAMAGE, 20, 24, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_FIRE_DAMAGE, 30, 37, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_FIRE_DAMAGE, 35, 44, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_FIRE_DAMAGE, 56, 70, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.EXTRA_FIRE_DAMAGE, 35, 44, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.EXTRA_FIRE_DAMAGE, 56, 70, Location.PREFIX))
+                )
+                .build());
+
+        family("haste_essence", BonusFamily.builder()
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ATTACK_SPEED_INC, 11, 12, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ATTACK_SPEED_INC, 7, 8, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ATTACK_SPEED_INC, 17, 19, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ATTACK_SPEED_INC, 11, 13, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ATTACK_SPEED_INC, 23, 25, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ATTACK_SPEED_INC, 14, 16, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ATTACK_SPEED_INC, 23, 25, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ATTACK_SPEED_INC, 14, 16, Location.PREFIX))
+                )
+                .build());
+
+        family("horror_essence", BonusFamily.builder()
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 1, 1, Location.PREFIX))
+                )
+                .build());
+
+        family("hysteria_essence", BonusFamily.builder()
+                .tier(
+                    branch("wand|staff|sceptre",
+                        bonus(ModAdditions.ENERGY_RECHARGE_RATE_INC, 20, 23, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.MANA_REGENERATION_RATE_INC, 50, 59, Location.PREFIX)),
+                    branch("armor",
+                        bonus(ModAdditions.ADD_STUN_THRESHOLD, 254, 304, Location.PREFIX)),
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ATTACK_DAMAGE_INC, 43, 50, Location.PREFIX))
+                )
+                .build());
+
+        family("ice_essence", BonusFamily.builder()
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_COLD_DAMAGE, 11, 13, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_COLD_DAMAGE, 16, 20, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_COLD_DAMAGE, 17, 20, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_COLD_DAMAGE, 25, 30, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.ADD_COLD_DAMAGE, 20, 24, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.ADD_COLD_DAMAGE, 30, 36, Location.PREFIX))
+                )
+                .tier(
+                    branch("one_hand, !wand, !staff, !sceptre",
+                        bonus(ModAdditions.EXTRA_COLD_DAMAGE, 23, 27, Location.PREFIX)),
+                    branch("two_hand",
+                        bonus(ModAdditions.EXTRA_COLD_DAMAGE, 34, 40, Location.PREFIX))
+                )
+                .build());
+
+        family("infinite_essence", BonusFamily.builder()
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_STRENGTH, 11, 13, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_STRENGTH, 11, 13, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_STRENGTH, 17, 20, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_STRENGTH, 17, 20, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_STRENGTH, 25, 27, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_STRENGTH, 25, 27, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_STRENGTH, 25, 27, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_STRENGTH, 25, 27, Location.PREFIX))
+                )
+                .build());
+
+        family("insanity_essence", BonusFamily.builder()
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_HEALTH, 1, 1, Location.PREFIX))
+                )
+                .build());
+
+        family("mind_essence", BonusFamily.builder()
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_MANA, 42, 51, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_MAX_MANA, 52, 58, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_MANA, 65, 79, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_MAX_MANA, 80, 89, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_MAX_MANA, 80, 89, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_MAX_MANA, 90, 104, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.MAX_MANA_INC, 80, 89, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.MAX_MANA_INC, 90, 104, Location.PREFIX))
+                )
+                .build());
+
+        family("ruin_essence", BonusFamily.builder()
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_CHAOS_RESISTANCE, 5, 7, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_CHAOS_RESISTANCE, 5, 7, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_CHAOS_RESISTANCE, 8, 11, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_CHAOS_RESISTANCE, 8, 11, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_CHAOS_RESISTANCE, 10, 13, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_CHAOS_RESISTANCE, 10, 13, Location.PREFIX))
+                )
+                .tier(
+                    branch("armor",
+                        bonus(ModAdditions.ADD_CHAOS_RESISTANCE, 11, 15, Location.PREFIX)),
+                    branch("accessory",
+                        bonus(ModAdditions.ADD_CHAOS_RESISTANCE, 11, 15, Location.PREFIX))
+                )
+                .build());
+
+        family("sorcery_essence", BonusFamily.builder()
+                .tier(
+                    branch("wand|staff|sceptre",
+                        bonus(ModAdditions.SPELL_DAMAGE_INC, 36, 42, Location.PREFIX))
+                )
+                .tier(
+                    branch("wand|staff|sceptre",
+                        bonus(ModAdditions.SPELL_DAMAGE_INC, 55, 64, Location.PREFIX))
+                )
+                .tier(
+                    branch("wand|staff|sceptre",
+                        bonus(ModAdditions.SPELL_DAMAGE_INC, 75, 89, Location.PREFIX))
+                )
+                .tier(
+                    branch("wand|staff|sceptre",
+                        bonus(ModAdditions.SPELL_DAMAGE_INC, 75, 89, Location.PREFIX))
+                )
+                .build());
+    }
+
+
+    /** 精髓工厂：文件名即精髓名（{@code abrasion_essence.json → Abrasion}），名称不落盘。 */
+    private static void family(String fileName, BonusFamily bonuses) {
+        FAMILIES.put(fileName, EssenceFamily.of(bonuses));
+    }
+
+    /** 全部精髓族（生成期只读）。 */
+    public static Map<String, EssenceFamily> families() {
+        return FAMILIES;
+    }
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_frenzy_charges",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargedex",
+    "id": "21537",
+    "links": [
+      "57970"
+    ],
+    "x": 10863.8,
+    "y": 1506.1
+  }
+]

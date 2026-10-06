@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:charm_effect",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "charm"
+  }
+}

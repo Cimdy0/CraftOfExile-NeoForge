@@ -1,0 +1,7 @@
+{
+  "type": "damage",
+  "tags": [
+    "taken_hit",
+    "physical"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:exposure_you_inflict_lowers_resistances_by_an_additional",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "33922",
+    "links": [
+      "60741",
+      "6950"
+    ],
+    "x": 1669.67,
+    "y": -5546.35
+  }
+]

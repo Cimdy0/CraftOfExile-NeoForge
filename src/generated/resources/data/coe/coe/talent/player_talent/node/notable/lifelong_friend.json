@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_reviving_faster_if_all_your_minions_are_companions",
+            "vars": {
+              "value": 0.35
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "31129",
+    "links": [
+      "47443",
+      "63618"
+    ],
+    "x": 12484.5,
+    "y": 2765.08
+  }
+]

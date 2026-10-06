@@ -1,0 +1,32 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_fully_armor_break_cannot_regenerate_health"
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_fully_armor_break_are_maimed"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak2bufficon",
+    "id": "13482",
+    "links": [
+      "15892",
+      "30136"
+    ],
+    "x": -8394.02,
+    "y": 5599.53
+  }
+]

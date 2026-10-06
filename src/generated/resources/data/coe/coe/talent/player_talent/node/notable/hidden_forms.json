@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_damage_of_a_random_elemental_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnotable",
+    "id": "479",
+    "links": [
+      "28770",
+      "29126"
+    ],
+    "x": -6036.75,
+    "y": -1514.07
+  }
+]

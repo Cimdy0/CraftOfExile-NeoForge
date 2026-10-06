@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:add_max_spirit"
+  ],
+  "vars": [
+    "value"
+  ]
+}

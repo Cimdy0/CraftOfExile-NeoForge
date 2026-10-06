@@ -1,0 +1,11 @@
+{
+  "convert": {
+    "cold": 1,
+    "replace": false
+  },
+  "predicate": {
+    "types": [
+      "minecraft:snowball"
+    ]
+  }
+}

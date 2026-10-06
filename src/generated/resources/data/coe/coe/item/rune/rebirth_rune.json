@@ -1,0 +1,190 @@
+{
+  "ladders": {
+    "armor~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:health_regeneration_percentage_per_second"
+        },
+        "max": 0.35,
+        "min": 0.35,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:health_regeneration_percentage_per_second"
+        },
+        "max": 0.4,
+        "min": 0.4,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:health_regeneration_percentage_per_second"
+        },
+        "max": 0.45,
+        "min": 0.45,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:health_regeneration_percentage_per_second"
+        },
+        "max": 0.5,
+        "min": 0.5,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      }
+    ],
+    "wand|staff~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_recharge_rate_inc"
+        },
+        "max": 6.0,
+        "min": 6.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_recharge_rate_inc"
+        },
+        "max": 8.0,
+        "min": 8.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_recharge_rate_inc"
+        },
+        "max": 10.0,
+        "min": 10.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_recharge_rate_inc"
+        },
+        "max": 12.0,
+        "min": 12.0,
+        "tier": "perfect"
+      }
+    ],
+    "weapon, !wand, !staff, !off_hand~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:health_regeneration_percentage_per_second"
+        },
+        "max": 0.4,
+        "min": 0.4,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:health_regeneration_percentage_per_second"
+        },
+        "max": 0.4,
+        "min": 0.4,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:health_regeneration_percentage_per_second"
+        },
+        "max": 0.4,
+        "min": 0.4,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:health_regeneration_percentage_per_second"
+        },
+        "max": 0.4,
+        "min": 0.4,
+        "tier": "perfect"
+      }
+    ]
+  }
+}

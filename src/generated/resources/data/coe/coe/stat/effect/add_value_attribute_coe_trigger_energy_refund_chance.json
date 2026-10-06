@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:trigger_energy_refund_chance",
+  "operation": "add_value"
+}

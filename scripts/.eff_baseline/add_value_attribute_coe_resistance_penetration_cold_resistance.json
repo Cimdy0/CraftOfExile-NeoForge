@@ -1,0 +1,9 @@
+{
+  "type": "attribute",
+  "attribute": "coe:resistance_penetration",
+  "operation": "add_value",
+  "tags": [
+    "resistance",
+    "cold"
+  ]
+}

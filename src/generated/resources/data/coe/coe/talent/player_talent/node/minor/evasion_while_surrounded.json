@@ -1,0 +1,53 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_surrounded",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "11257",
+    "links": [
+      "10271",
+      "22556",
+      "24766",
+      "54282"
+    ],
+    "x": -380.179,
+    "y": 9149.85
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion_while_surrounded",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamageovertimenode",
+    "id": "22556",
+    "links": [
+      "11257",
+      "35028",
+      "7049"
+    ],
+    "x": -702.799,
+    "y": 9063.41
+  }
+]

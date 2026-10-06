@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_recovery",
+            "vars": {
+              "value": 0.8
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "33059",
+    "links": [
+      "20205"
+    ],
+    "x": 2192.99,
+    "y": 4881.44
+  }
+]

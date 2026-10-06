@@ -1,0 +1,342 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "10320",
+    "links": [
+      "14548",
+      "15358"
+    ],
+    "x": 1915.23,
+    "y": -6650.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "1218",
+    "links": [
+      "14945",
+      "40894"
+    ],
+    "x": -4595.32,
+    "y": -5891.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "14548",
+    "links": [
+      "10320",
+      "3443",
+      "34520",
+      "59541"
+    ],
+    "x": 2165.23,
+    "y": -6900.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "14712",
+    "links": [
+      "3866",
+      "61842"
+    ],
+    "x": -4116.82,
+    "y": -11306.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "17378",
+    "links": [
+      "40894",
+      "61026"
+    ],
+    "x": -4428.32,
+    "y": -6181.16
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "21606",
+    "links": [
+      "2606",
+      "29148"
+    ],
+    "x": -2824.48,
+    "y": -8415.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "2606",
+    "links": [
+      "15194",
+      "20388",
+      "21606",
+      "3414",
+      "43366",
+      "47284"
+    ],
+    "x": -2824.48,
+    "y": -8667.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "30554",
+    "links": [
+      "10055",
+      "18245",
+      "29611"
+    ],
+    "x": -9916.34,
+    "y": -2923.91
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "32258",
+    "links": [
+      "19644",
+      "3866"
+    ],
+    "x": -3994.57,
+    "y": -10850.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "3363",
+    "links": [
+      "38433",
+      "44872"
+    ],
+    "x": -6074.1,
+    "y": -5852.37
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "38433",
+    "links": [
+      "3363",
+      "55375"
+    ],
+    "x": -6274.96,
+    "y": -5968.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "3866",
+    "links": [
+      "14712",
+      "32258"
+    ],
+    "x": -4042.34,
+    "y": -11081.7
+  },
+  {
+    "icon": "passives_minionlife",
+    "id": "40511",
+    "links": [
+      "55375",
+      "58368"
+    ],
+    "x": -6536.72,
+    "y": -6333.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:minions_have_inc_max_health",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_minionlife",
+    "id": "40894",
+    "links": [
+      "1218",
+      "17378",
+      "46628"
+    ],
+    "x": -4550.58,
+    "y": -6058.9
+  },
+  {
+    "icon": "passives_minionlife",
+    "id": "58368",
+    "links": [
+      "40511",
+      "53910"
+    ],
+    "x": -6753.23,
+    "y": -6458.67
+  }
+]

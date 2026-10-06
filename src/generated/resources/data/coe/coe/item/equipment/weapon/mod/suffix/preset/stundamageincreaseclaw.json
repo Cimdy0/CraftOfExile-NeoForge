@@ -1,0 +1,92 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:causes_stun_buildup_inc"
+      },
+      "tiers": [
+        {
+          "level": 5,
+          "name": "of_the_pugilist",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 21.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 20,
+          "name": "of_the_brawler",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 40.0,
+              "min": 31.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 30,
+          "name": "of_the_boxer",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 50.0,
+              "min": 41.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 44,
+          "name": "of_the_combatant",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 60.0,
+              "min": 51.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 58,
+          "name": "of_the_gladiator",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 70.0,
+              "min": 61.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 74,
+          "name": "of_the_champion",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 80.0,
+              "min": 71.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:claw",
+      "coe:dagger",
+      "coe:flail",
+      "coe:one_hand_axe",
+      "coe:one_hand_sword",
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "convert": {
+    "fire": 8,
+    "physical": 2,
+    "replace": false
+  },
+  "state": "in_lava"
+}

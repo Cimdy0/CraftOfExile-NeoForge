@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:presence_range",
+  "operation": "add_multiplied_base"
+}

@@ -1,0 +1,12 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "charm_active"
+  },
+  "effect": "coe:stat/effect/inline_attribute_497",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

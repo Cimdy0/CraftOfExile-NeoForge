@@ -1,0 +1,28 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_attack_damage_if_you_have_shapeshifted_to_an_animal_form_recently",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnotable",
+    "id": "57617",
+    "links": [
+      "14996",
+      "16506",
+      "37509",
+      "51743"
+    ],
+    "x": -5885.4,
+    "y": -2365.38
+  }
+]

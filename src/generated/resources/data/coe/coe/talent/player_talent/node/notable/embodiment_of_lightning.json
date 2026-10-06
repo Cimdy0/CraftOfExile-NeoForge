@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:immune_to_shock_while_affected_by_an_archon_buff",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongenericnotable",
+    "id": "15991",
+    "links": [
+      "51234"
+    ],
+    "x": 584.803,
+    "y": -10860.1
+  }
+]

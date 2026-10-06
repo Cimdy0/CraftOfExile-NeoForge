@@ -1,0 +1,17 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "1"
+  },
+  "conditions": {
+    "type": "source",
+    "node": {
+      "type": "status",
+      "flag": "fully_broken",
+      "output": "flag"
+    }
+  },
+  "effect": "coe:stat/effect/inline_attribute_539",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_deflection_rating_while_moving",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredfoxnotable",
+    "id": "21349",
+    "links": [
+      "27017"
+    ],
+    "x": 5143.24,
+    "y": 7907.42
+  }
+]

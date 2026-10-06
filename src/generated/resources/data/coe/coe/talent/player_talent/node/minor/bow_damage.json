@@ -1,0 +1,134 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_bows",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "21112",
+    "links": [
+      "31055",
+      "328",
+      "38993",
+      "48116"
+    ],
+    "x": 10210.9,
+    "y": 4422.22
+  },
+  {
+    "icon": "passives_bowdamage",
+    "id": "21218",
+    "links": [
+      "13950",
+      "45226",
+      "7066"
+    ],
+    "x": -11813.0,
+    "y": -1316.59
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_bows",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "21788",
+    "links": [
+      "34612",
+      "44141",
+      "7651",
+      "8573"
+    ],
+    "x": 11316.9,
+    "y": 4718.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_bows",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "34612",
+    "links": [
+      "21788",
+      "60764"
+    ],
+    "x": 11329.3,
+    "y": 4434.44
+  },
+  {
+    "icon": "passives_bowdamage",
+    "id": "45226",
+    "links": [
+      "21218",
+      "28982"
+    ],
+    "x": -11713.0,
+    "y": -986.145
+  },
+  {
+    "icon": "passives_bowdamage",
+    "id": "60708",
+    "links": [
+      "11666",
+      "17894",
+      "8423"
+    ],
+    "x": -12458.3,
+    "y": -1143.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_bows",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "8573",
+    "links": [
+      "11526",
+      "21788"
+    ],
+    "x": 11185.5,
+    "y": 4970.84
+  }
+]

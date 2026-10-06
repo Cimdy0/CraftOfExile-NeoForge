@@ -1,0 +1,246 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellmultiplyer2",
+    "id": "1143",
+    "links": [
+      "50084",
+      "58170"
+    ],
+    "x": -2030.44,
+    "y": -1011.11
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellmultiplyer2",
+    "id": "15618",
+    "links": [
+      "32404",
+      "48821",
+      "57710"
+    ],
+    "x": 0.005,
+    "y": -4773.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellmultiplyer2",
+    "id": "26682",
+    "links": [
+      "10398",
+      "3472",
+      "56640"
+    ],
+    "x": 474.135,
+    "y": -7336.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "2672",
+    "links": [
+      "28267",
+      "45569"
+    ],
+    "x": -8019.59,
+    "y": -5490.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "32054",
+    "links": [
+      "13823",
+      "62153"
+    ],
+    "x": 3453.28,
+    "y": -9721.12
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticalstrikechance",
+    "id": "45569",
+    "links": [
+      "2672",
+      "55596"
+    ],
+    "x": -8183.59,
+    "y": -5490.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellmultiplyer2",
+    "id": "48821",
+    "links": [
+      "15618",
+      "22290",
+      "5501"
+    ],
+    "x": 164.005,
+    "y": -4439.9
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellmultiplyer2",
+    "id": "56640",
+    "links": [
+      "10398",
+      "26682",
+      "3472"
+    ],
+    "x": 228.135,
+    "y": -7478.24
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellmultiplyer2",
+    "id": "61067",
+    "links": [
+      "58170",
+      "6898"
+    ],
+    "x": -2304.82,
+    "y": -1084.63
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_spell_damage_bonus",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellcritical",
+    "id": "62153",
+    "links": [
+      "32054",
+      "55947"
+    ],
+    "x": 3366.84,
+    "y": -9870.85
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_physical_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "31286",
+    "links": [
+      "1599",
+      "16140",
+      "33463"
+    ],
+    "x": 8114.88,
+    "y": -2220.46
+  }
+]

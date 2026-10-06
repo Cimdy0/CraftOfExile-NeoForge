@@ -1,0 +1,9 @@
+{
+  "type": "grant_on_event",
+  "amount_is_magnitude": true,
+  "param": "hinder",
+  "tags": {
+    "tag": "caused_hit"
+  },
+  "target": "status"
+}

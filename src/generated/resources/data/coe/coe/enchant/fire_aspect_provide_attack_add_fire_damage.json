@@ -1,0 +1,12 @@
+{
+  "additions": [
+    {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_fire_damage"
+      },
+      "min": 60.0
+    }
+  ],
+  "enchant": "minecraft:fire_aspect"
+}

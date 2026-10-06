@@ -1,0 +1,54 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_armor",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:regenerate_of_max_health_per_second",
+            "vars": {
+              "value": 0.005
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warrior",
+    "id": "7721",
+    "links": [
+      "18629",
+      "18742",
+      "27726",
+      "54232",
+      "61534",
+      "63393"
+    ],
+    "x": -2437.85,
+    "y": 1899.76
+  }
+]

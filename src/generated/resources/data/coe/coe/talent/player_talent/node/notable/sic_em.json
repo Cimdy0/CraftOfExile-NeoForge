@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_deal_inc_damage_against_immobilised_enemies",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_companionsnotable1",
+    "id": "47088",
+    "links": [
+      "29930"
+    ],
+    "x": 3395.61,
+    "y": 6375.03
+  }
+]

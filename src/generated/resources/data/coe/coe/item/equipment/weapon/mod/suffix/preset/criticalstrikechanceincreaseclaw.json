@@ -1,0 +1,93 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:crit_chance_inc"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "of_menace",
+          "tier": 1,
+          "values": {
+            "value": {
+              "max": 1.5,
+              "min": 1.01
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 20,
+          "name": "of_havoc",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 2.1,
+              "min": 1.51
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 30,
+          "name": "of_disaster",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 2.7,
+              "min": 2.11
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 44,
+          "name": "of_calamity",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 3.8,
+              "min": 3.11
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 59,
+          "name": "of_ruin",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 4.4,
+              "min": 3.81
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 73,
+          "name": "of_unmaking",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 5.0,
+              "min": 4.41
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:claw",
+      "coe:dagger",
+      "coe:flail",
+      "coe:one_hand_axe",
+      "coe:one_hand_sword",
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

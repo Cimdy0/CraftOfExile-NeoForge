@@ -1,0 +1,18 @@
+{
+  "mod": {
+    "skills": [
+      {
+        "level": 5,
+        "skill": "coe:fireball"
+      }
+    ],
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_cast_speed_op_add_value_0_2"
+      }
+    ],
+    "weight": 600
+  },
+  "name": "pyromancer"
+}

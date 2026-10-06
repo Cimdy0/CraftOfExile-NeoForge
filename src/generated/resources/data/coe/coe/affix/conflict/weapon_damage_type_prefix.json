@@ -1,0 +1,11 @@
+{
+  "members": [
+    "coe:attack_elemental_damage_inc",
+    "coe:chaos_damage_inc",
+    "coe:cold_damage_inc",
+    "coe:fire_damage_inc",
+    "coe:lightning_damage_inc",
+    "coe:weapon_elemental_damage_percent"
+  ],
+  "slot": {}
+}

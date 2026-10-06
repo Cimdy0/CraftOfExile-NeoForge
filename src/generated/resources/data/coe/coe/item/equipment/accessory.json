@@ -1,0 +1,47 @@
+{
+  "coe:item_template": {
+    "extend": "coe:base",
+    "stats": {
+      "chaos_res": {
+        "entry": "read",
+        "ref": "coe:add_max_chaos_resistance"
+      },
+      "cold_res": {
+        "entry": "read",
+        "ref": "coe:add_max_cold_resistance"
+      },
+      "dexterity": {
+        "entry": "read",
+        "ref": "coe:add_dexterity"
+      },
+      "fire_res": {
+        "entry": "read",
+        "ref": "coe:add_max_fire_resistance"
+      },
+      "intelligence": {
+        "entry": "read",
+        "ref": "coe:add_intelligence"
+      },
+      "life": {
+        "entry": "read",
+        "ref": "coe:add_max_health"
+      },
+      "lightning_res": {
+        "entry": "read",
+        "ref": "coe:add_max_lightning_resistance"
+      },
+      "mana": {
+        "entry": "read",
+        "ref": "coe:add_max_mana"
+      },
+      "rarity": {
+        "entry": "read",
+        "ref": "coe:add_found_item_rarity"
+      },
+      "strength": {
+        "entry": "read",
+        "ref": "coe:add_strength"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_physical_thorns_damage_equal_to_of_item_armor_on_equipped_body_armor",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_thornsnotable1",
+    "id": "3188",
+    "links": [
+      "30007",
+      "38670"
+    ],
+    "x": -11406.2,
+    "y": 1430.79
+  }
+]

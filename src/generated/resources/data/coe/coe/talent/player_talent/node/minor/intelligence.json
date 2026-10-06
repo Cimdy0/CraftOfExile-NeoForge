@@ -1,0 +1,271 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusintelligence",
+    "id": "14428",
+    "links": [
+      "32976",
+      "6287"
+    ],
+    "x": -511.325,
+    "y": 11354.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalsnake",
+    "id": "22115",
+    "links": [
+      "32701",
+      "59446",
+      "61263"
+    ],
+    "x": 5024.0,
+    "y": 133.425
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusintelligence",
+    "id": "32436",
+    "links": [
+      "5332",
+      "62505"
+    ],
+    "x": 542.445,
+    "y": 11370.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalmonkey",
+    "id": "42226",
+    "links": [
+      "17792",
+      "34892",
+      "48773"
+    ],
+    "x": 10203.9,
+    "y": 823.227
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusintelligence",
+    "id": "50755",
+    "links": [
+      "10131",
+      "19355",
+      "39567"
+    ],
+    "x": 3200.45,
+    "y": -10569.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusintelligence",
+    "id": "50816",
+    "links": [
+      "37974",
+      "39567",
+      "46554"
+    ],
+    "x": 2645.12,
+    "y": -10569.2
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "56564",
+    "links": [
+      "42077",
+      "8349"
+    ],
+    "x": -1438.27,
+    "y": -4174.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusintelligence",
+    "id": "62505",
+    "links": [
+      "32436",
+      "34813"
+    ],
+    "x": 290.445,
+    "y": 11228.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusintelligence",
+    "id": "6287",
+    "links": [
+      "14428",
+      "364"
+    ],
+    "x": -262.325,
+    "y": 11207.6
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalowl",
+    "id": "64990",
+    "links": [
+      "18897",
+      "27705",
+      "60891"
+    ],
+    "x": 10285.1,
+    "y": 1872.13
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 8.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "8349",
+    "links": [
+      "31644",
+      "56564"
+    ],
+    "x": -1480.72,
+    "y": -4333.3
+  }
+]

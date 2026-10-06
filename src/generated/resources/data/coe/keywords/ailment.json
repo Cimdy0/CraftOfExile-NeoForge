@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "Ailment",
+    "Ailments",
+    "异常状态",
+    "异常"
+  ],
+  "description": [
+    [
+      "异常状态是施加在敌人与玩家身上的负面效果（",
+      "$[debuff]",
+      "）。"
+    ],
+    [
+      "异常状态分为两类：",
+      "$[elemental_ailment]",
+      "（",
+      "$[freeze]",
+      "、",
+      "$[shock]",
+      "、",
+      "$[ignite]",
+      "、",
+      "$[chill]",
+      "、",
+      "$[scorch]",
+      "、",
+      "$[brittle]",
+      "、",
+      "$[sap]",
+      "）与",
+      "$[damage_over_time]",
+      "异常（",
+      "$[bleed]",
+      "、",
+      "$[poison]",
+      "）。"
+    ],
+    [
+      "$[stun]",
+      "是一种独立、非伤害类的异常。异常可通过",
+      "$[ailment_threshold]",
+      "来削弱，其持续时间也可被缩短。"
+    ]
+  ],
+  "id": "ailment",
+  "keys": [
+    "coe:keyword.ailment"
+  ],
+  "title": "@coe:keyword.ailment"
+}

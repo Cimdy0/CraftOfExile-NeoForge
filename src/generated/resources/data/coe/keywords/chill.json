@@ -1,0 +1,30 @@
+{
+  "aliases": [
+    "Chill",
+    "Chilled",
+    "冰缓",
+    "冰冷"
+  ],
+  "description": [
+    [
+      "$[chill]",
+      "是一种来自",
+      "$[cold_damage]",
+      "的",
+      "$[elemental_ailment]",
+      "，会降低目标的行动速度。"
+    ],
+    [
+      "敌人被",
+      "$[freeze]",
+      "时会自动附加",
+      "$[chill]",
+      "，也可以独立施加。"
+    ]
+  ],
+  "id": "chill",
+  "keys": [
+    "coe:keyword.chill"
+  ],
+  "title": "@coe:keyword.chill"
+}

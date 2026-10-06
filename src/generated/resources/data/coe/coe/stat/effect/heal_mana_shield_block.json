@@ -1,0 +1,7 @@
+{
+  "type": "heal",
+  "resource": "mana",
+  "tags": {
+    "tag": "caused_shield_raise"
+  }
+}

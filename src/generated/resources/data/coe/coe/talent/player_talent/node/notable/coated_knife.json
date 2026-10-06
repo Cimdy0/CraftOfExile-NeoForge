@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:critical_hits_with_daggers_have_a_chance_to_poison_the_enemy",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_criticaldaggerint",
+    "id": "4423",
+    "links": [
+      "54058"
+    ],
+    "x": 11206.4,
+    "y": -5293.47
+  }
+]

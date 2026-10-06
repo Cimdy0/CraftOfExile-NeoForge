@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:hazards_have_chance_to_rearm_after_they_are_triggered",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_trap",
+    "id": "30408",
+    "links": [
+      "1778"
+    ],
+    "x": 9866.28,
+    "y": 4990.9
+  }
+]

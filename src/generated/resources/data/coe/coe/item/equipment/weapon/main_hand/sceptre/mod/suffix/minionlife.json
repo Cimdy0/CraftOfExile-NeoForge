@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:inc_minion_max_life"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "of_the_mentor",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 16,
+        "name": "of_the_tutor",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 26.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 32,
+        "name": "of_the_director",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 35.0,
+            "min": 31.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 48,
+        "name": "of_the_headmaster",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 36.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 64,
+        "name": "of_the_administrator",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 45.0,
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 80,
+        "name": "of_the_rector",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 46.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

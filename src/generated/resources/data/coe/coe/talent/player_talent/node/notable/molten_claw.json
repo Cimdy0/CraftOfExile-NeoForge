@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_fire_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnotable",
+    "id": "36100",
+    "links": [
+      "63085"
+    ],
+    "x": -9522.16,
+    "y": -6739.15
+  }
+]

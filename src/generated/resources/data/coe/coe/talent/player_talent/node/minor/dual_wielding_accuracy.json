@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy_while_dual_wielding",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_nodedualwieldingdamage",
+    "id": "4377",
+    "links": [
+      "45488",
+      "50273"
+    ],
+    "x": 499.56,
+    "y": 5150.83
+  }
+]

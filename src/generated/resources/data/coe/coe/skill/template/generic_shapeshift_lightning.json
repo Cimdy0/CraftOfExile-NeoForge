@@ -1,0 +1,41 @@
+{
+  "aoe_ranges": {},
+  "cast": {},
+  "cast_particle": "minecraft:electrical_spark",
+  "cast_sound": "minecraft:entity.shulker.shoot",
+  "cost": [],
+  "params": {
+    "dmg": "coe:per_level_add_value(add = 3, base = 15, per = 2)"
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "$dmg",
+                "can_crit": 1.0,
+                "damage_type": "lightning"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 2.5
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "shapeshifted"
+  ]
+}

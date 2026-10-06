@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:totems_have_additional_physical_damage_reduction",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemandbrandlife",
+    "id": "13171",
+    "links": [
+      "24438",
+      "9417"
+    ],
+    "x": -4346.51,
+    "y": 4339.79
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_chill_on_you",
+            "vars": {
+              "value": -0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_cold_damage_while_on_chilled_ground",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_frostborn",
+    "id": "48699",
+    "links": [
+      "1091",
+      "1700"
+    ],
+    "x": -911.045,
+    "y": -9989.29
+  }
+]

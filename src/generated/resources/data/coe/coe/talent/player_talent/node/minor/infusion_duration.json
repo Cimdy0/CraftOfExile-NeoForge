@@ -1,0 +1,100 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_infusion_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "11284",
+    "links": [
+      "30985",
+      "31697",
+      "50104"
+    ],
+    "x": -4473.73,
+    "y": -10063.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_infusion_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "31697",
+    "links": [
+      "11284",
+      "51303"
+    ],
+    "x": -4573.19,
+    "y": -10209.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_infusion_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "51194",
+    "links": [
+      "18793",
+      "24060",
+      "49512"
+    ],
+    "x": -831.525,
+    "y": -7840.31
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_infusion_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "51303",
+    "links": [
+      "31697",
+      "38965"
+    ],
+    "x": -4756.21,
+    "y": -10198.7
+  }
+]

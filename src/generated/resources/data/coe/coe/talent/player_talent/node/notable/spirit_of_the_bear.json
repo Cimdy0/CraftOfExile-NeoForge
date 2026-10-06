@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_against_immobilised_enemies_while_shapeshifted",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_stun_buildup_while_shapeshifted",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnotable",
+    "id": "9328",
+    "links": [
+      "58496"
+    ],
+    "x": -9903.54,
+    "y": -6537.44
+  }
+]

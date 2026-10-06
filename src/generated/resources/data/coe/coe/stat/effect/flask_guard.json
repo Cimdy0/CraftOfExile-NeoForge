@@ -1,0 +1,5 @@
+{
+  "type": "flask_guard",
+  "kind": "flask_guard",
+  "variant": "magnitude"
+}

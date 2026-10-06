@@ -1,0 +1,13 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:add_crit_damage"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:add_cast_crit_damage"
+    }
+  ]
+}

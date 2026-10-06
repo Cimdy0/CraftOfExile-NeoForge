@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_damage_rate",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "ailment"
+  ]
+}

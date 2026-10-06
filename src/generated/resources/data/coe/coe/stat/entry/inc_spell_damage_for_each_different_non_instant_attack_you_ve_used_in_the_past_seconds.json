@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "min($value * distinct:cast_skill.8:skill / $per, $cap)"
+  },
+  "effect": "coe:stat/effect/inline_attribute_71",
+  "entry": "inline",
+  "params": {
+    "cap": 1.0,
+    "per": 1.0,
+    "value": 0.12
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

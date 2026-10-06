@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:armor_break_of_armor_on_heavy_stunning_an_enemy",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stunstr",
+    "id": "53527",
+    "links": [
+      "7204"
+    ],
+    "x": -7711.19,
+    "y": 1185.92
+  }
+]

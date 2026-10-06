@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:all_damage_types_is_taken_from_mana_before_health",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_mana_recovery_rate",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_heroicspirit",
+    "id": "45918",
+    "links": [
+      "31238"
+    ],
+    "x": -4999.75,
+    "y": -8120.71
+  }
+]

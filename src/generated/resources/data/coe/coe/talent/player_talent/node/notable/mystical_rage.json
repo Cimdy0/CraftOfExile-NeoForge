@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:every_rage_also_grants_inc_spell_damage",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "52764",
+    "links": [
+      "34871",
+      "56219"
+    ],
+    "x": -8664.77,
+    "y": -6876.46
+  }
+]

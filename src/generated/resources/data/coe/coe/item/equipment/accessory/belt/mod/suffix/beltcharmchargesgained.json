@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:belt_charm_charges_gained"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 2,
+        "name": "of_plenty",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 5.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 16,
+        "name": "of_surplus",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 11.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 32,
+        "name": "of_fertility",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 22.0,
+            "min": 17.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 48,
+        "name": "of_bounty",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 28.0,
+            "min": 23.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 70,
+        "name": "of_the_harvest",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 29.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 81,
+        "name": "of_abundance",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 35.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

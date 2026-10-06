@@ -1,0 +1,17 @@
+{
+  "type": "coe:skill_arrow",
+  "behavior": [
+    {
+      "coe:none": {}
+    }
+  ],
+  "motion": {
+    "coe:external": {}
+  },
+  "on_trigger": [],
+  "render": "coe:arrow",
+  "tags": [
+    "projectile",
+    "arrow"
+  ]
+}

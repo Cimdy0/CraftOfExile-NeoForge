@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:add_ignite_when_you_warcry",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_warcryeffect",
+    "id": "56112",
+    "links": [
+      "42059",
+      "53804"
+    ],
+    "x": -8323.54,
+    "y": -3652.59
+  }
+]

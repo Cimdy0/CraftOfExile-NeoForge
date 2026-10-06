@@ -1,0 +1,8 @@
+{
+  "type": "deflected_cannot_inflict",
+  "identity_tags": [
+    "maim"
+  ],
+  "kind": "deflected_cannot_inflict",
+  "variant": "gate"
+}

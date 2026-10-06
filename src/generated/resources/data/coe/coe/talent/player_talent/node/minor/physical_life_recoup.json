@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_physical_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "31928",
+    "links": [
+      "15443",
+      "50574"
+    ],
+    "x": 3553.55,
+    "y": -5290.76
+  }
+]

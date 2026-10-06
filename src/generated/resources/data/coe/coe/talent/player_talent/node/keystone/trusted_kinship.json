@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:you_can_have_two_companions_of_different_types",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_reservation_efficiency_of_companion_skills",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_reservation_efficiency_of_non_companion_skills",
+            "vars": {
+              "value": -0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_multiplebeastcompanionskeystone",
+    "id": "41861",
+    "links": [
+      "2582"
+    ],
+    "x": 9855.92,
+    "y": 3274.55
+  }
+]

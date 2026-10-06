@@ -1,0 +1,8 @@
+{
+  "type": "equipment_bonus_mult",
+  "identity_tags": [
+    "quiver"
+  ],
+  "kind": "equipment_bonus_mult",
+  "variant": "magnitude"
+}

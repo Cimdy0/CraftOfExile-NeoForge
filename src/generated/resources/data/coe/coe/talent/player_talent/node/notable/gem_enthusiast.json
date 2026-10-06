@@ -1,0 +1,51 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_health_if_you_have_at_least_red_support_gems_socketed",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_mana_if_you_have_at_least_blue_support_gems_socketed",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_movement_speed_if_you_have_at_least_green_support_gems_socketed",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_gemling_gemlingnode",
+    "id": "32976",
+    "links": [
+      "14428",
+      "34202",
+      "38776"
+    ],
+    "x": -766.945,
+    "y": 11309.6
+  }
+]

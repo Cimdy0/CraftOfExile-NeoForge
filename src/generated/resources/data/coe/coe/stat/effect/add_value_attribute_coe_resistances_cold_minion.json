@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:resistances",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "cold"
+      },
+      {
+        "tag": "minion"
+      }
+    ]
+  }
+}

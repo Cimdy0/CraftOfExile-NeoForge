@@ -1,0 +1,98 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:channelling_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingdamage",
+    "id": "10260",
+    "links": [
+      "19203",
+      "33730"
+    ],
+    "x": -4586.14,
+    "y": -3228.93
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:channelling_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingdamage",
+    "id": "11087",
+    "links": [
+      "12232",
+      "42635"
+    ],
+    "x": -7125.41,
+    "y": -3801.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:channelling_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingdamage",
+    "id": "19203",
+    "links": [
+      "10260",
+      "2653"
+    ],
+    "x": -4744.55,
+    "y": -3186.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:channelling_skills_deal_inc_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_channellingdamage",
+    "id": "42635",
+    "links": [
+      "11087",
+      "1502"
+    ],
+    "x": -7003.85,
+    "y": -3642.67
+  }
+]

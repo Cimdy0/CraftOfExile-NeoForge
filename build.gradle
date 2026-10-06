@@ -1,0 +1,216 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.142'
+    id 'idea'
+}
+
+tasks.named('wrapper', Wrapper).configure {
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+version = mod_version
+group = mod_group_id
+
+sourceSets.main.resources {
+    srcDir('src/generated/resources')
+    exclude("**/*.bbmodel") // BlockBench project files
+    exclude("src/generated/**/.cache") // datagen cache files
+}
+
+repositories {
+    maven { url = "https://api.modrinth.com/maven" }
+    mavenCentral()
+    maven {
+        name = "RedlanceMinecraft"
+        url = "https://repo.redlance.org/public"
+    }
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'GeckoLib'
+                url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+            }
+        }
+        filter { includeGroupAndSubgroups('com.geckolib') }
+    }
+
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+}
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        gameTestServer {
+            type = "gameTestServer"
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        data {
+            clientData()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+            // Windows datagen 写入竞态修复：DataProvider.saveStable 经 Util.backgroundExecutor()
+            // 并发写数百个 JSON，瞬时句柄爆发在 Windows 上会让 HashCache$CacheUpdater.writeIfNeeded
+            // 的 Files.write(CREATE|TRUNCATE) 抛 AccessDeniedException 并静默丢文件
+            // （实测一次丢 30 个 stat_entry/*.json，产物不完整且不确定）。
+            // Util 用 max.bg.threads 钳制后台线程数（Mth.clamp(cpu-1, 1, max)），置 1 令写入串行化；
+            // 同时使单线程执行器 FIFO 生效，保证 EventKeyAuditProvider 的扫描排在全部写入之后。
+            systemProperty 'max.bg.threads', '1'
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+    // P3 单测：StatAmountDescriberTest 直接引用 Minecraft 类（Component / Language / Identifier /
+    // AttributeModifier / VarRef…）。moddev 把 MC 挂在主 sourceSet 的 compileClasspath 上，
+    // 该配置默认不流入 test 配置（testImplementation 只继承 implementation），
+    // 导致 compileTestJava 报「程序包 net.minecraft.* 不存在」。显式让 test 类路径继承主类路径。
+    testCompileClasspath.extendsFrom compileClasspath
+    testRuntimeClasspath.extendsFrom runtimeClasspath
+}
+
+dependencies {
+    implementation "maven.modrinth:jade:${project.jade_version}+neoforge"
+    implementation "com.geckolib:geckolib-neoforge-${minecraft_version}:${project.geckolib_version}"
+
+    // P3 回归测试（StatAmountDescriberTest）：JUnit 5 平台。
+    testImplementation sourceSets.main.output
+    testImplementation platform('org.junit:junit-bom:5.12.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params'
+    // Gradle 9 起需显式声明 platform-launcher：junit-jupiter 只带来 api/engine，
+    // 缺 launcher 时 Test Executor 启动即报 "Failed to load JUnit Platform ...
+    // including the JUnit Platform launcher"。版本由上面的 junit-bom 统一约束。
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // Player Animation Library（前置）：坐标与仓库见 PAL 官方文档
+    // （https://docs.zigythebird.com/pal/how_to_add_lib_to_mod/）；RedlanceMaven 已在 repositories 声明。
+    // 排除 slf4j/netty/joml：NeoForge 的 minecraft-dependencies 对其有 strict 版本锁定（如 slf4j {strictly 2.0.17}），
+    // PAL Core 的 pom 传递声明（slf4j 2.0.18 / netty 4.2.16 / joml 1.10.9）与锁冲突，运行时由 NeoForge 统一提供。
+    implementation("com.zigythebird.playeranim:PlayerAnimationLibNeo:${project.pal_version}+mc.${minecraft_version}") {
+        exclude group: 'org.slf4j', module: 'slf4j-api'
+        exclude group: 'io.netty'
+        exclude group: 'org.joml', module: 'joml'
+    }
+    // PAL Neo 运行时要求（官方文档：javassist 附加运行时类路径；库 jar 不内嵌）
+    runtimeOnly "org.javassist:javassist:3.30.2-GA"
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/repo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+test {
+    useJUnitPlatform()
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}
+
+// 校验 coe.mixins.json 的每个条目都指向真实存在的源文件。
+// 场景：搬动 com.cimdy.coe.mixin.** 下的类后必须同步该 json —— 否则 compileJava 全绿，但游戏加载期 mixin 解析失败直接崩。
+// 注意：路径在配置期解析为普通 File，doLast 内不引用 project，以兼容 configuration cache。
+tasks.register('verifyMixins') {
+    group = 'verification'
+    description = 'Validates that every entry in coe.mixins.json resolves to an existing source file.'
+    def jsonFile = layout.projectDirectory.file('src/main/resources/coe.mixins.json').asFile
+    def srcRoot = layout.projectDirectory.dir('src/main/java').asFile
+    doLast {
+        if (!jsonFile.exists()) {
+            throw new GradleException("coe.mixins.json not found: ${jsonFile}")
+        }
+        def json = new groovy.json.JsonSlurper().parseText(jsonFile.getText('UTF-8'))
+        def baseDir = new File(srcRoot, json['package'].replace('.', '/'))
+        int checked = 0
+        def missing = []
+        ['mixins', 'client'].each { section ->
+            (json[section] ?: []).each { entry ->
+                checked++
+                def f = new File(baseDir, entry.replace('.', '/') + '.java')
+                if (!f.exists()) missing << "[${section}] ${entry} -> ${f}"
+            }
+        }
+        if (!missing.isEmpty()) {
+            missing.each { println("MISSING: ${it}") }
+            throw new GradleException("coe.mixins.json: ${missing.size()}/${checked} entries point to non-existent files." +
+                    " If you moved classes under ${json['package']}, update coe.mixins.json accordingly.")
+        }
+        println("verifyMixins: OK - all ${checked} entries resolve")
+    }
+}
+
+check.dependsOn verifyMixins

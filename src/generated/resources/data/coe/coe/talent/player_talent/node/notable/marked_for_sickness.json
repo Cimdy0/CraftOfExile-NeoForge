@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_mark_have_inc_accuracy",
+            "vars": {
+              "value": -0.1
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_you_mark_take_inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "63830",
+    "links": [
+      "13624",
+      "45390"
+    ],
+    "x": 8250.5,
+    "y": 7944.38
+  }
+]

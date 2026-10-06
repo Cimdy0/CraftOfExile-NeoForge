@@ -1,0 +1,16 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "target_rarity",
+    "rarities": [
+      "rare",
+      "unique"
+    ]
+  },
+  "effect": "coe:stat/effect/inline_heal_878",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

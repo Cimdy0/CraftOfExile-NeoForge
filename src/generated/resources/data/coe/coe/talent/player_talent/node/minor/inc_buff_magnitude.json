@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalmonkey",
+    "id": "12066",
+    "links": [
+      "34892",
+      "48734"
+    ],
+    "x": 10660.1,
+    "y": 700.975
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:aura_skills_have_inc_buff_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalmonkey",
+    "id": "34892",
+    "links": [
+      "12066",
+      "42226"
+    ],
+    "x": 10457.3,
+    "y": 856.594
+  }
+]

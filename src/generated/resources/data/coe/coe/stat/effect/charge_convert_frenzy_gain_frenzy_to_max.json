@@ -1,0 +1,8 @@
+{
+  "type": "charge_convert",
+  "mode": "to_max",
+  "tags": {
+    "tag": "gain_frenzy"
+  },
+  "to": "frenzy"
+}

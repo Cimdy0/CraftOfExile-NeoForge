@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:taken_crit_damage",
+  "operation": "add_value"
+}

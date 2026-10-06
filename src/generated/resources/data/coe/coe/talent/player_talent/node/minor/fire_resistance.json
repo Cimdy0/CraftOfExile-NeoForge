@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_fire_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_fireresistnode",
+    "id": "34818",
+    "links": [
+      "43250",
+      "54982"
+    ],
+    "x": -9694.55,
+    "y": -2126.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_fire_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_fireresistnode",
+    "id": "54982",
+    "links": [
+      "34818",
+      "53123"
+    ],
+    "x": -9776.55,
+    "y": -1984.77
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_fire_resistance",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_fireresist",
+    "id": "62518",
+    "links": [
+      "41363",
+      "41414"
+    ],
+    "x": -7289.75,
+    "y": 8288.73
+  }
+]

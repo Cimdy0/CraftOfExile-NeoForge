@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * count:use_warcry / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_188",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 0.08
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

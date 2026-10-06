@@ -1,0 +1,18 @@
+{
+  "effects": [
+    {
+      "coe:effect_mod": {
+        "damage_type": "attack",
+        "more": 1.2
+      }
+    }
+  ],
+  "lineage": false,
+  "mana_cost_multiplier": 1.2,
+  "max_level": 20.0,
+  "require": {
+    "dexterity": 5.0
+  },
+  "reservation_multiplier": 1.2,
+  "tag": "close_combat"
+}

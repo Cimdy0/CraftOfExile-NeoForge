@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "count",
+    "mode": "recently",
+    "name": "caused_hit"
+  },
+  "effect": "coe:stat/effect/inline_attribute_259",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:add_crit_chance"
+  ],
+  "vars": [
+    "value"
+  ]
+}

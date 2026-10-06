@@ -1,0 +1,86 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:flask_recovery_speed"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "dense",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 15,
+        "name": "undiluted",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 46.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 31,
+        "name": "hearty",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 51.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 46,
+        "name": "viscous",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 60.0,
+            "min": 56.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 61,
+        "name": "condensed",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 65.0,
+            "min": 61.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 81,
+        "name": "catalysed",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 70.0,
+            "min": 66.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

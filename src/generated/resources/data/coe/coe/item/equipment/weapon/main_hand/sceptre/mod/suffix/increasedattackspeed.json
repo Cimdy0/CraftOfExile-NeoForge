@@ -1,0 +1,57 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:attack_speed_inc"
+    },
+    "tiers": [
+      {
+        "level": 5,
+        "name": "of_skill",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 5.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 20,
+        "name": "of_ease",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 10.0,
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 35,
+        "name": "of_mastery",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 11.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 55,
+        "name": "of_renown",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 14.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

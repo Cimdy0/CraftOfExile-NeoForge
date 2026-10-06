@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_chaos_damage",
+            "vars": {
+              "value": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:companions_gain_damage_as_extra_chaos_damage",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalsnakenotable",
+    "id": "47853",
+    "links": [
+      "28414",
+      "43064"
+    ],
+    "x": 9566.38,
+    "y": 3484.69
+  }
+]

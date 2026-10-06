@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_projectiles_to_pierce_enemies_within_xm_distance_of_you",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_projectilespeed",
+    "id": "38479",
+    "links": [
+      "17553",
+      "19573"
+    ],
+    "x": 1757.9,
+    "y": 6662.84
+  }
+]

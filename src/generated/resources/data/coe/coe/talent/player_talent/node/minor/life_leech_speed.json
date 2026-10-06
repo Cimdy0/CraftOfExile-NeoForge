@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:health_leech_health_faster",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lifeleech",
+    "id": "16691",
+    "links": [
+      "21716",
+      "8827"
+    ],
+    "x": -4564.59,
+    "y": 10580.1
+  }
+]

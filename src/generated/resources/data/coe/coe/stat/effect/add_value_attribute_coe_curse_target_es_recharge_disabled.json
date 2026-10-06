@@ -1,0 +1,8 @@
+{
+  "type": "curse_target_es_recharge_disabled",
+  "identity_tags": [
+    "curse"
+  ],
+  "kind": "curse_target_es_recharge_disabled",
+  "variant": "gate"
+}

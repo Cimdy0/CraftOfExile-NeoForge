@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_on_consuming_a_shock_on_an_enemy_to_reapply_it",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "8273",
+    "links": [
+      "25565"
+    ],
+    "x": 8922.01,
+    "y": -4178.25
+  }
+]

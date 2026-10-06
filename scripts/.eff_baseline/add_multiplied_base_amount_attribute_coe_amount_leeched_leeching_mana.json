@@ -1,0 +1,10 @@
+{
+  "type": "attribute",
+  "attribute": "coe:amount_leeched",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "mana",
+    "amount",
+    "leeching"
+  ]
+}

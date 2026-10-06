@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_energy_shield_per_item_evasion_on_equipped_body_armor",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionandenergyshieldnode",
+    "id": "34324",
+    "links": [
+      "56838"
+    ],
+    "x": 7749.73,
+    "y": -5950.17
+  }
+]

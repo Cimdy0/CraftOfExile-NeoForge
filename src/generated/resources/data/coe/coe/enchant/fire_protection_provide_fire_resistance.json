@@ -1,0 +1,12 @@
+{
+  "additions": [
+    {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_fire_resistance"
+      },
+      "min": 0.05
+    }
+  ],
+  "enchant": "minecraft:fire_protection"
+}

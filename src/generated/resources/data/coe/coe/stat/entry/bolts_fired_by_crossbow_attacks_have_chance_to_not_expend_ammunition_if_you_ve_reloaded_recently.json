@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "count",
+    "mode": "recently",
+    "name": "reloaded"
+  },
+  "effect": "coe:stat/effect/inline_ammo_not_expended_chance_1034",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnode",
+    "id": "18822",
+    "links": [
+      "21567",
+      "47790",
+      "49938"
+    ],
+    "x": -6280.27,
+    "y": -3151.71
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildbear",
+    "id": "2200",
+    "links": [
+      "35689",
+      "61976"
+    ],
+    "x": 5063.0,
+    "y": 6552.73
+  },
+  {
+    "icon": "passives_damage_blue",
+    "id": "25570",
+    "links": [
+      "21549",
+      "27572",
+      "37694",
+      "44560",
+      "47168",
+      "64083"
+    ],
+    "x": -3604.52,
+    "y": -11024.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriwildbear",
+    "id": "35689",
+    "links": [
+      "2200",
+      "34543"
+    ],
+    "x": 5197.5,
+    "y": 6819.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_witchhunter_witchunternode",
+    "id": "60085",
+    "links": [
+      "11667",
+      "15839",
+      "1915",
+      "55802",
+      "6266"
+    ],
+    "x": 1493.63,
+    "y": 10472.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_against_demons",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_witchhunter_witchunternode",
+    "id": "6266",
+    "links": [
+      "48617",
+      "60085"
+    ],
+    "x": 1847.18,
+    "y": 10472.4
+  }
+]

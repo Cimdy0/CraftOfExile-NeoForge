@@ -1,0 +1,53 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:poof",
+  "cast_sound": "minecraft:block.anvil.land",
+  "cost": [
+    {
+      "value": 9.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 3.5, base = 16, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "physical"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_create_ground": {
+                "ground_status": "on_jagged_ground",
+                "radius": 4.0
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 4.0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "tags": [
+    "slam"
+  ]
+}

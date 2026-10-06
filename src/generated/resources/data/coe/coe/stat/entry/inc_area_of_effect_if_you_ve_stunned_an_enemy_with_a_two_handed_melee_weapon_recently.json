@@ -1,0 +1,24 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "group",
+    "nodes": [
+      {
+        "type": "count",
+        "mode": "recently",
+        "name": "caused_ailment",
+        "tag": "stun"
+      },
+      {
+        "type": "living_state",
+        "mode": "wielding_two_handed_melee"
+      }
+    ]
+  },
+  "effect": "coe:stat/effect/inline_attribute_70",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_936"
+}

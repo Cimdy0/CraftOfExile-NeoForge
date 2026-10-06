@@ -1,0 +1,43 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_max_energy_shield",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_deepwisdom",
+    "id": "2254",
+    "links": [
+      "13769",
+      "14666",
+      "15408",
+      "43736",
+      "47307",
+      "4748",
+      "60685"
+    ],
+    "x": 486.985,
+    "y": -3030.38
+  }
+]

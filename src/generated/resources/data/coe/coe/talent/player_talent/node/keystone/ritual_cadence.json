@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:invocation_skills_instead_trigger_spells_every_seconds",
+            "vars": {
+              "value": 2.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:invocation_skills_cannot_gain_energy_while_triggering_spells",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:invoked_spells_consume_more_energy",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_sorceressinvocationspellskeystone",
+    "id": "11230",
+    "links": [
+      "17672"
+    ],
+    "x": 1797.54,
+    "y": -7675.13
+  }
+]

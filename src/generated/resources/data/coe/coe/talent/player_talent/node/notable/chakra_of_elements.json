@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_cold_damage_against_shocked_enemies",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_physical_damage_as_extra_lightning_damage_against_chilled_enemies",
+            "vars": {
+              "value": 0.08
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkelementalchakra",
+    "id": "63400",
+    "links": [
+      "22851",
+      "419"
+    ],
+    "x": 5378.31,
+    "y": -8121.08
+  }
+]

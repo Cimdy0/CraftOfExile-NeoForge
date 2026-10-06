@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_accuracy_op_add_multiplied_base_2"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "accurate"
+}

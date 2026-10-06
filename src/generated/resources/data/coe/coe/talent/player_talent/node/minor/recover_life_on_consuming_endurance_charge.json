@@ -1,0 +1,76 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_for_each_endurance_charge_consumed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "34626",
+    "links": [
+      "38365",
+      "4527",
+      "61142"
+    ],
+    "x": -8068.92,
+    "y": 2744.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_for_each_endurance_charge_consumed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "38365",
+    "links": [
+      "34626",
+      "46499",
+      "61142"
+    ],
+    "x": -8352.97,
+    "y": 2744.15
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:recover_of_max_health_for_each_endurance_charge_consumed",
+            "vars": {
+              "value": 0.02
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chargestr",
+    "id": "61142",
+    "links": [
+      "34626",
+      "38365"
+    ],
+    "x": -8210.95,
+    "y": 2990.15
+  }
+]

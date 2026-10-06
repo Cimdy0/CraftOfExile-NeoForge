@@ -1,0 +1,246 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "11410",
+    "links": [
+      "21755",
+      "61487"
+    ],
+    "x": 842.92,
+    "y": 6551.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "17924",
+    "links": [
+      "51867",
+      "64995"
+    ],
+    "x": -5732.54,
+    "y": 6678.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "19341",
+    "links": [
+      "2486",
+      "56118",
+      "61487"
+    ],
+    "x": 1694.52,
+    "y": 6348.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "22976",
+    "links": [
+      "42250",
+      "56118"
+    ],
+    "x": 2296.11,
+    "y": 5712.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "36596",
+    "links": [
+      "45013",
+      "56118",
+      "61487"
+    ],
+    "x": 1444.52,
+    "y": 5915.47
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "56118",
+    "links": [
+      "19341",
+      "22976",
+      "36596"
+    ],
+    "x": 1992.14,
+    "y": 5887.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "61487",
+    "links": [
+      "11410",
+      "19341",
+      "36596"
+    ],
+    "x": 1146.89,
+    "y": 6375.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "63732",
+    "links": [
+      "2486",
+      "8440"
+    ],
+    "x": 1498.5,
+    "y": 6090.98
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "64995",
+    "links": [
+      "17924",
+      "61490"
+    ],
+    "x": -5443.28,
+    "y": 6511.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_that_are_on_low_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damage",
+    "id": "8440",
+    "links": [
+      "45013",
+      "63732"
+    ],
+    "x": 1640.53,
+    "y": 6172.98
+  }
+]

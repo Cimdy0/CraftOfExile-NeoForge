@@ -1,0 +1,70 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:charm_slot"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 8,
+        "name": "conservative",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 33,
+        "name": "transformative",
+        "tier": 2,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 46,
+        "name": "progressive",
+        "tier": 3,
+        "values": {
+          "value": {
+            "min": 2.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 60,
+        "name": "innovative",
+        "tier": 4,
+        "values": {
+          "value": {
+            "min": 2.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 75,
+        "name": "revolutionary",
+        "tier": 5,
+        "values": {
+          "value": {
+            "min": 3.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

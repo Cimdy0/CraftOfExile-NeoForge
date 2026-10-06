@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_critical_damage_bonus_with_one_handed_melee_weapons",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_onehanddamage",
+    "id": "6229",
+    "links": [
+      "13356",
+      "26490"
+    ],
+    "x": -3825.32,
+    "y": 8460.21
+  }
+]

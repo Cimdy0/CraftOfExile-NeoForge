@@ -1,0 +1,21 @@
+{
+  "name": "采集铁矿",
+  "objectives": [
+    {
+      "type": "gather",
+      "count": 16,
+      "target": "minecraft:iron_ore"
+    }
+  ],
+  "prerequisites": {
+    "quests": [
+      "coe:hunt_zombie"
+    ]
+  },
+  "rewards": {
+    "research_points": 3,
+    "tech_points": 1,
+    "xp": 300
+  },
+  "sort_order": 20
+}

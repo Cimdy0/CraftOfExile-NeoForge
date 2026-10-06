@@ -1,0 +1,94 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_skill_mana_costs_stat_conversion_to_health_costs",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manastr",
+    "id": "16090",
+    "links": [
+      "50302",
+      "53405"
+    ],
+    "x": -4875.76,
+    "y": 1000.39
+  },
+  {
+    "icon": "passives_manastr",
+    "id": "43324",
+    "links": [
+      "51618",
+      "57596"
+    ],
+    "x": -3820.34,
+    "y": -3722.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_skill_mana_costs_stat_conversion_to_health_costs",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manastr",
+    "id": "50302",
+    "links": [
+      "16090",
+      "63470"
+    ],
+    "x": -5078.57,
+    "y": 1156.0
+  },
+  {
+    "icon": "passives_manastr",
+    "id": "57596",
+    "links": [
+      "13468",
+      "43324"
+    ],
+    "x": -4152.13,
+    "y": -4041.66
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_skill_mana_costs_stat_conversion_to_health_costs",
+            "vars": {
+              "value": 0.06
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manastr",
+    "id": "63470",
+    "links": [
+      "50302",
+      "9908"
+    ],
+    "x": -5332.01,
+    "y": 1122.64
+  }
+]

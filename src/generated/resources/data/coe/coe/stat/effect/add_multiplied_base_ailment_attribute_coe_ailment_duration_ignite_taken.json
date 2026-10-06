@@ -1,0 +1,18 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_duration",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "ignite"
+      },
+      {
+        "tag": "ailment"
+      },
+      {
+        "tag": "taken"
+      }
+    ]
+  }
+}

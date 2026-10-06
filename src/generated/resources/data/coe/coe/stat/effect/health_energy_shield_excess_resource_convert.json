@@ -1,0 +1,9 @@
+{
+  "type": "resource_convert",
+  "from": "health",
+  "mode": "excess",
+  "source_tags": [
+    "regen"
+  ],
+  "to": "energy_shield"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_cold_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_coldresist",
+    "id": "33939",
+    "links": [
+      "62034",
+      "6872"
+    ],
+    "x": -9598.33,
+    "y": 421.413
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_armor_also_applies_to_cold_damage",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_coldresist",
+    "id": "6872",
+    "links": [
+      "18448",
+      "33939"
+    ],
+    "x": -9598.42,
+    "y": 252.095
+  }
+]

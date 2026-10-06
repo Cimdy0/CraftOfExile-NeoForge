@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_lightning_skills_to_chain_an_additional_time",
+            "vars": {
+              "value": 0.6
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningint",
+    "id": "37806",
+    "links": [
+      "46157"
+    ],
+    "x": 3052.85,
+    "y": -8723.72
+  }
+]

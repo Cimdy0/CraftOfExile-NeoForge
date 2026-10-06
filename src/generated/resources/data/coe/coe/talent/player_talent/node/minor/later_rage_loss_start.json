@@ -1,0 +1,122 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_rage_loss_starts_second_later",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "14176",
+    "links": [
+      "18004",
+      "39621"
+    ],
+    "x": -6376.4,
+    "y": 3450.19
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_rage_loss_starts_second_later",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "18004",
+    "links": [
+      "14176",
+      "8881"
+    ],
+    "x": -6556.99,
+    "y": 3281.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_rage_loss_starts_second_later",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "21413",
+    "links": [
+      "28408",
+      "37869"
+    ],
+    "x": -9017.72,
+    "y": -610.63
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_rage_loss_starts_second_later",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "37869",
+    "links": [
+      "21413",
+      "60068"
+    ],
+    "x": -8992.74,
+    "y": -420.925
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inherent_rage_loss_starts_second_later",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rage",
+    "id": "39621",
+    "links": [
+      "14176",
+      "57703"
+    ],
+    "x": -6234.38,
+    "y": 3368.19
+  }
+]

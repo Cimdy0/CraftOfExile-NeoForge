@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "accessory~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_strength"
+          },
+          "max": 13.0,
+          "min": 11.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_strength"
+          },
+          "max": 20.0,
+          "min": 17.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_strength"
+          },
+          "max": 27.0,
+          "min": 25.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_strength"
+          },
+          "max": 27.0,
+          "min": 25.0,
+          "tier": "perfect"
+        }
+      ],
+      "armor~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_strength"
+          },
+          "max": 13.0,
+          "min": 11.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_strength"
+          },
+          "max": 20.0,
+          "min": 17.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_strength"
+          },
+          "max": 27.0,
+          "min": 25.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_strength"
+          },
+          "max": 27.0,
+          "min": 25.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

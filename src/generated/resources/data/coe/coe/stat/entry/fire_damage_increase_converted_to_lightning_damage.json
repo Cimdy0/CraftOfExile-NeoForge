@@ -1,0 +1,19 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "convert_to": {
+    "and": [
+      {
+        "tag": "damage"
+      },
+      {
+        "tag": "lightning"
+      }
+    ]
+  },
+  "effect": "coe:stat/effect/inline_attribute_252",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

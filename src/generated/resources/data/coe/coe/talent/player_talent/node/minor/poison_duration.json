@@ -1,0 +1,197 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "1723",
+    "links": [
+      "2134",
+      "53595"
+    ],
+    "x": 11188.4,
+    "y": -1804.62
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "24401",
+    "links": [
+      "23608",
+      "63759"
+    ],
+    "x": 6192.19,
+    "y": 2536.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "26565",
+    "links": [
+      "40024",
+      "63759"
+    ],
+    "x": 6526.19,
+    "y": 2536.84
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_poison_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "28976",
+    "links": [
+      "14267",
+      "23374",
+      "29458"
+    ],
+    "x": 11230.9,
+    "y": -1058.34
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "33815",
+    "links": [
+      "35644",
+      "4083"
+    ],
+    "x": 4763.72,
+    "y": 1232.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "45304",
+    "links": [
+      "33463",
+      "6078",
+      "64325"
+    ],
+    "x": 8606.31,
+    "y": -1873.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "61119",
+    "links": [
+      "6078",
+      "63431",
+      "64325"
+    ],
+    "x": 8776.31,
+    "y": -1873.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_poison_duration",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_poison",
+    "id": "9703",
+    "links": [
+      "2134",
+      "6030"
+    ],
+    "x": 11522.4,
+    "y": -1804.62
+  }
+]

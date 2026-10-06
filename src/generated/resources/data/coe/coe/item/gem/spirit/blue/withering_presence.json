@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_withering_presence",
+  "vars": {
+    "tier": 4.0
+  }
+}

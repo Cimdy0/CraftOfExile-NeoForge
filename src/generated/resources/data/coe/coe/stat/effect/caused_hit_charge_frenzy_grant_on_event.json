@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "frenzy",
+  "tags": {
+    "tag": "caused_hit"
+  },
+  "target": "charge"
+}

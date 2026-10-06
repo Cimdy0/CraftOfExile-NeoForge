@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_with_hit_damage_against_enemies_affected_by_ailments",
+            "vars": {
+              "value": 0.33
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_clawsofthemagpie",
+    "id": "30695",
+    "links": [
+      "13783",
+      "19808"
+    ],
+    "x": 3027.38,
+    "y": 1478.98
+  }
+]

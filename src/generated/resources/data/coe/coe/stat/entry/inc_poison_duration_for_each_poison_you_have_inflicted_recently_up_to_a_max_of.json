@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "min($value * count:caused_ailment:poison / $per, $cap)"
+  },
+  "effect": "coe:stat/effect/inline_attribute_2",
+  "entry": "inline",
+  "params": {
+    "cap": 1.0,
+    "per": 1.0,
+    "value": 0.1
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

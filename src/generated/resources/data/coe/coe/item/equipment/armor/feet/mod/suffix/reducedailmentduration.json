@@ -1,0 +1,194 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:reduced_bleeding_duration"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 20,
+        "name": "of_convection",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 36.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 20,
+        "name": "of_heating",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 36.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 20,
+        "name": "of_earthing",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 36.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 36,
+        "name": "of_fluidity",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 45.0,
+            "min": 41.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 36,
+        "name": "of_unfreezing",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 45.0,
+            "min": 41.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 36,
+        "name": "of_insulation",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 45.0,
+            "min": 41.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 49,
+        "name": "of_entropy",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 46.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 49,
+        "name": "of_defrosting",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 46.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 49,
+        "name": "of_the_impedance",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 50.0,
+            "min": 46.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 63,
+        "name": "of_dissipation",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 51.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 63,
+        "name": "of_the_temperate",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 51.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 63,
+        "name": "of_the_dielectric",
+        "tier": 12,
+        "values": {
+          "value": {
+            "max": 55.0,
+            "min": 51.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 75,
+        "name": "of_the_reversal",
+        "tier": 13,
+        "values": {
+          "value": {
+            "max": 60.0,
+            "min": 56.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 75,
+        "name": "of_thawing",
+        "tier": 14,
+        "values": {
+          "value": {
+            "max": 60.0,
+            "min": 56.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 75,
+        "name": "of_grounding",
+        "tier": 15,
+        "values": {
+          "value": {
+            "max": 60.0,
+            "min": 56.0
+          }
+        },
+        "weight": 500
+      }
+    ]
+  }
+}

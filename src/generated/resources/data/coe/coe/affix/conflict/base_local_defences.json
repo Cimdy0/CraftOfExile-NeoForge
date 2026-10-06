@@ -1,0 +1,7 @@
+{
+  "members": [
+    "coe:add_armor_local",
+    "coe:add_evasion_local"
+  ],
+  "slot": {}
+}

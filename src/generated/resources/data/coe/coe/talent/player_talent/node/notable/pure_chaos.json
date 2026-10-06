@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_chaos_damage",
+            "vars": {
+              "value": 0.11
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_chaosdamagenode",
+    "id": "55149",
+    "links": [
+      "32438"
+    ],
+    "x": 7119.01,
+    "y": -8248.39
+  }
+]

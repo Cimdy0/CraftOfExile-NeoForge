@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:culling_strike_against_enemies_you_mark",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "36976",
+    "links": [
+      "28258"
+    ],
+    "x": 8250.5,
+    "y": 8416.73
+  }
+]

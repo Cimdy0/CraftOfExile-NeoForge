@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_arcane_surge_when_you_deal_a_critical_hit",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "2244",
+    "links": [
+      "43036",
+      "54067"
+    ],
+    "x": -5374.7,
+    "y": -8283.47
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_gain_arcane_surge_when_you_deal_a_critical_hit",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_manaregeneration",
+    "id": "54067",
+    "links": [
+      "2244",
+      "27626"
+    ],
+    "x": -5498.77,
+    "y": -8132.11
+  }
+]

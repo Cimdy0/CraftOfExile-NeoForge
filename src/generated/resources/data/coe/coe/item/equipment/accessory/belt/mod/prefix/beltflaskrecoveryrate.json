@@ -1,0 +1,158 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:belt_flask_life_recovery_rate"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "restoring",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 5.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 5,
+        "name": "affecting",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 10.0,
+            "min": 5.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 11,
+        "name": "stirring",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 11.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 16,
+        "name": "recovering",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 16.0,
+            "min": 11.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 26,
+        "name": "heartening",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 22.0,
+            "min": 17.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 33,
+        "name": "renewing",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 22.0,
+            "min": 17.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 36,
+        "name": "exciting",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 28.0,
+            "min": 23.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 46,
+        "name": "refreshing",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 28.0,
+            "min": 23.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 54,
+        "name": "galvanizing",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 29.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 60,
+        "name": "rejuvenating",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 34.0,
+            "min": 29.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 63,
+        "name": "inspiring",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 35.0
+          }
+        },
+        "weight": 800
+      },
+      {
+        "level": 75,
+        "name": "regenerating",
+        "tier": 12,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 35.0
+          }
+        },
+        "weight": 800
+      }
+    ]
+  }
+}

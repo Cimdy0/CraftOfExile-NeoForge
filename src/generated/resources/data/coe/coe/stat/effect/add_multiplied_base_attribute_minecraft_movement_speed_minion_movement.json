@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "minecraft:movement_speed",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "tag": "movement"
+      },
+      {
+        "tag": "minion"
+      }
+    ]
+  }
+}

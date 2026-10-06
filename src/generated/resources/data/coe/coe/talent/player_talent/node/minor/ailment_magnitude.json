@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_ailments_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividwolf",
+    "id": "12174",
+    "links": [
+      "18864",
+      "49485"
+    ],
+    "x": 8471.74,
+    "y": 2570.8
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_ailments_you_inflict",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividwolf",
+    "id": "18864",
+    "links": [
+      "12174",
+      "2745"
+    ],
+    "x": 8635.74,
+    "y": 2570.8
+  }
+]

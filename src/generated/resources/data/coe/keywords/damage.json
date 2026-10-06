@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "Damage",
+    "伤害"
+  ],
+  "description": [
+    [
+      "$[damage]",
+      "由",
+      "$[skill]",
+      "造成，并从",
+      "$[life]",
+      "、",
+      "$[energy_shield]",
+      "、",
+      "$[ward]",
+      "或",
+      "$[armour]",
+      "中扣除。"
+    ],
+    [
+      "五种",
+      "$[damage]",
+      "类型分别为物理、冰霜、火焰、闪电与",
+      "$[chaos]",
+      "。"
+    ],
+    [
+      "许多效果会随",
+      "$[aoe]",
+      "、",
+      "$[critical]",
+      "或",
+      "$[damage_over_time]",
+      "而缩放。"
+    ]
+  ],
+  "id": "damage",
+  "keys": [
+    "coe:keyword.damage"
+  ],
+  "title": "@coe:keyword.damage"
+}

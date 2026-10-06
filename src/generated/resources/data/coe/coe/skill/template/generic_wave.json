@@ -1,0 +1,38 @@
+{
+  "aoe_ranges": {},
+  "cast": {},
+  "cast_particle": "minecraft:entity.wind_charge.whoosh",
+  "cast_sound": "minecraft:poof",
+  "cost": [],
+  "params": {
+    "wave_damage": 0.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "$wave_damage",
+                "can_crit": 1.0,
+                "damage_type": "physical"
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_wave": {
+            "radius": 2.5
+          }
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "wave",
+    "aoe"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_strength"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "of_the_brute",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 5.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 11,
+          "name": "of_the_wrestler",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 12.0,
+              "min": 9.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 22,
+          "name": "of_the_bear",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 16.0,
+              "min": 13.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 33,
+          "name": "of_the_lion",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 17.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 44,
+          "name": "of_the_gorilla",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 24.0,
+              "min": 21.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 55,
+          "name": "of_the_goliath",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 27.0,
+              "min": 25.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 66,
+          "name": "of_the_leviathan",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 30.0,
+              "min": 28.0
+            }
+          },
+          "weight": 1
+        },
+        {
+          "level": 74,
+          "name": "of_the_titan",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 33.0,
+              "min": 31.0
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "types": [
+      "coe:flail",
+      "coe:one_hand_axe",
+      "coe:one_hand_sword",
+      "coe:two_hand_axe",
+      "coe:two_hand_sword"
+    ]
+  }
+}

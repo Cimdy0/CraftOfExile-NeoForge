@@ -1,0 +1,955 @@
+{
+ "tags": [
+  "accuracy",
+  "aggravated",
+  "ailment",
+  "allies",
+  "aoe",
+  "arcane_surge",
+  "archon",
+  "area",
+  "armor",
+  "armor_break",
+  "arrow",
+  "attack",
+  "aura",
+  "axe",
+  "ballista",
+  "banner",
+  "beam",
+  "bear",
+  "beast",
+  "bleed",
+  "blind",
+  "block",
+  "bolt",
+  "bow",
+  "brand",
+  "channeling",
+  "chaos",
+  "charge",
+  "charm",
+  "chill",
+  "chilled_ground",
+  "cold",
+  "command",
+  "companion",
+  "cooldown",
+  "corpse",
+  "cost",
+  "crit",
+  "crossbow",
+  "culling",
+  "curse",
+  "damage",
+  "damage_over_time",
+  "daze",
+  "debilitate",
+  "deflect",
+  "dodge",
+  "efficiency",
+  "electrocuted",
+  "elemental",
+  "empowered",
+  "endurance",
+  "energy",
+  "energy_shield",
+  "evasion",
+  "exposure",
+  "fire",
+  "flask",
+  "focus",
+  "form",
+  "freeze",
+  "frenzy",
+  "fully_broken_armor",
+  "glory",
+  "golem",
+  "grenade",
+  "guard",
+  "hazard",
+  "health",
+  "helmet",
+  "herald",
+  "hinder",
+  "ice_crystal",
+  "ignite",
+  "ignited_ground",
+  "immobilise",
+  "impale",
+  "incision",
+  "infusion",
+  "jagged_ground",
+  "jewel",
+  "jewellery",
+  "kill",
+  "knockback",
+  "leeching",
+  "lightning",
+  "limit",
+  "mace",
+  "maim",
+  "mana",
+  "mana_take",
+  "mark",
+  "melee",
+  "meta",
+  "mine",
+  "minion",
+  "movement",
+  "non_damaging",
+  "offering",
+  "one_handed",
+  "onslaught",
+  "parry",
+  "physical",
+  "pierce",
+  "pin",
+  "plant",
+  "poison",
+  "power",
+  "presence",
+  "projectile",
+  "quiver",
+  "rage",
+  "range",
+  "rarity",
+  "recently_consumed",
+  "recoup",
+  "regen",
+  "remnant",
+  "reservation",
+  "resistance",
+  "seal",
+  "self",
+  "shapeshifted",
+  "shock",
+  "shocked_ground",
+  "slow",
+  "spear",
+  "spell",
+  "spirit",
+  "status",
+  "storm",
+  "stun",
+  "surrounded",
+  "sword",
+  "taken",
+  "taken_crit",
+  "threshold",
+  "totem",
+  "trap",
+  "two_handed",
+  "volatility",
+  "warcry",
+  "withered",
+  "wolf",
+  "wyvern"
+ ],
+ "n_attrs": 109,
+ "already_tagged": [
+  "ADDITIONAL_CURSE",
+  "ATTACK_TEN_INCISION",
+  "ATTACKS_MAIM_POISONED",
+  "AURA_BUFFS_AFFECT_ALLIES",
+  "BLIND_THEY_STUN",
+  "BUFFS_EXPIRE_SLOWER",
+  "CANNOT_CRITICALLY_PARRYING",
+  "CRITICAL_HERALD",
+  "CULLING_STRIKE_MARK",
+  "DEFEND_ARMOUR",
+  "ELEMENTAL_AILMENT_APPLICATION_SHAPESHIFTED",
+  "FASTER_CURSE_ACTIVATION",
+  "FASTER_START_INHERENT_RAGE",
+  "GLORY",
+  "MACE_SLAM_CAUSE_ADDITIONAL",
+  "MARK_BLINDED",
+  "MARK_CANNOT_CRITICAL",
+  "METRES_DODGE_ROLL_DISTANCE",
+  "METRES_MELEE_STRIKE_RANGE",
+  "MINIONS_INFLICT_WITHERED",
+  "RAGE_LIFE_FLASK",
+  "RELOAD_CROSSBOW_IMMEDIATE",
+  "ADD_CURSE",
+  "REMOVE_IGNITE_WARCRY",
+  "SHOCK_ELECTROCUTED",
+  "UNAFFECTED",
+  "WARCRIES_MINIMUM_POWER",
+  "RAGE_SHAPESHIFTING_HUMAN_FORM",
+  "DEFLECTION_RATING",
+  "DODGE_CHANCE",
+  "ARCHON_RECOVERY_RATE",
+  "GLORY_GENERATION",
+  "MAX_VOLATILITY",
+  "VOLATILITY_GENERATION",
+  "VOLATILITY_DETONATION_TIME",
+  "THORNS",
+  "KNOCKBACK",
+  "REGENERATION_RATE",
+  "RESISTANCES",
+  "AFTERSHOCK_AREA",
+  "PUPPET_MASTER_CHANCE",
+  "PUPPET_MASTER_EFFECT",
+  "PUPPET_MASTER_DURATION",
+  "STRENGTH",
+  "ADDED_DAMAGE"
+ ],
+ "candidates": [
+  {
+   "attr": "ATTACKS_CRITICAL",
+   "key": "attacks_critical",
+   "hits": {
+    "attack": "attack",
+    "crit": "crit",
+    "critical": "crit"
+   },
+   "wirings": [
+    {
+     "method": "chance",
+     "statids": "ATTACKS_HAVE_TO_CRITICAL_HIT_CHANCE",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "BASE_ENERGY_SHIELD_RECHARGE",
+   "key": "base_energy_shield_recharge",
+   "hits": {
+    "energy": "energy",
+    "energy_shield": "energy_shield",
+    "charge": "charge"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "CURRENT_ENERGY_SHIELD_RECHARGE",
+   "key": "current_energy_shield_recharge",
+   "hits": {
+    "energy": "energy",
+    "energy_shield": "energy_shield",
+    "charge": "charge"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+   "key": "damage_taken_bypasses_energy",
+   "hits": {
+    "energy": "energy"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "OF_DAMAGE_TAKEN_BYPASSES_ENERGY_SHIELD",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "DARKNESS_RESERVATION_LASTS",
+   "key": "darkness_reservation_lasts",
+   "hits": {
+    "reservation": "reservation"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "ELEMENTAL_DAMAGE_CONTRIBUTES_BLEEDING",
+   "key": "elemental_damage_contributes_bleeding",
+   "hits": {
+    "bleed": "bleed",
+    "elemental": "elemental"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "GRENADES_ACTIVATE_TIME",
+   "key": "grenades_activate_time",
+   "hits": {
+    "grenade": "grenade"
+   },
+   "wirings": [
+    {
+     "method": "chance",
+     "statids": "GRENADES_HAVE_CHANCE_TO_ACTIVATE_A_SECOND_TIME",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "IGNITES_CAUSE_REFLECTED_BACK",
+   "key": "ignites_cause_reflected_back",
+   "hits": {
+    "ignite": "ignite"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "IGNITES_YOU_CAUSE_ARE_REFLECTED_BACK_TO_YOU",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "INFLICT_BLEEDING_CANNOT_REGENERATE",
+   "key": "inflict_bleeding_cannot_regenerate",
+   "hits": {
+    "bleed": "bleed"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "ENEMIES_YOU_INFLICT_BLEEDING_ON_CANNOT_REGENERATE_HEALTH",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "INVOCATED_ENERGY",
+   "key": "invocated_energy",
+   "hits": {
+    "energy": "energy"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "INVOCATED_SKILLS_HAVE_INCREASED_MAX_ENERGY",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "LEECH_LIFE_FASTER",
+   "key": "leech_life_faster",
+   "hits": {
+    "leech": "leeching"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "HEALTH_LEECH_HEALTH_FASTER",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "LEECH_LIFE_SLOWER",
+   "key": "leech_life_slower",
+   "hits": {
+    "leech": "leeching",
+    "slow": "slow"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "HEALTH_LEECH_HEALTH_SLOWER",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "LEVEL_ALL_CHAOS",
+   "key": "level_all_chaos",
+   "hits": {
+    "chaos": "chaos"
+   },
+   "wirings": [
+    {
+     "method": "add",
+     "statids": "TO_LEVEL_OF_ALL_CHAOS_SKILLS",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "LEVEL_ALL_COLD",
+   "key": "level_all_cold",
+   "hits": {
+    "cold": "cold"
+   },
+   "wirings": [
+    {
+     "method": "add",
+     "statids": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "LIFE_CONVERTED_ENERGY_SHIELD",
+   "key": "life_converted_energy_shield",
+   "hits": {
+    "energy": "energy",
+    "energy_shield": "energy_shield"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "LIFE_FLASKS_CHARGES",
+   "key": "life_flasks_charges",
+   "hits": {
+    "flask": "flask",
+    "charge": "charge"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "LIGHTNING_INFUSIONS",
+   "key": "lightning_infusions",
+   "hits": {
+    "lightning": "lightning"
+   },
+   "wirings": [
+    {
+     "method": "add",
+     "statids": "TO_MAX_LIGHTNING_INFUSIONS",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "LOSE_COMBO_SLOWER",
+   "key": "lose_combo_slower",
+   "hits": {
+    "slow": "slow"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "SKILLS_GAIN_COMBO_SLOWER",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "MAGNITUDE_IMPALES_INFLICTED_SPELLS",
+   "key": "magnitude_impales_inflicted_spells",
+   "hits": {
+    "spell": "spell",
+    "impale": "impale"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "INCREASED_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "MANA_FLASKS_CHARGES",
+   "key": "mana_flasks_charges",
+   "hits": {
+    "flask": "flask",
+    "mana": "mana",
+    "charge": "charge"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "MANA_FLASKS_GAIN_CHARGES_PER_SECOND",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "MINIONS_GIGANTIC",
+   "key": "minions_gigantic",
+   "hits": {
+    "minion": "minion",
+    "minions": "minion"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "YOUR_MINIONS_ARE_GIGANTIC",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "NO_INHERENT_MANA_REGENERATION",
+   "key": "no_inherent_mana_regeneration",
+   "hits": {
+    "mana": "mana"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "REGENERATE_MANA_EQUAL_LIFE",
+   "key": "regenerate_mana_equal_life",
+   "hits": {
+    "mana": "mana"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "REMNANTS_COLLECTED_FURTHER_AWAY",
+   "key": "remnants_collected_further_away",
+   "hits": {
+    "remnant": "remnant"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "REMNANTS_CAN_BE_COLLECTED_FROM_FURTHER_AWAY",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "REMOVE_ELEMENTAL_INFUSIONS_BUT",
+   "key": "remove_elemental_infusions_but",
+   "hits": {
+    "elemental": "elemental"
+   },
+   "wirings": [
+    {
+     "method": "chance",
+     "statids": "SKILLS_HAVE_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "STACKS_PUPPET_MASTER",
+   "key": "stacks_puppet_master",
+   "hits": {
+    "puppet": "companion"
+   },
+   "wirings": [
+    {
+     "method": "add",
+     "statids": "MAX_STACKS_OF_PUPPET_MASTER",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "STUN_THRESHOLD_STRENGTH",
+   "key": "stun_threshold_strength",
+   "hits": {
+    "stun": "stun"
+   },
+   "wirings": [
+    {
+     "method": "add",
+     "statids": "TO_STUN_THRESHOLD_PER_STRENGTH",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "THORNS_CRITICAL",
+   "key": "thorns_critical",
+   "hits": {
+    "crit": "crit",
+    "critical": "crit",
+    "thorn": "thorns"
+   },
+   "wirings": [
+    {
+     "method": "add",
+     "statids": "TO_THORNS_CRITICAL_HIT_CHANCE",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "ADDITIONAL_STUN_THRESHOLD_EQUAL_2",
+   "key": "additional_stun_threshold_equal_2",
+   "hits": {
+    "stun": "stun"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "BONUSES_AMULET_MINIONS",
+   "key": "bonuses_amulet_minions",
+   "hits": {
+    "minion": "minion",
+    "minions": "minion",
+    "amulet": "jewellery"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "ALL_BONUSES_FROM_EQUIPPED_AMULET_APPLY_TO_YOUR_MINIONS_INSTEAD_OF_YOU",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "ELEMENTAL_RESISTANCES_RED_GREEN",
+   "key": "elemental_resistances_red_green",
+   "hits": {
+    "elemental": "elemental",
+    "resistance": "resistance"
+   },
+   "wirings": [
+    {
+     "method": "add",
+     "statids": "TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "IGNORE_MOVEMENT_PENALTIES_ARMOUR",
+   "key": "ignore_movement_penalties_armour",
+   "hits": {
+    "armour": "armor",
+    "movement": "movement"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "IGNORE_ALL_MOVEMENT_PENALTIES_FROM_EQUIP_ARMOR",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "GUARD_RECOVERY",
+   "key": "guard_recovery",
+   "hits": {
+    "guard": "guard"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "RESERVATION_EFFICIENCY",
+   "key": "reservation_efficiency",
+   "hits": {
+    "reservation": "reservation"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "STUN_RECOVERY",
+   "key": "stun_recovery",
+   "hits": {
+    "stun": "stun"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "INCREASED_STUN_RECOVERY",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "SKILL_COST_MANA",
+   "key": "skill_cost_mana",
+   "hits": {
+    "mana": "mana"
+   },
+   "wirings": [
+    {
+     "method": "inc",
+     "statids": "INCREASED_MANA_COST_OF_SKILLS",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "RESISTANCE_PENETRATION",
+   "key": "resistance_penetration",
+   "hits": {
+    "resistance": "resistance"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "REMNANT_EXTRA_CHANCE",
+   "key": "remnant_extra_chance",
+   "hits": {
+    "remnant": "remnant"
+   },
+   "wirings": [
+    {
+     "method": "chance",
+     "statids": "CHANCE_TO_CREATE_AN_ADDITIONAL_REMNANT",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "REMNANT_DOUBLE_CHANCE",
+   "key": "remnant_double_chance",
+   "hits": {
+    "remnant": "remnant"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "REMNANT_MAGNITUDE",
+   "key": "remnant_magnitude",
+   "hits": {
+    "remnant": "remnant"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "AFTERSHOCK_CHANCE",
+   "key": "aftershock_chance",
+   "hits": {
+    "shock": "shock",
+    "aftershock": null
+   },
+   "wirings": []
+  },
+  {
+   "attr": "AFTERSHOCK_CHANCE_MACE_SLAM",
+   "key": "aftershock_chance_mace_slam",
+   "hits": {
+    "shock": "shock",
+    "mace": "mace",
+    "aftershock": null
+   },
+   "wirings": []
+  },
+  {
+   "attr": "AFTERSHOCK_CHANCE_SHAPESHIFT_SLAM",
+   "key": "aftershock_chance_shapeshift_slam",
+   "hits": {
+    "shock": "shock",
+    "shapeshift": "shapeshifted",
+    "aftershock": null
+   },
+   "wirings": []
+  },
+  {
+   "attr": "TAKEN_CRIT_DAMAGE",
+   "key": "taken_crit_damage",
+   "hits": {
+    "crit": "crit"
+   },
+   "wirings": [
+    {
+     "method": "valueMod",
+     "statids": "INC_TAKEN_CRIT_DAMAGE",
+     "tags_const": [],
+     "tags_free": []
+    }
+   ]
+  },
+  {
+   "attr": "TAKEN_CRIT_CHANCE",
+   "key": "taken_crit_chance",
+   "hits": {
+    "crit": "crit"
+   },
+   "wirings": []
+  },
+  {
+   "attr": "TOTEM_TAKEN_AURA",
+   "key": "totem_taken_aura",
+   "hits": {
+    "aura": "aura",
+    "totem": "totem"
+   },
+   "wirings": []
+  }
+ ],
+ "independent": [
+  {
+   "attr": "ARROWS_PIERCE_ADDITIONAL_TARGET",
+   "key": "arrows_pierce_additional_target",
+   "statids": "ARROWS_PIERCE_AN_ADDITIONAL_TARGET"
+  },
+  {
+   "attr": "DAMAGE_LUCKY",
+   "key": "damage_lucky",
+   "statids": "CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY"
+  },
+  {
+   "attr": "GLORY",
+   "key": "glory",
+   "statids": "SKILLS_HAVE_A_CHANCE_TO_NOT_CONSUME_GLORY"
+  },
+  {
+   "attr": "LIFE_DEXTERITY",
+   "key": "life_dexterity",
+   "statids": "HEALTH_PER_DEXTERITY"
+  },
+  {
+   "attr": "NO_SPIRIT_BASE_DARKNESS",
+   "key": "no_spirit_base_darkness",
+   "statids": null
+  },
+  {
+   "attr": "PLANTS_IMMEDIATELY_OVERGROW",
+   "key": "plants_immediately_overgrow",
+   "statids": "PLANTS_HAVE_A_CHANCE_TO_IMMEDIATELY_OVERGROW"
+  },
+  {
+   "attr": "RECOVER_ALL_LIFE_KILL",
+   "key": "recover_all_life_kill",
+   "statids": "CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY"
+  },
+  {
+   "attr": "TAKE_NO_DAMAGE_VOLATILITY",
+   "key": "take_no_damage_volatility",
+   "statids": null
+  },
+  {
+   "attr": "UNAFFECTED",
+   "key": "unaffected",
+   "statids": "UNAFFECTED_BY_CHILLED_GROUND"
+  },
+  {
+   "attr": "WARCRIES_DEBILITATE",
+   "key": "warcries_debilitate",
+   "statids": "WARCRIES_DEBILITATE_ENEMIES"
+  },
+  {
+   "attr": "WARCRIES_MINIMUM_POWER",
+   "key": "warcries_minimum_power",
+   "statids": "WARCRIES_HAVE_A_MINIMUM_OF_POWER"
+  },
+  {
+   "attr": "WHICH_CREATE_FISSURES_ADDITIONAL",
+   "key": "which_create_fissures_additional",
+   "statids": "SKILLS_WHICH_CREATE_FISSURES_HAVE_A_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE"
+  },
+  {
+   "attr": "DEFLECTION_RATING",
+   "key": "deflection_rating",
+   "statids": "INCREASED_DEFLECTION_RATING_WHILE_SURROUNDED"
+  },
+  {
+   "attr": "CORRUPTION_ENDURES_CHANCE",
+   "key": "corruption_endures_chance",
+   "statids": null
+  },
+  {
+   "attr": "ARCHON_RECOVERY_RATE",
+   "key": "archon_recovery_rate",
+   "statids": "ARCHON_RECOVERY_PERIOD_EXPIRES_SLOWER"
+  },
+  {
+   "attr": "GLORY_GENERATION",
+   "key": "glory_generation",
+   "statids": "INC_GLORY_GENERATION"
+  },
+  {
+   "attr": "MAX_VOLATILITY",
+   "key": "max_volatility",
+   "statids": "INC_MAX_VOLATILITY"
+  },
+  {
+   "attr": "VOLATILITY_GENERATION",
+   "key": "volatility_generation",
+   "statids": "INC_VOLATILITY_GENERATION"
+  },
+  {
+   "attr": "VOLATILITY_DETONATION_TIME",
+   "key": "volatility_detonation_time",
+   "statids": "INCREASED_VOLATILITY_EXPLOSION_DELAY"
+  },
+  {
+   "attr": "MAX_INFUSION",
+   "key": "max_infusion",
+   "statids": null
+  },
+  {
+   "attr": "LIGHT_RADIUS",
+   "key": "light_radius",
+   "statids": "INCREASED_LIGHT_RADIUS"
+  },
+  {
+   "attr": "COST_EFFICIENCY",
+   "key": "cost_efficiency",
+   "statids": "INCREASED_MANA_COST_EFFICIENCY"
+  },
+  {
+   "attr": "SKILL_COST_LIFE",
+   "key": "skill_cost_life",
+   "statids": "INCREASED_HEALTH_COST_OF_SKILLS"
+  },
+  {
+   "attr": "CULLING_STRIKE_THRESHOLD",
+   "key": "culling_strike_threshold",
+   "statids": "INCREASED_CULLING_STRIKE_THRESHOLD"
+  },
+  {
+   "attr": "REGENERATION_RATE",
+   "key": "regeneration_rate",
+   "statids": "ADD_HEALTH_REGENERATION_RATE"
+  },
+  {
+   "attr": "STATUS_EXTRA_STACKS",
+   "key": "status_extra_stacks",
+   "statids": null
+  },
+  {
+   "attr": "STATUS_MAX_STACKS",
+   "key": "status_max_stacks",
+   "statids": null
+  },
+  {
+   "attr": "STRENGTH",
+   "key": "strength",
+   "statids": "ADD_STRENGTH"
+  },
+  {
+   "attr": "TAKEN_DAMAGE",
+   "key": "taken_damage",
+   "statids": "INC_TAKEN_DAMAGE"
+  },
+  {
+   "attr": "ADDED_DAMAGE",
+   "key": "added_damage",
+   "statids": "ADD_CHAOS_DAMAGE"
+  }
+ ]
+}

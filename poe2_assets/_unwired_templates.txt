@@ -1,0 +1,498 @@
+CHARM_SLOT	+{X} Charm Slot
+MAX_RAGE_IF_YOU_VE_USED_A_SKILL_THAT_REQUIRES_GLORY_IN_THE_PAST_SECONDS	+{X} maximum Rage if you've used a Skill that Requires Glory in the past {X} seconds
+MAX_STACKS_OF_PUPPET_MASTER	+{X} maximum stacks of Puppet Master
+METRES_TO_DODGE_ROLL_DISTANCE_WHILE_SURROUNDED	+{X} metres to Dodge Roll distance while Surrounded
+METRES_TO_MELEE_STRIKE_RANGE	+{X} metres to Melee Strike Range
+METRES_TO_MELEE_STRIKE_RANGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS	+{X} metres to Melee Strike Range if you've dealt a Projectile Attack HitDamage in the past eight seconds
+TO_EVASION_PER_ITEM_ARMOR_ON_EQUIPPED_GLOVES	+{X} to Evasion Rating per {X} Item Armour on Equipped Gloves
+TO_LEVEL_OF_ALL_CHAOS_SKILLS	+{X} to Level of all Chaos Skills
+TO_LEVEL_OF_ALL_COLD_SKILLS	+{X} to Level of all Cold Skills
+TO_MAX_RAGE_WHILE_WIELDING_AN_AXE	+{X} to Maximum Rage while wielding an Axe
+TO_ANY_ATTRIBUTES	+{X} to any Attributes
+TO_MAX_COLD_INFUSIONS	+{X} to maximum Cold Infusions
+TO_MAX_FIRE_INFUSIONS	+{X} to maximum Fire Infusions
+TO_MAX_LIGHTNING_INFUSIONS	+{X} to maximum Lightning Infusions
+TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS	+{X} to maximum number of Elemental Infusions
+TO_MAX_NUMBER_OF_PLACED_BANNERS	+{X} to maximum number of placed Banners
+SURPASS_CHANCE_CHANCE_TO_FIRE_AN_ADDITIONAL_ARROW	+{X}% SurpassChance chance to fire an additional Arrow
+SURPASS_CHANCE_CHANCE_TO_FIRE_AN_ADDITIONAL_PROJECTILE	+{X}% SurpassChance chance to fire an additional Projectile
+OF_ARMOR_ALSO_APPLIES_TO_CHAOS_DAMAGE	+{X}% of Armour also applies to Chaos Damage
+TO_MAX_RESISTANCES_OF_EACH_ELEMENTAL_DAMAGE_DAMAGE_TYPE_YOU_HAVE_BEEN_HIT_DAMAGE_WITH_RECENTLY	+{X}% to Maximum Resistances of each ElementalDamage Damage Type you have been HitDamage with Recently
+TO_AMOUNT_OF_HIT_DAMAGE_PREVENTED_BY_DEFLECTION	-{X}% to amount of HitDamage Prevented by Deflection
+EXTRA_PHYSICAL	<no-template>
+EFFECTMOD_FIRE_RESIST_PROVIDE_30	<no-template>
+EFFECTMOD_RESIST_PROVIDE_COLD_5	<no-template>
+EFFECTMOD_RESIST_PROVIDE_FIRE_5	<no-template>
+EFFECTMOD_RESIST_PROVIDE_LIGHTNING_5	<no-template>
+LIVINGMOD_ARMOR_4	<no-template>
+LIVINGMOD_CAVE_ATTACK_DAMAGE	<no-template>
+LIVINGMOD_COE_ACCURACY_OP_ADD_MULTIPLIED_BASE_2	<no-template>
+LIVINGMOD_COE_AILMENT_BUILDUP_OP_ADD_VALUE_1_STUN	<no-template>
+LIVINGMOD_COE_AILMENT_CHANCE_OP_ADD_VALUE_1_BLEED	<no-template>
+LIVINGMOD_COE_AILMENT_CHANCE_OP_ADD_VALUE_1_POISON	<no-template>
+LIVINGMOD_COE_AILMENT_THRESHOLD_OP_ADD_VALUE_1_5_STUN	<no-template>
+LIVINGMOD_COE_ARMOR_BREAK_OP_ADD_VALUE_0_1_ARMOR_BREAK	<no-template>
+LIVINGMOD_COE_CAST_SPEED_OP_ADD_VALUE_0_3	<no-template>
+LIVINGMOD_COE_CRIT_CHANCE_OP_ADD_VALUE_0_2_ATTACK_CRIT	<no-template>
+LIVINGMOD_COE_DAMAGE_OP_ADD_VALUE_0_4_CHAOS_DAMAGE	<no-template>
+LIVINGMOD_COE_DAMAGE_OP_ADD_VALUE_0_4_COLD_DAMAGE	<no-template>
+LIVINGMOD_COE_DAMAGE_OP_ADD_VALUE_0_4_DAMAGE_FIRE	<no-template>
+LIVINGMOD_COE_DAMAGE_OP_ADD_VALUE_0_4_DAMAGE_LIGHTNING	<no-template>
+LIVINGMOD_COE_LAUNCH_ADDITIONAL_PROJECTILE_OP_ADD_VALUE_4	<no-template>
+LIVINGMOD_COE_MANA_TAKE_OF_DAMAGE_OP_ADD_VALUE_0_3_MANA_TAKE	<no-template>
+LIVINGMOD_COE_MAX_REGENERATION_OP_ADD_VALUE_0_02_HEALTH_REGEN	<no-template>
+LIVINGMOD_COE_MAX_RESISTANCES_OP_ADD_VALUE_0_1_COLD	<no-template>
+LIVINGMOD_COE_MAX_RESISTANCES_OP_ADD_VALUE_0_1_FIRE	<no-template>
+LIVINGMOD_COE_MAX_RESISTANCES_OP_ADD_VALUE_0_1_LIGHTNING	<no-template>
+LIVINGMOD_COE_RESISTANCES_OP_ADD_VALUE_0_5_CHAOS	<no-template>
+LIVINGMOD_COE_RESISTANCES_OP_ADD_VALUE_0_5_COLD	<no-template>
+LIVINGMOD_COE_RESISTANCES_OP_ADD_VALUE_0_5_FIRE	<no-template>
+LIVINGMOD_COE_RESISTANCES_OP_ADD_VALUE_0_5_LIGHTNING	<no-template>
+LIVINGMOD_COE_TAKEN_CRIT_DAMAGE_OP_ADD_VALUE__0_8	<no-template>
+LIVINGMOD_MINECRAFT_ARMOR_OP_ADD_MULTIPLIED_BASE_1	<no-template>
+LIVINGMOD_MINECRAFT_ATTACK_SPEED_OP_ADD_VALUE_0_3	<no-template>
+LIVINGMOD_MINECRAFT_MAX_HEALTH_OP_ADD_MULTIPLIED_BASE_0_5	<no-template>
+LIVINGMOD_MINECRAFT_MOVEMENT_SPEED_OP_ADD_VALUE_0_3	<no-template>
+LIVINGMOD_RESIST_CHAOS_10	<no-template>
+LIVINGMOD_RESIST_CHAOS_20	<no-template>
+LIVINGMOD_RESIST_COLD_10	<no-template>
+LIVINGMOD_RESIST_COLD_20	<no-template>
+LIVINGMOD_RESIST_ELEMENTAL_10	<no-template>
+LIVINGMOD_RESIST_FIRE_20	<no-template>
+RARITY_MAGIC_ATTACK_SPEED	<no-template>
+RARITY_MAGIC_CAST_SPEED	<no-template>
+RARITY_MAGIC_MAX_HEALTH	<no-template>
+RARITY_MAGIC_MOVEMENT_SPEED	<no-template>
+RARITY_MAGIC_SCALE	<no-template>
+RARITY_RARE_ATTACK_SPEED	<no-template>
+RARITY_RARE_CAST_SPEED	<no-template>
+RARITY_RARE_MAX_HEALTH	<no-template>
+RARITY_RARE_MOVEMENT_SPEED	<no-template>
+RARITY_RARE_SCALE	<no-template>
+RARITY_UNIQUE_ATTACK_SPEED	<no-template>
+RARITY_UNIQUE_CAST_SPEED	<no-template>
+RARITY_UNIQUE_MAX_HEALTH	<no-template>
+RARITY_UNIQUE_MOVEMENT_SPEED	<no-template>
+RARITY_UNIQUE_SCALE	<no-template>
+TALENT_COE_DEXTERITY_OP_ADD_VALUE_5	<no-template>
+TALENT_COE_INTELLIGENCE_OP_ADD_VALUE_5	<no-template>
+TALENT_COE_STRENGTH_OP_ADD_VALUE_5	<no-template>
+TALENT_MINECRAFT_ARMOR_OP_ADD_VALUE_15	<no-template>
+TALENT_MINECRAFT_MAX_HEALTH_OP_ADD_VALUE_20	<no-template>
+ACCURACY_IS_DOUBLED	Accuracy Rating is Doubled
+ALL_DAMAGE_TYPES_IS_TAKEN_FROM_MANA_BEFORE_HEALTH	All DamageTypes is taken from Mana before Life
+ALL_BONUSES_FROM_EQUIPPED_AMULET_APPLY_TO_YOUR_MINIONS_INSTEAD_OF_YOU	All bonuses from Equipped Amulet apply to your Minions instead of you
+ALLIES_IN_YOUR_PRESENCE_REGENERATE_RAGE_PER_SECOND_IF_YOU_HAVE_GAIN_RAGE_RECENTLY	Allies in your Presence Regenerate {X} Rage per second if you have gain Rage Recently
+ANCESTRALLY_BOOSTED_ATTACKS_DEAL_INC_DAMAGE	Ancestrally Boosted Attacks deal {X}% increased Damage
+APPLY_DEBILITATE_TO_ENEMIES_METRES_IN_FRONT_OF_YOU_WHILE_YOUR_SHIELD_IS_RAISED	Apply Debilitate to Enemies {X} Metres in front of you while your Shield is raised
+ARCANE_SURGE_GRANTS_MORE_HEALTH_REGENERATION_RATE_INSTEAD_OF_MANA_REGENERATION_RATE	Arcane Surge grants more Life Regeneration Rate instead of Mana Regeneration Rate
+ARCHON_BUFFS_ALSO_GRANT_TO_ALL_ELEMENTAL_DAMAGE_RESISTANCES	Archon Buffs also grant +{X}% to all ElementalDamage Resistances
+ARCHON_BUFFS_ALSO_GRANT_INC_CRITICAL_DAMAGE_BONUS	Archon Buffs also grant {X}% increased Critical Damage Bonus
+ARCHON_BUFFS_ALSO_GRANT_INC_CRITICAL_HIT_CHANCE	Archon Buffs also grant {X}% increased Critical Hit Chance
+ARCHON_BUFFS_ALSO_GRANT_INC_MOVEMENT_SPEED	Archon Buffs also grant {X}% increased Movement Speed
+ARCHON_RECOVERY_PERIOD_EXPIRES_FASTER	Archon recovery period expires {X}% faster
+AREA_SKILLS_HAVE_CHANCE_TO_KNOCK_ENEMIES_BACK_ON_HIT_DAMAGE	Area Skills have {X}% chance to Knock Enemies Back on HitDamage
+ARMOR_BREAK_ARMOR_ON_CRITICAL_HIT_WITH_SPELLS_EQUAL_TO_OF_PHYSICAL_DAMAGE_DEALT	ArmourBreak Armour on Critical Hit with Spells equal to {X}% of Physical Damage dealt
+ARMOR_BREAK_INC_ARMOR	ArmourBreak {X}% increased Armour
+ARMOR_BREAK_OF_ARMOR_ON_HEAVY_STUNNING_AN_ENEMY	ArmourBreak {X}% of Armour on Heavy Stunning an Enemy
+ARMOR_BREAK_OF_ARMOR_ON_PINNING_AN_ENEMY	ArmourBreak {X}% of Armour on Pinning an Enemy
+ARROWS_PIERCE_AN_ADDITIONAL_TARGET	Arrows Pierce an additional Target
+ARROWS_GAIN_CRITICAL_HIT_CHANCE_AS_THEY_TRAVEL_FARTHER_UP_TO_INC_CRITICAL_HIT_CHANCE_AFTER_METRES	Arrows gain Critical Hit Chance as they travel farther, up to {X}% increased Critical Hit Chance after {X} metres
+ATTACK_HIT_DAMAGE_AGGRAVATE_ANY_BLEEDING_ON_TARGETS_WHICH_IS_OLDER_THAN_SECONDS	Attack HitDamage Aggravate any Bleeding on targets which is older than {X} seconds
+ATTACK_SKILLS_HAVE_TO_MAX_NUMBER_OF_SUMMONED_BALLISTA_TOTEMS	Attack Skills have +{X} to maximum number of Summoned Ballista Totems
+ATTACKS_GAIN_INC_ACCURACY_EQUAL_TO_THEIR_CRITICAL_HIT_CHANCE	Attacks gain increased Accuracy Rating equal to their Critical Hit Chance
+BANNER_BUFFS_LINGER_ON_YOU_FOR_SECONDS_AFTER_YOU_LEAVE_THE_AREA	Banner Buffs linger on you for {X} seconds after you leave the Area
+BANNERS_ALSO_GRANT_TO_ALL_ELEMENTAL_DAMAGE_RESISTANCES_AFFECTED_TARGETS	Banners also grant +{X}% to all ElementalDamage Resistances affected targets
+BASE_BLEEDING_DURATION_IS_SECOND	Base Bleeding Duration is {X} second
+BLEEDING_YOU_INFLICT_IS_AGGRAVATED	Bleeding you inflict is Aggravated
+BLEEDING_YOU_INFLICT_ON_PINNED_ENEMIES_IS_AGGRAVATED	Bleeding you inflict on Pinned Enemies is Aggravated
+BLIND_ENEMIES_WHEN_THEY_STUN_YOU	Blind Enemies when they Stun you
+BOLTS_FIRED_BY_CROSSBOW_ATTACKS_HAVE_CHANCE_TO_NOT_EXPEND_AMMUNITION_IF_YOU_VE_RELOADED_RECENTLY	Bolts fired by Crossbow Attacks have {X}% chance to not expend Ammunition if you've Reloaded Recently
+BUFFS_ON_YOU_EXPIRE_SLOWER	Buffs on you expire {X}% slower
+BURNING_ENEMIES_YOU_KILL_HAVE_A_CHANCE_TO_EXPLODE_DEALING_A_TENTH_OF_THEIR_MAX_HEALTH_AS_FIRE_DAMAGE	Burning Enemies you kill have a {X}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage
+CAN_ATTACK_AS_THOUGH_USING_A_QUARTERSTAFF_WHILE_BOTH_OF_YOUR_HAND_SLOTS_ARE_EMPTY	Can Attack as though using a Quarterstaff while both of your hand slots are empty
+CANNOT_DODGE_ROLL_OR_SPRINT	Cannot Dodge Roll or Sprint
+CANNOT_RECOVER_HEALTH_OTHER_THAN_FROM_HEALTH_LEECH	Cannot Recover Life other than from LifeLeech
+CANNOT_BE_CRITICALLY_HIT_WHILE_PARRYING	Cannot be Critically Hit while Parrying
+CANNOT_USE_CHARMS	Cannot use Charms
+CHANNELLING_SKILLS_DEAL_INC_DAMAGE	Channelling Skills deal {X}% increased Damage
+CHAOS_DAMAGE_FROM_FIRE_SPELLS_CONTRIBUTES_TO_FLAMMABILITY_AND_IGNITE_BUFF_MAGNITUDE	Chaos Damage from Fire Spells Contributes to Flammability and Ignite BuffMagnitude
+CHARMS_APPLIED_TO_YOU_HAVE_INC_EFFECT	Charms applied to you have {X}% increased Effect
+CHARMS_GAIN_CHARGES_PER_SECOND	Charms gain {X} charges per Second
+COMPANIONS_DEAL_INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES	Companions deal {X}% increased damage against Immobilised enemies
+COMPANIONS_HAVE_A_CHANCE_TO_POISON_ON_HIT_DAMAGE	Companions have a {X}% chance to Poison on HitDamage
+COMPANIONS_HAVE_CHANCE_TO_GAIN_ONSLAUGHT_ON_KILL	Companions have {X}% chance to gain Onslaught on Kill
+COMPANIONS_IN_YOUR_PRESENCE_HAVE_ONSLAUGHT_WHILE_YOU_ARE_SHAPESHIFTED	Companions in your Presence have Onslaught while you are Shapeshifted
+CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_OF_MAX_HEALTH_PER_RAGE_CONSUMED	Consume all Rage when Shapeshifting to Human form to recover {X}% of maximum life per Rage Consumed
+CONSUMING_GLORY_GRANTS_YOU_INC_ATTACK_DAMAGE_PER_GLORY_CONSUMED_FOR_SECONDS_UP_TO	Consuming Glory grants you {X}% increased Attack damage per Glory consumed for {X} seconds, up to {X}%
+CREATE_COLD_ELEMENTAL_INFUSION_REMNANTS_INSTEAD_OF_LIGHTNING	Create Cold ElementalInfusion Remnants instead of Lightning
+CREATE_FIRE_ELEMENTAL_INFUSION_REMNANTS_INSTEAD_OF_COLD	Create Fire ElementalInfusion Remnants instead of Cold
+CREATE_LIGHTNING_ELEMENTAL_INFUSION_REMNANTS_INSTEAD_OF_FIRE	Create Lightning ElementalInfusion Remnants instead of Fire
+CRITICAL_HITS_WITH_DAGGERS_HAVE_A_CHANCE_TO_POISON_THE_ENEMY	Critical Hits with Daggers have a {X}% chance to Poison the Enemy
+CULLING_STRIKE_AGAINST_BEASTS_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE	Culling Strike against Beasts while your Companion is in your Presence
+CULLING_STRIKE_AGAINST_ENEMIES_YOU_MARK	Culling Strike against Enemies you Mark
+DAMAGING_AILMENTS_CANNOT_BE_INFLICTED_ON_YOU_WHILE_YOU_ALREADY_HAVE_ONE	Damaging Ailments Cannot Be inflicted on you while you already have one
+DEAL_NO_NON_FIRE_DAMAGE	Deal no Non-Fire Damage
+DEBUFFS_INFLICTED_BY_HAZARDS_HAVE_INC_SLOW_MAGNITUDE	Debuffs inflicted by Hazards have {X}% increased Slow Magnitude
+DEBUFFS_ON_YOU_EXPIRE_FASTER	Debuffs on you expire {X}% faster
+DEFLECTED_HIT_DAMAGE_CANNOT_INFLICT_BLEEDING_ON_YOU	Deflected HitDamage cannot inflict Bleeding on you
+DEFLECTED_HIT_DAMAGE_CANNOT_INFLICT_MAIM_ON_YOU	Deflected HitDamage cannot inflict Maim on you
+DETONATOR_SKILLS_HAVE_INC_AREA_OF_EFFECT	Detonator skills have {X}% increased Area of Effect
+DETONATOR_SKILLS_HAVE_INC_DAMAGE	Detonator skills have {X}% increased damage
+DODGE_ROLL_CANNOT_AVOID_DAMAGE	Dodge Roll cannot Avoid Damage
+DOUBLE_ACTIVATION_DELAY_OF_CURSES	Double Activation Delay of Curses
+EACH_TOTEM_APPLIES_INC_DAMAGE_TAKEN_TO_ENEMIES_IN_THEIR_PRESENCE	Each Totem applies {X}% increased Damage taken to Enemies in their Presence
+ECHOED_SPELLS_HAVE_INC_AREA_OF_EFFECT	Echoed Spells have {X}% increased Area of Effect
+ENEMIES_IGNITED_BY_YOU_PERMANENTLY_TAKE_INC_FIRE_DAMAGE_FOR_EACH_SECOND_THEY_HAVE_EVER_BEEN_IGNITED_BY_YOU_UP_TO_A_MAX_OF	Enemies Ignited by you permanently take {X}% increased Fire Damage for each second they have ever been Ignited by you, up to a maximum of {X}%
+ENEMIES_AFFECTED_BY_YOUR_HAZARDS_RECENTLY_HAVE_INC_ARMOR	Enemies affected by your Hazards Recently have {X}% increased Armour
+ENEMIES_AFFECTED_BY_YOUR_HAZARDS_RECENTLY_HAVE_INC_EVASION	Enemies affected by your Hazards Recently have {X}% increased Evasion Rating
+ENEMIES_ARE_INTIMIDATED_FOR_SECONDS_WHEN_YOU_IMMOBILISED_THEM	Enemies are Intimidated for {X} seconds when you Immobilised them
+ENEMIES_ARE_MAIMED_FOR_SECONDS_AFTER_BECOMING_UNPINNED	Enemies are Maimed for {X} seconds after becoming Unpinned
+ENEMIES_NEAR_ENEMIES_YOU_MARK_ARE_BLINDED	Enemies near Enemies you Mark are Blinded
+ENEMIES_YOU_CURSE_ARE_HINDERED_WITH_INC_MOVEMENT_SPEED	Enemies you Curse are Hindered, with {X}% increased Movement Speed
+ENEMIES_YOU_CURSE_CANNOT_RECHARGE_ENERGY_SHIELD	Enemies you Curse cannot Recharge Energy Shield
+ENEMIES_YOU_CURSE_HAVE_TO_CHAOS_RESISTANCES	Enemies you Curse have -{X}% to Chaos Resistances
+ENEMIES_YOU_FULLY_ARMOR_BREAK_ARE_MAIMED	Enemies you Fully Armour Break are Maimed
+ENEMIES_YOU_FULLY_ARMOR_BREAK_CANNOT_REGENERATE_HEALTH	Enemies you Fully Armour Break cannot Regenerate Life
+ENEMIES_YOU_HEAVY_STUN_WHILE_SHAPESHIFTED_ARE_INTIMIDATED_FOR_SECONDS	Enemies you Heavy Stun while Shapeshifted are Intimidated for {X} seconds
+ENEMIES_YOU_MARK_CANNOT_DEAL_CRITICAL_HITS	Enemies you Mark cannot deal Critical Hits
+ENEMIES_YOU_MARK_HAVE_INC_ACCURACY	Enemies you Mark have {X}% increased Accuracy Rating
+ENEMIES_YOU_MARK_TAKE_INC_DAMAGE	Enemies you Mark take {X}% increased Damage
+ENEMIES_YOU_APPLY_INCISION_TO_TAKE_INC_PHYSICAL_DAMAGE_PER_INCISION	Enemies you apply Incision to take {X}% increased Physical Damage per Incision
+ENEMIES_YOU_INFLICT_BLEEDING_ON_CANNOT_REGENERATE_HEALTH	Enemies you inflict Bleeding on cannot Regenerate Life
+ENEMIES_YOU_KILL_WITH_EMPOWERED_ATTACKS_HAVE_A_CHANCE_TO_EXPLODE_DEALING_A_TENTH_OF_THEIR_MAX_HEALTH_AS_FIRE_DAMAGE	Enemies you kill with Empowered Attacks have a {X}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage
+ENERGY_SHIELD_DOES_NOT_ESRECHARGE	Energy Shield does not ESRecharge
+ENERGY_SHIELD_DOES_NOT_RECHARGE	Energy Shield does not Recharge
+EQUIPMENT_AND_SKILL_GEMS_HAVE_INC_ATTRIBUTES_REQUIREMENTS	Equipment and Skill Gems have {X}% increased Attributes Requirements
+EXCESS_HEALTH_RECOVERY_FROM_REGENERATION_IS_APPLIED_TO_ENERGY_SHIELD	Excess Life Recovery from Regeneration is applied to Energy Shield
+EXPOSURE_YOU_INFLICT_LOWERS_RESISTANCES_BY_AN_ADDITIONAL	Exposure you inflict lowers Resistances by an additional {X}%
+FIRE_SPELLS_CONVERSION_OF_FIRE_DAMAGE_TO_CHAOS_DAMAGE	Fire Spells Conversion {X}% of Fire Damage to Chaos Damage
+FISSURE_SKILLS_HAVE_TO_LIMIT	Fissure Skills have +{X} to Limit
+FULLY_BROKEN_ARMOR_YOU_INFLICT_ALSO_INC_FIRE_DAMAGE_TAKEN_FROM_HIT_DAMAGE	Fully Broken Armour you inflict also increased Fire Damage Taken from HitDamage
+GRENADES_HAVE_CHANCE_TO_ACTIVATE_A_SECOND_TIME	Grenades have {X}% chance to activate a second time
+HAZARDS_HAVE_CHANCE_TO_REARM_AFTER_THEY_ARE_TRIGGERED	Hazards have {X}% chance to rearm after they are triggered
+HIT_DAMAGE_ARMOR_BREAK_INC_ARMOR_ON_TARGETS_WITH_AILMENTS	HitDamage ArmourBreak {X}% increased Armour on targets with Ailments
+HIT_DAMAGE_AGAINST_YOU_HAVE_INC_CRITICAL_DAMAGE_BONUS	HitDamage against you have {X}% increased Critical Damage Bonus
+HIT_DAMAGE_HAVE_CHANCE_TO_TREAT_ENEMY_MONSTER_ELEMENTAL_DAMAGE_RESISTANCES_VALUES_AS_INVERTED	HitDamage have {X}% chance to treat Enemy Monster ElementalDamage Resistances values as inverted
+HIT_DAMAGE_HAVE_INC_CRITICAL_HIT_CHANCE_AGAINST_YOU	HitDamage have {X}% increased Critical Hit Chance against you
+HIT_DAMAGE_IGNORE_NON_NEGATIVE_ELEMENTAL_DAMAGE_RESISTANCES_OF_FROZEN_ENEMIES	HitDamage ignore non-negative ElementalDamage Resistances of Frozen Enemies
+HITS_THAT_HEAVY_STUN_ENEMIES_HAVE_CULLING_STRIKE	Hits that Heavy Stun Enemies have Culling Strike
+IF_YOU_WOULD_GAIN_A_CHARGES_ALLIES_IN_YOUR_PRESENCE_GAIN_THAT_CHARGES_INSTEAD	If you would gain a Charges, Allies in your Presence gain that Charges instead
+IGNITE_INFLICTED_WITH_FIRE_SPELLS_DEALS_CHAOS_DAMAGE_INSTEAD_OF_FIRE_DAMAGE	Ignite inflicted with Fire Spells deals Chaos Damage instead of Fire Damage
+IGNITES_YOU_CAUSE_ARE_REFLECTED_BACK_TO_YOU	Ignites you cause are reflected back to you
+IGNITES_YOU_INFLICT_DEAL_DAMAGE_FASTER	Ignites you inflict deal Damage {X}% faster
+IGNORE_ALL_MOVEMENT_PENALTIES_FROM_EQUIP_ARMOR	Ignore all Movement Penalties from EquipArmour
+IMMUNE_TO_CHAOS_DAMAGE_AND_BLEEDING	Immune to Chaos Damage and Bleeding
+INHERENT_HEALTH_GRANTED_BY_STRENGTH_IS_HALVED	Inherent Life granted by Strength is halved
+INHERENT_RAGE_LOSS_STARTS_SECOND_LATER	Inherent Rage loss starts {X} second later
+INHERENT_LOSS_OF_RAGE_IS_SLOWER	Inherent loss of Rage is {X}% slower
+INVOCATED_SPELLS_DEAL_INC_DAMAGE	Invocated Spells deal {X}% increased Damage
+INVOCATED_SPELLS_HAVE_CHANCE_TO_CONSUME_HALF_AS_MUCH_ENERGY	Invocated Spells have {X}% chance to consume half as much Energy
+INVOCATED_SPELLS_HAVE_INC_CRITICAL_HIT_CHANCE	Invocated Spells have {X}% increased Critical Hit Chance
+INVOCATED_SKILLS_HAVE_INC_MAX_ENERGY	Invocated skills have {X}% increased Maximum Energy
+INVOCATION_SKILLS_CANNOT_GAIN_ENERGY_WHILE_TRIGGERING_SPELLS	Invocation Skills cannot gain Energy while Triggering Spells
+INVOCATION_SKILLS_INSTEAD_TRIGGER_SPELLS_EVERY_SECONDS	Invocation Skills instead Trigger Spells every {X} seconds
+INVOCATION_SPELLS_HAVE_INC_CRITICAL_DAMAGE_BONUS	Invocation Spells have {X}% increased Critical Damage Bonus
+INVOKED_SPELLS_CONSUME_MORE_ENERGY	Invoked Spells consume {X}% more Energy
+KNOCKS_BACK_ENEMIES_IF_YOU_GET_A_CRITICAL_HIT_WITH_A_QUARTERSTAFF	Knocks Back Enemies if you get a Critical Hit with a Quarterstaff
+LEECHING_HEALTH_FROM_YOUR_HIT_DAMAGE_CAUSES_YOUR_COMPANION_TO_ALSO_LEECH_THE_SAME_AMOUNT_OF_HEALTH	Leeching Life from your HitDamage causes your Companion to also Leech the same amount of Life
+HEALTH_FLASKS_APPLIED_TO_YOU_GRANT_GUARD_FOR_SECONDS_EQUAL_TO_OF_THE_HEALTH_RECOVERY_PER_SECOND_THEY_APPLY	Life Flasks applied to you grant Guard for {X} seconds equal to {X}% of the Life Recovery per Second they apply
+HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND	Life Flasks gain {X} charges per Second
+HEALTH_LEECH_EFFECTS_ARE_NOT_ADD_WHEN_RESERVATION_HEALTH_IS_FILLED	Life Leech effects are not add when Reservation Life is Filled
+HEALTH_HEALTH_RECHARGE_INSTEAD_OF_ENERGY_SHIELD	Life LifeRecharge instead of Energy Shield
+HEALTH_RECOVERY_FROM_YOUR_FLASKS_ALSO_APPLIES_TO_YOUR_COMPANIONS	Life Recovery from your Flasks also applies to your Companions
+HEALTH_LOSS_OF_MAX_HEALTH_AND_ENERGY_SHIELD_WHEN_YOU_USE_A_CHAOS_SKILL	LifeLoss {X}% of maximum Life and Energy Shield when you use a Chaos Skill
+MANA_COSTS_ARE_DOUBLED	Mana Costs are Doubled
+MANA_FLASKS_GAIN_CHARGES_PER_SECOND	Mana Flasks gain {X} charges per Second
+MARK_SKILLS_HAVE_INC_SKILL_EFFECT_DURATION	Mark Skills have {X}% increased Skill Effect Duration
+MARK_SKILLS_HAVE_INC_USE_SPEED	Mark Skills have {X}% increased Use Speed
+MAX_HEALTH_IS	Maximum Life is {X}
+MAX_VOLATILITY_IS	Maximum Volatility is {X}
+MELEE_ATTACK_SKILLS_HAVE_TO_MAX_NUMBER_OF_SUMMONED_TOTEMS	Melee Attack Skills have +{X} to maximum number of Summoned Totems
+META_SKILLS_GAIN_INC_ENERGY	Meta Skills gain {X}% increased Energy
+META_SKILLS_GAIN_INC_ENERGY_IF_YOU_VE_DEALT_A_CRITICAL_HIT_DAMAGE_RECENTLY	Meta Skills gain {X}% increased Energy if you've dealt a Critical HitDamage Recently
+MINIONS_BREAK_ARMOR_EQUAL_TO_OF_PHYSICAL_DAMAGE_DEALT	Minions Break Armour equal to {X}% of Physical damage dealt
+MINIONS_REVIVING_FASTER	Minions Reviving {X}% faster
+MINIONS_REVIVING_FASTER_IF_ALL_YOUR_MINIONS_ARE_COMPANIONS	Minions Reviving {X}% faster if all your Minions are Companions
+MINIONS_CAUSE_INC_STUN_BUILDUP	Minions cause {X}% increased Stun Buildup
+MINIONS_DEAL_INC_DAMAGE_WITH_COMMAND_SKILLS_FOR_EACH_DIFFERENT_TYPE_OF_PERSISTENT_MINION_IN_YOUR_PRESENCE	Minions deal {X}% increased Damage with Command Skills for each different type of Persistent Minion in your Presence
+MINIONS_GAIN_OF_PHYSICAL_DAMAGE_AS_CHAOS_DAMAGE	Minions gain {X}% of Physical Damage as Chaos Damage
+MINIONS_GAIN_OF_THEIR_MAX_HEALTH_AS_EXTRA_MAX_ENERGY_SHIELD	Minions gain {X}% of their maximum Life as Extra maximum Energy Shield
+MINIONS_HAVE_ADDITIONAL_PHYSICAL_DAMAGE_REDUCTION	Minions have {X}% additional Physical Damage Reduction
+MINIONS_HAVE_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE	Minions have {X}% chance to inflict Withered on HitDamage
+NEVER_DEAL_CRITICAL_HITS	Never deal Critical Hits
+NO_CHARGES_REQUIREMENT_FOR_PLACING_TOTEMS	No Charges requirement for placing Totems
+NO_RAGE_EFFECT	No Rage effect
+NON_MINION_SKILLS_HAVE_MORE_RESERVATION_EFFICIENCY	Non-Minion Skills have {X}% more Reservation Efficiency
+OFFERING_SKILLS_HAVE_INC_DURATION	Offering Skills have {X}% increased Duration
+OFFERINGS_CANNOT_BE_DAMAGED_IF_THEY_HAVE_BEEN_CREATED_RECENTLY	Offerings cannot be damaged if they have been created Recently
+ORB_SKILLS_HAVE_TO_LIMIT	Orb Skills have +{X} to Limit
+OVERGROWN_PLANT_SKILLS_ARMOR_BREAK_INC_ARMOR	Overgrown Plant Skills ArmourBreak {X}% increased Armour
+PHYSICAL_SPELL_CRITICAL_HIT_DAMAGE_BUILD_PINNED	Physical Spell Critical HitDamage build Pinned
+PINNED_ENEMIES_CANNOT_DEAL_CRITICAL_HITS	Pinned Enemies cannot deal Critical Hits
+PLANTS_HAVE_A_CHANCE_TO_IMMEDIATELY_OVERGROW	Plants have a {X}% chance to immediately Overgrow
+PREVENT_OF_DAMAGE_FROM_DEFLECTED_CRITICAL_HIT_DAMAGE	Prevent +{X}% of Damage from Deflected Critical HitDamage
+PREVENT_OF_DAMAGE_FROM_DEFLECTED_HIT_DAMAGE	Prevent +{X}% of Damage from Deflected HitDamage
+PROJECTILE_ATTACKS_HAVE_A_CHANCE_TO_FIRE_TWO_ADDITIONAL_PROJECTILES_WHILE_MOVING	Projectile Attacks have a {X}% chance to fire two additional Projectiles while moving
+PROJECTILES_PIERCE_ENEMIES_WITH_FULLY_BROKEN_ARMOR	Projectiles Pierce enemies with Fully Broken Armour
+PROJECTILES_HAVE_CHANCE_FOR_AN_ADDITIONAL_PROJECTILE_WHEN_FORKING	Projectiles have {X}% chance for an additional Projectile when Forking
+PROJECTILES_HAVE_CHANCE_TO_FORK_IF_YOU_VE_DEALT_A_MELEE_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS	Projectiles have {X}% chance to Fork if you've dealt a Melee HitDamage in the past eight seconds
+QUARTERSTAFF_SKILLS_THAT_CONSUME_POWER_CHARGES_COUNT_AS_CONSUMING_AN_ADDITIONAL_POWER_CHARGE	Quarterstaff Skills that consume Power Charges count as consuming an additional Power Charge
+RECOVER_OF_MAX_HEALTH_ON_KILL	Recover {X}% of maximum Life on Kill
+RECOVER_OF_MAX_HEALTH_ON_KILLING_A_POISONED_ENEMY	Recover {X}% of maximum Life on Killing a Poisoned Enemy
+RECOVER_OF_MAX_HEALTH_WHEN_ONE_OF_YOUR_MINIONS_IS_REVIVING	Recover {X}% of maximum Life when one of your Minions is Reviving
+RECOVER_OF_MAX_HEALTH_WHEN_YOU_HEAVY_STUN_A_RARE_OR_UNIQUE_ENEMY	Recover {X}% of maximum Life when you Heavy Stun a Rare or Unique Enemy
+REGENERATE_RAGE_PER_SECOND_PER_RAGE_SPENT_RECENTLY	Regenerate {X} Rage per second per {X} Rage spent Recently
+REGENERATE_OF_MAX_HEALTH_OVER_SECOND_WHEN_STUNNED	Regenerate {X}% of maximum Life over {X} second when Stunned
+REGENERATE_OF_MAX_HEALTH_PER_SECOND_IF_YOU_VE_USED_A_HEALTH_FLASK_IN_THE_PAST_SECONDS	Regenerate {X}% of maximum Life per Second if you've used a Life Flask in the past {X} seconds
+SEALED_SKILLS_HAVE_INC_SEAL_GAIN_FREQUENCY	Sealed Skills have {X}% increased Seal gain frequency
+SHAPESHIFT_SKILLS_HAVE_INC_SKILL_EFFECT_DURATION	Shapeshift Skills have {X}% increased Skill Effect Duration
+SHOCKING_HIT_DAMAGE_HAVE_A_CHANCE_TO_ALSO_SHOCK_ENEMIES_IN_A_METRE_RADIUS	Shocking HitDamage have a {X}% chance to also Shock enemies in a {X} metre radius
+SKILLS_DEAL_INC_DAMAGE_PER_COMBO_CONSUMED_UP_TO	Skills deal {X}% increased Damage per Combo consumed, up to {X}%
+SKILLS_GAIN_COMBO_SLOWER	Skills gain Combo {X}% slower
+SKILLS_GAIN_GLORY_EVERY_SECONDS_FOR_EACH_RARE_OR_UNIQUE_MONSTER_IN_YOUR_PRESENCE	Skills gain {X} Glory every {X} seconds for each Rare or Unique monster in your Presence
+SKILLS_HAVE_CHANCE_TO_NOT_ADD_CHARGES_BUT_STILL_COUNT_AS_CONSUMING_THEM	Skills have {X}% chance to not add Charges but still count as consuming them
+SKILLS_HAVE_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM	Skills have {X}% chance to not add Elemental Infusions but still count as consuming them
+SKILLS_WHICH_CREATE_FISSURES_HAVE_A_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE	Skills which create Fissures have a {X}% chance to create an additional Fissure
+STAT_CONVERSION_ALL_EVASION_TO_ARMOR	StatConversion all Evasion Rating to Armour
+STAT_CONVERSION_OF_MAX_ENERGY_SHIELD_TO_MAX_MANA	StatConversion {X}% of maximum Energy Shield to maximum Mana
+STORM_AND_PLANT_SPELLS_DEAL_MORE_DAMAGE_COST_MORE_HAVE_MORE_DURATION	Storm and Plant Spells: • deal {X}% more damage • cost {X}% more • have {X}% more duration
+STRIKE_SKILLS_YOU_USE_YOURSELF_WITH_MACES_HAVE_CHANCE_TO_DEAL_SPLASH_DAMAGE	Strike Skills you use yourself with Maces have {X}% chance to deal Splash Damage
+STUN_THRESHOLD_IS_BASED_ON_OF_YOUR_ENERGY_SHIELD_INSTEAD_OF_HEALTH	Stun Threshold is based on {X}% of your Energy Shield instead of Life
+SUCCESSFULLY_PARRYING_A_MELEE_HIT_DAMAGE_GRANTS_INC_DAMAGE_TO_YOUR_NEXT_RANGED_ATTACK	Successfully Parrying a Melee HitDamage grants {X}% increased Damage to your next Ranged Attack
+SUCCESSFULLY_PARRYING_A_PROJECTILE_HIT_DAMAGE_GRANTS_INC_DAMAGE_TO_YOUR_NEXT_MELEE_ATTACK	Successfully Parrying a Projectile HitDamage grants {X}% increased Damage to your next Melee Attack
+TAKE_MORE_DAMAGE_OVER_TIME_IF_YOU_HAVEN_T_STARTED_TAKING_DAMAGE_OVER_TIME_IN_THE_PAST_SECOND	Take {X}% more Damage over Time if you haven't started taking Damage over Time in the past second
+TAKE_MORE_DAMAGE_OVER_TIME_IF_YOU_VE_STARTED_TAKING_DAMAGE_OVER_TIME_IN_THE_PAST_SECOND	Take {X}% more Damage over Time if you've started taking Damage over Time in the past second
+TARGETS_CURSED_BY_YOU_HAVE_INC_HEALTH_REGENERATION_RATE	Targets Cursed by you have {X}% increased Life Regeneration Rate
+TARGETS_CAN_BE_AFFECTED_BY_OF_YOUR_POISONS_AT_THE_SAME_TIME	Targets can be affected by +{X} of your Poisons at the same time
+TEMPORARY_MINION_SKILLS_HAVE_TO_LIMIT_OF_MINIONS_SUMMONED	Temporary Minion Skills have +{X} to Limit of Minions summoned
+THE_NEXT_ATTACK_YOU_USE_WITHIN_SECONDS_AFTER_HEAVY_STUNNING_A_RARE_OR_UNIQUE_ENEMY_IS_ANCESTRALLY_BOOSTED	The next Attack you use within {X} seconds after Heavy Stunning a Rare or Unique Enemy is Ancestrally Boosted
+THORNS_DAMAGE_HAS_CHANCE_TO_IGNORE_ENEMY_ARMOR	Thorns Damage has {X}% chance to ignore Enemy Armour
+TOTEMS_HAVE_ADDITIONAL_PHYSICAL_DAMAGE_REDUCTION	Totems have {X}% additional Physical Damage Reduction
+TOTEMS_RESERVE_SPIRIT_EACH	Totems reserve {X} Spirit each
+TRIGGERED_SPELLS_DEAL_INC_SPELL_DAMAGE	Triggered Spells deal {X}% increased Spell Damage
+TRIPLE_ATTRIBUTES_REQUIREMENTS_OF_MARTIAL_WEAPONS	Triple Attributes requirements of Martial Weapons
+UNAFFECTED_BY_CHILL_DURING_DODGE_ROLL	Unaffected by Chill during Dodge Roll
+UNAFFECTED_BY_CHILL_WHILE_MANA_LEECH_MANA	Unaffected by Chill while ManaLeech Mana
+UNAFFECTED_BY_CHILLED_GROUND	Unaffected by Chilled Ground
+UNAFFECTED_BY_ELEMENTAL_WEAKNESS	Unaffected by Elemental Weakness
+UNAFFECTED_BY_SHOCKED_GROUND	Unaffected by Shocked Ground
+UNARMED_ATTACKS_THAT_WOULD_USE_AN_EQUIPPED_QUARTERSTAFF_S_DAMAGE_HAVE_BASE_UNARMED_DAMAGE_PHYSICAL_DAMAGE_REPLACED_WITH_DAMAGE_BASED_ON_THEIR_SKILL_LEVEL_MORE_ATTACK_SPEED_PER_ITEM_EVASION_ON_EQUIPPED_ARMOR_ITEMS_TO_CRITICAL_HIT_CHANCE_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_ARMOR_ITEMS	Unarmed Attacks that would use an Equipped Quarterstaff's damage have: • Base UnarmedDamage Physical damage replaced with damage based on their Skill Level • {X}% more Attack Speed per {X} Item Evasion on Equipped Armour Items • +{X}% to Critical Hit Chance per {X} Item Energy Shield on Equipped Armour Items
+UNWITHERED_ENEMIES_ARE_WITHERED_FOR_SECONDS_WHEN_THEY_ENTER_YOUR_PRESENCE	Unwithered enemies are Withered for {X} seconds when they enter your Presence
+VOLATILE_POWER_ALSO_GRANTS_INC_CRITICAL_HIT_CHANCE_PER_VOLATILITY_EXPLODED	Volatile Power also grants {X}% increased Critical Hit chance per Volatility exploded
+WARCRIES_DEBILITATE_ENEMIES	Warcries Debilitate Enemies
+WARCRIES_HAVE_A_MINIMUM_OF_POWER	Warcries have a minimum of {X} Power
+WARCRIES_HAVE_CHANCE_TO_EMPOWERED_ADDITIONAL_ATTACKS	Warcries have {X}% chance to Empowered {X} additional Attacks
+WARCRIES_INFLICT_CRITICAL_WEAKNESS_ON_ENEMIES	Warcries inflict {X} Critical Weakness on Enemies
+WHEN_A_BANNER_EXPIRES_RECOVER_OF_THE_GLORY_REQUIRED_FOR_THAT_BANNER	When a Banner expires, recover {X}% of the Glory required for that Banner
+WHEN_YOU_SHAPESHIFT_TO_HUMAN_FORM_GAIN_INC_SPELL_DAMAGE_PER_SECOND_YOU_WERE_SHAPESHIFTED_UP_TO_A_MAX_OF_FOR_SECONDS	When you Shapeshift to Human form, gain {X}% increased Spell Damage per second you were Shapeshifted, up to a maximum of {X}%, for {X} seconds
+YOU_CAN_APPLY_AN_ADDITIONAL_CURSE	You can apply an additional Curse
+YOU_CAN_EQUIP_A_NON_ITEM_RARITY_SCEPTRE_WHILE_WIELDING_A_TALISMAN	You can equip a non-ItemRarity Sceptre while wielding a Talisman
+YOU_CAN_HAVE_TWO_COMPANIONS_OF_DIFFERENT_TYPES	You can have two Companions of different types
+YOU_CAN_WIELD_TWO_HANDED_AXES_MACES_AND_SWORDS_IN_ONE_HAND	You can wield Two-Handed Axes, Maces and Swords in one hand
+YOU_CANNOT_RECOVER_ENERGY_SHIELD_FROM_REGENERATION	You cannot Recover Energy Shield from Regeneration
+YOU_CANNOT_RECOVER_ENERGY_SHIELD_TO_ABOVE_ARMOR	You cannot Recover Energy Shield to above Armour
+YOU_HAVE_NO_MANA	You have no Mana
+YOUR_AURA_BUFFS_DO_NOT_AFFECT_ALLIES	Your Aura Buffs do not affect Allies
+YOUR_CURSES_HAVE_INC_BUFF_MAGNITUDE_IF_OF_CURSE_DURATION_EXPIRED	Your Curses have {X}% increased BuffMagnitude if {X}% of Curse Duration expired
+YOUR_HEAVY_STUN_BUILDUP_EMPTIES_FASTER	Your Heavy Stun buildup empties {X}% faster
+YOUR_HEAVY_STUN_BUILDUP_EMPTIES_FASTER_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY	Your Heavy Stun buildup empties {X}% faster if you've successfully Parried Recently
+YOUR_MINIONS_ARE_GIGANTIC	Your Minions are Gigantic
+YOUR_TOTEM_LIMIT_IS_DOUBLED	Your Totem Limit is doubled
+ADD_IGNITE_WHEN_YOU_WARCRY	add Ignite when you Warcry
+ADD_A_CURSE_AFTER_CHANNELLING_FOR_SECONDS	add a Curse after Channelling for {X} seconds
+ADD_A_CURSE_WHEN_YOU_USE_A_MANA_FLASK	add a Curse when you use a Mana Flask
+GAIN_AILMENT_THRESHOLD_EQUAL_TO_THE_LOWEST_OF_EVASION_AND_ARMOR_ON_YOUR_BOOTS	gain Ailment Threshold equal to the lowest of Evasion and Armour on your Boots
+GAIN_ARCANE_SURGE_WHEN_YOU_SHAPESHIFT_TO_HUMAN_FORM_AFTER_BEING_SHAPESHIFTED_FOR_AT_LEAST_SECONDS	gain Arcane Surge when you Shapeshift to Human form after being Shapeshifted for at least {X} seconds
+GAIN_ARMOR_EQUAL_TO_OF_TOTAL_STRENGTH_REQUIREMENTS_OF_EQUIPPED_BOOTS_GLOVES_AND_HELMET	gain Armour equal to {X}% of total Strength Requirements of Equipped Boots, Gloves and Helmet
+GAIN_DEFLECTION_RATING_EQUAL_TO_OF_EVASION	gain Deflection Rating equal to {X}% of Evasion Rating
+GAIN_ELEMENTAL_ARCHON_AFTER_SPENDING_OF_YOUR_MAX_MANA	gain Elemental Archon after spending {X}% of your Maximum Mana
+GAIN_ELEMENTAL_ARCHON_WHEN_YOUR_ENERGY_SHIELD_RECHARGE_BEGINS	gain Elemental Archon when your Energy Shield Recharge begins
+GAIN_ENDURANCE_CHARGES_INSTEAD_OF_POWER_CHARGES	gain Endurance Charges instead of Power Charges
+GAIN_FRENZY_CHARGES_INSTEAD_OF_ENDURANCE_CHARGES	gain Frenzy Charges instead of Endurance Charges
+GAIN_PHYSICAL_THORNS_DAMAGE_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_BODY_ARMOR	gain Physical Thorns damage equal to {X}% of Item Armour on Equipped Body Armour
+GAIN_POWER_CHARGES_INSTEAD_OF_FRENZY_CHARGES	gain Power Charges instead of Frenzy Charges
+GAIN_STUN_THRESHOLD_EQUAL_TO_THE_LOWEST_OF_EVASION_AND_ARMOR_ON_YOUR_HELMET	gain Stun Threshold equal to the lowest of Evasion and Armour on your Helmet
+GAIN_A_POWER_CHARGE_WHEN_YOU_CONSUME_AN_ELEMENTAL_INFUSION	gain a Power Charge when you consume an Elemental Infusion
+GAIN_ADDITIONAL_AILMENT_THRESHOLD_EQUAL_TO_OF_MAX_ENERGY_SHIELD	gain additional Ailment Threshold equal to {X}% of maximum Energy Shield
+GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS	gain additional Stun Threshold equal to {X}% of Item Armour on Equipped Armour Items
+GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_MAX_ENERGY_SHIELD	gain additional Stun Threshold equal to {X}% of maximum Energy Shield
+GAIN_AN_ENDURANCE_CHARGE_WHEN_YOU_HEAVY_STUN_A_RARE_OR_UNIQUE_ENEMY	gain an Endurance Charge when you Heavy Stun a Rare or Unique Enemy
+GAIN_HEALTH_PER_ENEMY_KILLED	gain {X} Life per enemy killed
+GAIN_RAGE_ON_MELEE_AXE_HIT_DAMAGE	gain {X} Rage on Melee Axe HitDamage
+GAIN_RAGE_ON_MELEE_HIT_DAMAGE	gain {X} Rage on Melee HitDamage
+GAIN_RAGE_WHEN_HIT_DAMAGE_BY_AN_ENEMY	gain {X} Rage when HitDamage by an Enemy
+GAIN_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK	gain {X} Rage when you use a Life Flask
+GAIN_RAGE_WHEN_YOUR_HIT_DAMAGE_IGNITES_A_TARGET	gain {X} Rage when your HitDamage Ignites a target
+GAIN_VOLATILITY_WHEN_AN_ALLIES_PERSISTENT_REVIVING_MINION_IS_MINION_DEATH	gain {X} Volatility when an Allies Persistent Reviving Minion is MinionDeath
+GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_PER_ENDURANCE_CHARGE_CONSUMED_RECENTLY	gain {X}% of Damage as Extra Fire Damage per Endurance Charge consumed Recently
+GAIN_OF_MAX_ENERGY_SHIELD_AS_ADDITIONAL_FREEZE_THRESHOLD	gain {X}% of maximum Energy Shield as additional Freeze Threshold
+INC_AND_REDUCTIONS_TO_COMPANION_DAMAGE_ALSO_APPLY_TO_YOU	increased and Reductions to Companion Damage also apply to you
+INC_AND_REDUCTIONS_TO_PROJECTILE_SPEED_ALSO_APPLY_TO_DAMAGE_WITH_BOWS	increased and Reductions to Projectile Speed also apply to Damage with Bows
+CHANCE_TO_BUILD_AN_ADDITIONAL_COMBO_ON_HIT_DAMAGE	{X}% Chance to build an additional Combo on HitDamage
+CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION	{X}% chance for Attack HitDamage to apply ten Incision
+CHANCE_FOR_BLEEDING_TO_BE_AGGRAVATED_WHEN_INFLICTED_AGAINST_ENEMIES_ON_JAGGED_GROUND	{X}% chance for Bleeding to be Aggravated when Inflicted against Enemies on Jagged Ground
+CHANCE_FOR_DAMAGE_OF_ENEMIES_HIT_DAMAGE_YOU_TO_BE_UNLUCKY	{X}% chance for Damage of Enemies HitDamage you to be Unlucky
+CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY	{X}% chance for Damage with HitDamage to be Lucky
+CHANCE_FOR_FLASKS_YOU_USE_TO_NOT_CONSUME_CHARGES	{X}% chance for Flasks you use to not consume Charges
+CHANCE_FOR_LIGHTNING_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY	{X}% chance for Lightning Damage with HitDamage to be Lucky
+CHANCE_FOR_LIGHTNING_SKILLS_TO_CHAIN_AN_ADDITIONAL_TIME	{X}% chance for Lightning Skills to Chain an additional time
+CHANCE_FOR_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK	{X}% chance for Slam Skills you use yourself to cause an additional Aftershock
+CHANCE_FOR_SPELL_SKILLS_TO_FIRE_ADDITIONAL_PROJECTILES	{X}% chance for Spell Skills to fire {X} additional Projectiles
+CHANCE_FOR_TRIGGER_SKILLS_TO_REFUND_HALF_OF_ENERGY_SPENT	{X}% chance for Trigger skills to refund half of Energy Spent
+CHANCE_ON_CONSUMING_A_SHOCK_ON_AN_ENEMY_TO_REAPPLY_IT	{X}% chance on Consuming a Shock on an Enemy to reapply it
+CHANCE_THAT_IF_YOU_WOULD_GAIN_ENDURANCE_CHARGES_YOU_INSTEAD_GAIN_UP_TO_MAX_ENDURANCE_CHARGES	{X}% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges
+CHANCE_THAT_IF_YOU_WOULD_GAIN_FRENZY_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_FRENZY_CHARGES	{X}% chance that if you would gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges
+CHANCE_THAT_IF_YOU_WOULD_GAIN_POWER_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_POWER_CHARGES	{X}% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges
+CHANCE_THAT_IF_YOU_WOULD_GAIN_RAGE_ON_HIT_DAMAGE_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_RAGE	{X}% chance that if you would gain Rage on HitDamage, you instead gain up to your maximum Rage
+CHANCE_THAT_WHEN_VOLATILITY_ON_YOU_EXPLODES_YOU_REGAIN_AN_EQUIVALENT_AMOUNT_OF_VOLATILITY	{X}% chance that when Volatility on you explodes, you regain an equivalent amount of Volatility
+CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_CRITICALLY_HIT_WITH_ATTACKS	{X}% chance to Aggravate Bleeding on targets you Critically Hit with Attacks
+CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_HIT_DAMAGE_WITH_ATTACKS	{X}% chance to Aggravate Bleeding on targets you HitDamage with Attacks
+CHANCE_TO_AVOID_DEATH_FROM_HIT_DAMAGE	{X}% chance to Avoid Death from HitDamage
+CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE_WITH_ATTACKS	{X}% chance to Blind Enemies on HitDamage with Attacks
+CHANCE_TO_DAZE_ENEMIES_WHOSE_HIT_DAMAGE_YOU_BLOCK_WITH_A_RAISED_SHIELD	{X}% chance to Daze Enemies whose HitDamage you Block with a raised Shield
+CHANCE_TO_DAZE_ON_HIT_DAMAGE	{X}% chance to Daze on HitDamage
+CHANCE_TO_DEFEND_WITH_OF_ARMOR	{X}% chance to Defend with {X}% of Armour
+CHANCE_TO_KNOCK_BACK_BLEEDING_ENEMIES_WITH_HIT_DAMAGE	{X}% chance to Knock Back Bleeding Enemies with HitDamage
+CHANCE_TO_PIERCE_AN_ENEMY	{X}% chance to Pierce an Enemy
+CHANCE_TO_POISON_ON_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_NOT_POISONED	{X}% chance to Poison on HitDamage against Enemies that are not Poisoned
+CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY	{X}% chance to Recover all Life when you Kill an Enemy
+CHANCE_TO_GAIN_ARCANE_SURGE_WHEN_YOU_DEAL_A_CRITICAL_HIT	{X}% chance to gain Arcane Surge when you deal a Critical Hit
+CHANCE_TO_GAIN_ARCHON_OF_UNDEATH_WHEN_YOU_USE_A_COMMAND_SKILL	{X}% chance to gain Archon of Undeath when you use a Command skill
+CHANCE_TO_GAIN_ONSLAUGHT_ON_KILLING_BLOW_WITH_AXES	{X}% chance to gain Onslaught on Killing Blow with Axes
+CHANCE_TO_GAIN_VOLATILITY_ON_KILL	{X}% chance to gain Volatility on Kill
+CHANCE_TO_INFLICT_BLEEDING_ON_CRITICAL_HIT_WITH_ATTACKS	{X}% chance to inflict Bleeding on Critical Hit with Attacks
+CHANCE_TO_INFLICT_DAZE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_FURTHER_THAN_XM	{X}% chance to inflict Daze with HitDamage against Enemies further than {X}m
+CHANCE_TO_NOT_DESTROY_CORPSES_WHEN_CONSUMING_CORPSES	{X}% chance to not destroy Corpses when Consuming Corpses
+CHANCE_WHEN_COLLECTING_AN_ELEMENTAL_INFUSION_TO_GAIN_AN_ADDITIONAL_ELEMENTAL_INFUSION_OF_THE_SAME_TYPE	{X}% chance when collecting an Elemental Infusion to gain an additional Elemental Infusion of the same type
+CHANCE_WHEN_YOU_RELOAD_A_CROSSBOW_TO_BE_IMMEDIATE	{X}% chance when you Reload a Crossbow to be immediate
+CHANCE_WHEN_YOU_GAIN_A_FRENZY_CHARGE_TO_GAIN_AN_ADDITIONAL_FRENZY_CHARGE	{X}% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge
+CHANCE_WHEN_YOU_GAIN_A_POWER_CHARGE_TO_GAIN_AN_ADDITIONAL_POWER_CHARGE	{X}% chance when you gain a Power Charge to gain an additional Power Charge
+CHANCE_WHEN_YOU_GAIN_AN_ENDURANCE_CHARGE_TO_GAIN_AN_ADDITIONAL_ENDURANCE_CHARGE	{X}% chance when you gain an Endurance Charge to gain an additional Endurance Charge
+FASTER_CURSE_ACTIVATION	{X}% faster Curse Activation
+FASTER_START_OF_INHERENT_RAGE_LOSS	{X}% faster start of inherent Rage loss
+INC_AREA_OF_EFFECT_FOR_ATTACKS_PER_ENEMY_YOU_VE_IGNITED_IN_THE_LAST_SECONDS_UP_TO	{X}% increased Area of Effect for Attacks per Enemy you've Ignited in the last {X} seconds, up to {X}%
+INC_AREA_OF_EFFECT_IF_YOU_HAVE_STUNNED_AN_ENEMY_RECENTLY	{X}% increased Area of Effect if you have Stunned an Enemy Recently
+INC_AREA_OF_EFFECT_IF_YOU_VE_STUNNED_AN_ENEMY_WITH_A_TWO_HANDED_MELEE_WEAPON_RECENTLY	{X}% increased Area of Effect if you've Stunned an Enemy with a Two Handed Melee Weapon Recently
+INC_AREA_OF_EFFECT_OF_ANCESTRALLY_BOOSTED_ATTACKS	{X}% increased Area of Effect of Ancestrally Boosted Attacks
+INC_ARMOR_BREAK_DURATION	{X}% increased Armour Break Duration
+INC_ARMOR_BREAK_TAKEN	{X}% increased Armour Break taken
+INC_ARMOR_FROM_EQUIPPED_BODY_ARMOR	{X}% increased Armour from Equipped Body Armour
+INC_ARMOR_IF_YOU_VE_HIT_DAMAGE_AN_ENEMY_WITH_A_MELEE_ATTACK_RECENTLY	{X}% increased Armour if you've HitDamage an Enemy with a Melee Attack Recently
+INC_ARMOR_EVASION_AND_ENERGY_SHIELD_FROM_EQUIPPED_SHIELD	{X}% increased Armour, Evasion and Energy Shield from Equipped Shield
+INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_WIELDING_A_QUARTERSTAFF	{X}% increased Armour, Evasion and Energy Shield while wielding a Quarterstaff
+INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE	{X}% increased Armour, Evasion and Energy Shield while your Companion is in your Presence
+INC_ATTACK_DAMAGE_FOR_EACH_DIFFERENT_NON_INSTANT_SPELL_YOU_VE_USED_IN_THE_PAST_SECONDS	{X}% increased Attack Damage for each different Non-Instant Spell you've used in the past {X} seconds
+INC_ATTACK_DAMAGE_IF_YOU_VE_CAST_A_SPELL_RECENTLY	{X}% increased Attack Damage if you've Cast a Spell Recently
+INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_NO_HEALTH_FLASK_USES_LEFT	{X}% increased Attack Damage while you have no Life Flask uses left
+INC_ATTACK_SPEED_DURING_ANY_FLASK_EFFECT	{X}% increased Attack Speed during any Flask Effect
+INC_ATTACK_SPEED_IF_YOU_HAVEN_T_ATTACKED_RECENTLY	{X}% increased Attack Speed if you haven't Attacked Recently
+INC_ATTACK_SPEED_PER_ENEMY_IN_CLOSE_RANGE	{X}% increased Attack Speed per Enemy in Close Range
+INC_ATTACK_SPEED_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE	{X}% increased Attack Speed while your Companion is in your Presence
+INC_ATTACK_AND_CAST_SPEED_DURING_EFFECT_OF_ANY_MANA_FLASK	{X}% increased Attack and Cast Speed during Effect of any Mana Flask
+INC_ATTRIBUTES	{X}% increased Attributes
+INC_BLEEDING_DURATION	{X}% increased Bleeding Duration
+INC_BLIND_DURATION	{X}% increased Blind duration
+INC_BLOCK_RECOVERY	{X}% increased Block Recovery
+INC_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS	{X}% increased BuffMagnitude of Impales inflicted with Spells
+INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT_ON_TARGETS_THAT_ARE_NOT_POISONED	{X}% increased BuffMagnitude of Poison you inflict on targets that are not Poisoned
+INC_CAST_SPEED_FOR_EACH_DIFFERENT_SPELL_YOU_VE_CAST_IN_THE_LAST_EIGHT_SECONDS	{X}% increased Cast Speed for each different Spell you've Cast in the last eight seconds
+INC_CAST_SPEED_PER_SPELL_ECHOED_RECENTLY_UP_TO	{X}% increased Cast Speed per Spell Echoed Recently, up to {X}%
+INC_CHAOS_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_PLAGUE	{X}% increased Chaos Damage while affected by Herald of Plague
+INC_COLD_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ICE	{X}% increased Cold Damage while affected by Herald of Ice
+INC_COST_EFFICIENCY	{X}% increased Cost Efficiency
+INC_COST_EFFICIENCY_OF_ATTACKS	{X}% increased Cost Efficiency of Attacks
+INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_DEALT_A_NON_CRITICAL_HIT_RECENTLY	{X}% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently
+INC_CRITICAL_HIT_CHANCE_AGAINST_HUMANOIDS	{X}% increased Critical Hit Chance against Humanoids
+INC_CULLING_STRIKE_THRESHOLD_AGAINST_IMMOBILISED_ENEMIES	{X}% increased Culling Strike Threshold against Immobilised Enemies
+INC_DAMAGE_AGAINST_DEMONS	{X}% increased Damage against Demons
+INC_DAMAGE_AGAINST_ENEMIES_WITH_FULLY_BROKEN_ARMOR	{X}% increased Damage against Enemies with Fully Broken Armour
+INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES_WHILE_SHAPESHIFTED	{X}% increased Damage against Immobilised Enemies while Shapeshifted
+INC_DAMAGE_DURING_ANY_FLASK_EFFECT	{X}% increased Damage during any Flask Effect
+INC_DAMAGE_FOR_EACH_HAZARD_TRIGGERED_RECENTLY_UP_TO	{X}% increased Damage for each Hazard triggered Recently, up to {X}%
+INC_DAMAGE_FOR_EACH_DIFFERENT_WARCRY_YOU_VE_USED_RECENTLY	{X}% increased Damage for each different Warcry you've used Recently
+INC_DAMAGE_FOR_EACH_TIME_YOU_VE_WARCRIED_RECENTLY	{X}% increased Damage for each time you've Warcried Recently
+INC_DAMAGE_FOR_EACH_TYPE_OF_ELEMENTAL_AILMENT_ON_ENEMY	{X}% increased Damage for each type of Elemental Ailment on Enemy
+INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_IN_THE_PAST_SECONDS	{X}% increased Damage if you've dealt a Critical Hit in the past {X} seconds
+INC_DAMAGE_WHILE_YOU_HAVE_AN_ACTIVE_CHARM	{X}% increased Damage while you have an active Charm
+INC_DAMAGE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE	{X}% increased Damage while your Companion is in your Presence
+INC_DAMAGE_WITH_CROSSBOWS_FOR_EACH_TYPE_OF_AMMUNITION_FIRED_IN_THE_PAST_SECONDS	{X}% increased Damage with Crossbows for each type of Ammunition fired in the past {X} seconds
+INC_DURATION_OF_EACH_PUPPET_MASTER_STACK	{X}% increased Duration of each Puppet Master stack
+INC_EFFECT_OF_YOUR_MARK_SKILLS	{X}% increased Effect of your Mark Skills
+INC_ELEMENTAL_DAMAGE_WITH_ATTACK_SKILLS_DURING_ANY_FLASK_EFFECT	{X}% increased Elemental Damage with Attack Skills during any Flask Effect
+INC_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY	{X}% increased ElementalAilments Ailment Application if you have Shapeshifted to an Animal form Recently
+INC_ENDURANCE_CHARGE_DURATION	{X}% increased Endurance Charge Duration
+INC_ENDURANCE_FRENZY_AND_POWER_CHARGE_DURATION	{X}% increased Endurance, Frenzy and Power Charge Duration
+INC_ENERGY_SHIELD_FROM_EQUIPPED_BODY_ARMOR	{X}% increased Energy Shield from Equipped Body Armour
+INC_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS	{X}% increased Energy Shield from Equipped Focus
+INC_ENERGY_SHIELD_FROM_EQUIPPED_HELMET	{X}% increased Energy Shield from Equipped Helmet
+INC_EVASION_FROM_EQUIPPED_BODY_ARMOR	{X}% increased Evasion Rating from Equipped Body Armour
+INC_EVASION_IF_ENERGY_SHIELD_RECHARGE_HAS_STARTED_IN_THE_PAST_SECONDS	{X}% increased Evasion Rating if Energy Shield Recharge has started in the past {X} seconds
+INC_EVASION_IF_YOU_VE_DODGE_ROLLED_RECENTLY	{X}% increased Evasion Rating if you've Dodge Rolled Recently
+INC_FIRE_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ASH	{X}% increased Fire Damage while affected by Herald of Ash
+INC_FLAMMABILITY_BUFF_MAGNITUDE	{X}% increased Flammability BuffMagnitude
+INC_FLASK_CHARGES_USED	{X}% increased Flask Charges used
+INC_HINDER_DURATION	{X}% increased Hinder Duration
+INC_IMMOBILISATION_BUILDUP_AGAINST_CONSTRUCTS	{X}% increased Immobilisation buildup against Constructs
+INC_HEALTH_COST_OF_SKILLS	{X}% increased Life Cost of Skills
+INC_HEALTH_RECOVERY_RATE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE	{X}% increased Life Recovery Rate while your Companion is in your Presence
+INC_HEALTH_RECOVERY_RATE	{X}% increased Life Recovery rate
+INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS_WHILE_YOU_HAVE_AN_ACTIVE_CHARM	{X}% increased Life and Mana Recovery from Flasks while you have an active Charm
+INC_HEALTH_AND_MANA_REGENERATION_RATE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF	{X}% increased Life and Mana Regeneration Rate for each Minion in your Presence, up to a maximum of {X}%
+INC_LIGHT_RADIUS	{X}% increased Light Radius
+INC_LIGHTNING_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_THUNDER	{X}% increased Lightning Damage while affected by Herald of Thunder
+INC_MANA_COST_EFFICIENCY	{X}% increased Mana Cost Efficiency
+INC_MANA_COST_EFFICIENCY_OF_ATTACKS_DURING_ANY_MANA_FLASK_EFFECT	{X}% increased Mana Cost Efficiency of Attacks during any Mana Flask Effect
+INC_MANA_COST_EFFICIENCY_OF_COMMAND_SKILLS	{X}% increased Mana Cost Efficiency of Command Skills
+INC_MANA_COST_EFFICIENCY_OF_MARKS	{X}% increased Mana Cost Efficiency of Marks
+INC_MANA_COST_EFFICIENCY_WHILE_ON_LOW_MANA	{X}% increased Mana Cost Efficiency while on Low Mana
+INC_MANA_COST_OF_SKILLS	{X}% increased Mana Cost of Skills
+INC_MANA_RECOVERY_RATE	{X}% increased Mana Recovery rate
+INC_MELEE_DAMAGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS	{X}% increased Melee Damage if you've dealt a Projectile Attack HitDamage in the past eight seconds
+INC_MINION_DAMAGE_WHILE_YOU_HAVE_AT_LEAST_TWO_DIFFERENT_ACTIVE_OFFERINGS	{X}% increased Minion Damage while you have at least two different active Offerings
+INC_MINION_DURATION	{X}% increased Minion Duration
+INC_MOVEMENT_SPEED_PENALTY_FROM_USING_COLD_SKILLS_WHILE_MOVING	{X}% increased Movement Speed Penalty from using Cold Skills while moving
+INC_MOVEMENT_SPEED_PENALTY_FROM_USING_FIRE_SKILLS_WHILE_MOVING	{X}% increased Movement Speed Penalty from using Fire Skills while moving
+INC_MOVEMENT_SPEED_PENALTY_FROM_USING_SKILLS_WHILE_MOVING	{X}% increased Movement Speed Penalty from using Skills while moving
+INC_MOVEMENT_SPEED_PENALTY_WHILE_ACTIVELY_BLOCKING	{X}% increased Movement Speed Penalty while Actively Blocking
+INC_MOVEMENT_SPEED_IF_YOU_VE_PINNED_AN_ENEMY_RECENTLY	{X}% increased Movement Speed if you've Pinned an Enemy Recently
+INC_MOVEMENT_SPEED_IF_YOU_VE_USED_A_MARK_RECENTLY	{X}% increased Movement Speed if you've used a Mark Recently
+INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_AN_ACTIVE_CHARM	{X}% increased Movement Speed while you have an active Charm
+INC_PARRY_HIT_DAMAGE_AREA_OF_EFFECT	{X}% increased Parry HitDamage Area of Effect
+INC_PHYSICAL_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_BLOOD	{X}% increased Physical Damage while affected by Herald of Blood
+INC_POWER_CHARGE_DURATION	{X}% increased Power Charge Duration
+INC_PROJECTILE_DAMAGE_WITH_SPEARS_WHILE_THERE_ARE_NO_ENEMIES_WITHIN_XM	{X}% increased Projectile Damage with Spears while there are no Enemies within {X}m
+INC_SHOCK_DURATION	{X}% increased Shock Duration
+INC_SKILL_EFFECT_DURATION_PER_ENEMY_YOU_VE_FREEZE_IN_THE_LAST_SECONDS_UP_TO	{X}% increased Skill Effect Duration per Enemy you've Freeze in the last {X} seconds, up to {X}%
+INC_SKILL_SPEED_WITH_CHANNELLING_SKILLS	{X}% increased Skill Speed with Channelling Skills
+INC_SPELL_DAMAGE_FOR_EACH_DIFFERENT_NON_INSTANT_ATTACK_YOU_VE_USED_IN_THE_PAST_SECONDS	{X}% increased Spell Damage for each different Non-Instant Attack you've used in the past {X} seconds
+INC_SPELL_DAMAGE_IF_ONE_OF_YOUR_MINIONS_HAS_DIED_RECENTLY	{X}% increased Spell Damage if one of your Minions has died Recently
+INC_SPELL_DAMAGE_IF_YOU_HAVE_CONSUMED_AN_ELEMENTAL_INFUSION_RECENTLY	{X}% increased Spell Damage if you have consumed an Elemental Infusion Recently
+INC_SPELL_DAMAGE_WHILE_WIELDING_A_MELEE_WEAPON	{X}% increased Spell Damage while wielding a Melee Weapon
+INC_SPELL_DAMAGE_WITH_SPELLS_THAT_COST_HEALTH	{X}% increased Spell Damage with Spells that cost Life
+INC_STUN_THRESHOLD_DURING_EMPOWERED_ATTACKS	{X}% increased Stun Threshold during Empowered Attacks
+INC_STUN_THRESHOLD_IF_YOU_HAVEN_T_BEEN_STUNNED_RECENTLY	{X}% increased Stun Threshold if you haven't been Stunned Recently
+INC_TOTEM_DURATION	{X}% increased Totem Duration
+INC_TOTEM_PLACEMENT_RANGE	{X}% increased Totem Placement range
+INC_BONUSES_GAIN_FROM_EQUIPPED_QUIVER	{X}% increased bonuses gain from Equipped Quiver
+INC_CHANCE_TO_INFLICT_AILMENTS_WITH_PROJECTILES	{X}% increased chance to inflict Ailments with Projectiles
+INC_DAMAGE_AGAINST_UNDEAD_ENEMIES	{X}% increased damage against Undead Enemies
+INC_EFFECT_OF_FULLY_BROKEN_ARMOR	{X}% increased effect of Fully Broken Armour
+INC_EFFECT_OF_INCISION	{X}% increased effect of Incision
+INC_PENALTY_TO_ACCURACY_AT_RANGE	{X}% increased penalty to Accuracy Rating at range
+MORE_KNOCKBACK_DISTANCE_FOR_BLOCKED_HIT_DAMAGE	{X}% more Knockback Distance for Blocked HitDamage
+MORE_MANA_RECOVERY_RATE	{X}% more Mana Recovery Rate
+MORE_MAX_LIGHTNING_DAMAGE	{X}% more Maximum Lightning Damage
+MORE_RESERVATION_EFFICIENCY_OF_COMPANION_SKILLS	{X}% more Reservation Efficiency of Companion Skills
+MORE_RESERVATION_EFFICIENCY_OF_NON_COMPANION_SKILLS	{X}% more Reservation Efficiency of non-Companion Skills
+OF_DAMAGE_FROM_HIT_DAMAGE_IS_TAKEN_FROM_YOUR_DAMAGEABLE_COMPANION_S_HEALTH_BEFORE_YOU	{X}% of Damage from HitDamage is taken from your Damageable Companion's Life before you
+OF_DAMAGE_IS_TAKEN_FROM_MANA_BEFORE_HEALTH	{X}% of Damage is taken from Mana before Life
+OF_DAMAGE_TAKEN_FROM_DEFLECTED_HIT_DAMAGE_RECOUPED_AS_HEALTH	{X}% of Damage taken from Deflected HitDamage Recouped as Life
+OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD	{X}% of Maximum Life StatConversion to Energy Shield
+OF_PHYSICAL_DAMAGE_FROM_HIT_DAMAGE_TAKEN_AS_DAMAGE_OF_A_RANDOM_ELEMENTAL_DAMAGE	{X}% of Physical Damage from HitDamage taken as Damage of a Random ElementalDamage
+OF_PHYSICAL_DAMAGE_PREVENTED_RECOUPED_AS_ENERGY_SHIELD_PER_ENEMY_POWER	{X}% of Physical Damage prevented Recouped as Energy Shield per enemy Power
+OF_PHYSICAL_DAMAGE_PREVENTED_RECOUPED_AS_HEALTH	{X}% of Physical Damage prevented Recouped as Life
+OF_PHYSICAL_DAMAGE_TAKEN_AS_FIRE_DAMAGE	{X}% of Physical Damage taken as Fire Damage
+OF_SKILL_MANA_COSTS_STAT_CONVERSION_TO_HEALTH_COSTS_DURING_ANY_HEALTH_FLASK_EFFECT	{X}% of Skill Mana costs StatConversion to Life Costs during any Life Flask Effect
+OF_SPELL_MANA_COST_STAT_CONVERSION_TO_HEALTH_COST	{X}% of Spell Mana Cost StatConversion to Life Cost
+OF_THORNS_DAMAGE_LEECHED_AS_HEALTH	{X}% of Thorns Damage Leeched as Life

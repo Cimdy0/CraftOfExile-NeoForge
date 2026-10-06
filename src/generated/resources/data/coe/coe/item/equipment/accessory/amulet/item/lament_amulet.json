@@ -1,0 +1,121 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:accessory/amulet/template/none",
+    "reqs": {
+      "l": 42.0
+    },
+    "skills": {
+      "coe:preset_alchemists_boon": {
+        "id": "coe:preset_alchemists_boon"
+      },
+      "coe:preset_arctic_armour": {
+        "id": "coe:preset_arctic_armour"
+      },
+      "coe:preset_attrition": {
+        "id": "coe:preset_attrition"
+      },
+      "coe:preset_barkskin": {
+        "id": "coe:preset_barkskin"
+      },
+      "coe:preset_barrier_invocation": {
+        "id": "coe:preset_barrier_invocation"
+      },
+      "coe:preset_berserk": {
+        "id": "coe:preset_berserk"
+      },
+      "coe:preset_briarpatch": {
+        "id": "coe:preset_briarpatch"
+      },
+      "coe:preset_cast_on_minion_death": {
+        "id": "coe:preset_cast_on_minion_death"
+      },
+      "coe:preset_charge_regulation": {
+        "id": "coe:preset_charge_regulation"
+      },
+      "coe:preset_combat_frenzy": {
+        "id": "coe:preset_combat_frenzy"
+      },
+      "coe:preset_convalescence": {
+        "id": "coe:preset_convalescence"
+      },
+      "coe:preset_defiance_banner": {
+        "id": "coe:preset_defiance_banner"
+      },
+      "coe:preset_dread_banner": {
+        "id": "coe:preset_dread_banner"
+      },
+      "coe:preset_ghost_dance": {
+        "id": "coe:preset_ghost_dance"
+      },
+      "coe:preset_herald_of_ash": {
+        "id": "coe:preset_herald_of_ash"
+      },
+      "coe:preset_herald_of_blood": {
+        "id": "coe:preset_herald_of_blood"
+      },
+      "coe:preset_herald_of_ice": {
+        "id": "coe:preset_herald_of_ice"
+      },
+      "coe:preset_herald_of_plague": {
+        "id": "coe:preset_herald_of_plague"
+      },
+      "coe:preset_herald_of_thunder": {
+        "id": "coe:preset_herald_of_thunder"
+      },
+      "coe:preset_iron_ward": {
+        "id": "coe:preset_iron_ward"
+      },
+      "coe:preset_lingering_illusion": {
+        "id": "coe:preset_lingering_illusion"
+      },
+      "coe:preset_magma_barrier": {
+        "id": "coe:preset_magma_barrier"
+      },
+      "coe:preset_mana_remnants": {
+        "id": "coe:preset_mana_remnants"
+      },
+      "coe:preset_overwhelming_presence": {
+        "id": "coe:preset_overwhelming_presence"
+      },
+      "coe:preset_plague_bearer": {
+        "id": "coe:preset_plague_bearer"
+      },
+      "coe:preset_raging_spirits": {
+        "id": "coe:preset_raging_spirits"
+      },
+      "coe:preset_ravenous_swarm": {
+        "id": "coe:preset_ravenous_swarm"
+      },
+      "coe:preset_reapers_invocation": {
+        "id": "coe:preset_reapers_invocation"
+      },
+      "coe:preset_savage_fury": {
+        "id": "coe:preset_savage_fury"
+      },
+      "coe:preset_scavenged_plating": {
+        "id": "coe:preset_scavenged_plating"
+      },
+      "coe:preset_shard_scavenger": {
+        "id": "coe:preset_shard_scavenger"
+      },
+      "coe:preset_siphon_elements": {
+        "id": "coe:preset_siphon_elements"
+      },
+      "coe:preset_time_of_need": {
+        "id": "coe:preset_time_of_need"
+      },
+      "coe:preset_trail_of_caltrops": {
+        "id": "coe:preset_trail_of_caltrops"
+      },
+      "coe:preset_war_banner": {
+        "id": "coe:preset_war_banner"
+      },
+      "coe:preset_wind_dancer": {
+        "id": "coe:preset_wind_dancer"
+      },
+      "coe:preset_withering_presence": {
+        "id": "coe:preset_withering_presence"
+      }
+    }
+  }
+}

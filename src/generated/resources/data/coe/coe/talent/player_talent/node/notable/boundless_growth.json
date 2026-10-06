@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:plants_have_a_chance_to_immediately_overgrow",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_physicaldamagenode",
+    "id": "15114",
+    "links": [
+      "32859",
+      "6356",
+      "71"
+    ],
+    "x": -4418.06,
+    "y": -4540.25
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "1"
+  },
+  "conditions": {
+    "type": "living_state",
+    "mode": "both_hands_empty"
+  },
+  "effect": "coe:stat/effect/inline_unarmed_quarterstaff_skill_damage_1064",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

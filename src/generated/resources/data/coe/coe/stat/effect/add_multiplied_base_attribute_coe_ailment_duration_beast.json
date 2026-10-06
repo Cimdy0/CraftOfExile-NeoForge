@@ -1,0 +1,20 @@
+{
+  "type": "attribute",
+  "attribute": "coe:beast_duration",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "not": {
+          "tag": "taken"
+        }
+      },
+      {
+        "tag": "ailment"
+      },
+      {
+        "tag": "beast"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "heal",
+  "resource": "mana",
+  "tags": {
+    "and": [
+      {
+        "tag": "charm"
+      },
+      {
+        "tag": "use_charm"
+      }
+    ]
+  }
+}

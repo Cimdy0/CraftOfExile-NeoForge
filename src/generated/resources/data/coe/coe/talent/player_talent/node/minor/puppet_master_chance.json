@@ -1,0 +1,218 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpassing_chance_to_gain_a_puppet_master_stack_whenever_you_use_a_command_skill",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "13123",
+    "links": [
+      "14258",
+      "62723"
+    ],
+    "x": 950.935,
+    "y": -8590.68
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpassing_chance_to_gain_a_puppet_master_stack_whenever_you_use_a_command_skill",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "14686",
+    "links": [
+      "48552",
+      "53795"
+    ],
+    "x": -4769.98,
+    "y": -8681.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_puppet_master",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "19318",
+    "links": [
+      "53795"
+    ],
+    "x": -4614.94,
+    "y": -8423.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpassing_chance_to_gain_a_puppet_master_stack_whenever_you_use_a_command_skill",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "53324",
+    "links": [
+      "53795"
+    ],
+    "x": -4239.24,
+    "y": -8579.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpassing_chance_to_gain_a_puppet_master_stack_whenever_you_use_a_command_skill",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "53795",
+    "links": [
+      "14686",
+      "19318",
+      "53324",
+      "62210",
+      "64804"
+    ],
+    "x": -4528.5,
+    "y": -8746.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_puppet_master",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "54733",
+    "links": [
+      "5314",
+      "7104"
+    ],
+    "x": 339.792,
+    "y": -8849.72
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:surpassing_chance_to_gain_a_puppet_master_stack_whenever_you_use_a_command_skill",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "62723",
+    "links": [
+      "13123",
+      "38732"
+    ],
+    "x": 952.239,
+    "y": -8335.81
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_each_puppet_master_stack",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "64804",
+    "links": [
+      "53795"
+    ],
+    "x": -4361.5,
+    "y": -8457.24
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_puppet_master",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_puppeteernode",
+    "id": "7104",
+    "links": [
+      "14258",
+      "54733"
+    ],
+    "x": 584.454,
+    "y": -8871.89
+  }
+]

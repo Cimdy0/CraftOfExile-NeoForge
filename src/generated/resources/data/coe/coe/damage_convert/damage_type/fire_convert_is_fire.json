@@ -1,0 +1,7 @@
+{
+  "convert": {
+    "fire": 1,
+    "replace": false
+  },
+  "tag": "minecraft:is_fire"
+}

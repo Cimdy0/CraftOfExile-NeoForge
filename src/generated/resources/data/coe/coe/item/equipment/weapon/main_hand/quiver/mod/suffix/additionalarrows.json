@@ -1,0 +1,38 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:surpassing_chance_additional_arrow"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 46,
+        "name": "of_surplus",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 25.0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "level": 80,
+        "name": "of_splintering",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 60.0,
+            "min": 41.0
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

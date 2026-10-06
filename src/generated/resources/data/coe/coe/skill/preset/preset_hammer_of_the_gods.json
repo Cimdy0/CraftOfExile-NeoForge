@@ -1,0 +1,51 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:poof",
+  "cast_sound": "minecraft:block.anvil.land",
+  "cost": [
+    {
+      "value": "coe:level_table(10, 12, 14, 16, 18, 20, 23, 25, 28, 31, 34, 37, 41, 44, 48, 53, 57, 62, 67, 73, 78, 85, 91, 98, 105, 113, 121, 130, 139, 149, 160, 170, 182, 194, 207, 221, 236, 251, 267, 285)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 4.5, base = 17.8, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "physical"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_stun",
+                    "vars": {
+                      "value": 0.35
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_hit"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {}
+        }
+      }
+    }
+  ],
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  }
+}

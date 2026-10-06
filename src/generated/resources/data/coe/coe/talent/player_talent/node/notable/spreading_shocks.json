@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:shocking_hit_damage_have_a_chance_to_also_shock_enemies_in_a_metre_radius",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_lightningdamagenode",
+    "id": "11578",
+    "links": [
+      "4"
+    ],
+    "x": 3512.67,
+    "y": 4752.05
+  }
+]

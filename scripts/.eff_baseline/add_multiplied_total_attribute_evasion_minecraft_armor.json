@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "minecraft:armor",
+  "operation": "add_multiplied_total",
+  "tags": [
+    "evasion"
+  ]
+}

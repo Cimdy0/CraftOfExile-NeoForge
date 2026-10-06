@@ -1,0 +1,25 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "group",
+    "nodes": [
+      {
+        "type": "status",
+        "id": "pin"
+      },
+      {
+        "type": "source",
+        "node": {
+          "type": "living_state",
+          "mode": "shapeshifted"
+        }
+      }
+    ]
+  },
+  "effect": "coe:stat/effect/inline_attribute_210",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_282"
+}

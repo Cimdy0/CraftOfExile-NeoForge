@@ -1,0 +1,12 @@
+{
+  "mod": {
+    "stats": [
+      {
+        "entry": "read",
+        "ref": "coe:livingmod_coe_crit_chance_op_add_value_0_2_attack_crit"
+      }
+    ],
+    "weight": 1000
+  },
+  "name": "extra_crits"
+}

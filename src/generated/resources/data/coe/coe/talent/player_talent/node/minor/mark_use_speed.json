@@ -1,0 +1,103 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:mark_skills_have_inc_use_speed",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "23305",
+    "links": [
+      "21279",
+      "31647",
+      "44280",
+      "51602"
+    ],
+    "x": 8481.06,
+    "y": 1654.03
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:mark_skills_have_inc_use_speed",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "35534",
+    "links": [
+      "21279",
+      "2408",
+      "44280"
+    ],
+    "x": 8249.13,
+    "y": 1885.96
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:mark_skills_have_inc_use_speed",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "36927",
+    "links": [
+      "28258",
+      "44756",
+      "44841"
+    ],
+    "x": 8056.77,
+    "y": 8338.97
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:mark_skills_have_inc_use_speed",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "45390",
+    "links": [
+      "13624",
+      "28258",
+      "63830"
+    ],
+    "x": 8172.74,
+    "y": 8223.0
+  }
+]

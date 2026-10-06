@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:detonator_skills_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:detonator_skills_have_inc_damage",
+            "vars": {
+              "value": -0.8
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areadmgnode",
+    "id": "26356",
+    "links": [
+      "15590",
+      "57863"
+    ],
+    "x": -1653.23,
+    "y": 9760.91
+  }
+]

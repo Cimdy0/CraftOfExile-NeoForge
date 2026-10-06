@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * attribute:coe:crit_chance / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_186",
+  "entry": "inline",
+  "params": {
+    "per": 1.0,
+    "value": 1.0
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

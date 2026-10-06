@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_coiling_bolts",
+  "vars": {
+    "tier": 1.0
+  }
+}

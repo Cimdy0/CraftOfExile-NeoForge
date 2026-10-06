@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:hazard_rearm_chance",
+  "operation": "add_value"
+}

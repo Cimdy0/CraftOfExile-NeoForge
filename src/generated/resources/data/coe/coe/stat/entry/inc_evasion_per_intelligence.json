@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value * attribute:coe:intelligence / $per"
+  },
+  "effect": "coe:stat/effect/inline_attribute_408",
+  "entry": "inline",
+  "params": {
+    "per": 10.0,
+    "value": 0.03
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

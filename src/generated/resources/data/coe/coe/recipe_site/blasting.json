@@ -1,0 +1,6 @@
+{
+  "blocks": [
+    "minecraft:blast_furnace"
+  ],
+  "recipe_type": "minecraft:blasting"
+}

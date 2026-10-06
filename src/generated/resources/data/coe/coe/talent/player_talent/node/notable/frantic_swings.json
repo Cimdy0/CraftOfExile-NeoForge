@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:enemies_blinded_by_you_have_inc_critical_hit_chance",
+            "vars": {
+              "value": -0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "28441",
+    "links": [
+      "10011",
+      "24570"
+    ],
+    "x": 6254.37,
+    "y": -2079.42
+  }
+]

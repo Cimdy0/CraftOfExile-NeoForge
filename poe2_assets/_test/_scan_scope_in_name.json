@@ -1,0 +1,2480 @@
+{
+  "total": 118,
+  "violations": [
+    {
+      "name": "MAX_ENDURANCE_CHARGES",
+      "embedded": [
+        "ENDURANCE"
+      ],
+      "scope_used": [
+        "ENDURANCE"
+      ],
+      "key": "max_endurance_charges"
+    },
+    {
+      "name": "MAX_FRENZY_CHARGES",
+      "embedded": [
+        "FRENZY"
+      ],
+      "scope_used": [
+        "FRENZY"
+      ],
+      "key": "max_frenzy_charges"
+    },
+    {
+      "name": "MAX_POWER_CHARGES",
+      "embedded": [
+        "POWER"
+      ],
+      "scope_used": [
+        "POWER"
+      ],
+      "key": "max_power_charges"
+    },
+    {
+      "name": "MAX_VOLATILITY",
+      "embedded": [
+        "VOLATILITY"
+      ],
+      "scope_used": [
+        "VOLATILITY"
+      ],
+      "key": "max_volatility"
+    },
+    {
+      "name": "META_ENERGY_MAX",
+      "embedded": [
+        "META"
+      ],
+      "scope_used": [
+        "META"
+      ],
+      "key": "meta_energy_max"
+    },
+    {
+      "name": "ENERGY_RECHARGE",
+      "embedded": [
+        "ENERGY"
+      ],
+      "scope_used": [
+        "ENERGY"
+      ],
+      "key": "energy_recharge"
+    },
+    {
+      "name": "GLORY",
+      "embedded": [
+        "GLORY"
+      ],
+      "scope_used": [
+        "GLORY"
+      ],
+      "key": "glory"
+    },
+    {
+      "name": "GLORY_GENERATION",
+      "embedded": [
+        "GLORY"
+      ],
+      "scope_used": [
+        "GLORY"
+      ],
+      "key": "glory_generation"
+    },
+    {
+      "name": "RESERVATION_EFFICIENCY",
+      "embedded": [
+        "RESERVATION"
+      ],
+      "scope_used": [
+        "RESERVATION"
+      ],
+      "key": "reservation_efficiency"
+    },
+    {
+      "name": "VOLATILITY_DETONATION_TIME",
+      "embedded": [
+        "VOLATILITY"
+      ],
+      "scope_used": [
+        "VOLATILITY"
+      ],
+      "key": "volatility_detonation_time"
+    },
+    {
+      "name": "VOLATILITY_GENERATION",
+      "embedded": [
+        "VOLATILITY"
+      ],
+      "scope_used": [
+        "VOLATILITY"
+      ],
+      "key": "volatility_generation"
+    },
+    {
+      "name": "AILMENT_BUILDUP",
+      "embedded": [
+        "AILMENT"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "ELECTROCUTED",
+        "FREEZE",
+        "IGNITE",
+        "PIN",
+        "SPELL",
+        "STUN"
+      ],
+      "key": "ailment_buildup"
+    },
+    {
+      "name": "AILMENT_CHANCE",
+      "embedded": [
+        "AILMENT"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "BLEED",
+        "CHILL",
+        "COLD",
+        "FIRE",
+        "FREEZE",
+        "IGNITE",
+        "LIGHTNING",
+        "MAIM",
+        "ONE_HANDED",
+        "POISON",
+        "SHOCK"
+      ],
+      "key": "ailment_chance"
+    },
+    {
+      "name": "AILMENT_DAMAGE_RATE",
+      "embedded": [
+        "AILMENT"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "BLEED",
+        "DAMAGE_OVER_TIME",
+        "IGNITE",
+        "POISON"
+      ],
+      "key": "ailment_damage_rate"
+    },
+    {
+      "name": "AILMENT_DURATION",
+      "embedded": [
+        "AILMENT"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "ARCHON",
+        "BANNER",
+        "BEAST",
+        "BLEED",
+        "CHARGE",
+        "CHARM",
+        "CHILL",
+        "COLD",
+        "CURSE",
+        "DAMAGE_OVER_TIME",
+        "DAZE",
+        "FIRE",
+        "FLASK",
+        "FREEZE",
+        "GRENADE",
+        "HAZARD",
+        "IGNITE",
+        "INFUSION",
+        "JAGGED_GROUND",
+        "LIGHTNING",
+        "OFFERING",
+        "PARRY",
+        "PIN",
+        "POISON",
+        "SHOCK",
+        "STUN",
+        "TAKEN"
+      ],
+      "key": "ailment_duration"
+    },
+    {
+      "name": "AILMENT_MAGNITUDE",
+      "embedded": [
+        "AILMENT"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "ARCANE_SURGE",
+        "ARCHON",
+        "AURA",
+        "BANNER",
+        "BLEED",
+        "BLIND",
+        "CHILL",
+        "CURSE",
+        "DAMAGE_OVER_TIME",
+        "DAZE",
+        "EXPOSURE",
+        "FIRE",
+        "IGNITE",
+        "INCISION",
+        "INFUSION",
+        "JAGGED_GROUND",
+        "MARK",
+        "NON_DAMAGING",
+        "OFFERING",
+        "PARRY",
+        "POISON",
+        "SHOCK",
+        "SLOW",
+        "SPELL",
+        "TAKEN",
+        "WARCRY",
+        "WITHERED"
+      ],
+      "key": "ailment_magnitude"
+    },
+    {
+      "name": "ARCHON_RECOVERY_RATE",
+      "embedded": [
+        "ARCHON"
+      ],
+      "scope_used": [
+        "ARCHON"
+      ],
+      "key": "archon_recovery_rate"
+    },
+    {
+      "name": "CHARM_ACTIVATION_CHANCE",
+      "embedded": [
+        "CHARM"
+      ],
+      "scope_used": [
+        "CHARM"
+      ],
+      "key": "charm_activation_chance"
+    },
+    {
+      "name": "CHARM_CHARGES_GAINED",
+      "embedded": [
+        "CHARM"
+      ],
+      "scope_used": [
+        "CHARM"
+      ],
+      "key": "charm_charges_gained"
+    },
+    {
+      "name": "CHARM_CHARGES_USED",
+      "embedded": [
+        "CHARM"
+      ],
+      "scope_used": [
+        "CHARM"
+      ],
+      "key": "charm_charges_used"
+    },
+    {
+      "name": "CHARM_EFFECT",
+      "embedded": [
+        "CHARM"
+      ],
+      "scope_used": [
+        "CHARM"
+      ],
+      "key": "charm_effect"
+    },
+    {
+      "name": "GUARD_RECOVERY",
+      "embedded": [
+        "GUARD"
+      ],
+      "scope_used": [
+        "GUARD"
+      ],
+      "key": "guard_recovery"
+    },
+    {
+      "name": "REMNANT_EXTRA_CHANCE",
+      "embedded": [
+        "REMNANT"
+      ],
+      "scope_used": [
+        "REMNANT"
+      ],
+      "key": "remnant_extra_chance"
+    },
+    {
+      "name": "EFFECT_AREA",
+      "embedded": [
+        "AREA"
+      ],
+      "scope_used": [
+        "AREA",
+        "MELEE",
+        "MINION"
+      ],
+      "key": "area_of_effect"
+    },
+    {
+      "name": "CRIT_CHANCE",
+      "embedded": [
+        "CRIT"
+      ],
+      "scope_used": [
+        "ATTACK",
+        "CRIT",
+        "FORM",
+        "HERALD",
+        "MINION",
+        "WYVERN"
+      ],
+      "key": "crit_chance"
+    },
+    {
+      "name": "CRIT_DAMAGE",
+      "embedded": [
+        "CRIT"
+      ],
+      "scope_used": [
+        "ATTACK",
+        "CRIT",
+        "FORM",
+        "SPELL",
+        "WYVERN"
+      ],
+      "key": "crit_damage"
+    },
+    {
+      "name": "DAMAGE",
+      "embedded": [
+        "DAMAGE"
+      ],
+      "scope_used": [
+        "AREA",
+        "ATTACK",
+        "AXE",
+        "BALLISTA",
+        "BEAR",
+        "BOW",
+        "CHAOS",
+        "COLD",
+        "COMPANION",
+        "CROSSBOW",
+        "DAMAGE",
+        "DAMAGE_OVER_TIME",
+        "ELECTROCUTED",
+        "ELEMENTAL",
+        "EMPOWERED",
+        "ENERGY_SHIELD",
+        "FIRE",
+        "FORM",
+        "FULLY_BROKEN_ARMOR",
+        "GRENADE",
+        "HAZARD",
+        "HERALD",
+        "LIGHTNING",
+        "MACE",
+        "MELEE",
+        "MINION",
+        "ONE_HANDED",
+        "PARRY",
+        "PHYSICAL",
+        "PROJECTILE",
+        "SPEAR",
+        "SPELL",
+        "SWORD",
+        "TAKEN",
+        "TOTEM",
+        "TRAP",
+        "TWO_HANDED",
+        "WOLF",
+        "WYVERN"
+      ],
+      "key": "damage"
+    },
+    {
+      "name": "DODGE_CHANCE",
+      "embedded": [
+        "DODGE"
+      ],
+      "scope_used": [
+        "DODGE"
+      ],
+      "key": "dodge_chance"
+    },
+    {
+      "name": "KNOCKBACK",
+      "embedded": [
+        "KNOCKBACK"
+      ],
+      "scope_used": [
+        "KNOCKBACK"
+      ],
+      "key": "knockback"
+    },
+    {
+      "name": "PARRY_RANGE",
+      "embedded": [
+        "PARRY"
+      ],
+      "scope_used": [
+        "PARRY"
+      ],
+      "key": "parry_range"
+    },
+    {
+      "name": "STUN_RECOVERY",
+      "embedded": [
+        "STUN"
+      ],
+      "scope_used": [
+        "STUN"
+      ],
+      "key": "stun_recovery"
+    },
+    {
+      "name": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+      "embedded": [
+        "TAKEN"
+      ],
+      "scope_used": [
+        "ENERGY_SHIELD",
+        "TAKEN"
+      ],
+      "key": "damage_taken_bypasses_energy"
+    },
+    {
+      "name": "TOTEM_TAKEN_AURA",
+      "embedded": [
+        "TAKEN",
+        "TOTEM"
+      ],
+      "scope_used": [
+        "TAKEN",
+        "TOTEM"
+      ],
+      "key": "totem_taken_aura"
+    },
+    {
+      "name": "RESISTANCE_PENETRATION",
+      "embedded": [
+        "RESISTANCE"
+      ],
+      "scope_used": [
+        "ATTACK",
+        "CHAOS",
+        "COLD",
+        "ELEMENTAL",
+        "FIRE",
+        "GLORY",
+        "LIGHTNING",
+        "RESISTANCE"
+      ],
+      "key": "resistance_penetration"
+    },
+    {
+      "name": "STATUS_EXTRA_STACKS",
+      "embedded": [
+        "STATUS"
+      ],
+      "scope_used": [
+        "STATUS"
+      ],
+      "key": "status_extra_stacks"
+    },
+    {
+      "name": "STATUS_MAX_STACKS",
+      "embedded": [
+        "STATUS"
+      ],
+      "scope_used": [
+        "STATUS"
+      ],
+      "key": "status_max_stacks"
+    },
+    {
+      "name": "FLASK_CHARGES_GAINED",
+      "embedded": [
+        "FLASK"
+      ],
+      "scope_used": [
+        "FLASK"
+      ],
+      "key": "flask_charges_gained"
+    },
+    {
+      "name": "FLASK_NO_CONSUME_CHANCE",
+      "embedded": [
+        "FLASK"
+      ],
+      "scope_used": [
+        "FLASK"
+      ],
+      "key": "flask_no_consume_chance"
+    },
+    {
+      "name": "FLASK_RECOVERY_RATE",
+      "embedded": [
+        "FLASK"
+      ],
+      "scope_used": [
+        "FLASK",
+        "HEALTH",
+        "MANA"
+      ],
+      "key": "flask_recovery_rate"
+    },
+    {
+      "name": "LAUNCH_ADDITIONAL_PROJECTILE",
+      "embedded": [
+        "PROJECTILE"
+      ],
+      "scope_used": [
+        "ARROW",
+        "BOW",
+        "CROSSBOW",
+        "PROJECTILE"
+      ],
+      "key": "launch_additional_projectile"
+    },
+    {
+      "name": "PROJECTILE_PIERCE",
+      "embedded": [
+        "PROJECTILE"
+      ],
+      "scope_used": [
+        "ARROW",
+        "PROJECTILE"
+      ],
+      "key": "projectile_pierce"
+    },
+    {
+      "name": "PROJECTILE_PIERCE_CHANCE",
+      "embedded": [
+        "PROJECTILE"
+      ],
+      "scope_used": [
+        "ARROW",
+        "PROJECTILE"
+      ],
+      "key": "projectile_pierce_chance"
+    },
+    {
+      "name": "PROJECTILE_SPEED",
+      "embedded": [
+        "PROJECTILE"
+      ],
+      "scope_used": [
+        "BOLT",
+        "PROJECTILE"
+      ],
+      "key": "projectile_speed"
+    },
+    {
+      "name": "BANNER_LINGER",
+      "embedded": [
+        "BANNER"
+      ],
+      "scope_used": [
+        "BANNER",
+        "TAKEN"
+      ],
+      "key": "banner_linger"
+    },
+    {
+      "name": "CORPSE_RETAIN_CHANCE",
+      "embedded": [
+        "CORPSE"
+      ],
+      "scope_used": [
+        "CORPSE"
+      ],
+      "key": "corpse_retain_chance"
+    },
+    {
+      "name": "CORRUPTION_ENDURES_CHANCE",
+      "embedded": [
+        "CORRUPTION"
+      ],
+      "scope_used": [
+        "CORRUPTION"
+      ],
+      "key": "corruption_endures_chance"
+    }
+  ],
+  "all": [
+    {
+      "name": "WORK_APTITUDE",
+      "key": "work_aptitude",
+      "name_tokens": [
+        "APTITUDE",
+        "WORK"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "WORK_SPEED",
+      "key": "work_speed",
+      "name_tokens": [
+        "SPEED",
+        "WORK"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "MAX_DARKNESS",
+      "key": "max_darkness",
+      "name_tokens": [
+        "DARKNESS",
+        "MAX"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "MAX_ENDURANCE_CHARGES",
+      "key": "max_endurance_charges",
+      "name_tokens": [
+        "CHARGES",
+        "ENDURANCE",
+        "MAX"
+      ],
+      "scope_used": [
+        "ENDURANCE"
+      ],
+      "embedded_in_name": [
+        "ENDURANCE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "MAX_ENERGY_SHIELD",
+      "key": "max_energy_shield",
+      "name_tokens": [
+        "ENERGY",
+        "MAX",
+        "SHIELD"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "ENERGY"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "MAX_FRENZY_CHARGES",
+      "key": "max_frenzy_charges",
+      "name_tokens": [
+        "CHARGES",
+        "FRENZY",
+        "MAX"
+      ],
+      "scope_used": [
+        "FRENZY"
+      ],
+      "embedded_in_name": [
+        "FRENZY"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "MAX_INFUSION",
+      "key": "max_infusion",
+      "name_tokens": [
+        "INFUSION",
+        "MAX"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "INFUSION"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "MAX_MANA",
+      "key": "max_mana",
+      "name_tokens": [
+        "MANA",
+        "MAX"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "MANA"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "MAX_POWER_CHARGES",
+      "key": "max_power_charges",
+      "name_tokens": [
+        "CHARGES",
+        "MAX",
+        "POWER"
+      ],
+      "scope_used": [
+        "POWER"
+      ],
+      "embedded_in_name": [
+        "POWER"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "MAX_RAGE",
+      "key": "max_rage",
+      "name_tokens": [
+        "MAX",
+        "RAGE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "RAGE"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "MAX_REGENERATION",
+      "key": "max_regeneration",
+      "name_tokens": [
+        "MAX",
+        "REGENERATION"
+      ],
+      "scope_used": [
+        "HEALTH",
+        "MANA",
+        "REGEN"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "MAX_RESISTANCES",
+      "key": "max_resistances",
+      "name_tokens": [
+        "MAX",
+        "RESISTANCES"
+      ],
+      "scope_used": [
+        "CHAOS",
+        "COLD",
+        "FIRE",
+        "LIGHTNING"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "MAX_SPIRIT",
+      "key": "max_spirit",
+      "name_tokens": [
+        "MAX",
+        "SPIRIT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "SPIRIT"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "MAX_VOLATILITY",
+      "key": "max_volatility",
+      "name_tokens": [
+        "MAX",
+        "VOLATILITY"
+      ],
+      "scope_used": [
+        "VOLATILITY"
+      ],
+      "embedded_in_name": [
+        "VOLATILITY"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "META_ENERGY_MAX",
+      "key": "meta_energy_max",
+      "name_tokens": [
+        "ENERGY",
+        "MAX",
+        "META"
+      ],
+      "scope_used": [
+        "META"
+      ],
+      "embedded_in_name": [
+        "ENERGY",
+        "META"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "BASE_ENERGY_SHIELD_RECHARGE",
+      "key": "base_energy_shield_recharge",
+      "name_tokens": [
+        "BASE",
+        "ENERGY",
+        "RECHARGE",
+        "SHIELD"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "ENERGY"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "CURRENT_ENERGY_SHIELD_RECHARGE",
+      "key": "current_energy_shield_recharge",
+      "name_tokens": [
+        "CURRENT",
+        "ENERGY",
+        "RECHARGE",
+        "SHIELD"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "ENERGY"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "DARKNESS_RESERVATION_LASTS",
+      "key": "darkness_reservation_lasts",
+      "name_tokens": [
+        "DARKNESS",
+        "LASTS",
+        "RESERVATION"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "RESERVATION"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "ENERGY_RECHARGE",
+      "key": "energy_recharge",
+      "name_tokens": [
+        "ENERGY",
+        "RECHARGE"
+      ],
+      "scope_used": [
+        "ENERGY"
+      ],
+      "embedded_in_name": [
+        "ENERGY"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "GLORY",
+      "key": "glory",
+      "name_tokens": [
+        "GLORY"
+      ],
+      "scope_used": [
+        "GLORY"
+      ],
+      "embedded_in_name": [
+        "GLORY"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "GLORY_GENERATION",
+      "key": "glory_generation",
+      "name_tokens": [
+        "GENERATION",
+        "GLORY"
+      ],
+      "scope_used": [
+        "GLORY"
+      ],
+      "embedded_in_name": [
+        "GLORY"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "NO_INHERENT_MANA_REGENERATION",
+      "key": "no_inherent_mana_regeneration",
+      "name_tokens": [
+        "INHERENT",
+        "MANA",
+        "NO",
+        "REGENERATION"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "MANA"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "NO_SPIRIT_BASE_DARKNESS",
+      "key": "no_spirit_base_darkness",
+      "name_tokens": [
+        "BASE",
+        "DARKNESS",
+        "NO",
+        "SPIRIT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "SPIRIT"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "RAGE_LOSS_GRACE",
+      "key": "rage_loss_grace",
+      "name_tokens": [
+        "GRACE",
+        "LOSS",
+        "RAGE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "RAGE"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "RAGE_LOSS_RATE",
+      "key": "rage_loss_rate",
+      "name_tokens": [
+        "LOSS",
+        "RAGE",
+        "RATE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "RAGE"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "REGENERATE_MANA_EQUAL_LIFE",
+      "key": "regenerate_mana_equal_life",
+      "name_tokens": [
+        "EQUAL",
+        "LIFE",
+        "MANA",
+        "REGENERATE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "MANA"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "RESERVATION_EFFICIENCY",
+      "key": "reservation_efficiency",
+      "name_tokens": [
+        "EFFICIENCY",
+        "RESERVATION"
+      ],
+      "scope_used": [
+        "RESERVATION"
+      ],
+      "embedded_in_name": [
+        "EFFICIENCY",
+        "RESERVATION"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "VOLATILITY_DETONATION_TIME",
+      "key": "volatility_detonation_time",
+      "name_tokens": [
+        "DETONATION",
+        "TIME",
+        "VOLATILITY"
+      ],
+      "scope_used": [
+        "VOLATILITY"
+      ],
+      "embedded_in_name": [
+        "VOLATILITY"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "VOLATILITY_GENERATION",
+      "key": "volatility_generation",
+      "name_tokens": [
+        "GENERATION",
+        "VOLATILITY"
+      ],
+      "scope_used": [
+        "VOLATILITY"
+      ],
+      "embedded_in_name": [
+        "VOLATILITY"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "DEXTERITY",
+      "key": "dexterity",
+      "name_tokens": [
+        "DEXTERITY"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "INTELLIGENCE",
+      "key": "intelligence",
+      "name_tokens": [
+        "INTELLIGENCE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "STRENGTH",
+      "key": "strength",
+      "name_tokens": [
+        "STRENGTH"
+      ],
+      "scope_used": [
+        "COMPANION"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "AILMENT_BUILDUP",
+      "key": "ailment_buildup",
+      "name_tokens": [
+        "AILMENT",
+        "BUILDUP"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "ELECTROCUTED",
+        "FREEZE",
+        "IGNITE",
+        "PIN",
+        "SPELL",
+        "STUN"
+      ],
+      "embedded_in_name": [
+        "AILMENT"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "AILMENT_CHANCE",
+      "key": "ailment_chance",
+      "name_tokens": [
+        "AILMENT",
+        "CHANCE"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "BLEED",
+        "CHILL",
+        "COLD",
+        "FIRE",
+        "FREEZE",
+        "IGNITE",
+        "LIGHTNING",
+        "MAIM",
+        "ONE_HANDED",
+        "POISON",
+        "SHOCK"
+      ],
+      "embedded_in_name": [
+        "AILMENT"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "AILMENT_DAMAGE_CONTRIBUTION",
+      "key": "ailment_damage_contribution",
+      "name_tokens": [
+        "AILMENT",
+        "CONTRIBUTION",
+        "DAMAGE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "AILMENT",
+        "DAMAGE"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "AILMENT_DAMAGE_RATE",
+      "key": "ailment_damage_rate",
+      "name_tokens": [
+        "AILMENT",
+        "DAMAGE",
+        "RATE"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "BLEED",
+        "DAMAGE_OVER_TIME",
+        "IGNITE",
+        "POISON"
+      ],
+      "embedded_in_name": [
+        "AILMENT",
+        "DAMAGE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "AILMENT_DURATION",
+      "key": "ailment_duration",
+      "name_tokens": [
+        "AILMENT",
+        "DURATION"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "ARCHON",
+        "BANNER",
+        "BEAST",
+        "BLEED",
+        "CHARGE",
+        "CHARM",
+        "CHILL",
+        "COLD",
+        "CURSE",
+        "DAMAGE_OVER_TIME",
+        "DAZE",
+        "FIRE",
+        "FLASK",
+        "FREEZE",
+        "GRENADE",
+        "HAZARD",
+        "IGNITE",
+        "INFUSION",
+        "JAGGED_GROUND",
+        "LIGHTNING",
+        "OFFERING",
+        "PARRY",
+        "PIN",
+        "POISON",
+        "SHOCK",
+        "STUN",
+        "TAKEN"
+      ],
+      "embedded_in_name": [
+        "AILMENT"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "AILMENT_MAGNITUDE",
+      "key": "ailment_magnitude",
+      "name_tokens": [
+        "AILMENT",
+        "MAGNITUDE"
+      ],
+      "scope_used": [
+        "AILMENT",
+        "ARCANE_SURGE",
+        "ARCHON",
+        "AURA",
+        "BANNER",
+        "BLEED",
+        "BLIND",
+        "CHILL",
+        "CURSE",
+        "DAMAGE_OVER_TIME",
+        "DAZE",
+        "EXPOSURE",
+        "FIRE",
+        "IGNITE",
+        "INCISION",
+        "INFUSION",
+        "JAGGED_GROUND",
+        "MARK",
+        "NON_DAMAGING",
+        "OFFERING",
+        "PARRY",
+        "POISON",
+        "SHOCK",
+        "SLOW",
+        "SPELL",
+        "TAKEN",
+        "WARCRY",
+        "WITHERED"
+      ],
+      "embedded_in_name": [
+        "AILMENT"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "AILMENT_THRESHOLD",
+      "key": "ailment_threshold",
+      "name_tokens": [
+        "AILMENT",
+        "THRESHOLD"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "AILMENT",
+        "THRESHOLD"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "AILMENT_THRESHOLD_ADAPTATION",
+      "key": "ailment_threshold_adaptation",
+      "name_tokens": [
+        "ADAPTATION",
+        "AILMENT",
+        "THRESHOLD"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "AILMENT",
+        "THRESHOLD"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "AILMENT_THRESHOLD_ADD",
+      "key": "ailment_threshold_add",
+      "name_tokens": [
+        "ADD",
+        "AILMENT",
+        "THRESHOLD"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "AILMENT",
+        "THRESHOLD"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "AFTERSHOCK_AREA",
+      "key": "aftershock_area",
+      "name_tokens": [
+        "AFTERSHOCK",
+        "AREA"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "AREA"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "AFTERSHOCK_CHANCE",
+      "key": "aftershock_chance",
+      "name_tokens": [
+        "AFTERSHOCK",
+        "CHANCE"
+      ],
+      "scope_used": [
+        "FORM",
+        "MACE"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "ARCHON_RECOVERY_RATE",
+      "key": "archon_recovery_rate",
+      "name_tokens": [
+        "ARCHON",
+        "RATE",
+        "RECOVERY"
+      ],
+      "scope_used": [
+        "ARCHON"
+      ],
+      "embedded_in_name": [
+        "ARCHON"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CHARM_ACTIVATION_CHANCE",
+      "key": "charm_activation_chance",
+      "name_tokens": [
+        "ACTIVATION",
+        "CHANCE",
+        "CHARM"
+      ],
+      "scope_used": [
+        "CHARM"
+      ],
+      "embedded_in_name": [
+        "CHARM"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CHARM_CHARGES_GAINED",
+      "key": "charm_charges_gained",
+      "name_tokens": [
+        "CHARGES",
+        "CHARM",
+        "GAINED"
+      ],
+      "scope_used": [
+        "CHARM"
+      ],
+      "embedded_in_name": [
+        "CHARM"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CHARM_CHARGES_USED",
+      "key": "charm_charges_used",
+      "name_tokens": [
+        "CHARGES",
+        "CHARM",
+        "USED"
+      ],
+      "scope_used": [
+        "CHARM"
+      ],
+      "embedded_in_name": [
+        "CHARM"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CHARM_EFFECT",
+      "key": "charm_effect",
+      "name_tokens": [
+        "CHARM",
+        "EFFECT"
+      ],
+      "scope_used": [
+        "CHARM"
+      ],
+      "embedded_in_name": [
+        "CHARM"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "GUARD_RECOVERY",
+      "key": "guard_recovery",
+      "name_tokens": [
+        "GUARD",
+        "RECOVERY"
+      ],
+      "scope_used": [
+        "GUARD"
+      ],
+      "embedded_in_name": [
+        "GUARD"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "PUPPET_MASTER_DURATION",
+      "key": "puppet_master_duration",
+      "name_tokens": [
+        "DURATION",
+        "MASTER",
+        "PUPPET"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "PUPPET_MASTER_EFFECT",
+      "key": "puppet_master_effect",
+      "name_tokens": [
+        "EFFECT",
+        "MASTER",
+        "PUPPET"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "REMNANTS_COLLECTED_FURTHER_AWAY",
+      "key": "remnants_collected_further_away",
+      "name_tokens": [
+        "AWAY",
+        "COLLECTED",
+        "FURTHER",
+        "REMNANTS"
+      ],
+      "scope_used": [
+        "REMNANT"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "REMNANT_DOUBLE_CHANCE",
+      "key": "remnant_double_chance",
+      "name_tokens": [
+        "CHANCE",
+        "DOUBLE",
+        "REMNANT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "REMNANT"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "REMNANT_EXTRA_CHANCE",
+      "key": "remnant_extra_chance",
+      "name_tokens": [
+        "CHANCE",
+        "EXTRA",
+        "REMNANT"
+      ],
+      "scope_used": [
+        "REMNANT"
+      ],
+      "embedded_in_name": [
+        "REMNANT"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "REMNANT_MAGNITUDE",
+      "key": "remnant_magnitude",
+      "name_tokens": [
+        "MAGNITUDE",
+        "REMNANT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "REMNANT"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "ACCURACY",
+      "key": "accuracy",
+      "name_tokens": [
+        "ACCURACY"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "ACCURACY"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "ADDED_DAMAGE",
+      "key": "added_damage",
+      "name_tokens": [
+        "ADDED",
+        "DAMAGE"
+      ],
+      "scope_used": [
+        "ARMOR",
+        "CHAOS",
+        "COLD",
+        "ELEMENTAL",
+        "FIRE",
+        "LIGHTNING",
+        "PHYSICAL"
+      ],
+      "embedded_in_name": [
+        "DAMAGE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "EFFECT_AREA",
+      "key": "area_of_effect",
+      "name_tokens": [
+        "AREA",
+        "EFFECT"
+      ],
+      "scope_used": [
+        "AREA",
+        "MELEE",
+        "MINION"
+      ],
+      "embedded_in_name": [
+        "AREA"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "ARMOR_BREAK",
+      "key": "armor_break",
+      "name_tokens": [
+        "ARMOR",
+        "BREAK"
+      ],
+      "scope_used": [
+        "ARMOR_BREAK"
+      ],
+      "embedded_in_name": [
+        "ARMOR"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "BLOCK_CHANCE",
+      "key": "block_chance",
+      "name_tokens": [
+        "BLOCK",
+        "CHANCE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "BLOCK"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "CAST_SPEED",
+      "key": "cast_speed",
+      "name_tokens": [
+        "CAST",
+        "SPEED"
+      ],
+      "scope_used": [
+        "AREA",
+        "ATTACK",
+        "BANNER",
+        "CURSE",
+        "MARK",
+        "MINION",
+        "SEAL",
+        "TOTEM",
+        "TRAP",
+        "WARCRY"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "COOLDOWN_RECOVERY_RATE",
+      "key": "cooldown_recovery_rate",
+      "name_tokens": [
+        "COOLDOWN",
+        "RATE",
+        "RECOVERY"
+      ],
+      "scope_used": [
+        "COMMAND",
+        "GRENADE"
+      ],
+      "embedded_in_name": [
+        "COOLDOWN"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CRIT_CHANCE",
+      "key": "crit_chance",
+      "name_tokens": [
+        "CHANCE",
+        "CRIT"
+      ],
+      "scope_used": [
+        "ATTACK",
+        "CRIT",
+        "FORM",
+        "HERALD",
+        "MINION",
+        "WYVERN"
+      ],
+      "embedded_in_name": [
+        "CRIT"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CRIT_DAMAGE",
+      "key": "crit_damage",
+      "name_tokens": [
+        "CRIT",
+        "DAMAGE"
+      ],
+      "scope_used": [
+        "ATTACK",
+        "CRIT",
+        "FORM",
+        "SPELL",
+        "WYVERN"
+      ],
+      "embedded_in_name": [
+        "CRIT",
+        "DAMAGE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CROSS_BOW_RELOAD_TIME",
+      "key": "cross_bow_reload_time",
+      "name_tokens": [
+        "BOW",
+        "CROSS",
+        "RELOAD",
+        "TIME"
+      ],
+      "scope_used": [
+        "CROSSBOW"
+      ],
+      "embedded_in_name": [
+        "BOW"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "DAMAGE",
+      "key": "damage",
+      "name_tokens": [
+        "DAMAGE"
+      ],
+      "scope_used": [
+        "AREA",
+        "ATTACK",
+        "AXE",
+        "BALLISTA",
+        "BEAR",
+        "BOW",
+        "CHAOS",
+        "COLD",
+        "COMPANION",
+        "CROSSBOW",
+        "DAMAGE",
+        "DAMAGE_OVER_TIME",
+        "ELECTROCUTED",
+        "ELEMENTAL",
+        "EMPOWERED",
+        "ENERGY_SHIELD",
+        "FIRE",
+        "FORM",
+        "FULLY_BROKEN_ARMOR",
+        "GRENADE",
+        "HAZARD",
+        "HERALD",
+        "LIGHTNING",
+        "MACE",
+        "MELEE",
+        "MINION",
+        "ONE_HANDED",
+        "PARRY",
+        "PHYSICAL",
+        "PROJECTILE",
+        "SPEAR",
+        "SPELL",
+        "SWORD",
+        "TAKEN",
+        "TOTEM",
+        "TRAP",
+        "TWO_HANDED",
+        "WOLF",
+        "WYVERN"
+      ],
+      "embedded_in_name": [
+        "DAMAGE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "DAMAGE_OVER_TIME_MULTIPLIER",
+      "key": "damage_over_time_multiplier",
+      "name_tokens": [
+        "DAMAGE",
+        "MULTIPLIER",
+        "OVER",
+        "TIME"
+      ],
+      "scope_used": [
+        "DAMAGE_OVER_TIME"
+      ],
+      "embedded_in_name": [
+        "DAMAGE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "DEFEND_WITH_ARMOUR",
+      "key": "defend_with_armour",
+      "name_tokens": [
+        "ARMOUR",
+        "DEFEND",
+        "WITH"
+      ],
+      "scope_used": [
+        "CRIT",
+        "FAR",
+        "LOW_ENERGY",
+        "PROJECTILE"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "CHANCE_DEFEND_WITH_ARMOUR",
+      "key": "chance_defend_with_armour",
+      "name_tokens": [
+        "ARMOUR",
+        "CHANCE",
+        "DEFEND",
+        "WITH"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "DEFLECTION_RATING",
+      "key": "deflection_rating",
+      "name_tokens": [
+        "DEFLECTION",
+        "RATING"
+      ],
+      "scope_used": [
+        "DEFLECT",
+        "SURROUNDED"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "DODGE_CHANCE",
+      "key": "dodge_chance",
+      "name_tokens": [
+        "CHANCE",
+        "DODGE"
+      ],
+      "scope_used": [
+        "DODGE"
+      ],
+      "embedded_in_name": [
+        "DODGE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "ELEMENTAL_DAMAGE_CONTRIBUTES_BLEEDING",
+      "key": "elemental_damage_contributes_bleeding",
+      "name_tokens": [
+        "BLEEDING",
+        "CONTRIBUTES",
+        "DAMAGE",
+        "ELEMENTAL"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "DAMAGE",
+        "ELEMENTAL"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "EVASION",
+      "key": "evasion",
+      "name_tokens": [
+        "EVASION"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "EVASION"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "KNOCKBACK",
+      "key": "knockback",
+      "name_tokens": [
+        "KNOCKBACK"
+      ],
+      "scope_used": [
+        "KNOCKBACK"
+      ],
+      "embedded_in_name": [
+        "KNOCKBACK"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "PARRY_RANGE",
+      "key": "parry_range",
+      "name_tokens": [
+        "PARRY",
+        "RANGE"
+      ],
+      "scope_used": [
+        "PARRY"
+      ],
+      "embedded_in_name": [
+        "PARRY",
+        "RANGE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "STUN_RECOVERY",
+      "key": "stun_recovery",
+      "name_tokens": [
+        "RECOVERY",
+        "STUN"
+      ],
+      "scope_used": [
+        "STUN"
+      ],
+      "embedded_in_name": [
+        "STUN"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "DAMAGE_TAKEN_BYPASSES_ENERGY",
+      "key": "damage_taken_bypasses_energy",
+      "name_tokens": [
+        "BYPASSES",
+        "DAMAGE",
+        "ENERGY",
+        "TAKEN"
+      ],
+      "scope_used": [
+        "ENERGY_SHIELD",
+        "TAKEN"
+      ],
+      "embedded_in_name": [
+        "DAMAGE",
+        "ENERGY",
+        "TAKEN"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "TAKEN_CRIT_CHANCE",
+      "key": "taken_crit_chance",
+      "name_tokens": [
+        "CHANCE",
+        "CRIT",
+        "TAKEN"
+      ],
+      "scope_used": [
+        "TAKEN_CRIT"
+      ],
+      "embedded_in_name": [
+        "CRIT",
+        "TAKEN"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "TAKEN_CRIT_DAMAGE",
+      "key": "taken_crit_damage",
+      "name_tokens": [
+        "CRIT",
+        "DAMAGE",
+        "TAKEN"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "CRIT",
+        "DAMAGE",
+        "TAKEN"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "TAKEN_DAMAGE",
+      "key": "taken_damage",
+      "name_tokens": [
+        "DAMAGE",
+        "TAKEN"
+      ],
+      "scope_used": [
+        "CHAOS",
+        "PHYSICAL"
+      ],
+      "embedded_in_name": [
+        "DAMAGE",
+        "TAKEN"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "TAKE_NO_DAMAGE_VOLATILITY",
+      "key": "take_no_damage_volatility",
+      "name_tokens": [
+        "DAMAGE",
+        "NO",
+        "TAKE",
+        "VOLATILITY"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "DAMAGE",
+        "VOLATILITY"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "TOTEM_TAKEN_AURA",
+      "key": "totem_taken_aura",
+      "name_tokens": [
+        "AURA",
+        "TAKEN",
+        "TOTEM"
+      ],
+      "scope_used": [
+        "TAKEN",
+        "TOTEM"
+      ],
+      "embedded_in_name": [
+        "AURA",
+        "TAKEN",
+        "TOTEM"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "AVOID_AILMENT_CHANCE",
+      "key": "avoid_ailment_chance",
+      "name_tokens": [
+        "AILMENT",
+        "AVOID",
+        "CHANCE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "AILMENT"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "RESISTANCES",
+      "key": "resistances",
+      "name_tokens": [
+        "RESISTANCES"
+      ],
+      "scope_used": [
+        "CHAOS",
+        "COLD",
+        "ELEMENTAL",
+        "FIRE",
+        "LIGHTNING",
+        "MINION",
+        "RESISTANCE"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "RESISTANCE_PENETRATION",
+      "key": "resistance_penetration",
+      "name_tokens": [
+        "PENETRATION",
+        "RESISTANCE"
+      ],
+      "scope_used": [
+        "ATTACK",
+        "CHAOS",
+        "COLD",
+        "ELEMENTAL",
+        "FIRE",
+        "GLORY",
+        "LIGHTNING",
+        "RESISTANCE"
+      ],
+      "embedded_in_name": [
+        "RESISTANCE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "STATUS_EXTRA_STACKS",
+      "key": "status_extra_stacks",
+      "name_tokens": [
+        "EXTRA",
+        "STACKS",
+        "STATUS"
+      ],
+      "scope_used": [
+        "STATUS"
+      ],
+      "embedded_in_name": [
+        "STATUS"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "STATUS_MAX_STACKS",
+      "key": "status_max_stacks",
+      "name_tokens": [
+        "MAX",
+        "STACKS",
+        "STATUS"
+      ],
+      "scope_used": [
+        "STATUS"
+      ],
+      "embedded_in_name": [
+        "STATUS"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "AMOUNT_LEECHED",
+      "key": "amount_leeched",
+      "name_tokens": [
+        "AMOUNT",
+        "LEECHED"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "FLASK_CHARGES_GAINED",
+      "key": "flask_charges_gained",
+      "name_tokens": [
+        "CHARGES",
+        "FLASK",
+        "GAINED"
+      ],
+      "scope_used": [
+        "FLASK"
+      ],
+      "embedded_in_name": [
+        "FLASK"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "FLASK_NO_CONSUME_CHANCE",
+      "key": "flask_no_consume_chance",
+      "name_tokens": [
+        "CHANCE",
+        "CONSUME",
+        "FLASK",
+        "NO"
+      ],
+      "scope_used": [
+        "FLASK"
+      ],
+      "embedded_in_name": [
+        "FLASK"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "FLASK_RECOVERY_RATE",
+      "key": "flask_recovery_rate",
+      "name_tokens": [
+        "FLASK",
+        "RATE",
+        "RECOVERY"
+      ],
+      "scope_used": [
+        "FLASK",
+        "HEALTH",
+        "MANA"
+      ],
+      "embedded_in_name": [
+        "FLASK"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "LEECH",
+      "key": "leech",
+      "name_tokens": [
+        "LEECH"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "LEECHES_RESPONSE",
+      "key": "leeches_response",
+      "name_tokens": [
+        "LEECHES",
+        "RESPONSE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "LEECH_RATE",
+      "key": "leech_rate",
+      "name_tokens": [
+        "LEECH",
+        "RATE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "MANA_TAKE_OF_DAMAGE",
+      "key": "mana_take_of_damage",
+      "name_tokens": [
+        "DAMAGE",
+        "MANA",
+        "OF",
+        "TAKE"
+      ],
+      "scope_used": [
+        "MANA_TAKE"
+      ],
+      "embedded_in_name": [
+        "DAMAGE",
+        "MANA"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "RECOVERY_RATE",
+      "key": "recovery_rate",
+      "name_tokens": [
+        "RATE",
+        "RECOVERY"
+      ],
+      "scope_used": [
+        "FLASK",
+        "HEALTH",
+        "MANA"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "REGENERATION_RATE",
+      "key": "regeneration_rate",
+      "name_tokens": [
+        "RATE",
+        "REGENERATION"
+      ],
+      "scope_used": [
+        "ENERGY",
+        "HEALTH",
+        "MANA",
+        "REGEN"
+      ],
+      "embedded_in_name": [],
+      "has_scope_use": true
+    },
+    {
+      "name": "LAUNCH_ADDITIONAL_PROJECTILE",
+      "key": "launch_additional_projectile",
+      "name_tokens": [
+        "ADDITIONAL",
+        "LAUNCH",
+        "PROJECTILE"
+      ],
+      "scope_used": [
+        "ARROW",
+        "BOW",
+        "CROSSBOW",
+        "PROJECTILE"
+      ],
+      "embedded_in_name": [
+        "PROJECTILE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "PROJECTILE_PIERCE",
+      "key": "projectile_pierce",
+      "name_tokens": [
+        "PIERCE",
+        "PROJECTILE"
+      ],
+      "scope_used": [
+        "ARROW",
+        "PROJECTILE"
+      ],
+      "embedded_in_name": [
+        "PIERCE",
+        "PROJECTILE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "PROJECTILE_PIERCE_CHANCE",
+      "key": "projectile_pierce_chance",
+      "name_tokens": [
+        "CHANCE",
+        "PIERCE",
+        "PROJECTILE"
+      ],
+      "scope_used": [
+        "ARROW",
+        "PROJECTILE"
+      ],
+      "embedded_in_name": [
+        "PIERCE",
+        "PROJECTILE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "PROJECTILE_RANDOM_FIRE",
+      "key": "projectile_random_fire",
+      "name_tokens": [
+        "FIRE",
+        "PROJECTILE",
+        "RANDOM"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "FIRE",
+        "PROJECTILE"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "PROJECTILE_SPEED",
+      "key": "projectile_speed",
+      "name_tokens": [
+        "PROJECTILE",
+        "SPEED"
+      ],
+      "scope_used": [
+        "BOLT",
+        "PROJECTILE"
+      ],
+      "embedded_in_name": [
+        "PROJECTILE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "TALENT_AUTO_SMELT",
+      "key": "talent_auto_smelt",
+      "name_tokens": [
+        "AUTO",
+        "SMELT",
+        "TALENT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "TALENT_EXTRA_XP",
+      "key": "talent_extra_xp",
+      "name_tokens": [
+        "EXTRA",
+        "TALENT",
+        "XP"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "TALENT_FORTUNE",
+      "key": "talent_fortune",
+      "name_tokens": [
+        "FORTUNE",
+        "TALENT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "TALENT_LOOTING",
+      "key": "talent_looting",
+      "name_tokens": [
+        "LOOTING",
+        "TALENT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "TALENT_MAGNET",
+      "key": "talent_magnet",
+      "name_tokens": [
+        "MAGNET",
+        "TALENT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "TALENT_MENDING",
+      "key": "talent_mending",
+      "name_tokens": [
+        "MENDING",
+        "TALENT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "ADD_EMPOWERED_ATTACKS",
+      "key": "empowered_attacks",
+      "name_tokens": [
+        "ADD",
+        "ATTACKS",
+        "EMPOWERED"
+      ],
+      "scope_used": [
+        "TAKEN",
+        "WARCRY"
+      ],
+      "embedded_in_name": [
+        "EMPOWERED"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "BANNER_LINGER",
+      "key": "banner_linger",
+      "name_tokens": [
+        "BANNER",
+        "LINGER"
+      ],
+      "scope_used": [
+        "BANNER",
+        "TAKEN"
+      ],
+      "embedded_in_name": [
+        "BANNER"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CORPSE_RETAIN_CHANCE",
+      "key": "corpse_retain_chance",
+      "name_tokens": [
+        "CHANCE",
+        "CORPSE",
+        "RETAIN"
+      ],
+      "scope_used": [
+        "CORPSE"
+      ],
+      "embedded_in_name": [
+        "CORPSE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "CORRUPTION_ENDURES_CHANCE",
+      "key": "corruption_endures_chance",
+      "name_tokens": [
+        "CHANCE",
+        "CORRUPTION",
+        "ENDURES"
+      ],
+      "scope_used": [
+        "CORRUPTION"
+      ],
+      "embedded_in_name": [
+        "CORRUPTION"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "FOUND_ITEM_NUMBER",
+      "key": "found_item_number",
+      "name_tokens": [
+        "FOUND",
+        "ITEM",
+        "NUMBER"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "FOUND_ITEM_RARITY",
+      "key": "found_item_rarity",
+      "name_tokens": [
+        "FOUND",
+        "ITEM",
+        "RARITY"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "RARITY"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "ITEM_CAPACITY",
+      "key": "item_capacity",
+      "name_tokens": [
+        "CAPACITY",
+        "ITEM"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    },
+    {
+      "name": "PRESENCE_RANGE",
+      "key": "presence_range",
+      "name_tokens": [
+        "PRESENCE",
+        "RANGE"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [
+        "PRESENCE",
+        "RANGE"
+      ],
+      "has_scope_use": false
+    },
+    {
+      "name": "RECENTLY_CONSUMED_DAMAGE",
+      "key": "recently_consumed_damage",
+      "name_tokens": [
+        "CONSUMED",
+        "DAMAGE",
+        "RECENTLY"
+      ],
+      "scope_used": [
+        "CORPSE"
+      ],
+      "embedded_in_name": [
+        "DAMAGE"
+      ],
+      "has_scope_use": true
+    },
+    {
+      "name": "SKILL_SLOT_COUNT",
+      "key": "skill_slot_count",
+      "name_tokens": [
+        "COUNT",
+        "SKILL",
+        "SLOT"
+      ],
+      "scope_used": [],
+      "embedded_in_name": [],
+      "has_scope_use": false
+    }
+  ]
+}

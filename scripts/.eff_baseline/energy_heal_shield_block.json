@@ -1,0 +1,7 @@
+{
+  "type": "heal",
+  "resource": "energy",
+  "tags": [
+    "shield_block"
+  ]
+}

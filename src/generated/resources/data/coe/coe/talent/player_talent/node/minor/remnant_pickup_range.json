@@ -1,0 +1,148 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:remnants_can_be_collected_from_further_away",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnant",
+    "id": "13909",
+    "links": [
+      "31037",
+      "46819",
+      "62679"
+    ],
+    "x": 473.555,
+    "y": -6943.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:remnants_can_be_collected_from_further_away",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnant",
+    "id": "18744",
+    "links": [
+      "4059",
+      "60324"
+    ],
+    "x": 4496.61,
+    "y": -8145.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:remnants_can_be_collected_from_further_away",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnant",
+    "id": "37593",
+    "links": [
+      "46124",
+      "63009",
+      "63739"
+    ],
+    "x": 1060.36,
+    "y": -5120.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:remnants_can_be_collected_from_further_away",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnant",
+    "id": "60324",
+    "links": [
+      "1506",
+      "18744"
+    ],
+    "x": 4332.61,
+    "y": -8145.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:remnants_can_be_collected_from_further_away",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnant",
+    "id": "62679",
+    "links": [
+      "13909",
+      "40985"
+    ],
+    "x": 637.555,
+    "y": -6779.69
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:remnants_can_be_collected_from_further_away",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_remnant",
+    "id": "63009",
+    "links": [
+      "37593",
+      "40783"
+    ],
+    "x": 1060.36,
+    "y": -5284.17
+  }
+]

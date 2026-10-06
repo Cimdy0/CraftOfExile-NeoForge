@@ -1,0 +1,8 @@
+{
+  "convert": {
+    "fire": 7,
+    "physical": 3,
+    "replace": false
+  },
+  "state": "is_fire"
+}

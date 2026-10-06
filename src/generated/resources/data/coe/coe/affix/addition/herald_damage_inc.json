@@ -1,0 +1,9 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:herald_skills_deal_inc_damage"
+    }
+  ]
+}

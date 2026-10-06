@@ -1,0 +1,3544 @@
+{
+ "ready": [
+  {
+   "sid": "INC_ACCURACY_AT_CLOSE_RANGE",
+   "sibling": "INC_ACCURACY",
+   "score": 0.5,
+   "attr": "ACCURACY",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 15.0,
+   "raw": [
+    "16% increased [Accuracy] Rating at [CloseRange|Close Range]",
+    "30% increased [Accuracy] Rating at [CloseRange|Close Range]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY"
+  },
+  {
+   "sid": "INC_ACCURACY_WITH_BOWS",
+   "sibling": "INC_ACCURACY",
+   "score": 0.667,
+   "attr": "ACCURACY",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 15.0,
+   "raw": [
+    "10% increased Accuracy Rating with Bows"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY"
+  },
+  {
+   "sid": "INC_ACCURACY_WITH_ONE_HANDED_MELEE_WEAPONS",
+   "sibling": "INC_DAMAGE_WITH_ONE_HANDED_WEAPONS",
+   "score": 0.571,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "ONE_HANDED"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased [Accuracy] Rating with One Handed [Melee] Weapons",
+    "15% increased [Accuracy] Rating with One Handed [Melee] Weapons"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ONE_HANDED"
+  },
+  {
+   "sid": "INC_ACCURACY_WITH_QUARTERSTAVES",
+   "sibling": "INC_ACCURACY",
+   "score": 0.667,
+   "attr": "ACCURACY",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 15.0,
+   "raw": [
+    "25% increased [Accuracy] Rating with [Quarterstaff|Quarterstaves]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY"
+  },
+  {
+   "sid": "INC_ACCURACY_WITH_SPEARS",
+   "sibling": "INC_ACCURACY",
+   "score": 0.667,
+   "attr": "ACCURACY",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 15.0,
+   "raw": [
+    "10% increased [Accuracy] Rating with [Spear|Spears]",
+    "25% increased [Accuracy] Rating with [Spear|Spears]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY"
+  },
+  {
+   "sid": "INC_ACCURACY_WITH_TWO_HANDED_MELEE_WEAPONS",
+   "sibling": "INC_DAMAGE_WITH_TWO_HANDED_WEAPONS",
+   "score": 0.571,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "TWO_HANDED"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "16% increased [Accuracy] Rating with Two Handed [Melee] Weapons",
+    "8% increased [Accuracy] Rating with Two Handed [Melee] Weapons"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_TWO_HANDED"
+  },
+  {
+   "sid": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH",
+   "sibling": "INC_AMOUNT_LEECH_HEALTH",
+   "score": 1.0,
+   "attr": "AMOUNT_LEECHED",
+   "tags": [
+    "AMOUNT",
+    "HEALTH",
+    "LEECHING"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased amount of Life [LifeLeech|Leeched]",
+    "12% increased amount of Life [LifeLeech|Leeched]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AMOUNT_ATTRIBUTE_COE_AMOUNT_LEECHED_HEALTH_LEECHING"
+  },
+  {
+   "sid": "INC_AREA_DAMAGE",
+   "sibling": "INC_ATTACK_AREA_DAMAGE",
+   "score": 0.75,
+   "attr": "DAMAGE",
+   "tags": [
+    "AREA",
+    "ATTACK",
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Area Damage",
+    "5% increased Area Damage"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_AREA_OF_EFFECT_FOR_ATTACKS_PER_ENEMY_YOU_VE_IGNITED_IN_THE_LAST_SECONDS_UP_TO",
+   "sibling": "INC_AREA_OF_EFFECT_FOR_ATTACKS",
+   "score": 0.5,
+   "attr": "EFFECT_AREA",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "4% increased Area of Effect for [Attack|Attacks] per Enemy you've [Ignite|Ignited] in the last 8 seconds, up to 40%"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT"
+  },
+  {
+   "sid": "INC_AREA_OF_EFFECT_IF_YOU_HAVE_STUNNED_AN_ENEMY_RECENTLY",
+   "sibling": "INC_AREA_OF_EFFECT",
+   "score": 0.6,
+   "attr": "EFFECT_AREA",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased Area of Effect if you have [Stun|Stunned] an Enemy [Recently|Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT"
+  },
+  {
+   "sid": "INC_AREA_OF_EFFECT_OF_ANCESTRALLY_BOOSTED_ATTACKS",
+   "sibling": "INC_AREA_OF_EFFECT_FOR_ATTACKS",
+   "score": 0.571,
+   "attr": "EFFECT_AREA",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]",
+    "4% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT"
+  },
+  {
+   "sid": "INC_AREA_OF_EFFECT_WHILE_YOU_HAVE_ARCANE_SURGE",
+   "sibling": "INC_BUFF_EFFECT_OF_ARCANE_SURGE_ON_YOU",
+   "score": 0.667,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "ARCANE_SURGE",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased Area of Effect while you have [ArcaneSurge|Arcane Surge]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ARCANE_SURGE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN"
+  },
+  {
+   "sid": "INC_AREA_OF_EFFECT_WHILE_YOU_HAVE_A_TOTEM",
+   "sibling": "INC_AREA_OF_EFFECT",
+   "score": 0.75,
+   "attr": "EFFECT_AREA",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Area of Effect while you have a Totem"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT"
+  },
+  {
+   "sid": "INC_ARMOR_BREAK_DURATION",
+   "sibling": "INC_ARMOR",
+   "score": 0.5,
+   "attr": "ARMOR",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "100% increased [ArmourBreak|Armour Break] Duration",
+    "20% increased [ArmourBreak|Armour Break] Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR"
+  },
+  {
+   "sid": "INC_ARMOR_BREAK_TAKEN",
+   "sibling": "INC_ARMOR",
+   "score": 0.5,
+   "attr": "ARMOR",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "25% reduced [ArmourBreak|Armour Break] taken",
+    "50% reduced [ArmourBreak|Armour Break] taken"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR"
+  },
+  {
+   "sid": "INC_ARMOR_FROM_EQUIPPED_BODY_ARMOR",
+   "sibling": "INC_ARMOR",
+   "score": 0.5,
+   "attr": "ARMOR",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "60% increased [Armour] from Equipped Body Armour",
+    "80% increased [Armour] from Equipped Body Armour"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR"
+  },
+  {
+   "sid": "INC_ATTACK_AND_CAST_SPEED",
+   "sibling": "INC_MINIONS_ATTACK_CAST_SPEED",
+   "score": 0.8,
+   "attr": "CAST_SPEED",
+   "tags": [
+    "ATTACK"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "8% increased [Attack] and Cast Speed"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_AND_CAST_SPEED_DURING_EFFECT_OF_ANY_MANA_FLASK",
+   "sibling": "INC_MANA_RECOVERY_RATE_DURING_EFFECT_OF_ANY_MANA_FLASK",
+   "score": 0.545,
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "FLASK",
+    "MANA"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "8% increased [Attack] and Cast Speed during Effect of any Mana [Flask]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_MANA"
+  },
+  {
+   "sid": "INC_ATTACK_AND_CAST_SPEED_IF_YOU_VE_SUMMONED_A_TOTEM_RECENTLY",
+   "sibling": "INC_ATTACK_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+   "score": 0.556,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased [Attack] and Cast Speed if you've summoned a [Totem|Totem] [Recently|Recently]",
+    "6% increased [Attack] and Cast Speed if you've summoned a [Totem|Totem] [Recently|Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_AND_CAST_SPEED_WITH_ELEMENTAL_SKILLS",
+   "sibling": "INC_MINIONS_ATTACK_CAST_SPEED",
+   "score": 0.571,
+   "attr": "CAST_SPEED",
+   "tags": [
+    "ATTACK"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] and Cast Speed with Elemental Skills",
+    "5% increased [Attack] and Cast Speed with Elemental Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_AND_CAST_SPEED_WITH_LIGHTNING_SKILLS",
+   "sibling": "INC_MINIONS_ATTACK_CAST_SPEED",
+   "score": 0.571,
+   "attr": "CAST_SPEED",
+   "tags": [
+    "ATTACK"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] and Cast Speed with [Lightning|Lightning] Skills",
+    "5% increased [Attack] and Cast Speed with [Lightning|Lightning] Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_COLD_DAMAGE",
+   "sibling": "INC_ATTACK_DAMAGE",
+   "score": 0.75,
+   "attr": "ATTACK_DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased [Attack] Cold Damage",
+    "8% increased [Attack] Cold Damage"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_DAMAGE"
+  },
+  {
+   "sid": "INC_ATTACK_DAMAGE_PER_SUMMONED_TOTEM_IN_YOUR_PRESENCE",
+   "sibling": "INC_ATTACK_DAMAGE",
+   "score": 0.5,
+   "attr": "ATTACK_DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Attack] Damage per Summoned [Totem] in your [Presence]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_DAMAGE"
+  },
+  {
+   "sid": "INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_AN_ALLIES_IN_YOUR_PRESENCE",
+   "sibling": "INC_DAMAGE_PRESENCE_ALLIES",
+   "score": 0.8,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "16% increased [Attack|Attack] Damage while you have an [Allies|Ally] in your [Presence|Presence]",
+    "35% increased [Attack|Attack] Damage while you have an [Allies|Ally] in your [Presence|Presence]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_DURING_ANY_FLASK_EFFECT",
+   "sibling": "INC_HEALTH_REGENERATION_RATE_DURING_EFFECT_OF_ANY_HEALTH_FLASK",
+   "score": 0.5,
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "FLASK",
+    "HEALTH"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "16% increased [Attack] Speed during any [Flask] Effect",
+    "6% increased [Attack] Speed during any [Flask] Effect"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_IF_YOU_VE_BEEN_HIT_RECENTLY",
+   "sibling": "INC_ATTACK_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+   "score": 0.625,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Attack] Speed if you've been Hit [Recently]",
+    "6% increased [Attack] Speed if you've been Hit [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+   "sibling": "INC_ATTACK_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+   "score": 0.556,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed if you've dealt a [Critical|Critical Hit] [Recently|Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY",
+   "sibling": "INC_ATTACK_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+   "score": 0.625,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased [Attack] Speed if you've successfully [Parry|Parried] [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_PER_ACCURACY_UP_TO",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.6,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "1% increased [Attack] Speed per 400 [Accuracy|Accuracy] Rating, up to 20%"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_PER_DEXTERITY",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "1% increased [Attack] Speed per 25 [Dexterity]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_PER_ENEMY_IN_CLOSE_RANGE",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.6,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed per Enemy in [CloseRange|Close Range]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WHILE_NOT_ON_LOW_MANA",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.5,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Attack] Speed while not on Low Mana"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+   "sibling": "INC_ATTACK_SPEED_WHILE_A_RARE_OR_UNIQUE_ENEMY_IS_IN_YOUR_PRESENCE",
+   "score": 0.556,
+   "attr": "ATTACK_SPEED",
+   "tags": [
+    "ATTACK",
+    "RARITY"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "4% increased [Attack] Speed while your [Companion] is in your [Presence]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_RARITY"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_AXES",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed with [Axe|Axes]",
+    "4% increased [Attack] Speed with [Axe|Axes]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_BOWS",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed with Bows",
+    "5% increased [Attack] Speed with Bows"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_CROSSBOWS",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% reduced [Attack] Speed with [Crossbow|Crossbows]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_DAGGERS",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed with [Dagger|Daggers]",
+    "5% increased [Attack] Speed with [Dagger|Daggers]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_FLAILS",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "6% increased [Attack] Speed with [Flail|Flails]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_ONE_HANDED_MELEE_WEAPONS",
+   "sibling": "INC_DAMAGE_WITH_ONE_HANDED_WEAPONS",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "ONE_HANDED"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed with One Handed [Melee] Weapons",
+    "6% increased [Attack] Speed with One Handed [Melee] Weapons"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ONE_HANDED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_ONE_HANDED_WEAPONS",
+   "sibling": "INC_DAMAGE_WITH_ONE_HANDED_WEAPONS",
+   "score": 0.571,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "ONE_HANDED"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed with One Handed Weapons",
+    "8% increased [Attack] Speed with One Handed Weapons"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ONE_HANDED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_QUARTERSTAVES",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed with [Quarterstaff|Quarterstaves]",
+    "8% increased [Attack] Speed with [Quarterstaff|Quarterstaves]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_SPEARS",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Attack] Speed with [Spear|Spears]",
+    "3% increased [Attack] Speed with [Spear|Spears]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_ATTACK_SPEED_WITH_SWORDS",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Attack] Speed with Swords"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_BALLISTA_CRITICAL_DAMAGE_BONUS",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS",
+   "score": 0.8,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Ballista] [CriticalDamageBonus|Critical Damage Bonus]",
+    "25% increased [Ballista] [CriticalDamageBonus|Critical Damage Bonus]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_BALLISTA_CRITICAL_HIT_CHANCE",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.8,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Ballista] [Critical|Critical Hit Chance]",
+    "20% increased [Ballista] [Critical|Critical Hit Chance]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_BALLISTA_IMMOBILISATION_BUILDUP",
+   "sibling": "INC_IMMOBILISATION_BUILDUP",
+   "score": 0.75,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Ballista] [Immobilised|Immobilisation] buildup",
+    "50% increased [Ballista] [Immobilised|Immobilisation] buildup"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP"
+  },
+  {
+   "sid": "INC_BLEEDING_DURATION",
+   "sibling": "INC_BLEEDING_DURATION_TAKEN",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "BLEED",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Bleeding Duration",
+    "20% increased Bleeding Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN"
+  },
+  {
+   "sid": "INC_BLIND_DURATION",
+   "sibling": "INC_POISON_DURATION_ON_YOU",
+   "score": 0.5,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "POISON",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% increased [Blind] duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_POISON_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT",
+   "score": 0.833,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "DAMAGE_OVER_TIME",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [BuffMagnitude|Magnitude] of [Ailments] you inflict",
+    "12% increased [BuffMagnitude|Magnitude] of [Ailments] you inflict"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT_AGAINST_MARKED_ENEMIES",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT",
+   "score": 0.625,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "DAMAGE_OVER_TIME",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% increased [BuffMagnitude|Magnitude] of [Ailments] you inflict against [Mark|Marked] Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU",
+   "score": 0.8,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "AILMENT",
+    "BLEED",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [BuffMagnitude|Magnitude] of [Bleeding|Bleeding] you inflict",
+    "15% increased [BuffMagnitude|Magnitude] of [Bleeding|Bleeding] you inflict"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_MAGNITUDE_TAKEN_2"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_AGAINST_PINNED_ENEMIES",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_AGAINST_ENEMIES_AFFECTED_BY_INCISION",
+   "score": 0.6,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "AILMENT",
+    "BLEED",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [BuffMagnitude|Magnitude] of [Bleeding] you inflict against [Pinned] Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_MAGNITUDE_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_WITH_CRITICAL_HITS",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU",
+   "score": 0.571,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "AILMENT",
+    "BLEED",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [BuffMagnitude|Magnitude] of [Bleeding|Bleeding] you inflict with [Critical|Critical Hits]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_MAGNITUDE_TAKEN_2"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT",
+   "score": 0.75,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "DAMAGE_OVER_TIME",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] you inflict with [Critical|Critical Hits]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS",
+   "sibling": "INC_BUFF_MAGNITUDE",
+   "score": 0.5,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "AURA",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [BuffMagnitude|Magnitude] of [Impale]s inflicted with Spells"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_AURA_COE_AILMENT_MAGNITUDE_TAKEN_2"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT",
+   "score": 0.857,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "DAMAGE_OVER_TIME",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [BuffMagnitude|Magnitude] of [NonDamagingAilments|Non-Damaging Ailments] you inflict",
+    "30% increased [BuffMagnitude|Magnitude] of [NonDamagingAilments|Non-Damaging Ailments] you inflict"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT",
+   "score": 0.667,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "DAMAGE_OVER_TIME",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [BuffMagnitude|Magnitude] of [NonDamagingAilments|Non-Damaging Ailments] you inflict with [Critical|Critical Hits]",
+    "30% increased [BuffMagnitude|Magnitude] of [NonDamagingAilments|Non-Damaging Ailments] you inflict with [Critical|Critical Hits]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT",
+   "score": 0.667,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "CHILL",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [BuffMagnitude|Magnitude] of [Poison] you inflict",
+    "12% increased [BuffMagnitude|Magnitude] of [Poison] you inflict"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHILL_COE_AILMENT_MAGNITUDE_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT",
+   "score": 0.667,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "CHILL",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [BuffMagnitude|Magnitude] of [Shock|Shock] you inflict",
+    "15% increased [BuffMagnitude|Magnitude] of [Shock|Shock] you inflict"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHILL_COE_AILMENT_MAGNITUDE_TAKEN"
+  },
+  {
+   "sid": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT_WITH_CRITICAL_HITS",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT",
+   "score": 0.5,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "CHILL",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [BuffMagnitude|Magnitude] of [Shock|Shock] you inflict with [Critical|Critical Hits]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHILL_COE_AILMENT_MAGNITUDE_TAKEN"
+  },
+  {
+   "sid": "INC_CAST_SPEED_IF_YOU_VE_ATTACKED_RECENTLY",
+   "sibling": "INC_CAST_SPEED",
+   "score": 0.5,
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Cast Speed if you've Attacked [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_CAST_SPEED_WHEN_ON_FULL_HEALTH",
+   "sibling": "INC_CAST_SPEED",
+   "score": 0.6,
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Cast Speed when on Full Life",
+    "10% reduced Cast Speed when on Full Life"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_CAST_SPEED_WHEN_ON_LOW_HEALTH",
+   "sibling": "INC_CAST_SPEED",
+   "score": 0.6,
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased Cast Speed when on [LowLife|Low Life]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_CAST_SPEED_WHILE_ON_FULL_MANA",
+   "sibling": "INC_CAST_SPEED",
+   "score": 0.6,
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased Cast Speed while on Full Mana"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_CAST_SPEED_WITH_COLD_SKILLS",
+   "sibling": "INC_CAST_SPEED",
+   "score": 0.6,
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased Cast Speed with [Cold] Skills",
+    "8% increased Cast Speed with [Cold] Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_CHANCE_TO_INFLICT_AILMENTS_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+   "sibling": "INC_ACCURACY_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+   "score": 0.556,
+   "attr": "ACCURACY",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 15.0,
+   "raw": [
+    "20% increased chance to inflict [Ailments] against [Rarity|Rare or Unique] Enemies",
+    "25% increased chance to inflict [Ailments] against [Rarity|Rare or Unique] Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY"
+  },
+  {
+   "sid": "INC_CHAOS_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_PLAGUE",
+   "sibling": "INC_DAMAGE_WHILE_AFFECTED_BY_A_HERALD",
+   "score": 0.714,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "HERALD"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [Chaos] Damage while affected by [Herald] of Plague"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD"
+  },
+  {
+   "sid": "INC_CHARM_EFFECT_DURATION",
+   "sibling": "INC_CHARM_DURATION",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "CHARM",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Charm] Effect Duration",
+    "40% increased [Charm] Effect Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARM_COE_AILMENT_DURATION_TAKEN"
+  },
+  {
+   "sid": "INC_CHILL_AND_FREEZE_DURATION_ON_ENEMIES",
+   "sibling": "INC_CHILL_DURATION_TAKEN",
+   "score": 0.6,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "CHILL",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Chill] and [Freeze] Duration on Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_CHILL_COE_AILMENT_DURATION_TAKEN"
+  },
+  {
+   "sid": "INC_CHILL_DURATION_ON_ENEMIES",
+   "sibling": "INC_CHILL_DURATION_TAKEN",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "CHILL",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Chill|Chill] Duration on Enemies",
+    "15% increased [Chill|Chill] Duration on Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_CHILL_COE_AILMENT_DURATION_TAKEN"
+  },
+  {
+   "sid": "INC_COLD_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ICE",
+   "sibling": "INC_DAMAGE_WHILE_AFFECTED_BY_A_HERALD",
+   "score": 0.714,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "HERALD"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [Cold] Damage while affected by [Herald] of Ice"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD"
+  },
+  {
+   "sid": "INC_COOLDOWN_RECOVERY_RATE_FOR_GRENADE_SKILLS",
+   "sibling": "INC_COOLDOWN_RECOVERY_RATE",
+   "score": 0.571,
+   "attr": "COOLDOWN_RECOVERY_RATE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Cooldown Recovery Rate for [Grenade] Skills",
+    "40% increased Cooldown Recovery Rate for [Grenade] Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_THAT_HAVE_EXITED_YOUR_PRESENCE_RECENTLY",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+   "score": 0.545,
+   "attr": "CRIT_DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "50% increased [CriticalDamageBonus|Critical Damage Bonus] against Enemies that have exited your [Presence] [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_DAMAGE"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_DEALT_A_NON_CRITICAL_HIT_RECENTLY",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY",
+   "score": 0.5,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% increased [CriticalDamageBonus|Critical Damage Bonus] if you've dealt a [Critical|Non-Critical Hit] [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_GAIN_A_POWER_CHARGE_RECENTLY",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY",
+   "score": 0.8,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [CriticalDamageBonus|Critical Damage Bonus] if you've gained a [Charges|Power Charge] [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_WITH_BOWS",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS",
+   "score": 0.8,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "16% increased [CriticalDamageBonus|Critical Damage Bonus] with Bows"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_WITH_CROSSBOWS",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS",
+   "score": 0.8,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "80% increased [CriticalDamageBonus|Critical Damage Bonus] with [Crossbow|Crossbows]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_WITH_DAGGERS",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS",
+   "score": 0.8,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [CriticalDamageBonus|Critical Damage Bonus] with [Dagger|Daggers]",
+    "25% increased [CriticalDamageBonus|Critical Damage Bonus] with [Dagger|Daggers]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_WITH_FLAILS",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS",
+   "score": 0.8,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [CriticalDamageBonus|Critical Damage Bonus] with [Flail|Flails]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_WITH_ONE_HANDED_MELEE_WEAPONS",
+   "sibling": "INC_DAMAGE_WITH_ONE_HANDED_WEAPONS",
+   "score": 0.625,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "ONE_HANDED"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [CriticalDamageBonus|Critical Damage Bonus] with One Handed [Melee] Weapons"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ONE_HANDED"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_WITH_QUARTERSTAVES",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS",
+   "score": 0.8,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "18% increased [CriticalDamageBonus|Critical Damage Bonus] with [Quarterstaff|Quarterstaves]",
+    "25% increased [CriticalDamageBonus|Critical Damage Bonus] with [Quarterstaff|Quarterstaves]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_DAMAGE_BONUS_WITH_SPEARS",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS",
+   "score": 0.8,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [CriticalDamageBonus|Critical Damage Bonus] with [Spear|Spears]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_HAVE_ENTERED_YOUR_PRESENCE_RECENTLY",
+   "sibling": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+   "score": 0.545,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased [Critical|Critical Hit] Chance against Enemies that have entered your [Presence] [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_WITH_EXPOSURE",
+   "sibling": "INC_CRITICAL_HIT_CHANCE_AGAINST_IMMOBILISED_ENEMIES",
+   "score": 0.714,
+   "attr": "CRIT_CHANCE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Critical|Critical Hit Chance] against enemies with [Exposure]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_CHANCE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_AGAINST_HUMANOIDS",
+   "sibling": "INC_CRITICAL_HIT_CHANCE_AGAINST_IMMOBILISED_ENEMIES",
+   "score": 0.714,
+   "attr": "CRIT_CHANCE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] against Humanoids",
+    "50% increased [Critical|Critical Hit Chance] against Humanoids"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_CHANCE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_FOR_SPELLS",
+   "sibling": "INC_CRITICAL_HIT_CHANCE_FOR_ATTACKS",
+   "score": 0.714,
+   "attr": "CRIT_CHANCE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] for [Spell|Spells]",
+    "15% increased [Critical|Critical Hit Chance] for [Spell|Spells]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_CHANCE_CRIT"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+   "sibling": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_KILLED_RECENTLY",
+   "score": 0.556,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "16% increased [Critical|Critical Hit Chance] if you haven't dealt a Critical Hit [Recently]",
+    "40% increased [Critical|Critical Hit Chance] if you haven't dealt a Critical Hit [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+   "sibling": "INC_CRITICAL_HIT_CHANCE_WHILE_SHAPESHIFTED",
+   "score": 0.625,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Critical|Critical Hit] Chance if you have [Shapeshift|Shapeshifted] to an Animal form [Recently]",
+    "30% increased [Critical|Critical Hit] Chance if you have [Shapeshift|Shapeshifted] to an Animal form [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_IF_YOU_VE_TRIGGERED_A_SKILL_RECENTLY",
+   "sibling": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_KILLED_RECENTLY",
+   "score": 0.556,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% increased [Critical|Critical Hit] Chance if you've [Trigger|Triggered] a Skill [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_WITH_CROSSBOWS",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.8,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] with [Crossbow|Crossbows]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_WITH_DAGGERS",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.8,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] with [Dagger|Daggers]",
+    "15% increased [Critical|Critical Hit Chance] with [Dagger|Daggers]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_WITH_FLAILS",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.8,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] with [Flail|Flails]",
+    "15% increased [Critical|Critical Hit Chance] with [Flail|Flails]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_WITH_ONE_HANDED_MELEE_WEAPONS",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.5,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] with One Handed [Melee] Weapons"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_WITH_QUARTERSTAVES",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.8,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] with [Quarterstaff|Quarterstaves]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_WITH_SPEARS",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.8,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] with [Spear|Spears]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_CRITICAL_HIT_CHANCE_WITH_TRAPS",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.8,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Critical|Critical Hit Chance] with Traps",
+    "25% increased [Critical|Critical Hit Chance] with Traps"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_DAMAGE_AGAINST_DEMONS",
+   "sibling": "INC_DAMAGE_AGAINST_DAZED_ENEMIES",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Damage against Demons",
+    "50% increased Damage against Demons"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+   "sibling": "INC_DAMAGE_AGAINST_DAZED_ENEMIES",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Damage against [Immobilised] Enemies",
+    "20% increased Damage against [Immobilised] Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES_WHILE_SHAPESHIFTED",
+   "sibling": "INC_DAMAGE_SHAPESHIFTED",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased Damage against [Immobilised] Enemies while [Shapeshift|Shapeshifted]",
+    "50% increased Damage against [Immobilised] Enemies while [Shapeshift|Shapeshifted]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_AGAINST_UNDEAD_ENEMIES",
+   "sibling": "INC_DAMAGE_AGAINST_DAZED_ENEMIES",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased damage against Undead Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_DURING_ANY_FLASK_EFFECT",
+   "sibling": "INC_HEALTH_REGENERATION_RATE_DURING_EFFECT_OF_ANY_HEALTH_FLASK",
+   "score": 0.556,
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "FLASK",
+    "HEALTH"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% increased Damage during any [Flask] Effect"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH"
+  },
+  {
+   "sid": "INC_DAMAGE_FOR_EACH_TYPE_OF_ELEMENTAL_AILMENT_ON_ENEMY",
+   "sibling": "INC_ELEMENTAL_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "ELEMENTAL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased Damage for each type of [ElementalAilments|Elemental Ailment] on Enemy"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL"
+  },
+  {
+   "sid": "INC_DAMAGE_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY",
+   "score": 0.6,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased Damage if you've consumed a [Charges|Frenzy Charge] [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_DAMAGE_PER_OF_YOUR_LOWEST_ATTRIBUTES",
+   "sibling": "INC_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "2% increased Damage per 5 of your lowest [Attributes|Attribute]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_PER_STRENGTH",
+   "sibling": "INC_DAMAGE",
+   "score": 0.667,
+   "attr": "DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "1% increased Damage per 15 [Strength]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_TAKEN_WHILE_ON_LOW_HEALTH",
+   "sibling": "INC_ATTACK_DAMAGE_WHILE_ON_LOW_HEALTH",
+   "score": 0.667,
+   "attr": "DAMAGE",
+   "tags": [
+    "ATTACK",
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "5% increased Damage taken while on [LowLife|Low Life]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+   "sibling": "INC_DAMAGE_PRESENCE_ENEMIES",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Damage while your [Companion] is in your [Presence]",
+    "12% increased Damage while your [Companion] is in your [Presence]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+   "sibling": "INC_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased Damage while you have an active [Charm|Charm]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_WHILE_YOU_HAVE_A_TOTEM",
+   "sibling": "INC_TOTEM_DAMAGE",
+   "score": 1.0,
+   "attr": "DAMAGE",
+   "tags": [
+    "TOTEM"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% increased Damage while you have a [Totem|Totem]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_TOTEM"
+  },
+  {
+   "sid": "INC_DAMAGE_WITH_DAGGERS",
+   "sibling": "INC_DAMAGE",
+   "score": 0.667,
+   "attr": "DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Damage with [Dagger|Daggers]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_WITH_FLAILS",
+   "sibling": "INC_DAMAGE",
+   "score": 0.667,
+   "attr": "DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Damage with [Flail|Flails]",
+    "15% increased Damage with [Flail|Flails]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_BURNING_ENEMIES",
+   "sibling": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_BLINDED_ENEMIES",
+   "score": 0.667,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "14% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies",
+    "30% increased Damage with [HitDamage|Hits] against [Burning|Burning] Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_AFFECTED_BY_AILMENTS",
+   "sibling": "INC_DAMAGE_WHILE_AFFECTED_BY_A_HERALD",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "HERALD"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased Damage with [HitDamage|Hits] against Enemies affected by [Ailments]",
+    "33% increased Damage with [HitDamage|Hits] against Enemies affected by [Ailments]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD"
+  },
+  {
+   "sid": "INC_DAMAGE_WITH_PLANT_SKILLS",
+   "sibling": "INC_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased Damage with [Plant|Plant] Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE"
+  },
+  {
+   "sid": "INC_DURATION_OF_AILMENTS_AGAINST_ENEMIES_WITH_EXPOSURE",
+   "sibling": "INC_DURATION_OF_AILMENTS_ON_YOU",
+   "score": 0.6,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Duration of [Ailments|Ailments] against Enemies with [Exposure]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN_2"
+  },
+  {
+   "sid": "INC_DURATION_OF_AILMENTS_ON_BEASTS",
+   "sibling": "INC_DURATION_OF_AILMENTS_ON_YOU",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Duration of [Ailments|Ailments] on Beasts",
+    "50% increased Duration of [Ailments|Ailments] on Beasts"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN_2"
+  },
+  {
+   "sid": "INC_DURATION_OF_AILMENTS_YOU_INFLICT_AGAINST_CURSED_ENEMIES",
+   "sibling": "INC_DURATION_OF_AILMENTS_ON_YOU",
+   "score": 0.5,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased duration of [Ailments] you inflict against [Curse|Cursed] Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN_2"
+  },
+  {
+   "sid": "INC_DURATION_OF_BLEEDING_ON_YOU",
+   "sibling": "INC_BLEEDING_DURATION_TAKEN",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "BLEED",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% reduced Duration of [Bleeding] on You"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_DURATION_TAKEN"
+  },
+  {
+   "sid": "INC_DURATION_OF_ELEMENTAL_AILMENTS_ON_ENEMIES",
+   "sibling": "INC_DURATION_OF_AILMENTS_ON_YOU",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Duration of Elemental [Ailments] on Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN_2"
+  },
+  {
+   "sid": "INC_DURATION_OF_IGNITE_SHOCK_AND_CHILL_ON_ENEMIES",
+   "sibling": "INC_IGNITE_DURATION_ON_YOU",
+   "score": 0.6,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "IGNITE",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Duration of [Ignite], [Shock] and [Chill] on Enemies",
+    "15% increased Duration of [Ignite], [Shock] and [Chill] on Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_IGNITE_TAKEN"
+  },
+  {
+   "sid": "INC_EFFECT_OF_INCISION",
+   "sibling": "INC_BLIND_EFFECT",
+   "score": 0.5,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "BLIND",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "50% increased effect of [Incision]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN"
+  },
+  {
+   "sid": "INC_EFFECT_OF_NON_DAMAGING_AILMENTS_ON_YOU",
+   "sibling": "INC_DURATION_OF_DAMAGING_AILMENTS_ON_ENEMIES",
+   "score": 0.5,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "DAMAGE_OVER_TIME",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "35% reduced Effect of [NonDamagingAilments|Non-Damaging Ailments] on you"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_TAKEN"
+  },
+  {
+   "sid": "INC_EFFECT_OF_YOUR_MARK_SKILLS",
+   "sibling": "INC_MARK_EFFECT",
+   "score": 0.75,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "MARK",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Effect of your [Mark] Skills",
+    "8% increased Effect of your [Mark] Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_MARK_TAKEN"
+  },
+  {
+   "sid": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_CHILLED_AN_ENEMY_RECENTLY",
+   "sibling": "INC_ELEMENTAL_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "ELEMENTAL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased [ElementalDamage|Elemental] Damage if you've [Chill|Chilled] an Enemy [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL"
+  },
+  {
+   "sid": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_IGNITED_AN_ENEMY_RECENTLY",
+   "sibling": "INC_ELEMENTAL_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "ELEMENTAL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased [ElementalDamage|Elemental] Damage if you've [Ignite|Ignited] an Enemy [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL"
+  },
+  {
+   "sid": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_SHOCKED_AN_ENEMY_RECENTLY",
+   "sibling": "INC_ELEMENTAL_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "ELEMENTAL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased [ElementalDamage|Elemental] Damage if you've [Shock|Shocked] an Enemy [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL"
+  },
+  {
+   "sid": "INC_ELEMENTAL_INFUSION_DURATION",
+   "sibling": "INC_INFUSION_DURATION",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "INFUSION",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [ElementalInfusion|Elemental Infusion] duration",
+    "30% increased [ElementalInfusion|Elemental Infusion] duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_INFUSION_TAKEN"
+  },
+  {
+   "sid": "INC_ENDURANCE_CHARGE_DURATION",
+   "sibling": "INC_FRENZY_CHARGE_DURATION",
+   "score": 0.6,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "CHARGE",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Charges|Endurance Charge] Duration",
+    "20% increased [Charges|Endurance Charge] Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARGE_COE_AILMENT_DURATION_TAKEN"
+  },
+  {
+   "sid": "INC_ENDURANCE_FRENZY_AND_POWER_CHARGE_DURATION",
+   "sibling": "INC_FRENZY_CHARGE_DURATION",
+   "score": 0.667,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "CHARGE",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Charges|Endurance, Frenzy and Power Charge] Duration",
+    "15% increased [Charges|Endurance, Frenzy and Power Charge] Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARGE_COE_AILMENT_DURATION_TAKEN"
+  },
+  {
+   "sid": "INC_EVASION_IF_YOU_HAVE_HIT_AN_ENEMY_RECENTLY",
+   "sibling": "INC_EVASION",
+   "score": 0.5,
+   "attr": "EVASION",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 53.0,
+   "raw": [
+    "20% increased [Evasion|Evasion Rating] if you have Hit an Enemy [Recently]",
+    "30% increased [Evasion|Evasion Rating] if you have Hit an Enemy [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION"
+  },
+  {
+   "sid": "INC_EVASION_PER_INTELLIGENCE",
+   "sibling": "INC_EVASION",
+   "score": 0.667,
+   "attr": "EVASION",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 53.0,
+   "raw": [
+    "3% increased [Evasion] Rating per 10 [Intelligence]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION"
+  },
+  {
+   "sid": "INC_EVASION_WHEN_ON_FULL_HEALTH",
+   "sibling": "INC_ATTACK_DAMAGE_WHILE_ON_FULL_HEALTH",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "ATTACK",
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "50% increased [Evasion|Evasion Rating] when on Full Life"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_FIRE_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ASH",
+   "sibling": "INC_DAMAGE_WHILE_AFFECTED_BY_A_HERALD",
+   "score": 0.714,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "HERALD"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [Fire] Damage while affected by [Herald] of Ash"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD"
+  },
+  {
+   "sid": "INC_FLAMMABILITY_BUFF_MAGNITUDE",
+   "sibling": "INC_BUFF_MAGNITUDE",
+   "score": 0.75,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "AURA",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "100% increased [Flammability] [BuffMagnitude|Magnitude]",
+    "15% increased [Flammability] [BuffMagnitude|Magnitude]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_AURA_COE_AILMENT_MAGNITUDE_TAKEN_2"
+  },
+  {
+   "sid": "INC_FLASK_AND_CHARM_CHARGES_GAIN",
+   "sibling": "INC_CHARM_CHARGES_GAIN",
+   "score": 0.8,
+   "attr": "CHARM_CHARGES_GAINED",
+   "tags": [
+    "CHARM"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Flask|Flask] and [Charm] Charges gained",
+    "8% increased [Flask|Flask] and [Charm] Charges gained"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARM_COE_CHARM_CHARGES_GAINED"
+  },
+  {
+   "sid": "INC_FLASK_CHARGES_USED",
+   "sibling": "INC_FLASK_CHARGES_USED_FROM_MANA_FLASKS",
+   "score": 0.667,
+   "attr": "FLASK_CHARGES_GAINED",
+   "tags": [
+    "FLASK"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "5% reduced [Flask|Flask] Charges used"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_CHARGES_GAINED_FLASK"
+  },
+  {
+   "sid": "INC_FREEZE_BUILDUP_WITH_QUARTERSTAVES",
+   "sibling": "INC_FREEZE_BUILDUP",
+   "score": 0.75,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "FREEZE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Freeze] Buildup with [Quarterstaff|Quarterstaves]",
+    "30% increased [Freeze] Buildup with [Quarterstaff|Quarterstaves]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_FREEZE"
+  },
+  {
+   "sid": "INC_FREEZE_DURATION_ON_ENEMIES",
+   "sibling": "INC_FREEZE_DURATION_TAKEN",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "FREEZE",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Freeze] Duration on Enemies",
+    "20% reduced [Freeze] Duration on Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_FREEZE_TAKEN"
+  },
+  {
+   "sid": "INC_FREEZE_DURATION_ON_YOU",
+   "sibling": "INC_FREEZE_DURATION_TAKEN",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "FREEZE",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% reduced [Freeze|Freeze] Duration on you"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_FREEZE_TAKEN"
+  },
+  {
+   "sid": "INC_GLORY_GENERATION_FOR_BANNER_SKILLS",
+   "sibling": "INC_GLORY_GENERATION",
+   "score": 0.5,
+   "attr": "GLORY_GENERATION",
+   "tags": [
+    "GLORY"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Glory] generation for [Banner] Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_GLORY_GENERATION_GLORY"
+  },
+  {
+   "sid": "INC_GRENADE_AREA_OF_EFFECT",
+   "sibling": "INC_AREA_OF_EFFECT",
+   "score": 0.75,
+   "attr": "EFFECT_AREA",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Grenade] Area of Effect"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT"
+  },
+  {
+   "sid": "INC_HAZARD_AREA_OF_EFFECT",
+   "sibling": "INC_AREA_OF_EFFECT",
+   "score": 0.75,
+   "attr": "EFFECT_AREA",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Hazard] Area of Effect",
+    "50% increased [Hazard] Area of Effect"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT"
+  },
+  {
+   "sid": "INC_HAZARD_IMMOBILISATION_BUILDUP",
+   "sibling": "INC_IMMOBILISATION_BUILDUP",
+   "score": 0.75,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Hazard] [Immobilised|Immobilisation] buildup",
+    "30% increased [Hazard] [Immobilised|Immobilisation] buildup"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP"
+  },
+  {
+   "sid": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS",
+   "sibling": "INC_HEALTH_RECOVERY_FROM_FLASKS",
+   "score": 0.8,
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "FLASK",
+    "HEALTH"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Life and Mana Recovery from [Flask|Flasks]",
+    "20% increased Life and Mana Recovery from [Flask|Flasks]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH"
+  },
+  {
+   "sid": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+   "sibling": "INC_HEALTH_RECOVERY_FROM_FLASKS",
+   "score": 0.571,
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "FLASK",
+    "HEALTH"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased Life and Mana Recovery from [Flask|Flasks] while you have an active [Charm|Charm]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH"
+  },
+  {
+   "sid": "INC_HEALTH_RECOVERY_RATE",
+   "sibling": "MINIONS_HAVE_INC_HEALTH_RECOVERY_RATE",
+   "score": 0.8,
+   "attr": "RECOVERY_RATE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Life Recovery rate",
+    "15% increased Life Recovery rate"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_RECOVERY_RATE"
+  },
+  {
+   "sid": "INC_HEALTH_RECOVERY_RATE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+   "sibling": "MINIONS_HAVE_INC_HEALTH_RECOVERY_RATE",
+   "score": 0.5,
+   "attr": "RECOVERY_RATE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased Life Recovery Rate while your [Companion] is in your [Presence]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_RECOVERY_RATE"
+  },
+  {
+   "sid": "INC_HEALTH_REGENERATION_RATE_WHILE_IGNITED",
+   "sibling": "INC_HEALTH_REGENERATION_RATE",
+   "score": 0.8,
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased Life Regeneration rate while [Ignite|Ignited]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_HEALTH_REGEN"
+  },
+  {
+   "sid": "INC_HEALTH_REGENERATION_RATE_WHILE_MOVING",
+   "sibling": "INC_HEALTH_REGENERATION_RATE",
+   "score": 0.8,
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased Life Regeneration Rate while moving"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_HEALTH_REGEN"
+  },
+  {
+   "sid": "INC_HEALTH_REGENERATION_RATE_WHILE_ON_LOW_HEALTH",
+   "sibling": "INC_HEALTH_REGENERATION_RATE",
+   "score": 0.8,
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Life Regeneration Rate while on [LowLife|Low Life]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_HEALTH_REGEN"
+  },
+  {
+   "sid": "INC_HEALTH_REGENERATION_RATE_WHILE_SHAPESHIFTED",
+   "sibling": "INC_HEALTH_REGENERATION_RATE",
+   "score": 0.8,
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Life Regeneration rate while [Shapeshift|Shapeshifted]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_HEALTH_REGEN"
+  },
+  {
+   "sid": "INC_HEALTH_REGENERATION_RATE_WHILE_STATIONARY",
+   "sibling": "INC_HEALTH_REGENERATION_RATE",
+   "score": 0.8,
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "HEALTH",
+    "REGEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Life Regeneration Rate while stationary",
+    "30% increased Life Regeneration Rate while stationary"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_HEALTH_REGEN"
+  },
+  {
+   "sid": "INC_HINDER_DURATION",
+   "sibling": "INC_POISON_DURATION_ON_YOU",
+   "score": 0.5,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "POISON",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Hinder] Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_POISON_TAKEN"
+  },
+  {
+   "sid": "INC_IMMOBILISATION_BUILDUP_AGAINST_CONSTRUCTS",
+   "sibling": "INC_IMMOBILISATION_BUILDUP",
+   "score": 0.6,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Immobilised|Immobilisation] buildup against Constructs",
+    "50% increased [Immobilised|Immobilisation] buildup against Constructs"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP"
+  },
+  {
+   "sid": "INC_LIGHTNING_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_THUNDER",
+   "sibling": "INC_DAMAGE_WHILE_AFFECTED_BY_A_HERALD",
+   "score": 0.714,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "HERALD"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [Lightning] Damage while affected by [Herald] of Thunder"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD"
+  },
+  {
+   "sid": "INC_LIGHT_RADIUS",
+   "sibling": "INC_LIGHT_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "LIGHTNING"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [LightRadius|Light Radius]",
+    "20% increased [LightRadius|Light Radius]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING"
+  },
+  {
+   "sid": "INC_MANA_COST_EFFICIENCY_OF_ATTACKS_DURING_ANY_MANA_FLASK_EFFECT",
+   "sibling": "INC_MANA_RECOVERY_RATE_DURING_EFFECT_OF_ANY_MANA_FLASK",
+   "score": 0.545,
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "FLASK",
+    "MANA"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased Mana Cost [Efficiency] of [Attack|Attacks] during any Mana [Flask] Effect"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_MANA"
+  },
+  {
+   "sid": "INC_MANA_FLASK_CHARGES_GAIN",
+   "sibling": "INC_FLASK_CHARGES_GAIN",
+   "score": 0.8,
+   "attr": "FLASK_CHARGES_GAINED",
+   "tags": [
+    "FLASK"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Mana [Flask|Flask] Charges gained"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_CHARGES_GAINED_FLASK"
+  },
+  {
+   "sid": "INC_MANA_RECOVERY_FROM_FLASKS",
+   "sibling": "INC_HEALTH_RECOVERY_FROM_FLASKS",
+   "score": 0.6,
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "FLASK",
+    "HEALTH"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased Mana Recovery from [Flask|Flasks]",
+    "25% increased Mana Recovery from [Flask|Flasks]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH"
+  },
+  {
+   "sid": "INC_MANA_RECOVERY_RATE",
+   "sibling": "INC_FLASK_MANA_RECOVERY",
+   "score": 0.6,
+   "attr": "FLASK_RECOVERY_RATE",
+   "tags": [
+    "FLASK",
+    "MANA"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Mana Recovery rate"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_MANA"
+  },
+  {
+   "sid": "INC_MANA_REGENERATION_RATE_IF_YOU_HAVE_SHOCKED_AN_ENEMY_RECENTLY",
+   "sibling": "INC_MANA_REGENERATION_RATE_WHILE_SHOCKED",
+   "score": 0.833,
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "MANA",
+    "REGEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% increased Mana Regeneration Rate if you have [Shock|Shocked] an Enemy [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_MANA_REGEN"
+  },
+  {
+   "sid": "INC_MANA_REGENERATION_RATE_WHILE_NOT_ON_LOW_MANA",
+   "sibling": "INC_MANA_REGENERATION_RATE",
+   "score": 0.667,
+   "attr": "REGENERATION_RATE",
+   "tags": [
+    "MANA",
+    "REGEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "16% increased Mana Regeneration Rate while not on [LowMana|Low Mana]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_MANA_REGEN"
+  },
+  {
+   "sid": "INC_MAX_ENERGY_SHIELD_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY",
+   "sibling": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY",
+   "score": 0.5,
+   "attr": "CRIT_DAMAGE",
+   "tags": [
+    "ATTACK",
+    "CRIT"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased maximum [EnergyShield|Energy Shield] if you've consumed a [Charges|Power Charge] [Recently|Recently]",
+    "20% increased maximum [EnergyShield|Energy Shield] if you've consumed a [Charges|Power Charge] [Recently|Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT"
+  },
+  {
+   "sid": "INC_MELEE_ATTACK_SPEED",
+   "sibling": "INC_ATTACK_SPEED",
+   "score": 0.75,
+   "attr": "ATTACK_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Melee] [Attack] Speed",
+    "8% increased [Melee] [Attack] Speed"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ATTACK_SPEED"
+  },
+  {
+   "sid": "INC_MELEE_CRITICAL_HIT_CHANCE",
+   "sibling": "INC_CRITICAL_HIT_CHANCE",
+   "score": 0.8,
+   "attr": "CRIT_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Melee] [Critical|Critical Hit Chance]",
+    "25% increased [Melee] [Critical|Critical Hit Chance]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE"
+  },
+  {
+   "sid": "INC_MELEE_DAMAGE_AGAINST_IMMOBILISED_ENEMIES",
+   "sibling": "INC_MELEE_DAMAGE",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "MELEE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Melee|Melee Damage] against [Immobilised] Enemies",
+    "50% increased [Melee|Melee Damage] against [Immobilised] Enemies"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE"
+  },
+  {
+   "sid": "INC_MELEE_DAMAGE_WHEN_ON_FULL_HEALTH",
+   "sibling": "INC_ATTACK_DAMAGE_WHILE_ON_FULL_HEALTH",
+   "score": 0.667,
+   "attr": "DAMAGE",
+   "tags": [
+    "ATTACK",
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased [Melee] Damage when on Full Life"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_MELEE_DAMAGE_WITH_HIT_DAMAGE_AT_CLOSE_RANGE",
+   "sibling": "INC_MELEE_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "MELEE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Melee] Damage with [HitDamage|Hits] at [CloseRange|Close Range]",
+    "40% increased [Melee] Damage with [HitDamage|Hits] at [CloseRange|Close Range]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE"
+  },
+  {
+   "sid": "INC_MELEE_DAMAGE_WITH_SPEARS_WHILE_SURROUNDED",
+   "sibling": "INC_DAMAGE_WITH_SPEARS",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "SPEAR"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "75% increased [Melee] Damage with [Spear|Spears] while [Surrounded]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPEAR"
+  },
+  {
+   "sid": "INC_MINION_DURATION",
+   "sibling": "INC_POISON_DURATION_ON_YOU",
+   "score": 0.5,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "POISON",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased Minion Duration",
+    "16% increased Minion Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_POISON_TAKEN"
+  },
+  {
+   "sid": "INC_MOVEMENT_SPEED_IF_YOU_VE_PINNED_AN_ENEMY_RECENTLY",
+   "sibling": "INC_MOVEMENT_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+   "score": 0.714,
+   "attr": "MOVEMENT_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.1,
+   "raw": [
+    "5% increased Movement Speed if you've [Pinned] an Enemy [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED"
+  },
+  {
+   "sid": "INC_MOVEMENT_SPEED_IF_YOU_VE_SUCCESSFULLY_PARRIED_RECENTLY",
+   "sibling": "INC_MOVEMENT_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+   "score": 0.625,
+   "attr": "MOVEMENT_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.1,
+   "raw": [
+    "6% increased Movement Speed if you've successfully [Parry|Parried] [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED"
+  },
+  {
+   "sid": "INC_MOVEMENT_SPEED_IF_YOU_VE_USED_A_MARK_RECENTLY",
+   "sibling": "INC_MOVEMENT_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+   "score": 0.625,
+   "attr": "MOVEMENT_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.1,
+   "raw": [
+    "4% increased Movement Speed if you've used a [Mark] [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED"
+  },
+  {
+   "sid": "INC_MOVEMENT_SPEED_PENALTY_WHILE_ACTIVELY_BLOCKING",
+   "sibling": "INC_MOVEMENT_SPEED",
+   "score": 0.5,
+   "attr": "MOVEMENT_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.1,
+   "raw": [
+    "10% reduced Movement Speed Penalty while Actively [Block|Blocking]",
+    "5% reduced Movement Speed Penalty while Actively [Block|Blocking]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED"
+  },
+  {
+   "sid": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+   "sibling": "INC_MOVEMENT_SPEED",
+   "score": 0.6,
+   "attr": "MOVEMENT_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.1,
+   "raw": [
+    "6% increased Movement Speed while you have an active [Charm|Charm]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED"
+  },
+  {
+   "sid": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_ENERGY_SHIELD",
+   "sibling": "INC_MOVEMENT_SPEED",
+   "score": 0.6,
+   "attr": "MOVEMENT_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.1,
+   "raw": [
+    "3% increased Movement Speed while you have [EnergyShield|Energy Shield]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED"
+  },
+  {
+   "sid": "INC_PARRY_HIT_DAMAGE_AREA_OF_EFFECT",
+   "sibling": "INC_PARRY_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "PARRY"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Parry] [HitDamage|Hit] Area of Effect",
+    "20% increased [Parry] [HitDamage|Hit] Area of Effect"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_PARRY"
+  },
+  {
+   "sid": "INC_PENALTY_TO_ACCURACY_AT_RANGE",
+   "sibling": "INC_ACCURACY",
+   "score": 0.5,
+   "attr": "ACCURACY",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 15.0,
+   "raw": [
+    "30% increased penalty to [Accuracy] Rating at range",
+    "30% reduced penalty to [Accuracy] Rating at range"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY"
+  },
+  {
+   "sid": "INC_PHYSICAL_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_BLOOD",
+   "sibling": "INC_DAMAGE_WHILE_AFFECTED_BY_A_HERALD",
+   "score": 0.714,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "HERALD"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "40% increased [Physical] Damage while affected by [Herald] of Blood"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD"
+  },
+  {
+   "sid": "INC_PHYSICAL_DAMAGE_WITH_BOWS",
+   "sibling": "INC_DAMAGE_WITH_BOWS",
+   "score": 0.75,
+   "attr": "DAMAGE",
+   "tags": [
+    "BOW",
+    "DAMAGE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased Physical Damage with Bows"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BOW_COE_DAMAGE_DAMAGE"
+  },
+  {
+   "sid": "INC_POWER_CHARGE_DURATION",
+   "sibling": "INC_FRENZY_CHARGE_DURATION",
+   "score": 0.6,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "CHARGE",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Charges|Power Charge] Duration",
+    "20% increased [Charges|Power Charge] Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARGE_COE_AILMENT_DURATION_TAKEN"
+  },
+  {
+   "sid": "INC_PRESENCE_AREA_OF_EFFECT",
+   "sibling": "INC_AREA_OF_EFFECT",
+   "score": 0.75,
+   "attr": "EFFECT_AREA",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Presence|Presence] Area of Effect",
+    "15% increased [Presence|Presence] Area of Effect"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT"
+  },
+  {
+   "sid": "INC_PROJECTILE_SPEED_FOR_SPELL_SKILLS",
+   "sibling": "INC_PROJECTILE_SPEED",
+   "score": 0.5,
+   "attr": "PROJECTILE_SPEED",
+   "tags": [
+    "PROJECTILE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% reduced [Projectile] Speed for [Spell] Skills",
+    "15% increased [Projectile] Speed for [Spell] Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_PROJECTILE_SPEED_PROJECTILE"
+  },
+  {
+   "sid": "INC_PROJECTILE_STUN_BUILDUP",
+   "sibling": "INC_STUN_BUILDUP",
+   "score": 0.75,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "18% increased [Projectile|Projectile] [Stun|Stun Buildup]",
+    "20% increased [Projectile|Projectile] [Stun|Stun Buildup]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN"
+  },
+  {
+   "sid": "INC_SHOCK_DURATION",
+   "sibling": "INC_SHOCK_DURATION_TAKEN",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "SHOCK",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Shock] Duration",
+    "20% increased [Shock] Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_SHOCK_TAKEN"
+  },
+  {
+   "sid": "INC_SHOCK_DURATION_ON_YOU",
+   "sibling": "INC_SHOCK_DURATION_TAKEN",
+   "score": 0.75,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "AILMENT",
+    "SHOCK",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "25% reduced [Shock|Shock] duration on you"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_SHOCK_TAKEN"
+  },
+  {
+   "sid": "INC_SKILL_SPEED_WITH_CHANNELLING_SKILLS",
+   "sibling": "INC_SKILL_SPEED",
+   "score": 0.6,
+   "attr": "CAST_SPEED",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "2% increased [SkillSpeed|Skill Speed] with [Channelling] Skills",
+    "3% increased [SkillSpeed|Skill Speed] with [Channelling] Skills"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED"
+  },
+  {
+   "sid": "INC_SPELL_AREA_DAMAGE",
+   "sibling": "INC_SPELL_DAMAGE",
+   "score": 0.75,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "SPELL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Spell] Area Damage",
+    "10% reduced [Spell] Area Damage"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL"
+  },
+  {
+   "sid": "INC_SPELL_DAMAGE_PER_MAX_MANA",
+   "sibling": "INC_SPELL_DAMAGE",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "SPELL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "3% increased [Spell] Damage per 100 maximum Mana"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL"
+  },
+  {
+   "sid": "INC_SPELL_DAMAGE_PER_STRENGTH",
+   "sibling": "INC_SPELL_DAMAGE",
+   "score": 0.75,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "SPELL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "2% increased Spell Damage per 10 [Strength]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL"
+  },
+  {
+   "sid": "INC_SPELL_DAMAGE_WHILE_ON_FULL_ENERGY_SHIELD",
+   "sibling": "INC_SPELL_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "SPELL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased [Spell] Damage while on Full [EnergyShield|Energy Shield]",
+    "25% increased [Spell] Damage while on Full [EnergyShield|Energy Shield]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL"
+  },
+  {
+   "sid": "INC_SPELL_DAMAGE_WHILE_WIELDING_A_MELEE_WEAPON",
+   "sibling": "INC_MELEE_DAMAGE",
+   "score": 0.5,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "MELEE"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "12% increased [Spell] Damage while wielding a [Melee] Weapon",
+    "32% increased [Spell] Damage while wielding a [Melee] Weapon"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE"
+  },
+  {
+   "sid": "INC_SPELL_DAMAGE_WHILE_YOU_HAVE_ARCANE_SURGE",
+   "sibling": "INC_SPELL_DAMAGE",
+   "score": 0.6,
+   "attr": "DAMAGE",
+   "tags": [
+    "DAMAGE",
+    "SPELL"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased Spell Damage while you have [ArcaneSurge|Arcane Surge]",
+    "30% increased Spell Damage while you have [ArcaneSurge|Arcane Surge]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL"
+  },
+  {
+   "sid": "INC_STUN_BUILDUP_AGAINST_ENEMIES_WITHIN_METRES",
+   "sibling": "INC_STUN_BUILDUP",
+   "score": 0.5,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased [Stun] Buildup against enemies within 2 metres",
+    "40% increased [Stun] Buildup against enemies within 2 metres"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN"
+  },
+  {
+   "sid": "INC_STUN_BUILDUP_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+   "sibling": "INC_STUN_BUILDUP_WHILE_SHAPESHIFTED",
+   "score": 0.571,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Stun] buildup if you have [Shapeshift|Shapeshifted] to an Animal form [Recently]",
+    "40% increased [Stun] buildup if you have [Shapeshift|Shapeshifted] to an Animal form [Recently]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN"
+  },
+  {
+   "sid": "INC_STUN_BUILDUP_WITH_MACES",
+   "sibling": "INC_STUN_BUILDUP",
+   "score": 0.75,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "18% increased [Stun|Stun Buildup] with [Mace|Maces]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN"
+  },
+  {
+   "sid": "INC_STUN_BUILDUP_WITH_MELEE_DAMAGE",
+   "sibling": "INC_STUN_BUILDUP",
+   "score": 0.6,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "15% increased [Stun] Buildup with [Melee|Melee Damage]",
+    "18% increased [Stun] Buildup with [Melee|Melee Damage]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN"
+  },
+  {
+   "sid": "INC_STUN_BUILDUP_WITH_QUARTERSTAVES",
+   "sibling": "INC_STUN_BUILDUP",
+   "score": 0.75,
+   "attr": "AILMENT_BUILDUP",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Stun] Buildup with [Quarterstaff|Quarterstaves]",
+    "30% increased [Stun] Buildup with [Quarterstaff|Quarterstaves]"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_BUILDUP_STUN"
+  },
+  {
+   "sid": "INC_TOTEM_DURATION",
+   "sibling": "INC_POISON_DURATION_ON_YOU",
+   "score": 0.5,
+   "attr": "AILMENT_DURATION",
+   "tags": [
+    "POISON",
+    "TAKEN",
+    "not"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "30% increased [Totem] Duration"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_POISON_TAKEN"
+  },
+  {
+   "sid": "INC_TOTEM_PLACEMENT_RANGE",
+   "sibling": "INC_TOTEM_PLACEMENT_SPEED",
+   "score": 0.6,
+   "attr": "CAST_SPEED",
+   "tags": [
+    "TOTEM"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "20% increased [Totem|Totem] Placement range",
+    "50% increased [Totem|Totem] Placement range"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED_TOTEM"
+  },
+  {
+   "sid": "INC_WARCRY_COOLDOWN_RECOVERY_RATE",
+   "sibling": "INC_COOLDOWN_RECOVERY_RATE",
+   "score": 0.8,
+   "attr": "COOLDOWN_RECOVERY_RATE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 1.0,
+   "raw": [
+    "10% increased [Warcry|Warcry] Cooldown Recovery Rate",
+    "18% increased [Warcry|Warcry] Cooldown Recovery Rate"
+   ],
+   "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE"
+  },
+  {
+   "sid": "TO_AILMENT_THRESHOLD_PER_DEXTERITY",
+   "sibling": "ADD_AILMENT_THRESHOLD",
+   "score": 0.5,
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [],
+   "want_op": "ADD_VALUE",
+   "base": 0.0,
+   "raw": [
+    "+4 to [AilmentThreshold|Ailment Threshold] per [Dexterity|Dexterity]"
+   ],
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD"
+  },
+  {
+   "sid": "TO_MAX_COLD_INFUSIONS",
+   "sibling": "TO_MAX_COLD_RESISTANCE",
+   "score": 0.5,
+   "attr": "MAX_RESISTANCES",
+   "tags": [
+    "COLD"
+   ],
+   "want_op": "ADD_VALUE",
+   "base": 0.75,
+   "raw": [
+    "+1 to maximum [ElementalInfusion|Cold Infusions]"
+   ],
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_COLD"
+  },
+  {
+   "sid": "TO_MAX_LIGHTNING_INFUSIONS",
+   "sibling": "TO_MAX_LIGHTNING_RESISTANCE",
+   "score": 0.5,
+   "attr": "MAX_RESISTANCES",
+   "tags": [
+    "LIGHTNING"
+   ],
+   "want_op": "ADD_VALUE",
+   "base": 0.75,
+   "raw": [
+    "+1 to maximum [ElementalInfusion|Lightning Infusions]"
+   ],
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_LIGHTNING"
+  },
+  {
+   "sid": "TO_MAX_RAGE_WHILE_WIELDING_AN_AXE",
+   "sibling": "TO_MAX_RAGE",
+   "score": 0.5,
+   "attr": "MAX_RAGE",
+   "tags": [],
+   "want_op": "ADD_VALUE",
+   "base": 50.0,
+   "raw": [
+    "+10 to Maximum [Rage|Rage] while wielding an [Axe|Axe]"
+   ],
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RAGE"
+  },
+  {
+   "sid": "TO_STUN_THRESHOLD_PER_DEXTERITY",
+   "sibling": "ADD_STUN_THRESHOLD",
+   "score": 0.5,
+   "attr": "AILMENT_THRESHOLD_ADD",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_VALUE",
+   "base": 0.0,
+   "raw": [
+    "+1 to [StunThreshold|Stun Threshold] per [Dexterity|Dexterity]"
+   ],
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD_ADD_STUN"
+  },
+  {
+   "sid": "TO_STUN_THRESHOLD_PER_STRENGTH",
+   "sibling": "ADD_STUN_THRESHOLD",
+   "score": 0.5,
+   "attr": "AILMENT_THRESHOLD_ADD",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_VALUE",
+   "base": 0.0,
+   "raw": [
+    "+3 to [StunThreshold|Stun Threshold] per [Strength|Strength]"
+   ],
+   "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD_ADD_STUN"
+  }
+ ],
+ "needs_new_variant": [
+  {
+   "sid": "INC_ARMOR_AND_EVASION_PER_SUMMONED_TOTEM_IN_YOUR_PRESENCE",
+   "sibling": "INC_ARMOR_AND_EVASION",
+   "score": 0.5,
+   "attr": "ARMOR",
+   "tags": [
+    "EVASION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "10% increased [Armour] and [Evasion] Rating per Summoned [Totem] in your [Presence]"
+   ]
+  },
+  {
+   "sid": "INC_ARMOR_AND_EVASION_WHEN_ON_LOW_HEALTH",
+   "sibling": "INC_ARMOR_AND_EVASION",
+   "score": 0.6,
+   "attr": "ARMOR",
+   "tags": [
+    "EVASION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "80% increased [Armour] and [Evasion] Rating when on [LowLife|Low Life]"
+   ]
+  },
+  {
+   "sid": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD",
+   "sibling": "INC_ARMOR_AND_EVASION",
+   "score": 0.6,
+   "attr": "ARMOR",
+   "tags": [
+    "EVASION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]",
+    "20% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]"
+   ]
+  },
+  {
+   "sid": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_FROM_EQUIPPED_SHIELD",
+   "sibling": "INC_ARMOR_AND_EVASION",
+   "score": 0.5,
+   "attr": "ARMOR",
+   "tags": [
+    "EVASION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "100% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped [Shield]",
+    "15% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped [Shield]"
+   ]
+  },
+  {
+   "sid": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_CHANNELLING",
+   "sibling": "INC_ARMOR_AND_EVASION",
+   "score": 0.5,
+   "attr": "ARMOR",
+   "tags": [
+    "EVASION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "4% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while [Channelling]",
+    "8% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while [Channelling]"
+   ]
+  },
+  {
+   "sid": "INC_BLOCK_CHANCE_WHILE_SURROUNDED",
+   "sibling": "INC_BLOCK_CHANCE",
+   "score": 0.75,
+   "attr": "BLOCK_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "30% increased [Block|Block] chance while [Surrounded]"
+   ]
+  },
+  {
+   "sid": "INC_BLOCK_RECOVERY",
+   "sibling": "INC_BLOCK_CHANCE",
+   "score": 0.5,
+   "attr": "BLOCK_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "25% increased [Block] Recovery",
+    "40% increased [Block] Recovery"
+   ]
+  },
+  {
+   "sid": "INC_COST_EFFICIENCY",
+   "sibling": "INC_RESERVATION_EFFICIENCY",
+   "score": 0.5,
+   "attr": "RESERVATION_EFFICIENCY",
+   "tags": [
+    "RESERVATION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "15% increased Cost [Efficiency]",
+    "5% increased Cost [Efficiency]"
+   ]
+  },
+  {
+   "sid": "INC_DAMAGE_PER_CHANCE_TO_BLOCK",
+   "sibling": "INC_BLOCK_CHANCE",
+   "score": 0.75,
+   "attr": "BLOCK_CHANCE",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "1% increased Damage per 1% Chance to [Block|Block]"
+   ]
+  },
+  {
+   "sid": "INC_DURATION_OF_EACH_PUPPET_MASTER_STACK",
+   "sibling": "INC_DURATION_OF_PUPPET_MASTER",
+   "score": 0.8,
+   "attr": "PUPPET_MASTER_DURATION",
+   "tags": [
+    "PUPPET_MASTER"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "25% increased Duration of each [PuppetMaster|Puppet Master] stack"
+   ]
+  },
+  {
+   "sid": "INC_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS",
+   "sibling": "INC_MAX_ENERGY_SHIELD",
+   "score": 0.5,
+   "attr": "MAX_ENERGY_SHIELD",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "40% increased [EnergyShield|Energy Shield] from Equipped [Focus]",
+    "60% increased [EnergyShield|Energy Shield] from Equipped [Focus]"
+   ]
+  },
+  {
+   "sid": "INC_ENERGY_SHIELD_FROM_EQUIPPED_HELMET",
+   "sibling": "INC_MAX_ENERGY_SHIELD",
+   "score": 0.5,
+   "attr": "MAX_ENERGY_SHIELD",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "70% increased [EnergyShield|Energy Shield] from Equipped Helmet"
+   ]
+  },
+  {
+   "sid": "INC_EVASION_FROM_EQUIPPED_BODY_ARMOR",
+   "sibling": "INC_ARMOR_AND_EVASION",
+   "score": 0.6,
+   "attr": "ARMOR",
+   "tags": [
+    "EVASION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "100% increased [Evasion] Rating from Equipped Body Armour"
+   ]
+  },
+  {
+   "sid": "INC_EVASION_WHILE_YOU_HAVE_ENERGY_SHIELD",
+   "sibling": "INC_MAX_ENERGY_SHIELD",
+   "score": 0.6,
+   "attr": "MAX_ENERGY_SHIELD",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "20% increased [Evasion|Evasion Rating] while you have [EnergyShield|Energy Shield]",
+    "30% increased [Evasion|Evasion Rating] while you have [EnergyShield|Energy Shield]"
+   ]
+  },
+  {
+   "sid": "INC_MAX_HEALTH_MANA_AND_ENERGY_SHIELD",
+   "sibling": "INC_MAX_ENERGY_SHIELD",
+   "score": 0.667,
+   "attr": "MAX_ENERGY_SHIELD",
+   "tags": [],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "3% increased maximum Life, Mana and [EnergyShield|Energy Shield]"
+   ]
+  },
+  {
+   "sid": "INC_RESERVATION_EFFICIENCY_OF_COMPANION_SKILLS",
+   "sibling": "INC_RESERVATION_EFFICIENCY",
+   "score": 0.6,
+   "attr": "RESERVATION_EFFICIENCY",
+   "tags": [
+    "RESERVATION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "25% increased [Reservation] [Efficiency] of [Companion] Skills",
+    "8% increased [Reservation] [Efficiency] of [Companion] Skills"
+   ]
+  },
+  {
+   "sid": "INC_RESERVATION_EFFICIENCY_OF_HERALD_SKILLS",
+   "sibling": "INC_RESERVATION_EFFICIENCY",
+   "score": 0.6,
+   "attr": "RESERVATION_EFFICIENCY",
+   "tags": [
+    "RESERVATION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "20% increased [Reservation] [Efficiency] of [Herald] Skills",
+    "6% increased [Reservation] [Efficiency] of [Herald] Skills"
+   ]
+  },
+  {
+   "sid": "INC_RESERVATION_EFFICIENCY_OF_MINION_SKILLS",
+   "sibling": "INC_RESERVATION_EFFICIENCY",
+   "score": 0.6,
+   "attr": "RESERVATION_EFFICIENCY",
+   "tags": [
+    "RESERVATION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "10% increased [Reservation] [Efficiency] of [Minion] Skills",
+    "12% increased [Reservation] [Efficiency] of [Minion] Skills"
+   ]
+  },
+  {
+   "sid": "INC_SPIRIT_RESERVATION_EFFICIENCY_OF_SKILLS",
+   "sibling": "INC_RESERVATION_EFFICIENCY",
+   "score": 0.6,
+   "attr": "RESERVATION_EFFICIENCY",
+   "tags": [
+    "RESERVATION"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "20% reduced [Spirit] [Reservation] [Efficiency] of Skills"
+   ]
+  },
+  {
+   "sid": "INC_STUN_THRESHOLD_DURING_EMPOWERED_ATTACKS",
+   "sibling": "INC_STUN_THRESHOLD",
+   "score": 0.5,
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "100% increased [StunThreshold|Stun Threshold] during [Empowered] [Attack|Attacks]"
+   ]
+  },
+  {
+   "sid": "INC_STUN_THRESHOLD_WHILE_CHANNELLING",
+   "sibling": "INC_STUN_THRESHOLD",
+   "score": 0.75,
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "25% increased [StunThreshold|Stun Threshold] while [Channelling]",
+    "50% increased [StunThreshold|Stun Threshold] while [Channelling]"
+   ]
+  },
+  {
+   "sid": "INC_STUN_THRESHOLD_WHILE_ON_FULL_HEALTH",
+   "sibling": "INC_STUN_THRESHOLD",
+   "score": 0.6,
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "20% increased [StunThreshold|Stun Threshold] while on Full Life",
+    "25% increased [StunThreshold|Stun Threshold] while on Full Life"
+   ]
+  },
+  {
+   "sid": "INC_STUN_THRESHOLD_WHILE_PARRYING",
+   "sibling": "INC_STUN_THRESHOLD",
+   "score": 0.75,
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "20% increased [StunThreshold|Stun Threshold] while [Parry|Parrying]"
+   ]
+  },
+  {
+   "sid": "INC_STUN_THRESHOLD_WHILE_SHAPESHIFTED",
+   "sibling": "INC_STUN_THRESHOLD",
+   "score": 0.75,
+   "attr": "AILMENT_THRESHOLD",
+   "tags": [
+    "STUN"
+   ],
+   "want_op": "ADD_MULTIPLIED_BASE",
+   "base": 0.0,
+   "raw": [
+    "25% increased [StunThreshold|Stun Threshold] while [Shapeshift|Shapeshifted]"
+   ]
+  },
+  {
+   "sid": "MORE_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT",
+   "sibling": "INC_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU",
+   "score": 0.5,
+   "attr": "AILMENT_MAGNITUDE",
+   "tags": [
+    "AILMENT",
+    "BLEED",
+    "TAKEN"
+   ],
+   "want_op": "ADD_MULTIPLIED_TOTAL",
+   "base": 1.0,
+   "raw": [
+    "50% more [BuffMagnitude|Magnitude] of [Bleeding] you inflict"
+   ]
+  }
+ ]
+}

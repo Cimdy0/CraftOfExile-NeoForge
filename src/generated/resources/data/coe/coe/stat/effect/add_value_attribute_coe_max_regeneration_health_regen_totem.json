@@ -1,0 +1,18 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_regeneration",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "totem"
+      },
+      {
+        "tag": "regen"
+      },
+      {
+        "tag": "health"
+      }
+    ]
+  }
+}

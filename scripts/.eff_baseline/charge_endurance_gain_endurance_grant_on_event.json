@@ -1,0 +1,8 @@
+{
+  "type": "grant_on_event",
+  "param": "endurance",
+  "tags": [
+    "gain_endurance"
+  ],
+  "target": "charge"
+}

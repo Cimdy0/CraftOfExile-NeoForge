@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_elemental_damage_taken_recouped_as_energy_shield",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "16695",
+    "links": [
+      "61926",
+      "9510"
+    ],
+    "x": 4985.1,
+    "y": -7752.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_elemental_damage_taken_recouped_as_energy_shield",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "61926",
+    "links": [
+      "1603",
+      "16695"
+    ],
+    "x": 4821.1,
+    "y": -7588.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_elemental_damage_taken_recouped_as_energy_shield",
+            "vars": {
+              "value": 0.03
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "9510",
+    "links": [
+      "16695",
+      "4059"
+    ],
+    "x": 4821.1,
+    "y": -7916.56
+  }
+]

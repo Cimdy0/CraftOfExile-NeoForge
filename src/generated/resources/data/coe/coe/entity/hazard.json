@@ -1,0 +1,30 @@
+{
+  "behavior": [
+    {
+      "coe:contact": {
+        "rearm_chance_attr": "coe:hazard_rearm_chance",
+        "target": "enemy"
+      }
+    }
+  ],
+  "box_height": 0.5,
+  "on_trigger": [
+    {
+      "coe:phase_on_hit": {}
+    },
+    {
+      "coe:record_event": {
+        "event": "hazard_triggered"
+      }
+    },
+    {
+      "coe:apply_status": {
+        "status": "hazard_mark"
+      }
+    }
+  ],
+  "render": "coe:smoke",
+  "tags": [
+    "hazard"
+  ]
+}

@@ -1,0 +1,141 @@
+unwired BUT referenced by talent tree: 426 total refs: 4543
+[1712] TO_ANY_ATTRIBUTES
+        +5 to any [Attributes|Attribute]
+[178] GAIN_DEFLECTION_RATING_EQUAL_TO_OF_EVASION
+        Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]
+[118] INC_FLAMMABILITY_BUFF_MAGNITUDE
+        80% increased [Flammability] [BuffMagnitude|Magnitude]
+[ 69] ARMOR_BREAK_INC_ARMOR
+        [ArmourBreak|Break] 20% increased [Armour|Armour]
+[ 57] GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_MAX_ENERGY_SHIELD
+        Gain additional [StunThreshold|Stun Threshold] equal to 8% of maximum [EnergyShield|Energy Shield]
+[ 57] CHANCE_TO_DAZE_ON_HIT_DAMAGE
+        5% chance to [Daze] on [HitDamage|Hit]
+[ 48] INC_MOVEMENT_SPEED_PENALTY_FROM_USING_SKILLS_WHILE_MOVING
+        6% reduced Movement Speed Penalty from using Skills while moving
+[ 45] GAIN_ADDITIONAL_AILMENT_THRESHOLD_EQUAL_TO_OF_MAX_ENERGY_SHIELD
+        Gain additional [AilmentThreshold|Ailment Threshold] equal to 8% of maximum [EnergyShield|Energy Shi
+[ 44] META_SKILLS_GAIN_INC_ENERGY
+        [Meta] Skills gain 20% increased [Energy]
+[ 43] GAIN_RAGE_ON_MELEE_HIT_DAMAGE
+        Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]
+[ 40] INC_DAMAGE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE
+        10% increased Damage while your [Companion] is in your [Presence]
+[ 32] INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE
+        10% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] while your [Companion] is in your
+[ 31] INC_ARMOR_EVASION_AND_ENERGY_SHIELD_FROM_EQUIPPED_SHIELD
+        100% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped [Shield]
+[ 29] INC_MANA_COST_EFFICIENCY
+        15% increased Mana Cost [Efficiency]
+[ 28] DEBUFFS_ON_YOU_EXPIRE_FASTER
+        [Debuff|Debuffs] on you expire 25% faster
+[ 28] INC_POWER_CHARGE_DURATION
+        10% increased [Charges|Power Charge] Duration
+[ 27] INC_HEALTH_COST_OF_SKILLS
+        11% increased Life Cost of Skills
+[ 26] CHANNELLING_SKILLS_DEAL_INC_DAMAGE
+        [Channelling] Skills deal 6% increased Damage
+[ 26] GAIN_RAGE_WHEN_HIT_DAMAGE_BY_AN_ENEMY
+        Gain 2 [Rage] when [HitDamage|Hit] by an Enemy
+[ 25] INC_EFFECT_OF_FULLY_BROKEN_ARMOR
+        30% increased effect of [ArmourBreak|Fully Broken Armour]
+[ 25] OF_DAMAGE_IS_TAKEN_FROM_MANA_BEFORE_HEALTH
+        10% of Damage is taken from Mana before Life
+[ 25] TRIGGERED_SPELLS_DEAL_INC_SPELL_DAMAGE
+        [Trigger|Triggered] [Spell|Spells] deal 14% increased [Spell] Damage
+[ 23] CHANCE_FOR_SPELL_SKILLS_TO_FIRE_ADDITIONAL_PROJECTILES
+        12% chance for [Spell] Skills to fire 2 additional [Projectile|Projectiles]
+[ 22] ANCESTRALLY_BOOSTED_ATTACKS_DEAL_INC_DAMAGE
+        [AncestralBoost|Ancestrally Boosted] [Attack|Attacks] deal 16% increased Damage
+[ 22] CHANCE_TO_BUILD_AN_ADDITIONAL_COMBO_ON_HIT_DAMAGE
+        5% Chance to build an additional [Combo] on [HitDamage|Hit]
+[ 22] INC_STUN_THRESHOLD_IF_YOU_HAVEN_T_BEEN_STUNNED_RECENTLY
+        20% increased [StunThreshold|Stun Threshold] if you haven't been [Stun|Stunned] [Recently]
+[ 22] INC_MINION_DURATION
+        25% increased Minion Duration
+[ 21] CHANCE_TO_GAIN_VOLATILITY_ON_KILL
+        3% chance to gain [Volatility] on Kill
+[ 20] HIT_DAMAGE_AGAINST_YOU_HAVE_INC_CRITICAL_DAMAGE_BONUS
+        [HitDamage|Hits] against you have 25% reduced [CriticalDamageBonus|Critical Damage Bonus]
+[ 20] RECOVER_OF_MAX_HEALTH_ON_KILL
+        Recover 3% of maximum Life on Kill
+[ 20] INC_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS
+        60% increased [EnergyShield|Energy Shield] from Equipped [Focus]
+[ 20] INC_SPELL_DAMAGE_IF_YOU_HAVE_CONSUMED_AN_ELEMENTAL_INFUSION_RECENTLY
+        15% increased [Spell] Damage if you have consumed an [ElementalInfusion|Elemental Infusion] [Recentl
+[ 20] INC_BONUSES_GAIN_FROM_EQUIPPED_QUIVER
+        6% increased bonuses gained from Equipped [Quiver]
+[ 19] CHANCE_TO_PIERCE_AN_ENEMY
+        30% chance to [Pierce|Pierce] an Enemy
+[ 18] CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE_WITH_ATTACKS
+        15% chance to [Blind] Enemies on [HitDamage|Hit] with [Attack|Attacks]
+[ 17] MARK_SKILLS_HAVE_INC_USE_SPEED
+        [Mark] Skills have 10% increased Use Speed
+[ 17] INC_ENDURANCE_CHARGE_DURATION
+        10% increased [Charges|Endurance Charge] Duration
+[ 16] INC_EFFECT_OF_YOUR_MARK_SKILLS
+        10% increased Effect of your [Mark] Skills
+[ 16] MINIONS_REVIVING_FASTER
+        [Minion|Minions] [Reviving|Revive] 25% faster
+[ 16] INC_PARRY_HIT_DAMAGE_AREA_OF_EFFECT
+        8% increased [Parry] [HitDamage|Hit] Area of Effect
+[ 16] SURPASS_CHANCE_CHANCE_TO_FIRE_AN_ADDITIONAL_ARROW
+        +8% [SurpassChance|Surpassing] chance to fire an additional Arrow
+[ 15] INC_SHOCK_DURATION
+        15% increased [Shock] Duration
+[ 15] INHERENT_RAGE_LOSS_STARTS_SECOND_LATER
+        Inherent [Rage|Rage] loss starts 1 second later
+[ 14] IGNITES_YOU_INFLICT_DEAL_DAMAGE_FASTER
+        [Ignite|Ignites] you inflict deal Damage 15% faster
+[ 14] INC_BLEEDING_DURATION
+        10% increased Bleeding Duration
+[ 14] INC_ENDURANCE_FRENZY_AND_POWER_CHARGE_DURATION
+        15% increased [Charges|Endurance, Frenzy and Power Charge] Duration
+[ 14] GAIN_HEALTH_PER_ENEMY_KILLED
+        Gain 3 Life per enemy killed
+[ 13] INVOCATED_SPELLS_DEAL_INC_DAMAGE
+        [Invoke|Invocated] [Spell|Spells] deal 15% increased Damage
+[ 13] CHANCE_THAT_IF_YOU_WOULD_GAIN_ENDURANCE_CHARGES_YOU_INSTEAD_GAIN_UP_TO_MAX_ENDURANCE_CHARGES
+        2% chance that if you would gain [Charges|Endurance Charges], you instead gain up to maximum [Charge
+[ 13] CHANCE_THAT_IF_YOU_WOULD_GAIN_FRENZY_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_FRENZY_CHARGES
+        2% chance that if you would gain [Charges|Frenzy Charges], you instead gain up to your maximum numbe
+[ 13] CHANCE_THAT_IF_YOU_WOULD_GAIN_POWER_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_POWER_CHARGES
+        2% chance that if you would gain [Charges|Power Charges], you instead gain up to your maximum number
+[ 12] INC_AREA_OF_EFFECT_OF_ANCESTRALLY_BOOSTED_ATTACKS
+        4% increased Area of Effect of [AncestralBoost|Ancestrally Boosted] [Attack|Attacks]
+[ 12] ARCHON_RECOVERY_PERIOD_EXPIRES_FASTER
+        [Archon] recovery period expires 10% faster
+[ 12] INC_ARMOR_BREAK_DURATION
+        100% increased [ArmourBreak|Armour Break] Duration
+[ 12] INC_LIGHT_RADIUS
+        10% increased [LightRadius|Light Radius]
+[ 12] CHARMS_APPLIED_TO_YOU_HAVE_INC_EFFECT
+        [Charm|Charms] applied to you have 10% increased Effect
+[ 12] HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND
+        Life [Flask|Flasks] gain 0.1 charges per Second
+[ 12] INC_DAMAGE_AGAINST_IMMOBILISED_ENEMIES_WHILE_SHAPESHIFTED
+        50% increased Damage against [Immobilised] Enemies while [Shapeshift|Shapeshifted]
+[ 11] INC_SPELL_DAMAGE_WHILE_WIELDING_A_MELEE_WEAPON
+        12% increased [Spell] Damage while wielding a [Melee] Weapon
+[ 11] FASTER_CURSE_ACTIVATION
+        10% faster [Curse] Activation
+[ 11] GAIN_OF_MAX_ENERGY_SHIELD_AS_ADDITIONAL_FREEZE_THRESHOLD
+        Gain 15% of maximum [EnergyShield|Energy Shield] as additional [FreezeThreshold|Freeze Threshold]
+[ 10] INC_DAMAGE_AGAINST_ENEMIES_WITH_FULLY_BROKEN_ARMOR
+        20% increased Damage against Enemies with [ArmourBreak|Fully Broken Armour]
+[ 10] INC_MOVEMENT_SPEED_PENALTY_WHILE_ACTIVELY_BLOCKING
+        5% reduced Movement Speed Penalty while Actively [Block|Blocking]
+[ 10] INC_SKILL_SPEED_WITH_CHANNELLING_SKILLS
+        2% increased [SkillSpeed|Skill Speed] with [Channelling] Skills
+[ 10] INHERENT_LOSS_OF_RAGE_IS_SLOWER
+        Inherent loss of [Rage|Rage] is 15% slower
+[ 10] MINIONS_HAVE_ADDITIONAL_PHYSICAL_DAMAGE_REDUCTION
+        [Minion|Minions] have 8% additional [Physical] Damage Reduction
+[  9] DETONATOR_SKILLS_HAVE_INC_AREA_OF_EFFECT
+        [Detonator] skills have 40% increased Area of Effect
+[  9] INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_NO_HEALTH_FLASK_USES_LEFT
+        25% increased [Attack] Damage while you have no Life [Flask] uses left
+[  9] GAIN_RAGE_ON_MELEE_AXE_HIT_DAMAGE
+        Gain 2 [Rage|Rage] on [Melee|Melee] [Axe|Axe] [HitDamage|Hit]
+[  9] SURPASS_CHANCE_CHANCE_TO_FIRE_AN_ADDITIONAL_PROJECTILE
+        +8% [SurpassChance|Surpassing] chance to fire an additional [Projectile]

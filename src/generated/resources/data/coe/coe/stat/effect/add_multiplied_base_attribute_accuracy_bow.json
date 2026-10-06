@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:accuracy",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "bow"
+  }
+}

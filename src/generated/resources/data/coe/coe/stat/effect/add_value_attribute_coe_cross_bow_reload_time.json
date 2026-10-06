@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:cross_bow_reload_time",
+  "operation": "add_value"
+}

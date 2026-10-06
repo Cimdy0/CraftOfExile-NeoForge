@@ -1,0 +1,6994 @@
+[
+ {
+  "const": "FASTER_START_OF_ENERGY_SHIELD_RECHARGE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% faster start of Energy Shield Recharge"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance"
+ },
+ {
+  "const": "INC_PRESENCE_AREA_OF_EFFECT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT;tag-miss:PRESENCE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "effect"
+  ],
+  "scope": [
+   "presence"
+  ],
+  "want_tags": [
+   "PRESENCE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Presence Area of Effect"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Regeneration rate"
+ },
+ {
+  "const": "MINIONS_HAVE_INC_MAX_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Minions have {X}% increased maximum Life"
+ },
+ {
+  "const": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased amount of Life LifeLeech"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_POISON_TAKEN",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict"
+  ],
+  "scope": [
+   "poison"
+  ],
+  "want_tags": [
+   "POISON"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased BuffMagnitude of Poison you inflict"
+ },
+ {
+  "const": "GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_MAX_ENERGY_SHIELD",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD",
+  "op": "ADD_VALUE",
+  "concept": [
+   "stun",
+   "threshold",
+   "energy",
+   "shield"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain additional Stun Threshold equal to {X}% of maximum Energy Shield"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_SKILLS_WHILE_MOVING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "penalty"
+  ],
+  "scope": [
+   "using",
+   "skill",
+   "moving"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed Penalty from using Skills while moving"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_FOR_ATTACKS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance for Attacks"
+ },
+ {
+  "const": "CHANCE_TO_INFLICT_BLEEDING_ON_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to inflict Bleeding on HitDamage"
+ },
+ {
+  "const": "CHANCE_TO_DAZE_ON_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Daze on HitDamage"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_SPELL_TAKEN",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict"
+  ],
+  "scope": [
+   "shock"
+  ],
+  "want_tags": [
+   "SHOCK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased BuffMagnitude of Shock you inflict"
+ },
+ {
+  "const": "COMPANIONS_HAVE_INC_MAX_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Companions have {X}% increased maximum Life"
+ },
+ {
+  "const": "GAIN_RAGE_ON_MELEE_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain {X} Rage on Melee HitDamage"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_FOR_SPELLS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance for Spells"
+ },
+ {
+  "const": "GAIN_ADDITIONAL_AILMENT_THRESHOLD_EQUAL_TO_OF_MAX_ENERGY_SHIELD",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD",
+  "op": "ADD_VALUE",
+  "concept": [
+   "threshold",
+   "energy",
+   "shield"
+  ],
+  "scope": [
+   "ailment"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain additional Ailment Threshold equal to {X}% of maximum Energy Shield"
+ },
+ {
+  "const": "CHANCE_TO_POISON_ON_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Poison on HitDamage"
+ },
+ {
+  "const": "INC_WARCRY_COOLDOWN_RECOVERY_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:COOLDOWN;tag-miss:WARCRY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "cooldown",
+   "recovery",
+   "rate"
+  ],
+  "scope": [
+   "warcry"
+  ],
+  "want_tags": [
+   "WARCRY"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Warcry Cooldown Recovery Rate"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_ON_LOW_HEALTH",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Enemies that are on Low Life"
+ },
+ {
+  "const": "INC_DAMAGE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COMPANION_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PRESENCE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "companion",
+   "presence"
+  ],
+  "want_tags": [
+   "COMPANION",
+   "PRESENCE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage while your Companion is in your Presence"
+ },
+ {
+  "const": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_FROM_EQUIPPED_SHIELD",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "armor",
+   "evasion",
+   "energy",
+   "shield",
+   "shield"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Armour, Evasion and Energy Shield from Equipped Shield"
+ },
+ {
+  "const": "INC_EFFECT_OF_FULLY_BROKEN_ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "effect",
+   "fully",
+   "broken",
+   "armor"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased effect of Fully Broken Armour"
+ },
+ {
+  "const": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION;tag-miss:PRESENCE;tag-miss:COMPANION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "armor",
+   "evasion",
+   "energy",
+   "shield"
+  ],
+  "scope": [
+   "companion",
+   "presence"
+  ],
+  "want_tags": [
+   "COMPANION",
+   "PRESENCE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Armour, Evasion and Energy Shield while your Companion is in your Presence"
+ },
+ {
+  "const": "INC_MANA_RECOVERY_FROM_FLASKS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ARCHON_ATTRIBUTE_COE_ARCHON_RECOVERY_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:RECOVERY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "mana",
+   "recovery",
+   "flasks"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Mana Recovery from Flasks"
+ },
+ {
+  "const": "INC_PINNED_BUILDUP",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:BUILDUP",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "pinned",
+   "buildup"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Pinned Buildup"
+ },
+ {
+  "const": "GAIN_RAGE_WHEN_HIT_DAMAGE_BY_AN_ENEMY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain {X} Rage when HitDamage by an Enemy"
+ },
+ {
+  "const": "INC_HEALTH_COST_OF_SKILLS",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Cost of Skills"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict"
+  ],
+  "scope": [
+   "bleeding"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased BuffMagnitude of Bleeding you inflict"
+ },
+ {
+  "const": "OF_DAMAGE_IS_TAKEN_FROM_MANA_BEFORE_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Damage is taken from Mana before Life"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "ignite"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased BuffMagnitude of Ignite on you"
+ },
+ {
+  "const": "INC_DAMAGE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "shapeshifted"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage while Shapeshifted"
+ },
+ {
+  "const": "INC_POWER_CHARGE_DURATION",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Power Charge Duration"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict"
+  ],
+  "scope": [
+   "ailment"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased BuffMagnitude of Ailments you inflict"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_PLANT_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "plant"
+  ],
+  "scope": [
+   "skill"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage with Plant Skills"
+ },
+ {
+  "const": "INC_SPELL_AREA_DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "damage"
+  ],
+  "scope": [
+   "spell"
+  ],
+  "want_tags": [
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Spell Area Damage"
+ },
+ {
+  "const": "INC_ELEMENTAL_INFUSION_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "elemental",
+   "infusion"
+  ],
+  "want_tags": [
+   "ELEMENTAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Elemental Infusion duration"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_WHILE_SURROUNDED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "attack",
+   "surrounded"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Damage while Surrounded"
+ },
+ {
+  "const": "INC_MINION_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION;tag-miss:MINION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "minion"
+  ],
+  "want_tags": [
+   "MINION"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Minion Duration"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_AFFECTED_BY_ELEMENTAL_AILMENTS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Enemies affected by Elemental Ailments"
+ },
+ {
+  "const": "INC_CROSSBOW_RELOAD_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CROSS_BOW_RELOAD_TIME_CROSSBOW",
+  "conf": "REVIEW",
+  "score": 78,
+  "note": "op=ok;attr=hit:RELOAD;tag-extra:CROSSBOW",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "reload",
+   "speed"
+  ],
+  "scope": [
+   "crossbow"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Crossbow Reload Speed"
+ },
+ {
+  "const": "CHANCE_TO_BUILD_AN_ADDITIONAL_COMBO_ON_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% Chance to build an additional Combo on HitDamage"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_WITH_BOWS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "attack",
+   "bow"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Speed with Bows"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_FLAILS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "flail"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage with Flails"
+ },
+ {
+  "const": "HIT_DAMAGE_AGAINST_YOU_HAVE_INC_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "HitDamage against you have {X}% increased Critical Damage Bonus"
+ },
+ {
+  "const": "INC_AREA_DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "damage"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Area Damage"
+ },
+ {
+  "const": "INC_SHOCK_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION;tag-miss:SHOCK",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "shock"
+  ],
+  "want_tags": [
+   "SHOCK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Shock Duration"
+ },
+ {
+  "const": "INC_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ENERGY_RECHARGE_ENERGY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ENERGY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "energy",
+   "shield",
+   "focus"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Energy Shield from Equipped Focus"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_AN_ALLIES_IN_YOUR_PRESENCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PRESENCE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "allies"
+  ],
+  "scope": [
+   "attack",
+   "presence"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "PRESENCE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Damage while you have an Allies in your Presence"
+ },
+ {
+  "const": "INC_GLORY_GENERATION_FOR_BANNER_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_GLORY_GENERATION_GLORY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:GENERATION;tag-miss:BANNER",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "glory",
+   "generation"
+  ],
+  "scope": [
+   "banner",
+   "skill"
+  ],
+  "want_tags": [
+   "BANNER"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Glory generation for Banner Skills"
+ },
+ {
+  "const": "PROJECTILES_DEAL_INC_DAMAGE_WITH_HITS_AGAINST_ENEMIES_FURTHER_THAN_XM",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Projectiles deal {X}% increased Damage with Hits against Enemies further than {X}m"
+ },
+ {
+  "const": "OFFERINGS_HAVE_INC_MAX_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Offerings have {X}% increased Maximum Life"
+ },
+ {
+  "const": "INC_ATTACK_AND_CAST_SPEED_WITH_LIGHTNING_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED;tag-miss:LIGHTNING",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "attack",
+   "cast",
+   "lightning",
+   "skill"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "LIGHTNING"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack and Cast Speed with Lightning Skills"
+ },
+ {
+  "const": "RECOVER_OF_MAX_HEALTH_ON_KILL",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Recover {X}% of maximum Life on Kill"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_BLINDED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Blinded Enemies"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_WHILE_MOVING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "attack",
+   "moving"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Damage while moving"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE_WHILE_STATIONARY",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Regeneration Rate while stationary"
+ },
+ {
+  "const": "INC_SKILL_SPEED_WHILE_SHAPESHIFTED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "skill",
+   "shapeshifted"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Skill Speed while Shapeshifted"
+ },
+ {
+  "const": "HEALTH_LEECH_HEALTH_SLOWER",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "LifeLeech Life {X}% slower"
+ },
+ {
+  "const": "INC_ELEMENTAL_DAMAGE_DAMAGE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "damage"
+  ],
+  "scope": [
+   "elemental",
+   "shapeshifted"
+  ],
+  "want_tags": [
+   "ELEMENTAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased ElementalDamage Damage while Shapeshifted"
+ },
+ {
+  "const": "INC_MAX_ENERGY_SHIELD_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased maximum Energy Shield if you've consumed a Power Charge Recently"
+ },
+ {
+  "const": "INC_ENDURANCE_CHARGE_DURATION",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Endurance Charge Duration"
+ },
+ {
+  "const": "INC_ARMOR_IF_YOU_VE_CONSUMED_AN_ENDURANCE_CHARGE_RECENTLY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Armour if you've consumed an Endurance Charge Recently"
+ },
+ {
+  "const": "INC_CHILL_DURATION_ON_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN_2",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "chill",
+   "duration"
+  ],
+  "scope": [
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Chill Duration on Enemies"
+ },
+ {
+  "const": "INC_BLEEDING_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "bleeding"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Bleeding Duration"
+ },
+ {
+  "const": "INC_COOLDOWN_RECOVERY_RATE_FOR_GRENADE_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_COOLDOWN_RECOVERY_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:COOLDOWN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "cooldown",
+   "recovery",
+   "rate",
+   "grenade"
+  ],
+  "scope": [
+   "skill"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Cooldown Recovery Rate for Grenade Skills"
+ },
+ {
+  "const": "CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE_WITH_ATTACKS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Blind Enemies on HitDamage with Attacks"
+ },
+ {
+  "const": "INC_ACCURACY_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY;tag-miss:MELEE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "accuracy",
+   "one",
+   "handed",
+   "weapons"
+  ],
+  "scope": [
+   "melee"
+  ],
+  "want_tags": [
+   "MELEE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Accuracy Rating with One Handed Melee Weapons"
+ },
+ {
+  "const": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life and Mana Recovery from Flasks"
+ },
+ {
+  "const": "GAIN_HEALTH_PER_ENEMY_KILLED",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain {X} Life per enemy killed"
+ },
+ {
+  "const": "INC_PARRY_HIT_DAMAGE_AREA_OF_EFFECT",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Parry HitDamage Area of Effect"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_TRAPS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance with Traps"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_FLAILS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance with Flails"
+ },
+ {
+  "const": "INC_ARMOR_BREAK_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "armor",
+   "break",
+   "duration"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Armour Break Duration"
+ },
+ {
+  "const": "CHANCE_THAT_IF_YOU_WOULD_GAIN_POWER_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_POWER_CHARGES",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges"
+ },
+ {
+  "const": "INC_ATTACK_AND_CAST_SPEED_WITH_ELEMENTAL_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED;tag-miss:ELEMENTAL",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "attack",
+   "cast",
+   "elemental",
+   "skill"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "ELEMENTAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack and Cast Speed with Elemental Skills"
+ },
+ {
+  "const": "INC_ARMOR_WHILE_BLEEDING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:ARMOR",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "armor"
+  ],
+  "scope": [
+   "bleeding"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Armour while Bleeding"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_BURNING_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Burning Enemies"
+ },
+ {
+  "const": "CHANCE_THAT_IF_YOU_WOULD_GAIN_FRENZY_CHARGES_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_NUMBER_OF_FRENZY_CHARGES",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance that if you would gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges"
+ },
+ {
+  "const": "OF_DAMAGE_TAKEN_RECOUPED_AS_MANA",
+  "eff": "EFF_ENERGY_RECOUP",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Damage taken Recouped as Mana"
+ },
+ {
+  "const": "CHANCE_THAT_IF_YOU_WOULD_GAIN_ENDURANCE_CHARGES_YOU_INSTEAD_GAIN_UP_TO_MAX_ENDURANCE_CHARGES",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges"
+ },
+ {
+  "const": "INC_ARMOR_AND_EVASION_WHILE_LEECHING",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Armour and Evasion Rating while Leeching"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_HAVE_BEEN_HIT_DAMAGE_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Evasion Rating if you have been HitDamage Recently"
+ },
+ {
+  "const": "PROJECTILES_HAVE_INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_FURTHER_THAN_XM",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Projectiles have {X}% increased Critical Hit Chance against Enemies further than {X}m"
+ },
+ {
+  "const": "OF_PHYSICAL_DAMAGE_TAKEN_RECOUPED_AS_HEALTH",
+  "eff": "EFF_ENERGY_RECOUP",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Physical Damage taken Recouped as Life"
+ },
+ {
+  "const": "GAIN_OF_MAX_ENERGY_SHIELD_AS_ADDITIONAL_FREEZE_THRESHOLD",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD;tag-miss:FREEZE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "energy",
+   "shield",
+   "threshold"
+  ],
+  "scope": [
+   "freeze"
+  ],
+  "want_tags": [
+   "FREEZE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of maximum Energy Shield as additional Freeze Threshold"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "attack",
+   "rare",
+   "unique",
+   "enemy"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Attack Damage against Rare or Unique Enemies"
+ },
+ {
+  "const": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_CHAOS_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_DAMAGE_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PHYSICAL",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "physical",
+   "chaos"
+  ],
+  "want_tags": [
+   "CHAOS",
+   "PHYSICAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Physical Damage as extra Chaos Damage"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Evasion Rating if you've consumed a Frenzy Charge Recently"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_AGAINST_ENEMIES_AFFECTED_BY_INCISION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WITHERED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict",
+   "incision"
+  ],
+  "scope": [
+   "bleeding",
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased BuffMagnitude of Bleeding you inflict against Enemies affected by Incision"
+ },
+ {
+  "const": "HEALTH_FLASKS_GAIN_CHARGES_PER_SECOND",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Life Flasks gain {X} charges per Second"
+ },
+ {
+  "const": "INC_EVASION_WHILE_MOVING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "evasion"
+  ],
+  "scope": [
+   "moving"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Evasion Rating while moving"
+ },
+ {
+  "const": "INC_PROJECTILE_SPEED_FOR_SPELL_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_PROJECTILE_SPEED_PROJECTILE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED;tag-miss:SPELL",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "projectile",
+   "spell",
+   "skill"
+  ],
+  "want_tags": [
+   "PROJECTILE",
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Projectile Speed for Spell Skills"
+ },
+ {
+  "const": "INC_EFFECT_OF_YOUR_MARK_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT;tag-miss:MARK",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "effect"
+  ],
+  "scope": [
+   "mark",
+   "skill"
+  ],
+  "want_tags": [
+   "MARK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Effect of your Mark Skills"
+ },
+ {
+  "const": "INC_ATTACK_COLD_DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "attack",
+   "cold"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "COLD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Cold Damage"
+ },
+ {
+  "const": "INC_ENDURANCE_FRENZY_AND_POWER_CHARGE_DURATION",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Endurance, Frenzy and Power Charge Duration"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_DAGGERS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance with Daggers"
+ },
+ {
+  "const": "INC_ARMOR_IF_YOU_HAVE_BEEN_HIT_DAMAGE_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Armour if you have been HitDamage Recently"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_IGNITED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Ignited Enemies"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance while Shapeshifted"
+ },
+ {
+  "const": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH_WHILE_SHAPESHIFTED",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased amount of Life LifeLeech while Shapeshifted"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Regeneration rate while Shapeshifted"
+ },
+ {
+  "const": "INC_ARMOR_BREAK_TAKEN",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ARMOR;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "armor",
+   "break"
+  ],
+  "scope": [
+   "taken"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Armour Break taken"
+ },
+ {
+  "const": "INC_MELEE_DAMAGE_WITH_HIT_DAMAGE_AT_CLOSE_RANGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Melee Damage with HitDamage at Close Range"
+ },
+ {
+  "const": "OF_DAMAGE_TAKEN_RECOUPED_AS_HEALTH_WHILE_CHANNELLING",
+  "eff": "EFF_ENERGY_RECOUP",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Damage taken Recouped as Life while Channelling"
+ },
+ {
+  "const": "GAIN_RAGE_ON_MELEE_AXE_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain {X} Rage on Melee Axe HitDamage"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_WITH_AXES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed",
+   "axes"
+  ],
+  "scope": [
+   "attack"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Speed with Axes"
+ },
+ {
+  "const": "INC_DAMAGE_AGAINST_ENEMIES_WITH_FULLY_BROKEN_ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_TAKEN_BYPASSES_ENERGY_ENERGY_SHIELD_TAKEN",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "fully",
+   "broken",
+   "armor"
+  ],
+  "scope": [
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Damage against Enemies with Fully Broken Armour"
+ },
+ {
+  "const": "INC_ENERGY_SHIELD_RECHARGE_RATE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Energy Shield Recharge Rate while Shapeshifted"
+ },
+ {
+  "const": "INC_AREA_OF_EFFECT_IF_YOU_HAVE_STUNNED_AN_ENEMY_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "effect"
+  ],
+  "scope": [
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Area of Effect if you have Stunned an Enemy Recently"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_CHAOS_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_DAMAGE_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "chaos"
+  ],
+  "want_tags": [
+   "CHAOS"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Chaos Damage"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_PENALTY_WHILE_ACTIVELY_BLOCKING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "penalty",
+   "actively"
+  ],
+  "scope": [
+   "blocking"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed Penalty while Actively Blocking"
+ },
+ {
+  "const": "INC_MANA_COST_OF_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_MAX_MANA",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:MANA",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "mana",
+   "cost"
+  ],
+  "scope": [
+   "skill"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Mana Cost of Skills"
+ },
+ {
+  "const": "CHANCE_TO_GAIN_ARCANE_SURGE_WHEN_YOU_DEAL_A_CRITICAL_HIT",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to gain Arcane Surge when you deal a Critical Hit"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "damaging",
+   "inflict"
+  ],
+  "scope": [
+   "ailment"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased BuffMagnitude of Non-Damaging Ailments you inflict"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "animal",
+   "form"
+  ],
+  "scope": [
+   "attack",
+   "shapeshifted"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Damage if you have Shapeshifted to an Animal form Recently"
+ },
+ {
+  "const": "INC_SPELL_DAMAGE_WHILE_YOU_HAVE_ARCANE_SURGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "arcane",
+   "surge"
+  ],
+  "scope": [
+   "spell"
+  ],
+  "want_tags": [
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Spell Damage while you have Arcane Surge"
+ },
+ {
+  "const": "INC_CAST_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Cast Speed if you've dealt a Critical Hit Recently"
+ },
+ {
+  "const": "INC_ARMOR_EVASION_AND_ENERGY_SHIELD",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "armor",
+   "evasion",
+   "energy",
+   "shield"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Armour, Evasion and Energy Shield"
+ },
+ {
+  "const": "INC_SPELL_DAMAGE_WITH_SPELLS_THAT_COST_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Spell Damage with Spells that cost Life"
+ },
+ {
+  "const": "OF_SPELL_MANA_COST_STAT_CONVERSION_TO_HEALTH_COST",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Spell Mana Cost StatConversion to Life Cost"
+ },
+ {
+  "const": "INC_HEALTH_RECOVERY_RATE",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Recovery rate"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance if you haven't dealt a Critical Hit Recently"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE_WHILE_ON_LOW_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Regeneration Rate while on Low Life"
+ },
+ {
+  "const": "INC_FIRE_DAMAGE_PER_ENDURANCE_CHARGE_CONSUMED_RECENTLY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Fire Damage per Endurance Charge consumed Recently"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_WHILE_ON_LOW_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Attack Damage while on Low Life"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_HAVE_HIT_AN_ENEMY_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Evasion Rating if you have Hit an Enemy Recently"
+ },
+ {
+  "const": "ARMOR_BREAK_ARMOR_ON_CRITICAL_HIT_WITH_SPELLS_EQUAL_TO_OF_PHYSICAL_DAMAGE_DEALT",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "ArmourBreak Armour on Critical Hit with Spells equal to {X}% of Physical Damage dealt"
+ },
+ {
+  "const": "INC_DURATION_OF_IGNITE_SHOCK_AND_CHILL_ON_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_SHOCK_TAKEN",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration",
+   "ignite",
+   "chill"
+  ],
+  "scope": [
+   "shock",
+   "enemy"
+  ],
+  "want_tags": [
+   "SHOCK",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Duration of Ignite, Shock and Chill on Enemies"
+ },
+ {
+  "const": "TO_STRENGTH_AND_DEXTERITY",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DEXTERITY",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:DEXTERITY",
+  "op": "ADD_VALUE",
+  "concept": [
+   "strength",
+   "dexterity"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Strength and Dexterity"
+ },
+ {
+  "const": "HIT_DAMAGE_ARMOR_BREAK_INC_ARMOR_ON_TARGETS_WITH_AILMENTS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "HitDamage ArmourBreak {X}% increased Armour on targets with Ailments"
+ },
+ {
+  "const": "EQUIPMENT_AND_SKILL_GEMS_HAVE_INC_ATTRIBUTES_REQUIREMENTS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_REQUIREMENT",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Equipment and Skill Gems have {X}% increased Attributes Requirements"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "ve"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed if you've Killed Recently"
+ },
+ {
+  "const": "INC_STUN_BUILDUP_WITH_MELEE_DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:BUILDUP;tag-miss:MELEE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "stun",
+   "buildup",
+   "damage"
+  ],
+  "scope": [
+   "melee"
+  ],
+  "want_tags": [
+   "MELEE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Stun Buildup with Melee Damage"
+ },
+ {
+  "const": "MANA_FLASKS_GAIN_CHARGES_PER_SECOND",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Mana Flasks gain {X} charges per Second"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_CROSSBOWS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance with Crossbows"
+ },
+ {
+  "const": "INC_PROJECTILE_STUN_BUILDUP",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:BUILDUP;tag-miss:PROJECTILE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "stun",
+   "buildup"
+  ],
+  "scope": [
+   "projectile"
+  ],
+  "want_tags": [
+   "PROJECTILE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Projectile Stun Buildup"
+ },
+ {
+  "const": "INC_BALLISTA_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Ballista Critical Hit Chance"
+ },
+ {
+  "const": "INC_FLASK_AND_CHARM_CHARGES_GAIN",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Flask and Charm Charges gain"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "cold"
+  ],
+  "want_tags": [
+   "COLD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Cold Damage"
+ },
+ {
+  "const": "INC_STUN_THRESHOLD_WHILE_ON_FULL_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Stun Threshold while on Full Life"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Evasion Rating if you haven't been HitDamage Recently"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased BuffMagnitude of Bleeding you inflict with Critical Hits"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Damage Bonus against Enemies that are on Full Life"
+ },
+ {
+  "const": "ENEMIES_BLINDED_BY_YOU_HAVE_INC_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Enemies Blinded by you have {X}% increased Critical Hit Chance"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_BLINDED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Blinded Enemies"
+ },
+ {
+  "const": "INC_CAST_SPEED_WITH_COLD_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:SPEED;tag-miss:COLD",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "cast",
+   "cold",
+   "skill"
+  ],
+  "want_tags": [
+   "COLD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Cast Speed with Cold Skills"
+ },
+ {
+  "const": "INC_CHARM_EFFECT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "charm",
+   "effect",
+   "duration"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Charm Effect Duration"
+ },
+ {
+  "const": "PROJECTILES_DEAL_INC_DAMAGE_WITH_HITS_AGAINST_ENEMIES_WITHIN_XM",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Projectiles deal {X}% increased Damage with Hits against Enemies within {X}m"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Enemies that are on Full Life"
+ },
+ {
+  "const": "INC_MELEE_ATTACK_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED;tag-miss:MELEE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "melee",
+   "attack"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "MELEE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Melee Attack Speed"
+ },
+ {
+  "const": "OF_DAMAGE_FROM_HIT_DAMAGE_IS_TAKEN_FROM_YOUR_DAMAGEABLE_COMPANION_S_HEALTH_BEFORE_YOU",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Damage from HitDamage is taken from your Damageable Companion's Life before you"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "fire"
+  ],
+  "want_tags": [
+   "FIRE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Fire Damage"
+ },
+ {
+  "const": "INC_FREEZE_DURATION_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION;tag-miss:FREEZE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "freeze"
+  ],
+  "want_tags": [
+   "FREEZE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Freeze Duration on you"
+ },
+ {
+  "const": "INC_AREA_OF_EFFECT_FOR_SKILLS_USED_BY_TOTEMS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT;tag-miss:TOTEM",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "effect",
+   "used"
+  ],
+  "scope": [
+   "skill",
+   "totem"
+  ],
+  "want_tags": [
+   "TOTEM"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Area of Effect for Skills used by Totems"
+ },
+ {
+  "const": "INC_ARMOR_FROM_EQUIPPED_BODY_ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_ARMOR",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:ARMOR",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "armor",
+   "body",
+   "armor"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Armour from Equipped Body Armour"
+ },
+ {
+  "const": "INC_STUN_BUILDUP_WITH_MACES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:BUILDUP",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "stun",
+   "buildup",
+   "maces"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Stun Buildup with Maces"
+ },
+ {
+  "const": "OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Maximum Life StatConversion to Energy Shield"
+ },
+ {
+  "const": "INC_ARMOR_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Armour if you haven't been HitDamage Recently"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_PER_ITEM_ARMOR_AND_ITEM_EVASION_ON_EQUIPPED_SHIELD",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION;tag-miss:ATTACK",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "item",
+   "armor",
+   "item",
+   "evasion",
+   "shield"
+  ],
+  "scope": [
+   "attack"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Damage per {X} Item Armour and ItemEvasion on Equipped Shield"
+ },
+ {
+  "const": "CHANCE_WHEN_YOU_GAIN_A_POWER_CHARGE_TO_GAIN_AN_ADDITIONAL_POWER_CHARGE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance when you gain a Power Charge to gain an additional Power Charge"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_HAVEN_T_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Damage Bonus if you haven't dealt a Critical Hit Recently"
+ },
+ {
+  "const": "CHANCE_WHEN_YOU_GAIN_AN_ENDURANCE_CHARGE_TO_GAIN_AN_ADDITIONAL_ENDURANCE_CHARGE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance when you gain an Endurance Charge to gain an additional Endurance Charge"
+ },
+ {
+  "const": "INC_CAST_SPEED_WHEN_ON_FULL_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Cast Speed when on Full Life"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_PHYSICAL_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_MINECRAFT_ATTACK_DAMAGE_PHYSICAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "physical"
+  ],
+  "want_tags": [
+   "PHYSICAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Physical Damage"
+ },
+ {
+  "const": "INC_SPELL_DAMAGE_IF_YOU_HAVE_SHAPESHIFTED_TO_HUMAN_FORM_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "human",
+   "form"
+  ],
+  "scope": [
+   "spell",
+   "shapeshifted"
+  ],
+  "want_tags": [
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Spell Damage if you have Shapeshifted to Human form Recently"
+ },
+ {
+  "const": "INC_STUN_BUILDUP_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:BUILDUP",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "stun",
+   "buildup",
+   "animal",
+   "form"
+  ],
+  "scope": [
+   "shapeshifted"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Stun buildup if you have Shapeshifted to an Animal form Recently"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance if you have Shapeshifted to an Animal form Recently"
+ },
+ {
+  "const": "ATTACKS_HAVE_CHANCE_TO_MAIM_ON_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Attacks have {X}% chance to Maim on HitDamage"
+ },
+ {
+  "const": "INC_STUN_BUILDUP_AGAINST_ENEMIES_WITHIN_METRES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:BUILDUP;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "stun",
+   "buildup",
+   "within",
+   "metres"
+  ],
+  "scope": [
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Stun Buildup against enemies within {X} metres"
+ },
+ {
+  "const": "INC_MELEE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "heavy"
+  ],
+  "scope": [
+   "melee",
+   "enemy"
+  ],
+  "want_tags": [
+   "MELEE",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Melee Damage against Heavy Stunned enemies"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_POISON_YOU_INFLICT_ON_TARGETS_THAT_ARE_NOT_POISONED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_POISON_TAKEN",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict",
+   "targets",
+   "not",
+   "poisoned"
+  ],
+  "scope": [
+   "poison"
+  ],
+  "want_tags": [
+   "POISON"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased BuffMagnitude of Poison you inflict on targets that are not Poisoned"
+ },
+ {
+  "const": "HEALTH_LEECH_HEALTH_FASTER",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "LifeLeech Life {X}% faster"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_IF_YOU_VE_BEEN_HIT_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Attack Speed if you've been Hit Recently"
+ },
+ {
+  "const": "REGENERATE_OF_MAX_HEALTH_OVER_SECOND_WHEN_STUNNED",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Regenerate {X}% of maximum Life over {X} second when Stunned"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_HINDERED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Hindered Enemies"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_ONE_HANDED_MELEE_WEAPONS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance with One Handed Melee Weapons"
+ },
+ {
+  "const": "GAIN_RAGE_WHEN_YOUR_HIT_DAMAGE_IGNITES_A_TARGET",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain {X} Rage when your HitDamage Ignites a target"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased BuffMagnitude of Damaging Ailments you inflict with Critical Hits"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_ARE_ON_FULL_HEALTH",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Enemies that are on Full Life"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_IF_YOU_HAVE_KILLED_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance if you have Killed Recently"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_WHILE_LEECHING",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Attack Speed while Leeching"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_NON_DAMAGING_AILMENTS_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased BuffMagnitude of Non-Damaging Ailments you inflict with Critical Hits"
+ },
+ {
+  "const": "INC_ACCURACY_AT_CLOSE_RANGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "accuracy",
+   "at",
+   "close",
+   "range"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Accuracy Rating at Close Range"
+ },
+ {
+  "const": "TO_STRENGTH_AND_INTELLIGENCE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_INTELLIGENCE",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:INTELLIGENCE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "strength",
+   "intelligence"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Strength and Intelligence"
+ },
+ {
+  "const": "INC_MELEE_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Melee Critical Hit Chance"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_IF_YOU_HAVE_BEEN_HEAVY_STUNNED_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "heavy"
+  ],
+  "scope": [
+   "attack"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Damage if you have been Heavy Stunned Recently"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_WHILE_YOU_HAVE_NO_HEALTH_FLASK_USES_LEFT",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Attack Damage while you have no Life Flask uses left"
+ },
+ {
+  "const": "INC_DAMAGE_FOR_EACH_TYPE_OF_ELEMENTAL_AILMENT_ON_ENEMY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "type"
+  ],
+  "scope": [
+   "elemental",
+   "ailment",
+   "enemy"
+  ],
+  "want_tags": [
+   "ELEMENTAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Damage for each type of Elemental Ailment on Enemy"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_AGAINST_BLEEDING_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "attack",
+   "bleeding",
+   "enemy"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Attack Damage against Bleeding Enemies"
+ },
+ {
+  "const": "INC_FREEZE_DURATION_ON_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_FREEZE_TAKEN",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "freeze",
+   "enemy"
+  ],
+  "want_tags": [
+   "FREEZE",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Freeze Duration on Enemies"
+ },
+ {
+  "const": "INC_ENERGY_SHIELD_RECHARGE_RATE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Energy Shield Recharge Rate"
+ },
+ {
+  "const": "INC_ACCURACY_WHILE_DUAL_WIELDING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "accuracy",
+   "dual",
+   "wielding"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Accuracy Rating while Dual Wielding"
+ },
+ {
+  "const": "INC_ACCURACY_WHILE_MOVING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "accuracy"
+  ],
+  "scope": [
+   "moving"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Accuracy Rating while moving"
+ },
+ {
+  "const": "INC_ACCURACY_WITH_TWO_HANDED_MELEE_WEAPONS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY;tag-miss:MELEE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "accuracy",
+   "two",
+   "handed",
+   "weapons"
+  ],
+  "scope": [
+   "melee"
+  ],
+  "want_tags": [
+   "MELEE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Accuracy Rating with Two Handed Melee Weapons"
+ },
+ {
+  "const": "INC_DAMAGE_AGAINST_DEMONS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "demons"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage against Demons"
+ },
+ {
+  "const": "INC_DURATION_OF_AILMENTS_ON_BEASTS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration",
+   "beasts"
+  ],
+  "scope": [
+   "ailment"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Duration of Ailments on Beasts"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_HUMANOIDS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Humanoids"
+ },
+ {
+  "const": "TO_DEXTERITY_AND_INTELLIGENCE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_INTELLIGENCE",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:INTELLIGENCE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "dexterity",
+   "intelligence"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Dexterity and Intelligence"
+ },
+ {
+  "const": "CHANCE_FOR_FLASKS_YOU_USE_TO_NOT_CONSUME_CHARGES",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance for Flasks you use to not consume Charges"
+ },
+ {
+  "const": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_IN_THE_PAST_SECONDS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage if you've dealt a Critical Hit in the past {X} seconds"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "lightning"
+  ],
+  "want_tags": [
+   "LIGHTNING"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Lightning Damage"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_AFFECTED_BY_AILMENTS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Enemies affected by Ailments"
+ },
+ {
+  "const": "INC_PROJECTILE_DAMAGE_IF_YOU_VE_DEALT_A_MELEE_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Projectile Damage if you've dealt a Melee HitDamage in the past eight seconds"
+ },
+ {
+  "const": "INC_MELEE_DAMAGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Melee Damage if you've dealt a Projectile Attack HitDamage in the past eight seconds"
+ },
+ {
+  "const": "INC_SPELL_DAMAGE_WHILE_ON_FULL_ENERGY_SHIELD",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "energy",
+   "shield"
+  ],
+  "scope": [
+   "spell"
+  ],
+  "want_tags": [
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Spell Damage while on Full Energy Shield"
+ },
+ {
+  "const": "INC_HINDER_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "hinder",
+   "duration"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Hinder Duration"
+ },
+ {
+  "const": "INC_EVASION_WHILE_YOU_HAVE_ENERGY_SHIELD",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "evasion",
+   "energy",
+   "shield"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Evasion Rating while you have Energy Shield"
+ },
+ {
+  "const": "CHANCE_TO_INFLICT_BLEEDING_ON_CRITICAL_HIT_WITH_ATTACKS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to inflict Bleeding on Critical Hit with Attacks"
+ },
+ {
+  "const": "INVOCATED_SPELLS_HAVE_INC_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Invocated Spells have {X}% increased Critical Hit Chance"
+ },
+ {
+  "const": "INC_BLOCK_RECOVERY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ARCHON_ATTRIBUTE_COE_ARCHON_RECOVERY_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:RECOVERY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "block",
+   "recovery"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Block Recovery"
+ },
+ {
+  "const": "PREVENT_OF_DAMAGE_FROM_DEFLECTED_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Prevent +{X}% of Damage from Deflected HitDamage"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED;tag-miss:PRESENCE;tag-miss:COMPANION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "attack",
+   "companion",
+   "presence"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "COMPANION",
+   "PRESENCE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Speed while your Companion is in your Presence"
+ },
+ {
+  "const": "TO_STUN_THRESHOLD_PER_DEXTERITY",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD",
+  "op": "ADD_VALUE",
+  "concept": [
+   "stun",
+   "threshold",
+   "dexterity"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Stun Threshold per Dexterity"
+ },
+ {
+  "const": "INC_MANA_REGENERATION_RATE_WHILE_NOT_ON_LOW_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_ENERGY_REGEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:REGENERATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "mana",
+   "regeneration",
+   "rate",
+   "not",
+   "mana"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Mana Regeneration Rate while not on Low Mana"
+ },
+ {
+  "const": "INC_PENALTY_TO_ACCURACY_AT_RANGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "penalty",
+   "accuracy",
+   "at",
+   "range"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased penalty to Accuracy Rating at range"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_HAVE_ENTERED_YOUR_PRESENCE_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Enemies that have entered your Presence Recently"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_SPEARS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance with Spears"
+ },
+ {
+  "const": "INC_ACCURACY_WITH_SPEARS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "accuracy",
+   "spears"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Accuracy Rating with Spears"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_DAZED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Dazed Enemies"
+ },
+ {
+  "const": "INC_DAMAGE_AGAINST_DAZED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_TAKEN_BYPASSES_ENERGY_ENERGY_SHIELD_TAKEN",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "dazed"
+  ],
+  "scope": [
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Damage against Dazed Enemies"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_WITH_QUARTERSTAVES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance with Quarterstaves"
+ },
+ {
+  "const": "INC_ACCURACY_WITH_BOWS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "accuracy"
+  ],
+  "scope": [
+   "bow"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Accuracy Rating with Bows"
+ },
+ {
+  "const": "INC_PHYSICAL_DAMAGE_WITH_BOWS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BEAR_COE_DAMAGE_FORM_PHYSICAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "physical",
+   "bow"
+  ],
+  "want_tags": [
+   "PHYSICAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Physical Damage with Bows"
+ },
+ {
+  "const": "BOW_ATTACKS_HAVE_CULLING_STRIKE",
+  "eff": "EFF_CAUSED_HIT_CULLING",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Bow Attacks have Culling Strike"
+ },
+ {
+  "const": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PHYSICAL",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "physical",
+   "lightning"
+  ],
+  "want_tags": [
+   "LIGHTNING",
+   "PHYSICAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Physical Damage as Extra Lightning Damage"
+ },
+ {
+  "const": "INC_FIRE_DAMAGE_WHILE_IGNITED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BEAR_COE_DAMAGE_FIRE_FORM",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "fire",
+   "ignited"
+  ],
+  "want_tags": [
+   "FIRE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Fire Damage while Ignited"
+ },
+ {
+  "const": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_FIRE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PHYSICAL;tag-miss:TAKEN",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage",
+   "heavy"
+  ],
+  "scope": [
+   "physical",
+   "fire",
+   "enemy"
+  ],
+  "want_tags": [
+   "FIRE",
+   "PHYSICAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "gain {X}% of Physical Damage as Extra Fire Damage against Heavy Stunned Enemies"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "cold",
+   "shapeshifted"
+  ],
+  "want_tags": [
+   "COLD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Cold Damage while Shapeshifted"
+ },
+ {
+  "const": "INC_ENERGY_SHIELD_FROM_EQUIPPED_BODY_ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ENERGY_RECHARGE_ENERGY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ENERGY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "energy",
+   "shield",
+   "body",
+   "armor"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Energy Shield from Equipped Body Armour"
+ },
+ {
+  "const": "OF_DAMAGE_CONVERTED_TO_FIRE_DAMAGE",
+  "eff": "EFF_CHAOS_DAMAGE_CONVERT_GAIN",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Damage Converted to Fire Damage"
+ },
+ {
+  "const": "SKILL_MANA_COSTS_STAT_CONVERSION_TO_HEALTH_COSTS",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Skill Mana Costs StatConversion to Life Costs"
+ },
+ {
+  "const": "EVERY_RAGE_ALSO_GRANTS_INC_ARMOR",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Every Rage also grants {X}% increased Armour"
+ },
+ {
+  "const": "INC_AREA_OF_EFFECT_IF_YOU_VE_KILLED_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "effect",
+   "ve"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Area of Effect if you've Killed Recently"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_WITH_FLAILS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed",
+   "flail"
+  ],
+  "scope": [
+   "attack"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Speed with Flails"
+ },
+ {
+  "const": "TO_MAX_RESISTANCES_OF_EACH_ELEMENTAL_DAMAGE_DAMAGE_TYPE_YOU_HAVE_BEEN_HIT_DAMAGE_WITH_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "+{X}% to Maximum Resistances of each ElementalDamage Damage Type you have been HitDamage with Recently"
+ },
+ {
+  "const": "MINIONS_GAIN_OF_THEIR_MAX_HEALTH_AS_EXTRA_MAX_ENERGY_SHIELD",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Minions gain {X}% of their maximum Life as Extra maximum Energy Shield"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "fire",
+   "shapeshifted"
+  ],
+  "want_tags": [
+   "FIRE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Fire Damage while Shapeshifted"
+ },
+ {
+  "const": "GAIN_ARMOR_EQUAL_TO_OF_TOTAL_STRENGTH_REQUIREMENTS_OF_EQUIPPED_BOOTS_GLOVES_AND_HELMET",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_REQUIREMENT",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain Armour equal to {X}% of total Strength Requirements of Equipped Boots, Gloves and Helmet"
+ },
+ {
+  "const": "OF_PHYSICAL_DAMAGE_PREVENTED_RECOUPED_AS_HEALTH",
+  "eff": "EFF_ENERGY_RECOUP",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Physical Damage prevented Recouped as Life"
+ },
+ {
+  "const": "MORE_KNOCKBACK_DISTANCE_FOR_BLOCKED_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% more Knockback Distance for Blocked HitDamage"
+ },
+ {
+  "const": "CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_OF_MAX_HEALTH_PER_RAGE_CONSUMED",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Consume all Rage when Shapeshifting to Human form to recover {X}% of maximum life per Rage Consumed"
+ },
+ {
+  "const": "EXCESS_HEALTH_RECOVERY_FROM_REGENERATION_IS_APPLIED_TO_ENERGY_SHIELD",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Excess Life Recovery from Regeneration is applied to Energy Shield"
+ },
+ {
+  "const": "ENERGY_SHIELD_DOES_NOT_RECHARGE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Energy Shield does not Recharge"
+ },
+ {
+  "const": "EVERY_RAGE_ALSO_GRANTS_INC_SPELL_DAMAGE",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Every Rage also grants {X}% increased Spell Damage"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_IF_YOU_VE_CAST_A_SPELL_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:SPELL",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "ve"
+  ],
+  "scope": [
+   "attack",
+   "cast",
+   "spell"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Damage if you've Cast a Spell Recently"
+ },
+ {
+  "const": "ENEMIES_YOU_FULLY_ARMOR_BREAK_CANNOT_REGENERATE_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Enemies you Fully Armour Break cannot Regenerate Life"
+ },
+ {
+  "const": "MORE_CRITICAL_DAMAGE_BONUS_WHEN_ON_FULL_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% more Critical Damage Bonus when on Full Life"
+ },
+ {
+  "const": "MORE_CRITICAL_DAMAGE_BONUS_WHEN_ON_LOW_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% more Critical Damage Bonus when on Low Life"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PRESENCE;tag-miss:MINION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "up"
+  ],
+  "scope": [
+   "attack",
+   "minion",
+   "presence"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "MINION",
+   "PRESENCE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Damage for each Minion in your Presence, up to a maximum of {X}%"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "lightning",
+   "shapeshifted"
+  ],
+  "want_tags": [
+   "LIGHTNING"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Lightning Damage while Shapeshifted"
+ },
+ {
+  "const": "INC_DAMAGE_PER_STRENGTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_JUMP_STRENGTH",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:STRENGTH",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "strength"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage per {X} Strength"
+ },
+ {
+  "const": "TRIPLE_ATTRIBUTES_REQUIREMENTS_OF_MARTIAL_WEAPONS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_REQUIREMENT",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Triple Attributes requirements of Martial Weapons"
+ },
+ {
+  "const": "INHERENT_HEALTH_GRANTED_BY_STRENGTH_IS_HALVED",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Inherent Life granted by Strength is halved"
+ },
+ {
+  "const": "INC_ARMOR_IF_YOU_VE_HIT_DAMAGE_AN_ENEMY_WITH_A_MELEE_ATTACK_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Armour if you've HitDamage an Enemy with a Melee Attack Recently"
+ },
+ {
+  "const": "CONSUMING_GLORY_GRANTS_YOU_INC_ATTACK_DAMAGE_PER_GLORY_CONSUMED_FOR_SECONDS_UP_TO",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Consuming Glory grants you {X}% increased Attack damage per Glory consumed for {X} seconds, up to {X}%"
+ },
+ {
+  "const": "EVERY_FIVE_RAGE_ALSO_GRANTS_YOU_INC_MINION_ATTACK_SPEED",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Every five Rage also grants you {X}% increased Minion Attack Speed"
+ },
+ {
+  "const": "EVERY_RAGE_ALSO_GRANTS_YOU_INC_MINION_DAMAGE",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Every Rage also grants you {X}% increased Minion Damage"
+ },
+ {
+  "const": "ENEMIES_YOU_KILL_WITH_EMPOWERED_ATTACKS_HAVE_A_CHANCE_TO_EXPLODE_DEALING_A_TENTH_OF_THEIR_MAX_HEALTH_AS_FIRE_DAMAGE",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Enemies you kill with Empowered Attacks have a {X}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage"
+ },
+ {
+  "const": "MORE_STUN_BUILDUP_WITH_CRITICAL_HITS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% more Stun Buildup with Critical Hits"
+ },
+ {
+  "const": "NEVER_DEAL_CRITICAL_HITS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Never deal Critical Hits"
+ },
+ {
+  "const": "CHANCE_TO_AVOID_DEATH_FROM_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Avoid Death from HitDamage"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE_WHILE_IGNITED",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Regeneration rate while Ignited"
+ },
+ {
+  "const": "RECOVER_OF_MAX_HEALTH_WHEN_YOU_HEAVY_STUN_A_RARE_OR_UNIQUE_ENEMY",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Recover {X}% of maximum Life when you Heavy Stun a Rare or Unique Enemy"
+ },
+ {
+  "const": "TO_MAX_FIRE_RESISTANCE_IF_YOU_HAVE_AT_LEAST_RED_SUPPORT_GEMS_SOCKETED",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_FIRE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:RESISTANCE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "resistance",
+   "at",
+   "least",
+   "red",
+   "support",
+   "gems",
+   "socketed"
+  ],
+  "scope": [
+   "fire"
+  ],
+  "want_tags": [
+   "FIRE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X}% to Maximum Fire Resistance if you have at least {X} Red Support Gems Socketed"
+ },
+ {
+  "const": "ARCHON_BUFFS_ALSO_GRANT_INC_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Archon Buffs also grant {X}% increased Critical Damage Bonus"
+ },
+ {
+  "const": "ARCHON_BUFFS_ALSO_GRANT_INC_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Archon Buffs also grant {X}% increased Critical Hit Chance"
+ },
+ {
+  "const": "CHANCE_TO_DAZE_ENEMIES_WHOSE_HIT_DAMAGE_YOU_BLOCK_WITH_A_RAISED_SHIELD",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Daze Enemies whose HitDamage you Block with a raised Shield"
+ },
+ {
+  "const": "OF_SKILL_MANA_COSTS_STAT_CONVERSION_TO_HEALTH_COSTS_DURING_ANY_HEALTH_FLASK_EFFECT",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Skill Mana costs StatConversion to Life Costs during any Life Flask Effect"
+ },
+ {
+  "const": "INC_STUN_THRESHOLD_FOR_EACH_TIME_YOU_VE_BEEN_HIT_DAMAGE_BY_AN_ENEMY_RECENTLY_UP_TO",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Stun Threshold for each time you've been HitDamage by an Enemy Recently, up to {X}%"
+ },
+ {
+  "const": "NO_CHARGES_REQUIREMENT_FOR_PLACING_TOTEMS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_REQUIREMENT",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "No Charges requirement for placing Totems"
+ },
+ {
+  "const": "HIT_DAMAGE_HAVE_CHANCE_TO_TREAT_ENEMY_MONSTER_ELEMENTAL_DAMAGE_RESISTANCES_VALUES_AS_INVERTED",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "HitDamage have {X}% chance to treat Enemy Monster ElementalDamage Resistances values as inverted"
+ },
+ {
+  "const": "ALLIES_IN_YOUR_PRESENCE_HAVE_INC_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Allies in your Presence have {X}% increased Critical Hit Chance"
+ },
+ {
+  "const": "INC_CAST_SPEED_WHEN_ON_LOW_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Cast Speed when on Low Life"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HITS_AGAINST_SHOCKED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with Hits against Shocked Enemies"
+ },
+ {
+  "const": "GAIN_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain {X} Rage when you use a Life Flask"
+ },
+ {
+  "const": "INC_TOTEM_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION;tag-miss:TOTEM",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "totem"
+  ],
+  "want_tags": [
+   "TOTEM"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Totem Duration"
+ },
+ {
+  "const": "TO_THORNS_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "+{X}% to Thorns Critical Hit Chance"
+ },
+ {
+  "const": "EVERY_RAGE_ALSO_GRANTS_INC_PHYSICAL_DAMAGE",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Every {X} Rage also grants {X}% increased Physical Damage"
+ },
+ {
+  "const": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_YOU_HAVE_A_TOTEM",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Regenerate {X}% of maximum Life per second while you have a Totem"
+ },
+ {
+  "const": "INC_SKILL_EFFECT_DURATION_PER_ENEMY_YOU_VE_FREEZE_IN_THE_LAST_SECONDS_UP_TO",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_FREEZE_TAKEN",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "effect",
+   "duration",
+   "ve",
+   "last",
+   "seconds",
+   "up"
+  ],
+  "scope": [
+   "skill",
+   "enemy",
+   "freeze"
+  ],
+  "want_tags": [
+   "FREEZE",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Skill Effect Duration per Enemy you've Freeze in the last {X} seconds, up to {X}%"
+ },
+ {
+  "const": "INC_HEALTH_AND_MANA_REGENERATION_RATE_FOR_EACH_MINION_IN_YOUR_PRESENCE_UP_TO_A_MAX_OF",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life and Mana Regeneration Rate for each Minion in your Presence, up to a maximum of {X}%"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_DAMAGE_OF_A_RANDOM_ELEMENTAL_DAMAGE_WHILE_SHAPESHIFTED",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_ELEMENTAL_MINECRAFT_ATTACK_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage",
+   "random",
+   "damage"
+  ],
+  "scope": [
+   "elemental",
+   "shapeshifted"
+  ],
+  "want_tags": [
+   "ELEMENTAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Damage of a random ElementalDamage while Shapeshifted"
+ },
+ {
+  "const": "EVERY_RAGE_ALSO_GRANTS_INC_STUN_THRESHOLD",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Every Rage also grants {X}% increased Stun Threshold"
+ },
+ {
+  "const": "INC_DURATION_OF_ELEMENTAL_AILMENTS_ON_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DURATION;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "elemental",
+   "ailment",
+   "enemy"
+  ],
+  "want_tags": [
+   "ELEMENTAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Duration of Elemental Ailments on Enemies"
+ },
+ {
+  "const": "IMMUNE_TO_BLEEDING_WHILE_SHAPESHIFTED",
+  "eff": "EFF_IMMUNE_MAIM",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Immune to Bleeding while Shapeshifted"
+ },
+ {
+  "const": "INC_DAMAGE_WHILE_YOU_HAVE_A_TOTEM",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_TOTEM",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "totem"
+  ],
+  "want_tags": [
+   "TOTEM"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage while you have a Totem"
+ },
+ {
+  "const": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_AFFECTED_BY_ANY_DAMAGING_AILMENT",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Regenerate {X}% of maximum Life per second while affected by any Damaging Ailment"
+ },
+ {
+  "const": "FULLY_BROKEN_ARMOR_YOU_INFLICT_ALSO_INC_FIRE_DAMAGE_TAKEN_FROM_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Fully Broken Armour you inflict also increased Fire Damage Taken from HitDamage"
+ },
+ {
+  "const": "INC_DAMAGE_TAKEN_WHILE_ON_LOW_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage taken while on Low Life"
+ },
+ {
+  "const": "AREA_SKILLS_HAVE_CHANCE_TO_KNOCK_ENEMIES_BACK_ON_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Area Skills have {X}% chance to Knock Enemies Back on HitDamage"
+ },
+ {
+  "const": "INC_AREA_OF_EFFECT_IF_YOU_VE_STUNNED_AN_ENEMY_WITH_A_TWO_HANDED_MELEE_WEAPON_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT;tag-miss:MELEE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "effect",
+   "ve",
+   "two",
+   "handed",
+   "weapon"
+  ],
+  "scope": [
+   "enemy",
+   "melee"
+  ],
+  "want_tags": [
+   "MELEE",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Area of Effect if you've Stunned an Enemy with a Two Handed Melee Weapon Recently"
+ },
+ {
+  "const": "INC_AREA_OF_EFFECT_WHILE_YOU_HAVE_ARCANE_SURGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "effect",
+   "arcane",
+   "surge"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Area of Effect while you have Arcane Surge"
+ },
+ {
+  "const": "INC_CAST_SPEED_WHILE_IGNITED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "cast",
+   "ignited"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Cast Speed while Ignited"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_FIRE_SKILLS_WHILE_MOVING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT;tag-miss:FIRE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "penalty"
+  ],
+  "scope": [
+   "using",
+   "fire",
+   "skill",
+   "moving"
+  ],
+  "want_tags": [
+   "FIRE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed Penalty from using Fire Skills while moving"
+ },
+ {
+  "const": "GAIN_AN_ENDURANCE_CHARGE_WHEN_YOU_HEAVY_STUN_A_RARE_OR_UNIQUE_ENEMY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain an Endurance Charge when you Heavy Stun a Rare or Unique Enemy"
+ },
+ {
+  "const": "TO_ARMOR_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_BOOTS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_ENERGY_RECHARGE_ENERGY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ENERGY",
+  "op": "ADD_VALUE",
+  "concept": [
+   "armor",
+   "item",
+   "energy",
+   "shield",
+   "boots"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Armour per {X} Item Energy Shield on Equipped Boots"
+ },
+ {
+  "const": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_FIRE_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PHYSICAL",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "physical",
+   "fire"
+  ],
+  "want_tags": [
+   "FIRE",
+   "PHYSICAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Physical Damage as Extra Fire Damage"
+ },
+ {
+  "const": "INC_CAST_SPEED_WHILE_CHILLED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "cast",
+   "chilled"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Cast Speed while Chilled"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_PENALTY_FROM_USING_COLD_SKILLS_WHILE_MOVING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT;tag-miss:COLD",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "penalty"
+  ],
+  "scope": [
+   "using",
+   "cold",
+   "skill",
+   "moving"
+  ],
+  "want_tags": [
+   "COLD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed Penalty from using Cold Skills while moving"
+ },
+ {
+  "const": "ALL_DAMAGE_TYPES_IS_TAKEN_FROM_MANA_BEFORE_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "All DamageTypes is taken from Mana before Life"
+ },
+ {
+  "const": "OF_PHYSICAL_DAMAGE_PREVENTED_RECOUPED_AS_ENERGY_SHIELD_PER_ENEMY_POWER",
+  "eff": "EFF_ENERGY_RECOUP",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Physical Damage prevented Recouped as Energy Shield per enemy Power"
+ },
+ {
+  "const": "ENERGY_SHIELD_DOES_NOT_ESRECHARGE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Energy Shield does not ESRecharge"
+ },
+ {
+  "const": "TO_MAX_ENERGY_SHIELD_PER_ITEM_ARMOR_ON_EQUIPPED_HELMET",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_ENERGY_RECHARGE_ENERGY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ENERGY",
+  "op": "ADD_VALUE",
+  "concept": [
+   "energy",
+   "shield",
+   "item",
+   "armor",
+   "helmet"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Maximum Energy Shield per {X} Item Armour on Equipped Helmet"
+ },
+ {
+  "const": "CHANCE_TO_POISON_ON_HIT_DAMAGE_AGAINST_ENEMIES_THAT_ARE_NOT_POISONED",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Poison on HitDamage against Enemies that are not Poisoned"
+ },
+ {
+  "const": "INC_DAMAGE_WHILE_LEECHING_HEALTH",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage while Leeching Life"
+ },
+ {
+  "const": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_FOUND_ITEM_NUMBER",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:NUMBER;tag-miss:ELEMENTAL",
+  "op": "ADD_VALUE",
+  "concept": [
+   "number"
+  ],
+  "scope": [
+   "elemental",
+   "infusion"
+  ],
+  "want_tags": [
+   "ELEMENTAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to maximum number of Elemental Infusions"
+ },
+ {
+  "const": "HITS_THAT_HEAVY_STUN_ENEMIES_HAVE_CULLING_STRIKE",
+  "eff": "EFF_CAUSED_HIT_CULLING",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Hits that Heavy Stun Enemies have Culling Strike"
+ },
+ {
+  "const": "ARCANE_SURGE_GRANTS_MORE_HEALTH_REGENERATION_RATE_INSTEAD_OF_MANA_REGENERATION_RATE",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Arcane Surge grants more Life Regeneration Rate instead of Mana Regeneration Rate"
+ },
+ {
+  "const": "ENEMIES_IN_YOUR_PRESENCE_HAVE_INC_HEALTH_REGENERATION_RATE",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Enemies in your Presence have {X}% increased Life Regeneration rate"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_WHILE_SURROUNDED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed"
+  ],
+  "scope": [
+   "surrounded"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed while Surrounded"
+ },
+ {
+  "const": "INC_BLOCK_CHANCE_WHILE_SURROUNDED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CRIT_CHANCE_CRIT_FORM_WYVERN",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:CHANCE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "block",
+   "chance"
+  ],
+  "scope": [
+   "surrounded"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Block chance while Surrounded"
+ },
+ {
+  "const": "INC_DURATION_OF_EACH_PUPPET_MASTER_STACK",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration",
+   "puppet",
+   "master",
+   "stack"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Duration of each Puppet Master stack"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_PER_ENEMY_IN_CLOSE_RANGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed",
+   "close",
+   "range"
+  ],
+  "scope": [
+   "attack",
+   "enemy"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Attack Speed per Enemy in Close Range"
+ },
+ {
+  "const": "GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD",
+  "op": "ADD_VALUE",
+  "concept": [
+   "stun",
+   "threshold",
+   "item",
+   "armor",
+   "armor",
+   "items"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain additional Stun Threshold equal to {X}% of Item Armour on Equipped Armour Items"
+ },
+ {
+  "const": "MINIONS_HAVE_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Minions have {X}% chance to inflict Withered on HitDamage"
+ },
+ {
+  "const": "TAKE_MORE_DAMAGE_FROM_HITS_WHILE_DODGE_ROLLING",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Take {X}% more Damage from Hits while Dodge Rolling"
+ },
+ {
+  "const": "INC_MANA_REGENERATION_RATE_WHILE_ON_FULL_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Mana Regeneration Rate while on Full Life"
+ },
+ {
+  "const": "OF_THORNS_DAMAGE_LEECHED_AS_HEALTH",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Thorns Damage Leeched as Life"
+ },
+ {
+  "const": "EVERY_RAGE_ALSO_GRANTS_INC_FIRE_DAMAGE",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Every Rage also grants {X}% increased Fire Damage"
+ },
+ {
+  "const": "CHANCE_THAT_IF_YOU_WOULD_GAIN_RAGE_ON_HIT_DAMAGE_YOU_INSTEAD_GAIN_UP_TO_YOUR_MAX_RAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance that if you would gain Rage on HitDamage, you instead gain up to your maximum Rage"
+ },
+ {
+  "const": "BANNERS_ALSO_GRANT_TO_ALL_ELEMENTAL_DAMAGE_RESISTANCES_AFFECTED_TARGETS",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Banners also grant +{X}% to all ElementalDamage Resistances affected targets"
+ },
+ {
+  "const": "HEALTH_FLASKS_APPLIED_TO_YOU_GRANT_GUARD_FOR_SECONDS_EQUAL_TO_OF_THE_HEALTH_RECOVERY_PER_SECOND_THEY_APPLY",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Life Flasks applied to you grant Guard for {X} seconds equal to {X}% of the Life Recovery per Second they apply"
+ },
+ {
+  "const": "DAMAGE_WITH_HITS_IS_LUCKY_AGAINST_HEAVY_STUNNED_ENEMIES",
+  "eff": "EFF_DAMAGE_LUCKY",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Damage with Hits is Lucky against Heavy Stunned Enemies"
+ },
+ {
+  "const": "INC_CHILL_AND_FREEZE_DURATION_ON_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_FREEZE_TAKEN",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "chill",
+   "duration"
+  ],
+  "scope": [
+   "freeze",
+   "enemy"
+  ],
+  "want_tags": [
+   "FREEZE",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Chill and Freeze Duration on Enemies"
+ },
+ {
+  "const": "INC_CAST_SPEED_WHILE_ON_FULL_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed",
+   "mana"
+  ],
+  "scope": [
+   "cast"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Cast Speed while on Full Mana"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_THAT_ARE_AFFECTED_BY_NO_ELEMENTAL_AILMENTS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Enemies that are affected by no Elemental Ailments"
+ },
+ {
+  "const": "TO_STUN_THRESHOLD_PER_STRENGTH",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD",
+  "op": "ADD_VALUE",
+  "concept": [
+   "stun",
+   "threshold",
+   "strength"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Stun Threshold per Strength"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE_WHILE_MOVING",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Regeneration Rate while moving"
+ },
+ {
+  "const": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_ON_LOW_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Regenerate {X}% of maximum Life per second while on Low Life"
+ },
+ {
+  "const": "INC_AREA_OF_EFFECT_WHILE_YOU_HAVE_A_TOTEM",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT;tag-miss:TOTEM",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "effect"
+  ],
+  "scope": [
+   "totem"
+  ],
+  "want_tags": [
+   "TOTEM"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Area of Effect while you have a Totem"
+ },
+ {
+  "const": "BURNING_ENEMIES_YOU_KILL_HAVE_A_CHANCE_TO_EXPLODE_DEALING_A_TENTH_OF_THEIR_MAX_HEALTH_AS_FIRE_DAMAGE",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Burning Enemies you kill have a {X}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage"
+ },
+ {
+  "const": "OF_DAMAGE_TAKEN_RECOUPED_AS_HEALTH_MANA_AND_ENERGY_SHIELD",
+  "eff": "EFF_ENERGY_RECOUP",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Damage Taken Recouped as Life, Mana and Energy Shield"
+ },
+ {
+  "const": "INC_MAX_HEALTH_MANA_AND_ENERGY_SHIELD",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased maximum Life, Mana and Energy Shield"
+ },
+ {
+  "const": "INC_MELEE_DAMAGE_WHEN_ON_FULL_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Melee Damage when on Full Life"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_PER_ENDURANCE_CHARGE_CONSUMED_RECENTLY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain {X}% of Damage as Extra Fire Damage per Endurance Charge consumed Recently"
+ },
+ {
+  "const": "INC_DAMAGE_AGAINST_UNDEAD_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_TAKEN_BYPASSES_ENERGY_ENERGY_SHIELD_TAKEN",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "undead"
+  ],
+  "scope": [
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased damage against Undead Enemies"
+ },
+ {
+  "const": "INC_DAMAGE_WHILE_LEECHING",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage while Leeching"
+ },
+ {
+  "const": "INC_ENERGY_SHIELD_FROM_EQUIPPED_HELMET",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ENERGY_RECHARGE_ENERGY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ENERGY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "energy",
+   "shield",
+   "helmet"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Energy Shield from Equipped Helmet"
+ },
+ {
+  "const": "INC_ARMOR_AND_EVASION_WHEN_ON_LOW_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Armour and Evasion Rating when on Low Life"
+ },
+ {
+  "const": "TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_ELEMENTAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:RESISTANCE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "resistance",
+   "at",
+   "least",
+   "red",
+   "green",
+   "blue",
+   "support",
+   "gems",
+   "socketed"
+  ],
+  "scope": [
+   "elemental"
+  ],
+  "want_tags": [
+   "ELEMENTAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X}% to all Maximum Elemental Resistances if you have at least {X} Red, Green and Blue Support Gems Socketed"
+ },
+ {
+  "const": "MORE_AMOUNT_OF_HEALTH_LEECHED",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% more amount of Life Leeched"
+ },
+ {
+  "const": "LEECH_HEALTH_MORE_QUICKLY",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Leech Life {X}% more quickly"
+ },
+ {
+  "const": "CANNOT_RECOVER_HEALTH_OTHER_THAN_FROM_HEALTH_LEECH",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Cannot Recover Life other than from LifeLeech"
+ },
+ {
+  "const": "HEALTH_LEECH_EFFECTS_ARE_NOT_ADD_WHEN_RESERVATION_HEALTH_IS_FILLED",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Life Leech effects are not add when Reservation Life is Filled"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_WHILE_ON_IGNITED_GROUND",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "fire",
+   "ignited",
+   "ground"
+  ],
+  "want_tags": [
+   "FIRE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Fire Damage while on Ignited Ground"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MAGNITUDE;tag-miss:SPELL",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "impales",
+   "inflicted"
+  ],
+  "scope": [
+   "spell"
+  ],
+  "want_tags": [
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased BuffMagnitude of Impales inflicted with Spells"
+ },
+ {
+  "const": "CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_HIT_DAMAGE_WITH_ATTACKS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Aggravate Bleeding on targets you HitDamage with Attacks"
+ },
+ {
+  "const": "MINIONS_DEAL_INC_DAMAGE_IF_YOU_VE_HIT_DAMAGE_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Minions deal {X}% increased Damage if you've HitDamage Recently"
+ },
+ {
+  "const": "INC_SPELL_DAMAGE_IF_ONE_OF_YOUR_MINIONS_HAS_DIED_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MINION",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:SPELL",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "one",
+   "died"
+  ],
+  "scope": [
+   "spell",
+   "minion"
+  ],
+  "want_tags": [
+   "MINION",
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Spell Damage if one of your Minions has died Recently"
+ },
+ {
+  "const": "INC_SPELL_DAMAGE_PER_STRENGTH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_JUMP_STRENGTH",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:STRENGTH;tag-miss:SPELL",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "strength"
+  ],
+  "scope": [
+   "spell"
+  ],
+  "want_tags": [
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Spell Damage per {X} Strength"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_WHILE_ON_SHOCKED_GROUND",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "lightning",
+   "shocked",
+   "ground"
+  ],
+  "want_tags": [
+   "LIGHTNING"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Lightning Damage while on Shocked Ground"
+ },
+ {
+  "const": "IMMUNE_TO_BLEEDING_WHILE_AFFECTED_BY_AN_ARCHON_BUFF",
+  "eff": "EFF_IMMUNE_MAIM",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Immune to Bleeding while affected by an Archon Buff"
+ },
+ {
+  "const": "TO_EVASION_PER_ITEM_ARMOR_ON_EQUIPPED_GLOVES",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_VALUE",
+  "concept": [
+   "evasion",
+   "item",
+   "armor",
+   "gloves"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Evasion Rating per {X} Item Armour on Equipped Gloves"
+ },
+ {
+  "const": "INC_DAMAGE_PER_CHANCE_TO_BLOCK",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "chance",
+   "block"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage per {X}% Chance to Block"
+ },
+ {
+  "const": "GAIN_OF_ELEMENTAL_DAMAGE_AS_EXTRA_FIRE_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_ELEMENTAL_MINECRAFT_ATTACK_DAMAGE",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "elemental",
+   "fire"
+  ],
+  "want_tags": [
+   "ELEMENTAL",
+   "FIRE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Elemental Damage as Extra Fire Damage"
+ },
+ {
+  "const": "CHANCE_TO_INFLICT_DAZE_WITH_HIT_DAMAGE_AGAINST_ENEMIES_FURTHER_THAN_XM",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to inflict Daze with HitDamage against Enemies further than {X}m"
+ },
+ {
+  "const": "GAIN_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE_WHILE_ON_CHILLED_GROUND",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "cold",
+   "chilled",
+   "ground"
+  ],
+  "want_tags": [
+   "COLD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Damage as Extra Cold Damage while on Chilled Ground"
+ },
+ {
+  "const": "ATTACK_HIT_DAMAGE_AGGRAVATE_ANY_BLEEDING_ON_TARGETS_WHICH_IS_OLDER_THAN_SECONDS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Attack HitDamage Aggravate any Bleeding on targets which is older than {X} seconds"
+ },
+ {
+  "const": "GAIN_ELEMENTAL_ARCHON_WHEN_YOUR_ENERGY_SHIELD_RECHARGE_BEGINS",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain Elemental Archon when your Energy Shield Recharge begins"
+ },
+ {
+  "const": "TO_ACCURACY_AGAINST_BLEEDING_ENEMIES",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY;tag-miss:TAKEN",
+  "op": "ADD_VALUE",
+  "concept": [
+   "accuracy"
+  ],
+  "scope": [
+   "bleeding",
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "+{X} to Accuracy against Bleeding Enemies"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_WHILE_SURROUNDED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "attack",
+   "surrounded"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Speed while Surrounded"
+ },
+ {
+  "const": "INC_SURROUNDED_AREA_OF_EFFECT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AREA_OF_EFFECT",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EFFECT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "area",
+   "effect"
+  ],
+  "scope": [
+   "surrounded"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Surrounded Area of Effect"
+ },
+ {
+  "const": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_WHILE_SURROUNDED",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Regenerate {X}% of maximum Life per second while Surrounded"
+ },
+ {
+  "const": "TO_MAX_COLD_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_COLD",
+  "conf": "WEAK",
+  "score": 48,
+  "note": "op=ok;attr=neutral",
+  "op": "ADD_VALUE",
+  "concept": [],
+  "scope": [
+   "cold",
+   "infusion"
+  ],
+  "want_tags": [
+   "COLD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to maximum Cold Infusions"
+ },
+ {
+  "const": "TO_MAX_FIRE_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_FIRE",
+  "conf": "WEAK",
+  "score": 48,
+  "note": "op=ok;attr=neutral",
+  "op": "ADD_VALUE",
+  "concept": [],
+  "scope": [
+   "fire",
+   "infusion"
+  ],
+  "want_tags": [
+   "FIRE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to maximum Fire Infusions"
+ },
+ {
+  "const": "TO_MAX_LIGHTNING_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_LIGHTNING",
+  "conf": "WEAK",
+  "score": 48,
+  "note": "op=ok;attr=neutral",
+  "op": "ADD_VALUE",
+  "concept": [],
+  "scope": [
+   "lightning",
+   "infusion"
+  ],
+  "want_tags": [
+   "LIGHTNING"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to maximum Lightning Infusions"
+ },
+ {
+  "const": "INC_MAX_HEALTH_IF_YOU_HAVE_AT_LEAST_RED_SUPPORT_GEMS_SOCKETED",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Maximum Life if you have at least {X} Red Support Gems Socketed"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_IF_YOU_HAVE_AT_LEAST_GREEN_SUPPORT_GEMS_SOCKETED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "at",
+   "least",
+   "green",
+   "support",
+   "gems",
+   "socketed"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed if you have at least {X} Green Support Gems Socketed"
+ },
+ {
+  "const": "TO_AILMENT_THRESHOLD_PER_DEXTERITY",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD",
+  "op": "ADD_VALUE",
+  "concept": [
+   "threshold",
+   "dexterity"
+  ],
+  "scope": [
+   "ailment"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Ailment Threshold per Dexterity"
+ },
+ {
+  "const": "GAIN_OF_ELEMENTAL_DAMAGE_AS_EXTRA_COLD_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_ELEMENTAL_MINECRAFT_ATTACK_DAMAGE",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "elemental",
+   "cold"
+  ],
+  "want_tags": [
+   "COLD",
+   "ELEMENTAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Elemental Damage as Extra Cold Damage"
+ },
+ {
+  "const": "INC_MANA_RECOVERY_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ARCHON_ATTRIBUTE_COE_ARCHON_RECOVERY_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:RECOVERY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "mana",
+   "recovery",
+   "rate"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Mana Recovery rate"
+ },
+ {
+  "const": "INC_FLASK_HEALTH_RECOVERY_RATE",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Flask Life Recovery rate"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_IF_YOU_VE_KILLED_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed",
+   "ve"
+  ],
+  "scope": [
+   "attack"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Speed if you've killed Recently"
+ },
+ {
+  "const": "PREVENT_OF_DAMAGE_FROM_DEFLECTED_CRITICAL_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Prevent +{X}% of Damage from Deflected Critical HitDamage"
+ },
+ {
+  "const": "GAIN_OF_COLD_DAMAGE_AS_EXTRA_FIRE_DAMAGE_AGAINST_FREEZE_ENEMIES",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_ELEMENTAL_MINECRAFT_ATTACK_DAMAGE",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:FREEZE;tag-miss:TAKEN",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "cold",
+   "fire",
+   "freeze",
+   "enemy"
+  ],
+  "want_tags": [
+   "COLD",
+   "FIRE",
+   "FREEZE",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "gain {X}% of Cold Damage as Extra Fire Damage against Freeze Enemies"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_WHILE_DUAL_WIELDING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "dual",
+   "wielding"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed while Dual Wielding"
+ },
+ {
+  "const": "INC_ATTACK_CRITICAL_HIT_CHANCE_WHILE_DUAL_WIELDING",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Attack Critical Hit Chance while Dual Wielding"
+ },
+ {
+  "const": "CHANCE_FOR_REMNANTS_YOU_CREATE_TO_GRANT_THEIR_EFFECTS_TWICE",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance for Remnants you create to grant their effects twice"
+ },
+ {
+  "const": "OF_ELEMENTAL_DAMAGE_TAKEN_RECOUPED_AS_HEALTH",
+  "eff": "EFF_ENERGY_RECOUP",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Elemental Damage taken Recouped as Life"
+ },
+ {
+  "const": "IMMUNE_TO_SHOCK_WHILE_AFFECTED_BY_AN_ARCHON_BUFF",
+  "eff": "EFF_IMMUNE_MAIM",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Immune to Shock while affected by an Archon Buff"
+ },
+ {
+  "const": "MORE_MAX_LIGHTNING_DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_TOTAL_ATTRIBUTE_COE_DAMAGE_DAMAGE_MACE",
+  "conf": "REVIEW",
+  "score": 78,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:LIGHTNING;tag-extra:MACE",
+  "op": "ADD_MULTIPLIED_TOTAL",
+  "concept": [
+   "damage"
+  ],
+  "scope": [
+   "lightning"
+  ],
+  "want_tags": [
+   "LIGHTNING"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% more Maximum Lightning Damage"
+ },
+ {
+  "const": "CHANCE_FOR_LIGHTNING_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY",
+  "eff": "EFF_DAMAGE_LUCKY",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance for Lightning Damage with HitDamage to be Lucky"
+ },
+ {
+  "const": "GAIN_OF_ELEMENTAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_ELEMENTAL_MINECRAFT_ATTACK_DAMAGE",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "elemental",
+   "lightning"
+  ],
+  "want_tags": [
+   "ELEMENTAL",
+   "LIGHTNING"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain {X}% of Elemental Damage as Extra Lightning Damage"
+ },
+ {
+  "const": "DAMAGE_WITH_HITS_IS_LUCKY_AGAINST_ENEMIES_THAT_ARE_ON_LOW_HEALTH",
+  "eff": "EFF_DAMAGE_LUCKY",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Damage with Hits is Lucky against Enemies that are on Low Life"
+ },
+ {
+  "const": "INC_STUN_BUILDUP_AGAINST_ENEMIES_THAT_ARE_ON_LOW_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Stun Buildup against Enemies that are on Low Life"
+ },
+ {
+  "const": "INC_CAST_SPEED_IF_YOU_VE_USED_A_MANA_FLASK_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_CAST_SPEED",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed",
+   "ve",
+   "used",
+   "mana",
+   "flask"
+  ],
+  "scope": [
+   "cast"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Cast Speed if you've used a Mana Flask Recently"
+ },
+ {
+  "const": "TO_MAX_COLD_RESISTANCE_IF_YOU_HAVE_AT_LEAST_BLUE_SUPPORT_GEMS_SOCKETED",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_COLD",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:RESISTANCE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "resistance",
+   "at",
+   "least",
+   "blue",
+   "support",
+   "gems",
+   "socketed"
+  ],
+  "scope": [
+   "cold"
+  ],
+  "want_tags": [
+   "COLD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X}% to Maximum Cold Resistance if you have at least {X} Blue Support Gems Socketed"
+ },
+ {
+  "const": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed"
+  ],
+  "scope": [
+   "attack",
+   "cast"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack and Cast Speed"
+ },
+ {
+  "const": "GAIN_STUN_THRESHOLD_EQUAL_TO_THE_LOWEST_OF_EVASION_AND_ARMOR_ON_YOUR_HELMET",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD",
+  "op": "ADD_VALUE",
+  "concept": [
+   "stun",
+   "threshold",
+   "lowest",
+   "evasion",
+   "armor",
+   "helmet"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain Stun Threshold equal to the lowest of Evasion and Armour on your Helmet"
+ },
+ {
+  "const": "GAIN_AILMENT_THRESHOLD_EQUAL_TO_THE_LOWEST_OF_EVASION_AND_ARMOR_ON_YOUR_BOOTS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_AILMENT_THRESHOLD",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:THRESHOLD",
+  "op": "ADD_VALUE",
+  "concept": [
+   "threshold",
+   "lowest",
+   "evasion",
+   "armor",
+   "boots"
+  ],
+  "scope": [
+   "ailment"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "gain Ailment Threshold equal to the lowest of Evasion and Armour on your Boots"
+ },
+ {
+  "const": "GAIN_A_POWER_CHARGE_WHEN_YOU_CONSUME_AN_ELEMENTAL_INFUSION",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain a Power Charge when you consume an Elemental Infusion"
+ },
+ {
+  "const": "RECOVER_OF_MAX_HEALTH_WHEN_ONE_OF_YOUR_MINIONS_IS_REVIVING",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Recover {X}% of maximum Life when one of your Minions is Reviving"
+ },
+ {
+  "const": "TO_MAX_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "+{X} to maximum Life"
+ },
+ {
+  "const": "INC_MANA_REGENERATION_RATE_IF_YOU_HAVE_SHOCKED_AN_ENEMY_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_ENERGY_REGEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:REGENERATION;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "mana",
+   "regeneration",
+   "rate"
+  ],
+  "scope": [
+   "shocked",
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Mana Regeneration Rate if you have Shocked an Enemy Recently"
+ },
+ {
+  "const": "CHANCE_TO_EVASION_IS_UNLUCKY",
+  "eff": "EFF_DAMAGE_LUCKY",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Chance to Evasion is Unlucky"
+ },
+ {
+  "const": "CHANCE_TO_DEFLECT_IS_LUCKY",
+  "eff": "EFF_DAMAGE_LUCKY",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Chance to Deflect is Lucky"
+ },
+ {
+  "const": "INC_HEALTH_AND_MANA_RECOVERY_FROM_FLASKS_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life and Mana Recovery from Flasks while you have an active Charm"
+ },
+ {
+  "const": "INC_EVASION_IF_YOU_VE_DODGE_ROLLED_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "evasion",
+   "ve",
+   "dodge",
+   "rolled"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Evasion Rating if you've Dodge Rolled Recently"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HIT_DAMAGE_AGAINST_RARE_AND_UNIQUE_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with HitDamage against Rare and Unique Enemies"
+ },
+ {
+  "const": "INC_CULLING_STRIKE_THRESHOLD_AGAINST_RARE_OR_UNIQUE_ENEMIES",
+  "eff": "EFF_CAUSED_HIT_CULLING",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Culling Strike Threshold against Rare or Unique Enemies"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_AGAINST_MAIMED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "maimed"
+  ],
+  "scope": [
+   "attack",
+   "enemy"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Attack Damage against Maimed Enemies"
+ },
+ {
+  "const": "PINNED_ENEMIES_CANNOT_DEAL_CRITICAL_HITS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Pinned Enemies cannot deal Critical Hits"
+ },
+ {
+  "const": "STUN_THRESHOLD_IS_BASED_ON_OF_YOUR_ENERGY_SHIELD_INSTEAD_OF_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Stun Threshold is based on {X}% of your Energy Shield instead of Life"
+ },
+ {
+  "const": "SLOWER_START_OF_ENERGY_SHIELD_RECHARGE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% slower start of Energy Shield Recharge"
+ },
+ {
+  "const": "INC_SPELL_DAMAGE_PER_MAX_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "mana"
+  ],
+  "scope": [
+   "spell"
+  ],
+  "want_tags": [
+   "SPELL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Spell Damage per {X} maximum Mana"
+ },
+ {
+  "const": "INC_MANA_REGENERATION_RATE_WHILE_MOVING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_ENERGY_REGEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:REGENERATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "mana",
+   "regeneration",
+   "rate"
+  ],
+  "scope": [
+   "moving"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Mana Regeneration Rate while moving"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_FOR_EACH_TIME_YOU_VE_BLOCKED_IN_THE_PAST_SECONDS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "time",
+   "ve",
+   "blocked",
+   "past",
+   "seconds"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed for each time you've Blocked in the past {X} seconds"
+ },
+ {
+  "const": "CHARMS_GAIN_CHARGES_PER_SECOND",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Charms gain {X} charges per Second"
+ },
+ {
+  "const": "INC_DURATION_OF_AILMENTS_YOU_INFLICT_AGAINST_CURSED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN_2",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration",
+   "inflict",
+   "cursed"
+  ],
+  "scope": [
+   "ailment",
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased duration of Ailments you inflict against Cursed Enemies"
+ },
+ {
+  "const": "INC_HEALTH_RECOVERY_RATE_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Recovery Rate while your Companion is in your Presence"
+ },
+ {
+  "const": "SHOCKING_HIT_DAMAGE_HAVE_A_CHANCE_TO_ALSO_SHOCK_ENEMIES_IN_A_METRE_RADIUS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Shocking HitDamage have a {X}% chance to also Shock enemies in a {X} metre radius"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_GAIN_A_POWER_CHARGE_RECENTLY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Damage Bonus if you've gain a Power Charge Recently"
+ },
+ {
+  "const": "METRES_TO_MELEE_STRIKE_RANGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "+{X} metres to Melee Strike Range if you've dealt a Projectile Attack HitDamage in the past eight seconds"
+ },
+ {
+  "const": "PROJECTILES_HAVE_CHANCE_TO_FORK_IF_YOU_VE_DEALT_A_MELEE_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Projectiles have {X}% chance to Fork if you've dealt a Melee HitDamage in the past eight seconds"
+ },
+ {
+  "const": "INC_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_DEALT_A_NON_CRITICAL_HIT_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Damage Bonus if you've dealt a Non-Critical Hit Recently"
+ },
+ {
+  "const": "CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Recover all Life when you Kill an Enemy"
+ },
+ {
+  "const": "INC_ELEMENTAL_DAMAGE_WITH_ATTACK_SKILLS_DURING_ANY_FLASK_EFFECT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "during",
+   "flask",
+   "effect"
+  ],
+  "scope": [
+   "elemental",
+   "attack",
+   "skill"
+  ],
+  "want_tags": [
+   "ATTACK",
+   "ELEMENTAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Elemental Damage with Attack Skills during any Flask Effect"
+ },
+ {
+  "const": "HIT_DAMAGE_HAVE_INC_CRITICAL_HIT_CHANCE_AGAINST_YOU",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "HitDamage have {X}% increased Critical Hit Chance against you"
+ },
+ {
+  "const": "SUCCESSFULLY_PARRYING_A_MELEE_HIT_DAMAGE_GRANTS_INC_DAMAGE_TO_YOUR_NEXT_RANGED_ATTACK",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Successfully Parrying a Melee HitDamage grants {X}% increased Damage to your next Ranged Attack"
+ },
+ {
+  "const": "SUCCESSFULLY_PARRYING_A_PROJECTILE_HIT_DAMAGE_GRANTS_INC_DAMAGE_TO_YOUR_NEXT_MELEE_ATTACK",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Successfully Parrying a Projectile HitDamage grants {X}% increased Damage to your next Melee Attack"
+ },
+ {
+  "const": "CHANCE_TO_KNOCK_BACK_BLEEDING_ENEMIES_WITH_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Knock Back Bleeding Enemies with HitDamage"
+ },
+ {
+  "const": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_CHILLED_AN_ENEMY_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "damage",
+   "ve"
+  ],
+  "scope": [
+   "elemental",
+   "chilled",
+   "enemy"
+  ],
+  "want_tags": [
+   "ELEMENTAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased ElementalDamage Damage if you've Chilled an Enemy Recently"
+ },
+ {
+  "const": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_IGNITED_AN_ENEMY_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "damage",
+   "ve"
+  ],
+  "scope": [
+   "elemental",
+   "ignited",
+   "enemy"
+  ],
+  "want_tags": [
+   "ELEMENTAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased ElementalDamage Damage if you've Ignited an Enemy Recently"
+ },
+ {
+  "const": "INC_ELEMENTAL_DAMAGE_DAMAGE_IF_YOU_VE_SHOCKED_AN_ENEMY_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "damage",
+   "ve"
+  ],
+  "scope": [
+   "elemental",
+   "shocked",
+   "enemy"
+  ],
+  "want_tags": [
+   "ELEMENTAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased ElementalDamage Damage if you've Shocked an Enemy Recently"
+ },
+ {
+  "const": "INC_ELECTROCUTE_BUILDUP_AGAINST_SHOCKED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:BUILDUP;tag-miss:ELECTROCUTE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buildup"
+  ],
+  "scope": [
+   "electrocute",
+   "shocked",
+   "enemy"
+  ],
+  "want_tags": [
+   "ELECTROCUTE",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Electrocute Buildup against Shocked Enemies"
+ },
+ {
+  "const": "LEECHING_HEALTH_FROM_YOUR_HIT_DAMAGE_CAUSES_YOUR_COMPANION_TO_ALSO_LEECH_THE_SAME_AMOUNT_OF_HEALTH",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Leeching Life from your HitDamage causes your Companion to also Leech the same amount of Life"
+ },
+ {
+  "const": "INC_BLIND_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "blind",
+   "duration"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Blind duration"
+ },
+ {
+  "const": "ATTACKS_GAIN_INC_ACCURACY_EQUAL_TO_THEIR_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Attacks gain increased Accuracy Rating equal to their Critical Hit Chance"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_IF_YOU_VE_PINNED_AN_ENEMY_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "ve",
+   "pinned"
+  ],
+  "scope": [
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Movement Speed if you've Pinned an Enemy Recently"
+ },
+ {
+  "const": "MORE_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT",
+  "eff": "EFF_ADD_MULTIPLIED_TOTAL_AILMENT_ATTRIBUTE_BLEED_COE_AILMENT_MAGNITUDE_TAKEN",
+  "conf": "REVIEW",
+  "score": 78,
+  "note": "op=ok;attr=hit:MAGNITUDE;tag-extra:BLEED",
+  "op": "ADD_MULTIPLIED_TOTAL",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict"
+  ],
+  "scope": [
+   "bleeding"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% more BuffMagnitude of Bleeding you inflict"
+ },
+ {
+  "const": "CANNOT_BE_CRITICALLY_HIT_WHILE_PARRYING",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Cannot be Critically Hit while Parrying"
+ },
+ {
+  "const": "ARCHON_BUFFS_ALSO_GRANT_TO_ALL_ELEMENTAL_DAMAGE_RESISTANCES",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Archon Buffs also grant +{X}% to all ElementalDamage Resistances"
+ },
+ {
+  "const": "ARCHON_BUFFS_ALSO_GRANT_INC_MOVEMENT_SPEED",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Archon Buffs also grant {X}% increased Movement Speed"
+ },
+ {
+  "const": "INC_EVASION_IF_ENERGY_SHIELD_RECHARGE_HAS_STARTED_IN_THE_PAST_SECONDS",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Evasion Rating if Energy Shield Recharge has started in the past {X} seconds"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_ENERGY_SHIELD",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "energy",
+   "shield"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed while you have Energy Shield"
+ },
+ {
+  "const": "INC_DAMAGE_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage if you've dealt a Critical Hit Recently"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_IF_YOU_VE_DEALT_A_CRITICAL_HIT_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Attack Speed if you've dealt a Critical Hit Recently"
+ },
+ {
+  "const": "INC_DAMAGE_DURING_ANY_FLASK_EFFECT",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "during",
+   "flask",
+   "effect"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage during any Flask Effect"
+ },
+ {
+  "const": "CHANCE_FOR_ATTACKS_TO_MAIM_ON_HIT_DAMAGE_AGAINST_POISONED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance for Attacks to Maim on HitDamage against Poisoned Enemies"
+ },
+ {
+  "const": "IF_YOU_WOULD_GAIN_A_CHARGES_ALLIES_IN_YOUR_PRESENCE_GAIN_THAT_CHARGES_INSTEAD",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "If you would gain a Charges, Allies in your Presence gain that Charges instead"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_BLEEDING_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Bleeding Enemies"
+ },
+ {
+  "const": "CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_CRITICALLY_HIT_WITH_ATTACKS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance to Aggravate Bleeding on targets you Critically Hit with Attacks"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_BLEEDING_YOU_INFLICT_AGAINST_PINNED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WITHERED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict",
+   "pinned"
+  ],
+  "scope": [
+   "bleeding",
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased BuffMagnitude of Bleeding you inflict against Pinned Enemies"
+ },
+ {
+  "const": "PHYSICAL_SPELL_CRITICAL_HIT_DAMAGE_BUILD_PINNED",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Physical Spell Critical HitDamage build Pinned"
+ },
+ {
+  "const": "INC_DURATION_OF_BLEEDING_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "bleeding"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Duration of Bleeding on You"
+ },
+ {
+  "const": "ENEMIES_YOU_INFLICT_BLEEDING_ON_CANNOT_REGENERATE_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Enemies you inflict Bleeding on cannot Regenerate Life"
+ },
+ {
+  "const": "INC_CULLING_STRIKE_THRESHOLD_AGAINST_IMMOBILISED_ENEMIES",
+  "eff": "EFF_CAUSED_HIT_CULLING",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Culling Strike Threshold against Immobilised Enemies"
+ },
+ {
+  "const": "CANNOT_BE_LIGHT_STUNNED_IF_YOU_HAVEN_T_BEEN_HIT_DAMAGE_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Cannot be Light Stunned if you haven't been HitDamage Recently"
+ },
+ {
+  "const": "INC_HEALTH_REGENERATION_RATE_DURING_EFFECT_OF_ANY_HEALTH_FLASK",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Life Regeneration rate during Effect of any Life Flask"
+ },
+ {
+  "const": "INC_DEFLECTION_RATING_WHILE_MOVING",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DEFLECTION_RATING_DEFLECT",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:DEFLECTION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "deflection"
+  ],
+  "scope": [
+   "moving"
+  ],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Deflection Rating while moving"
+ },
+ {
+  "const": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_COLD_DAMAGE_AGAINST_SHOCKED_ENEMIES",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PHYSICAL;tag-miss:TAKEN",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "physical",
+   "cold",
+   "shocked",
+   "enemy"
+  ],
+  "want_tags": [
+   "COLD",
+   "PHYSICAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "gain {X}% of Physical Damage as Extra Cold Damage against Shocked Enemies"
+ },
+ {
+  "const": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_AGAINST_CHILLED_ENEMIES",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PHYSICAL;tag-miss:TAKEN",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage"
+  ],
+  "scope": [
+   "physical",
+   "lightning",
+   "chilled",
+   "enemy"
+  ],
+  "want_tags": [
+   "LIGHTNING",
+   "PHYSICAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "gain {X}% of Physical Damage as Extra Lightning Damage against Chilled Enemies"
+ },
+ {
+  "const": "INC_DAMAGE_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage if you've consumed a Frenzy Charge Recently"
+ },
+ {
+  "const": "INC_SKILL_SPEED_IF_YOU_VE_CONSUMED_A_FRENZY_CHARGE_RECENTLY",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Skill Speed if you've consumed a Frenzy Charge Recently"
+ },
+ {
+  "const": "INC_EVASION_WHEN_ON_FULL_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Evasion Rating when on Full Life"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_SHOCKED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Shocked Enemies"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_SHOCK_YOU_INFLICT_WITH_CRITICAL_HITS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased BuffMagnitude of Shock you inflict with Critical Hits"
+ },
+ {
+  "const": "CHANCE_WHEN_YOU_GAIN_A_FRENZY_CHARGE_TO_GAIN_AN_ADDITIONAL_FRENZY_CHARGE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge"
+ },
+ {
+  "const": "REGENERATE_OF_MAX_HEALTH_PER_SECOND_IF_YOU_VE_USED_A_HEALTH_FLASK_IN_THE_PAST_SECONDS",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Regenerate {X}% of maximum Life per Second if you've used a Life Flask in the past {X} seconds"
+ },
+ {
+  "const": "TO_EVASION_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_HELMET",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_VALUE",
+  "concept": [
+   "evasion",
+   "item",
+   "energy",
+   "shield",
+   "helmet"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Evasion Rating per {X} Item Energy Shield on Equipped Helmet"
+ },
+ {
+  "const": "GAIN_POWER_CHARGES_INSTEAD_OF_FRENZY_CHARGES",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain Power Charges instead of Frenzy Charges"
+ },
+ {
+  "const": "GAIN_FRENZY_CHARGES_INSTEAD_OF_ENDURANCE_CHARGES",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain Frenzy Charges instead of Endurance Charges"
+ },
+ {
+  "const": "GAIN_ENDURANCE_CHARGES_INSTEAD_OF_POWER_CHARGES",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "gain Endurance Charges instead of Power Charges"
+ },
+ {
+  "const": "UNAFFECTED_BY_CHILL_WHILE_MANA_LEECH_MANA",
+  "eff": "EFF_CAUSED_HIT_LEECH",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Unaffected by Chill while ManaLeech Mana"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_WHILE_NOT_ON_LOW_MANA",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:SPEED",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed",
+   "not",
+   "mana"
+  ],
+  "scope": [
+   "attack"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Speed while not on Low Mana"
+ },
+ {
+  "const": "INC_ATTACK_DAMAGE_WHILE_ON_FULL_HEALTH",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Attack Damage while on Full Life"
+ },
+ {
+  "const": "MAX_HEALTH_IS",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Maximum Life is {X}"
+ },
+ {
+  "const": "IMMUNE_TO_CHAOS_DAMAGE_AND_BLEEDING",
+  "eff": "EFF_IMMUNE_MAIM",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Immune to Chaos Damage and Bleeding"
+ },
+ {
+  "const": "HEALTH_LOSS_OF_MAX_HEALTH_AND_ENERGY_SHIELD_WHEN_YOU_USE_A_CHAOS_SKILL",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "LifeLoss {X}% of maximum Life and Energy Shield when you use a Chaos Skill"
+ },
+ {
+  "const": "INC_DAMAGE_WITH_HITS_AGAINST_FROZEN_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Damage with Hits against Frozen Enemies"
+ },
+ {
+  "const": "HIT_DAMAGE_IGNORE_NON_NEGATIVE_ELEMENTAL_DAMAGE_RESISTANCES_OF_FROZEN_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "HitDamage ignore non-negative ElementalDamage Resistances of Frozen Enemies"
+ },
+ {
+  "const": "TO_AMOUNT_OF_HIT_DAMAGE_PREVENTED_BY_DEFLECTION",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "-{X}% to amount of HitDamage Prevented by Deflection"
+ },
+ {
+  "const": "TARGETS_CURSED_BY_YOU_HAVE_INC_HEALTH_REGENERATION_RATE",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Targets Cursed by you have {X}% increased Life Regeneration Rate"
+ },
+ {
+  "const": "ENEMIES_YOU_CURSE_CANNOT_RECHARGE_ENERGY_SHIELD",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Enemies you Curse cannot Recharge Energy Shield"
+ },
+ {
+  "const": "OF_PHYSICAL_DAMAGE_FROM_HIT_DAMAGE_TAKEN_AS_DAMAGE_OF_A_RANDOM_ELEMENTAL_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Physical Damage from HitDamage taken as Damage of a Random ElementalDamage"
+ },
+ {
+  "const": "INC_SHOCK_DURATION_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_DAMAGE_OVER_TIME_ELEMENTAL_IGNITE_TAKEN",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DURATION;tag-miss:SHOCK",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "shock"
+  ],
+  "want_tags": [
+   "SHOCK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Shock duration on you"
+ },
+ {
+  "const": "INC_DAMAGE_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DAMAGE_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "active",
+   "charm"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Damage while you have an active Charm"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_WHILE_YOU_HAVE_AN_ACTIVE_CHARM",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "active",
+   "charm"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed while you have an active Charm"
+ },
+ {
+  "const": "INC_MANA_RECOVERY_RATE_DURING_EFFECT_OF_ANY_MANA_FLASK",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ARCHON_ATTRIBUTE_COE_ARCHON_RECOVERY_RATE",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:RECOVERY",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "mana",
+   "recovery",
+   "rate",
+   "during",
+   "effect",
+   "mana",
+   "flask"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Mana Recovery Rate during Effect of any Mana Flask"
+ },
+ {
+  "const": "ADD_A_CURSE_WHEN_YOU_USE_A_MANA_FLASK",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_FLASK_NO_CONSUME_CHANCE_FLASK",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:FLASK;tag-miss:CURSE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "use",
+   "mana",
+   "flask"
+  ],
+  "scope": [
+   "curse"
+  ],
+  "want_tags": [
+   "CURSE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "add a Curse when you use a Mana Flask"
+ },
+ {
+  "const": "UNARMED_ATTACKS_THAT_WOULD_USE_AN_EQUIPPED_QUARTERSTAFF_S_DAMAGE_HAVE_BASE_UNARMED_DAMAGE_PHYSICAL_DAMAGE_REPLACED_WITH_DAMAGE_BASED_ON_THEIR_SKILL_LEVEL_MORE_ATTACK_SPEED_PER_ITEM_EVASION_ON_EQUIPPED_ARMOR_ITEMS_TO_CRITICAL_HIT_CHANCE_PER_ITEM_ENERGY_SHIELD_ON_EQUIPPED_ARMOR_ITEMS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Unarmed Attacks that would use an Equipped Quarterstaff's damage have: • Base UnarmedDamage Physical damage replaced with damage based on their Skill Level • {X}% more Attack Speed per {X} Item Evasion on Equipped Armour Items • +{X}% to Critical Hit Chance per {X} Item Energy Shield on Equipped Armour Items"
+ },
+ {
+  "const": "CULLING_STRIKE_AGAINST_BEASTS_WHILE_YOUR_COMPANION_IS_IN_YOUR_PRESENCE",
+  "eff": "EFF_CAUSED_HIT_CULLING",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Culling Strike against Beasts while your Companion is in your Presence"
+ },
+ {
+  "const": "CHANCE_FOR_DAMAGE_OF_ENEMIES_HIT_DAMAGE_YOU_TO_BE_UNLUCKY",
+  "eff": "EFF_DAMAGE_LUCKY",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance for Damage of Enemies HitDamage you to be Unlucky"
+ },
+ {
+  "const": "CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY",
+  "eff": "EFF_DAMAGE_LUCKY",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance for Damage with HitDamage to be Lucky"
+ },
+ {
+  "const": "OF_DAMAGE_TAKEN_FROM_DEFLECTED_HIT_DAMAGE_RECOUPED_AS_HEALTH",
+  "eff": "EFF_ENERGY_RECOUP",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% of Damage taken from Deflected HitDamage Recouped as Life"
+ },
+ {
+  "const": "CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% chance for Attack HitDamage to apply ten Incision"
+ },
+ {
+  "const": "TO_MAX_ENERGY_SHIELD_PER_ITEM_EVASION_ON_EQUIPPED_BODY_ARMOR",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_VALUE",
+  "concept": [
+   "energy",
+   "shield",
+   "item",
+   "evasion",
+   "body",
+   "armor"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X} to Maximum Energy Shield per {X} Item Evasion on Equipped Body Armour"
+ },
+ {
+  "const": "INC_ATTACK_SPEED_PER_ACCURACY_UP_TO",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_ACCURACY",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:ACCURACY;tag-miss:ATTACK",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "speed",
+   "accuracy",
+   "up"
+  ],
+  "scope": [
+   "attack"
+  ],
+  "want_tags": [
+   "ATTACK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Attack Speed per {X} Accuracy Rating, up to {X}%"
+ },
+ {
+  "const": "HEALTH_HEALTH_RECHARGE_INSTEAD_OF_ENERGY_SHIELD",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Life LifeRecharge instead of Energy Shield"
+ },
+ {
+  "const": "MORE_HEALTH_RECOVERY_FROM_FLASKS",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% more Life Recovery from Flasks"
+ },
+ {
+  "const": "INC_MOVEMENT_SPEED_IF_YOU_VE_USED_A_MARK_RECENTLY",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_FORM_MINECRAFT_MOVEMENT_SPEED_MOVEMENT_WOLF",
+  "conf": "REVIEW",
+  "score": 90,
+  "note": "op=ok;attr=hit:MOVEMENT;tag-miss:MARK",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "movement",
+   "speed",
+   "ve",
+   "used"
+  ],
+  "scope": [
+   "mark"
+  ],
+  "want_tags": [
+   "MARK"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Movement Speed if you've used a Mark Recently"
+ },
+ {
+  "const": "CULLING_STRIKE_AGAINST_ENEMIES_YOU_MARK",
+  "eff": "EFF_CAUSED_HIT_CULLING",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Culling Strike against Enemies you Mark"
+ },
+ {
+  "const": "HEALTH_RECOVERY_FROM_YOUR_FLASKS_ALSO_APPLIES_TO_YOUR_COMPANIONS",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Life Recovery from your Flasks also applies to your Companions"
+ },
+ {
+  "const": "INC_FLASK_CHARGES_USED",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Flask Charges used"
+ },
+ {
+  "const": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_COLD_DAMAGE_AGAINST_DAZED_ENEMIES",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PHYSICAL;tag-miss:TAKEN",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage",
+   "dazed"
+  ],
+  "scope": [
+   "physical",
+   "cold",
+   "enemy"
+  ],
+  "want_tags": [
+   "COLD",
+   "PHYSICAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "gain {X}% of Physical Damage as Extra Cold Damage against Dazed Enemies"
+ },
+ {
+  "const": "GAIN_OF_PHYSICAL_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE_AGAINST_DAZED_ENEMIES",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:PHYSICAL;tag-miss:TAKEN",
+  "op": "ADD_VALUE",
+  "concept": [
+   "damage",
+   "extra",
+   "damage",
+   "dazed"
+  ],
+  "scope": [
+   "physical",
+   "lightning",
+   "enemy"
+  ],
+  "want_tags": [
+   "LIGHTNING",
+   "PHYSICAL",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "gain {X}% of Physical Damage as Extra Lightning Damage against Dazed Enemies"
+ },
+ {
+  "const": "ENEMIES_YOU_MARK_CANNOT_DEAL_CRITICAL_HITS",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Enemies you Mark cannot deal Critical Hits"
+ },
+ {
+  "const": "DEFLECTED_HIT_DAMAGE_CANNOT_INFLICT_MAIM_ON_YOU",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Deflected HitDamage cannot inflict Maim on you"
+ },
+ {
+  "const": "DEFLECTED_HIT_DAMAGE_CANNOT_INFLICT_BLEEDING_ON_YOU",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Deflected HitDamage cannot inflict Bleeding on you"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_AILMENTS_YOU_INFLICT_AGAINST_MARKED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WITHERED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "inflict",
+   "marked"
+  ],
+  "scope": [
+   "ailment",
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased BuffMagnitude of Ailments you inflict against Marked Enemies"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_MARKED_ENEMIES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against Marked Enemies"
+ },
+ {
+  "const": "INC_MELEE_DAMAGE_WITH_SPEARS_WHILE_SURROUNDED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "spears"
+  ],
+  "scope": [
+   "melee",
+   "surrounded"
+  ],
+  "want_tags": [
+   "MELEE"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Melee Damage with Spears while Surrounded"
+ },
+ {
+  "const": "INC_PROJECTILE_DAMAGE_WITH_SPEARS_WHILE_THERE_ARE_NO_ENEMIES_WITHIN_XM",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_PROJECTILE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:TAKEN",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "spears",
+   "there",
+   "no",
+   "within",
+   "xm"
+  ],
+  "scope": [
+   "projectile",
+   "enemy"
+  ],
+  "want_tags": [
+   "PROJECTILE",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Projectile Damage with Spears while there are no Enemies within {X}m"
+ },
+ {
+  "const": "RECOVER_OF_MAX_HEALTH_ON_KILLING_A_POISONED_ENEMY",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Recover {X}% of maximum Life on Killing a Poisoned Enemy"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_AGAINST_ENEMIES_WITH_EXPOSURE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance against enemies with Exposure"
+ },
+ {
+  "const": "COMPANIONS_HAVE_A_CHANCE_TO_POISON_ON_HIT_DAMAGE",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Companions have a {X}% chance to Poison on HitDamage"
+ },
+ {
+  "const": "HEALTH_PER_DEXTERITY",
+  "eff": "EFF_HEAL_MANA",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "+{X} Life per {X} Dexterity"
+ },
+ {
+  "const": "TO_MAX_LIGHTNING_RESISTANCE_IF_YOU_HAVE_AT_LEAST_GREEN_SUPPORT_GEMS_SOCKETED",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_LIGHTNING",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:RESISTANCE",
+  "op": "ADD_VALUE",
+  "concept": [
+   "resistance",
+   "at",
+   "least",
+   "green",
+   "support",
+   "gems",
+   "socketed"
+  ],
+  "scope": [
+   "lightning"
+  ],
+  "want_tags": [
+   "LIGHTNING"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "+{X}% to Maximum Lightning Resistance if you have at least {X} Green Support Gems Socketed"
+ },
+ {
+  "const": "INC_MANA_FLASK_CHARGES_GAIN",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Mana Flask Charges gain"
+ },
+ {
+  "const": "INC_BUFF_MAGNITUDE_OF_IGNITE_AGAINST_POISONED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WITHERED",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:MAGNITUDE",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "buff",
+   "magnitude",
+   "ignite",
+   "poisoned"
+  ],
+  "scope": [
+   "enemy"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased BuffMagnitude of Ignite against Poisoned enemies"
+ },
+ {
+  "const": "INC_DURATION_OF_POISONS_YOU_INFLICT_AGAINST_SLOWED_ENEMIES",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_POISON_TAKEN",
+  "conf": "REVIEW",
+  "score": 106,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration",
+   "inflict",
+   "slowed"
+  ],
+  "scope": [
+   "poison",
+   "enemy"
+  ],
+  "want_tags": [
+   "POISON",
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Duration of Poisons you inflict against Slowed Enemies"
+ },
+ {
+  "const": "INC_EVASION_FROM_EQUIPPED_BODY_ARMOR",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_EVASION",
+  "conf": "CLEAN",
+  "score": 90,
+  "note": "op=ok;attr=hit:EVASION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "evasion",
+   "body",
+   "armor"
+  ],
+  "scope": [],
+  "want_tags": [],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Evasion Rating from Equipped Body Armour"
+ },
+ {
+  "const": "SKILLS_HAVE_CHANCE_TO_NOT_ADD_CHARGES_BUT_STILL_COUNT_AS_CONSUMING_THEM",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Skills have {X}% chance to not add Charges but still count as consuming them"
+ },
+ {
+  "const": "VOLATILE_POWER_ALSO_GRANTS_INC_CRITICAL_HIT_CHANCE_PER_VOLATILITY_EXPLODED",
+  "eff": "EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Volatile Power also grants {X}% increased Critical Hit chance per Volatility exploded"
+ },
+ {
+  "const": "INC_CRITICAL_HIT_CHANCE_IF_YOU_VE_TRIGGERED_A_SKILL_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "{X}% increased Critical Hit Chance if you've Triggered a Skill Recently"
+ },
+ {
+  "const": "META_SKILLS_GAIN_INC_ENERGY_IF_YOU_VE_DEALT_A_CRITICAL_HIT_DAMAGE_RECENTLY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Meta Skills gain {X}% increased Energy if you've dealt a Critical HitDamage Recently"
+ },
+ {
+  "const": "INC_COLD_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ICE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:HERALD",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "ice"
+  ],
+  "scope": [
+   "cold",
+   "herald"
+  ],
+  "want_tags": [
+   "COLD",
+   "HERALD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Cold Damage while affected by Herald of Ice"
+ },
+ {
+  "const": "INC_FIRE_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_ASH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BEAR_COE_DAMAGE_FIRE_FORM",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:HERALD",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "ash"
+  ],
+  "scope": [
+   "fire",
+   "herald"
+  ],
+  "want_tags": [
+   "FIRE",
+   "HERALD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Fire Damage while affected by Herald of Ash"
+ },
+ {
+  "const": "INC_CHAOS_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_PLAGUE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHAOS_COE_DAMAGE_DAMAGE",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:HERALD",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "plague"
+  ],
+  "scope": [
+   "chaos",
+   "herald"
+  ],
+  "want_tags": [
+   "CHAOS",
+   "HERALD"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Chaos Damage while affected by Herald of Plague"
+ },
+ {
+  "const": "INC_PHYSICAL_DAMAGE_WHILE_AFFECTED_BY_HERALD_OF_BLOOD",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BEAR_COE_DAMAGE_FORM_PHYSICAL",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DAMAGE;tag-miss:HERALD",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "damage",
+   "blood"
+  ],
+  "scope": [
+   "physical",
+   "herald"
+  ],
+  "want_tags": [
+   "HERALD",
+   "PHYSICAL"
+  ],
+  "forbid_tags": [
+   "TAKEN"
+  ],
+  "tmpl": "{X}% increased Physical Damage while affected by Herald of Blood"
+ },
+ {
+  "const": "ARROWS_GAIN_CRITICAL_HIT_CHANCE_AS_THEY_TRAVEL_FARTHER_UP_TO_INC_CRITICAL_HIT_CHANCE_AFTER_METRES",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Arrows gain Critical Hit Chance as they travel farther, up to {X}% increased Critical Hit Chance after {X} metres"
+ },
+ {
+  "const": "KNOCKS_BACK_ENEMIES_IF_YOU_GET_A_CRITICAL_HIT_WITH_A_QUARTERSTAFF",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Knocks Back Enemies if you get a Critical Hit with a Quarterstaff"
+ },
+ {
+  "const": "QUARTERSTAFF_SKILLS_THAT_CONSUME_POWER_CHARGES_COUNT_AS_CONSUMING_AN_ADDITIONAL_POWER_CHARGE",
+  "eff": "EFF_ALLY_GRANT_CHARGE_CONVERT_GAIN_CHARGE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Quarterstaff Skills that consume Power Charges count as consuming an additional Power Charge"
+ },
+ {
+  "const": "INC_DURATION_OF_AILMENTS_AGAINST_ENEMIES_WITH_EXPOSURE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_TAKEN_2",
+  "conf": "REVIEW",
+  "score": 98,
+  "note": "op=ok;attr=hit:DURATION",
+  "op": "ADD_MULTIPLIED_BASE",
+  "concept": [
+   "duration"
+  ],
+  "scope": [
+   "ailment",
+   "enemy",
+   "exposure"
+  ],
+  "want_tags": [
+   "TAKEN"
+  ],
+  "forbid_tags": [],
+  "tmpl": "{X}% increased Duration of Ailments against Enemies with Exposure"
+ },
+ {
+  "const": "CRITICAL_HITS_WITH_DAGGERS_HAVE_A_CHANCE_TO_POISON_THE_ENEMY",
+  "eff": "EFF_HIT_FLAG_UNEVADABLE",
+  "conf": "REVIEW_MECH",
+  "note": "mech class match; verify payload",
+  "tmpl": "Critical Hits with Daggers have a {X}% chance to Poison the Enemy"
+ }
+]

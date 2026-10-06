@@ -1,0 +1,6 @@
+{
+  "type": "presence_aura",
+  "elemental": "none",
+  "grant_attribute": "coe:rage_regen_per_second",
+  "grant_operation": "add_value"
+}

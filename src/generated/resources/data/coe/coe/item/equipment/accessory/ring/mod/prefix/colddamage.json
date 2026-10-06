@@ -1,0 +1,153 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_cold_damage_minmax"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "frosted",
+        "tier": 1,
+        "values": {
+          "max": {
+            "max": 3.0,
+            "min": 2.0
+          },
+          "min": {
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 8,
+        "name": "chilled",
+        "tier": 2,
+        "values": {
+          "max": {
+            "max": 8.0,
+            "min": 5.0
+          },
+          "min": {
+            "max": 4.0,
+            "min": 3.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "icy",
+        "tier": 3,
+        "values": {
+          "max": {
+            "max": 11.0,
+            "min": 9.0
+          },
+          "min": {
+            "max": 6.0,
+            "min": 5.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "frigid",
+        "tier": 4,
+        "values": {
+          "max": {
+            "max": 14.0,
+            "min": 12.0
+          },
+          "min": {
+            "max": 8.0,
+            "min": 7.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 46,
+        "name": "freezing",
+        "tier": 5,
+        "values": {
+          "max": {
+            "max": 17.0,
+            "min": 15.0
+          },
+          "min": {
+            "max": 10.0,
+            "min": 9.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 54,
+        "name": "frozen",
+        "tier": 6,
+        "values": {
+          "max": {
+            "max": 21.0,
+            "min": 18.0
+          },
+          "min": {
+            "max": 13.0,
+            "min": 11.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 60,
+        "name": "glaciated",
+        "tier": 7,
+        "values": {
+          "max": {
+            "max": 24.0,
+            "min": 22.0
+          },
+          "min": {
+            "max": 15.0,
+            "min": 14.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 65,
+        "name": "polar",
+        "tier": 8,
+        "values": {
+          "max": {
+            "max": 31.0,
+            "min": 25.0
+          },
+          "min": {
+            "max": 20.0,
+            "min": 16.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 75,
+        "name": "entombing",
+        "tier": 9,
+        "values": {
+          "max": {
+            "max": 37.0,
+            "min": 32.0
+          },
+          "min": {
+            "max": 24.0,
+            "min": 21.0
+          }
+        },
+        "weight": 200
+      }
+    ]
+  }
+}

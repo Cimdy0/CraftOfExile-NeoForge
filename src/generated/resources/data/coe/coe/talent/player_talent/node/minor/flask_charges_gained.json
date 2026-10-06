@@ -1,0 +1,149 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "2559",
+    "links": [
+      "39607",
+      "62542"
+    ],
+    "x": 8093.23,
+    "y": -4239.24
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "32135",
+    "links": [
+      "12322",
+      "16484",
+      "28625"
+    ],
+    "x": 3045.38,
+    "y": 6361.25
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "39607",
+    "links": [
+      "16329",
+      "2559",
+      "45713"
+    ],
+    "x": 8175.23,
+    "y": -3933.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "40630",
+    "links": [
+      "21280",
+      "44527"
+    ],
+    "x": 3105.36,
+    "y": 2128.06
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "55397",
+    "links": [
+      "35987",
+      "44527"
+    ],
+    "x": 2550.68,
+    "y": 1847.88
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_flask_charges_gain",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskdex",
+    "id": "62542",
+    "links": [
+      "16329",
+      "2559",
+      "57821"
+    ],
+    "x": 8175.23,
+    "y": -4431.21
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:physical_spell_critical_hit_damage_build_pinned",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "26563",
+    "links": [
+      "12778",
+      "48805"
+    ],
+    "x": 5171.37,
+    "y": -10969.2
+  }
+]

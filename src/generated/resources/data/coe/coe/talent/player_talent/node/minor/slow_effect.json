@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:debuffs_you_inflict_have_inc_slow_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "26772",
+    "links": [
+      "24240",
+      "45774"
+    ],
+    "x": 5818.98,
+    "y": 7008.53
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:debuffs_you_inflict_have_inc_slow_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "45774",
+    "links": [
+      "26772",
+      "54975"
+    ],
+    "x": 5901.44,
+    "y": 6738.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:debuffs_you_inflict_have_inc_slow_magnitude",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_reducedskilleffectdurationnode",
+    "id": "54975",
+    "links": [
+      "45774",
+      "7526"
+    ],
+    "x": 5615.48,
+    "y": 6656.06
+  }
+]

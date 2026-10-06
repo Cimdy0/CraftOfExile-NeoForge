@@ -1,0 +1,200 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnode",
+    "id": "19563",
+    "links": [
+      "47931",
+      "58496",
+      "6735"
+    ],
+    "x": -9524.42,
+    "y": -6101.02
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnode",
+    "id": "25915",
+    "links": [
+      "34412",
+      "8916"
+    ],
+    "x": -4921.08,
+    "y": -1483.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnode",
+    "id": "33562",
+    "links": [
+      "27216",
+      "27611",
+      "57273"
+    ],
+    "x": -8221.2,
+    "y": -7830.17
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnode",
+    "id": "34412",
+    "links": [
+      "20547",
+      "25915"
+    ],
+    "x": -4844.67,
+    "y": -1298.91
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwyvernnode",
+    "id": "57273",
+    "links": [
+      "33562",
+      "4140"
+    ],
+    "x": -8094.89,
+    "y": -7358.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftwolfnode",
+    "id": "61393",
+    "links": [
+      "29611",
+      "43941",
+      "56368"
+    ],
+    "x": -10448.6,
+    "y": -3316.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnode",
+    "id": "6222",
+    "links": [
+      "14654",
+      "57608",
+      "65189"
+    ],
+    "x": -5986.97,
+    "y": -404.704
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_damage_while_shapeshifted",
+            "vars": {
+              "value": 0.12
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidshapeshiftbearnode",
+    "id": "63085",
+    "links": [
+      "34490",
+      "36100",
+      "37187",
+      "43460"
+    ],
+    "x": -9522.16,
+    "y": -6562.27
+  }
+]

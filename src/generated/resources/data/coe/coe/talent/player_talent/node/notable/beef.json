@@ -1,0 +1,28 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_strength",
+            "vars": {
+              "value": 25.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_plusstrength",
+    "id": "25482",
+    "links": [
+      "51702",
+      "54485",
+      "60620",
+      "61472"
+    ],
+    "x": -5457.8,
+    "y": 4362.34
+  }
+]

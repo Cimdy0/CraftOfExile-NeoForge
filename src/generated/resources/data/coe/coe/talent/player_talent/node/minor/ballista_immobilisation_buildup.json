@@ -1,0 +1,48 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ballista_immobilisation_buildup",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "3282",
+    "links": [
+      "52860"
+    ],
+    "x": -2992.59,
+    "y": 10261.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_ballista_immobilisation_buildup",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_rangedtotemdamage",
+    "id": "45494",
+    "links": [
+      "52860"
+    ],
+    "x": -2520.24,
+    "y": 10261.1
+  }
+]

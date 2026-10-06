@@ -1,0 +1,190 @@
+{
+  "ladders": {
+    "armor~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_health"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_mana"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "perfect"
+      }
+    ],
+    "wand|staff~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_crit_damage"
+        },
+        "max": 25.0,
+        "min": 25.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_crit_damage"
+        },
+        "max": 25.0,
+        "min": 25.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_crit_damage"
+        },
+        "max": 25.0,
+        "min": 25.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_crit_damage"
+        },
+        "max": 25.0,
+        "min": 25.0,
+        "tier": "perfect"
+      }
+    ],
+    "weapon, !wand, !staff, !off_hand~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_accuracy"
+        },
+        "max": 60.0,
+        "min": 60.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:crit_chance_inc"
+        },
+        "max": 1.0,
+        "min": 1.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_accuracy"
+        },
+        "max": 90.0,
+        "min": 90.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:crit_chance_inc"
+        },
+        "max": 1.0,
+        "min": 1.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_accuracy"
+        },
+        "max": 120.0,
+        "min": 120.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:crit_chance_inc"
+        },
+        "max": 1.0,
+        "min": 1.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_accuracy"
+        },
+        "max": 150.0,
+        "min": 150.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:crit_chance_inc"
+        },
+        "max": 1.0,
+        "min": 1.0,
+        "tier": "perfect"
+      }
+    ]
+  }
+}

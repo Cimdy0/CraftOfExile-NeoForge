@@ -1,0 +1,661 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "11813",
+    "links": [
+      "30456",
+      "37695"
+    ],
+    "x": 5074.6,
+    "y": 835.085
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_evasion",
+            "vars": {
+              "value": 16.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "13828",
+    "links": [
+      "1140",
+      "49691",
+      "50459"
+    ],
+    "x": 1402.97,
+    "y": 958.265
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredrabbit",
+    "id": "14418",
+    "links": [
+      "16602",
+      "58513"
+    ],
+    "x": 7584.57,
+    "y": 8277.54
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividcat",
+    "id": "15625",
+    "links": [
+      "23253",
+      "24287",
+      "65161"
+    ],
+    "x": 8862.17,
+    "y": 5955.31
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerisacredrabbit",
+    "id": "16602",
+    "links": [
+      "14418",
+      "29285",
+      "30657"
+    ],
+    "x": 7269.87,
+    "y": 8036.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "16744",
+    "links": [
+      "24009",
+      "24748"
+    ],
+    "x": -1863.48,
+    "y": 6999.33
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "1841",
+    "links": [
+      "44776",
+      "9405"
+    ],
+    "x": 9937.17,
+    "y": 1278.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmerivividcat",
+    "id": "23253",
+    "links": [
+      "15625",
+      "22811"
+    ],
+    "x": 9026.17,
+    "y": 5791.31
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "24748",
+    "links": [
+      "16744",
+      "4716"
+    ],
+    "x": -2099.66,
+    "y": 6901.51
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "28038",
+    "links": [
+      "3893",
+      "48889",
+      "56488"
+    ],
+    "x": 5049.16,
+    "y": 5066.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "31409",
+    "links": [
+      "49691",
+      "50437"
+    ],
+    "x": 1875.94,
+    "y": 1204.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "3209",
+    "links": [
+      "2334",
+      "59720",
+      "65091"
+    ],
+    "x": 9504.16,
+    "y": 1278.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "37220",
+    "links": [
+      "17955",
+      "46402"
+    ],
+    "x": 4298.53,
+    "y": 6334.27
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "37695",
+    "links": [
+      "11813",
+      "29517",
+      "38044"
+    ],
+    "x": 4989.84,
+    "y": 542.395
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "38044",
+    "links": [
+      "30456",
+      "37695"
+    ],
+    "x": 5291.11,
+    "y": 460.085
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_monkenergyshieldchakra",
+    "id": "38668",
+    "links": [
+      "32681",
+      "5188"
+    ],
+    "x": 5106.5,
+    "y": -6307.4
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "3893",
+    "links": [
+      "28038",
+      "64434"
+    ],
+    "x": 5265.67,
+    "y": 5027.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "44776",
+    "links": [
+      "14539",
+      "1841",
+      "48773"
+    ],
+    "x": 10377.7,
+    "y": 1153.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "46402",
+    "links": [
+      "18923",
+      "37220",
+      "50342"
+    ],
+    "x": 4117.86,
+    "y": 6459.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_evasion",
+            "vars": {
+              "value": 16.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "49691",
+    "links": [
+      "13828",
+      "31409",
+      "61106"
+    ],
+    "x": 1583.2,
+    "y": 1143.67
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "50342",
+    "links": [
+      "46402",
+      "5227"
+    ],
+    "x": 4024.15,
+    "y": 6260.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "50437",
+    "links": [
+      "31409",
+      "35987"
+    ],
+    "x": 1976.48,
+    "y": 1445.44
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "55275",
+    "links": [
+      "12890",
+      "17854"
+    ],
+    "x": 6532.75,
+    "y": 3385.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "62464",
+    "links": [
+      "17854",
+      "35901"
+    ],
+    "x": 6198.75,
+    "y": 3385.58
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "64434",
+    "links": [
+      "3893",
+      "49993",
+      "9411"
+    ],
+    "x": 5482.17,
+    "y": 5066.09
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "65091",
+    "links": [
+      "2334",
+      "3209",
+      "51707"
+    ],
+    "x": 9504.16,
+    "y": 1028.21
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evade",
+    "id": "9405",
+    "links": [
+      "1841",
+      "59720"
+    ],
+    "x": 9720.67,
+    "y": 1403.21
+  }
+]

@@ -1,0 +1,609 @@
+{
+  "coe:item_mod_preset": {
+    "local": "armor_energy",
+    "mod": {
+      "type": {
+        "type": "multi",
+        "parts": [
+          {
+            "addition": {
+              "type": "read",
+              "ref": "coe:armor_energy_inc_local"
+            },
+            "key": "value"
+          },
+          {
+            "addition": {
+              "type": "read",
+              "ref": "coe:add_max_health"
+            },
+            "key": "value_2"
+          }
+        ]
+      },
+      "tiers": [
+        {
+          "level": 8,
+          "name": "augur_s",
+          "tier": 1,
+          "values": {
+            "value": {
+              "max": 13.0,
+              "min": 6.0
+            },
+            "value_2": {
+              "max": 10.0,
+              "min": 7.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 8,
+          "name": "bully_s",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 13.0,
+              "min": 6.0
+            },
+            "value_2": {
+              "max": 10.0,
+              "min": 7.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 8,
+          "name": "oyster_s",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 13.0,
+              "min": 6.0
+            },
+            "value_2": {
+              "max": 10.0,
+              "min": 7.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 8,
+          "name": "monk_s",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 13.0,
+              "min": 6.0
+            },
+            "value_2": {
+              "max": 10.0,
+              "min": 7.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 8,
+          "name": "flea_s",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 13.0,
+              "min": 6.0
+            },
+            "value_2": {
+              "max": 10.0,
+              "min": 7.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 8,
+          "name": "poet_s",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 13.0,
+              "min": 6.0
+            },
+            "value_2": {
+              "max": 10.0,
+              "min": 7.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 16,
+          "name": "auspex_s",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 14.0
+            },
+            "value_2": {
+              "max": 19.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 16,
+          "name": "thug_s",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 14.0
+            },
+            "value_2": {
+              "max": 19.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 16,
+          "name": "lobster_s",
+          "tier": 9,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 14.0
+            },
+            "value_2": {
+              "max": 19.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 16,
+          "name": "prior_s",
+          "tier": 10,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 14.0
+            },
+            "value_2": {
+              "max": 19.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 16,
+          "name": "fawn_s",
+          "tier": 11,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 14.0
+            },
+            "value_2": {
+              "max": 19.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 16,
+          "name": "musician_s",
+          "tier": 12,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 14.0
+            },
+            "value_2": {
+              "max": 19.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 33,
+          "name": "druid_s",
+          "tier": 13,
+          "values": {
+            "value": {
+              "max": 26.0,
+              "min": 21.0
+            },
+            "value_2": {
+              "max": 25.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 33,
+          "name": "brute_s",
+          "tier": 14,
+          "values": {
+            "value": {
+              "max": 26.0,
+              "min": 21.0
+            },
+            "value_2": {
+              "max": 25.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 33,
+          "name": "urchin_s",
+          "tier": 15,
+          "values": {
+            "value": {
+              "max": 26.0,
+              "min": 21.0
+            },
+            "value_2": {
+              "max": 25.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 33,
+          "name": "abbot_s",
+          "tier": 16,
+          "values": {
+            "value": {
+              "max": 26.0,
+              "min": 21.0
+            },
+            "value_2": {
+              "max": 25.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 33,
+          "name": "mouflon_s",
+          "tier": 17,
+          "values": {
+            "value": {
+              "max": 26.0,
+              "min": 21.0
+            },
+            "value_2": {
+              "max": 25.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 33,
+          "name": "troubadour_s",
+          "tier": 18,
+          "values": {
+            "value": {
+              "max": 26.0,
+              "min": 21.0
+            },
+            "value_2": {
+              "max": 25.0,
+              "min": 20.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 46,
+          "name": "haruspex_s",
+          "tier": 19,
+          "values": {
+            "value": {
+              "max": 32.0,
+              "min": 27.0
+            },
+            "value_2": {
+              "max": 32.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 46,
+          "name": "assailant_s",
+          "tier": 20,
+          "values": {
+            "value": {
+              "max": 32.0,
+              "min": 27.0
+            },
+            "value_2": {
+              "max": 32.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 46,
+          "name": "nautilus",
+          "tier": 21,
+          "values": {
+            "value": {
+              "max": 32.0,
+              "min": 27.0
+            },
+            "value_2": {
+              "max": 32.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 46,
+          "name": "bishop_s",
+          "tier": 22,
+          "values": {
+            "value": {
+              "max": 32.0,
+              "min": 27.0
+            },
+            "value_2": {
+              "max": 32.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 46,
+          "name": "ram_s",
+          "tier": 23,
+          "values": {
+            "value": {
+              "max": 32.0,
+              "min": 27.0
+            },
+            "value_2": {
+              "max": 32.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 46,
+          "name": "bard_s",
+          "tier": 24,
+          "values": {
+            "value": {
+              "max": 32.0,
+              "min": 27.0
+            },
+            "value_2": {
+              "max": 32.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "visionary_s",
+          "tier": 25,
+          "values": {
+            "value": {
+              "max": 38.0,
+              "min": 33.0
+            },
+            "value_2": {
+              "max": 41.0,
+              "min": 33.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "aggressor_s",
+          "tier": 26,
+          "values": {
+            "value": {
+              "max": 38.0,
+              "min": 33.0
+            },
+            "value_2": {
+              "max": 41.0,
+              "min": 33.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "octopus",
+          "tier": 27,
+          "values": {
+            "value": {
+              "max": 38.0,
+              "min": 33.0
+            },
+            "value_2": {
+              "max": 41.0,
+              "min": 33.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "exarch_s",
+          "tier": 28,
+          "values": {
+            "value": {
+              "max": 38.0,
+              "min": 33.0
+            },
+            "value_2": {
+              "max": 41.0,
+              "min": 33.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "ibex_s",
+          "tier": 29,
+          "values": {
+            "value": {
+              "max": 38.0,
+              "min": 33.0
+            },
+            "value_2": {
+              "max": 41.0,
+              "min": 33.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "minstrel_s",
+          "tier": 30,
+          "values": {
+            "value": {
+              "max": 38.0,
+              "min": 33.0
+            },
+            "value_2": {
+              "max": 41.0,
+              "min": 33.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 78,
+          "name": "prophet_s",
+          "tier": 31,
+          "values": {
+            "value": {
+              "max": 42.0,
+              "min": 39.0
+            },
+            "value_2": {
+              "max": 49.0,
+              "min": 42.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 78,
+          "name": "predator_s",
+          "tier": 32,
+          "values": {
+            "value": {
+              "max": 42.0,
+              "min": 39.0
+            },
+            "value_2": {
+              "max": 49.0,
+              "min": 42.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 78,
+          "name": "crocodile_s",
+          "tier": 33,
+          "values": {
+            "value": {
+              "max": 42.0,
+              "min": 39.0
+            },
+            "value_2": {
+              "max": 49.0,
+              "min": 42.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 78,
+          "name": "pope_s",
+          "tier": 34,
+          "values": {
+            "value": {
+              "max": 42.0,
+              "min": 39.0
+            },
+            "value_2": {
+              "max": 49.0,
+              "min": 42.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 78,
+          "name": "stag_s",
+          "tier": 35,
+          "values": {
+            "value": {
+              "max": 42.0,
+              "min": 39.0
+            },
+            "value_2": {
+              "max": 49.0,
+              "min": 42.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 78,
+          "name": "maestro_s",
+          "tier": 36,
+          "values": {
+            "value": {
+              "max": 42.0,
+              "min": 39.0
+            },
+            "value_2": {
+              "max": 49.0,
+              "min": 42.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    },
+    "types": [
+      "coe:chest",
+      "coe:head",
+      "coe:legs"
+    ]
+  }
+}

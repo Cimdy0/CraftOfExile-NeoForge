@@ -1,0 +1,7 @@
+{
+  "type": "defend",
+  "condition_tags": [
+    "crit"
+  ],
+  "kind": "defend"
+}

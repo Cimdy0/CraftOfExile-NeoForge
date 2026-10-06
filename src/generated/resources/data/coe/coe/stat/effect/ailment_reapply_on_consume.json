@@ -1,0 +1,8 @@
+{
+  "type": "ailment_reapply_on_consume",
+  "identity_tags": [
+    "shock"
+  ],
+  "kind": "ailment_reapply_on_consume",
+  "variant": "rolled"
+}

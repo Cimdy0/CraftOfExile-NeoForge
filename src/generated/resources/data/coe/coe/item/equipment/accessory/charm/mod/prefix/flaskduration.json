@@ -1,0 +1,74 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:charm_duration"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "investigator_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 16.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 20,
+        "name": "analyst_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 25.0,
+            "min": 21.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 42,
+        "name": "examiner_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 30.0,
+            "min": 26.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 61,
+        "name": "clinician_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 35.0,
+            "min": 31.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 78,
+        "name": "experimenter_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 40.0,
+            "min": 36.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

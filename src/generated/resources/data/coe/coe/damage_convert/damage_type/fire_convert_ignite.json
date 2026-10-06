@@ -1,0 +1,7 @@
+{
+  "type": "coe:ignite",
+  "convert": {
+    "fire": 1,
+    "replace": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:cast_speed",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "trap"
+  }
+}

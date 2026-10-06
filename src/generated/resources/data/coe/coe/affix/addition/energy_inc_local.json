@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:inc_energy_shield"
+  ],
+  "vars": [
+    "value"
+  ]
+}

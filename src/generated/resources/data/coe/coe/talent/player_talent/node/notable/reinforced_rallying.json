@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_number_of_placed_banners",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerareanotable",
+    "id": "56388",
+    "links": [
+      "21096",
+      "57616"
+    ],
+    "x": -1626.68,
+    "y": 7194.58
+  }
+]

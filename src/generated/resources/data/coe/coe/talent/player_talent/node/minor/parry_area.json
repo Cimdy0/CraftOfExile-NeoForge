@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parry_hit_damage_area_of_effect",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "12116",
+    "links": [
+      "42036",
+      "52410"
+    ],
+    "x": 10539.1,
+    "y": 5583.35
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parry_hit_damage_area_of_effect",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "5077",
+    "links": [
+      "33400",
+      "9441"
+    ],
+    "x": 3649.93,
+    "y": 5378.57
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_parry_hit_damage_area_of_effect",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bucklernode1",
+    "id": "9441",
+    "links": [
+      "41770",
+      "5077"
+    ],
+    "x": 3649.93,
+    "y": 5542.57
+  }
+]

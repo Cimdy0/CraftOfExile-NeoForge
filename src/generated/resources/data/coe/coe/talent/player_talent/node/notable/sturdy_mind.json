@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_max_mana",
+            "vars": {
+              "value": 30.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_regeneration_rate",
+            "vars": {
+              "value": 0.14
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_mana",
+    "id": "57967",
+    "links": [
+      "30834"
+    ],
+    "x": -2656.19,
+    "y": -2063.25
+  }
+]

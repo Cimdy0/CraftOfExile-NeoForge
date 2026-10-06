@@ -1,0 +1,19 @@
+{
+  "cost": [
+    {
+      "value": 10.0
+    }
+  ],
+  "entry": "read",
+  "ref": "coe:generic_banner",
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "vars": {
+    "banner_duration": 6.0,
+    "banner_magnitude": 1.0,
+    "banner_radius": 6.0,
+    "tier": 4.0
+  }
+}

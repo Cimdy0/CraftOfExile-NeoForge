@@ -1,0 +1,10 @@
+{
+  "layers": [
+    {
+      "coe:model": {
+        "cross": false,
+        "texture": "minecraft:textures/entity/projectile/spectral_arrow"
+      }
+    }
+  ]
+}

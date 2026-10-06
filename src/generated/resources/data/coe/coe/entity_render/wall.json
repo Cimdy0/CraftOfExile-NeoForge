@@ -1,0 +1,30 @@
+{
+  "layers": [
+    {
+      "coe:particle_ring": {
+        "interval": 4,
+        "particle": {
+          "type": "minecraft:glow"
+        },
+        "samples": 14,
+        "y_offset": 0.1
+      }
+    },
+    {
+      "coe:particle_pillar": {
+        "density": 10,
+        "height_scale": 2.5,
+        "particle": {
+          "type": "minecraft:glow"
+        },
+        "radius_scale": 0.6
+      }
+    },
+    {
+      "coe:model": {
+        "cross": false,
+        "texture": "coe:textures/entity/prop/orb"
+      }
+    }
+  ]
+}

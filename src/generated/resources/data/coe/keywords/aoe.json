@@ -1,0 +1,28 @@
+{
+  "aliases": [
+    "Area of Effect",
+    "AoE",
+    "范围效果",
+    "范围"
+  ],
+  "description": [
+    [
+      "$[aoe]",
+      "$[skill]",
+      "会在落点周围一定半径内造成",
+      "$[damage]",
+      "或施加异常。"
+    ],
+    [
+      "$[aoe]",
+      "受",
+      "$[aoe]",
+      "词缀提升，并可覆盖多个敌人。"
+    ]
+  ],
+  "id": "aoe",
+  "keys": [
+    "coe:keyword.aoe"
+  ],
+  "title": "@coe:keyword.aoe"
+}

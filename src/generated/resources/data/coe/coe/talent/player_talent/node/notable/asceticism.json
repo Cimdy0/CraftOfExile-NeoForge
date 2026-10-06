@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:stun_threshold_is_based_on_of_your_energy_shield_instead_of_health",
+            "vars": {
+              "value": 0.3
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_energyshieldnode",
+    "id": "12661",
+    "links": [
+      "18895"
+    ],
+    "x": 2570.89,
+    "y": -5775.44
+  }
+]

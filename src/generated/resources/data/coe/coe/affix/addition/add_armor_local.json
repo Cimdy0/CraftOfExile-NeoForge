@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:add_armor"
+  ],
+  "vars": [
+    "value"
+  ]
+}

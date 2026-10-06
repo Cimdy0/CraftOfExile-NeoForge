@@ -1,0 +1,17 @@
+{
+  "bonuses": {
+    "ladders": {
+      "armor~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_max_health"
+          },
+          "max": 1.0,
+          "min": 1.0,
+          "tier": "special"
+        }
+      ]
+    }
+  }
+}

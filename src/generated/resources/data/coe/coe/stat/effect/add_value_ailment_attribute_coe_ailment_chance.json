@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_chance",
+  "operation": "add_value",
+  "tags": {
+    "tag": "ailment"
+  }
+}

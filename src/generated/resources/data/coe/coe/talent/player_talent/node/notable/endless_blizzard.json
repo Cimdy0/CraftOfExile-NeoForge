@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_level_of_all_cold_skills",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_colddamage",
+    "id": "19955",
+    "links": [
+      "52799",
+      "60515"
+    ],
+    "x": 244.435,
+    "y": -11875.1
+  }
+]

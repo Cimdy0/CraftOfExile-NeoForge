@@ -1,0 +1,7 @@
+{
+  "convert": {
+    "chaos": 1,
+    "replace": false
+  },
+  "tag": "neoforge:is_poison"
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:your_totem_limit_is_doubled",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:no_charges_requirement_for_placing_totems",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:totems_reserve_spirit_each",
+            "vars": {
+              "value": 75.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_totemmax",
+    "id": "45202",
+    "links": [
+      "59093"
+    ],
+    "x": -7414.29,
+    "y": -8107.33
+  }
+]

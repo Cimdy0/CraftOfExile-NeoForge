@@ -1,0 +1,10 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:armor/chest/template/strength_intelligence",
+    "reqs": {
+      "int": 52.0,
+      "l": 59.0,
+      "str": 52.0
+    }
+  }
+}

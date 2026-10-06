@@ -1,0 +1,11 @@
+{
+  "type": "local",
+  "refs": [
+    "coe:add_cold_damage_to_attacks",
+    "coe:add_cold_damage_to_attacks"
+  ],
+  "vars": [
+    "min",
+    "max"
+  ]
+}

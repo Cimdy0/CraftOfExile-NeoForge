@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_azmeriprimalowl",
+    "id": "18897",
+    "links": [
+      "53185",
+      "64990"
+    ],
+    "x": 10345.1,
+    "y": 1648.1
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_life1",
+    "id": "30210",
+    "links": [
+      "38966",
+      "64650"
+    ],
+    "x": 4953.34,
+    "y": 6875.05
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_evasion",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_evasionnode",
+    "id": "9089",
+    "links": [
+      "37951",
+      "3994"
+    ],
+    "x": 8451.01,
+    "y": 4523.71
+  }
+]

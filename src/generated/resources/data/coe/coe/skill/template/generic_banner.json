@@ -1,0 +1,39 @@
+{
+  "aoe_ranges": {},
+  "cast": {},
+  "cast_particle": "minecraft:angry_villager",
+  "cast_sound": "minecraft:entity.ravager.roar",
+  "cost": [],
+  "params": {
+    "banner_duration": 6.0,
+    "banner_magnitude": 1.0,
+    "banner_radius": 6.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_banner": {
+                "area_duration": "$banner_duration",
+                "magnitude": "$banner_magnitude",
+                "radius": "$banner_radius"
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "banner",
+    "aura",
+    "aoe"
+  ]
+}

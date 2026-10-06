@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:projectile_speed",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "tag": "bolt"
+  }
+}

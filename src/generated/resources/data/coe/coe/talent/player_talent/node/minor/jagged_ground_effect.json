@@ -1,0 +1,77 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_jagged_ground_you_create",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "icongroundslam",
+    "id": "14515",
+    "links": [
+      "43778",
+      "61927",
+      "61938"
+    ],
+    "x": -6613.64,
+    "y": 6822.38
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_jagged_ground_you_create",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "icongroundslam",
+    "id": "61927",
+    "links": [
+      "14515",
+      "17330",
+      "3698"
+    ],
+    "x": -6744.48,
+    "y": 6612.94
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_jagged_ground_you_create",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "icongroundslam",
+    "id": "61938",
+    "links": [
+      "14515",
+      "3446",
+      "36894"
+    ],
+    "x": -7069.9,
+    "y": 6944.64
+  }
+]

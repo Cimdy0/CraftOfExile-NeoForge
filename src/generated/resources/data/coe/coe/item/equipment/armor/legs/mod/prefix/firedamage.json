@@ -1,0 +1,153 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_fire_damage_minmax"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "heated",
+        "tier": 1,
+        "values": {
+          "max": {
+            "max": 3.0,
+            "min": 3.0
+          },
+          "min": {
+            "min": 1.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 8,
+        "name": "smouldering",
+        "tier": 2,
+        "values": {
+          "max": {
+            "max": 9.0,
+            "min": 6.0
+          },
+          "min": {
+            "max": 5.0,
+            "min": 3.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 16,
+        "name": "smoking",
+        "tier": 3,
+        "values": {
+          "max": {
+            "max": 13.0,
+            "min": 10.0
+          },
+          "min": {
+            "max": 8.0,
+            "min": 6.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 33,
+        "name": "burning",
+        "tier": 4,
+        "values": {
+          "max": {
+            "max": 17.0,
+            "min": 14.0
+          },
+          "min": {
+            "max": 11.0,
+            "min": 9.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 46,
+        "name": "flaming",
+        "tier": 5,
+        "values": {
+          "max": {
+            "max": 20.0,
+            "min": 18.0
+          },
+          "min": {
+            "max": 13.0,
+            "min": 12.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 54,
+        "name": "scorching",
+        "tier": 6,
+        "values": {
+          "max": {
+            "max": 26.0,
+            "min": 21.0
+          },
+          "min": {
+            "max": 16.0,
+            "min": 11.0
+          }
+        },
+        "weight": 500
+      },
+      {
+        "level": 60,
+        "name": "incinerating",
+        "tier": 7,
+        "values": {
+          "max": {
+            "max": 32.0,
+            "min": 27.0
+          },
+          "min": {
+            "max": 19.0,
+            "min": 13.0
+          }
+        },
+        "weight": 400
+      },
+      {
+        "level": 65,
+        "name": "blasting",
+        "tier": 8,
+        "values": {
+          "max": {
+            "max": 36.0,
+            "min": 33.0
+          },
+          "min": {
+            "max": 24.0,
+            "min": 20.0
+          }
+        },
+        "weight": 300
+      },
+      {
+        "level": 75,
+        "name": "cremating",
+        "tier": 9,
+        "values": {
+          "max": {
+            "max": 45.0,
+            "min": 37.0
+          },
+          "min": {
+            "max": 29.0,
+            "min": 25.0
+          }
+        },
+        "weight": 200
+      }
+    ]
+  }
+}

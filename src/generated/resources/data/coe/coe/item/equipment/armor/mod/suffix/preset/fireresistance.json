@@ -1,0 +1,107 @@
+{
+  "coe:item_mod_preset": {
+    "mod": {
+      "type": {
+        "type": "read",
+        "ref": "coe:add_fire_resistance"
+      },
+      "tiers": [
+        {
+          "level": 1,
+          "name": "of_the_whelpling",
+          "tier": 1,
+          "values": {
+            "value": {
+              "min": 6.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 12,
+          "name": "of_the_salamander",
+          "tier": 2,
+          "values": {
+            "value": {
+              "max": 15.0,
+              "min": 11.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 24,
+          "name": "of_the_drake",
+          "tier": 3,
+          "values": {
+            "value": {
+              "max": 20.0,
+              "min": 16.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 36,
+          "name": "of_the_kiln",
+          "tier": 4,
+          "values": {
+            "value": {
+              "max": 25.0,
+              "min": 21.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 48,
+          "name": "of_the_furnace",
+          "tier": 5,
+          "values": {
+            "value": {
+              "max": 30.0,
+              "min": 26.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 60,
+          "name": "of_the_volcano",
+          "tier": 6,
+          "values": {
+            "value": {
+              "max": 35.0,
+              "min": 31.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 71,
+          "name": "of_magma",
+          "tier": 7,
+          "values": {
+            "value": {
+              "max": 40.0,
+              "min": 36.0
+            }
+          },
+          "weight": 1000
+        },
+        {
+          "level": 82,
+          "name": "of_tzteosh",
+          "tier": 8,
+          "values": {
+            "value": {
+              "max": 45.0,
+              "min": 41.0
+            }
+          },
+          "weight": 1000
+        }
+      ]
+    }
+  }
+}

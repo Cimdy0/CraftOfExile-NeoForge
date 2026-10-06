@@ -1,0 +1,17 @@
+{
+  "type": "global",
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:inc_fire_damage_spell"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:inc_cold_damage_spell"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:inc_light_damage_spell"
+    }
+  ]
+}

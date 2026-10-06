@@ -1,0 +1,121 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "multi",
+      "parts": [
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:armor_energy_inc_local"
+          },
+          "key": "value"
+        },
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:stun_threshold_inc"
+          },
+          "key": "value_2"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 10,
+        "name": "mosquito_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 6.0
+          },
+          "value_2": {
+            "max": 13.0,
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 19,
+        "name": "moth_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 14.0
+          },
+          "value_2": {
+            "max": 24.0,
+            "min": 14.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 38,
+        "name": "butterfly_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 21.0
+          },
+          "value_2": {
+            "max": 40.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 48,
+        "name": "wasp_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 32.0,
+            "min": 27.0
+          },
+          "value_2": {
+            "max": 63.0,
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 63,
+        "name": "dragonfly_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 33.0
+          },
+          "value_2": {
+            "max": 94.0,
+            "min": 64.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 74,
+        "name": "hummingbird_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 39.0
+          },
+          "value_2": {
+            "max": 136.0,
+            "min": 95.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

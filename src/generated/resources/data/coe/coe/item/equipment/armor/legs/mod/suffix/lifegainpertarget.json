@@ -1,0 +1,62 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:life_gain_per_target"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 8,
+        "name": "of_rejuvenation",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 2.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 20,
+        "name": "of_restoration",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 3.0,
+            "min": 3.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 30,
+        "name": "of_regrowth",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 4.0,
+            "min": 4.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 40,
+        "name": "of_nourishment",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 5.0,
+            "min": 5.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}

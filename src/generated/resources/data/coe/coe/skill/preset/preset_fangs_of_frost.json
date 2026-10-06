@@ -1,0 +1,74 @@
+{
+  "cast": {},
+  "cast_particle": "minecraft:witch",
+  "cast_sound": "minecraft:entity.witch.throw",
+  "cost": [
+    {
+      "value": "coe:level_table(4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 19, 21, 23, 25, 27, 30, 32, 35, 37, 40, 43, 46, 50, 54, 57, 62, 66, 71, 75, 81, 86, 92, 98, 104, 111, 118, 126)"
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "coe:per_level_add_value(add = 3, base = 11.8, per = 1)",
+                "can_crit": 1.0,
+                "damage_type": "cold"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_stat": {
+                "effects": [
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_chill",
+                    "vars": {
+                      "value": 0.2
+                    }
+                  },
+                  {
+                    "entry": "read",
+                    "ref": "coe:ailment_buildup_freeze",
+                    "vars": {
+                      "value": 1.0
+                    }
+                  }
+                ]
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_create_ground": {
+                "duration": 160.0,
+                "ground_status": "on_chilled_ground",
+                "radius": 2.2
+              }
+            },
+            "trigger": "on_cast"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 2.5
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "dexterity": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  }
+}

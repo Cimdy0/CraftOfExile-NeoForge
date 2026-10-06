@@ -1,0 +1,561 @@
+# 天赋树 Stat 命名 / 统计错漏 —— 全量审计
+
+判据：`poe2_assets/node_stat_map.json`（语料原文 → 文本转写 path，已按 \n 切行，不含节点名）
+
+| 指标 | 值 |
+|---|---|
+| 天赋节点（clean.json） | 3973 |
+| node_stat_map 覆盖节点 | 3954 |
+| 节点类解析出的节点 | 3788 |
+| 语料描述记录总数 | 5282 |
+| 已写入 StatId 总数 | 4790 |
+| 语料转写 path 去重数 | 1168 |
+| StatIds 常量数 | 1701 |
+
+**A 命名错 74 · B 污染 0 · C 孤儿 id 0 · D 漏 394 · E 拆/多 0**
+
+## A. 命名错（写入 path != 语料转写 path）
+
+- `54937` **Vengeful Fury**  `notable/NotableNodes07.java`
+    - 语料: `Gain 5 [Rage] when [HitDamage|Hit] by an Enemy` → 应为 `gain_rage_when_hit_damage_by_an_enemy`
+    - 语料: `Every [Rage] also grants 1% increased [Armour]` → 应为 `every_rage_also_grants_inc_armor`
+    - 实写: ['gain_rage_when_hit_damage_by_an_enemy']
+- `5580` **Watchtowers**  `notable/NotableNodes07.java`
+    - 语料: `[Recoup] 5% of damage taken by your [Totem|Totems] as Life` → 应为 `recoup_of_damage_taken_by_your_totems_as_health`
+    - 语料: `Each [Totem] applies 2% increased Damage taken to Enemies in their [Presence]` → 应为 `each_totem_applies_inc_damage_taken_to_enemies_in_their_presence`
+    - 实写: ['recoup_of_damage_taken_by_your_totems_as_health']
+- `34940` **Meditative Focus**  `notable/NotableNodes05.java`
+    - 语料: `60% increased [StunThreshold|Stun Threshold] while [Channelling]` → 应为 `inc_stun_threshold_while_channelling`
+    - 语料: `30% of Damage taken Recouped as Life while [Channelling]` → 应为 `of_damage_taken_recouped_as_health_while_channelling`
+    - 实写: ['inc_stun_threshold_while_channelling']
+- `13108` **Ally Attack and Cast Speed**  `minor/MinorNodes01.java`
+    - 语料: `3% reduced [SkillSpeed|Skill Speed]` → 应为 `inc_skill_speed`
+    - 语料: `[Allies|Allies] in your [Presence|Presence] have 6% increased [Attack|Attack] Speed` → 应为 `allies_in_your_presence_have_inc_attack_speed`
+    - 语料: `[Allies|Allies] in your [Presence|Presence] have 6% increased Cast Speed` → 应为 `allies_in_your_presence_have_inc_cast_speed`
+    - 实写: ['inc_skill_speed', 'allies_in_your_presence_have_inc_attack_speed']
+- `49543` **Ally Attack and Cast Speed**  `minor/MinorNodes01.java`
+    - 语料: `3% reduced [SkillSpeed|Skill Speed]` → 应为 `inc_skill_speed`
+    - 语料: `[Allies|Allies] in your [Presence|Presence] have 6% increased [Attack|Attack] Speed` → 应为 `allies_in_your_presence_have_inc_attack_speed`
+    - 语料: `[Allies|Allies] in your [Presence|Presence] have 6% increased Cast Speed` → 应为 `allies_in_your_presence_have_inc_cast_speed`
+    - 实写: ['inc_skill_speed', 'allies_in_your_presence_have_inc_attack_speed']
+- `37778` **Self Sacrificing**  `notable/NotableNodes06.java`
+    - 语料: `20% reduced [Spirit] [Reservation] [Efficiency] of Skills` → 应为 `inc_spirit_reservation_efficiency_of_skills`
+    - 语料: `40% increased [Reservation] [Efficiency] of [Minion] Skills` → 应为 `inc_reservation_efficiency_of_minion_skills`
+    - 实写: ['inc_reservation_efficiency_of_minion_skills']
+- `38053` **Deafening Cries**  `notable/NotableNodes02.java`
+    - 语料: `25% increased [Warcry|Warcry] Cooldown Recovery Rate` → 应为 `inc_warcry_cooldown_recovery_rate`
+    - 语料: `8% increased Damage for each time you've [Warcry|Warcried] [Recently|Recently]` → 应为 `inc_damage_for_each_time_you_ve_warcried_recently`
+    - 实写: ['inc_warcry_cooldown_recovery_rate']
+- `50392` **Brute Strength**  `notable/NotableNodes01.java`
+    - 语料: `10% reduced maximum Mana` → 应为 `inc_max_mana`
+    - 语料: `1% increased Damage per 15 [Strength]` → 应为 `inc_damage_per_strength`
+    - 实写: ['inc_max_mana']
+- `8723` **Flesh Withstands**  `notable/NotableNodes03.java`
+    - 语料: `30% increased Mana Regeneration Rate while [Shock|Shocked]` → 应为 `inc_mana_regeneration_rate_while_shocked`
+    - 语料: `+500 to [Armour] while Frozen` → 应为 `to_armor_while_frozen`
+    - 语料: `21% increased [StunThreshold|Stun Threshold]` → 应为 `inc_stun_threshold`
+    - 语料: `21% increased [AilmentThreshold|Elemental Ailment Threshold]` → 应为 `inc_elemental_ailment_threshold`
+    - 语料: `30% increased Life Regeneration rate while [Ignite|Ignited]` → 应为 `inc_health_regeneration_rate_while_ignited`
+    - 实写: ['inc_stun_threshold', 'inc_elemental_ailment_threshold']
+- `1352` **Unbending**  `notable/NotableNodes07.java`
+    - 语料: `3% increased maximum Life` → 应为 `inc_max_health`
+    - 语料: `10% increased [StunThreshold|Stun Threshold] for each time you've been [HitDamage|Hit] by an Enemy [Recently], up to 100%` → 应为 `inc_stun_threshold_for_each_time_you_ve_been_hit_damage_by_an_enemy_recently_up_to`
+    - 实写: ['inc_max_health']
+- `44005` **Casting Cascade**  `notable/NotableNodes01.java`
+    - 语料: `15% reduced [Spell] Damage` → 应为 `inc_spell_damage`
+    - 语料: `6% increased Cast Speed for each different [Spell] you've Cast in the last eight seconds` → 应为 `inc_cast_speed_for_each_different_spell_you_ve_cast_in_the_last_eight_seconds`
+    - 实写: ['inc_spell_damage']
+- `13693` **Rhythm of Ice**  `notable/NotableNodes06.java`
+    - 语料: `20% increased [Cold] Damage` → 应为 `inc_cold_damage`
+    - 语料: `6% increased Cast Speed per [Spell|Spell] Echoed [Recently], up to 30%` → 应为 `inc_cast_speed_per_spell_echoed_recently_up_to`
+    - 实写: ['inc_cold_damage']
+- `53910` **Forbidden Path**  `notable/NotableNodes03.java`
+    - 语料: `5% reduced maximum Life` → 应为 `inc_max_health`
+    - 语料: `-10% to all [ElementalDamage|Elemental] [Resistances]` → 应为 `to_all_elemental_damage_resistances`
+    - 语料: `[Minion|Minions] [Recoup] 30% of Damage taken as Life` → 应为 `minions_recoup_of_damage_taken_as_health`
+    - 语料: `[Minion|Minions] [Gain] 20% of Elemental Damage as Extra Chaos Damage` → 应为 `minions_gain_of_elemental_damage_as_extra_chaos_damage`
+    - 实写: ['inc_max_health', 'minions_recoup_of_damage_taken_as_health']
+- `10873` **Bestial Rage**  `notable/NotableNodes01.java`
+    - 语料: `Gain 1 [Rage|Rage] on [Melee] [HitDamage|Hit]` → 应为 `gain_rage_on_melee_hit_damage`
+    - 语料: `Every 10 [Rage|Rage] also grants 12% increased [Physical|Physical] Damage` → 应为 `every_rage_also_grants_inc_physical_damage`
+    - 实写: ['gain_rage_on_melee_hit_damage']
+- `55375` **Licking Wounds**  `notable/NotableNodes04.java`
+    - 语料: `[Minion|Minions] have 15% increased maximum Life` → 应为 `minions_have_inc_max_health`
+    - 语料: `5% increased Life and Mana Regeneration Rate for each [Minion] in your [Presence], up to a maximum of 40%` → 应为 `inc_health_and_mana_regeneration_rate_for_each_minion_in_your_presence_up_to_a_max_of`
+    - 实写: ['minions_have_inc_max_health']
+- `31925` **Warding Fetish**  `notable/NotableNodes07.java`
+    - 语料: `30% increased Damage per [Curse] on you` → 应为 `inc_damage_per_curse_on_you`
+    - 语料: `30% reduced [BuffEffect|effect] of [Curse|Curses] on you` → 应为 `inc_buff_effect_of_curses_on_you`
+    - 语料: `60% increased [EnergyShield|Energy Shield] from Equipped [Focus]` → 应为 `inc_energy_shield_from_equipped_focus`
+    - 实写: ['inc_damage_per_curse_on_you', 'inc_buff_effect_of_curses_on_you']
+- `7341` **Ignore Pain**  `notable/NotableNodes04.java`
+    - 语料: `Gain 3 [Rage] when [HitDamage|Hit] by an Enemy` → 应为 `gain_rage_when_hit_damage_by_an_enemy`
+    - 语料: `Every [Rage] also grants 2% increased [StunThreshold|Stun Threshold]` → 应为 `every_rage_also_grants_inc_stun_threshold`
+    - 实写: ['gain_rage_when_hit_damage_by_an_enemy']
+- `19249` **Supportive Ancestors**  `notable/NotableNodes07.java`
+    - 语料: `25% increased Damage while you have a [Totem|Totem]` → 应为 `inc_damage_while_you_have_a_totem`
+    - 语料: `[Spell|Spells] Cast by [Totem|Totems] have 3% increased Cast Speed per Summoned [Totem|Totem]` → 应为 `spells_cast_by_totems_have_inc_cast_speed_per_summoned_totem`
+    - 语料: `[Attack|Attacks] used by [Totem|Totems] have 3% increased [Attack] Speed per Summoned [Totem|Totem]` → 应为 `attacks_used_by_totems_have_inc_attack_speed_per_summoned_totem`
+    - 实写: ['inc_damage_while_you_have_a_totem']
+- `39857` **Mentorship**  `notable/NotableNodes05.java`
+    - 语料: `Minions have 15% reduced [Attack] Speed` → 应为 `minions_have_inc_attack_speed`
+    - 语料: `Minions have 15% reduced Cast Speed` → 应为 `minions_have_inc_cast_speed`
+    - 语料: `[Minion|Minions] deal 100% increased Damage with [Command] Skills` → 应为 `minions_deal_inc_damage_with_command_skills`
+    - 实写: ['minions_have_inc_attack_speed', 'minions_deal_inc_damage_with_command_skills']
+- `9187` **Escalation**  `notable/NotableNodes03.java`
+    - 语料: `25% increased [Warcry|Warcry] Speed` → 应为 `inc_warcry_speed`
+    - 语料: `20% increased Damage for each different [Warcry|Warcry] you've used [Recently|Recently]` → 应为 `inc_damage_for_each_different_warcry_you_ve_used_recently`
+    - 实写: ['inc_warcry_speed']
+- `31724` **Iron Slippers**  `notable/NotableNodes04.java`
+    - 语料: `+2 to [Armour] per 1 [ItemEnergyShield|Item Energy Shield] on Equipped Boots` → 应为 `to_armor_per_item_energy_shield_on_equipped_boots`
+    - 语料: `12% reduced [Slow|Slowing] Potency of [Debuff|Debuffs] on You` → 应为 `inc_slowing_potency_of_debuffs_on_you`
+    - 实写: ['inc_slowing_potency_of_debuffs_on_you']
+- `45422` **Anger Management**  `notable/NotableNodes01.java`
+    - 语料: `+15 to Maximum [Rage]` → 应为 `to_max_rage`
+    - 语料: `200% faster start of inherent [Rage] loss` → 应为 `faster_start_of_inherent_rage_loss`
+    - 实写: ['to_max_rage']
+- `6088` **First Sting**  `notable/NotableNodes03.java`
+    - 语料: `30% chance to [Poison] on [HitDamage|Hit] against Enemies that are not Poisoned` → 应为 `chance_to_poison_on_hit_damage_against_enemies_that_are_not_poisoned`
+    - 语料: `80% increased [BuffMagnitude|Magnitude] of [Poison] you inflict on targets that are not Poisoned` → 应为 `inc_buff_magnitude_of_poison_you_inflict_on_targets_that_are_not_poisoned`
+    - 实写: ['inc_buff_magnitude_of_poison_you_inflict_on_targets_that_are_not_poisoned']
+- `65193` **Viciousness**  `notable/NotableNodes07.java`
+    - 语料: `3% increased [Attack] Speed per Enemy in [CloseRange|Close Range]` → 应为 `inc_attack_speed_per_enemy_in_close_range`
+    - 语料: `+10 to [Dexterity]` → 应为 `to_dexterity`
+    - 实写: ['to_dexterity']
+- `27950` **Polished Iron**  `notable/NotableNodes05.java`
+    - 语料: `25% increased [Armour]` → 应为 `inc_armor`
+    - 语料: `Gain additional [StunThreshold|Stun Threshold] equal to 30% of [ItemArmour|Item Armour] on [EquipArmour|Equipped Armour Items]` → 应为 `gain_additional_stun_threshold_equal_to_of_item_armor_on_equipped_armor_items`
+    - 实写: ['inc_armor']
+- `61657` **Armour applies to Elemental Damage and Deflection**  `minor/MinorNodes02.java`
+    - 语料: `+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]` → 应为 `of_armor_also_applies_to_elemental_damage`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['of_armor_also_applies_to_elemental_damage']
+- `45808` **Armour applies to Elemental Damage and Deflection**  `minor/MinorNodes02.java`
+    - 语料: `+4% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]` → 应为 `of_armor_also_applies_to_elemental_damage`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 6% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['of_armor_also_applies_to_elemental_damage']
+- `17750` **Armour applies to Elemental Damage and Deflection**  `minor/MinorNodes02.java`
+    - 语料: `+6% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]` → 应为 `of_armor_also_applies_to_elemental_damage`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 4% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['of_armor_also_applies_to_elemental_damage']
+- `3191` **Armour applies to Elemental Damage and Deflection**  `minor/MinorNodes02.java`
+    - 语料: `+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]` → 应为 `of_armor_also_applies_to_elemental_damage`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['of_armor_also_applies_to_elemental_damage']
+- `65324` **Armour applies to Elemental Damage and Deflection**  `minor/MinorNodes02.java`
+    - 语料: `+5% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]` → 应为 `of_armor_also_applies_to_elemental_damage`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['of_armor_also_applies_to_elemental_damage']
+- `24736` **Knight of Chitus**  `notable/NotableNodes04.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 12% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `15% increased [Block] chance` → 应为 `inc_block_chance`
+    - 语料: `15% increased [ParriedDebuff|Parried Debuff] [BuffMagnitude|Magnitude]` → 应为 `inc_parried_debuff_buff_magnitude`
+    - 实写: ['inc_block_chance', 'inc_parried_debuff_buff_magnitude']
+- `9863` **Knight of Izaro**  `notable/NotableNodes04.java`
+    - 语料: `+12% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]` → 应为 `of_armor_also_applies_to_elemental_damage`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 10% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `Banner Skills have 15% increased Aura [BuffMagnitude|Magnitudes]` → 应为 `banner_skills_have_inc_aura_buff_magnitude`
+    - 语料: `25% reduced [ArmourBreak|Armour Break] taken` → 应为 `inc_armor_break_taken`
+    - 实写: ['of_armor_also_applies_to_elemental_damage', 'banner_skills_have_inc_aura_buff_magnitude', 'inc_armor_break_taken']
+- `658` **Armour applies to Elemental Damage and Deflection**  `minor/MinorNodes02.java`
+    - 语料: `+6% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]` → 应为 `of_armor_also_applies_to_elemental_damage`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 4% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['of_armor_also_applies_to_elemental_damage']
+- `35623` **Armour applies to Elemental Damage and Deflection**  `minor/MinorNodes02.java`
+    - 语料: `+4% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]` → 应为 `of_armor_also_applies_to_elemental_damage`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 6% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['of_armor_also_applies_to_elemental_damage']
+- `44299` **Enhanced Barrier**  `notable/NotableNodes03.java`
+    - 语料: `25% increased maximum [EnergyShield|Energy Shield]` → 应为 `inc_max_energy_shield`
+    - 语料: `5% of Maximum Life [StatConversion|Converted] to [EnergyShield|Energy Shield]` → 应为 `of_max_health_stat_conversion_to_energy_shield`
+    - 实写: ['inc_max_energy_shield']
+- `3894` **Eldritch Will**  `notable/NotableNodes02.java`
+    - 语料: `3% increased maximum Life, Mana and [EnergyShield|Energy Shield]` → 应为 `inc_max_health_mana_and_energy_shield`
+    - 语料: `Gain additional [AilmentThreshold|Ailment Threshold] equal to 15% of maximum [EnergyShield|Energy Shield]` → 应为 `gain_additional_ailment_threshold_equal_to_of_max_energy_shield`
+    - 语料: `Gain additional [StunThreshold|Stun Threshold] equal to 15% of maximum [EnergyShield|Energy Shield]` → 应为 `gain_additional_stun_threshold_equal_to_of_max_energy_shield`
+    - 实写: ['inc_max_health_mana_and_energy_shield']
+- `1823` **Illuminated Crown**  `notable/NotableNodes04.java`
+    - 语料: `20% increased [LightRadius|Light Radius]` → 应为 `inc_light_radius`
+    - 语料: `70% increased [EnergyShield|Energy Shield] from Equipped Helmet` → 应为 `inc_energy_shield_from_equipped_helmet`
+    - 实写: ['inc_light_radius']
+- `26648` **Deflection**  `minor/MinorNodes09.java`
+    - 语料: `10% increased [Armour]` → 应为 `inc_armor`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['inc_armor']
+- `22565` **Deflection**  `minor/MinorNodes09.java`
+    - 语料: `10% increased [Armour]` → 应为 `inc_armor`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['inc_armor']
+- `17994` **Deflection**  `minor/MinorNodes09.java`
+    - 语料: `10% increased [Armour]` → 应为 `inc_armor`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['inc_armor']
+- `9642` **Dampening Shield**  `notable/NotableNodes02.java`
+    - 语料: `28% increased maximum [EnergyShield|Energy Shield]` → 应为 `inc_max_energy_shield`
+    - 语料: `Gain additional [AilmentThreshold|Ailment Threshold] equal to 12% of maximum [EnergyShield|Energy Shield]` → 应为 `gain_additional_ailment_threshold_equal_to_of_max_energy_shield`
+    - 语料: `Gain additional [StunThreshold|Stun Threshold] equal to 12% of maximum [EnergyShield|Energy Shield]` → 应为 `gain_additional_stun_threshold_equal_to_of_max_energy_shield`
+    - 实写: ['inc_max_energy_shield']
+- `10998` **Strong Chin**  `notable/NotableNodes06.java`
+    - 语料: `25% increased [Armour] and [Evasion] Rating` → 应为 `inc_armor_and_evasion`
+    - 语料: `Gain [StunThreshold|Stun Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Helmet` → 应为 `gain_stun_threshold_equal_to_the_lowest_of_evasion_and_armor_on_your_helmet`
+    - 实写: ['inc_armor_and_evasion']
+- `9736` **Insulated Treads**  `notable/NotableNodes04.java`
+    - 语料: `25% increased [Armour] and [Evasion] Rating` → 应为 `inc_armor_and_evasion`
+    - 语料: `Gain [AilmentThreshold|Ailment Threshold] equal to the lowest of [Evasion|Evasion] and [Armour|Armour] on your Boots` → 应为 `gain_ailment_threshold_equal_to_the_lowest_of_evasion_and_armor_on_your_boots`
+    - 实写: ['inc_armor_and_evasion']
+- `44917` **Self Mortification**  `notable/NotableNodes06.java`
+    - 语料: `Gain additional [StunThreshold|Stun Threshold] equal to 20% of maximum [EnergyShield|Energy Shield]` → 应为 `gain_additional_stun_threshold_equal_to_of_max_energy_shield`
+    - 语料: `20% increased [StunThreshold|Stun Threshold] while on Full Life` → 应为 `inc_stun_threshold_while_on_full_health`
+    - 实写: ['inc_stun_threshold_while_on_full_health']
+- `56806` **Swift Blocking**  `notable/NotableNodes07.java`
+    - 语料: `12% increased [Block] chance` → 应为 `inc_block_chance`
+    - 语料: `1% increased Movement Speed for each time you've Blocked in the past 10 seconds` → 应为 `inc_movement_speed_for_each_time_you_ve_blocked_in_the_past_seconds`
+    - 实写: ['inc_block_chance']
+- `11838` **Dreamcatcher**  `notable/NotableNodes02.java`
+    - 语料: `25% increased [Spell] Damage while on Full [EnergyShield|Energy Shield]` → 应为 `inc_spell_damage_while_on_full_energy_shield`
+    - 语料: `75% increased [EnergyShield|Energy Shield] from Equipped [Focus]` → 应为 `inc_energy_shield_from_equipped_focus`
+    - 实写: ['inc_spell_damage_while_on_full_energy_shield']
+- `3203` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `28464` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `36808` **Spiked Shield**  `notable/NotableNodes06.java`
+    - 语料: `2% increased [Attack] Damage per 75 [ItemArmour|Item Armour] and [ItemEvasion|Evasion] on Equipped Shield` → 应为 `inc_attack_damage_per_item_armor_and_item_evasion_on_equipped_shield`
+    - 语料: `50% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped [Shield]` → 应为 `inc_armor_evasion_and_energy_shield_from_equipped_shield`
+    - 实写: ['inc_armor_evasion_and_energy_shield_from_equipped_shield']
+- `331` **Deflection and Evasion**  `minor/MinorNodes09.java`
+    - 语料: `8% increased [Evasion|Evasion Rating]` → 应为 `inc_evasion`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 4% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['inc_evasion']
+- `32891` **Deflection and Evasion**  `minor/MinorNodes09.java`
+    - 语料: `8% increased [Evasion|Evasion Rating]` → 应为 `inc_evasion`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 4% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['inc_evasion']
+- `46857` **Energy Shield Delay**  `minor/MinorNodes10.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 4% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 语料: `5% increased Mana Cost [Efficiency]` → 应为 `inc_mana_cost_efficiency`
+    - 实写: ['faster_start_of_energy_shield_recharge', 'inc_mana_cost_efficiency']
+- `7338` **Abasement**  `notable/NotableNodes01.java`
+    - 语料: `20% increased [StunRecovery|Stun Recovery]` → 应为 `inc_stun_recovery`
+    - 语料: `Gain additional [StunThreshold|Stun Threshold] equal to 30% of maximum [EnergyShield|Energy Shield]` → 应为 `gain_additional_stun_threshold_equal_to_of_max_energy_shield`
+    - 实写: ['inc_stun_recovery']
+- `5335` **Shimmering Mirage**  `notable/NotableNodes06.java`
+    - 语料: `Gain additional [AilmentThreshold|Ailment Threshold] equal to 30% of maximum [EnergyShield|Energy Shield]` → 应为 `gain_additional_ailment_threshold_equal_to_of_max_energy_shield`
+    - 语料: `10% reduced Duration of [Ailments|Ailments] on You` → 应为 `inc_duration_of_ailments_on_you`
+    - 实写: ['inc_duration_of_ailments_on_you']
+- `52971` **The Soul Meridian**  `notable/NotableNodes07.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 8% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `8% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 语料: `10% increased Mana Cost [Efficiency]` → 应为 `inc_mana_cost_efficiency`
+    - 语料: `10% increased [Reservation] [Efficiency] of [Minion] Skills` → 应为 `inc_reservation_efficiency_of_minion_skills`
+    - 实写: ['faster_start_of_energy_shield_recharge', 'inc_mana_cost_efficiency', 'inc_reservation_efficiency_of_minion_skills']
+- `21227` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `36290` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `23046` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `51040` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `58779` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `42760` **Chakra of Stability**  `notable/NotableNodes01.java`
+    - 语料: `30% increased [StunRecovery|Stun Recovery]` → 应为 `inc_stun_recovery`
+    - 语料: `Regenerate 3% of maximum Life over 1 second when [Stun|Stunned]` → 应为 `regenerate_of_max_health_over_second_when_stunned`
+    - 语料: `+1 to [StunThreshold|Stun Threshold] per [Dexterity|Dexterity]` → 应为 `to_stun_threshold_per_dexterity`
+    - 实写: ['inc_stun_recovery', 'regenerate_of_max_health_over_second_when_stunned']
+- `60034` **Falcon Dive**  `notable/NotableNodes03.java`
+    - 语料: `4% increased [Attack] Speed` → 应为 `inc_attack_speed`
+    - 语料: `1% increased [Attack] Speed per 400 [Accuracy|Accuracy] Rating, up to 20%` → 应为 `inc_attack_speed_per_accuracy_up_to`
+    - 实写: ['inc_attack_speed']
+- `47831` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `22811` **The Wild Cat**  `notable/NotableNodes07.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 12% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `40% increased [Evasion] Rating while moving` → 应为 `inc_evasion_while_moving`
+    - 语料: `+10 to [Dexterity]` → 应为 `to_dexterity`
+    - 实写: ['inc_evasion_while_moving', 'to_dexterity']
+- `59657` **First Teachings of the Keeper**  `notable/NotableNodes03.java`
+    - 语料: `+5% to [Resistances|Fire Resistance]` → 应为 `to_fire_resistance`
+    - 语料: `+5% to [Resistances|Chaos Resistance]` → 应为 `to_chaos_resistance`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 8% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `10% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['to_fire_resistance', 'to_chaos_resistance', 'faster_start_of_energy_shield_recharge']
+- `58692` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `15343` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `26556` **Deflection and Energy Shield Delay**  `minor/MinorNodes09.java`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `4% [FasterESRechargeStart|faster start of Energy Shield Recharge]` → 应为 `faster_start_of_energy_shield_recharge`
+    - 实写: ['faster_start_of_energy_shield_recharge']
+- `54031` **The Great Boar**  `notable/NotableNodes07.java`
+    - 语料: `+1 Life per 4 [Dexterity]` → 应为 `health_per_dexterity`
+    - 语料: `+1 to [StunThreshold|Stun Threshold] per [Dexterity|Dexterity]` → 应为 `to_stun_threshold_per_dexterity`
+    - 语料: `+5 to [Strength]` → 应为 `to_strength`
+    - 实写: ['to_strength']
+- `38728` **Deflection and Evasion**  `minor/MinorNodes09.java`
+    - 语料: `8% increased [Evasion|Evasion Rating]` → 应为 `inc_evasion`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 4% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['inc_evasion']
+- `14539` **Deflection and Evasion**  `minor/MinorNodes09.java`
+    - 语料: `8% increased [Evasion|Evasion Rating]` → 应为 `inc_evasion`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 4% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 实写: ['inc_evasion']
+- `51707` **Enhanced Reflexes**  `notable/NotableNodes03.java`
+    - 语料: `20% increased [Evasion|Evasion Rating]` → 应为 `inc_evasion`
+    - 语料: `Gain [Deflect|Deflection Rating] equal to 5% of [Evasion|Evasion Rating]` → 应为 `gain_deflection_rating_equal_to_of_evasion`
+    - 语料: `8% increased [Dexterity]` → 应为 `inc_dexterity`
+    - 实写: ['inc_evasion', 'inc_dexterity']
+- `25362` **Chakra of Impact**  `notable/NotableNodes01.java`
+    - 语料: `20% increased [Attack] Damage` → 应为 `inc_attack_damage`
+    - 语料: `Skills deal 8% increased Damage per [Combo] consumed, up to 40%` → 应为 `skills_deal_inc_damage_per_combo_consumed_up_to`
+    - 实写: ['inc_attack_damage']
+- `53185` **The Winter Owl**  `notable/NotableNodes07.java`
+    - 语料: `3% increased [Evasion] Rating per 10 [Intelligence]` → 应为 `inc_evasion_per_intelligence`
+    - 语料: `Gain Accuracy Rating equal to your [Intelligence]` → 应为 `gain_accuracy_equal_to_your_intelligence`
+    - 语料: `+10 to [Intelligence]` → 应为 `to_intelligence`
+    - 实写: ['gain_accuracy_equal_to_your_intelligence', 'to_intelligence']
+
+## B. 命名污染（path 以节点名开头）
+
+无。
+
+## C. 孤儿 id（不来自任何描述文本的转写）
+
+无。
+
+## D. 漏（节点有描述但没写 StatId）
+
+共 394 个节点：
+- `17894` **Her Final Bite**
+    - `20% increased Physical Damage with Bows`
+    - `[Bow|Bow] [Attack|Attacks] have [CullingStrike|Culling Strike]`
+- `58197` **Unquenchable Iron**
+    - `[Gain] 18% of [Physical] Damage as Extra [Lightning] Damage`
+- `3188` **Revenge**
+    - `Gain [Physical|Physical] [Thorns|Thorns] damage equal to 10% of [ItemArmour|Item Armour] on [Equipped] Body Armour`
+- `1200` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `28982` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `41768` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `5728` **Ancient Aegis**
+    - `60% increased [Armour] from Equipped Body Armour`
+    - `60% increased [EnergyShield|Energy Shield] from Equipped Body Armour`
+- `30141` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `59785` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `29611` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `27296` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `32474` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `59777` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `21164` **Fleshcrafting**
+    - `[Minion|Minions] gain 15% of their maximum Life as Extra maximum [EnergyShield|Energy Shield]`
+    - `4% of Maximum Life [StatConversion|Converted] to [EnergyShield|Energy Shield]`
+- `18448` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `47931` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `53719` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `59589` **Heavy Armour**
+    - `Gain [Armour] equal to 150% of total [Strength] Requirements of Equipped Boots, Gloves and Helmet`
+- `10727` **Emboldening Casts**
+    - `12% increased [Attack] Damage for each different Non-Instant [Spell] you've used in the past 8 seconds`
+- `56237` **Enhancing Attacks**
+    - `12% increased [Spell] Damage for each different Non-Instant [Attack] you've used in the past 8 seconds`
+- `55033` **Channelling Life Recoup**
+    - `10% of Damage taken Recouped as Life while [Channelling]`
+- `6874` **Channelling Life Recoup**
+    - `10% of Damage taken Recouped as Life while [Channelling]`
+- `27687` **Greatest Defence**
+    - `4% increased [Attack] Damage per 75 [ItemArmour|Item Armour] and [ItemEvasion|Evasion] on Equipped Shield`
+- `21387` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `39131` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `52764` **Mystical Rage**
+    - `Every [Rage] also grants 2% increased [Spell] Damage`
+- `33722` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `10100` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `23307` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `27082` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `47263` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `21784` **Pack Encouragement**
+    - `5% increased [Attack] Damage for each [Minion] in your [Presence], up to a maximum of 80%`
+- `59945` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `38707` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `11741` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `63031` **Glorious Anticipation**
+    - `Skills gain 1 [Glory] every 2 seconds for each [Rarity|Rare or Unique] monster in your [Presence]`
+- `63114` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `4140` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `42660` **Commanding Rage**
+    - `Every five [Rage] also grants you 2% increased Minion Attack Speed`
+    - `Every [Rage] also grants you 1% increased Minion Damage`
+- `49734` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `49769` **Corruption Endures**
+    - `7% chance to Avoid Death from [HitDamage|Hits]`
+- `3446` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `4527` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `20115` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `11428` **Exhaust All Power**
+    - `[Archon] recovery period expires 30% slower`
+    - `[Archon] Buffs also grant 50% increased [CriticalDamageBonus|Critical Damage Bonus]`
+    - `[Archon] Buffs also grant 30% increased [Critical|Critical Hit Chance]`
+- `51821` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `39710` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `52298` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `58295` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `59093` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `18081` **Call Upon the Deep**
+    - `Damage Penetrates 20% [ElementalDamage|Elemental] [Resistances] for each time you've used a Skill that Requires [Glory] in the past 6 seconds`
+- `62498` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `21568` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `11248` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `22975` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `62609` **Ancestral Unity**
+    - `[Attack|Attacks] used by [Totem|Totems] have 4% increased [Attack] Speed per Summoned [Totem|Totem]`
+- `51561` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `23382` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `27439` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `48925` **Blessing of the Moon**
+    - `8% increased Skill Effect Duration per Enemy you've [Freeze|Frozen] in the last 8 seconds, up to 40%`
+- `35408` **Focus Energy Shield**
+    - `40% increased [EnergyShield|Energy Shield] from Equipped [Focus]`
+- `24767` **Focus Energy Shield**
+    - `40% increased [EnergyShield|Energy Shield] from Equipped [Focus]`
+- `479` **Hidden Forms**
+    - `[Gain] 8% of Damage as Extra Damage of a random [ElementalDamage|Element] while [Shapeshift|Shapeshifted]`
+- `14654` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `57703` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `49938` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `44872` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `8600` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `54811` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `61490` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `28304` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `28002` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `46628` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `48552` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `18959` **Ruinic Helm**
+    - `+1 to Maximum [EnergyShield|Energy Shield] per 8 [ItemArmour|Item Armour] on Equipped Helmet`
+- `37258` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `15782` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `31238` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `38876` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `51052` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `22616` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `17468` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `53405` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `22558` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `48631` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `28175` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `57002` **Rough Carapace**
+    - `Gain [Physical|Physical] [Thorns|Thorns] damage equal to 8% of maximum Life while [Shapeshift|Shapeshifted]`
+- `16725` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `50104` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `52115` **Nurturing Nature**
+    - `40% increased Mana Regeneration Rate while on Full Life`
+- `31903` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `32932` **Ichlotl's Inferno**
+    - `Every [Rage] also grants 1% increased [Fire] Damage`
+- `27373` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `22928` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `35265` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `34840` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `44733` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `1433` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `37612` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+- `51299` **Attribute**
+    - `+5 to any [Attributes|Attribute]`
+
+## E. 拆/多（写入条数 > 语料描述条数）
+
+无。

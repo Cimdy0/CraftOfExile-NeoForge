@@ -1,0 +1,27 @@
+{
+  "behavior": [
+    {
+      "coe:contact": {}
+    }
+  ],
+  "on_trigger": [
+    {
+      "coe:phase_on_hit": {
+        "trigger": "on_pickup"
+      }
+    },
+    {
+      "coe:emit_event": {
+        "event": "collect_remnant",
+        "owner": "target",
+        "tags": [
+          "remnant"
+        ]
+      }
+    }
+  ],
+  "render": "coe:arcane_blue",
+  "tags": [
+    "remnant"
+  ]
+}

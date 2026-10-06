@@ -1,0 +1,7 @@
+{
+  "type": "delivery",
+  "delivery": "projectile",
+  "params": {
+    "chain_count": "$value"
+  }
+}

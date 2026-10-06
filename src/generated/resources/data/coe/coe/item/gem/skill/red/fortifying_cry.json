@@ -1,0 +1,17 @@
+{
+  "cost": [
+    {
+      "value": "coe:level_table(19, 22, 24, 27, 30, 33, 36, 39, 42, 46, 49, 52, 56, 60, 64, 68, 72, 76, 80, 85, 90, 94, 99, 104, 110, 115, 120, 126, 132, 138, 144, 151, 157, 164, 171, 178, 185, 193, 201, 208)"
+    }
+  ],
+  "entry": "read",
+  "ref": "coe:generic_warcry",
+  "require": {
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)",
+    "strength": "coe:per_level_add_value(add = 2, base = 14, per = 1)"
+  },
+  "vars": {
+    "tier": 1.0,
+    "warcry_damage": "coe:per_level_add_value(add = 3.8, base = 15.4, per = 1)"
+  }
+}

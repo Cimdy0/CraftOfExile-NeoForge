@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:meta_skills_have_inc_reservation_efficiency",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_auraeffect",
+    "id": "42245",
+    "links": [
+      "16024",
+      "18167",
+      "9069"
+    ],
+    "x": 5179.44,
+    "y": -5958.69
+  }
+]

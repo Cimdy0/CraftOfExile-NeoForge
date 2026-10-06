@@ -1,0 +1,28 @@
+{
+  "aliases": [
+    "Bleed",
+    "Bleeding",
+    "流血"
+  ],
+  "description": [
+    [
+      "$[bleed]",
+      "是一种物理",
+      "$[damage_over_time]",
+      "异常，造成的",
+      "$[damage]",
+      "基于该次物理命中。"
+    ],
+    [
+      "$[bleed]",
+      "对移动中的目标造成更高",
+      "$[damage]",
+      "。"
+    ]
+  ],
+  "id": "bleed",
+  "keys": [
+    "coe:keyword.bleed"
+  ],
+  "title": "@coe:keyword.bleed"
+}

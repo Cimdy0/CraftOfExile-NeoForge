@@ -1,0 +1,16 @@
+{
+  "conditions": [
+    {
+      "type": "entity_flag",
+      "biome_tags": [
+        "c:is_forest"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_armor_4"
+    }
+  ]
+}

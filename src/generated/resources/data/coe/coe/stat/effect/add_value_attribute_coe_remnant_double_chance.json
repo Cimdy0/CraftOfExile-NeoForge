@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:remnant_double_chance",
+  "operation": "add_value"
+}

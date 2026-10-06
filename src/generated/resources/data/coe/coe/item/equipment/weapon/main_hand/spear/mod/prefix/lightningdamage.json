@@ -1,0 +1,169 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "read",
+      "ref": "coe:add_lightning_damage_minmax"
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "humming",
+        "tier": 1,
+        "values": {
+          "max": {
+            "max": 6.0,
+            "min": 4.0
+          },
+          "min": {
+            "min": 1.0
+          }
+        },
+        "weight": 1100
+      },
+      {
+        "level": 8,
+        "name": "buzzing",
+        "tier": 2,
+        "values": {
+          "max": {
+            "max": 19.0,
+            "min": 13.0
+          },
+          "min": {
+            "max": 1.0,
+            "min": 1.0
+          }
+        },
+        "weight": 1100
+      },
+      {
+        "level": 16,
+        "name": "snapping",
+        "tier": 3,
+        "values": {
+          "max": {
+            "max": 30.0,
+            "min": 20.0
+          },
+          "min": {
+            "max": 2.0,
+            "min": 1.0
+          }
+        },
+        "weight": 1100
+      },
+      {
+        "level": 33,
+        "name": "crackling",
+        "tier": 4,
+        "values": {
+          "max": {
+            "max": 52.0,
+            "min": 36.0
+          },
+          "min": {
+            "max": 2.0,
+            "min": 1.0
+          }
+        },
+        "weight": 1100
+      },
+      {
+        "level": 46,
+        "name": "sparking",
+        "tier": 5,
+        "values": {
+          "max": {
+            "max": 60.0,
+            "min": 55.0
+          },
+          "min": {
+            "max": 3.0,
+            "min": 1.0
+          }
+        },
+        "weight": 1100
+      },
+      {
+        "level": 54,
+        "name": "arcing",
+        "tier": 6,
+        "values": {
+          "max": {
+            "max": 82.0,
+            "min": 63.0
+          },
+          "min": {
+            "max": 4.0,
+            "min": 1.0
+          }
+        },
+        "weight": 1100
+      },
+      {
+        "level": 60,
+        "name": "shocking",
+        "tier": 7,
+        "values": {
+          "max": {
+            "max": 107.0,
+            "min": 85.0
+          },
+          "min": {
+            "max": 6.0,
+            "min": 1.0
+          }
+        },
+        "weight": 660
+      },
+      {
+        "level": 65,
+        "name": "discharging",
+        "tier": 8,
+        "values": {
+          "max": {
+            "max": 152.0,
+            "min": 111.0
+          },
+          "min": {
+            "max": 8.0,
+            "min": 1.0
+          }
+        },
+        "weight": 440
+      },
+      {
+        "level": 75,
+        "name": "electrocuting",
+        "tier": 9,
+        "values": {
+          "max": {
+            "max": 196.0,
+            "min": 157.0
+          },
+          "min": {
+            "max": 10.0,
+            "min": 1.0
+          }
+        },
+        "weight": 275
+      },
+      {
+        "level": 81,
+        "name": "vapourising",
+        "tier": 10,
+        "values": {
+          "max": {
+            "max": 234.0,
+            "min": 202.0
+          },
+          "min": {
+            "max": 12.0,
+            "min": 1.0
+          }
+        },
+        "weight": 110
+      }
+    ]
+  }
+}

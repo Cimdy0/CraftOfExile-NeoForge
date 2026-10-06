@@ -1,0 +1,8 @@
+{
+  "type": "attribute",
+  "attribute": "coe:projectile_pierce_chance",
+  "operation": "add_value",
+  "tags": {
+    "tag": "projectile"
+  }
+}

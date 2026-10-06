@@ -1,0 +1,10 @@
+{
+  "layers": [
+    {
+      "coe:model": {
+        "scale": 0.3,
+        "texture": "coe:textures/entity/prop/hazard"
+      }
+    }
+  ]
+}

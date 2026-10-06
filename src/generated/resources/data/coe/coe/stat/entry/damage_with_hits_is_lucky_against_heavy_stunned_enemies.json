@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "flag": "heavy",
+    "output": "flag"
+  },
+  "effect": "coe:stat/effect/inline_lucky_623",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_953"
+}

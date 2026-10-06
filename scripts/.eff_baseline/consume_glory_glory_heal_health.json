@@ -1,0 +1,8 @@
+{
+  "type": "heal",
+  "resource": "health",
+  "tags": [
+    "consume_glory",
+    "glory"
+  ]
+}

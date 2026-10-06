@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:when_you_shapeshift_to_human_form_gain_inc_spell_damage_per_second_you_were_shapeshifted_up_to_a_max_of_for_seconds",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_druidgenericshapeshiftnotable",
+    "id": "52618",
+    "links": [
+      "59710"
+    ],
+    "x": -6573.27,
+    "y": -3222.72
+  }
+]

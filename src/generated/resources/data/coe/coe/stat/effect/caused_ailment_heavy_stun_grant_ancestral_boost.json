@@ -1,0 +1,15 @@
+{
+  "type": "grant_on_event",
+  "param": "",
+  "tags": {
+    "and": [
+      {
+        "tag": "heavy_stun"
+      },
+      {
+        "tag": "caused_ailment"
+      }
+    ]
+  },
+  "target": "ancestral_boost"
+}

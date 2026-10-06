@@ -1,0 +1,9 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/one_hand/one_hand_mace/template/strength",
+    "reqs": {
+      "l": 49.0,
+      "str": 87.0
+    }
+  }
+}

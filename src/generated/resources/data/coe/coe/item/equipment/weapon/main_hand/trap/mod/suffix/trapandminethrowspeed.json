@@ -1,0 +1,26 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "global",
+      "stats": [
+        {
+          "entry": "read",
+          "ref": "coe:trap_and_mine_throw_speed"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 1,
+        "name": "tbd",
+        "tier": 1,
+        "values": {
+          "value": {
+            "min": 1.0
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

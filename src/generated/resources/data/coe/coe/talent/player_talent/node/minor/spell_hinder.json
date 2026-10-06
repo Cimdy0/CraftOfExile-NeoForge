@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_to_hinder_enemies_on_hit_with_spells",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_damagespells",
+    "id": "15180",
+    "links": [
+      "29652",
+      "61444"
+    ],
+    "x": -3961.19,
+    "y": -2807.82
+  }
+]

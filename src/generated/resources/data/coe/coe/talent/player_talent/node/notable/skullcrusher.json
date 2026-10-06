@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:more_damage_against_heavy_stunned_enemies_with_maces",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_macedmg",
+    "id": "2645",
+    "links": [
+      "526",
+      "52829"
+    ],
+    "x": -10366.4,
+    "y": 4162.38
+  }
+]

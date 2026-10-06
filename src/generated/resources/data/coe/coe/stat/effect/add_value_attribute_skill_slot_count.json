@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:skill_slot_count",
+  "operation": "add_value"
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_attack_hit_damage_to_apply_incision",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "22962",
+    "links": [
+      "22817",
+      "58848"
+    ],
+    "x": 7334.44,
+    "y": 7006.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_attack_hit_damage_to_apply_incision",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "29941",
+    "links": [
+      "18882",
+      "57517",
+      "60829"
+    ],
+    "x": 3092.19,
+    "y": 3615.89
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_attack_hit_damage_to_apply_incision",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "49473",
+    "links": [
+      "36630",
+      "61104"
+    ],
+    "x": 3660.16,
+    "y": 3626.42
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_attack_hit_damage_to_apply_incision",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "55724",
+    "links": [
+      "22817",
+      "42714"
+    ],
+    "x": 7000.87,
+    "y": 6623.07
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_attack_hit_damage_to_apply_incision",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "58848",
+    "links": [
+      "10576",
+      "22962",
+      "24786",
+      "30657"
+    ],
+    "x": 7584.44,
+    "y": 7006.48
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_for_attack_hit_damage_to_apply_incision",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "60829",
+    "links": [
+      "29941",
+      "36630"
+    ],
+    "x": 3332.8,
+    "y": 3387.42
+  }
+]

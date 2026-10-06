@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_damage_as_extra_lightning_damage_while_on_shocked_ground",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_effect_of_shock_on_you",
+            "vars": {
+              "value": -0.4
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_stormborn",
+    "id": "13515",
+    "links": [
+      "17025",
+      "22784"
+    ],
+    "x": -1446.33,
+    "y": -9472.75
+  }
+]

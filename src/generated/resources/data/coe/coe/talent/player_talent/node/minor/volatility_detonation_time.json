@@ -1,0 +1,98 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_volatility_explosion_delay",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "36217",
+    "links": [
+      "29990",
+      "47021"
+    ],
+    "x": 10030.3,
+    "y": -2498.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_volatility_explosion_delay",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "47021",
+    "links": [
+      "34425",
+      "36217"
+    ],
+    "x": 9959.33,
+    "y": -2621.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_volatility_explosion_delay",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "47477",
+    "links": [
+      "29990",
+      "51774"
+    ],
+    "x": 9959.33,
+    "y": -2375.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_volatility_explosion_delay",
+            "vars": {
+              "value": -0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedchaosdamage",
+    "id": "51774",
+    "links": [
+      "34425",
+      "47477"
+    ],
+    "x": 9817.3,
+    "y": -2375.79
+  }
+]

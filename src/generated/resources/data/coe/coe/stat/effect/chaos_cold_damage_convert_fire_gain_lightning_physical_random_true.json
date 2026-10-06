@@ -1,0 +1,19 @@
+{
+  "type": "damage_convert",
+  "candidates": [
+    "fire",
+    "cold",
+    "lightning"
+  ],
+  "from": [
+    "physical",
+    "fire",
+    "chaos",
+    "cold",
+    "lightning"
+  ],
+  "hits_only": true,
+  "mode": "gain",
+  "to": "",
+  "to_mode": "random"
+}

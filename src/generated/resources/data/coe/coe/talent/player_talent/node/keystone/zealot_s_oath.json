@@ -1,0 +1,34 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:excess_health_recovery_from_regeneration_is_applied_to_energy_shield",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:energy_shield_does_not_recharge"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferegentoenergyshield",
+    "id": "52",
+    "links": [
+      "39131"
+    ],
+    "x": -8682.17,
+    "y": -4609.88
+  }
+]

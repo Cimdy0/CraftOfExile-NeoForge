@@ -1,0 +1,18 @@
+{
+  "type": "attribute",
+  "attribute": "coe:physical_damage_reduction",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "physical"
+      },
+      {
+        "tag": "taken"
+      },
+      {
+        "tag": "minion"
+      }
+    ]
+  }
+}

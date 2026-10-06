@@ -1,0 +1,37 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_accuracy_against_bleeding_enemies",
+            "vars": {
+              "value": 250.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:bleeding_you_inflict_deals_damage_faster",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "18308",
+    "links": [
+      "19796"
+    ],
+    "x": -900.155,
+    "y": 10685.9
+  }
+]

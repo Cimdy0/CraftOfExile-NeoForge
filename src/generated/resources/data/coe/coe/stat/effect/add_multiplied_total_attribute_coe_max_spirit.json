@@ -1,0 +1,5 @@
+{
+  "type": "attribute",
+  "attribute": "coe:max_spirit",
+  "operation": "add_multiplied_total"
+}

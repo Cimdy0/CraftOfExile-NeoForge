@@ -1,0 +1,53 @@
+{
+  "aoe_ranges": {},
+  "cast": {
+    "cooldown": 40.0
+  },
+  "cast_particle": "minecraft:note",
+  "cast_sound": "minecraft:block.bell.use",
+  "cost": [],
+  "params": {
+    "totem_damage": 0.0,
+    "totem_duration": 300.0,
+    "totem_health": 20.0,
+    "totem_interval": 20.0,
+    "totem_range": 8.0
+  },
+  "phases": [
+    {
+      "phase": {
+        "actions": [
+          {
+            "action": {
+              "coe:action_spawn": {
+                "attack_range": "$totem_range",
+                "duration": "$totem_duration",
+                "entity_id": "coe:mine",
+                "health": "$totem_health",
+                "interval": "$totem_interval"
+              }
+            },
+            "trigger": "on_hit"
+          },
+          {
+            "action": {
+              "coe:action_damage": {
+                "amount": "$totem_damage",
+                "can_crit": 1.0,
+                "damage_type": "physical"
+              }
+            },
+            "trigger": "on_tick"
+          }
+        ],
+        "delivery": {
+          "coe:delivery_self": {}
+        }
+      }
+    }
+  ],
+  "require": {},
+  "tags": [
+    "mine"
+  ]
+}

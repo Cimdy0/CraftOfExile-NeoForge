@@ -1,0 +1,10 @@
+{
+  "coe:item_template": {
+    "extend": "coe:accessory",
+    "reqs": {
+      "int": "intelligence",
+      "l": "level",
+      "str": "strength"
+    }
+  }
+}

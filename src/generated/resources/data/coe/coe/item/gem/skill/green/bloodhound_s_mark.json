@@ -1,0 +1,17 @@
+{
+  "cost": [
+    {
+      "value": 9.0
+    }
+  ],
+  "entry": "read",
+  "ref": "coe:generic_mark",
+  "require": {
+    "dexterity": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "vars": {
+    "mark_damage": "coe:per_level_add_value(add = 3.8, base = 15.4, per = 1)",
+    "tier": 1.0
+  }
+}

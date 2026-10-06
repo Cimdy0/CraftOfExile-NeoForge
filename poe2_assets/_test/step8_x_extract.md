@@ -1,0 +1,1387 @@
+# Step 8 — 独立 X 全盘提取（字段 + 字符串，前/中/末）
+
+## 1. 扫描范围
+
+- Java 源码：`src/main/java`（字段名 + 字符串字面量 + 用法引用）
+- 天赋树数据：`poe2_assets/poe2_tree.json`
+- 资源文件：`src/main/resources/**/*.json`
+- 源语料：`%s`（提取 `{X}` 模板）
+
+## 2. 汇总（X 在 `_` 切分序列中的位置）
+
+| 位置 | Java 字段名(大写X) | Java 字符串(小写x/id) | JSON/数据字符串 | 源语料 `{X}` |
+| --- | ---: | ---: | ---: | ---: |
+| 前 (X_/x_) | 146 | 299 | 1 | — |
+| 中 (_X_/_x_) | 90 | 187 | 1 | — |
+| 末 (_X/_x) | 0 | 7 | 4 | — |
+| **合计** | **236** | **493** | **6** | **1041** |
+
+## 3. Java 字段名中的独立 X（Identifier 常量 + Attribute 属性 + 用法引用）
+
+### 3.1 前缀 `X_`（前）— 146 条
+  - `X_CHANCE_FOR_ATTACKS_TO_MAIM_ON_HIT_DAMAGE_AGAINST_POISONED_ENEMIES`
+  - `X_CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_INCISION`
+  - `X_CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION`
+  - `X_CHANCE_FOR_CHARMS_YOU_USE_TO_NOT_CONSUME_CHARGES`
+  - `X_CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY`
+  - `X_CHANCE_FOR_MACE_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK`
+  - `X_CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_HIT_DAMAGE_WITH_EMPOWERED_ATTACKS`
+  - `X_CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE`
+  - `X_CHANCE_TO_CREATE_AN_ADDITIONAL_REMNANT`
+  - `X_CHANCE_TO_DEFEND_WITH_X_OF_ARMOR`
+  - `X_CHANCE_TO_GAIN_VOLATILITY_WHEN_YOU_ARE_STUNNED`
+  - `X_CHANCE_TO_HINDER_ENEMIES_ON_HIT_WITH_SPELLS`
+  - `X_CHANCE_TO_IMPALE_ON_SPELL_HIT_DAMAGE`
+  - `X_CHANCE_TO_KNOCK_ENEMIES_BACK_WITH_HIT_DAMAGE_AT_CLOSE_RANGE`
+  - `X_CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY`
+  - `X_CHANCE_WHEN_A_CHARM_IS_USED_TO_USE_ANOTHER_CHARM_WITHOUT_CONSUMING_CHARGES`
+  - `X_CHANCE_WHEN_YOU_RELOAD_A_CROSSBOW_TO_BE_IMMEDIATE`
+  - `X_FASTER_CURSE_ACTIVATION`
+  - `X_FASTER_START_OF_ENERGY_SHIELD_RECHARGE_IF_YOU_VE_BEEN_STUNNED_RECENTLY`
+  - `X_FASTER_START_OF_ENERGY_SHIELD_RECHARGE_WHEN_NOT_ON_FULL_HEALTH`
+  - `X_FASTER_START_OF_ENERGY_SHIELD_RECHARGE_WHILE_AFFECTED_BY_AN_ARCHON_BUFF`
+  - `X_FASTER_START_OF_ENERGY_SHIELD_RECHARGE_WHILE_SHAPESHIFTED`
+  - `X_FASTER_START_OF_INHERENT_RAGE_LOSS`
+  - `X_HEALTH_GAIN_WHEN_YOU_BLOCK`
+  - `X_HEALTH_PER_X_DEXTERITY`
+  - `X_INCREASED_AILMENT_THRESHOLD_AND_STUN_THRESHOLD_THRESHOLD_WHILE_SURROUNDED`
+  - `X_INCREASED_AMOUNT_OF_MANA_MANA_LEECH`
+  - `X_INCREASED_ARCHON_BUFF_DURATION`
+  - `X_INCREASED_AREA_OF_EFFECT_FOR_ATTACKS`
+  - `X_INCREASED_AREA_OF_EFFECT_OF_CURSES`
+  - `X_INCREASED_ATTACK_AREA_DAMAGE`
+  - `X_INCREASED_ATTACK_SPEED_WHILE_A_RARE_OR_UNIQUE_ENEMY_IS_IN_YOUR_PRESENCE`
+  - `X_INCREASED_BALLISTA_DAMAGE`
+  - `X_INCREASED_BLIND_EFFECT`
+  - `X_INCREASED_BOLT_SPEED`
+  - `X_INCREASED_BUFF_EFFECT_OF_ARCANE_SURGE_ON_YOU`
+  - `X_INCREASED_BUFF_EFFECT_OF_CURSES_ON_YOU`
+  - `X_INCREASED_BUFF_EFFECT_OF_SHOCK_ON_YOU`
+  - `X_INCREASED_BUFF_EFFECT_OF_WITHERED_ON_YOU`
+  - `X_INCREASED_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU`
+  - `X_INCREASED_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT`
+  - `X_INCREASED_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT`
+  - `X_INCREASED_BUFF_MAGNITUDE_OF_DAZE`
+  - `X_INCREASED_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS`
+  - `X_INCREASED_BUFF_MAGNITUDE_OF_JAGGED_GROUND_YOU_CREATE`
+  - `X_INCREASED_CAST_SPEED`
+  - `X_INCREASED_CHANCE_TO_SHOCK`
+  - `X_INCREASED_CHARM_CHARGES_GAIN`
+  - `X_INCREASED_CHARM_CHARGES_USED`
+  - `X_INCREASED_COOLDOWN_RECOVERY_RATE`
+  - `X_INCREASED_CRITICAL_DAMAGE_BONUS`
+  - `X_INCREASED_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY`
+  - `X_INCREASED_CRITICAL_HIT_CHANCE_AGAINST_IMMOBILISED_ENEMIES`
+  - `X_INCREASED_CULLING_STRIKE_THRESHOLD`
+  - `X_INCREASED_CURSE_BUFF_MAGNITUDE`
+  - `X_INCREASED_CURSE_DURATION`
+  - `X_INCREASED_DAMAGE_IF_YOU_HAVE_CONSUMED_A_CORPSE_RECENTLY`
+  - `X_INCREASED_DAMAGE_WITH_AXES`
+  - `X_INCREASED_DAMAGE_WITH_BOWS`
+  - `X_INCREASED_DAMAGE_WITH_HITS_AGAINST_CHILLED_ENEMIES`
+  - `X_INCREASED_DAMAGE_WITH_MACES`
+  - `X_INCREASED_DAMAGE_WITH_ONE_HANDED_WEAPONS`
+  - `X_INCREASED_DAMAGE_WITH_SPEARS`
+  - `X_INCREASED_DAMAGE_WITH_SWORDS`
+  - `X_INCREASED_DAMAGE_WITH_TWO_HANDED_WEAPONS`
+  - `X_INCREASED_DEFLECTION_RATING_WHILE_SURROUNDED`
+  - `X_INCREASED_DURATION_OF_AILMENTS_ON_YOU`
+  - `X_INCREASED_DURATION_OF_DAMAGING_AILMENTS_ON_ENEMIES`
+  - `X_INCREASED_DURATION_OF_PUPPET_MASTER`
+  - `X_INCREASED_EFFECT_OF_ARCHON_BUFFS_ON_YOU`
+  - `X_INCREASED_EFFECT_OF_CHILL_ON_YOU`
+  - `X_INCREASED_EFFECT_OF_PUPPET_MASTER`
+  - `X_INCREASED_ELECTROCUTE_BUILDUP`
+  - `X_INCREASED_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY`
+  - `X_INCREASED_ELEMENTAL_DAMAGE`
+  - `X_INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS`
+  - `X_INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_HELMET`
+  - `X_INCREASED_EXPOSURE_EFFECT`
+  - `X_INCREASED_FLASK_CHARGES_USED_FROM_MANA_FLASKS`
+  - `X_INCREASED_FREEZE_BUILDUP_WITH_EMPOWERED_ATTACKS`
+  - `X_INCREASED_FREEZE_THRESHOLD`
+  - `X_INCREASED_FRENZY_CHARGE_DURATION`
+  - `X_INCREASED_GRENADE_DETONATION_TIME`
+  - `X_INCREASED_HAZARD_DURATION`
+  - `X_INCREASED_HEALTH_COST_OF_SKILLS`
+  - `X_INCREASED_HEALTH_FLASK_CHARGES_GAIN`
+  - `X_INCREASED_HEALTH_RECOVERY_FROM_FLASKS_USED_WHEN_ON_LOW_HEALTH`
+  - `X_INCREASED_ICE_CRYSTAL_HEALTH`
+  - `X_INCREASED_IGNITE_BUFF_MAGNITUDE`
+  - `X_INCREASED_IGNITE_DURATION_ON_ENEMIES`
+  - `X_INCREASED_IMMOBILISATION_BUILDUP`
+  - `X_INCREASED_INTELLIGENCE`
+  - `X_INCREASED_KNOCKBACK_DISTANCE`
+  - `X_INCREASED_LIGHT_RADIUS`
+  - `X_INCREASED_MANA_COST_EFFICIENCY`
+  - `X_INCREASED_MANA_COST_OF_SKILLS`
+  - `X_INCREASED_MAX_MANA`
+  - `X_INCREASED_MELEE_DAMAGE`
+  - `X_INCREASED_PARRIED_DEBUFF_BUFF_MAGNITUDE`
+  - `X_INCREASED_PARRIED_DEBUFF_DURATION`
+  - `X_INCREASED_PARRY_DAMAGE`
+  - `X_INCREASED_PARRY_RANGE`
+  - `X_INCREASED_PHYSICAL_DAMAGE_WHILE_SHAPESHIFTED`
+  - `X_INCREASED_PINNED_DURATION`
+  - `X_INCREASED_POISON_DURATION`
+  - `X_INCREASED_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES`
+  - `X_INCREASED_SKILL_SPEED`
+  - `X_INCREASED_SLOWING_POTENCY_OF_DEBUFFS_ON_YOU`
+  - `X_INCREASED_SPEED_OF_RECOUP_EFFECTS`
+  - `X_INCREASED_SPIRIT`
+  - `X_INCREASED_STUN_RECOVERY`
+  - `X_INCREASED_THORNS_DAMAGE`
+  - `X_INCREASED_TOTAL_POWER_COUNTED_BY_WARCRIES`
+  - `X_INCREASED_TOTEM_DAMAGE`
+  - `X_INCREASED_TOTEM_HEALTH`
+  - `X_INCREASED_TOTEM_PLACEMENT_RANGE`
+  - `X_INCREASED_TOTEM_PLACEMENT_SPEED`
+  - `X_INCREASED_VOLATILITY_EXPLOSION_DELAY`
+  - `X_INCREASED_WITHERED_BUFF_MAGNITUDE`
+  - `X_MANA_GAIN_WHEN_YOU_BLOCK`
+  - `X_MAX_STACKS_OF_PUPPET_MASTER`
+  - `X_METRES_TO_DODGE_ROLL_DISTANCE_WHILE_SURROUNDED`
+  - `X_METRES_TO_MELEE_STRIKE_RANGE`
+  - `X_METRES_TO_MELEE_STRIKE_RANGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS`
+  - `X_MORE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES_WITH_MACES`
+  - `X_MORE_SKILL_SPEED_WHILE_OFF_HAND_IS_EMPTY_AND_YOU_HAVE_A_ONE_HANDED_MARTIAL_WEAPON_EQUIPPED_IN_YOUR_MAIN_HAND`
+  - `X_OF_ARMOR_ALSO_APPLIES_TO_COLD_DAMAGE`
+  - `X_OF_ARMOR_ALSO_APPLIES_TO_ELEMENTAL_DAMAGE`
+  - `X_OF_ARMOR_ALSO_APPLIES_TO_ELEMENTAL_DAMAGE_WHILE_SHAPESHIFTED`
+  - `X_OF_ARMOR_ALSO_APPLIES_TO_FIRE_DAMAGE`
+  - `X_OF_ARMOR_ALSO_APPLIES_TO_LIGHTNING_DAMAGE`
+  - `X_OF_DAMAGE_TAKEN_BYPASSES_ENERGY_SHIELD`
+  - `X_OF_ELEMENTAL_DAMAGE_TAKEN_RECOUPED_AS_ENERGY_SHIELD`
+  - `X_OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD`
+  - `X_OF_SKILL_MANA_COSTS_STAT_CONVERSION_TO_HEALTH_COSTS`
+  - `X_SURPASSING_CHANCE_TO_GAIN_A_PUPPET_MASTER_STACK_WHENEVER_YOU_USE_A_COMMAND_SKILL`
+  - `X_TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_X_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED`
+  - `X_TO_CHAOS_RESISTANCE_2`
+  - `X_TO_CRITICAL_HIT_CHANCE_OF_HERALD_SKILLS`
+  - `X_TO_LEVEL_OF_ALL_CHAOS_SKILLS`
+  - `X_TO_LEVEL_OF_ALL_COLD_SKILLS`
+  - `X_TO_MAX_BLOCK_CHANCE`
+  - `X_TO_MAX_LIGHTNING_INFUSIONS`
+  - `X_TO_MAX_RAGE`
+  - `X_TO_STUN_THRESHOLD_PER_STRENGTH`
+  - `X_TO_THORNS_CRITICAL_HIT_CHANCE`
+
+### 3.2 中缀 `_X_`（中）— 90 条
+  - `ADD_A_CURSE_AFTER_CHANNELLING_FOR_X_SECONDS`
+  - `ALLIES_IN_YOUR_PRESENCE_REGENERATE_X_OF_YOUR_MAX_HEALTH_PER_SECOND`
+  - `ARCHON_RECOVERY_PERIOD_EXPIRES_X_SLOWER`
+  - `ATTACKS_GAIN_X_OF_DAMAGE_AS_EXTRA_CHAOS_DAMAGE`
+  - `ATTACKS_HAVE_X_TO_CRITICAL_HIT_CHANCE`
+  - `ATTACKS_WITH_ONE_HANDED_MARTIAL_WEAPON_HAVE_X_INCREASED_CHANCE_TO_INFLICT_AILMENTS`
+  - `ATTACK_DAMAGE_PENETRATES_X_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES`
+  - `BANNER_SKILLS_HAVE_X_INCREASED_AURA_BUFF_MAGNITUDE`
+  - `BANNER_SKILLS_HAVE_X_INCREASED_DURATION`
+  - `BLEEDING_YOU_INFLICT_DEALS_DAMAGE_X_FASTER`
+  - `BUFFS_ON_YOU_EXPIRE_X_SLOWER`
+  - `COMPANIONS_DEAL_X_INCREASED_DAMAGE`
+  - `COMPANIONS_HAVE_X_INCREASED_ATTACK_SPEED`
+  - `CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_X_OF_MAX_HEALTH_PER_RAGE_CONSUMED`
+  - `DAMAGE_PENETRATES_X_ELEMENTAL_DAMAGE_RESISTANCES_FOR_EACH_TIME_YOU_VE_USED_A_SKILL_THAT_REQUIRES_GLORY_IN_THE_PAST_X_SECONDS`
+  - `DAMAGE_PENETRATES_X_OF_ENEMY_ELEMENTAL_RESISTANCES`
+  - `DAMAGE_PENETRATION_X_ELEMENTAL_DAMAGE_RESISTANCES`
+  - `DAMAGE_PENETRATION_X_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES_WHILE_SHAPESHIFTED`
+  - `DAMAGING_AILMENTS_DEAL_DAMAGE_X_FASTER`
+  - `DEFEND_WITH_X_OF_ARMOR_AGAINST_CRITICAL_HITS`
+  - `EMPOWERED_ATTACKS_DEAL_X_INCREASED_DAMAGE`
+  - `ENEMIES_IN_JAGGED_GROUND_YOU_CREATE_TAKE_X_INCREASED_DAMAGE`
+  - `GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_X_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS`
+  - `GAIN_PHYSICAL_THORNS_DAMAGE_EQUAL_TO_X_OF_MAX_HEALTH_WHILE_SHAPESHIFTED`
+  - `GAIN_X_ENERGY_SHIELD_WHEN_YOU_BLOCK`
+  - `GAIN_X_OF_COLD_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE`
+  - `GAIN_X_OF_DAMAGE_AS_EXTRA_CHAOS_DAMAGE`
+  - `GAIN_X_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE`
+  - `GAIN_X_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE`
+  - `GAIN_X_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_FOR_EVERY_DIFFERENT_GRENADE_FIRED_IN_THE_PAST_X_SECONDS`
+  - `GAIN_X_OF_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE`
+  - `GAIN_X_OF_EVASION_AS_EXTRA_ARMOR`
+  - `GAIN_X_OF_LIGHTNING_DAMAGE_AS_EXTRA_COLD_DAMAGE`
+  - `GAIN_X_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK`
+  - `GRENADES_HAVE_X_CHANCE_TO_ACTIVATE_A_SECOND_TIME`
+  - `GRENADE_SKILLS_HAVE_X_COOLDOWN_USE`
+  - `HEALTH_FLASKS_GAIN_X_CHARGES_PER_SECOND`
+  - `HEALTH_LEECH_HEALTH_X_FASTER`
+  - `HEALTH_LEECH_HEALTH_X_SLOWER`
+  - `INVOCATED_SKILLS_HAVE_X_INCREASED_MAX_ENERGY`
+  - `MANA_FLASKS_GAIN_X_CHARGES_PER_SECOND`
+  - `MINIONS_HAVE_X_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE`
+  - `MINIONS_HAVE_X_INCREASED_AREA_OF_EFFECT`
+  - `MINIONS_HAVE_X_INCREASED_CAST_SPEED`
+  - `MINIONS_HAVE_X_INCREASED_CRITICAL_HIT_CHANCE`
+  - `MINIONS_HAVE_X_INCREASED_EVASION`
+  - `MINIONS_HAVE_X_INCREASED_HEALTH_RECOVERY_RATE`
+  - `MINIONS_HAVE_X_TO_ALL_ELEMENTAL_RESISTANCES`
+  - `MINIONS_HAVE_X_TO_ALL_MAX_ELEMENTAL_RESISTANCES`
+  - `MINIONS_HAVE_X_TO_CHAOS_RESISTANCES`
+  - `MINIONS_HAVE_X_TO_COLD_RESISTANCES`
+  - `MINIONS_HAVE_X_TO_FIRE_RESISTANCES`
+  - `MINIONS_HAVE_X_TO_LIGHTNING_RESISTANCES`
+  - `MINIONS_HAVE_X_TO_MAX_COLD_RESISTANCES`
+  - `MINIONS_HAVE_X_TO_MAX_FIRE_RESISTANCES`
+  - `MINIONS_HAVE_X_TO_MAX_LIGHTNING_RESISTANCES`
+  - `MINIONS_RECOUP_X_OF_DAMAGE_TAKEN_AS_HEALTH`
+  - `MINIONS_REGENERATE_X_OF_MAX_HEALTH_PER_SECOND`
+  - `MINIONS_REVIVING_X_FASTER_IF_ALL_YOUR_MINIONS_ARE_COMPANIONS`
+  - `OFFERING_SKILLS_HAVE_X_INCREASED_BUFF_EFFECT`
+  - `PLANTS_HAVE_A_X_CHANCE_TO_IMMEDIATELY_OVERGROW`
+  - `PROJECTILES_HAVE_X_CHANCE_TO_CHAIN_AN_ADDITIONAL_TIME_FROM_TERRAIN`
+  - `RECOUP_X_OF_DAMAGE_TAKEN_BY_YOUR_TOTEMS_AS_HEALTH`
+  - `RECOVER_X_HEALTH_WHEN_YOU_BLOCK`
+  - `RECOVER_X_OF_MAX_HEALTH_AND_MANA_WHEN_YOU_USE_A_WARCRY`
+  - `RECOVER_X_OF_MAX_HEALTH_FOR_EACH_ENDURANCE_CHARGE_CONSUMED`
+  - `RECOVER_X_OF_MAX_HEALTH_PER_GLORY_CONSUMED`
+  - `RECOVER_X_OF_MAX_HEALTH_WHEN_YOU_COLLECT_A_REMNANT`
+  - `RECOVER_X_OF_MAX_HEALTH_WHEN_YOU_CREATE_AN_OFFERING`
+  - `RECOVER_X_OF_MAX_HEALTH_WHEN_YOU_USE_A_MANA_FLASK`
+  - `RECOVER_X_OF_MAX_MANA_ON_KILL`
+  - `RECOVER_X_OF_MAX_MANA_WHEN_A_CHARM_IS_USED`
+  - `RECOVER_X_OF_MAX_MANA_WHEN_YOU_COLLECT_A_REMNANT`
+  - `RECOVER_X_OF_MAX_MANA_WHEN_YOU_CONSUME_A_POWER_CHARGE`
+  - `REGENERATE_X_OF_MAX_HEALTH_PER_SECOND`
+  - `REGENERATE_X_OF_MAX_HEALTH_PER_SECOND_IF_YOU_HAVE_BEEN_HIT_RECENTLY`
+  - `REGENERATE_X_OF_MAX_HEALTH_PER_SECOND_WHILE_STATIONARY`
+  - `REMNANTS_CAN_BE_COLLECTED_FROM_X_FURTHER_AWAY`
+  - `SKILLS_GAIN_COMBO_X_SLOWER`
+  - `SKILLS_HAVE_A_X_CHANCE_TO_NOT_CONSUME_GLORY`
+  - `SKILLS_HAVE_X_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM`
+  - `SKILLS_WHICH_CREATE_FISSURES_HAVE_A_X_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE`
+  - `SLAM_SKILLS_YOU_USE_YOURSELF_HAVE_X_INCREASED_AFTERSHOCK_AREA_OF_EFFECT`
+  - `THORNS_DAMAGE_HAS_X_CHANCE_TO_IGNORE_ENEMY_ARMOR`
+  - `TOTEMS_GAIN_X_TO_ALL_MAX_ELEMENTAL_RESISTANCES`
+  - `TOTEMS_REGENERATE_X_OF_MAX_HEALTH_PER_SECOND`
+  - `WARCRIES_HAVE_A_MINIMUM_OF_X_POWER`
+  - `X_CHANCE_TO_DEFEND_WITH_X_OF_ARMOR`
+  - `X_HEALTH_PER_X_DEXTERITY`
+  - `X_TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_X_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED`
+
+### 3.3 后缀 `_X`（末）— 0 条
+  _(无)_
+
+## 4. Java 字符串字面量中的独立 x（id path 等）
+
+### 4.1 前缀 `x_`（前）— 299 条
+  - `X  [java\com\cimdy\coe\data\gen\LangProvider.java]`
+  - `X  [java\com\cimdy\coe\item\gem\UncutGem.java]`
+  - `X  [java\com\cimdy\coe\ui\screen\talent\AbstractTalentTreeScreen.java]`
+  - `x  [java\com\cimdy\coe\data\codec\progression\research\ResearchNodeDef.java]`
+  - `x  [java\com\cimdy\coe\data\codec\talent\TalentNodeDef.java]`
+  - `x  [java\com\cimdy\coe\ui\widget\component\TabBar.java]`
+  - `x  [java\com\cimdy\coe\ui\widget\component\Window.java]`
+  - `x_chance_for_attack_hit_damage_to_apply_incision  (X_CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_INCISION)`
+  - `x_chance_for_attack_hit_damage_to_apply_incision  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_for_attack_hit_damage_to_apply_ten_incision  (X_CHANCE_FOR_ATTACK_HIT_DAMAGE_TO_APPLY_TEN_INCISION)`
+  - `x_chance_for_attack_hit_damage_to_apply_ten_incision  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_for_attacks_to_maim_on_hit_damage_against_poisoned_enemies  (X_CHANCE_FOR_ATTACKS_TO_MAIM_ON_HIT_DAMAGE_AGAINST_POISONED_ENEMIES)`
+  - `x_chance_for_attacks_to_maim_on_hit_damage_against_poisoned_enemies  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_for_charms_you_use_to_not_consume_charges  (X_CHANCE_FOR_CHARMS_YOU_USE_TO_NOT_CONSUME_CHARGES)`
+  - `x_chance_for_charms_you_use_to_not_consume_charges  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_for_damage_with_hit_damage_to_be_lucky  (X_CHANCE_FOR_DAMAGE_WITH_HIT_DAMAGE_TO_BE_LUCKY)`
+  - `x_chance_for_damage_with_hit_damage_to_be_lucky  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_for_mace_slam_skills_you_use_yourself_to_cause_an_additional_aftershock  (X_CHANCE_FOR_MACE_SLAM_SKILLS_YOU_USE_YOURSELF_TO_CAUSE_AN_ADDITIONAL_AFTERSHOCK)`
+  - `x_chance_for_mace_slam_skills_you_use_yourself_to_cause_an_additional_aftershock  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_aggravate_bleeding_on_targets_you_hit_damage_with_empowered_attacks  (X_CHANCE_TO_AGGRAVATE_BLEEDING_ON_TARGETS_YOU_HIT_DAMAGE_WITH_EMPOWERED_ATTACKS)`
+  - `x_chance_to_aggravate_bleeding_on_targets_you_hit_damage_with_empowered_attacks  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_blind_enemies_on_hit_damage  (X_CHANCE_TO_BLIND_ENEMIES_ON_HIT_DAMAGE)`
+  - `x_chance_to_blind_enemies_on_hit_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_create_an_additional_remnant  (X_CHANCE_TO_CREATE_AN_ADDITIONAL_REMNANT)`
+  - `x_chance_to_create_an_additional_remnant  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_defend_with_x_of_armor  (X_CHANCE_TO_DEFEND_WITH_X_OF_ARMOR)`
+  - `x_chance_to_defend_with_x_of_armor  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_gain_volatility_when_you_are_stunned  (X_CHANCE_TO_GAIN_VOLATILITY_WHEN_YOU_ARE_STUNNED)`
+  - `x_chance_to_gain_volatility_when_you_are_stunned  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_hinder_enemies_on_hit_with_spells  (X_CHANCE_TO_HINDER_ENEMIES_ON_HIT_WITH_SPELLS)`
+  - `x_chance_to_hinder_enemies_on_hit_with_spells  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_impale_on_spell_hit_damage  (X_CHANCE_TO_IMPALE_ON_SPELL_HIT_DAMAGE)`
+  - `x_chance_to_impale_on_spell_hit_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_knock_enemies_back_with_hit_damage_at_close_range  (X_CHANCE_TO_KNOCK_ENEMIES_BACK_WITH_HIT_DAMAGE_AT_CLOSE_RANGE)`
+  - `x_chance_to_knock_enemies_back_with_hit_damage_at_close_range  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_to_recover_all_health_when_you_kill_an_enemy  (X_CHANCE_TO_RECOVER_ALL_HEALTH_WHEN_YOU_KILL_AN_ENEMY)`
+  - `x_chance_to_recover_all_health_when_you_kill_an_enemy  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_when_a_charm_is_used_to_use_another_charm_without_consuming_charges  (X_CHANCE_WHEN_A_CHARM_IS_USED_TO_USE_ANOTHER_CHARM_WITHOUT_CONSUMING_CHARGES)`
+  - `x_chance_when_a_charm_is_used_to_use_another_charm_without_consuming_charges  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_chance_when_you_reload_a_crossbow_to_be_immediate  (X_CHANCE_WHEN_YOU_RELOAD_A_CROSSBOW_TO_BE_IMMEDIATE)`
+  - `x_chance_when_you_reload_a_crossbow_to_be_immediate  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_faster_curse_activation  (X_FASTER_CURSE_ACTIVATION)`
+  - `x_faster_curse_activation  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_faster_start_of_energy_shield_recharge_if_you_ve_been_stunned_recently  (X_FASTER_START_OF_ENERGY_SHIELD_RECHARGE_IF_YOU_VE_BEEN_STUNNED_RECENTLY)`
+  - `x_faster_start_of_energy_shield_recharge_if_you_ve_been_stunned_recently  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_faster_start_of_energy_shield_recharge_when_not_on_full_health  (X_FASTER_START_OF_ENERGY_SHIELD_RECHARGE_WHEN_NOT_ON_FULL_HEALTH)`
+  - `x_faster_start_of_energy_shield_recharge_when_not_on_full_health  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_faster_start_of_energy_shield_recharge_while_affected_by_an_archon_buff  (X_FASTER_START_OF_ENERGY_SHIELD_RECHARGE_WHILE_AFFECTED_BY_AN_ARCHON_BUFF)`
+  - `x_faster_start_of_energy_shield_recharge_while_affected_by_an_archon_buff  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_faster_start_of_energy_shield_recharge_while_shapeshifted  (X_FASTER_START_OF_ENERGY_SHIELD_RECHARGE_WHILE_SHAPESHIFTED)`
+  - `x_faster_start_of_energy_shield_recharge_while_shapeshifted  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_faster_start_of_inherent_rage_loss  (X_FASTER_START_OF_INHERENT_RAGE_LOSS)`
+  - `x_faster_start_of_inherent_rage_loss  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_health_gain_when_you_block  (X_HEALTH_GAIN_WHEN_YOU_BLOCK)`
+  - `x_health_gain_when_you_block  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_health_per_x_dexterity  (X_HEALTH_PER_X_DEXTERITY)`
+  - `x_health_per_x_dexterity  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_ailment_threshold_and_stun_threshold_threshold_while_surrounded  (X_INCREASED_AILMENT_THRESHOLD_AND_STUN_THRESHOLD_THRESHOLD_WHILE_SURROUNDED)`
+  - `x_increased_ailment_threshold_and_stun_threshold_threshold_while_surrounded  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_amount_of_mana_mana_leech  (X_INCREASED_AMOUNT_OF_MANA_MANA_LEECH)`
+  - `x_increased_amount_of_mana_mana_leech  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_archon_buff_duration  (X_INCREASED_ARCHON_BUFF_DURATION)`
+  - `x_increased_archon_buff_duration  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_area_of_effect_for_attacks  (X_INCREASED_AREA_OF_EFFECT_FOR_ATTACKS)`
+  - `x_increased_area_of_effect_for_attacks  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_area_of_effect_of_curses  (X_INCREASED_AREA_OF_EFFECT_OF_CURSES)`
+  - `x_increased_area_of_effect_of_curses  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_attack_area_damage  (X_INCREASED_ATTACK_AREA_DAMAGE)`
+  - `x_increased_attack_area_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_attack_speed_while_a_rare_or_unique_enemy_is_in_your_presence  (X_INCREASED_ATTACK_SPEED_WHILE_A_RARE_OR_UNIQUE_ENEMY_IS_IN_YOUR_PRESENCE)`
+  - `x_increased_attack_speed_while_a_rare_or_unique_enemy_is_in_your_presence  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_ballista_damage  (X_INCREASED_BALLISTA_DAMAGE)`
+  - `x_increased_ballista_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_blind_effect  (X_INCREASED_BLIND_EFFECT)`
+  - `x_increased_blind_effect  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_bolt_speed  (X_INCREASED_BOLT_SPEED)`
+  - `x_increased_bolt_speed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_effect_of_arcane_surge_on_you  (X_INCREASED_BUFF_EFFECT_OF_ARCANE_SURGE_ON_YOU)`
+  - `x_increased_buff_effect_of_arcane_surge_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_effect_of_curses_on_you  (X_INCREASED_BUFF_EFFECT_OF_CURSES_ON_YOU)`
+  - `x_increased_buff_effect_of_curses_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_effect_of_shock_on_you  (X_INCREASED_BUFF_EFFECT_OF_SHOCK_ON_YOU)`
+  - `x_increased_buff_effect_of_shock_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_effect_of_withered_on_you  (X_INCREASED_BUFF_EFFECT_OF_WITHERED_ON_YOU)`
+  - `x_increased_buff_effect_of_withered_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_magnitude_of_bleeding_on_you  (X_INCREASED_BUFF_MAGNITUDE_OF_BLEEDING_ON_YOU)`
+  - `x_increased_buff_magnitude_of_bleeding_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_magnitude_of_chill_you_inflict  (X_INCREASED_BUFF_MAGNITUDE_OF_CHILL_YOU_INFLICT)`
+  - `x_increased_buff_magnitude_of_chill_you_inflict  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_magnitude_of_damaging_ailments_you_inflict  (X_INCREASED_BUFF_MAGNITUDE_OF_DAMAGING_AILMENTS_YOU_INFLICT)`
+  - `x_increased_buff_magnitude_of_damaging_ailments_you_inflict  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_magnitude_of_daze  (X_INCREASED_BUFF_MAGNITUDE_OF_DAZE)`
+  - `x_increased_buff_magnitude_of_daze  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_magnitude_of_impales_inflicted_with_spells  (X_INCREASED_BUFF_MAGNITUDE_OF_IMPALES_INFLICTED_WITH_SPELLS)`
+  - `x_increased_buff_magnitude_of_impales_inflicted_with_spells  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_buff_magnitude_of_jagged_ground_you_create  (X_INCREASED_BUFF_MAGNITUDE_OF_JAGGED_GROUND_YOU_CREATE)`
+  - `x_increased_buff_magnitude_of_jagged_ground_you_create  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_cast_speed  (X_INCREASED_CAST_SPEED)`
+  - `x_increased_cast_speed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_chance_to_shock  (X_INCREASED_CHANCE_TO_SHOCK)`
+  - `x_increased_chance_to_shock  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_charm_charges_gain  (X_INCREASED_CHARM_CHARGES_GAIN)`
+  - `x_increased_charm_charges_gain  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_charm_charges_used  (X_INCREASED_CHARM_CHARGES_USED)`
+  - `x_increased_charm_charges_used  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_cooldown_recovery_rate  (X_INCREASED_COOLDOWN_RECOVERY_RATE)`
+  - `x_increased_cooldown_recovery_rate  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_critical_damage_bonus  (X_INCREASED_CRITICAL_DAMAGE_BONUS)`
+  - `x_increased_critical_damage_bonus  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_critical_damage_bonus_if_you_ve_consumed_a_power_charge_recently  (X_INCREASED_CRITICAL_DAMAGE_BONUS_IF_YOU_VE_CONSUMED_A_POWER_CHARGE_RECENTLY)`
+  - `x_increased_critical_damage_bonus_if_you_ve_consumed_a_power_charge_recently  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_critical_hit_chance_against_immobilised_enemies  (X_INCREASED_CRITICAL_HIT_CHANCE_AGAINST_IMMOBILISED_ENEMIES)`
+  - `x_increased_critical_hit_chance_against_immobilised_enemies  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_culling_strike_threshold  (X_INCREASED_CULLING_STRIKE_THRESHOLD)`
+  - `x_increased_culling_strike_threshold  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_curse_buff_magnitude  (X_INCREASED_CURSE_BUFF_MAGNITUDE)`
+  - `x_increased_curse_buff_magnitude  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_curse_duration  (X_INCREASED_CURSE_DURATION)`
+  - `x_increased_curse_duration  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_if_you_have_consumed_a_corpse_recently  (X_INCREASED_DAMAGE_IF_YOU_HAVE_CONSUMED_A_CORPSE_RECENTLY)`
+  - `x_increased_damage_if_you_have_consumed_a_corpse_recently  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_with_axes  (X_INCREASED_DAMAGE_WITH_AXES)`
+  - `x_increased_damage_with_axes  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_with_bows  (X_INCREASED_DAMAGE_WITH_BOWS)`
+  - `x_increased_damage_with_bows  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_with_hits_against_chilled_enemies  (X_INCREASED_DAMAGE_WITH_HITS_AGAINST_CHILLED_ENEMIES)`
+  - `x_increased_damage_with_hits_against_chilled_enemies  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_with_maces  (X_INCREASED_DAMAGE_WITH_MACES)`
+  - `x_increased_damage_with_maces  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_with_one_handed_weapons  (X_INCREASED_DAMAGE_WITH_ONE_HANDED_WEAPONS)`
+  - `x_increased_damage_with_one_handed_weapons  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_with_spears  (X_INCREASED_DAMAGE_WITH_SPEARS)`
+  - `x_increased_damage_with_spears  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_with_swords  (X_INCREASED_DAMAGE_WITH_SWORDS)`
+  - `x_increased_damage_with_swords  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_damage_with_two_handed_weapons  (X_INCREASED_DAMAGE_WITH_TWO_HANDED_WEAPONS)`
+  - `x_increased_damage_with_two_handed_weapons  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_deflection_rating_while_surrounded  (X_INCREASED_DEFLECTION_RATING_WHILE_SURROUNDED)`
+  - `x_increased_deflection_rating_while_surrounded  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_duration_of_ailments_on_you  (X_INCREASED_DURATION_OF_AILMENTS_ON_YOU)`
+  - `x_increased_duration_of_ailments_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_duration_of_damaging_ailments_on_enemies  (X_INCREASED_DURATION_OF_DAMAGING_AILMENTS_ON_ENEMIES)`
+  - `x_increased_duration_of_damaging_ailments_on_enemies  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_duration_of_puppet_master  (X_INCREASED_DURATION_OF_PUPPET_MASTER)`
+  - `x_increased_duration_of_puppet_master  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_effect_of_archon_buffs_on_you  (X_INCREASED_EFFECT_OF_ARCHON_BUFFS_ON_YOU)`
+  - `x_increased_effect_of_archon_buffs_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_effect_of_chill_on_you  (X_INCREASED_EFFECT_OF_CHILL_ON_YOU)`
+  - `x_increased_effect_of_chill_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_effect_of_puppet_master  (X_INCREASED_EFFECT_OF_PUPPET_MASTER)`
+  - `x_increased_effect_of_puppet_master  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_electrocute_buildup  (X_INCREASED_ELECTROCUTE_BUILDUP)`
+  - `x_increased_electrocute_buildup  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_elemental_ailments_ailment_application_if_you_have_shapeshifted_to_an_animal_form_recently  (X_INCREASED_ELEMENTAL_AILMENTS_AILMENT_APPLICATION_IF_YOU_HAVE_SHAPESHIFTED_TO_AN_ANIMAL_FORM_RECENTLY)`
+  - `x_increased_elemental_ailments_ailment_application_if_you_have_shapeshifted_to_an_animal_form_recently  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_elemental_damage  (X_INCREASED_ELEMENTAL_DAMAGE)`
+  - `x_increased_elemental_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_energy_shield_from_equipped_focus  (X_INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_FOCUS)`
+  - `x_increased_energy_shield_from_equipped_focus  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_energy_shield_from_equipped_helmet  (X_INCREASED_ENERGY_SHIELD_FROM_EQUIPPED_HELMET)`
+  - `x_increased_energy_shield_from_equipped_helmet  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_exposure_effect  (X_INCREASED_EXPOSURE_EFFECT)`
+  - `x_increased_exposure_effect  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_flask_charges_used_from_mana_flasks  (X_INCREASED_FLASK_CHARGES_USED_FROM_MANA_FLASKS)`
+  - `x_increased_flask_charges_used_from_mana_flasks  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_freeze_buildup_with_empowered_attacks  (X_INCREASED_FREEZE_BUILDUP_WITH_EMPOWERED_ATTACKS)`
+  - `x_increased_freeze_buildup_with_empowered_attacks  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_freeze_threshold  (X_INCREASED_FREEZE_THRESHOLD)`
+  - `x_increased_freeze_threshold  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_frenzy_charge_duration  (X_INCREASED_FRENZY_CHARGE_DURATION)`
+  - `x_increased_frenzy_charge_duration  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_grenade_detonation_time  (X_INCREASED_GRENADE_DETONATION_TIME)`
+  - `x_increased_grenade_detonation_time  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_hazard_duration  (X_INCREASED_HAZARD_DURATION)`
+  - `x_increased_hazard_duration  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_health_cost_of_skills  (X_INCREASED_HEALTH_COST_OF_SKILLS)`
+  - `x_increased_health_cost_of_skills  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_health_flask_charges_gain  (X_INCREASED_HEALTH_FLASK_CHARGES_GAIN)`
+  - `x_increased_health_flask_charges_gain  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_health_recovery_from_flasks_used_when_on_low_health  (X_INCREASED_HEALTH_RECOVERY_FROM_FLASKS_USED_WHEN_ON_LOW_HEALTH)`
+  - `x_increased_health_recovery_from_flasks_used_when_on_low_health  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_ice_crystal_health  (X_INCREASED_ICE_CRYSTAL_HEALTH)`
+  - `x_increased_ice_crystal_health  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_ignite_buff_magnitude  (X_INCREASED_IGNITE_BUFF_MAGNITUDE)`
+  - `x_increased_ignite_buff_magnitude  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_ignite_duration_on_enemies  (X_INCREASED_IGNITE_DURATION_ON_ENEMIES)`
+  - `x_increased_ignite_duration_on_enemies  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_immobilisation_buildup  (X_INCREASED_IMMOBILISATION_BUILDUP)`
+  - `x_increased_immobilisation_buildup  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_intelligence  (X_INCREASED_INTELLIGENCE)`
+  - `x_increased_intelligence  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_knockback_distance  (X_INCREASED_KNOCKBACK_DISTANCE)`
+  - `x_increased_knockback_distance  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_light_radius  (X_INCREASED_LIGHT_RADIUS)`
+  - `x_increased_light_radius  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_mana_cost_efficiency  (X_INCREASED_MANA_COST_EFFICIENCY)`
+  - `x_increased_mana_cost_efficiency  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_mana_cost_of_skills  (X_INCREASED_MANA_COST_OF_SKILLS)`
+  - `x_increased_mana_cost_of_skills  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_max_mana  (X_INCREASED_MAX_MANA)`
+  - `x_increased_max_mana  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_melee_damage  (X_INCREASED_MELEE_DAMAGE)`
+  - `x_increased_melee_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_parried_debuff_buff_magnitude  (X_INCREASED_PARRIED_DEBUFF_BUFF_MAGNITUDE)`
+  - `x_increased_parried_debuff_buff_magnitude  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_parried_debuff_duration  (X_INCREASED_PARRIED_DEBUFF_DURATION)`
+  - `x_increased_parried_debuff_duration  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_parry_damage  (X_INCREASED_PARRY_DAMAGE)`
+  - `x_increased_parry_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_parry_range  (X_INCREASED_PARRY_RANGE)`
+  - `x_increased_parry_range  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_physical_damage_while_shapeshifted  (X_INCREASED_PHYSICAL_DAMAGE_WHILE_SHAPESHIFTED)`
+  - `x_increased_physical_damage_while_shapeshifted  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_pinned_duration  (X_INCREASED_PINNED_DURATION)`
+  - `x_increased_pinned_duration  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_poison_duration  (X_INCREASED_POISON_DURATION)`
+  - `x_increased_poison_duration  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_shock_chance_against_electrocuted_enemies  (X_INCREASED_SHOCK_CHANCE_AGAINST_ELECTROCUTED_ENEMIES)`
+  - `x_increased_shock_chance_against_electrocuted_enemies  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_skill_speed  (X_INCREASED_SKILL_SPEED)`
+  - `x_increased_skill_speed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_slowing_potency_of_debuffs_on_you  (X_INCREASED_SLOWING_POTENCY_OF_DEBUFFS_ON_YOU)`
+  - `x_increased_slowing_potency_of_debuffs_on_you  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_speed_of_recoup_effects  (X_INCREASED_SPEED_OF_RECOUP_EFFECTS)`
+  - `x_increased_speed_of_recoup_effects  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_spirit  (X_INCREASED_SPIRIT)`
+  - `x_increased_spirit  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_stun_recovery  (X_INCREASED_STUN_RECOVERY)`
+  - `x_increased_stun_recovery  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_thorns_damage  (X_INCREASED_THORNS_DAMAGE)`
+  - `x_increased_thorns_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_total_power_counted_by_warcries  (X_INCREASED_TOTAL_POWER_COUNTED_BY_WARCRIES)`
+  - `x_increased_total_power_counted_by_warcries  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_totem_damage  (X_INCREASED_TOTEM_DAMAGE)`
+  - `x_increased_totem_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_totem_health  (X_INCREASED_TOTEM_HEALTH)`
+  - `x_increased_totem_health  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_totem_placement_range  (X_INCREASED_TOTEM_PLACEMENT_RANGE)`
+  - `x_increased_totem_placement_range  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_totem_placement_speed  (X_INCREASED_TOTEM_PLACEMENT_SPEED)`
+  - `x_increased_totem_placement_speed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_volatility_explosion_delay  (X_INCREASED_VOLATILITY_EXPLOSION_DELAY)`
+  - `x_increased_volatility_explosion_delay  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_increased_withered_buff_magnitude  (X_INCREASED_WITHERED_BUFF_MAGNITUDE)`
+  - `x_increased_withered_buff_magnitude  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_mana_gain_when_you_block  (X_MANA_GAIN_WHEN_YOU_BLOCK)`
+  - `x_mana_gain_when_you_block  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_max_stacks_of_puppet_master  (X_MAX_STACKS_OF_PUPPET_MASTER)`
+  - `x_max_stacks_of_puppet_master  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_metres_to_dodge_roll_distance_while_surrounded  (X_METRES_TO_DODGE_ROLL_DISTANCE_WHILE_SURROUNDED)`
+  - `x_metres_to_dodge_roll_distance_while_surrounded  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_metres_to_melee_strike_range  (X_METRES_TO_MELEE_STRIKE_RANGE)`
+  - `x_metres_to_melee_strike_range  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_metres_to_melee_strike_range_if_you_ve_dealt_a_projectile_attack_hit_damage_in_the_past_eight_seconds  (X_METRES_TO_MELEE_STRIKE_RANGE_IF_YOU_VE_DEALT_A_PROJECTILE_ATTACK_HIT_DAMAGE_IN_THE_PAST_EIGHT_SECONDS)`
+  - `x_metres_to_melee_strike_range_if_you_ve_dealt_a_projectile_attack_hit_damage_in_the_past_eight_seconds  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_more_damage_against_heavy_stunned_enemies_with_maces  (X_MORE_DAMAGE_AGAINST_HEAVY_STUNNED_ENEMIES_WITH_MACES)`
+  - `x_more_damage_against_heavy_stunned_enemies_with_maces  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_more_skill_speed_while_off_hand_is_empty_and_you_have_a_one_handed_martial_weapon_equipped_in_your_main_hand  (X_MORE_SKILL_SPEED_WHILE_OFF_HAND_IS_EMPTY_AND_YOU_HAVE_A_ONE_HANDED_MARTIAL_WEAPON_EQUIPPED_IN_YOUR_MAIN_HAND)`
+  - `x_more_skill_speed_while_off_hand_is_empty_and_you_have_a_one_handed_martial_weapon_equipped_in_your_main_hand  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_armor_also_applies_to_cold_damage  (X_OF_ARMOR_ALSO_APPLIES_TO_COLD_DAMAGE)`
+  - `x_of_armor_also_applies_to_cold_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_armor_also_applies_to_elemental_damage  (X_OF_ARMOR_ALSO_APPLIES_TO_ELEMENTAL_DAMAGE)`
+  - `x_of_armor_also_applies_to_elemental_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_armor_also_applies_to_elemental_damage_while_shapeshifted  (X_OF_ARMOR_ALSO_APPLIES_TO_ELEMENTAL_DAMAGE_WHILE_SHAPESHIFTED)`
+  - `x_of_armor_also_applies_to_elemental_damage_while_shapeshifted  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_armor_also_applies_to_fire_damage  (X_OF_ARMOR_ALSO_APPLIES_TO_FIRE_DAMAGE)`
+  - `x_of_armor_also_applies_to_fire_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_armor_also_applies_to_lightning_damage  (X_OF_ARMOR_ALSO_APPLIES_TO_LIGHTNING_DAMAGE)`
+  - `x_of_armor_also_applies_to_lightning_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_damage_taken_bypasses_energy_shield  (X_OF_DAMAGE_TAKEN_BYPASSES_ENERGY_SHIELD)`
+  - `x_of_damage_taken_bypasses_energy_shield  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_elemental_damage_taken_recouped_as_energy_shield  (X_OF_ELEMENTAL_DAMAGE_TAKEN_RECOUPED_AS_ENERGY_SHIELD)`
+  - `x_of_elemental_damage_taken_recouped_as_energy_shield  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_max_health_stat_conversion_to_energy_shield  (X_OF_MAX_HEALTH_STAT_CONVERSION_TO_ENERGY_SHIELD)`
+  - `x_of_max_health_stat_conversion_to_energy_shield  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_of_skill_mana_costs_stat_conversion_to_health_costs  (X_OF_SKILL_MANA_COSTS_STAT_CONVERSION_TO_HEALTH_COSTS)`
+  - `x_of_skill_mana_costs_stat_conversion_to_health_costs  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_surpassing_chance_to_gain_a_puppet_master_stack_whenever_you_use_a_command_skill  (X_SURPASSING_CHANCE_TO_GAIN_A_PUPPET_MASTER_STACK_WHENEVER_YOU_USE_A_COMMAND_SKILL)`
+  - `x_surpassing_chance_to_gain_a_puppet_master_stack_whenever_you_use_a_command_skill  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_all_max_elemental_resistances_if_you_have_at_least_x_red_green_and_blue_support_gems_socketed  (X_TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_X_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED)`
+  - `x_to_all_max_elemental_resistances_if_you_have_at_least_x_red_green_and_blue_support_gems_socketed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_chaos_resistance_2  (X_TO_CHAOS_RESISTANCE_2)`
+  - `x_to_chaos_resistance_2  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_critical_hit_chance_of_herald_skills  (X_TO_CRITICAL_HIT_CHANCE_OF_HERALD_SKILLS)`
+  - `x_to_critical_hit_chance_of_herald_skills  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_level_of_all_chaos_skills  (X_TO_LEVEL_OF_ALL_CHAOS_SKILLS)`
+  - `x_to_level_of_all_chaos_skills  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_level_of_all_cold_skills  (X_TO_LEVEL_OF_ALL_COLD_SKILLS)`
+  - `x_to_level_of_all_cold_skills  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_max_block_chance  (X_TO_MAX_BLOCK_CHANCE)`
+  - `x_to_max_block_chance  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_max_lightning_infusions  (X_TO_MAX_LIGHTNING_INFUSIONS)`
+  - `x_to_max_lightning_infusions  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_max_rage  (X_TO_MAX_RAGE)`
+  - `x_to_max_rage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_stun_threshold_per_strength  (X_TO_STUN_THRESHOLD_PER_STRENGTH)`
+  - `x_to_stun_threshold_per_strength  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_thorns_critical_hit_chance  (X_TO_THORNS_CRITICAL_HIT_CHANCE)`
+  - `x_to_thorns_critical_hit_chance  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+
+### 4.2 中缀 `_x_`（中）— 187 条
+  - `X  [java\com\cimdy\coe\data\gen\LangProvider.java]`
+  - `X  [java\com\cimdy\coe\item\gem\UncutGem.java]`
+  - `X  [java\com\cimdy\coe\ui\screen\talent\AbstractTalentTreeScreen.java]`
+  - `add_a_curse_after_channelling_for_x_seconds  (ADD_A_CURSE_AFTER_CHANNELLING_FOR_X_SECONDS)`
+  - `add_a_curse_after_channelling_for_x_seconds  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `allies_in_your_presence_regenerate_x_of_your_max_health_per_second  (ALLIES_IN_YOUR_PRESENCE_REGENERATE_X_OF_YOUR_MAX_HEALTH_PER_SECOND)`
+  - `allies_in_your_presence_regenerate_x_of_your_max_health_per_second  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `archon_recovery_period_expires_x_slower  (ARCHON_RECOVERY_PERIOD_EXPIRES_X_SLOWER)`
+  - `archon_recovery_period_expires_x_slower  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `attack_damage_penetrates_x_of_enemy_elemental_damage_resistances  (ATTACK_DAMAGE_PENETRATES_X_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES)`
+  - `attack_damage_penetrates_x_of_enemy_elemental_damage_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `attacks_gain_x_of_damage_as_extra_chaos_damage  (ATTACKS_GAIN_X_OF_DAMAGE_AS_EXTRA_CHAOS_DAMAGE)`
+  - `attacks_gain_x_of_damage_as_extra_chaos_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `attacks_have_x_to_critical_hit_chance  (ATTACKS_HAVE_X_TO_CRITICAL_HIT_CHANCE)`
+  - `attacks_have_x_to_critical_hit_chance  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `attacks_with_one_handed_martial_weapon_have_x_increased_chance_to_inflict_ailments  (ATTACKS_WITH_ONE_HANDED_MARTIAL_WEAPON_HAVE_X_INCREASED_CHANCE_TO_INFLICT_AILMENTS)`
+  - `attacks_with_one_handed_martial_weapon_have_x_increased_chance_to_inflict_ailments  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `banner_skills_have_x_increased_aura_buff_magnitude  (BANNER_SKILLS_HAVE_X_INCREASED_AURA_BUFF_MAGNITUDE)`
+  - `banner_skills_have_x_increased_aura_buff_magnitude  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `banner_skills_have_x_increased_duration  (BANNER_SKILLS_HAVE_X_INCREASED_DURATION)`
+  - `banner_skills_have_x_increased_duration  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `bleeding_you_inflict_deals_damage_x_faster  (BLEEDING_YOU_INFLICT_DEALS_DAMAGE_X_FASTER)`
+  - `bleeding_you_inflict_deals_damage_x_faster  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `buffs_on_you_expire_x_slower  (BUFFS_ON_YOU_EXPIRE_X_SLOWER)`
+  - `buffs_on_you_expire_x_slower  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `companions_deal_x_increased_damage  (COMPANIONS_DEAL_X_INCREASED_DAMAGE)`
+  - `companions_deal_x_increased_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `companions_have_x_increased_attack_speed  (COMPANIONS_HAVE_X_INCREASED_ATTACK_SPEED)`
+  - `companions_have_x_increased_attack_speed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `consume_all_rage_when_shapeshifting_to_human_form_to_recover_x_of_max_health_per_rage_consumed  (CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_X_OF_MAX_HEALTH_PER_RAGE_CONSUMED)`
+  - `consume_all_rage_when_shapeshifting_to_human_form_to_recover_x_of_max_health_per_rage_consumed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `damage_penetrates_x_elemental_damage_resistances_for_each_time_you_ve_used_a_skill_that_requires_glory_in_the_past_x_seconds  (DAMAGE_PENETRATES_X_ELEMENTAL_DAMAGE_RESISTANCES_FOR_EACH_TIME_YOU_VE_USED_A_SKILL_THAT_REQUIRES_GLORY_IN_THE_PAST_X_SECONDS)`
+  - `damage_penetrates_x_elemental_damage_resistances_for_each_time_you_ve_used_a_skill_that_requires_glory_in_the_past_x_seconds  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `damage_penetrates_x_of_enemy_elemental_resistances  (DAMAGE_PENETRATES_X_OF_ENEMY_ELEMENTAL_RESISTANCES)`
+  - `damage_penetrates_x_of_enemy_elemental_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `damage_penetration_x_elemental_damage_resistances  (DAMAGE_PENETRATION_X_ELEMENTAL_DAMAGE_RESISTANCES)`
+  - `damage_penetration_x_elemental_damage_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `damage_penetration_x_of_enemy_elemental_damage_resistances_while_shapeshifted  (DAMAGE_PENETRATION_X_OF_ENEMY_ELEMENTAL_DAMAGE_RESISTANCES_WHILE_SHAPESHIFTED)`
+  - `damage_penetration_x_of_enemy_elemental_damage_resistances_while_shapeshifted  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `damaging_ailments_deal_damage_x_faster  (DAMAGING_AILMENTS_DEAL_DAMAGE_X_FASTER)`
+  - `damaging_ailments_deal_damage_x_faster  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `defend_with_x_of_armor_against_critical_hits  (DEFEND_WITH_X_OF_ARMOR_AGAINST_CRITICAL_HITS)`
+  - `defend_with_x_of_armor_against_critical_hits  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `empowered_attacks_deal_x_increased_damage  (EMPOWERED_ATTACKS_DEAL_X_INCREASED_DAMAGE)`
+  - `empowered_attacks_deal_x_increased_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `enemies_in_jagged_ground_you_create_take_x_increased_damage  (ENEMIES_IN_JAGGED_GROUND_YOU_CREATE_TAKE_X_INCREASED_DAMAGE)`
+  - `enemies_in_jagged_ground_you_create_take_x_increased_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_additional_stun_threshold_equal_to_x_of_item_armor_on_equipped_armor_items  (GAIN_ADDITIONAL_STUN_THRESHOLD_EQUAL_TO_X_OF_ITEM_ARMOR_ON_EQUIPPED_ARMOR_ITEMS)`
+  - `gain_additional_stun_threshold_equal_to_x_of_item_armor_on_equipped_armor_items  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_physical_thorns_damage_equal_to_x_of_max_health_while_shapeshifted  (GAIN_PHYSICAL_THORNS_DAMAGE_EQUAL_TO_X_OF_MAX_HEALTH_WHILE_SHAPESHIFTED)`
+  - `gain_physical_thorns_damage_equal_to_x_of_max_health_while_shapeshifted  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_energy_shield_when_you_block  (GAIN_X_ENERGY_SHIELD_WHEN_YOU_BLOCK)`
+  - `gain_x_energy_shield_when_you_block  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_of_cold_damage_as_extra_lightning_damage  (GAIN_X_OF_COLD_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE)`
+  - `gain_x_of_cold_damage_as_extra_lightning_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_of_damage_as_extra_chaos_damage  (GAIN_X_OF_DAMAGE_AS_EXTRA_CHAOS_DAMAGE)`
+  - `gain_x_of_damage_as_extra_chaos_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_of_damage_as_extra_cold_damage  (GAIN_X_OF_DAMAGE_AS_EXTRA_COLD_DAMAGE)`
+  - `gain_x_of_damage_as_extra_cold_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_of_damage_as_extra_fire_damage  (GAIN_X_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE)`
+  - `gain_x_of_damage_as_extra_fire_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_of_damage_as_extra_fire_damage_for_every_different_grenade_fired_in_the_past_x_seconds  (GAIN_X_OF_DAMAGE_AS_EXTRA_FIRE_DAMAGE_FOR_EVERY_DIFFERENT_GRENADE_FIRED_IN_THE_PAST_X_SECONDS)`
+  - `gain_x_of_damage_as_extra_fire_damage_for_every_different_grenade_fired_in_the_past_x_seconds  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_of_damage_as_extra_lightning_damage  (GAIN_X_OF_DAMAGE_AS_EXTRA_LIGHTNING_DAMAGE)`
+  - `gain_x_of_damage_as_extra_lightning_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_of_evasion_as_extra_armor  (GAIN_X_OF_EVASION_AS_EXTRA_ARMOR)`
+  - `gain_x_of_evasion_as_extra_armor  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_of_lightning_damage_as_extra_cold_damage  (GAIN_X_OF_LIGHTNING_DAMAGE_AS_EXTRA_COLD_DAMAGE)`
+  - `gain_x_of_lightning_damage_as_extra_cold_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `gain_x_rage_when_you_use_a_health_flask  (GAIN_X_RAGE_WHEN_YOU_USE_A_HEALTH_FLASK)`
+  - `gain_x_rage_when_you_use_a_health_flask  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `grenade_skills_have_x_cooldown_use  (GRENADE_SKILLS_HAVE_X_COOLDOWN_USE)`
+  - `grenade_skills_have_x_cooldown_use  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `grenades_have_x_chance_to_activate_a_second_time  (GRENADES_HAVE_X_CHANCE_TO_ACTIVATE_A_SECOND_TIME)`
+  - `grenades_have_x_chance_to_activate_a_second_time  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `health_flasks_gain_x_charges_per_second  (HEALTH_FLASKS_GAIN_X_CHARGES_PER_SECOND)`
+  - `health_flasks_gain_x_charges_per_second  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `health_leech_health_x_faster  (HEALTH_LEECH_HEALTH_X_FASTER)`
+  - `health_leech_health_x_faster  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `health_leech_health_x_slower  (HEALTH_LEECH_HEALTH_X_SLOWER)`
+  - `health_leech_health_x_slower  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `invocated_skills_have_x_increased_max_energy  (INVOCATED_SKILLS_HAVE_X_INCREASED_MAX_ENERGY)`
+  - `invocated_skills_have_x_increased_max_energy  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `mana_flasks_gain_x_charges_per_second  (MANA_FLASKS_GAIN_X_CHARGES_PER_SECOND)`
+  - `mana_flasks_gain_x_charges_per_second  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_chance_to_inflict_withered_on_hit_damage  (MINIONS_HAVE_X_CHANCE_TO_INFLICT_WITHERED_ON_HIT_DAMAGE)`
+  - `minions_have_x_chance_to_inflict_withered_on_hit_damage  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_increased_area_of_effect  (MINIONS_HAVE_X_INCREASED_AREA_OF_EFFECT)`
+  - `minions_have_x_increased_area_of_effect  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_increased_cast_speed  (MINIONS_HAVE_X_INCREASED_CAST_SPEED)`
+  - `minions_have_x_increased_cast_speed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_increased_critical_hit_chance  (MINIONS_HAVE_X_INCREASED_CRITICAL_HIT_CHANCE)`
+  - `minions_have_x_increased_critical_hit_chance  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_increased_evasion  (MINIONS_HAVE_X_INCREASED_EVASION)`
+  - `minions_have_x_increased_evasion  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_increased_health_recovery_rate  (MINIONS_HAVE_X_INCREASED_HEALTH_RECOVERY_RATE)`
+  - `minions_have_x_increased_health_recovery_rate  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_all_elemental_resistances  (MINIONS_HAVE_X_TO_ALL_ELEMENTAL_RESISTANCES)`
+  - `minions_have_x_to_all_elemental_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_all_max_elemental_resistances  (MINIONS_HAVE_X_TO_ALL_MAX_ELEMENTAL_RESISTANCES)`
+  - `minions_have_x_to_all_max_elemental_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_chaos_resistances  (MINIONS_HAVE_X_TO_CHAOS_RESISTANCES)`
+  - `minions_have_x_to_chaos_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_cold_resistances  (MINIONS_HAVE_X_TO_COLD_RESISTANCES)`
+  - `minions_have_x_to_cold_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_fire_resistances  (MINIONS_HAVE_X_TO_FIRE_RESISTANCES)`
+  - `minions_have_x_to_fire_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_lightning_resistances  (MINIONS_HAVE_X_TO_LIGHTNING_RESISTANCES)`
+  - `minions_have_x_to_lightning_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_max_cold_resistances  (MINIONS_HAVE_X_TO_MAX_COLD_RESISTANCES)`
+  - `minions_have_x_to_max_cold_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_max_fire_resistances  (MINIONS_HAVE_X_TO_MAX_FIRE_RESISTANCES)`
+  - `minions_have_x_to_max_fire_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_have_x_to_max_lightning_resistances  (MINIONS_HAVE_X_TO_MAX_LIGHTNING_RESISTANCES)`
+  - `minions_have_x_to_max_lightning_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_recoup_x_of_damage_taken_as_health  (MINIONS_RECOUP_X_OF_DAMAGE_TAKEN_AS_HEALTH)`
+  - `minions_recoup_x_of_damage_taken_as_health  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_regenerate_x_of_max_health_per_second  (MINIONS_REGENERATE_X_OF_MAX_HEALTH_PER_SECOND)`
+  - `minions_regenerate_x_of_max_health_per_second  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `minions_reviving_x_faster_if_all_your_minions_are_companions  (MINIONS_REVIVING_X_FASTER_IF_ALL_YOUR_MINIONS_ARE_COMPANIONS)`
+  - `minions_reviving_x_faster_if_all_your_minions_are_companions  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `offering_skills_have_x_increased_buff_effect  (OFFERING_SKILLS_HAVE_X_INCREASED_BUFF_EFFECT)`
+  - `offering_skills_have_x_increased_buff_effect  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `plants_have_a_x_chance_to_immediately_overgrow  (PLANTS_HAVE_A_X_CHANCE_TO_IMMEDIATELY_OVERGROW)`
+  - `plants_have_a_x_chance_to_immediately_overgrow  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `projectiles_have_x_chance_to_chain_an_additional_time_from_terrain  (PROJECTILES_HAVE_X_CHANCE_TO_CHAIN_AN_ADDITIONAL_TIME_FROM_TERRAIN)`
+  - `projectiles_have_x_chance_to_chain_an_additional_time_from_terrain  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recoup_x_of_damage_taken_by_your_totems_as_health  (RECOUP_X_OF_DAMAGE_TAKEN_BY_YOUR_TOTEMS_AS_HEALTH)`
+  - `recoup_x_of_damage_taken_by_your_totems_as_health  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_health_when_you_block  (RECOVER_X_HEALTH_WHEN_YOU_BLOCK)`
+  - `recover_x_health_when_you_block  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_health_and_mana_when_you_use_a_warcry  (RECOVER_X_OF_MAX_HEALTH_AND_MANA_WHEN_YOU_USE_A_WARCRY)`
+  - `recover_x_of_max_health_and_mana_when_you_use_a_warcry  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_health_for_each_endurance_charge_consumed  (RECOVER_X_OF_MAX_HEALTH_FOR_EACH_ENDURANCE_CHARGE_CONSUMED)`
+  - `recover_x_of_max_health_for_each_endurance_charge_consumed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_health_per_glory_consumed  (RECOVER_X_OF_MAX_HEALTH_PER_GLORY_CONSUMED)`
+  - `recover_x_of_max_health_per_glory_consumed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_health_when_you_collect_a_remnant  (RECOVER_X_OF_MAX_HEALTH_WHEN_YOU_COLLECT_A_REMNANT)`
+  - `recover_x_of_max_health_when_you_collect_a_remnant  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_health_when_you_create_an_offering  (RECOVER_X_OF_MAX_HEALTH_WHEN_YOU_CREATE_AN_OFFERING)`
+  - `recover_x_of_max_health_when_you_create_an_offering  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_health_when_you_use_a_mana_flask  (RECOVER_X_OF_MAX_HEALTH_WHEN_YOU_USE_A_MANA_FLASK)`
+  - `recover_x_of_max_health_when_you_use_a_mana_flask  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_mana_on_kill  (RECOVER_X_OF_MAX_MANA_ON_KILL)`
+  - `recover_x_of_max_mana_on_kill  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_mana_when_a_charm_is_used  (RECOVER_X_OF_MAX_MANA_WHEN_A_CHARM_IS_USED)`
+  - `recover_x_of_max_mana_when_a_charm_is_used  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_mana_when_you_collect_a_remnant  (RECOVER_X_OF_MAX_MANA_WHEN_YOU_COLLECT_A_REMNANT)`
+  - `recover_x_of_max_mana_when_you_collect_a_remnant  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `recover_x_of_max_mana_when_you_consume_a_power_charge  (RECOVER_X_OF_MAX_MANA_WHEN_YOU_CONSUME_A_POWER_CHARGE)`
+  - `recover_x_of_max_mana_when_you_consume_a_power_charge  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `regenerate_x_of_max_health_per_second  (REGENERATE_X_OF_MAX_HEALTH_PER_SECOND)`
+  - `regenerate_x_of_max_health_per_second  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `regenerate_x_of_max_health_per_second_if_you_have_been_hit_recently  (REGENERATE_X_OF_MAX_HEALTH_PER_SECOND_IF_YOU_HAVE_BEEN_HIT_RECENTLY)`
+  - `regenerate_x_of_max_health_per_second_if_you_have_been_hit_recently  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `regenerate_x_of_max_health_per_second_while_stationary  (REGENERATE_X_OF_MAX_HEALTH_PER_SECOND_WHILE_STATIONARY)`
+  - `regenerate_x_of_max_health_per_second_while_stationary  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `remnants_can_be_collected_from_x_further_away  (REMNANTS_CAN_BE_COLLECTED_FROM_X_FURTHER_AWAY)`
+  - `remnants_can_be_collected_from_x_further_away  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `skills_gain_combo_x_slower  (SKILLS_GAIN_COMBO_X_SLOWER)`
+  - `skills_gain_combo_x_slower  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `skills_have_a_x_chance_to_not_consume_glory  (SKILLS_HAVE_A_X_CHANCE_TO_NOT_CONSUME_GLORY)`
+  - `skills_have_a_x_chance_to_not_consume_glory  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `skills_have_x_chance_to_not_add_elemental_infusions_but_still_count_as_consuming_them  (SKILLS_HAVE_X_CHANCE_TO_NOT_ADD_ELEMENTAL_INFUSIONS_BUT_STILL_COUNT_AS_CONSUMING_THEM)`
+  - `skills_have_x_chance_to_not_add_elemental_infusions_but_still_count_as_consuming_them  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `skills_which_create_fissures_have_a_x_chance_to_create_an_additional_fissure  (SKILLS_WHICH_CREATE_FISSURES_HAVE_A_X_CHANCE_TO_CREATE_AN_ADDITIONAL_FISSURE)`
+  - `skills_which_create_fissures_have_a_x_chance_to_create_an_additional_fissure  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `slam_skills_you_use_yourself_have_x_increased_aftershock_area_of_effect  (SLAM_SKILLS_YOU_USE_YOURSELF_HAVE_X_INCREASED_AFTERSHOCK_AREA_OF_EFFECT)`
+  - `slam_skills_you_use_yourself_have_x_increased_aftershock_area_of_effect  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `thorns_damage_has_x_chance_to_ignore_enemy_armor  (THORNS_DAMAGE_HAS_X_CHANCE_TO_IGNORE_ENEMY_ARMOR)`
+  - `thorns_damage_has_x_chance_to_ignore_enemy_armor  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `totems_gain_x_to_all_max_elemental_resistances  (TOTEMS_GAIN_X_TO_ALL_MAX_ELEMENTAL_RESISTANCES)`
+  - `totems_gain_x_to_all_max_elemental_resistances  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `totems_regenerate_x_of_max_health_per_second  (TOTEMS_REGENERATE_X_OF_MAX_HEALTH_PER_SECOND)`
+  - `totems_regenerate_x_of_max_health_per_second  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `warcries_have_a_minimum_of_x_power  (WARCRIES_HAVE_A_MINIMUM_OF_X_POWER)`
+  - `warcries_have_a_minimum_of_x_power  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x  [java\com\cimdy\coe\data\codec\progression\research\ResearchNodeDef.java]`
+  - `x  [java\com\cimdy\coe\data\codec\talent\TalentNodeDef.java]`
+  - `x  [java\com\cimdy\coe\ui\widget\component\TabBar.java]`
+  - `x  [java\com\cimdy\coe\ui\widget\component\Window.java]`
+  - `x_chance_to_defend_with_x_of_armor  (X_CHANCE_TO_DEFEND_WITH_X_OF_ARMOR)`
+  - `x_chance_to_defend_with_x_of_armor  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_health_per_x_dexterity  (X_HEALTH_PER_X_DEXTERITY)`
+  - `x_health_per_x_dexterity  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+  - `x_to_all_max_elemental_resistances_if_you_have_at_least_x_red_green_and_blue_support_gems_socketed  (X_TO_ALL_MAX_ELEMENTAL_RESISTANCES_IF_YOU_HAVE_AT_LEAST_X_RED_GREEN_AND_BLUE_SUPPORT_GEMS_SOCKETED)`
+  - `x_to_all_max_elemental_resistances_if_you_have_at_least_x_red_green_and_blue_support_gems_socketed  [java\com\cimdy\coe\data\codec\support\stat\StatIds.java]`
+
+### 4.3 后缀 `_x`（末）— 7 条
+  - `X  [java\com\cimdy\coe\data\gen\LangProvider.java]`
+  - `X  [java\com\cimdy\coe\item\gem\UncutGem.java]`
+  - `X  [java\com\cimdy\coe\ui\screen\talent\AbstractTalentTreeScreen.java]`
+  - `x  [java\com\cimdy\coe\data\codec\progression\research\ResearchNodeDef.java]`
+  - `x  [java\com\cimdy\coe\data\codec\talent\TalentNodeDef.java]`
+  - `x  [java\com\cimdy\coe\ui\widget\component\TabBar.java]`
+  - `x  [java\com\cimdy\coe\ui\widget\component\Window.java]`
+
+## 5. JSON / 资源文件字符串中的独立 x
+
+### 5.1 前缀 `x_`（前）— 1 条
+  - `x`
+
+### 5.2 中缀 `_x_`（中）— 1 条
+  - `x`
+
+### 5.3 后缀 `_x`（末）— 4 条
+  - `image_offset_x`
+  - `max_x`
+  - `min_x`
+  - `x`
+
+## 6. 源语料 `{X}` 模板 — 1041 条
+  - `+{X} Charm Slot`
+  - `+{X} Life per {X} Dexterity`
+  - `+{X} maximum Rage if you've used a Skill that Requires Glory in the past {X} seconds`
+  - `+{X} maximum stacks of Puppet Master`
+  - `+{X} metres to Dodge Roll distance while Surrounded`
+  - `+{X} metres to Melee Strike Range`
+  - `+{X} metres to Melee Strike Range if you've dealt a Projectile Attack HitDamage in the past eight seconds`
+  - `+{X} to Accuracy Rating`
+  - `+{X} to Accuracy against Bleeding Enemies`
+  - `+{X} to Ailment Threshold per Dexterity`
+  - `+{X} to Armour`
+  - `+{X} to Armour per {X} Item Energy Shield on Equipped Boots`
+  - `+{X} to Armour while Frozen`
+  - `+{X} to Dexterity`
+  - `+{X} to Dexterity and Intelligence`
+  - `+{X} to Evasion Rating`
+  - `+{X} to Evasion Rating per {X} Item Armour on Equipped Gloves`
+  - `+{X} to Evasion Rating per {X} Item Energy Shield on Equipped Helmet`
+  - `+{X} to Intelligence`
+  - `+{X} to Level of all Chaos Skills`
+  - `+{X} to Level of all Cold Skills`
+  - `+{X} to Maximum Endurance Charges`
+  - `+{X} to Maximum Energy Shield per {X} Item Armour on Equipped Helmet`
+  - `+{X} to Maximum Energy Shield per {X} Item Evasion on Equipped Body Armour`
+  - `+{X} to Maximum Frenzy Charges`
+  - `+{X} to Maximum Power Charges`
+  - `+{X} to Maximum Rage`
+  - `+{X} to Maximum Rage while wielding an Axe`
+  - `+{X} to Strength`
+  - `+{X} to Strength and Dexterity`
+  - `+{X} to Strength and Intelligence`
+  - `+{X} to Stun Threshold per Dexterity`
+  - `+{X} to Stun Threshold per Strength`
+  - `+{X} to all Attributes`
+  - `+{X} to any Attributes`
+  - `+{X} to maximum Cold Infusions`
+  - `+{X} to maximum Energy Shield`
+  - `+{X} to maximum Fire Infusions`
+  - `+{X} to maximum Life`
+  - `+{X} to maximum Lightning Infusions`
+  - `+{X} to maximum Mana`
+  - `+{X} to maximum Rage while Shapeshifted`
+  - `+{X} to maximum number of Elemental Infusions`
+  - `+{X} to maximum number of placed Banners`
+  - `+{X}% SurpassChance chance to fire an additional Arrow`
+  - `+{X}% SurpassChance chance to fire an additional Projectile`
+  - `+{X}% of Armour also applies to Chaos Damage`
+  - `+{X}% of Armour also applies to Cold Damage`
+  - `+{X}% of Armour also applies to Elemental Damage`
+  - `+{X}% of Armour also applies to Elemental Damage while Shapeshifted`
+  - `+{X}% of Armour also applies to Fire Damage`
+  - `+{X}% of Armour also applies to Lightning Damage`
+  - `+{X}% to Chaos Resistance`
+  - `+{X}% to Cold Resistance`
+  - `+{X}% to Critical Damage Bonus against Stunned Enemies`
+  - `+{X}% to Critical Hit Chance of Herald Skills`
+  - `+{X}% to Fire Resistance`
+  - `+{X}% to Lightning Resistance`
+  - `+{X}% to Maximum Cold Resistance`
+  - `+{X}% to Maximum Cold Resistance if you have at least {X} Blue Support Gems Socketed`
+  - `+{X}% to Maximum Cold Resistance while Shapeshifted`
+  - `+{X}% to Maximum Fire Resistance if you have at least {X} Red Support Gems Socketed`
+  - `+{X}% to Maximum Fire Resistance while Ignited`
+  - `+{X}% to Maximum Fire Resistance while Shapeshifted`
+  - `+{X}% to Maximum Lightning Resistance`
+  - `+{X}% to Maximum Lightning Resistance if you have at least {X} Green Support Gems Socketed`
+  - `+{X}% to Maximum Lightning Resistance while Shapeshifted`
+  - `+{X}% to Maximum Resistances of each ElementalDamage Damage Type you have been HitDamage with Recently`
+  - `+{X}% to Thorns Critical Hit Chance`
+  - `+{X}% to all ElementalDamage Resistances`
+  - `+{X}% to all Maximum Elemental Resistances if you have at least {X} Red, Green and Blue Support Gems Socketed`
+  - `+{X}% to maximum Block chance`
+  - `-{X}% to Chaos Resistance`
+  - `-{X}% to all ElementalDamage Resistances`
+  - `-{X}% to amount of HitDamage Prevented by Deflection`
+  - `Allies in your Presence Regenerate {X} Rage per second if you have gain Rage Recently`
+  - `Allies in your Presence Regenerate {X}% of your Maximum Life per second`
+  - `Allies in your Presence deal {X}% increased Damage`
+  - `Allies in your Presence have +{X} to Accuracy Rating`
+  - `Allies in your Presence have {X}% increased Attack Speed`
+  - `Allies in your Presence have {X}% increased Cast Speed`
+  - `Allies in your Presence have {X}% increased Critical Hit Chance`
+  - `Allies in your Presence have {X}% increased Glory generation`
+  - `Ancestrally Boosted Attacks deal {X}% increased Damage`
+  - `Apply Debilitate to Enemies {X} Metres in front of you while your Shield is raised`
+  - `Archon Buffs also grant +{X}% to all ElementalDamage Resistances`
+  - `Archon Buffs also grant {X}% increased Critical Damage Bonus`
+  - `Archon Buffs also grant {X}% increased Critical Hit Chance`
+  - `Archon Buffs also grant {X}% increased Movement Speed`
+  - `Archon recovery period expires {X}% faster`
+  - `Archon recovery period expires {X}% slower`
+  - `Area Skills have {X}% chance to Knock Enemies Back on HitDamage`
+  - `ArmourBreak Armour on Critical Hit with Spells equal to {X}% of Physical Damage dealt`
+  - `ArmourBreak {X}% increased Armour`
+  - `ArmourBreak {X}% of Armour on Heavy Stunning an Enemy`
+  - `ArmourBreak {X}% of Armour on Pinning an Enemy`
+  - `Arrows gain Critical Hit Chance as they travel farther, up to {X}% increased Critical Hit Chance after {X} metres`
+  - `Attack Damage Penetrates {X}% of Enemy ElementalDamage Resistances`
+  - `Attack HitDamage Aggravate any Bleeding on targets which is older than {X} seconds`
+  - `Attack Skills deal {X}% increased Damage while holding a Shield`
+  - `Attack Skills have +{X} to maximum number of Summoned Ballista Totems`
+  - `Attacks gain {X}% of Damage as extra Chaos Damage`
+  - `Attacks have +{X}% to Critical Hit Chance`
+  - `Attacks have {X}% chance to Maim on HitDamage`
+  - `Attacks used by Ballistas have {X}% increased Attack Speed`
+  - `Attacks used by Totems have {X}% increased Attack Speed`
+  - `Attacks used by Totems have {X}% increased Attack Speed per Summoned Totem`
+  - `Attacks with One-Handed MartialWeapon have {X}% increased Chance to inflict Ailments`
+  - `Aura Skills have {X}% increased BuffMagnitude`
+  - `Banner Buffs linger on you for {X} seconds after you leave the Area`
+  - `Banner Skills have {X}% increased Area of Effect`
+  - `Banner Skills have {X}% increased Aura BuffMagnitude`
+  - `Banner Skills have {X}% increased Duration`
+  - `Banners also grant +{X}% to all ElementalDamage Resistances affected targets`
+  - `Base Bleeding Duration is {X} second`
+  - `Bleeding you inflict deals Damage {X}% faster`
+  - `Bolts fired by Crossbow Attacks have {X}% chance to not expend Ammunition if you've Reloaded Recently`
+  - `Buffs on you expire {X}% slower`
+  - `Burning Enemies you kill have a {X}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage`
+  - `Channelling Skills deal {X}% increased Damage`
+  - `Charms applied to you have {X}% increased Effect`
+  - `Charms gain {X} charges per Second`
+  - `Companions deal {X}% increased Damage`
+  - `Companions deal {X}% increased damage against Immobilised enemies`
+  - `Companions gain {X}% Damage as extra Chaos Damage`
+  - `Companions gain {X}% Damage as extra Cold Damage`
+  - `Companions have +{X}% to Chaos Resistances`
+  - `Companions have +{X}% to all Elemental Resistances`
+  - `Companions have a {X}% chance to Poison on HitDamage`
+  - `Companions have {X}% chance to gain Onslaught on Kill`
+  - `Companions have {X}% increased Area of Effect`
+  - `Companions have {X}% increased Attack Speed`
+  - `Companions have {X}% increased Movement Speed`
+  - `Companions have {X}% increased maximum Life`
+  - `Consume all Rage when Shapeshifting to Human form to recover {X}% of maximum life per Rage Consumed`
+  - `Consuming Glory grants you {X}% increased Attack damage per Glory consumed for {X} seconds, up to {X}%`
+  - `Critical Hits with Daggers have a {X}% chance to Poison the Enemy`
+  - `Damage Penetrates {X}% ElementalDamage Resistances for each time you've used a Skill that Requires Glory in the past {X} seconds`
+  - `Damage Penetrates {X}% of Enemy Elemental Resistances`
+  - `Damage Penetration {X}% Cold Resistance`
+  - `Damage Penetration {X}% ElementalDamage Resistances`
+  - `Damage Penetration {X}% Fire Resistance`
+  - `Damage Penetration {X}% Lightning Resistance`
+  - `Damage Penetration {X}% Lightning Resistances if on Low Mana`
+  - `Damage Penetration {X}% of Enemy ElementalDamage Resistances while Shapeshifted`
+  - `Damaging Ailments deal damage {X}% faster`
+  - `Debuffs inflicted by Hazards have {X}% increased Slow Magnitude`
+  - `Debuffs on you expire {X}% faster`
+  - `Debuffs you inflict have {X}% increased Slow Magnitude`
+  - `Defend with {X}% of Armour against Critical Hits`
+  - `Defend with {X}% of Armour against HitDamage from Enemies that are further than {X}m away`
+  - `Defend with {X}% of Armour against Projectile Attacks`
+  - `Defend with {X}% of Armour while not on Low Energy Shield`
+  - `Detonator skills have {X}% increased Area of Effect`
+  - `Detonator skills have {X}% increased damage`
+  - `Each Totem applies {X}% increased Damage taken to Enemies in their Presence`
+  - `Echoed Spells have {X}% increased Area of Effect`
+  - `Empowered Attacks deal {X}% increased Damage`
+  - `Empowered Attacks gain {X}% of Damage as Extra Cold Damage`
+  - `Empowered Attacks gain {X}% of Physical Damage as Extra Fire damage`
+  - `Empowered Attacks have {X}% increased Stun Buildup`
+  - `Enemies Blinded by you have {X}% increased Critical Hit Chance`
+  - `Enemies Freeze by you have -{X}% to Cold Resistance`
+  - `Enemies Frozen by you take {X}% increased Cold Damage`
+  - `Enemies Ignited by you have -{X}% to Fire Resistances`
+  - `Enemies Ignited by you permanently take {X}% increased Fire Damage for each second they have ever been Ignited by you, up to a maximum of {X}%`
+  - `Enemies affected by your Hazards Recently have {X}% increased Armour`
+  - `Enemies affected by your Hazards Recently have {X}% increased Evasion Rating`
+  - `Enemies are Intimidated for {X} seconds when you Immobilised them`
+  - `Enemies are Maimed for {X} seconds after becoming Unpinned`
+  - `Enemies in Jagged Ground you create take {X}% increased Damage`
+  - `Enemies in your Presence have {X}% increased Cooldown Recovery Rate`
+  - `Enemies in your Presence have {X}% increased Life Regeneration rate`
+  - `Enemies you Curse are Hindered, with {X}% increased Movement Speed`
+  - `Enemies you Curse have -{X}% to Chaos Resistances`
+  - `Enemies you Electrocute have {X}% increased Damage taken`
+  - `Enemies you Heavy Stun while Shapeshifted are Intimidated for {X} seconds`
+  - `Enemies you Mark have {X}% increased Accuracy Rating`
+  - `Enemies you Mark take {X}% increased Damage`
+  - `Enemies you apply Incision to take {X}% increased Physical Damage per Incision`
+  - `Enemies you kill with Empowered Attacks have a {X}% chance to Explode, dealing a tenth of their maximum Life as Fire Damage`
+  - `Equipment and Skill Gems have {X}% increased Attributes Requirements`
+  - `Every Rage also grants you {X}% increased Minion Damage`
+  - `Every Rage also grants {X}% increased Armour`
+  - `Every Rage also grants {X}% increased Fire Damage`
+  - `Every Rage also grants {X}% increased Spell Damage`
+  - `Every Rage also grants {X}% increased Stun Threshold`
+  - `Every five Rage also grants you {X}% increased Minion Attack Speed`
+  - `Every {X} Rage also grants {X}% increased Physical Damage`
+  - `Exposure you inflict lowers Resistances by an additional {X}%`
+  - `Fire Spells Conversion {X}% of Fire Damage to Chaos Damage`
+  - `Fissure Skills have +{X} to Limit`
+  - `Grenade Skills have +{X} Cooldown Use`
+  - `Grenades have {X}% chance to activate a second time`
+  - `Hazards have {X}% chance to rearm after they are triggered`
+  - `Herald Skills deal {X}% increased Damage`
+  - `Herald Skills have {X}% increased Area of Effect`
+  - `HitDamage ArmourBreak {X}% increased Armour on targets with Ailments`
+  - `HitDamage against you have {X}% increased Critical Damage Bonus`
+  - `HitDamage have {X}% chance to treat Enemy Monster ElementalDamage Resistances values as inverted`
+  - `HitDamage have {X}% increased Critical Hit Chance against you`
+  - `Ignites you inflict deal Damage {X}% faster`
+  - `Inherent Rage loss starts {X} second later`
+  - `Inherent loss of Rage is {X}% slower`
+  - `Invocated Spells deal {X}% increased Damage`
+  - `Invocated Spells have {X}% chance to consume half as much Energy`
+  - `Invocated Spells have {X}% increased Critical Hit Chance`
+  - `Invocated skills have {X}% increased Maximum Energy`
+  - `Invocation Skills instead Trigger Spells every {X} seconds`
+  - `Invocation Spells have {X}% increased Critical Damage Bonus`
+  - `Invoked Spells consume {X}% more Energy`
+  - `Leech Life {X}% more quickly`
+  - `Life Flasks applied to you grant Guard for {X} seconds equal to {X}% of the Life Recovery per Second they apply`
+  - `Life Flasks gain {X} charges per Second`
+  - `LifeLeech Life {X}% faster`
+  - `LifeLeech Life {X}% slower`
+  - `LifeLoss {X}% of maximum Life and Energy Shield when you use a Chaos Skill`
+  - `Mana Flasks gain {X} charges per Second`
+  - `Mark Skills have {X}% increased Skill Effect Duration`
+  - `Mark Skills have {X}% increased Use Speed`
+  - `Maximum Life is {X}`
+  - `Maximum Volatility is {X}`
+  - `Melee Attack Skills have +{X} to maximum number of Summoned Totems`
+  - `Meta Skills gain {X}% increased Energy`
+  - `Meta Skills gain {X}% increased Energy if you've dealt a Critical HitDamage Recently`
+  - `Meta Skills have {X}% increased Reservation Efficiency`
+  - `Minions Break Armour equal to {X}% of Physical damage dealt`
+  - `Minions Recoup {X}% of Damage taken as Life`
+  - `Minions Regenerate {X}% of maximum Life per second`
+  - `Minions Reviving {X}% faster`
+  - `Minions Reviving {X}% faster if all your Minions are Companions`
+  - `Minions cause {X}% increased Stun Buildup`
+  - `Minions deal {X}% increased Damage`
+  - `Minions deal {X}% increased Damage if you've HitDamage Recently`
+  - `Minions deal {X}% increased Damage with Command Skills`
+  - `Minions deal {X}% increased Damage with Command Skills for each different type of Persistent Minion in your Presence`
+  - `Minions gain {X}% of Elemental Damage as Extra Chaos Damage`
+  - `Minions gain {X}% of Physical Damage as Chaos Damage`
+  - `Minions gain {X}% of their maximum Life as Extra maximum Energy Shield`
+  - `Minions have +{X}% to Chaos Resistances`
+  - `Minions have +{X}% to Cold Resistances`
+  - `Minions have +{X}% to Fire Resistances`
+  - `Minions have +{X}% to Lightning Resistances`
+  - `Minions have +{X}% to Maximum Cold Resistances`
+  - `Minions have +{X}% to Maximum Fire Resistances`
+  - `Minions have +{X}% to Maximum Lightning Resistances`
+  - `Minions have +{X}% to all Elemental Resistances`
+  - `Minions have +{X}% to all Maximum Elemental Resistances`
+  - `Minions have {X}% additional Physical Damage Reduction`
+  - `Minions have {X}% chance to inflict Withered on HitDamage`
+  - `Minions have {X}% increased Area of Effect`
+  - `Minions have {X}% increased Attack Speed`
+  - `Minions have {X}% increased Attack and Cast Speed`
+  - `Minions have {X}% increased Cast Speed`
+  - `Minions have {X}% increased Cooldown Recovery Rate`
+  - `Minions have {X}% increased Cooldown Recovery Rate for Command Skills`
+  - `Minions have {X}% increased Critical Damage Bonus`
+  - `Minions have {X}% increased Critical Hit Chance`
+  - `Minions have {X}% increased Evasion Rating`
+  - `Minions have {X}% increased Life Recovery rate`
+  - `Minions have {X}% increased Movement Speed`
+  - `Minions have {X}% increased maximum Life`
+  - `Non-Minion Skills have {X}% more Reservation Efficiency`
+  - `Offering Skills have {X}% increased Area of Effect`
+  - `Offering Skills have {X}% increased Buff effect`
+  - `Offering Skills have {X}% increased Duration`
+  - `Offerings have {X}% increased Maximum Life`
+  - `Orb Skills have +{X} to Limit`
+  - `Overgrown Plant Skills ArmourBreak {X}% increased Armour`
+  - `Parry has {X}% increased Stun Buildup`
+  - `Plants have a {X}% chance to immediately Overgrow`
+  - `Prevent +{X}% of Damage from Deflected Critical HitDamage`
+  - `Prevent +{X}% of Damage from Deflected HitDamage`
+  - `Projectile Attacks have a {X}% chance to fire two additional Projectiles while moving`
+  - `Projectiles deal {X}% increased Damage against Heavy Stunned Enemies`
+  - `Projectiles deal {X}% increased Damage with Hits against Enemies further than {X}m`
+  - `Projectiles deal {X}% increased Damage with Hits against Enemies within {X}m`
+  - `Projectiles have {X}% chance for an additional Projectile when Forking`
+  - `Projectiles have {X}% chance to Chain an additional time from terrain`
+  - `Projectiles have {X}% chance to Fork if you've dealt a Melee HitDamage in the past eight seconds`
+  - `Projectiles have {X}% increased Critical Damage Bonus against Enemies further than {X}m`
+  - `Projectiles have {X}% increased Critical Damage Bonus against Enemies within {X}m`
+  - `Projectiles have {X}% increased Critical Hit Chance against Enemies further than {X}m`
+  - `Recoup {X}% of damage taken by your Totems as Life`
+  - `Recover {X} Life when you Block`
+  - `Recover {X}% of Maximum Life when you collect a Remnant`
+  - `Recover {X}% of Maximum Mana when you collect a Remnant`
+  - `Recover {X}% of maximum Life and Mana when you use a Warcry`
+  - `Recover {X}% of maximum Life for each Endurance Charge consumed`
+  - `Recover {X}% of maximum Life on Kill`
+  - `Recover {X}% of maximum Life on Killing a Poisoned Enemy`
+  - `Recover {X}% of maximum Life per Glory consumed`
+  - `Recover {X}% of maximum Life when one of your Minions is Reviving`
+  - `Recover {X}% of maximum Life when you Heavy Stun a Rare or Unique Enemy`
+  - `Recover {X}% of maximum Life when you create an Offering`
+  - `Recover {X}% of maximum Life when you use a Mana Flask`
+  - `Recover {X}% of maximum Mana on Kill`
+  - `Recover {X}% of maximum Mana when a Charm is used`
+  - `Recover {X}% of maximum Mana when you consume a Power Charge`
+  - `Regenerate {X} Rage per second per {X} Rage spent Recently`
+  - `Regenerate {X}% of maximum Life over {X} second when Stunned`
+  - `Regenerate {X}% of maximum Life per Second if you've used a Life Flask in the past {X} seconds`
+  - `Regenerate {X}% of maximum Life per second`
+  - `Regenerate {X}% of maximum Life per second if you have been Hit Recently`
+  - `Regenerate {X}% of maximum Life per second while Surrounded`
+  - `Regenerate {X}% of maximum Life per second while affected by any Damaging Ailment`
+  - `Regenerate {X}% of maximum Life per second while on Low Life`
+  - `Regenerate {X}% of maximum Life per second while stationary`
+  - `Regenerate {X}% of maximum Life per second while you have a Totem`
+  - `Remnants can be collected from {X}% further away`
+  - `Remnants you create have {X}% increased effect`
+  - `Sealed Skills have {X}% increased Seal gain frequency`
+  - `Shapeshift Skills have {X}% increased Skill Effect Duration`
+  - `Shocking HitDamage have a {X}% chance to also Shock enemies in a {X} metre radius`
+  - `Skills deal {X}% increased Damage per Combo consumed, up to {X}%`
+  - `Skills gain Combo {X}% slower`
+  - `Skills gain {X} Glory every {X} seconds for each Rare or Unique monster in your Presence`
+  - `Skills have a {X}% chance to not consume Glory`
+  - `Skills have {X}% chance to not add Charges but still count as consuming them`
+  - `Skills have {X}% chance to not add Elemental Infusions but still count as consuming them`
+  - `Skills which create Fissures have a {X}% chance to create an additional Fissure`
+  - `Slam Skills you use yourself have {X}% increased Aftershock Area of Effect`
+  - `Spell Skills have {X}% increased Area of Effect`
+  - `Spells Cast by Totems have {X}% increased Cast Speed`
+  - `Spells Cast by Totems have {X}% increased Cast Speed per Summoned Totem`
+  - `Spells gain {X}% of Damage as extra Chaos Damage`
+  - `StatConversion {X}% of maximum Energy Shield to maximum Mana`
+  - `Storm and Plant Spells: • deal {X}% more damage • cost {X}% more • have {X}% more duration`
+  - `Strike Skills you use yourself with Maces have {X}% chance to deal Splash Damage`
+  - `Stun Threshold is based on {X}% of your Energy Shield instead of Life`
+  - `Successfully Parrying a Melee HitDamage grants {X}% increased Damage to your next Ranged Attack`
+  - `Successfully Parrying a Projectile HitDamage grants {X}% increased Damage to your next Melee Attack`
+  - `Take {X}% more Damage from Hits while Dodge Rolling`
+  - `Take {X}% more Damage over Time if you haven't started taking Damage over Time in the past second`
+  - `Take {X}% more Damage over Time if you've started taking Damage over Time in the past second`
+  - `Targets Cursed by you have {X}% increased Life Regeneration Rate`
+  - `Targets can be affected by +{X} of your Poisons at the same time`
+  - `Temporary Minion Skills have +{X} to Limit of Minions summoned`
+  - `The next Attack you use within {X} seconds after Heavy Stunning a Rare or Unique Enemy is Ancestrally Boosted`
+  - `Thorns Damage has {X}% chance to ignore Enemy Armour`
+  - `Totems Regenerate {X}% of maximum Life per second`
+  - `Totems gain +{X}% to all Elemental Resistances`
+  - `Totems gain +{X}% to all Maximum Elemental Resistances`
+  - `Totems have {X}% additional Physical Damage Reduction`
+  - `Totems reserve {X} Spirit each`
+  - `Triggered Spells deal {X}% increased Spell Damage`
+  - `Unarmed Attacks that would use an Equipped Quarterstaff's damage have: • Base UnarmedDamage Physical damage replaced with damage based on their Skill Level • {X}% more Attack Speed per {X} Item Evasion on Equipped Armour Items • +{X}% to Critical Hit Chance per {X} Item Energy Shield on Equipped Armour Items`
+  - `Unwithered enemies are Withered for {X} seconds when they enter your Presence`
+  - `Volatile Power also grants {X}% increased Critical Hit chance per Volatility exploded`
+  - `Warcries have a minimum of {X} Power`
+  - `Warcries have {X}% chance to Empowered {X} additional Attacks`
+  - `Warcries inflict {X} Critical Weakness on Enemies`
+  - `Warcry Skills have {X}% increased Area of Effect`
+  - `When a Banner expires, recover {X}% of the Glory required for that Banner`
+  - `When you Shapeshift to Human form, gain {X}% increased Spell Damage per second you were Shapeshifted, up to a maximum of {X}%, for {X} seconds`
+  - `Your Curses have {X}% increased BuffMagnitude if {X}% of Curse Duration expired`
+  - `Your Heavy Stun buildup empties {X}% faster`
+  - `Your Heavy Stun buildup empties {X}% faster if you've successfully Parried Recently`
+  - `add a Curse after Channelling for {X} seconds`
+  - `add {X} to {X} Lightning damage to Attacks`
+  - `gain Arcane Surge when you Shapeshift to Human form after being Shapeshifted for at least {X} seconds`
+  - `gain Armour equal to {X}% of total Strength Requirements of Equipped Boots, Gloves and Helmet`
+  - `gain Deflection Rating equal to {X}% of Evasion Rating`
+  - `gain Elemental Archon after spending {X}% of your Maximum Mana`
+  - `gain Physical Thorns damage equal to {X}% of Item Armour on Equipped Body Armour`
+  - `gain Physical Thorns damage equal to {X}% of maximum Life while Shapeshifted`
+  - `gain additional Ailment Threshold equal to {X}% of maximum Energy Shield`
+  - `gain additional Stun Threshold equal to {X}% of Item Armour on Equipped Armour Items`
+  - `gain additional Stun Threshold equal to {X}% of maximum Energy Shield`
+  - `gain {X} Energy Shield when you Block`
+  - `gain {X} Life per enemy killed`
+  - `gain {X} Rage on Melee Axe HitDamage`
+  - `gain {X} Rage on Melee HitDamage`
+  - `gain {X} Rage when HitDamage by an Enemy`
+  - `gain {X} Rage when you use a Life Flask`
+  - `gain {X} Rage when your HitDamage Ignites a target`
+  - `gain {X} Volatility when an Allies Persistent Reviving Minion is MinionDeath`
+  - `gain {X}% of Cold Damage as Extra Fire Damage against Freeze Enemies`
+  - `gain {X}% of Cold damage as Extra Lightning damage`
+  - `gain {X}% of Damage as Extra Chaos Damage`
+  - `gain {X}% of Damage as Extra Cold Damage`
+  - `gain {X}% of Damage as Extra Cold Damage while Shapeshifted`
+  - `gain {X}% of Damage as Extra Cold Damage while on Chilled Ground`
+  - `gain {X}% of Damage as Extra Damage of a random ElementalDamage while Shapeshifted`
+  - `gain {X}% of Damage as Extra Fire Damage`
+  - `gain {X}% of Damage as Extra Fire Damage for every different Grenade fired in the past {X} seconds`
+  - `gain {X}% of Damage as Extra Fire Damage per Endurance Charge consumed Recently`
+  - `gain {X}% of Damage as Extra Fire Damage while Shapeshifted`
+  - `gain {X}% of Damage as Extra Fire Damage while on Ignited Ground`
+  - `gain {X}% of Damage as Extra Lightning Damage`
+  - `gain {X}% of Damage as Extra Lightning Damage while Shapeshifted`
+  - `gain {X}% of Damage as Extra Lightning Damage while on Shocked Ground`
+  - `gain {X}% of Damage as Extra Physical Damage`
+  - `gain {X}% of Elemental Damage as Extra Cold Damage`
+  - `gain {X}% of Elemental Damage as Extra Fire Damage`
+  - `gain {X}% of Elemental Damage as Extra Lightning Damage`
+  - `gain {X}% of Evasion Rating as extra Armour`
+  - `gain {X}% of Lightning damage as Extra Cold damage`
+  - `gain {X}% of Physical Damage as Extra Cold Damage against Dazed Enemies`
+  - `gain {X}% of Physical Damage as Extra Cold Damage against Shocked Enemies`
+  - `gain {X}% of Physical Damage as Extra Fire Damage`
+  - `gain {X}% of Physical Damage as Extra Fire Damage against Heavy Stunned Enemies`
+  - `gain {X}% of Physical Damage as Extra Lightning Damage`
+  - `gain {X}% of Physical Damage as Extra Lightning Damage against Chilled Enemies`
+  - `gain {X}% of Physical Damage as Extra Lightning Damage against Dazed Enemies`
+  - `gain {X}% of Physical Damage as Extra Lightning Damage against Electrocuted Enemies`
+  - `gain {X}% of Physical Damage as extra Chaos Damage`
+  - `gain {X}% of maximum Energy Shield as additional Freeze Threshold`
+  - `{X} Life gain when you Block`
+  - `{X} Mana gain when you Block`
+  - `{X}% Chance to build an additional Combo on HitDamage`
+  - `{X}% Surpassing Chance to gain a Puppet Master stack whenever you use a Command Skill`
+  - `{X}% chance for Attack HitDamage to apply Incision`
+  - `{X}% chance for Attack HitDamage to apply ten Incision`
+  - `{X}% chance for Attacks to Maim on HitDamage against Poisoned Enemies`
+  - `{X}% chance for Bleeding to be Aggravated when Inflicted against Enemies on Jagged Ground`
+  - `{X}% chance for Charms you use to not consume Charges`
+  - `{X}% chance for Damage of Enemies HitDamage you to be Unlucky`
+  - `{X}% chance for Damage with HitDamage to be Lucky`
+  - `{X}% chance for Flasks you use to not consume Charges`
+  - `{X}% chance for Lightning Damage with HitDamage to be Lucky`
+  - `{X}% chance for Lightning Skills to Chain an additional time`
+  - `{X}% chance for Mace Slam Skills you use yourself to cause an additional Aftershock`
+  - `{X}% chance for Projectiles to Pierce Enemies within {X}m distance of you`
+  - `{X}% chance for Remnants you create to grant their effects twice`
+  - `{X}% chance for Shapeshift Slam Skills you use yourself to cause an additional Aftershock`
+  - `{X}% chance for Slam Skills to cause an additional Aftershock`
+  - `{X}% chance for Slam Skills you use yourself to cause an additional Aftershock`
+  - `{X}% chance for Spell Skills to fire {X} additional Projectiles`
+  - `{X}% chance for Trigger skills to refund half of Energy Spent`
+  - `{X}% chance on Consuming a Shock on an Enemy to reapply it`
+  - `{X}% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges`
+  - `{X}% chance that if you would gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges`
+  - `{X}% chance that if you would gain Power Charges, you instead gain up to your maximum number of Power Charges`
+  - `{X}% chance that if you would gain Rage on HitDamage, you instead gain up to your maximum Rage`
+  - `{X}% chance that when Volatility on you explodes, you regain an equivalent amount of Volatility`
+  - `{X}% chance to Aggravate Bleeding on targets you Critically Hit with Attacks`
+  - `{X}% chance to Aggravate Bleeding on targets you HitDamage with Attacks`
+  - `{X}% chance to Aggravate Bleeding on targets you HitDamage with Empowered Attacks`
+  - `{X}% chance to Avoid Death from HitDamage`
+  - `{X}% chance to Blind Enemies on HitDamage`
+  - `{X}% chance to Blind Enemies on HitDamage with Attacks`
+  - `{X}% chance to Daze Enemies whose HitDamage you Block with a raised Shield`
+  - `{X}% chance to Daze on HitDamage`
+  - `{X}% chance to Defend with {X}% of Armour`
+  - `{X}% chance to Hinder Enemies on Hit with Spells`
+  - `{X}% chance to Impale on Spell HitDamage`
+  - `{X}% chance to Knock Back Bleeding Enemies with HitDamage`
+  - `{X}% chance to Knock Enemies Back with HitDamage at Close Range`
+  - `{X}% chance to Pierce an Enemy`
+  - `{X}% chance to Poison on HitDamage`
+  - `{X}% chance to Poison on HitDamage against Enemies that are not Poisoned`
+  - `{X}% chance to Recover all Life when you Kill an Enemy`
+  - `{X}% chance to create an additional Remnant`
+  - `{X}% chance to gain Arcane Surge when you deal a Critical Hit`
+  - `{X}% chance to gain Archon of Undeath when you use a Command skill`
+  - `{X}% chance to gain Onslaught on Killing Blow with Axes`
+  - `{X}% chance to gain Volatility on Kill`
+  - `{X}% chance to gain Volatility when you are Stunned`
+  - `{X}% chance to inflict Bleeding on Critical Hit with Attacks`
+  - `{X}% chance to inflict Bleeding on HitDamage`
+  - `{X}% chance to inflict Daze with HitDamage against Enemies further than {X}m`
+  - `{X}% chance to not destroy Corpses when Consuming Corpses`
+  - `{X}% chance when a Charm is used to use another Charm without consuming Charges`
+  - `{X}% chance when collecting an Elemental Infusion to gain an additional Elemental Infusion of the same type`
+  - `{X}% chance when you Reload a Crossbow to be immediate`
+  - `{X}% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge`
+  - `{X}% chance when you gain a Power Charge to gain an additional Power Charge`
+  - `{X}% chance when you gain an Endurance Charge to gain an additional Endurance Charge`
+  - `{X}% faster Curse Activation`
+  - `{X}% faster start of Energy Shield Recharge`
+  - `{X}% faster start of Energy Shield Recharge if you've been Stunned Recently`
+  - `{X}% faster start of Energy Shield Recharge when not on Full Life`
+  - `{X}% faster start of Energy Shield Recharge while Shapeshifted`
+  - `{X}% faster start of Energy Shield Recharge while affected by an Archon Buff`
+  - `{X}% faster start of inherent Rage loss`
+  - `{X}% increased Accuracy Rating`
+  - `{X}% increased Accuracy Rating against Rare or Unique Enemies`
+  - `{X}% increased Accuracy Rating at Close Range`
+  - `{X}% increased Accuracy Rating while Dual Wielding`
+  - `{X}% increased Accuracy Rating while Shapeshifted`
+  - `{X}% increased Accuracy Rating while Surrounded`
+  - `{X}% increased Accuracy Rating while moving`
+  - `{X}% increased Accuracy Rating with Bows`
+  - `{X}% increased Accuracy Rating with One Handed Melee Weapons`
+  - `{X}% increased Accuracy Rating with Quarterstaves`
+  - `{X}% increased Accuracy Rating with Spears`
+  - `{X}% increased Accuracy Rating with Two Handed Melee Weapons`
+  - `{X}% increased AilmentThreshold and StunThreshold Threshold while Surrounded`
+  - `{X}% increased Archon Buff duration`
+  - `{X}% increased Area Damage`
+  - `{X}% increased Area of Effect`
+  - `{X}% increased Area of Effect for Attacks`
+  - `{X}% increased Area of Effect for Attacks per Enemy you've Ignited in the last {X} seconds, up to {X}%`
+  - `{X}% increased Area of Effect for Skills used by Totems`
+  - `{X}% increased Area of Effect if you have Stunned an Enemy Recently`
+  - `{X}% increased Area of Effect if you've Killed Recently`
+  - `{X}% increased Area of Effect if you've Stunned an Enemy with a Two Handed Melee Weapon Recently`
+  - `{X}% increased Area of Effect of Ancestrally Boosted Attacks`
+  - `{X}% increased Area of Effect of Curses`
+  - `{X}% increased Area of Effect while you have Arcane Surge`
+  - `{X}% increased Area of Effect while you have a Totem`
+  - `{X}% increased Armour`
+  - `{X}% increased Armour Break Duration`
+  - `{X}% increased Armour Break taken`
+  - `{X}% increased Armour and Evasion Rating`
+  - `{X}% increased Armour and Evasion Rating per Summoned Totem in your Presence`
+  - `{X}% increased Armour and Evasion Rating when on Low Life`
+  - `{X}% increased Armour and Evasion Rating while Leeching`
+  - `{X}% increased Armour from Equipped Body Armour`
+  - `{X}% increased Armour if you have been HitDamage Recently`
+  - `{X}% increased Armour if you haven't been HitDamage Recently`
+  - `{X}% increased Armour if you've HitDamage an Enemy with a Melee Attack Recently`
+  - `{X}% increased Armour if you've consumed an Endurance Charge Recently`
+  - `{X}% increased Armour while Bleeding`
+  - `{X}% increased Armour while Ignited`
+  - `{X}% increased Armour while Shapeshifted`
+  - `{X}% increased Armour while Surrounded`
+  - `{X}% increased Armour while stationary`
+  - `{X}% increased Armour, Evasion and Energy Shield`
+  - `{X}% increased Armour, Evasion and Energy Shield from Equipped Shield`
+  - `{X}% increased Armour, Evasion and Energy Shield while Channelling`
+  - `{X}% increased Armour, Evasion and Energy Shield while wielding a Quarterstaff`
+  - `{X}% increased Armour, Evasion and Energy Shield while your Companion is in your Presence`
+  - `{X}% increased Attack Area Damage`
+  - `{X}% increased Attack Cold Damage`
+  - `{X}% increased Attack Critical Hit Chance while Dual Wielding`
+  - `{X}% increased Attack Damage`
+  - `{X}% increased Attack Damage against Bleeding Enemies`
+  - `{X}% increased Attack Damage against Maimed Enemies`
+  - `{X}% increased Attack Damage against Rare or Unique Enemies`
+  - `{X}% increased Attack Damage for each Minion in your Presence, up to a maximum of {X}%`
+  - `{X}% increased Attack Damage for each different Non-Instant Spell you've used in the past {X} seconds`
+  - `{X}% increased Attack Damage if you have Shapeshifted to an Animal form Recently`
+  - `{X}% increased Attack Damage if you have been Heavy Stunned Recently`
+  - `{X}% increased Attack Damage if you've Cast a Spell Recently`
+  - `{X}% increased Attack Damage per Summoned Totem in your Presence`
+  - `{X}% increased Attack Damage per {X} Item Armour and ItemEvasion on Equipped Shield`
+  - `{X}% increased Attack Damage while Dual Wielding`
+  - `{X}% increased Attack Damage while Surrounded`
+  - `{X}% increased Attack Damage while moving`
+  - `{X}% increased Attack Damage while on Full Life`
+  - `{X}% increased Attack Damage while on Low Life`
+  - `{X}% increased Attack Damage while you have an Allies in your Presence`
+  - `{X}% increased Attack Damage while you have no Life Flask uses left`
+  - `{X}% increased Attack Physical Damage`
+  - `{X}% increased Attack Speed`
+  - `{X}% increased Attack Speed during any Flask Effect`
+  - `{X}% increased Attack Speed if you haven't Attacked Recently`
+  - `{X}% increased Attack Speed if you've been Hit Recently`
+  - `{X}% increased Attack Speed if you've dealt a Critical Hit Recently`
+  - `{X}% increased Attack Speed if you've killed Recently`
+  - `{X}% increased Attack Speed if you've successfully Parried Recently`
+  - `{X}% increased Attack Speed per Enemy in Close Range`
+  - `{X}% increased Attack Speed per {X} Accuracy Rating, up to {X}%`
+  - `{X}% increased Attack Speed per {X} Dexterity`
+  - `{X}% increased Attack Speed while Dual Wielding`
+  - `{X}% increased Attack Speed while Leeching`
+  - `{X}% increased Attack Speed while Surrounded`
+  - `{X}% increased Attack Speed while a Rare or Unique Enemy is in your Presence`
+  - `{X}% increased Attack Speed while holding a Shield`
+  - `{X}% increased Attack Speed while not on Low Mana`
+  - `{X}% increased Attack Speed while your Companion is in your Presence`
+  - `{X}% increased Attack Speed with Axes`
+  - `{X}% increased Attack Speed with Bows`
+  - `{X}% increased Attack Speed with Crossbows`
+  - `{X}% increased Attack Speed with Daggers`
+  - `{X}% increased Attack Speed with Flails`
+  - `{X}% increased Attack Speed with One Handed Melee Weapons`
+  - `{X}% increased Attack Speed with One Handed Weapons`
+  - `{X}% increased Attack Speed with Quarterstaves`
+  - `{X}% increased Attack Speed with Spears`
+  - `{X}% increased Attack Speed with Swords`
+  - `{X}% increased Attack and Cast Speed`
+  - `{X}% increased Attack and Cast Speed during Effect of any Mana Flask`
+  - `{X}% increased Attack and Cast Speed if you've summoned a Totem Recently`
+  - `{X}% increased Attack and Cast Speed with Elemental Skills`
+  - `{X}% increased Attack and Cast Speed with Lightning Skills`
+  - `{X}% increased Attributes`
+  - `{X}% increased Ballista Critical Damage Bonus`
+  - `{X}% increased Ballista Critical Hit Chance`
+  - `{X}% increased Ballista Immobilisation buildup`
+  - `{X}% increased Ballista damage`
+  - `{X}% increased Bleeding Duration`
+  - `{X}% increased Blind Effect`
+  - `{X}% increased Blind duration`
+  - `{X}% increased Block Recovery`
+  - `{X}% increased Block chance`
+  - `{X}% increased Block chance while Surrounded`
+  - `{X}% increased Bolt Speed`
+  - `{X}% increased BuffEffect of Arcane Surge on you`
+  - `{X}% increased BuffEffect of Curses on you`
+  - `{X}% increased BuffEffect of Shock on you`
+  - `{X}% increased BuffEffect of Withered on you`
+  - `{X}% increased BuffMagnitude of Ailments you inflict`
+  - `{X}% increased BuffMagnitude of Ailments you inflict against Marked Enemies`
+  - `{X}% increased BuffMagnitude of Bleeding on You`
+  - `{X}% increased BuffMagnitude of Bleeding you inflict`
+  - `{X}% increased BuffMagnitude of Bleeding you inflict against Enemies affected by Incision`
+  - `{X}% increased BuffMagnitude of Bleeding you inflict against Pinned Enemies`
+  - … 共 1041 条（已截断）
+
+## 7. 关键发现
+
+- 字段名中 X 为大写（`X_...`），其对应 `id("...")` 字符串中 X 为小写（`x_...`）——同一 token 两形态。
+- 「前」类（X_ 前缀）是主体；「中」类（`_X_`）多为多数值占位（如 `..._PER_X_...`、`..._X_OF_...`）。
+- 「末」类（_X 后缀）在当前代码库中几乎不存在（命名约定未采用后缀形式）。
+- `{X}` 仅存于源语料 `stat_templates.txt`，是生成 X_ 常量名的源头；落地后 Java 层已无 `{X}` 字面量。

@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_when_collecting_an_elemental_infusion_to_gain_an_additional_elemental_infusion_of_the_same_type",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "12324",
+    "links": [
+      "24764",
+      "30985"
+    ],
+    "x": -4756.21,
+    "y": -10056.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:chance_when_collecting_an_elemental_infusion_to_gain_an_additional_elemental_infusion_of_the_same_type",
+            "vars": {
+              "value": 0.05
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_instillationsnode1",
+    "id": "30985",
+    "links": [
+      "11284",
+      "12324"
+    ],
+    "x": -4633.21,
+    "y": -9985.65
+  }
+]

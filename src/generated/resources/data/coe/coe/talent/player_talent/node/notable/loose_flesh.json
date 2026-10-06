@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:of_elemental_damage_taken_recouped_as_health",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_liferecoupnode",
+    "id": "13542",
+    "links": [
+      "27658"
+    ],
+    "x": 664.815,
+    "y": -6148.06
+  }
+]

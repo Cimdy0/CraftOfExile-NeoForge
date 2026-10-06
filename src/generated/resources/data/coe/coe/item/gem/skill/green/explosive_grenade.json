@@ -1,0 +1,7 @@
+{
+  "entry": "read",
+  "ref": "coe:preset_explosive_grenade",
+  "vars": {
+    "tier": 1.0
+  }
+}

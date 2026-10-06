@@ -1,0 +1,10 @@
+{
+  "type": "grant_on_event",
+  "base_duration": 80.0,
+  "base_magnitude": 30.0,
+  "param": "maim",
+  "tags": {
+    "tag": "fully_broke_armour"
+  },
+  "target": "status"
+}

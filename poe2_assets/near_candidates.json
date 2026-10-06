@@ -1,0 +1,1830 @@
+[
+ {
+  "stat": "TO_LEVEL_OF_ALL_CHAOS_SKILLS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_RESISTANCE_PENETRATION_RESISTANCE",
+  "req": [
+   "chaos"
+  ],
+  "efftags": [
+   "chaos",
+   "resistance"
+  ],
+  "extra": [
+   "resistance"
+  ],
+  "attr": "RESISTANCE_PENETRATION"
+ },
+ {
+  "stat": "TO_LEVEL_OF_ALL_CHAOS_SKILLS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_CHAOS_COE_RESISTANCES_MINION",
+  "req": [
+   "chaos"
+  ],
+  "efftags": [
+   "chaos",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "RESISTANCES"
+ },
+ {
+  "stat": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+  "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_COLD",
+  "req": [
+   "cold"
+  ],
+  "efftags": [
+   "ailment",
+   "cold"
+  ],
+  "extra": [
+   "ailment"
+  ],
+  "attr": "AILMENT_CHANCE"
+ },
+ {
+  "stat": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_COLD_MINION",
+  "req": [
+   "cold"
+  ],
+  "efftags": [
+   "cold",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "MAX_RESISTANCES"
+ },
+ {
+  "stat": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_COLD_RESISTANCE",
+  "req": [
+   "cold"
+  ],
+  "efftags": [
+   "cold",
+   "resistance"
+  ],
+  "extra": [
+   "resistance"
+  ],
+  "attr": "RESISTANCE_PENETRATION"
+ },
+ {
+  "stat": "TO_LEVEL_OF_ALL_COLD_SKILLS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_COLD_MINION",
+  "req": [
+   "cold"
+  ],
+  "efftags": [
+   "cold",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_COLD_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_COLD",
+  "req": [
+   "cold"
+  ],
+  "efftags": [
+   "ailment",
+   "cold"
+  ],
+  "extra": [
+   "ailment"
+  ],
+  "attr": "AILMENT_CHANCE"
+ },
+ {
+  "stat": "TO_MAX_COLD_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_COLD_MINION",
+  "req": [
+   "cold"
+  ],
+  "efftags": [
+   "cold",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "MAX_RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_COLD_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_COLD_RESISTANCE",
+  "req": [
+   "cold"
+  ],
+  "efftags": [
+   "cold",
+   "resistance"
+  ],
+  "extra": [
+   "resistance"
+  ],
+  "attr": "RESISTANCE_PENETRATION"
+ },
+ {
+  "stat": "TO_MAX_COLD_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_COLD_MINION",
+  "req": [
+   "cold"
+  ],
+  "efftags": [
+   "cold",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_FIRE_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_FIRE",
+  "req": [
+   "fire"
+  ],
+  "efftags": [
+   "ailment",
+   "fire"
+  ],
+  "extra": [
+   "ailment"
+  ],
+  "attr": "AILMENT_CHANCE"
+ },
+ {
+  "stat": "TO_MAX_FIRE_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_FIRE_MINION",
+  "req": [
+   "fire"
+  ],
+  "efftags": [
+   "fire",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "MAX_RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_FIRE_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_FIRE_RESISTANCE",
+  "req": [
+   "fire"
+  ],
+  "efftags": [
+   "fire",
+   "resistance"
+  ],
+  "extra": [
+   "resistance"
+  ],
+  "attr": "RESISTANCE_PENETRATION"
+ },
+ {
+  "stat": "TO_MAX_FIRE_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_FIRE_MINION",
+  "req": [
+   "fire"
+  ],
+  "efftags": [
+   "fire",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_LIGHTNING_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_AILMENT_ATTRIBUTE_COE_AILMENT_CHANCE_LIGHTNING",
+  "req": [
+   "lightning"
+  ],
+  "efftags": [
+   "ailment",
+   "lightning"
+  ],
+  "extra": [
+   "ailment"
+  ],
+  "attr": "AILMENT_CHANCE"
+ },
+ {
+  "stat": "TO_MAX_LIGHTNING_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_LIGHTNING_MINION",
+  "req": [
+   "lightning"
+  ],
+  "efftags": [
+   "lightning",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "MAX_RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_LIGHTNING_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_LIGHTNING_RESISTANCE",
+  "req": [
+   "lightning"
+  ],
+  "efftags": [
+   "lightning",
+   "resistance"
+  ],
+  "extra": [
+   "resistance"
+  ],
+  "attr": "RESISTANCE_PENETRATION"
+ },
+ {
+  "stat": "TO_MAX_LIGHTNING_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_LIGHTNING_MINION",
+  "req": [
+   "lightning"
+  ],
+  "efftags": [
+   "lightning",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTACK_ATTRIBUTE_COE_RESISTANCE_PENETRATION_ELEMENTAL_RESISTANCE",
+  "req": [
+   "elemental"
+  ],
+  "efftags": [
+   "attack",
+   "elemental",
+   "resistance"
+  ],
+  "extra": [
+   "attack",
+   "resistance"
+  ],
+  "attr": "RESISTANCE_PENETRATION"
+ },
+ {
+  "stat": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_RESISTANCES_ELEMENTAL_MINION",
+  "req": [
+   "elemental"
+  ],
+  "efftags": [
+   "elemental",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "MAX_RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_ELEMENTAL_GLORY_RESISTANCE",
+  "req": [
+   "elemental"
+  ],
+  "efftags": [
+   "elemental",
+   "glory",
+   "resistance"
+  ],
+  "extra": [
+   "glory",
+   "resistance"
+  ],
+  "attr": "RESISTANCE_PENETRATION"
+ },
+ {
+  "stat": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCE_PENETRATION_ELEMENTAL_RESISTANCE",
+  "req": [
+   "elemental"
+  ],
+  "efftags": [
+   "elemental",
+   "resistance"
+  ],
+  "extra": [
+   "resistance"
+  ],
+  "attr": "RESISTANCE_PENETRATION"
+ },
+ {
+  "stat": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_ELEMENTAL_MINION_RESISTANCE",
+  "req": [
+   "elemental"
+  ],
+  "efftags": [
+   "elemental",
+   "minion",
+   "resistance"
+  ],
+  "extra": [
+   "minion",
+   "resistance"
+  ],
+  "attr": "RESISTANCES"
+ },
+ {
+  "stat": "TO_MAX_NUMBER_OF_ELEMENTAL_INFUSIONS",
+  "eff": "EFF_ADD_VALUE_ATTRIBUTE_COE_RESISTANCES_ELEMENTAL_RESISTANCE",
+  "req": [
+   "elemental"
+  ],
+  "efftags": [
+   "elemental",
+   "resistance"
+  ],
+  "extra": [
+   "resistance"
+  ],
+  "attr": "RESISTANCES"
+ },
+ {
+  "stat": "INC_AREA_DAMAGE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+  "req": [
+   "area",
+   "damage"
+  ],
+  "efftags": [
+   "area",
+   "attack",
+   "damage"
+  ],
+  "extra": [
+   "attack"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_AREA_OF_EFFECT_FOR_SKILLS_USED_BY_TOTEMS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+  "req": [
+   "area"
+  ],
+  "efftags": [
+   "area",
+   "attack",
+   "damage"
+  ],
+  "extra": [
+   "attack",
+   "damage"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_AREA_OF_EFFECT_FOR_SKILLS_USED_BY_TOTEMS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTRIBUTE_COE_AREA_OF_EFFECT_MELEE",
+  "req": [
+   "area"
+  ],
+  "efftags": [
+   "area",
+   "melee"
+  ],
+  "extra": [
+   "melee"
+  ],
+  "attr": "EFFECT_AREA"
+ },
+ {
+  "stat": "INC_AREA_OF_EFFECT_FOR_SKILLS_USED_BY_TOTEMS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTRIBUTE_COE_CAST_SPEED_CURSE",
+  "req": [
+   "area"
+  ],
+  "efftags": [
+   "area",
+   "curse"
+  ],
+  "extra": [
+   "curse"
+  ],
+  "attr": "CAST_SPEED"
+ },
+ {
+  "stat": "INC_AREA_OF_EFFECT_OF_ANCESTRALLY_BOOSTED_ATTACKS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+  "req": [
+   "area"
+  ],
+  "efftags": [
+   "area",
+   "attack",
+   "damage"
+  ],
+  "extra": [
+   "attack",
+   "damage"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_AREA_OF_EFFECT_OF_ANCESTRALLY_BOOSTED_ATTACKS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTRIBUTE_COE_AREA_OF_EFFECT_MELEE",
+  "req": [
+   "area"
+  ],
+  "efftags": [
+   "area",
+   "melee"
+  ],
+  "extra": [
+   "melee"
+  ],
+  "attr": "EFFECT_AREA"
+ },
+ {
+  "stat": "INC_AREA_OF_EFFECT_OF_ANCESTRALLY_BOOSTED_ATTACKS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTRIBUTE_COE_CAST_SPEED_CURSE",
+  "req": [
+   "area"
+  ],
+  "efftags": [
+   "area",
+   "curse"
+  ],
+  "extra": [
+   "curse"
+  ],
+  "attr": "CAST_SPEED"
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "area",
+   "attack",
+   "damage"
+  ],
+  "extra": [
+   "area",
+   "damage"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BANNER_MINECRAFT_ATTACK_SPEED",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "banner"
+  ],
+  "extra": [
+   "banner"
+  ],
+  "attr": null
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_BEAR_FORM_MINECRAFT_ATTACK_SPEED",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "bear",
+   "form"
+  ],
+  "extra": [
+   "bear",
+   "form"
+  ],
+  "attr": null
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_CHANCE_CRIT",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "crit"
+  ],
+  "extra": [
+   "crit"
+  ],
+  "attr": "CRIT_CHANCE"
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_CRIT_DAMAGE_CRIT",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "crit"
+  ],
+  "extra": [
+   "crit"
+  ],
+  "attr": "CRIT_DAMAGE"
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "damage",
+   "elemental"
+  ],
+  "extra": [
+   "damage",
+   "elemental"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE_EMPOWERED",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "damage",
+   "empowered"
+  ],
+  "extra": [
+   "damage",
+   "empowered"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_FORM_MINECRAFT_ATTACK_SPEED_WOLF",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "form",
+   "wolf"
+  ],
+  "extra": [
+   "form",
+   "wolf"
+  ],
+  "attr": null
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_MINION",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": null
+ },
+ {
+  "stat": "INC_ATTACK_AND_CAST_SPEED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_RARITY",
+  "req": [
+   "attack"
+  ],
+  "efftags": [
+   "attack",
+   "rarity"
+  ],
+  "extra": [
+   "rarity"
+  ],
+  "attr": null
+ },
+ {
+  "stat": "INC_BLIND_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BLIND_COE_AILMENT_MAGNITUDE_TAKEN",
+  "req": [
+   "blind"
+  ],
+  "efftags": [
+   "blind",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ },
+ {
+  "stat": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_IGNITE_SPELL",
+  "req": [
+   "ignite"
+  ],
+  "efftags": [
+   "ailment",
+   "ignite",
+   "spell"
+  ],
+  "extra": [
+   "ailment",
+   "spell"
+  ],
+  "attr": "AILMENT_BUILDUP"
+ },
+ {
+  "stat": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_IGNITE_TAKEN",
+  "req": [
+   "ignite"
+  ],
+  "efftags": [
+   "ailment",
+   "ignite",
+   "taken"
+  ],
+  "extra": [
+   "ailment",
+   "taken"
+  ],
+  "attr": "AILMENT_DURATION"
+ },
+ {
+  "stat": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_IGNITE_TAKEN_2",
+  "req": [
+   "ignite"
+  ],
+  "efftags": [
+   "ailment",
+   "ignite",
+   "taken"
+  ],
+  "extra": [
+   "ailment",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ },
+ {
+  "stat": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_IGNITE_TAKEN",
+  "req": [
+   "ignite"
+  ],
+  "efftags": [
+   "ignite",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_DURATION"
+ },
+ {
+  "stat": "INC_BUFF_MAGNITUDE_OF_IGNITE_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_IGNITE_TAKEN",
+  "req": [
+   "ignite"
+  ],
+  "efftags": [
+   "ignite",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ },
+ {
+  "stat": "INC_CHARM_EFFECT_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHARM_COE_AILMENT_DURATION_TAKEN",
+  "req": [
+   "charm"
+  ],
+  "efftags": [
+   "charm",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_DURATION"
+ },
+ {
+  "stat": "INC_CRITICAL_SPELL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE_SPELL",
+  "req": [
+   "damage",
+   "spell"
+  ],
+  "efftags": [
+   "cold",
+   "damage",
+   "spell"
+  ],
+  "extra": [
+   "cold"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_CRITICAL_SPELL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE_SPELL",
+  "req": [
+   "damage",
+   "spell"
+  ],
+  "efftags": [
+   "damage",
+   "fire",
+   "spell"
+  ],
+  "extra": [
+   "fire"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_CRITICAL_SPELL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING_SPELL",
+  "req": [
+   "damage",
+   "spell"
+  ],
+  "efftags": [
+   "damage",
+   "lightning",
+   "spell"
+  ],
+  "extra": [
+   "lightning"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_EFFECT_OF_YOUR_MARK_SKILLS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_MARK_TAKEN",
+  "req": [
+   "mark"
+  ],
+  "efftags": [
+   "mark",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ },
+ {
+  "stat": "INC_ENERGY_SHIELD_RECHARGE_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_ENERGY_REGEN",
+  "req": [
+   "energy"
+  ],
+  "efftags": [
+   "energy",
+   "regen"
+  ],
+  "extra": [
+   "regen"
+  ],
+  "attr": "REGENERATION_RATE"
+ },
+ {
+  "stat": "INC_FLASK_CHARGES_USED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_FLASK_TAKEN",
+  "req": [
+   "flask"
+  ],
+  "efftags": [
+   "flask",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_DURATION"
+ },
+ {
+  "stat": "INC_FLASK_CHARGES_USED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH",
+  "req": [
+   "flask"
+  ],
+  "efftags": [
+   "flask",
+   "health"
+  ],
+  "extra": [
+   "health"
+  ],
+  "attr": "FLASK_RECOVERY_RATE"
+ },
+ {
+  "stat": "INC_FLASK_CHARGES_USED",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_MANA",
+  "req": [
+   "flask"
+  ],
+  "efftags": [
+   "flask",
+   "mana"
+  ],
+  "extra": [
+   "mana"
+  ],
+  "attr": "FLASK_RECOVERY_RATE"
+ },
+ {
+  "stat": "INC_FREEZE_DURATION_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_BUILDUP_FREEZE_SPELL",
+  "req": [
+   "freeze"
+  ],
+  "efftags": [
+   "ailment",
+   "freeze",
+   "spell"
+  ],
+  "extra": [
+   "ailment",
+   "spell"
+  ],
+  "attr": "AILMENT_BUILDUP"
+ },
+ {
+  "stat": "INC_FREEZE_DURATION_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_FREEZE_TAKEN",
+  "req": [
+   "freeze"
+  ],
+  "efftags": [
+   "ailment",
+   "freeze",
+   "taken"
+  ],
+  "extra": [
+   "ailment",
+   "taken"
+  ],
+  "attr": "AILMENT_DURATION"
+ },
+ {
+  "stat": "INC_HAZARD_IMMOBILISATION_BUILDUP",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_DURATION_HAZARD_TAKEN",
+  "req": [
+   "hazard"
+  ],
+  "efftags": [
+   "hazard",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_DURATION"
+ },
+ {
+  "stat": "INC_HEALTH_RECOVERY_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AMOUNT_ATTRIBUTE_COE_AMOUNT_LEECHED_HEALTH_LEECHING",
+  "req": [
+   "health"
+  ],
+  "efftags": [
+   "amount",
+   "health",
+   "leeching"
+  ],
+  "extra": [
+   "amount",
+   "leeching"
+  ],
+  "attr": "AMOUNT_LEECHED"
+ },
+ {
+  "stat": "INC_HEALTH_RECOVERY_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH",
+  "req": [
+   "health"
+  ],
+  "efftags": [
+   "flask",
+   "health"
+  ],
+  "extra": [
+   "flask"
+  ],
+  "attr": "FLASK_RECOVERY_RATE"
+ },
+ {
+  "stat": "INC_HEALTH_REGENERATION_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AMOUNT_ATTRIBUTE_COE_AMOUNT_LEECHED_HEALTH_LEECHING",
+  "req": [
+   "health"
+  ],
+  "efftags": [
+   "amount",
+   "health",
+   "leeching"
+  ],
+  "extra": [
+   "amount",
+   "leeching"
+  ],
+  "attr": "AMOUNT_LEECHED"
+ },
+ {
+  "stat": "INC_HEALTH_REGENERATION_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_HEALTH",
+  "req": [
+   "health"
+  ],
+  "efftags": [
+   "flask",
+   "health"
+  ],
+  "extra": [
+   "flask"
+  ],
+  "attr": "FLASK_RECOVERY_RATE"
+ },
+ {
+  "stat": "INC_MANA_RECOVERY_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AMOUNT_ATTRIBUTE_COE_AMOUNT_LEECHED_LEECHING_MANA",
+  "req": [
+   "mana"
+  ],
+  "efftags": [
+   "amount",
+   "leeching",
+   "mana"
+  ],
+  "extra": [
+   "amount",
+   "leeching"
+  ],
+  "attr": "AMOUNT_LEECHED"
+ },
+ {
+  "stat": "INC_MANA_RECOVERY_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_FLASK_RECOVERY_RATE_FLASK_MANA",
+  "req": [
+   "mana"
+  ],
+  "efftags": [
+   "flask",
+   "mana"
+  ],
+  "extra": [
+   "flask"
+  ],
+  "attr": "FLASK_RECOVERY_RATE"
+ },
+ {
+  "stat": "INC_MANA_RECOVERY_RATE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_REGENERATION_RATE_MANA_REGEN",
+  "req": [
+   "mana"
+  ],
+  "efftags": [
+   "mana",
+   "regen"
+  ],
+  "extra": [
+   "regen"
+  ],
+  "attr": "REGENERATION_RATE"
+ },
+ {
+  "stat": "INC_MELEE_CRITICAL_HIT_CHANCE",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTRIBUTE_COE_AREA_OF_EFFECT_MELEE",
+  "req": [
+   "melee"
+  ],
+  "efftags": [
+   "area",
+   "melee"
+  ],
+  "extra": [
+   "area"
+  ],
+  "attr": "EFFECT_AREA"
+ },
+ {
+  "stat": "INC_MINION_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_MINECRAFT_ATTACK_SPEED_MINION",
+  "req": [
+   "minion"
+  ],
+  "efftags": [
+   "attack",
+   "minion"
+  ],
+  "extra": [
+   "attack"
+  ],
+  "attr": null
+ },
+ {
+  "stat": "INC_MINION_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_MINECRAFT_MOVEMENT_SPEED_MINION_MOVEMENT",
+  "req": [
+   "minion"
+  ],
+  "efftags": [
+   "minion",
+   "movement"
+  ],
+  "extra": [
+   "movement"
+  ],
+  "attr": null
+ },
+ {
+  "stat": "INC_SHOCK_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_SHOCK_TAKEN",
+  "req": [
+   "shock"
+  ],
+  "efftags": [
+   "ailment",
+   "shock",
+   "taken"
+  ],
+  "extra": [
+   "ailment",
+   "taken"
+  ],
+  "attr": "AILMENT_DURATION"
+ },
+ {
+  "stat": "INC_SHOCK_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_TAKEN_2",
+  "req": [
+   "shock"
+  ],
+  "efftags": [
+   "ailment",
+   "shock",
+   "taken"
+  ],
+  "extra": [
+   "ailment",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ },
+ {
+  "stat": "INC_SHOCK_DURATION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_TAKEN",
+  "req": [
+   "shock"
+  ],
+  "efftags": [
+   "not",
+   "shock",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ },
+ {
+  "stat": "INC_SHOCK_DURATION_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_DURATION_SHOCK_TAKEN",
+  "req": [
+   "shock"
+  ],
+  "efftags": [
+   "ailment",
+   "shock",
+   "taken"
+  ],
+  "extra": [
+   "ailment",
+   "taken"
+  ],
+  "attr": "AILMENT_DURATION"
+ },
+ {
+  "stat": "INC_SHOCK_DURATION_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AILMENT_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_TAKEN_2",
+  "req": [
+   "shock"
+  ],
+  "efftags": [
+   "ailment",
+   "shock",
+   "taken"
+  ],
+  "extra": [
+   "ailment",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ },
+ {
+  "stat": "INC_SHOCK_DURATION_ON_YOU",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_SHOCK_TAKEN",
+  "req": [
+   "shock"
+  ],
+  "efftags": [
+   "not",
+   "shock",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AREA_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "area",
+   "attack",
+   "damage"
+  ],
+  "extra": [
+   "area",
+   "attack"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "attack",
+   "damage"
+  ],
+  "extra": [
+   "attack"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "attack",
+   "damage",
+   "elemental"
+  ],
+  "extra": [
+   "attack",
+   "elemental"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTACK_ATTRIBUTE_COE_DAMAGE_DAMAGE_EMPOWERED",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "attack",
+   "damage",
+   "empowered"
+  ],
+  "extra": [
+   "attack",
+   "empowered"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_AXE_COE_DAMAGE_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "axe",
+   "damage"
+  ],
+  "extra": [
+   "axe"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BALLISTA_COE_DAMAGE_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "ballista",
+   "damage"
+  ],
+  "extra": [
+   "ballista"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BANNER_COE_DAMAGE_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "banner",
+   "damage"
+  ],
+  "extra": [
+   "banner"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_BOW_COE_DAMAGE_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "bow",
+   "damage"
+  ],
+  "extra": [
+   "bow"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_CHAOS_COE_DAMAGE_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "chaos",
+   "damage"
+  ],
+  "extra": [
+   "chaos"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "cold",
+   "damage"
+  ],
+  "extra": [
+   "cold"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COLD_DAMAGE_SPELL",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "cold",
+   "damage",
+   "spell"
+  ],
+  "extra": [
+   "cold",
+   "spell"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_COMPANION_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "companion",
+   "damage"
+  ],
+  "extra": [
+   "companion"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_CROSSBOW_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "crossbow",
+   "damage"
+  ],
+  "extra": [
+   "crossbow"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_CURSE_DAMAGE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "curse",
+   "damage"
+  ],
+  "extra": [
+   "curse"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ELEMENTAL",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "elemental"
+  ],
+  "extra": [
+   "elemental"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "fire"
+  ],
+  "extra": [
+   "fire"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_FIRE_SPELL",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "fire",
+   "spell"
+  ],
+  "extra": [
+   "fire",
+   "spell"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_GRENADE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "grenade"
+  ],
+  "extra": [
+   "grenade"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HAZARD",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "hazard"
+  ],
+  "extra": [
+   "hazard"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_HERALD",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "herald"
+  ],
+  "extra": [
+   "herald"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "lightning"
+  ],
+  "extra": [
+   "lightning"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_LIGHTNING_SPELL",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "lightning",
+   "spell"
+  ],
+  "extra": [
+   "lightning",
+   "spell"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MACE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "mace"
+  ],
+  "extra": [
+   "mace"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MARK",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "mark"
+  ],
+  "extra": [
+   "mark"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MELEE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "melee"
+  ],
+  "extra": [
+   "melee"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_META",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "meta"
+  ],
+  "extra": [
+   "meta"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_MINION",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "minion"
+  ],
+  "extra": [
+   "minion"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_OFFERING",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "offering"
+  ],
+  "extra": [
+   "offering"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_ONE_HANDED",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "one_handed"
+  ],
+  "extra": [
+   "one_handed"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_PARRY",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "parry"
+  ],
+  "extra": [
+   "parry"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_PHYSICAL",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "physical"
+  ],
+  "extra": [
+   "physical"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_PROJECTILE",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "projectile"
+  ],
+  "extra": [
+   "projectile"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPEAR",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "spear"
+  ],
+  "extra": [
+   "spear"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SPELL",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "spell"
+  ],
+  "extra": [
+   "spell"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_SWORD",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "sword"
+  ],
+  "extra": [
+   "sword"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_TAKEN",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_TRAP",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "trap"
+  ],
+  "extra": [
+   "trap"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_TWO_HANDED",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "two_handed"
+  ],
+  "extra": [
+   "two_handed"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_THORNS_CRITICAL_DAMAGE_BONUS",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_DAMAGE_DAMAGE_WARCRY",
+  "req": [
+   "damage"
+  ],
+  "efftags": [
+   "damage",
+   "warcry"
+  ],
+  "extra": [
+   "warcry"
+  ],
+  "attr": "DAMAGE"
+ },
+ {
+  "stat": "INC_AMOUNT_OF_HEALTH_HEALTH_LEECH",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_AMOUNT_ATTRIBUTE_COE_AMOUNT_LEECHED_HEALTH_LEECHING",
+  "req": [
+   "amount",
+   "health"
+  ],
+  "efftags": [
+   "amount",
+   "health",
+   "leeching"
+  ],
+  "extra": [
+   "leeching"
+  ],
+  "attr": "AMOUNT_LEECHED"
+ },
+ {
+  "stat": "INC_EFFECT_OF_INCISION",
+  "eff": "EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_INCISION_TAKEN",
+  "req": [
+   "incision"
+  ],
+  "efftags": [
+   "incision",
+   "not",
+   "taken"
+  ],
+  "extra": [
+   "not",
+   "taken"
+  ],
+  "attr": "AILMENT_MAGNITUDE"
+ }
+]

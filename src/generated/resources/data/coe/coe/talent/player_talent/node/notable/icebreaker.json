@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:gain_of_max_energy_shield_as_additional_freeze_threshold",
+            "vars": {
+              "value": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_avoidchilling",
+    "id": "4031",
+    "links": [
+      "32672"
+    ],
+    "x": 8366.22,
+    "y": -5546.51
+  }
+]

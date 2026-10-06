@@ -1,0 +1,54 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_your_mark_skills",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "28258",
+    "links": [
+      "13624",
+      "36927",
+      "36976",
+      "44841",
+      "45390",
+      "59064"
+    ],
+    "x": 8014.32,
+    "y": 8180.55
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_effect_of_your_mark_skills",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_marknode",
+    "id": "59064",
+    "links": [
+      "28258",
+      "30657"
+    ],
+    "x": 7778.15,
+    "y": 7944.38
+  }
+]

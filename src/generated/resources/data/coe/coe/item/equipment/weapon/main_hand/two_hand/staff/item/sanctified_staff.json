@@ -1,0 +1,14 @@
+{
+  "coe:item_equipment": {
+    "ref": "coe:weapon/main_hand/two_hand/staff/template/intelligence",
+    "reqs": {
+      "int": 99.0,
+      "l": 56.0
+    },
+    "skills": {
+      "coe:preset_consecrate": {
+        "id": "coe:preset_consecrate"
+      }
+    }
+  }
+}

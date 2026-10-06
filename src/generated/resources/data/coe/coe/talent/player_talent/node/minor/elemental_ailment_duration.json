@@ -1,0 +1,50 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_ignite_shock_and_chill_on_enemies",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "39752",
+    "links": [
+      "38068",
+      "5936"
+    ],
+    "x": -1035.43,
+    "y": -8393.76
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_duration_of_ignite_shock_and_chill_on_enemies",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "65248",
+    "links": [
+      "56409",
+      "5936"
+    ],
+    "x": -190.185,
+    "y": -8393.76
+  }
+]

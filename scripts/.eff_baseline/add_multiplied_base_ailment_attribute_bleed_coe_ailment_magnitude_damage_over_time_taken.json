@@ -1,0 +1,11 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_magnitude",
+  "operation": "add_multiplied_base",
+  "tags": [
+    "!taken",
+    "bleed",
+    "ailment",
+    "damage_over_time"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "cast": {
+    "crit": 0.0,
+    "time": 0.0
+  },
+  "cost": [
+    {
+      "type": "spirit",
+      "usage": "preserve",
+      "value": 30.0
+    }
+  ],
+  "modifiers": [
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_charge": {
+                  "amount": 1.0,
+                  "charge_type": "frenzy",
+                  "mode": "generate"
+                }
+              },
+              "trigger": "on_hit"
+            }
+          ],
+          "event_name": "caused_ailment",
+          "event_type": "custom",
+          "internal_cooldown": 160.0,
+          "require_tags": [
+            "freeze"
+          ]
+        }
+      }
+    },
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_charge": {
+                  "amount": 1.0,
+                  "charge_type": "frenzy",
+                  "mode": "generate"
+                }
+              },
+              "trigger": "on_hit"
+            }
+          ],
+          "event_name": "caused_ailment",
+          "event_type": "custom",
+          "internal_cooldown": 160.0,
+          "require_tags": [
+            "electrocute"
+          ]
+        }
+      }
+    },
+    {
+      "coe:event_listen": {
+        "event_listen": {
+          "actions": [
+            {
+              "action": {
+                "coe:action_charge": {
+                  "amount": 1.0,
+                  "charge_type": "frenzy",
+                  "mode": "generate"
+                }
+              },
+              "trigger": "on_hit"
+            }
+          ],
+          "event_name": "caused_ailment",
+          "event_type": "custom",
+          "internal_cooldown": 160.0,
+          "require_tags": [
+            "pin"
+          ]
+        }
+      }
+    }
+  ],
+  "phases": [
+    {
+      "phase": {
+        "delivery": {
+          "coe:delivery_area": {
+            "shape": {
+              "coe:shape_sphere": {
+                "radius": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "require": {
+    "dexterity": "coe:per_level_add_value(add = 2, base = 14, per = 1)",
+    "level": "coe:per_level_add_value(add = 4, base = 1, per = 1)"
+  },
+  "tags": [
+    "buff",
+    "persistent"
+  ]
+}

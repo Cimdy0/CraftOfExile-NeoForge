@@ -1,0 +1,27 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_bonuses_gain_from_equipped_quiver",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_attackspeedbow",
+    "id": "30341",
+    "links": [
+      "12498",
+      "1995",
+      "37946"
+    ],
+    "x": 4953.65,
+    "y": 2137.3
+  }
+]

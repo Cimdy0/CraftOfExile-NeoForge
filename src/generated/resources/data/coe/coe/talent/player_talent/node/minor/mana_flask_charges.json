@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_mana_flask_charges_gain",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_flaskint",
+    "id": "17687",
+    "links": [
+      "10472",
+      "2021"
+    ],
+    "x": 9465.68,
+    "y": 5104.06
+  }
+]

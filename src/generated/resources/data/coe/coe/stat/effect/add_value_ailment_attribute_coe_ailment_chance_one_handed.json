@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:ailment_chance",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "one_handed"
+      },
+      {
+        "tag": "ailment"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    {
+      "type": "entity_flag",
+      "types": [
+        "minecraft:stray"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_resist_cold_10"
+    },
+    {
+      "entry": "read",
+      "ref": "coe:livingmod_convert_phys_to_cold_100"
+    }
+  ]
+}

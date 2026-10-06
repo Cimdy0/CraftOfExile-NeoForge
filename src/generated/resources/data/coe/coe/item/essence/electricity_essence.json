@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "one_hand, !wand, !staff, !sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_lightning_damage"
+          },
+          "max": 2.0,
+          "min": 1.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_lightning_damage"
+          },
+          "max": 3.0,
+          "min": 1.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_lightning_damage"
+          },
+          "max": 6.0,
+          "min": 1.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:extra_lightning_damage"
+          },
+          "max": 6.0,
+          "min": 1.0,
+          "tier": "perfect"
+        }
+      ],
+      "two_hand~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_lightning_damage"
+          },
+          "max": 3.0,
+          "min": 1.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_lightning_damage"
+          },
+          "max": 4.0,
+          "min": 1.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_lightning_damage"
+          },
+          "max": 8.0,
+          "min": 1.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:extra_lightning_damage"
+          },
+          "max": 8.0,
+          "min": 1.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:damage_penetrates_elemental_damage_resistances_for_each_time_you_ve_used_a_skill_that_requires_glory_in_the_past_seconds",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_elementaldamage",
+    "id": "18081",
+    "links": [
+      "52993",
+      "8107"
+    ],
+    "x": -6715.78,
+    "y": -1613.46
+  }
+]

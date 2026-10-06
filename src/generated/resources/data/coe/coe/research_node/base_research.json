@@ -1,0 +1,12 @@
+{
+  "duration_ticks": 600,
+  "effect": {
+    "efficiency": [
+      {
+        "multiplier": 1.1,
+        "work_type": "farming"
+      }
+    ]
+  },
+  "name": "基础钻研"
+}

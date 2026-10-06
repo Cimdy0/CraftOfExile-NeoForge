@@ -1,0 +1,203 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "12526",
+    "links": [
+      "54818",
+      "934"
+    ],
+    "x": -582.375,
+    "y": 7972.75
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "30463",
+    "links": [
+      "12998",
+      "38678",
+      "58971",
+      "9968"
+    ],
+    "x": 7174.96,
+    "y": 5532.18
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "38678",
+    "links": [
+      "30463",
+      "43044",
+      "58971",
+      "60464",
+      "9968"
+    ],
+    "x": 6900.58,
+    "y": 5605.7
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "41538",
+    "links": [
+      "15644",
+      "30047",
+      "9112"
+    ],
+    "x": 3583.46,
+    "y": 3195.79
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "55598",
+    "links": [
+      "15644",
+      "28050",
+      "9112"
+    ],
+    "x": 4084.46,
+    "y": 2906.54
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "58971",
+    "links": [
+      "12998",
+      "30463",
+      "38678",
+      "60464"
+    ],
+    "x": 7101.44,
+    "y": 5806.56
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "9112",
+    "links": [
+      "41538",
+      "55598"
+    ],
+    "x": 3876.46,
+    "y": 3124.78
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_elemental_ailment_threshold",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_spellsuppresionnode",
+    "id": "9825",
+    "links": [
+      "21755",
+      "934"
+    ],
+    "x": -248.375,
+    "y": 7638.75
+  }
+]

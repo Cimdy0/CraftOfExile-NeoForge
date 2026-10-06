@@ -1,0 +1,74 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:equipment_and_skill_gems_have_inc_attributes_requirements",
+            "vars": {
+              "value": -0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "35688",
+    "links": [
+      "16618",
+      "38138"
+    ],
+    "x": 132.005,
+    "y": 12159.5
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:equipment_and_skill_gems_have_inc_attributes_requirements",
+            "vars": {
+              "value": -0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "38138",
+    "links": [
+      "35688",
+      "45278"
+    ],
+    "x": 7.0049,
+    "y": 12600.0
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:equipment_and_skill_gems_have_inc_attributes_requirements",
+            "vars": {
+              "value": -0.04
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_ascendants_skillpoint",
+    "id": "45278",
+    "links": [
+      "38138",
+      "57047"
+    ],
+    "x": -117.995,
+    "y": 12159.5
+  }
+]

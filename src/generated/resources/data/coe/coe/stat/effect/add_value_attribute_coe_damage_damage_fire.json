@@ -1,0 +1,15 @@
+{
+  "type": "attribute",
+  "attribute": "coe:damage",
+  "operation": "add_value",
+  "tags": {
+    "and": [
+      {
+        "tag": "fire"
+      },
+      {
+        "tag": "damage"
+      }
+    ]
+  }
+}

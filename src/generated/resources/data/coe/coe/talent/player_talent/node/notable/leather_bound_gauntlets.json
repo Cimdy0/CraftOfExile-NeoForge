@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_evasion_per_item_armor_on_equipped_legs",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorandevasionnode",
+    "id": "51446",
+    "links": [
+      "29399",
+      "53647"
+    ],
+    "x": -1656.4,
+    "y": 11762.0
+  }
+]

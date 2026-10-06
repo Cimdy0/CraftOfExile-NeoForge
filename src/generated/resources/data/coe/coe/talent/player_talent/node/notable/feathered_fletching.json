@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_and_reductions_to_projectile_speed_also_apply_to_damage_with_bows",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bowdamage",
+    "id": "60764",
+    "links": [
+      "328",
+      "34612"
+    ],
+    "x": 11251.2,
+    "y": 4220.02
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "type": "damage_convert",
+  "from": [
+    "physical"
+  ],
+  "mode": "gain",
+  "tags": {
+    "tag": "empowered"
+  },
+  "to": "fire"
+}

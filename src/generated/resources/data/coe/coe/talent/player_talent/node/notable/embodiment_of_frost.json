@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:immune_to_freeze_and_chill_while_affected_by_an_archon_buff",
+            "vars": {
+              "value": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_archongenericnotable",
+    "id": "10612",
+    "links": [
+      "50535"
+    ],
+    "x": -533.743,
+    "y": -10888.4
+  }
+]

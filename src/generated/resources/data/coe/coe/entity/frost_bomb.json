@@ -1,0 +1,27 @@
+{
+  "type": "coe:orb",
+  "behavior": [
+    {
+      "coe:pulse": {
+        "interval": 20
+      }
+    },
+    {
+      "coe:detonate": {
+        "fuse": 200
+      }
+    }
+  ],
+  "box_height": 0.6,
+  "on_expire": [
+    {
+      "coe:phase_on_hit": {
+        "trigger": "on_expire"
+      }
+    }
+  ],
+  "render": "coe:frost_bomb",
+  "tags": [
+    "cold"
+  ]
+}

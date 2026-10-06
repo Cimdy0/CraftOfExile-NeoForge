@@ -1,0 +1,34 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "group",
+    "nodes": [
+      {
+        "type": "entity_type",
+        "tag": "coe:beast"
+      },
+      {
+        "type": "source",
+        "node": {
+          "type": "compare",
+          "left": {
+            "type": "presence_count",
+            "kind": "summoned",
+            "relation": "ally"
+          },
+          "operator": ">",
+          "right": {
+            "type": "const",
+            "value": 0.0
+          }
+        }
+      }
+    ]
+  },
+  "effect": "coe:stat/effect/inline_culling_804",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_960"
+}

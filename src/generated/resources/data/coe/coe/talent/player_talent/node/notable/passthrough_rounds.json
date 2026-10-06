@@ -1,0 +1,24 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:projectiles_pierce_enemies_with_fully_broken_armor"
+          }
+        ]
+      }
+    ],
+    "icon": "passives_armorbreak1bufficon",
+    "id": "56016",
+    "links": [
+      "30040",
+      "35594",
+      "65149"
+    ],
+    "x": 2877.71,
+    "y": 10298.3
+  }
+]

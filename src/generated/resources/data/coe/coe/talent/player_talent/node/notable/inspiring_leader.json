@@ -1,0 +1,26 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:banners_also_grant_to_all_elemental_damage_resistances_affected_targets",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_bannerareanotable",
+    "id": "4661",
+    "links": [
+      "12821",
+      "20842"
+    ],
+    "x": -3689.44,
+    "y": 9419.58
+  }
+]

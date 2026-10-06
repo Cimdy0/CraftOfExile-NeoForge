@@ -1,0 +1,7 @@
+{
+  "type": "defend",
+  "condition_tags": [
+    "low_energy"
+  ],
+  "kind": "defend"
+}

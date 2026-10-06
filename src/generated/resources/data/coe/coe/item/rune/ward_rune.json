@@ -1,0 +1,150 @@
+{
+  "ladders": {
+    "armor~-": [
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_runic_ward"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:armor_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:evasion_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "lesser"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_runic_ward"
+        },
+        "max": 20.0,
+        "min": 20.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:armor_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:evasion_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "normal"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_runic_ward"
+        },
+        "max": 25.0,
+        "min": 25.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:armor_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:evasion_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "greater"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:add_max_runic_ward"
+        },
+        "max": 30.0,
+        "min": 30.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:armor_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:evasion_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "perfect"
+      },
+      {
+        "type": {
+          "type": "read",
+          "ref": "coe:energy_inc_local"
+        },
+        "max": 15.0,
+        "min": 15.0,
+        "tier": "perfect"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "min($value * attribute:coe:accuracy / $per, $cap)"
+  },
+  "effect": "coe:stat/effect/inline_attribute_495",
+  "entry": "inline",
+  "params": {
+    "cap": 0.2,
+    "per": 400.0,
+    "value": 0.01
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

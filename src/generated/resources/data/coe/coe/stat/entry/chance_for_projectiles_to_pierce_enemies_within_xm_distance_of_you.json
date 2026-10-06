@@ -1,0 +1,23 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "compare",
+    "left": {
+      "type": "dist_nearest_enemy"
+    },
+    "operator": "<=",
+    "right": {
+      "type": "var",
+      "name": "stat_range_m"
+    }
+  },
+  "effect": "coe:stat/effect/inline_attribute_539",
+  "entry": "inline",
+  "params": {
+    "stat_range_m": 3.0
+  },
+  "targets": "coe:stat/targets/inline_inline_1"
+}

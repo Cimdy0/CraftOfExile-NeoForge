@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:max_volatility_is",
+            "vars": {
+              "value": 30.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_cursemitigationclusternode",
+    "id": "30748",
+    "links": [
+      "44369"
+    ],
+    "x": 6032.38,
+    "y": -8559.51
+  }
+]

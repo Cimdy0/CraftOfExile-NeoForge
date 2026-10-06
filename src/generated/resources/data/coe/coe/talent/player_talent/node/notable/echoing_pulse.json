@@ -1,0 +1,25 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:echoed_spells_have_inc_area_of_effect",
+            "vars": {
+              "value": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_areaofeffect",
+    "id": "7302",
+    "links": [
+      "52615"
+    ],
+    "x": 8409.99,
+    "y": -7924.9
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_spell_damage",
+            "vars": {
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_intelligence",
+            "vars": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_increasedmanacostnotable",
+    "id": "51184",
+    "links": [
+      "22314",
+      "29502",
+      "3242",
+      "41965",
+      "47555",
+      "6686"
+    ],
+    "x": -478.295,
+    "y": -3030.38
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "bonuses": {
+    "ladders": {
+      "one_hand, !wand, !staff, !sceptre~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_attack_damage"
+          },
+          "max": 10.0,
+          "min": 6.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_attack_damage"
+          },
+          "max": 15.0,
+          "min": 10.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_attack_damage"
+          },
+          "max": 24.0,
+          "min": 16.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_physical_damage_inc"
+          },
+          "max": 24.0,
+          "min": 16.0,
+          "tier": "perfect"
+        }
+      ],
+      "two_hand~prefix": [
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_attack_damage"
+          },
+          "max": 14.0,
+          "min": 9.0,
+          "tier": "lesser"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_attack_damage"
+          },
+          "max": 21.0,
+          "min": 14.0,
+          "tier": "normal"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:add_attack_damage"
+          },
+          "max": 35.0,
+          "min": 23.0,
+          "tier": "greater"
+        },
+        {
+          "type": {
+            "type": "read",
+            "ref": "coe:attack_physical_damage_inc"
+          },
+          "max": 35.0,
+          "min": 23.0,
+          "tier": "perfect"
+        }
+      ]
+    }
+  }
+}

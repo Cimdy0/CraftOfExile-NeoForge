@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "coe:convert_scale(factor = 0.3, input = attribute:minecraft:armor)"
+  },
+  "effect": "coe:stat/effect/inline_attribute_390",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

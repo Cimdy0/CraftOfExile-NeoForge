@@ -1,0 +1,9 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": 0.4
+  },
+  "effect": "coe:stat/effect/inline_attribute_482",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_1"
+}

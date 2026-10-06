@@ -1,0 +1,13 @@
+{
+  "amount": {
+    "type": "inline",
+    "value": "$value"
+  },
+  "conditions": {
+    "type": "status",
+    "id": "poison"
+  },
+  "effect": "coe:stat/effect/inline_attribute_112",
+  "entry": "inline",
+  "targets": "coe:stat/targets/inline_inline_155"
+}

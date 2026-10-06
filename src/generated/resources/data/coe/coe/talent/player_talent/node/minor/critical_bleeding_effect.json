@@ -1,0 +1,75 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict_with_critical_hits",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "23786",
+    "links": [
+      "33391",
+      "49394"
+    ],
+    "x": 4803.05,
+    "y": 7446.26
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict_with_critical_hits",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "33391",
+    "links": [
+      "23786",
+      "49661",
+      "56330"
+    ],
+    "x": 5009.7,
+    "y": 7243.85
+  },
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_buff_magnitude_of_bleeding_you_inflict_with_critical_hits",
+            "vars": {
+              "value": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_blood2",
+    "id": "49394",
+    "links": [
+      "23786",
+      "39570"
+    ],
+    "x": 4445.6,
+    "y": 7265.59
+  }
+]

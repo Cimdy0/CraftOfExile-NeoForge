@@ -1,0 +1,38 @@
+[
+  {
+    "effects": [
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:to_accuracy",
+            "vars": {
+              "value": 30.0
+            }
+          }
+        ]
+      },
+      {
+        "type": "stat",
+        "effects": [
+          {
+            "entry": "read",
+            "ref": "coe:inc_accuracy",
+            "vars": {
+              "value": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "icon": "passives_eagleeye",
+    "id": "19104",
+    "links": [
+      "29582",
+      "43923"
+    ],
+    "x": 2770.83,
+    "y": 1599.66
+  }
+]

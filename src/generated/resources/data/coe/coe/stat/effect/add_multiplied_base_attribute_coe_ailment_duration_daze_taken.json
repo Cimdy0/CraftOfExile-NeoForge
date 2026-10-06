@@ -1,0 +1,17 @@
+{
+  "type": "attribute",
+  "attribute": "coe:daze_duration",
+  "operation": "add_multiplied_base",
+  "tags": {
+    "and": [
+      {
+        "not": {
+          "tag": "taken"
+        }
+      },
+      {
+        "tag": "daze"
+      }
+    ]
+  }
+}

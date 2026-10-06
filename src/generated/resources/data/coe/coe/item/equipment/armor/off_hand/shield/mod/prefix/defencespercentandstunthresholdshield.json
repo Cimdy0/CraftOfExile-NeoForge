@@ -1,0 +1,313 @@
+{
+  "coe:item_mod": {
+    "type": {
+      "type": "multi",
+      "parts": [
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:armor_energy_inc_local"
+          },
+          "key": "value"
+        },
+        {
+          "addition": {
+            "type": "read",
+            "ref": "coe:stun_threshold_inc"
+          },
+          "key": "value_2"
+        }
+      ]
+    },
+    "tiers": [
+      {
+        "level": 10,
+        "name": "defender_s",
+        "tier": 1,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 6.0
+          },
+          "value_2": {
+            "max": 13.0,
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 10,
+        "name": "captain_s",
+        "tier": 2,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 6.0
+          },
+          "value_2": {
+            "max": 13.0,
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 10,
+        "name": "beetle_s",
+        "tier": 3,
+        "values": {
+          "value": {
+            "max": 13.0,
+            "min": 6.0
+          },
+          "value_2": {
+            "max": 13.0,
+            "min": 8.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 19,
+        "name": "protector_s",
+        "tier": 4,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 14.0
+          },
+          "value_2": {
+            "max": 24.0,
+            "min": 14.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 19,
+        "name": "commander_s",
+        "tier": 5,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 14.0
+          },
+          "value_2": {
+            "max": 24.0,
+            "min": 14.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 19,
+        "name": "crab_s",
+        "tier": 6,
+        "values": {
+          "value": {
+            "max": 20.0,
+            "min": 14.0
+          },
+          "value_2": {
+            "max": 24.0,
+            "min": 14.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 38,
+        "name": "keeper_s",
+        "tier": 7,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 21.0
+          },
+          "value_2": {
+            "max": 40.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 38,
+        "name": "magnate_s",
+        "tier": 8,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 21.0
+          },
+          "value_2": {
+            "max": 40.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 38,
+        "name": "armadillo_s",
+        "tier": 9,
+        "values": {
+          "value": {
+            "max": 26.0,
+            "min": 21.0
+          },
+          "value_2": {
+            "max": 40.0,
+            "min": 25.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 48,
+        "name": "guardian_s",
+        "tier": 10,
+        "values": {
+          "value": {
+            "max": 32.0,
+            "min": 27.0
+          },
+          "value_2": {
+            "max": 63.0,
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 48,
+        "name": "marshal_s",
+        "tier": 11,
+        "values": {
+          "value": {
+            "max": 32.0,
+            "min": 27.0
+          },
+          "value_2": {
+            "max": 63.0,
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 48,
+        "name": "rhino_s",
+        "tier": 12,
+        "values": {
+          "value": {
+            "max": 32.0,
+            "min": 27.0
+          },
+          "value_2": {
+            "max": 63.0,
+            "min": 41.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 63,
+        "name": "warden_s",
+        "tier": 13,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 33.0
+          },
+          "value_2": {
+            "max": 94.0,
+            "min": 64.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 63,
+        "name": "general_s",
+        "tier": 14,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 33.0
+          },
+          "value_2": {
+            "max": 94.0,
+            "min": 64.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 63,
+        "name": "elephant_s",
+        "tier": 15,
+        "values": {
+          "value": {
+            "max": 38.0,
+            "min": 33.0
+          },
+          "value_2": {
+            "max": 94.0,
+            "min": 64.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 74,
+        "name": "sentinel_s",
+        "tier": 16,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 39.0
+          },
+          "value_2": {
+            "max": 136.0,
+            "min": 95.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 74,
+        "name": "warlord_s",
+        "tier": 17,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 39.0
+          },
+          "value_2": {
+            "max": 136.0,
+            "min": 95.0
+          }
+        },
+        "weight": 1000
+      },
+      {
+        "level": 74,
+        "name": "mammoth_s",
+        "tier": 18,
+        "values": {
+          "value": {
+            "max": 42.0,
+            "min": 39.0
+          },
+          "value_2": {
+            "max": 136.0,
+            "min": 95.0
+          }
+        },
+        "weight": 1000
+      }
+    ]
+  }
+}
