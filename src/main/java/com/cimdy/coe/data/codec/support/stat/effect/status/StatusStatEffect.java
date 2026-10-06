@@ -121,21 +121,37 @@ public class StatusStatEffect extends AbstractStatEffect {
     private final List<String> kinds;
     private final List<String> statusTags;
 
+    /**
+     * 本效果是否<b>由光环授予</b>。为 true 时 {@link StatusEngine#apply} 走7 参重载，
+     * 使 {@code effectMul} 额外乘入光环侧倍率 {@code {aura, !taken}}
+     * （否则 {@code INC_AURA_MAGNITUDE} / {@code INC_BUFF_MAGNITUDE} 对本效果授予的状态恒乘 1.0）。
+     * 仅 presence 光环两个 EFF 置 true；其余构造点一律走默认 false，行为不变。
+     */
+    private final boolean auraSourced;
+
     /** 规范构造：身份（状态类型）+ 语义（数值含义）+ 事件标签（布尔表达式）。 */
     public StatusStatEffect(StatusType status, Aspect aspect, GateExpr tags) {
-        this(status, aspect, Direction.ADD, List.of(), List.of(), tags);
+        this(status, aspect, Direction.ADD, List.of(), List.of(), tags, false);
     }
 
     /** 全参构造：方向（ADD 施加 / REMOVE 移除）+ 状态身份（REMOVE 可为 null）
-     *  + 语义 + 大类 / 标签筛选 + 事件标签（布尔表达式）。 */
+     *  + 语义 + 大类 / 标签筛选 + 事件标签（布尔表达式）。非光环来源。 */
     public StatusStatEffect(StatusType status, Aspect aspect, Direction direction,
                             List<String> kinds, List<String> statusTags, GateExpr tags) {
+        this(status, aspect, direction, kinds, statusTags, tags, false);
+    }
+
+    /** 全参构造 + 光环来源标记。仅 presence 光环 EFF 传 {@code auraSourced=true}。 */
+    public StatusStatEffect(StatusType status, Aspect aspect, Direction direction,
+                            List<String> kinds, List<String> statusTags, GateExpr tags,
+                            boolean auraSourced) {
         super(tags);
         this.status = status;
         this.aspect = aspect;
         this.direction = direction;
         this.kinds = kinds.isEmpty() ? List.of() : List.copyOf(kinds);
         this.statusTags = statusTags.isEmpty() ? List.of() : List.copyOf(statusTags);
+        this.auraSourced = auraSourced;
     }
 
     /** 便捷构造：默认数值即强度，作用于事件目标，产出一条完整条目。 */
@@ -185,15 +201,21 @@ public class StatusStatEffect extends AbstractStatEffect {
         return statusTags;
     }
 
+    /** 是否由光环授予（决定 effectMul 是否乘入 {@code {aura, !taken}} 侧倍率）。 */
+    public boolean auraSourced() {
+        return auraSourced;
+    }
+
     public static final MapCodec<StatusStatEffect> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
             StatusType.CODEC.optionalFieldOf("status").forGetter(e -> Optional.ofNullable(e.status)),
             Aspect.CODEC.optionalFieldOf("aspect", Aspect.MAGNITUDE).forGetter(StatusStatEffect::aspect),
             Direction.CODEC.optionalFieldOf("direction", Direction.ADD).forGetter(StatusStatEffect::direction),
             Codec.STRING.listOf().optionalFieldOf("kinds", List.of()).forGetter(StatusStatEffect::kinds),
             Codec.STRING.listOf().optionalFieldOf("status_tags", List.of()).forGetter(StatusStatEffect::statusTags),
+            Codec.BOOL.optionalFieldOf("aura_sourced", false).forGetter(StatusStatEffect::auraSourced),
             AbstractStatEffect.TAGS_MAP_CODEC.forGetter(AbstractStatEffect::tags)
-    ).apply(i, (statusOpt, aspect, direction, kinds, statusTags, tags) ->
-            new StatusStatEffect(statusOpt.orElse(null), aspect, direction, kinds, statusTags, tags)));
+    ).apply(i, (statusOpt, aspect, direction, kinds, statusTags, auraSourced, tags) ->
+            new StatusStatEffect(statusOpt.orElse(null), aspect, direction, kinds, statusTags, tags, auraSourced)));
 
     @Override
     public String type() {
@@ -231,7 +253,9 @@ public class StatusStatEffect extends AbstractStatEffect {
         }
         entry.forEachTarget(evalCtx, scope,
                 t -> {
-                    StatusEngine.apply(t, status, evalCtx.owner(), magnitude, duration, stacks);
+                    // 走7 参重载传入 auraSourced：光环授予时 effectMul 才乘入 {aura, !taken} 侧倍率。
+                    // 注意必须经此重载才会重算 effectMul——单改 StatusInstance.auraSourced（死存储、零读点）无效。
+                    StatusEngine.apply(t, status, evalCtx.owner(), magnitude, duration, stacks, auraSourced);
                     if (status.tags().contains("ailment")) {
                         AilmentHelper.fireStatusCaused(evalCtx.owner(), t, status.id);
                     }
@@ -314,20 +338,22 @@ public class StatusStatEffect extends AbstractStatEffect {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof StatusStatEffect e)) return false;
-        return aspect == e.aspect && direction == e.direction && Objects.equals(status, e.status)
+        return auraSourced == e.auraSourced && aspect == e.aspect && direction == e.direction
+                && Objects.equals(status, e.status)
                 && Objects.equals(kinds, e.kinds) && Objects.equals(statusTags, e.statusTags)
                 && Objects.equals(tags(), e.tags());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(status, aspect, direction, kinds, statusTags, tags());
+        return Objects.hash(status, aspect, direction, kinds, statusTags, tags(), auraSourced);
     }
 
     @Override
     public String toString() {
         return "StatusStatEffect{status=" + (status == null ? "null" : status.id)
                 + ", aspect=" + aspect + ", direction=" + direction
-                + ", kinds=" + kinds + ", statusTags=" + statusTags + ", tags=" + tags() + "}";
+                + ", kinds=" + kinds + ", statusTags=" + statusTags + ", tags=" + tags()
+                + ", auraSourced=" + auraSourced + "}";
     }
 }

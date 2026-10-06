@@ -46,7 +46,18 @@ public final class StatusInstance {
     public boolean fullyBroken;
     /** 由施加系统统一计算的状态效果幅度倍率（进攻侧 AILMENT_MAGNITUDE × 防守侧 taken AILMENT_MAGNITUDE × 光环额外 {aura} 倍率）。缺省 1.0 = 不额外增强。 */
     public double effectMul = 1.0;
-    /** 是否由光环/存在范围授予（用于叠加额外光环效果加成）。缺省 false。 */
+    /**
+     * 是否由光环/存在范围授予。
+     *
+     * <p><b>⚠ 已知易错点：本字段只是 {@code StatusEngine.effectMul} 的计算中间量，<b>零读点</b>。</b>
+     * 全仓无任何代码读取 {@code inst.auraSourced}——{@code effectMul} 只在 {@code StatusEngine.apply} 的
+     * 7 参 / 9 参重载里<b>就地</b>由形参 {@code auraSourced} 算出并写入 {@link #effectMul}，
+     * 本字段只是被顺手写一份留痕。<b>给本字段赋值不改变任何行为。</b></p>
+     *
+     * <p>想改光环倍率，唯一正确路径是<b>让 {@code StatusEngine.apply} 的 7 参重载被调用</b>
+     * （形参 {@code auraSourced=true}），由它重算 {@link #effectMul}；直接写
+     * {@code inst.auraSourced = true} 是无效操作。</p>
+     */
     public boolean auraSourced = false;
 
     public StatusInstance(StatusType type, double magnitude, int durationTicks, int stacks,

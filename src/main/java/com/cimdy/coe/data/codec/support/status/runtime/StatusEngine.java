@@ -545,6 +545,27 @@ public final class StatusEngine {
      * 统一计算状态效果幅度倍率（AILMENT_MAGNITUDE）：进攻侧（施法者，{ailment,type,!taken}）
      * × 防守侧（目标，{ailment,type,taken}）× [若光环/存在来源] 光环额外倍率（施法者，{aura,!taken}）。
      * 缺省 1.0 表示不加成。凋零（withered）/ 附魔（infusion）标记并入对应作用域，使「凋零下的状态」获得对应加成。
+     *
+     * <h2>参数 {@code auraSourced} 由谁决定</h2>
+     * 本参数<b>不由引擎推断</b>，完全由<b>调用方</b>显式传入——它回答「这次施加是不是光环/存在范围授予的」。
+     * 传 {@code true} 的路径共两类：
+     * <ol>
+     *   <li><b>三处程序化光环</b>直接调 7 参重载并传 true：
+     *       {@code data/helper/impl/aura/MarkHelper.java:48}（mark 群体光环）、
+     *       {@code MarkBlindAura.java:71-72}（致盲光环）、{@code ShieldFrontDebilitateAura.java:64-65}（盾前削弱光环）。</li>
+     *   <li><b>数据驱动路径</b>：{@link com.cimdy.coe.data.codec.support.stat.effect.status.StatusStatEffect}
+     *       的 {@code aura_sourced} 数据字段（CODEC {@code optionalFieldOf("aura_sourced", false)}，老数据兼容缺省 false），
+     *       由 {@code StatusStatEffect.onTrigger} 转发给 7 参重载。当前仅 presence 光环两个 EFF 置 true
+     *       （{@code StatEffectGen:345} withered / {@code :348} onslaught）——此前该路径恒传 false，
+     *       导致 aura 项恒乘 1.0、{@code {aura,!taken}} 的三个消费 Stat 对 presence 光环授予的状态完全不生效。</li>
+     * </ol>
+     *
+     * <p><b>刻意排除：{@code SkillBanner} 的 {@code BANNER_AURA}（{@code SkillBanner.java:272}/{@code :283}）保持
+     * {@code auraSourced=false}</b>——它不是「漏传」而是<b>有意分工</b>：战旗走
+     * {@link com.cimdy.coe.data.codec.skill.phase.action.support.BannerAction} 的<b>读点侧预乘</b>，
+     * {@code {aura,banner}} 作用域的倍率已在 {@code BannerAction:79-83} 直接烘焙进 entry amount；
+     * 若此处再乘一次 aura 侧倍率，同一份加成会被计两次 ⇒ <b>平方放大（双计量）</b>。
+     * 判据：<b>倍率已在读点侧预乘的施加方，一律传 false。</b></p>
      */
     private static double effectMul(LivingEntity target, StatusType type, @Nullable LivingEntity caster, boolean auraSourced) {
         if (caster == null) return 1.0;

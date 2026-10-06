@@ -342,10 +342,22 @@ public final class StatEffectGen {
         m.put(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WARCRY, new ModifierStatEffect(AttributeRegistry.AILMENT_MAGNITUDE, Either.left(AttributeModifier.Operation.ADD_MULTIPLIED_BASE), ModifierStatEffect.Mode.GAIN, GateExpr.of(Set.of("warcry", GateTag.not("taken")))));
         m.put(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WITHERED, new ModifierStatEffect(AttributeRegistry.AILMENT_MAGNITUDE, Either.left(AttributeModifier.Operation.ADD_MULTIPLIED_BASE), ModifierStatEffect.Mode.GAIN, GateExpr.of(Set.of("taken", "withered"))));
         m.put(StatEffectIds.EFF_ADD_MULTIPLIED_BASE_ATTRIBUTE_COE_AILMENT_MAGNITUDE_TAKEN_WITHERED_2, new ModifierStatEffect(AttributeRegistry.AILMENT_MAGNITUDE, Either.left(AttributeModifier.Operation.ADD_MULTIPLIED_BASE), ModifierStatEffect.Mode.GAIN, GateExpr.of(Set.of("withered", GateTag.not("taken")))));
-        m.put(StatEffectIds.EFF_PRESENCE_AURA_WITHERED, new MultiStatEffect(java.util.List.of(new StatusStatEffect(StatusDefs.WITHER, StatusStatEffect.Aspect.MAGNITUDE, GateExpr.ALWAYS))));
+        // 下面这两个 presence 光环 EFF（EFF_PRESENCE_AURA_WITHERED / ONSLAUGHT）的 StatusStatEffect 尾参传 true（auraSourced），
+        // 使 StatusEngine.apply 走 7 参重载，让 effectMul 乘入 {aura,!taken} 侧倍率。
+        // 为什么只有这两处置 true、其余 12 处 StatusStatEffect 一律 false：
+        //   - 这两个是唯一真正由「光环授予」的状态施加路径，与 MarkHelper / MarkBlindAura / ShieldFrontDebilitateAura
+        //     三处程序化光环同口径；消费端是 {aura,!taken} 三个 Stat（WireAilment:127 INC_AURA_MAGNITUDE /
+        //     :142 INC_BUFF_MAGNITUDE / :335 AURA_SKILLS_HAVE_INC_BUFF_MAGNITUDE，均指向 EFF_..._AURA_..._TAKEN_2）。
+        //     若不置 true，这三个 Stat 对 presence 光环授予的状态恒乘 1.0（断链）。
+        //   - 其余位置若也置 true，会把非光环来源（直接打击、清洗等）的状态也乘上光环倍率，语义错误。
+        // 强制排除：SkillBanner 的 BANNER_AURA 保持 false——它走 BannerAction 的读点侧预乘分工，再乘会平方放大。
+        m.put(StatEffectIds.EFF_PRESENCE_AURA_WITHERED, new MultiStatEffect(java.util.List.of(new StatusStatEffect(StatusDefs.WITHER, StatusStatEffect.Aspect.MAGNITUDE, StatusStatEffect.Direction.ADD, java.util.List.of(), java.util.List.of(), GateExpr.ALWAYS, true))));
+        // 注：Aspect.STACKS 下 aura 倍率放大的是「层数」而非强度（scaledStacks() = round(stacks * effectMul)），
+        // 待用户确认是否符合设计意图。
+        // 本处 auraSourced=true 的理由同上（presence 光环授予属于光环来源，需乘 {aura,!taken}）。
         // 猛攻现按层数计量（每层 +1% 攻速 / +1% 施法速度 / +0.5% 移速，无上限），
         // 故 presence 光环数值必须解释为「层数」（STACKS），默认授予 20 层 = 双速 +20% / 移速 +10%。
-        m.put(StatEffectIds.EFF_PRESENCE_AURA_ONSLAUGHT, new MultiStatEffect(java.util.List.of(new StatusStatEffect(StatusDefs.ONSLAUGHT, StatusStatEffect.Aspect.STACKS, GateExpr.ALWAYS))));
+        m.put(StatEffectIds.EFF_PRESENCE_AURA_ONSLAUGHT, new MultiStatEffect(java.util.List.of(new StatusStatEffect(StatusDefs.ONSLAUGHT, StatusStatEffect.Aspect.STACKS, StatusStatEffect.Direction.ADD, java.util.List.of(), java.util.List.of(), GateExpr.ALWAYS, true))));
         m.put(StatEffectIds.EFF_PRESENCE_AURA_TAKEN_DAMAGE, new MultiStatEffect(java.util.List.of(new ModifierStatEffect(AttributeRegistry.TAKEN_DAMAGE, Either.left(AttributeModifier.Operation.ADD_MULTIPLIED_BASE), ModifierStatEffect.Mode.GAIN, GateExpr.ALWAYS))));
         m.put(StatEffectIds.EFF_PRESENCE_GRANT_COE_REGENERATION_RATE, new MultiStatEffect(java.util.List.of(new ModifierStatEffect(AttributeRegistry.REGENERATION_RATE, Either.left(AttributeModifier.Operation.ADD_MULTIPLIED_BASE), ModifierStatEffect.Mode.GAIN, GateExpr.of(Set.of("health", "regen"))))));
         m.put(StatEffectIds.EFF_PRESENCE_GRANT_COE_DAMAGE, new MultiStatEffect(java.util.List.of(new ModifierStatEffect(AttributeRegistry.DAMAGE, Either.left(AttributeModifier.Operation.ADD_MULTIPLIED_BASE), ModifierStatEffect.Mode.GAIN, GateExpr.of(Set.of("damage"))))));
