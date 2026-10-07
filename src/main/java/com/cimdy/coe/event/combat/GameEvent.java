@@ -143,7 +143,7 @@ public final class GameEvent {
             tags.addAll(form);
             // proj:<形态 id>：<b>仅当形态自称 projectile 才发</b>。
             // 否则驻场形态（coe:hazard / coe:caltrop / coe:orb…）会因 proj: 前缀通配
-            // 被 {projectile} 词缀命中（手雷同理：它刻意不并入 projectile，见 ThrownDelivery）。
+            // 被 {projectile} 词缀命中（手雷同理：它刻意不并入 projectile，见统一 ProjectileDelivery 的 THROWN 形态）。
             if (form.contains(GateTag.PROJECTILE)) {
                 EntityRead read = carrier.entityRead();
                 if (read != null) tags.add("proj:" + read.ref().getPath());

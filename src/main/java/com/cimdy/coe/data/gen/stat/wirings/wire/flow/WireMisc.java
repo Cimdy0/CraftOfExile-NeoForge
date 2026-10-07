@@ -649,7 +649,7 @@ public final class WireMisc {
 
         // 事件 CONSUME_INFUSION 由 ResourceRegistry.consumeInfusionAny 发射（ResourceRegistry.onConsumeInfusion 经此路径），
 
-        // 技能成本管线（ResourceType.INFUSION）亦经此，故覆盖全部「消耗灌入」路径
+        // 技能成本管线（资源类型.INFUSION）亦经此，故覆盖全部「消耗灌入」路径
 
         // （含主动消耗元素/维金与到期清理），驱动「消耗得暴击球 / 近期法伤」等条目。
 
@@ -883,7 +883,7 @@ public final class WireMisc {
 
         // 事件 MINION_DEATH 由 DamageEvent.LivingDeathEvent 记在**主人**名下（同 COND_RECENTLY_MINION_DIED），
 
-        // 故持有者自身队列可命中；ResourceType.VOLATILITY 授予量 = 条目 value，R3 安全。
+        // 故持有者自身队列可命中；资源类型.VOLATILITY 授予量 = 条目 value，R3 安全。
 
         map.put(StatIds.GAIN_VOLATILITY_WHEN_AN_ALLIES_PERSISTENT_REVIVING_MINION_IS_MINION_DEATH,
 
@@ -1841,7 +1841,7 @@ public final class WireMisc {
 
         map.put(StatIds.YOUR_TOTEM_LIMIT_IS_DOUBLED, self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_TOTEMS));
 
-        // Orb 技能 +X 到上限（MAX_ORB，base=1 非零基→ADD_VALUE；OrbDeliveryExecutor.canSpawnOrb 真读该属性并强制上限，R3 安全）
+        // Orb 技能 +X 到上限（MAX_ORB，base=1 非零基→ADD_VALUE；统一 ProjectileDeliveryExecutor 的 ORB 分支经 EntityCategoryLimit 真读该属性并强制上限，R3 安全）
 
         map.put(StatIds.ORB_SKILLS_HAVE_TO_LIMIT, self(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_ORB));
 
@@ -2455,7 +2455,7 @@ public final class WireMisc {
 
         // duration EFF 走 BUFF_DURATION_MULT（ADD_MULTIPLIED_TOTAL，base=1.0）→ 值 -0.75 ⇒ 持续 ×0.25（75% less），方向正确。
 
-        // cost EFF 走 MANA_COST_EFFICIENCY（ADD_VALUE，base=0）→ 读点 ResourceCost:120 `raw * max(0, 1 - eff)`；
+        // cost EFF 走 MANA_COST_EFFICIENCY（ADD_VALUE，base=0）→ 读点 资源消耗声明:120 `raw * max(0, 1 - eff)`；
 
         //   节点值 +0.5 ⇒ eff=+0.5 ⇒ 消耗 ×0.5（即 50% less cost），方向正确（已修正：原规范误写 -0.5）。
 

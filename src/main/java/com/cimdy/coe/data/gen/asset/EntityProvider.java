@@ -2,7 +2,6 @@ package com.cimdy.coe.data.gen.asset;
 
 import com.cimdy.coe.data.helper.engine.entity.EntityStages;
 import com.cimdy.coe.entity.custom.skill.SkillEntity;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.OrbDelivery;
 import com.cimdy.coe.data.gen.source.CoeDataPaths;
 import com.cimdy.coe.data.gen.provider.GateTagCategoryProvider;
 import com.cimdy.coe.data.codec.entity.EntityDef;
@@ -12,8 +11,13 @@ import com.cimdy.coe.data.codec.entity.render.EntityRenderLayer;
 import com.cimdy.coe.data.codec.entity.render.EntityRenderLayers;
 import com.cimdy.coe.data.codec.entity.trigger.EntityTriggers;
 import com.cimdy.coe.data.codec.skill.phase.action.control.LifecycleTrigger;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.RemnantDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry;
+import com.cimdy.coe.data.codec.skill.phase.delivery.area.InstantDuration;
+import com.cimdy.coe.data.codec.skill.phase.delivery.area.SphereShape;
+import com.cimdy.coe.data.codec.entity.EntityRead;
 import com.cimdy.coe.data.codec.entity.behavior.EntityBehavior;
+import com.cimdy.coe.data.codec.support.math.ExpressionCodec;
 import com.cimdy.coe.data.codec.entity.behavior.EntityBehaviors;
 import com.cimdy.coe.data.codec.entity.behavior.EntityMotions;
 import com.cimdy.coe.data.codec.support.stat.tag.GateTag;
@@ -213,8 +217,8 @@ public class EntityProvider implements DataProvider {
         //   风暴漩涡 —— 「每 4 秒发射一次闪电；球半径 3.6 米；持续 12 秒」；
         //   日曜球   —— 「每 1.4 秒脉冲一次；爆炸范围 2.5 米；持续 10 秒」。
         // 此处的 interval 是形态自带节奏（风暴漩涡的 4 秒 = 80 tick），
-        // 具体技能由 OrbDelivery 按真值覆写（同初速度，节奏属投递参数）。
-        // 标签刻意留空：Orb 不是 hazard，作用域标签由 OrbDelivery 的兜底 {area, aoe} 提供。
+        // 具体技能由 Orb 投递 按真值覆写（同初速度，节奏属投递参数）。
+        // 标签刻意留空：Orb 不是 hazard，作用域标签由 Orb 投递 的兜底 {area, aoe} 提供。
         EntityDef orb = new EntityDef(
                 Identifier.parse("coe:orb"),
                 Optional.empty(),
@@ -227,7 +231,7 @@ public class EntityProvider implements DataProvider {
                 List.of(),  // 生成效果通道 on_spawn：本形态不使用
                 // 第二效果通道 on_expire：到期留残迹——在球原地生成一个可拾取的残片实体（owner 走过即点燃阶段 ON_HIT）。
                 // 数据驱动、不依赖新事件/触发器类型；仅 Orb of Storms 置非空，frostBomb/sunOrb 不受影响。
-                List.of(new EntityTriggers.Deliver(RemnantDelivery.DEFAULT)),
+                List.of(new EntityTriggers.Deliver(orbRemnantArea())),
                 EntityMotions.Static.INSTANCE,
                 List.of(new EntityBehaviors.Pulse(80, EntityBehavior.TARGET_ENEMY)),
                 List.of(),  // 第四效果通道 on_aura：本形态不使用
@@ -235,7 +239,7 @@ public class EntityProvider implements DataProvider {
                 // caster 仍是玩家（stat 作用域不变），prop 是本实体（由球放出）—— 满足「球施法行为数据驱动、不切换施法者主体」。
                 // 仅 Orb of Storms 置非空；frostBomb / sunOrb 走次级构造器默认空列表，不受影响。
                 List.of(EntityTriggers.PhaseOnHit.INSTANCE),
-                List.of());  // 阶段序列 stages：本形态无阶段（非「阶段式实体」，EntityStages 对它零行为）
+                List.of(), Optional.empty());  // 阶段序列 stages：本形态无阶段（非「阶段式实体」，EntityStages 对它零行为）
 
         // ── coe:entity/frost_bomb：static + [pulse(20,enemy), detonate(200,enemy)] ──
         // Frost Bomb（POE2 寒霜爆）真实语义的落地形态：原地悬停，周期内对半径内敌人施加曝曬
@@ -263,7 +267,7 @@ public class EntityProvider implements DataProvider {
                 // 第三效果通道 on_nearby_cast：本形态不使用
                 List.of(),
                 // 阶段序列 stages：本形态无阶段（非「阶段式实体」，EntityStages 对它零行为）
-                List.of());
+                List.of(), Optional.empty());
 
         // ── coe:entity/sun_orb：static + [pulse(28,enemy), detonate(200,enemy)] ──
         // 日曜球（Solar Orb）真实语义：原地悬停，每 1.4 秒（28 tick）脉冲火焰伤害，
@@ -290,7 +294,7 @@ public class EntityProvider implements DataProvider {
                 // 第四效果通道 on_aura：光环行为施加点燃（1 分钟）
                 List.of(new EntityTriggers.ApplyStatus("ignite", 1200, 1.0, "target")),
                 List.of(),  // 第三效果通道 on_nearby_cast：本形态不使用
-                List.of());  // 阶段序列 stages：本形态无阶段（非「阶段式实体」，EntityStages 对它零行为）
+                List.of(), Optional.empty());  // 阶段序列 stages：本形态无阶段（非「阶段式实体」，EntityStages 对它零行为）
 
         // ── coe:entity/fissure：static + pulse（数据驱动裂隙世界物件）──
         // 承载类型 coe:fissure（EntityRegistry.SKILL_FISSURE，复用 SkillEntity 承载）；
@@ -312,7 +316,7 @@ public class EntityProvider implements DataProvider {
                 List.of(new EntityBehaviors.Pulse(40, EntityBehavior.TARGET_ENEMY)),
                 List.of(),
                 List.of(),
-                List.of());
+                List.of(), Optional.empty());
 
         // ── coe:entity/skill_vine：static + pulse + 阶段序列（数据驱动毒藤，植物 overgrow 设施载体）──
         // 承载类型用既有 coe:prop（SkillEntity，与 remnant/hazard/caltrop 同范式）—— plant 纯数据、无需新 EntityType；
@@ -339,7 +343,7 @@ public class EntityProvider implements DataProvider {
                 List.of(
                         new EntityStage("sprout", 40),
                         new EntityStage("grown", 60),
-                        new EntityStage("bloom")));
+                        new EntityStage("bloom")), Optional.empty());
 
         // ── coe:entity/wall · wall_fire · wall_cold：Wall 运动（真实碰撞）+ pulse（对敌周期点燃 ON_TICK）──
         // 冰墙/火墙/盾墙的<b>真实机制</b>：墙体是「有碰撞、能阻挡技能/弹幕/移动的建筑实体」，
@@ -420,7 +424,7 @@ public class EntityProvider implements DataProvider {
                         Identifier.parse("coe:textures/entity/prop/orb"), 0.7F, 0.15F, 0.8F, true))));
 
         // 元素 Orb 外观（coe:entity_render/orb_<damageType>）：
-        // 约定式派生（同 ball_<damageType>）：OrbDelivery 的 damageType 即渲染 id，
+        // 约定式派生（同 ball_<damageType>）：Orb 投递（统一 ProjectileDelivery 的 ORB 形态）的 damageType 即渲染 id，
         // 新增一种元素只在此加一份数据 —— SkillFactory 零改动。
         // 只生成**确有技能使用**的两种（闪电=风暴漩涡、火焰=日曜球）：
         // 未被任何实体/技能引用的外观数据是孤儿数据（R1），故不预置冷/混沌。
@@ -520,6 +524,18 @@ public class EntityProvider implements DataProvider {
                 encode(cache, renderDir.resolve("wall_cold.json"), EntityRenderDef.CODEC, wallColdRender));
     }
 
+    /** Orb 到期留残迹：生成可拾取的残片（统一 AreaDelivery 的 REMNANT 几何，默认 coe:remnant）。 */
+    private static AreaDelivery orbRemnantArea() {
+        return new AreaDelivery(
+                AreaGeometry.REMNANT,
+                new SphereShape(ExpressionCodec.of(1.5f)),
+                new InstantDuration(),
+                ExpressionCodec.of(1.0),
+                Optional.of(EntityRead.of(Identifier.parse("coe:remnant"))),
+                Optional.of(ExpressionCodec.of(200.0)),
+                Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
+    }
+
     /**
      * 元素 Orb 外观：外层悬浮光环（元素粒子）+ 模型层（元素配色球贴图）。
      *
@@ -547,7 +563,7 @@ public class EntityProvider implements DataProvider {
                 List.of(new EntityBehaviors.Pulse(20, EntityBehavior.TARGET_ENEMY)),
                 List.of(),
                 List.of(),
-                List.of());
+                List.of(), Optional.empty());
     }
 
     /** 墙体外观：元素粒子环 + 竖向光柱 + 既有 orb 模型（零新增贴图）。 */

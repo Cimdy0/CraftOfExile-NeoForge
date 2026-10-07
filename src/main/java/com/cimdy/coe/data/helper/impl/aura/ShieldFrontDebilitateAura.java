@@ -50,7 +50,7 @@ public final class ShieldFrontDebilitateAura {
         if (!PeriodicDriver.beat(living.tickCount, INTERVAL)) return;
 
         // 半径经「范围属性」作用域注入：光环半径 = 标记幅度(米) × EFFECT_AREA（{area} 作用域）。
-        // 与技能面积加成同源（OrbDeliveryExecutor/BallDeliveryExecutor 经 withScope({area}, EFFECT_AREA)），
+        // 与技能面积加成同源（统一 ProjectileDeliveryExecutor 的 ORB/BALL 分支、AreaDeliveryExecutor 经 withScope({area}, EFFECT_AREA)），
         // 非存在范围（光环）统一走范围属性作用域，而非新建 aura_radius 轴。
         double radius = StatEngine.magnitudeOf(living, "shield_front_debilitate", Set.of())
                 * AilmentHelper.withScope(living, Set.of(GateTag.AREA), AttributeRegistry.EFFECT_AREA);

@@ -1,6 +1,5 @@
 package com.cimdy.coe.registry.world;
 
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.OrbDelivery;
 import com.cimdy.coe.data.helper.combat.HitScopeHelper;
 import com.cimdy.coe.CraftOfExile;
 import com.cimdy.coe.entity.custom.EnderBall;
@@ -48,7 +47,7 @@ public class EntityRegistry {
      *
      * <p>真值（poe2db / poe2wiki 0.3.0）：风暴漩涡「每 4 秒发射一次闪电、球半径 3.6 米、
      * 持续 12 秒」；日曜球「每 1.4 秒脉冲一次、爆炸范围 2.5 米、持续 10 秒」。
-     * 节奏与半径由 {@code OrbDelivery} 按技能装配（同初速度，属投递参数）。
+     * 节奏与半径由统一 {@code ProjectileDelivery} 的 ORB 形态按技能装配（同初速度，属投递参数）。
      */
     public static final Supplier<EntityType<SkillEntity>> ORB =
             ENTITY_TYPES.registerEntityType("orb", SkillEntity::new, MobCategory.MISC);

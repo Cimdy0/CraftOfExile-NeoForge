@@ -12,7 +12,7 @@ import com.cimdy.coe.data.codec.support.stat.effect.modifier.ModifierStatEffect;
 import com.cimdy.coe.CraftOfExile;
 import com.cimdy.coe.data.codec.skill.context.SkillContext;
 import com.cimdy.coe.data.codec.skill.gem.SkillData;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceCost;
+import com.cimdy.coe.data.codec.skill.helper.resource.ResourceDecl;
 import com.cimdy.coe.data.codec.skill.helper.cast.SkillCast;
 import com.cimdy.coe.data.codec.skill.input.Click;
 import com.cimdy.coe.data.codec.skill.input.Continuous;
@@ -22,12 +22,7 @@ import com.cimdy.coe.data.codec.skill.modifier.SkillModifier;
 import com.cimdy.coe.data.codec.skill.phase.SkillPhase;
 import com.cimdy.coe.data.codec.skill.phase.SkillPhasePlayer;
 import com.cimdy.coe.data.codec.skill.phase.delivery.Delivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.HazardDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.RemnantDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.BallDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.OrbDelivery;
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.ProjectileDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.ThrownDelivery;
 import com.cimdy.coe.data.codec.skill.phase.action.control.TriggeredAction;
 import com.cimdy.coe.data.codec.skill.phase.action.MetaSkillAction;
 import com.cimdy.coe.data.codec.skill.phase.event.EventListenPhase;
@@ -58,70 +53,95 @@ import net.neoforged.neoforge.network.PacketDistributor;
 
 import java.util.*;
 import com.cimdy.coe.data.codec.skill.SkillIds;
+import java.util.Locale;
 
+/**
+ * 技能定义（D0 重构：身份 + 使用方式列表）。
+ *
+ * <p>原 {@code Skill} 是单形态 16 字段 record，已顶满 {@code RecordCodecBuilder} 的 16 字段上限，
+ * 且把「身份」与「一种使用方式」焊死（{@code cast}/{@code input}/{@code form} 全是单值），
+ * 导致「一技能多套使用方式」只能复制成多个预设 id。本次重构按总纲_3 拆为：
+ * <ul>
+ *   <li>{@link Identity} —— 身份类字段（门槛 / 武器需求 / 动画 / 修饰 / 等阶 / 标签 / 参数 / 声画 / 技能石），10 字段；</li>
+ *   <li>{@link Usage} —— 单种使用方式（输入 / 触发 / 执行体 / 保留 / 施放 / 消耗 / 阶段树 / 范围），8 字段；其中
+ *       {@code form} 正名为 {@code executor}（Totem/Trap/Mine 等执行体骨架），并新增 {@code trigger}/{@code retention}
+ *       两个正交开关（auto/manual/event、spend/retain）；</li>
+ *   <li>{@code usages: List<Usage>} —— 多使用方式容器（当前运行时仅消费 {@link #primary()}，
+ *       多 usage 的「按键 × 使用方式」分发由后续 D/E 运行时层接线，数据层先支持）。</li>
+ * </ul>
+ * 顶层字段由 16 降为 2，既绕开 16 上限，又保留扩展空间。所有旧 {@code skill.xxx()} 读取点经委托 getter 保持不变。
+ */
 public record Skill(
-        Require require,
-        String equipment,
-        Optional<Identifier> animation,
-        SkillCast cast,
-        InputMode input,
-        List<ResourceCost> cost,
-        List<SkillPhasePlayer> phases,
-        List<SkillModifier> modifiers,
-        int tier,
-        List<String> tags,
-        // 技能形态（Totem/Trap/Mine 等 PoE2 形态骨架）：数据驱动、Optional。
-        // 落盘于 JSON 的 "form" 字段；装配期经 SkillLinkResolver 注入为技能级 stat 标签，
-        // 使 allow_type 表达式可针对形态（如 "totem"）判定兼容性。详见 SkillForm。
-        Optional<String> form,
-        // 范围型技能（诅咒 / 标记）的范围与时长：原 4 个独立 Optional（curse_range / curse_duration /
-        // mark_range / mark_duration）合并为 aoeRanges，释放 record 字段额度给施放声画身份
-        // （cast_sound / cast_particle）。委托 getter {@link #curseRange()} 等保持既有调用点不变。
-        Optional<AoeRanges> aoeRanges,
-        /**
-         * 定义期参数槽（{@code $name} → 默认值）：本技能全部 {@link ExpressionCodec.Value}
-         * （保留值 / 范围半径 / 时长 / 倍率 …）中出现的 {@code $name} 在此声明默认值，
-         * 由 {@link SkillRead#vars} 在引用时覆盖（实例值 &gt; 模板默认值）。
-         * <p>本 record 即「一个完整的技能定义」——注册后拿到 id，该 id 就是一个可被
-         * {@code SkillRead(ref, vars)} 引用的<b>预设</b>；不存在独立的「技能类型」注册表。
-         */
-        Map<String, ExpressionCodec.Value> params,
-        // 施放标志反馈（音效 / 粒子）：技能级声明，经服务端「释放节拍」(SkillInstance#emitReleaseBeat)
-        // 广播，客户端自动渲染——使「技能声画身份」成为代码定义的权威源（与 animation 同源），
-        // 缺省回退灵魂火苗粒子 + NOTE_BLOCK_BASS 音。A1/A2 贯穿时间轴释放节拍据此播出。
-        Optional<Identifier> castSound,
-        Optional<Identifier> castParticle,
-        /**
-         * 本技能<b>是否可生成技能石（gem）</b>：可空，{@code 空} 默认为 {@code true}（大多数技能都会
-         * 被刻印成技能石物品）。显式置 {@code false} 用于<b>不应生成技能石</b>的技能——
-         * 物品授予技（item-granted）、怪物/召唤物天生技能、升华与被动授予技等，它们由
-         * {@code SkillIds} + {@code SkillRead} 直接引用施放，不以宝石物品形态存在。
-         * 经 {@link #canGenerateGem()} 读取（空 → true）。
-         */
-        Optional<Boolean> gemmable
+        Identity identity,
+        List<Usage> usages
 ) implements SkillEntry {
 
-    /**
-     * 便捷构造（15 参）：省略 {@code gemmable} → {@code Optional.empty()}（即默认「可生成技能石」）。
-     * 使全部既有调用点（{@code with*} 副本与 datagen 工厂）无需为新增维度改签名，避免全仓补丁式改动。
-     */
-    public Skill(Require require, String equipment, Optional<Identifier> animation, SkillCast cast,
-                 InputMode input, List<ResourceCost> cost, List<SkillPhasePlayer> phases,
-                 List<SkillModifier> modifiers, int tier, List<String> tags, Optional<String> form,
-                 Optional<AoeRanges> aoeRanges, Map<String, ExpressionCodec.Value> params,
-                 Optional<Identifier> castSound, Optional<Identifier> castParticle) {
-        this(require, equipment, animation, cast, input, cost, phases, modifiers, tier, tags, form,
-                aoeRanges, params, castSound, castParticle, Optional.empty());
+    /** 便捷构造（单使用方式）。 */
+    public Skill(Identity identity, Usage usage) {
+        this(identity, List.of(usage));
     }
+
+    /** 主使用形态：{@code usages} 必非空（构造/codec 保证）；全部既有 {@code skill.xxx()} 读取点委托到此。 */
+    public Usage primary() {
+        return usages.get(0);
+    }
+
+    /** 返回用新主使用形态替换后的副本（{@code usages[0]} 替换，其余不动）。供装配期重建使用。 */
+    public Skill withPrimaryUsage(Usage u) {
+        List<Usage> copy = new ArrayList<>(usages);
+        copy.set(0, u);
+        return new Skill(identity, copy);
+    }
+
+    // ---- 身份委托 getter（保持既有调用点不变）----
+    public Require require() { return identity.require(); }
+    public String equipment() { return identity.equipment(); }
+    public Optional<Identifier> animation() { return identity.animation(); }
+    public List<SkillModifier> modifiers() { return identity.modifiers(); }
+    public int tier() { return identity.tier(); }
+    public List<String> tags() { return identity.tags(); }
+    public Map<String, ExpressionCodec.Value> params() { return identity.params(); }
+    public Optional<Identifier> castSound() { return identity.castSound(); }
+    public Optional<Identifier> castParticle() { return identity.castParticle(); }
+    public Optional<Boolean> gemmable() { return identity.gemmable(); }
+    public boolean canGenerateGem() { return identity.canGenerateGem(); }
+
+    // ---- 使用形态委托 getter（保持既有调用点不变；form 正名为 executor）----
+    public InputMode input() { return primary().input(); }
+    public UsageTrigger trigger() { return primary().trigger(); }
+    public Optional<ExecutorRef> executor() { return primary().executor(); }
+    public UsageRetention retention() { return primary().retention(); }
+    public SkillCast cast() { return primary().cast(); }
+    public List<ResourceDecl> cost() { return primary().cost(); }
+    public List<SkillPhasePlayer> phases() { return primary().phases(); }
+    public Optional<AoeRanges> aoeRanges() { return primary().aoeRanges(); }
+
+    // ---- 范围型委托 getter（原 aoeRanges.flatMap，现经 primary().aoeRanges()）----
+    public Optional<ExpressionCodec.Value> curseRange() {
+        return primary().aoeRanges().flatMap(AoeRanges::curseRange);
+    }
+    public Optional<ExpressionCodec.Value> curseDuration() {
+        return primary().aoeRanges().flatMap(AoeRanges::curseDuration);
+    }
+    public Optional<ExpressionCodec.Value> markRange() {
+        return primary().aoeRanges().flatMap(AoeRanges::markRange);
+    }
+    public Optional<ExpressionCodec.Value> markDuration() {
+        return primary().aoeRanges().flatMap(AoeRanges::markDuration);
+    }
+
     public static final SkillData EMPTY =
             SkillData.builder(CraftOfExile.EMPTY_LOCATION).build();
+
+    // ===================================================================
+    //  嵌套类型：AoeRanges / Identity / Usage / UsageTrigger / UsageRetention
+    // ===================================================================
 
     /**
      * 范围型技能（诅咒 / 标记）的范围与时长声明。
      * 原 Skill 把 curse_range / curse_duration / mark_range / mark_duration 拆成 4 个独立 Optional 字段，
-     * 已占满 RecordCodecBuilder 的 16 字段上限；合并为单个 {@code aoeRanges} 释放 record 字段额度，
-     * 供施放声画身份（cast_sound / cast_particle）使用。序列化 key 为 {@code aoe_ranges} 内嵌对象。
-     * <p>声明于 MAP_CODEC 之前，避免前向引用导致编译器将 AoeRanges.CODEC 误解析为外层 Skill.CODEC。
+     * 已占满 RecordCodecBuilder 的 16 字段上限；合并为单个 {@code aoeRanges} 释放 record 字段额度。
+     * 序列化 key 为 {@code aoe_ranges} 内嵌对象。声明于 Usage 之前，避免前向引用导致编译器将其误解析为外层 CODEC。
      */
     public record AoeRanges(
             Optional<ExpressionCodec.Value> curseRange,
@@ -136,7 +156,7 @@ public record Skill(
                 ExpressionCodec.VALUE_CODEC.optionalFieldOf("mark_duration").forGetter(AoeRanges::markDuration)
         ).apply(instance, AoeRanges::new));
 
-        /** 由 4 个范围字段构造一个内嵌 AoeRanges（旧 SkillPresets.mk 接口经此桥接，无需改调用方）。 */
+        /** 由 4 个范围字段构造一个内嵌 AoeRanges（旧 SkillPresets/SkillFactory 经此桥接，无需改调用方）。 */
         public static Optional<AoeRanges> of(
                 Optional<ExpressionCodec.Value> curseRange,
                 Optional<ExpressionCodec.Value> curseDuration,
@@ -146,51 +166,160 @@ public record Skill(
         }
     }
 
-    public static final MapCodec<Skill> MAP_CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
-            Require.CODEC.fieldOf("require").forGetter(Skill::require),
-            Codec.STRING.optionalFieldOf("equipment", "").forGetter(Skill::equipment),
-            Identifier.CODEC.optionalFieldOf("animation").forGetter(Skill::animation),
-            SkillCast.CODEC.fieldOf("cast").forGetter(Skill::cast),
-            InputMode.CODEC.optionalFieldOf("input", new Click()).forGetter(Skill::input),
-            ResourceCost.CODEC.listOf().fieldOf("cost").forGetter(Skill::cost),
-            SkillPhasePlayer.CODEC.listOf().fieldOf("phases").forGetter(Skill::phases),
-            SkillModifier.CODEC.listOf().optionalFieldOf("modifiers", List.of()).forGetter(Skill::modifiers),
-            Codec.INT.optionalFieldOf("tier", 1).forGetter(Skill::tier),
-            Codec.STRING.listOf().optionalFieldOf("tags", List.of()).forGetter(Skill::tags),
-            Codec.STRING.optionalFieldOf("form").forGetter(Skill::form),
-            AoeRanges.CODEC.optionalFieldOf("aoe_ranges").forGetter(Skill::aoeRanges),
-            Codec.unboundedMap(Codec.STRING, ExpressionCodec.VALUE_CODEC)
-                    .optionalFieldOf("params", Map.of()).forGetter(Skill::params),
-            Identifier.CODEC.optionalFieldOf("cast_sound").forGetter(Skill::castSound),
-            Identifier.CODEC.optionalFieldOf("cast_particle").forGetter(Skill::castParticle),
-            Codec.BOOL.optionalFieldOf("gemmable").forGetter(Skill::gemmable)
-    ).apply(instance, Skill::new));
+    /**
+     * 技能身份：与「怎么用」无关、描述「这是什么技能」的字段集合。
+     */
+    public record Identity(
+            Require require,
+            String equipment,
+            Optional<Identifier> animation,
+            List<SkillModifier> modifiers,
+            int tier,
+            List<String> tags,
+            Map<String, ExpressionCodec.Value> params,
+            Optional<Identifier> castSound,
+            Optional<Identifier> castParticle,
+            Optional<Boolean> gemmable
+    ) {
+        public static final MapCodec<Identity> MAP_CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
+                Require.CODEC.fieldOf("require").forGetter(Identity::require),
+                Codec.STRING.optionalFieldOf("equipment", "").forGetter(Identity::equipment),
+                Identifier.CODEC.optionalFieldOf("animation").forGetter(Identity::animation),
+                SkillModifier.CODEC.listOf().optionalFieldOf("modifiers", List.of()).forGetter(Identity::modifiers),
+                Codec.INT.optionalFieldOf("tier", 1).forGetter(Identity::tier),
+                Codec.STRING.listOf().optionalFieldOf("tags", List.of()).forGetter(Identity::tags),
+                Codec.unboundedMap(Codec.STRING, ExpressionCodec.VALUE_CODEC)
+                        .optionalFieldOf("params", Map.of()).forGetter(Identity::params),
+                Identifier.CODEC.optionalFieldOf("cast_sound").forGetter(Identity::castSound),
+                Identifier.CODEC.optionalFieldOf("cast_particle").forGetter(Identity::castParticle),
+                Codec.BOOL.optionalFieldOf("gemmable").forGetter(Identity::gemmable)
+        ).apply(instance, Identity::new));
+
+        public static final Codec<Identity> CODEC = MAP_CODEC.codec();
+
+        /** 便捷构造：与旧 Skill 身份组字段顺序一致（require / equipment / animation / modifiers / tier / tags / params / castSound / castParticle / gemmable）。 */
+        public static Identity of(Require require, String equipment, Optional<Identifier> animation,
+                                 List<SkillModifier> modifiers, int tier, List<String> tags,
+                                 Map<String, ExpressionCodec.Value> params, Optional<Identifier> castSound,
+                                 Optional<Identifier> castParticle, Optional<Boolean> gemmable) {
+            return new Identity(require, equipment, animation, modifiers, tier, tags, params, castSound, castParticle, gemmable);
+        }
+
+        /** 返回叠加参数后的副本（定义 params ⊕ newParams，newParams 优先）。 */
+        public Identity withParams(Map<String, ExpressionCodec.Value> newParams) {
+            if (newParams == null || newParams.isEmpty()) return this;
+            Map<String, ExpressionCodec.Value> merged = new HashMap<>(this.params);
+            merged.putAll(newParams);
+            return new Identity(require, equipment, animation, modifiers, tier, tags, merged, castSound, castParticle, gemmable);
+        }
+
+        /** 返回带指定等阶的副本（等阶仅供未切割宝石筛选，不影响运行时结算）。 */
+        public Identity withTier(int tier) {
+            return new Identity(require, equipment, animation, modifiers, tier, tags, params, castSound, castParticle, gemmable);
+        }
+
+        /** 返回覆盖需求（require）的副本。 */
+        public Identity withRequire(Require require) {
+            return new Identity(require, equipment, animation, modifiers, tier, tags, params, castSound, castParticle, gemmable);
+        }
+
+        /** 返回追加指定「技能类型标签」后的副本。 */
+        public Identity withTags(String... extra) {
+            List<String> merged = new ArrayList<>(tags);
+            for (String t : extra) {
+                if (!merged.contains(t)) merged.add(t);
+            }
+            return new Identity(require, equipment, animation, modifiers, tier, merged, params, castSound, castParticle, gemmable);
+        }
+
+        /** 返回覆盖施放声效 / 粒子声画身份的副本。 */
+        public Identity withCastFx(Optional<Identifier> castSound, Optional<Identifier> castParticle) {
+            return new Identity(require, equipment, animation, modifiers, tier, tags, params, castSound, castParticle, gemmable);
+        }
+
+        /** 本技能是否可生成技能石（可空 → 默认 {@code true}）。 */
+        public boolean canGenerateGem() {
+            return gemmable.orElse(true);
+        }
+    }
 
     /**
-     * 本技能是否可生成技能石（可空 → 默认 {@code true}）。
-     *
-     * <p>{@code false} 用于「不以宝石物品形态存在」的技能：物品授予技、怪物/召唤物天生技能、
-     * 升华与被动授予技等 —— 它们经 {@code SkillIds} + {@code SkillRead} 引用施放。
+     * 单种使用方式：输入 × 触发 × 执行体 × 保留 四个正交开关 + 施放 / 消耗 / 阶段树 / 范围。
+     * 这四个开关组合零代码（例：「召唤带指令 = 保留 + 按键主动」即取其中两列，不是新类别）。
      */
-    public boolean canGenerateGem() {
-        return gemmable.orElse(true);
+    public record Usage(
+            InputMode input,
+            UsageTrigger trigger,
+            /** 执行体骨架（Totem/Trap/Mine/…）；原 {@code form} 正名而来。数据驱动、Optional。 */
+            Optional<ExecutorRef> executor,
+            /** 显式覆盖本 usage 绑定的物理键槽下标（见 总纲_7 §4.1）；缺省按列表序占槽。 */
+            Optional<KeyRef> bind,
+            UsageRetention retention,
+            SkillCast cast,
+            List<ResourceDecl> cost,
+            List<SkillPhasePlayer> phases,
+            Optional<AoeRanges> aoeRanges
+    ) {
+        public static final MapCodec<Usage> MAP_CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
+                InputMode.CODEC.optionalFieldOf("input", new Click()).forGetter(Usage::input),
+                UsageTrigger.CODEC.optionalFieldOf("trigger", UsageTrigger.MANUAL).forGetter(Usage::trigger),
+                ExecutorRef.CODEC.optionalFieldOf("executor").forGetter(Usage::executor),
+                KeyRef.CODEC.optionalFieldOf("bind").forGetter(Usage::bind),
+                UsageRetention.CODEC.optionalFieldOf("retention", UsageRetention.SPEND).forGetter(Usage::retention),
+                SkillCast.CODEC.fieldOf("cast").forGetter(Usage::cast),
+                ResourceDecl.CODEC.listOf().fieldOf("cost").forGetter(Usage::cost),
+                SkillPhasePlayer.CODEC.listOf().fieldOf("phases").forGetter(Usage::phases),
+                AoeRanges.CODEC.optionalFieldOf("aoe_ranges").forGetter(Usage::aoeRanges)
+        ).apply(instance, Usage::new));
+
+        public static final Codec<Usage> CODEC = MAP_CODEC.codec();
+
+        /** 便捷构造：6 个核心参数，trigger 默认 MANUAL、retention 默认 SPEND（单使用方式技能的常规值）。 */
+        public static Usage of(InputMode input, Optional<ExecutorRef> executor, SkillCast cast,
+                              List<ResourceDecl> cost, List<SkillPhasePlayer> phases, Optional<AoeRanges> aoeRanges) {
+            return new Usage(input, UsageTrigger.MANUAL, executor, Optional.empty(), UsageRetention.SPEND, cast, cost, phases, aoeRanges);
+        }
+
+        public Usage withCost(List<ResourceDecl> cost) {
+            return new Usage(input, trigger, executor, bind, retention, cast, cost, phases, aoeRanges);
+        }
+        public Usage withPhases(List<SkillPhasePlayer> phases) {
+            return new Usage(input, trigger, executor, bind, retention, cast, cost, phases, aoeRanges);
+        }
+        public Usage withCast(SkillCast cast) {
+            return new Usage(input, trigger, executor, bind, retention, cast, cost, phases, aoeRanges);
+        }
+        public Usage withBind(KeyRef bind) {
+            return new Usage(input, trigger, executor, Optional.ofNullable(bind), retention, cast, cost, phases, aoeRanges);
+        }
     }
+
+    /** 触发时机正交开关（auto / manual / event）。 */
+    public enum UsageTrigger {
+        AUTO, MANUAL, EVENT;
+        public static final Codec<UsageTrigger> CODEC = Codec.STRING.xmap(
+                s -> UsageTrigger.valueOf(s.trim().toUpperCase(Locale.ROOT)),
+                e -> e.name().toLowerCase(Locale.ROOT));
+    }
+
+    /** 资源保留正交开关（spend / retain）。 */
+    public enum UsageRetention {
+        SPEND, RETAIN;
+        public static final Codec<UsageRetention> CODEC = Codec.STRING.xmap(
+                s -> UsageRetention.valueOf(s.trim().toUpperCase(Locale.ROOT)),
+                e -> e.name().toLowerCase(Locale.ROOT));
+    }
+
+    // ===================================================================
+    //  Skill record 主体
+    // ===================================================================
+
+    public static final MapCodec<Skill> MAP_CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
+            Identity.CODEC.fieldOf("identity").forGetter(Skill::identity),
+            Usage.CODEC.listOf().fieldOf("usages").forGetter(Skill::usages)
+    ).apply(instance, Skill::new));
 
     public static final Codec<Skill> CODEC = MAP_CODEC.codec();
-
-    // ---- 委托 getter：保持既有 skill.curseRange() 等调用点（SkillInstance / SkillLinkResolver）不变 ----
-    public Optional<ExpressionCodec.Value> curseRange() {
-        return aoeRanges.flatMap(AoeRanges::curseRange);
-    }
-    public Optional<ExpressionCodec.Value> curseDuration() {
-        return aoeRanges.flatMap(AoeRanges::curseDuration);
-    }
-    public Optional<ExpressionCodec.Value> markRange() {
-        return aoeRanges.flatMap(AoeRanges::markRange);
-    }
-    public Optional<ExpressionCodec.Value> markDuration() {
-        return aoeRanges.flatMap(AoeRanges::markDuration);
-    }
 
     // ---------------------------------------------------------------- SkillEntry 形态契约
 
@@ -204,11 +333,7 @@ public record Skill(
     @Override
     public Skill withParams(Map<String, ExpressionCodec.Value> newParams) {
         if (newParams == null || newParams.isEmpty()) return this;
-        Map<String, ExpressionCodec.Value> merged = new HashMap<>(this.params);
-        merged.putAll(newParams);
-        return new Skill(require, equipment, animation, cast, input, cost, phases, modifiers, tier, tags,
-                Optional.empty(), aoeRanges, merged,
-                castSound, castParticle);
+        return new Skill(identity.withParams(newParams), usages);
     }
 
     @Override
@@ -217,37 +342,24 @@ public record Skill(
     }
 
     /** 返回带指定等阶的副本（等阶仅供未切割宝石筛选，不影响运行时结算）。 */
-    @Override
     public Skill withTier(int tier) {
-        return new Skill(require, equipment, animation, cast, input, cost, phases, modifiers, tier, tags,
-                Optional.empty(), aoeRanges, params,
-                castSound, castParticle);
+        return new Skill(identity.withTier(tier), usages);
     }
 
     /** 返回覆盖需求（require）的副本——供 {@link SkillRead} 在解析时注入实例自身的需求。 */
     public Skill withRequire(Require require) {
-        return new Skill(require, equipment, animation, cast, input, cost, phases, modifiers, tier, tags,
-                Optional.empty(), aoeRanges, params,
-                castSound, castParticle);
+        return new Skill(identity.withRequire(require), usages);
     }
 
     /** 返回覆盖资源消耗（cost）的副本——供 {@link SkillRead} 在解析时注入实例自身的消耗。 */
-    public Skill withCost(List<ResourceCost> cost) {
-        return new Skill(require, equipment, animation, cast, input, cost, phases, modifiers, tier, tags,
-                Optional.empty(), aoeRanges, params,
-                castSound, castParticle);
+    public Skill withCost(List<ResourceDecl> cost) {
+        return withPrimaryUsage(primary().withCost(cost));
     }
 
     /** 返回追加指定「技能类型标签」（如 {@code mark}/{@code herald}/{@code curse}/{@code warcry}）后的副本，
      * 这些标签经 {@link #getLabels} 同时进入技能提示与 {@link #getStatTags}，供「对 [X] 类技能」加成命中。 */
     public Skill withTags(String... extra) {
-        List<String> merged = new ArrayList<>(tags);
-        for (String t : extra) {
-            if (!merged.contains(t)) merged.add(t);
-        }
-        return new Skill(require, equipment, animation, cast, input, cost, phases, modifiers, tier, merged,
-                Optional.empty(), aoeRanges, params,
-                castSound, castParticle);
+        return new Skill(identity.withTags(extra), usages);
     }
 
     /**
@@ -256,9 +368,7 @@ public record Skill(
      * 详见 SkillInstance#emitReleaseBeat。
      */
     public Skill withCastFx(Optional<Identifier> castSound, Optional<Identifier> castParticle) {
-        return new Skill(require, equipment, animation, cast, input, cost, phases, modifiers, tier, tags,
-                form, aoeRanges, params,
-                castSound, castParticle);
+        return new Skill(identity.withCastFx(castSound, castParticle), usages);
     }
 
     /**
@@ -266,19 +376,15 @@ public record Skill(
      *
      * <p>递归处理每个阶段自身的 {@code delivery} 与其全部子阶段的 {@code delivery}，
      * 对其调用对应投递类型的 {@code withRender(skillId)}；其余字段（动作 / 子阶段 / 事件 /
-     * 门槛 / 锁定 / 声画 / 形态 …）全部原样保留。
-     *
-     * <p>装配期（{@link com.cimdy.coe.data.codec.entity.EntityRead#resolve}）会经
-     * {@code SkillSkinDefs.resolveRender} 把这个技能 id 还原为底层渲染定义，
-     * 从而使「外观」按<b>技能 id</b>锁定，而非按伤害类型派生。</p>
+     * 门槛 / 锁定 / 声画 / 身份 …）全部原样保留。
      */
     public Skill withDeliveryRender(Identifier skillId) {
+        Usage u = primary();
         List<SkillPhasePlayer> newPhases = new ArrayList<>();
-        for (SkillPhasePlayer player : phases) {
+        for (SkillPhasePlayer player : u.phases()) {
             newPhases.add(player.withPhase(withDeliveryPhase(player.phase(), skillId)));
         }
-        return new Skill(require, equipment, animation, cast, input, cost, newPhases, modifiers, tier, tags,
-                form, aoeRanges, params, castSound, castParticle, gemmable);
+        return withPrimaryUsage(u.withPhases(newPhases));
     }
 
     /** 递归重建阶段树，把阶段自身投递也做 withRender 覆盖。 */
@@ -292,19 +398,13 @@ public record Skill(
                 phase.minLevel(), phase.lockedFields());
     }
 
-    /** 按投递子类型重建为带 render 覆盖的副本；未知类型原样返回。 */
+    /** 按投递类型重建为带 render 覆盖的副本；{@code Delivery#withRender} 默认原样返回。 */
     private static Delivery withDeliveryType(Delivery d, Identifier skillId) {
-        if (d instanceof ProjectileDelivery p) return p.withRender(skillId);
-        if (d instanceof BallDelivery b) return b.withRender(skillId);
-        if (d instanceof OrbDelivery o) return o.withRender(skillId);
-        if (d instanceof ThrownDelivery t) return t.withRender(skillId);
-        if (d instanceof HazardDelivery h) return h.withRender(skillId);
-        if (d instanceof RemnantDelivery r) return r.withRender(skillId);
-        return d;
+        return d.withRender(skillId);
     }
 
     public boolean canCast(SkillContext context) {
-        if (!require.matches(context)) return false;
+        if (!require().matches(context)) return false;
         return canCastIgnoringRequire(context);
     }
 
@@ -318,15 +418,15 @@ public record Skill(
      * 供 {@link SkillCaster#castGranted}（怪物 AI / 召唤物）使用。
      */
     public boolean canCastIgnoringRequire(SkillContext context) {
-        if (!equipment.isEmpty() && !isCurrentWeapon(context)) return false;
-        return cost.isEmpty() || cost.stream().allMatch(cost -> cost.matches(context));
+        if (!equipment().isEmpty() && !isCurrentWeapon(context)) return false;
+        return cost().isEmpty() || cost().stream().allMatch(cost -> cost.matches(context));
     }
 
     public boolean matches(SkillContext context) {
-        if (!require.matches(context)) return false;
-        if (!equipment.isEmpty() && !isCurrentWeapon(context)) return false;
-        if (!cast.matches(context)) return false;
-        return cost.isEmpty() || cost.stream().allMatch(cost -> cost.matches(context));
+        if (!require().matches(context)) return false;
+        if (!equipment().isEmpty() && !isCurrentWeapon(context)) return false;
+        if (!cast().matches(context)) return false;
+        return cost().isEmpty() || cost().stream().allMatch(cost -> cost.matches(context));
     }
 
     public List<SkillPhaseInstance> run(SkillInstance skillInstance) {
@@ -334,6 +434,7 @@ public record Skill(
         LivingEntity caster = context.getCaster();
         List<SkillPhaseInstance> instances = new ArrayList<>();
         // HoldInput（长按蓄力）门控：按住期间只蓄力不施放，松手且达到最低蓄力才释放
+        InputMode input = input();
         if (input instanceof HoldInput hold) {
             if (context.isPress()) return instances;
             float minCharge = hold.minCharge().map(v -> v.getFloat(context)).orElse(0f);
@@ -342,7 +443,7 @@ public record Skill(
         if (matches(context)) {
             // 重入防护：每个顶层阶段仅初始化一次，避免每 tick 重复生成投递物（投射物/范围/光束/光环）
             Set<SkillPhase> initialized = skillInstance.getInitializedPhases();
-            for (SkillPhasePlayer phase : phases) {
+            for (SkillPhasePlayer phase : phases()) {
                 if (initialized.contains(phase.phase())) continue;
                 List<SkillPhaseInstance> insts = phase.run(skillInstance, null);
                 instances.addAll(insts);
@@ -353,8 +454,8 @@ public record Skill(
                 // 作用域化冷却回复速率：并入本次施放技能标签（{command}/{warcry} …），
                 // 使「对 [某类] 技能」冷却回复生效（SkillContext 据此读 COOLDOWN_RECOVERY_RATE 作用域变体）。
                 context.skillStatTags(this.getStatTags(context, skillInstance.getSkillId()));
-                cast.setCooldown(context);
-                cost.forEach(cast -> cast.runCost(context));
+                cast().setCooldown(context);
+                cost().forEach(cast -> cast.runCost(context));
                 // ④ 附近施法额外放电：玩家在 Orb of Storms 作用半径内施放 → 球额外放电一次。
                 // caster 仍是玩家、prop 为球（不切换施法者主体）；由数据驱动的 on_nearby_cast 通道实现。
                 SkillEntity.triggerNearbyOrbsOnCast(caster);
@@ -367,13 +468,13 @@ public record Skill(
     public boolean isCurrentWeapon(SkillContext context) {
         LivingEntity caster = context.getCaster();
         return ModHelper.currentEquipment(
-                caster, caster.getMainHandItem(), equipment);
+                caster, caster.getMainHandItem(), equipment());
     }
 
     public Set<String> getLabels(SkillContext context) {
-        Set<String> labels = new LinkedHashSet<>(cast.getLabels(context));
-        labels.addAll(phases.stream().flatMap(s -> s.getLabels(context).stream()).toList());
-        labels.addAll(tags);
+        Set<String> labels = new LinkedHashSet<>(cast().getLabels(context));
+        labels.addAll(phases().stream().flatMap(s -> s.getLabels(context).stream()).toList());
+        labels.addAll(tags());
         return labels;
     }
 
@@ -400,20 +501,21 @@ public record Skill(
         // 攻击/法术 + 技能类型标签（warcry/curse/...）来自既有 labels 体系
         tags.addAll(getLabels(context));
         // 武器装备需求（字符串原样，无 equipment_ 前缀）
-        if (!equipment.isEmpty()) tags.add(equipment);
+        if (!equipment().isEmpty()) tags.add(equipment());
         // 消耗类型（资源类型名原样，无 cost_ 前缀）
-        for (ResourceCost c : cost) tags.add(c.type().getSerializedName());
+        for (ResourceDecl c : cost()) tags.add(c.key());
         // 引导标签：施放需要长按的技能（HoldInput 蓄力 / Continuous 持续释放）全程携带 channeling 标签，
         // 使「[Channelling] 类」天赋加成仅在引导该技能期间生效（引导是技能标签，非实体状态）。
+        InputMode input = input();
         if (input instanceof HoldInput || input instanceof Continuous) tags.add(GateTag.CHANNELING);
         // 被触发标签：SkillTriggerHelper 用虚拟绑定槽 TRIGGER_BIND 施放被触发的技能，
         // 故 bind == TRIGGER_BIND 即「本次施放是被触发的」，全程附加 triggered 标签，
         // 使「Triggered Spells deal X」只对被触发的施放生效、不串到玩家主动施放。
         if (context.getBind() == SkillTriggerHelper.TRIGGER_BIND) tags.add(GateTag.TRIGGERED);
         // 元技能标签：技能阶段树含 MetaSkillAction（ActionTypes.META_SKILL）即为元技能宿主，全程携带 meta 标签。
-        // 这是「Meta Skills have X% increased …」「META_ENERGY_MAX 上限」类已接线词缀的唯一作用域发射点——
-        // 缺此前 GateTag.META 零发射点，导致 6 条已接线条目（WireDamage:129、WireResource:105/107/109/274/292）恒不匹配、全为死线。
         if (isMetaSkill()) tags.add(GateTag.META);
+        // 执行体标签：使「[形态] 伤害提高」类修饰符经 skill stat scope 命中本技能自身的执行体。
+        executor().ifPresent(ref -> tags.add(ref.statTag()));
         return tags;
     }
 
@@ -434,12 +536,12 @@ public record Skill(
      */
     public boolean isMetaSkill() {
         // 未解析技能（精魂保留计算走此路径，见 SpiritManager）：辅助宝石效果尚留在 modifiers 中
-        for (SkillModifier modifier : modifiers) {
+        for (SkillModifier modifier : modifiers()) {
             if (modifier instanceof EventListenEffect listen
                     && containsMetaAction(listen.eventListen().actions())) return true;
         }
         // 已解析技能：MetaSkillAction 已注入各顶层阶段的 actions / eventListen，并可能深埋于子阶段
-        for (SkillPhasePlayer player : phases) {
+        for (SkillPhasePlayer player : phases()) {
             if (containsMetaAction(player.phase())) return true;
         }
         return false;
@@ -475,12 +577,12 @@ public record Skill(
      */
     public Set<String> elementStatTags() {
         Set<String> out = new LinkedHashSet<>();
-        for (SkillModifier modifier : modifiers) {
+        for (SkillModifier modifier : modifiers()) {
             if (modifier instanceof EventListenEffect listen) {
                 collectElementTags(listen.eventListen().actions(), out);
             }
         }
-        for (SkillPhasePlayer player : phases) collectElementTags(player.phase(), out);
+        for (SkillPhasePlayer player : phases()) collectElementTags(player.phase(), out);
         return out;
     }
 
@@ -507,7 +609,7 @@ public record Skill(
 
     public void runAnimation(SkillContext context) {
         if (context.getCaster() instanceof Player player) {
-            if (!equipment.isEmpty()) {
+            if (!equipment().isEmpty()) {
                 // 专用服务端不存在 Minecraft 客户端类（不在 classpath），用 FMLEnvironment.getDist() 判断是否在客户端，避免 NoClassDefFoundError
                 if (FMLEnvironment.getDist() == Dist.CLIENT
                         && Minecraft.getInstance() != null && Minecraft.getInstance().player != null) {
@@ -545,15 +647,15 @@ public record Skill(
     }
 
     public void addDataComponent(List<Component> tooltip, SkillContext context) {
-        Component costComponent = cost.stream().map(c -> c.getCostComponent(context))
+        Component costComponent = cost().stream().map(c -> c.getCostComponent(context))
                 .reduce(MutableComponent::append).orElse(null);
         tooltip.add(costComponent);
-        cast.addComponent(tooltip, context);
+        cast().addComponent(tooltip, context);
 
         boolean[] changed = new boolean[]{false, false, false, false};
-        ItemTooltipAssembler.addAttributeRequirementTooltip(tooltip, (Player) context.getCaster(), require.getAll(context), changed);
+        ItemTooltipAssembler.addAttributeRequirementTooltip(tooltip, (Player) context.getCaster(), require().getAll(context), changed);
 
-        String require = this.equipment();
+        String require = equipment();
         if (!require.isEmpty()) {
             LivingEntity caster = context.getCaster();
             if (caster == null) return;
@@ -567,12 +669,11 @@ public record Skill(
     }
 
     public void addPhaseDataComponent(List<Component> tooltip, SkillContext context) {
-        phases.forEach(phase -> phase.addComponent(tooltip, context));
+        phases().forEach(phase -> phase.addComponent(tooltip, context));
     }
 
     public int getCastTime(SkillContext context) {
-        return cast.getCastTime(context);
+        return cast().getCastTime(context);
     }
 
 }
-

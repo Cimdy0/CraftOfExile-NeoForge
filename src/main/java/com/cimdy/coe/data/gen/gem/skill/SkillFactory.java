@@ -1,13 +1,9 @@
 package com.cimdy.coe.data.gen.gem.skill;
 
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.HazardDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.RemnantDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.BallDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.BeamDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.OrbDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry;
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.ProjectileDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.ThrownDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.ProjectileKind;
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.SelfDelivery;
 import com.cimdy.coe.data.codec.support.value.Value;
 import com.cimdy.coe.entity.custom.skill.SkillEntity;
@@ -20,8 +16,7 @@ import com.cimdy.coe.data.codec.support.stat.effect.resource.ResourceStatEffect;
 import com.cimdy.coe.CraftOfExile;
 import com.cimdy.coe.data.codec.entity.EntityRead;
 import com.cimdy.coe.data.codec.skill.core.Skill;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceCost;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceType;
+import com.cimdy.coe.data.codec.skill.helper.resource.ResourceDecl;
 import com.cimdy.coe.data.codec.skill.helper.resource.ResourceUsage;
 import com.cimdy.coe.data.codec.skill.helper.cast.SkillCast;
 import com.cimdy.coe.data.codec.skill.input.Click;
@@ -61,6 +56,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 
 /**
  * 技能构造工厂 — 用现有可用的 Delivery / Action 组合出合法 {@link Skill}。
@@ -78,22 +74,22 @@ public final class SkillFactory {
 
     // ===================== 资源消耗辅助 =====================
 
-    public static ResourceCost mana(double value) {
-        return new ResourceCost(ResourceType.MANA, ResourceUsage.CONSUME, ExpressionCodec.of(value));
+    public static ResourceDecl mana(double value) {
+        return new ResourceDecl("mana", ResourceUsage.CONSUME, ExpressionCodec.of(value));
     }
 
     /** 魔力消耗（按等级查表，严格还原非线性消耗）。 */
-    public static ResourceCost mana(ExpressionCodec.Value value) {
-        return new ResourceCost(ResourceType.MANA, ResourceUsage.CONSUME, value);
+    public static ResourceDecl mana(ExpressionCodec.Value value) {
+        return new ResourceDecl("mana", ResourceUsage.CONSUME, value);
     }
 
-    public static ResourceCost life(double value) {
-        return new ResourceCost(ResourceType.HEALTH, ResourceUsage.CONSUME, ExpressionCodec.of(value));
+    public static ResourceDecl life(double value) {
+        return new ResourceDecl("health", ResourceUsage.CONSUME, ExpressionCodec.of(value));
     }
 
     /** 生命消耗（按等级查表）。 */
-    public static ResourceCost life(ExpressionCodec.Value value) {
-        return new ResourceCost(ResourceType.HEALTH, ResourceUsage.CONSUME, value);
+    public static ResourceDecl life(ExpressionCodec.Value value) {
+        return new ResourceDecl("health", ResourceUsage.CONSUME, value);
     }
 
     // ===================== 投递方式辅助 =====================
@@ -146,43 +142,63 @@ public final class SkillFactory {
      * <p>底层是同一个 {@code coe:skill_ball} 实体与 {@code coe:entity/ball} 预设，
      * 只是经 {@link EntityRead#withRender} 覆写了 render —— 玩家看到的是不同的球。
      */
-    private static BallDelivery ball(String damageType) {
+    private static ProjectileDelivery ball(String damageType) {
         if (!EntityProvider.BALL_RENDER_NAMES.contains(damageType)) {
-            return ball(EntityRead.of(BallDelivery.DEFAULT.ref().ref()));
+            return ball(EntityRead.of(ProjectileDelivery.BALL_REF.ref()));
         }
         return ball(EntityRead.withRender(
-                BallDelivery.DEFAULT.ref().ref(),
+                ProjectileDelivery.BALL_REF.ref(),
                 Identifier.fromNamespaceAndPath("coe", "ball_" + damageType)));
     }
 
     /** 指定形态引用的球 —— 技能侧「新实体错觉」的入口（换 render 即换球外观）。 */
-    private static BallDelivery ball(EntityRead ref) {
-        return new BallDelivery(
-                BallDelivery.DEFAULT.speed(),
-                BallDelivery.DEFAULT.radius(),
-                BallDelivery.DEFAULT.lifetime(),
-                BallDelivery.DEFAULT.tags(),
+    private static ProjectileDelivery ball(EntityRead ref) {
+        return new ProjectileDelivery(
+                ProjectileKind.BALL,
+                new LinearFlight(),
+                new Stop(),
+                ExpressionCodec.of(100.0),
+                ExpressionCodec.of(0.2),
+                Optional.of(ExpressionCodec.of(1.8f)),
                 ref,
+                Optional.empty(),
+                Optional.empty(),
+                ProjectileDelivery.BALL_TAGS,
                 Optional.empty());
     }
 
     /** 指定形态引用的投射物 —— 技能侧「新实体错觉」的入口（换 render 即换箭矢外观）。 */
     private static ProjectileDelivery projectile(EntityRead ref) {
         return new ProjectileDelivery(
+                ProjectileKind.PROJECTILE,
                 new LinearFlight(),
                 new Stop(),
                 ExpressionCodec.of(100.0),
                 ExpressionCodec.of(1.5),
                 Optional.empty(),
                 ref,
+                Optional.empty(),
+                Optional.empty(),
+                Set.of(),
                 Optional.empty());
     }
 
     private static AreaDelivery area(double radius) {
         return new AreaDelivery(
+                AreaGeometry.AREA,
                 new SphereShape(ExpressionCodec.of((float) radius)),
                 new InstantDuration(),
-                ExpressionCodec.of(1.0));
+                ExpressionCodec.of(1.0),
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty(),
+                Optional.empty());
     }
 
     /**
@@ -195,14 +211,17 @@ public final class SkillFactory {
      *
      * <p><b>当前无技能使用</b>（Hazard 平台已就绪，待后续技能/宝石接入）——此为数据侧接入入口。
      */
-    public static HazardDelivery hazard(double radius, double lifetime) {
-        return new HazardDelivery(
+    public static AreaDelivery hazard(double radius, double lifetime) {
+        return new AreaDelivery(
+                AreaGeometry.HAZARD,
                 new SphereShape(ExpressionCodec.of((float) radius)),
-                ExpressionCodec.of(lifetime),
+                new InstantDuration(),
                 ExpressionCodec.of(1.0),
-                HazardDelivery.DEFAULT.ref(),
-                ExpressionCodec.of(1.0),
-                ExpressionCodec.of(0.0));
+                Optional.of(EntityRead.of(Identifier.parse("coe:hazard"))),
+                Optional.of(ExpressionCodec.of(lifetime)),
+                Optional.of(ExpressionCodec.of(1.0)),
+                Optional.of(ExpressionCodec.of(0.0)),
+                Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
     }
 
     /**
@@ -213,12 +232,15 @@ public final class SkillFactory {
      *
      * <p><b>当前无技能使用</b>（Remnant 平台已就绪，待后续技能/宝石接入）——此为数据侧接入入口。
      */
-    public static RemnantDelivery remnant(double radius, double lifetime) {
-        return new RemnantDelivery(
+    public static AreaDelivery remnant(double radius, double lifetime) {
+        return new AreaDelivery(
+                AreaGeometry.REMNANT,
                 new SphereShape(ExpressionCodec.of((float) radius)),
-                ExpressionCodec.of(lifetime),
+                new InstantDuration(),
                 ExpressionCodec.of(1.0),
-                RemnantDelivery.DEFAULT.ref());
+                Optional.of(EntityRead.of(Identifier.parse("coe:remnant"))),
+                Optional.of(ExpressionCodec.of(lifetime)),
+                Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
     }
 
     /**
@@ -227,19 +249,23 @@ public final class SkillFactory {
      * <p>与 {@link #hazard(double, double)} / {@link #remnant(double, double)} 同范式：
      * 本工厂只装配「把弹体扔出去」所需的半径与存活上限，<b>爆炸的效果不在投递层定义</b>——
      * 由调用方技能阶段的 {@code actions} 决定（弹体引爆时经 {@code ON_HIT} 驱动）。
-     * 初速 / 抛射弧 / 标签 / 形态一律沿用 {@code ThrownDelivery} 默认值
+     * 初速 / 抛射弧 / 标签 / 形态一律沿用统一 {@code ProjectileDelivery} 的 {@code THROWN} 形态默认值
      * （手雷口径：{@code coe:entity/grenade}，stat 标签 {@code grenade}）。
      *
      * <p><b>当前无技能使用</b>（投掷物平台已就绪，待手雷类技能/宝石接入）——此为数据侧接入入口。
      */
-    public static ThrownDelivery thrown(double radius, double lifetime) {
-        return new ThrownDelivery(
-                ThrownDelivery.DEFAULT.speed(),
-                ExpressionCodec.of((float) radius),
+    public static ProjectileDelivery thrown(double radius, double lifetime) {
+        return new ProjectileDelivery(
+                ProjectileKind.THROWN,
+                new LinearFlight(),
+                new Stop(),
                 ExpressionCodec.of(lifetime),
-                ThrownDelivery.DEFAULT.arc(),
-                ThrownDelivery.DEFAULT.tags(),
-                ThrownDelivery.DEFAULT.ref(),
+                ExpressionCodec.of(1.1),
+                Optional.of(ExpressionCodec.of((float) radius)),
+                ProjectileDelivery.GRENADE_REF,
+                Optional.empty(),
+                Optional.of(ExpressionCodec.of(0.35)),
+                ProjectileDelivery.THROWN_TAGS,
                 Optional.empty());
     }
 
@@ -253,13 +279,19 @@ public final class SkillFactory {
      * 只是经 {@link EntityRead#withRender} 覆写了 render —— 玩家看到的是不同的球。
      */
     /** 通用 Orb 投递（驻留球）：以给定实体引用（可覆写渲染）在目标位置生成原地周期脉冲的球。 */
-    private static OrbDelivery orb(EntityRead ref, double radius, int lifetimeTicks, int pulseIntervalTicks) {
-        return new OrbDelivery(
-                ExpressionCodec.of((float) radius),
+    private static ProjectileDelivery orb(EntityRead ref, double radius, int lifetimeTicks, int pulseIntervalTicks) {
+        return new ProjectileDelivery(
+                ProjectileKind.ORB,
+                new LinearFlight(),
+                new Stop(),
                 ExpressionCodec.of((float) lifetimeTicks),
-                ExpressionCodec.of((float) pulseIntervalTicks),
-                OrbDelivery.DEFAULT.tags(),
-                ref);
+                ExpressionCodec.of(0.0),
+                Optional.of(ExpressionCodec.of((float) radius)),
+                ref,
+                Optional.empty(),
+                Optional.empty(),
+                ProjectileDelivery.ORB_TAGS,
+                Optional.of(ExpressionCodec.of((float) pulseIntervalTicks)));
     }
 
     /**
@@ -270,23 +302,30 @@ public final class SkillFactory {
      * 名单见 {@link EntityProvider#ORB_RENDER_NAMES}，由 datagen 硬校验与真实数据同步。
      * 未匹配者不覆写 render，由 {@code coe:entity/orb} 自带的 {@code coe:orb} 兜底（可见）。
      */
-    private static OrbDelivery orb(String damageType, double radius, int lifetimeTicks, int pulseIntervalTicks) {
+    private static ProjectileDelivery orb(String damageType, double radius, int lifetimeTicks, int pulseIntervalTicks) {
         if (!EntityProvider.ORB_RENDER_NAMES.contains(damageType)) {
-            return orb(EntityRead.of(OrbDelivery.DEFAULT.ref().ref()),
+            return orb(EntityRead.of(ProjectileDelivery.ORB_REF.ref()),
                     radius, lifetimeTicks, pulseIntervalTicks);
         }
-        return orb(EntityRead.withRender(OrbDelivery.DEFAULT.ref().ref(),
+        return orb(EntityRead.withRender(ProjectileDelivery.ORB_REF.ref(),
                 Identifier.fromNamespaceAndPath("coe", "orb_" + damageType)),
                 radius, lifetimeTicks, pulseIntervalTicks);
     }
 
-    private static BeamDelivery beam(double range, double width) {
-        return new BeamDelivery(
-                ExpressionCodec.of(range),
-                ExpressionCodec.of(width),
-                ExpressionCodec.of(0.0),
+    private static AreaDelivery beam(double range, double width) {
+        return new AreaDelivery(
+                AreaGeometry.BEAM,
+                new SphereShape(ExpressionCodec.of(3.0f)),
+                new InstantDuration(),
                 ExpressionCodec.of(1.0),
-                Optional.empty());
+                Optional.empty(),
+                Optional.empty(), Optional.empty(), Optional.empty(),
+                Optional.of(ExpressionCodec.of(range)),
+                Optional.of(ExpressionCodec.of(width)),
+                Optional.empty(),
+                Optional.of(ExpressionCodec.of(0.4)),
+                Optional.empty(),
+                Optional.of(ExpressionCodec.of(0.0)));
     }
 
     private static SelfDelivery self() {
@@ -388,42 +427,40 @@ public final class SkillFactory {
 
     // ===================== 核心组装 =====================
 
-    private static Skill build(Require require, ResourceCost cost, Delivery delivery,
+    private static Skill build(Require require, ResourceDecl cost, Delivery delivery,
                                List<TriggeredAction> actions, SkillCast cast, List<SkillModifier> modifiers) {
         return build(require, cost, delivery, actions, cast, modifiers, new Click());
     }
 
     /** 带输入模式的组装（Continuous=引导脉冲 / HoldInput=长按蓄力）。 */
-    private static Skill build(Require require, ResourceCost cost, Delivery delivery,
+    private static Skill build(Require require, ResourceDecl cost, Delivery delivery,
                                List<TriggeredAction> actions, SkillCast cast, List<SkillModifier> modifiers,
                                InputMode input) {
         SkillPhase phase = new SkillPhase(Optional.of(delivery), actions, List.of(), Optional.empty());
         SkillPhasePlayer player = new SkillPhasePlayer(Optional.empty(), phase);
-        return new Skill(require, "", Optional.empty(), cast, input, List.of(cost), List.of(player), modifiers, 1, List.of(),
-                Optional.empty(), Optional.empty(), Map.of(),
-                Optional.empty(), Optional.empty());
+        return new Skill(Skill.Identity.of(require, "", Optional.empty(), modifiers, 1, List.of(), Map.of(), Optional.empty(), Optional.empty(), Optional.empty()),
+                Skill.Usage.of(input, Optional.empty(), cast, List.of(cost), List.of(player), Optional.empty()));
     }
 
     /** 带技能级 stat 标签的组装（tags 进入 Skill.getLabels/getStatTags，供「对 [X] 类技能」加成命中）。 */
-    private static Skill build(Require require, ResourceCost cost, Delivery delivery,
+    private static Skill build(Require require, ResourceDecl cost, Delivery delivery,
                                List<TriggeredAction> actions, SkillCast cast, List<SkillModifier> modifiers,
                                InputMode input, List<String> tags) {
         SkillPhase phase = new SkillPhase(Optional.of(delivery), actions, List.of(), Optional.empty());
         SkillPhasePlayer player = new SkillPhasePlayer(Optional.empty(), phase);
-        return new Skill(require, "", Optional.empty(), cast, input, List.of(cost), List.of(player), modifiers, 1, tags,
-                Optional.empty(), Optional.empty(), Map.of(),
-                Optional.empty(), Optional.empty());
+        return new Skill(Skill.Identity.of(require, "", Optional.empty(), modifiers, 1, tags, Map.of(), Optional.empty(), Optional.empty(), Optional.empty()),
+                Skill.Usage.of(input, Optional.empty(), cast, List.of(cost), List.of(player), Optional.empty()));
     }
 
     /** 带技能级标签 + $槽参数的组装（墙体等驻场实体技能用：参数经 MathParser 生成 VarRef，运行期由注入变量真读）。 */
-    private static Skill build(Require require, ResourceCost cost, Delivery delivery,
+    private static Skill build(Require require, ResourceDecl cost, Delivery delivery,
                               List<TriggeredAction> actions, SkillCast cast,
                               List<SkillModifier> modifiers, List<String> tags,
                               Map<String, ExpressionCodec.Value> params) {
         SkillPhase phase = new SkillPhase(Optional.of(delivery), actions, List.of(), Optional.empty());
         SkillPhasePlayer player = new SkillPhasePlayer(Optional.empty(), phase);
-        return new Skill(require, "", Optional.empty(), cast, new Click(), List.of(cost), List.of(player),
-                modifiers, 1, tags, Optional.empty(), Optional.empty(), params, Optional.empty(), Optional.empty());
+        return new Skill(Skill.Identity.of(require, "", Optional.empty(), modifiers, 1, tags, params, Optional.empty(), Optional.empty(), Optional.empty()),
+                Skill.Usage.of(new Click(), Optional.empty(), cast, List.of(cost), List.of(player), Optional.empty()));
     }
 
     /**
@@ -441,7 +478,7 @@ public final class SkillFactory {
      * @param defRef     墙体形态 id（wall / wall_fire / wall_cold）
      * @param ailments   可选异常（点燃 / 冰冻等），无则留空
      */
-    public static Skill wall(Require require, ResourceCost cost, String damageType,
+    public static Skill wall(Require require, ResourceDecl cost, String damageType,
                              ExpressionCodec.Value damage, String defRef, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(20.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -469,22 +506,21 @@ public final class SkillFactory {
     }
 
     /** 带技能级标签 + 诅咒范围/时长的组装（诅咒技能数据驱动施加范围/时长）。 */
-    private static Skill build(Require require, ResourceCost cost, Delivery delivery,
+    private static Skill build(Require require, ResourceDecl cost, Delivery delivery,
                                List<TriggeredAction> actions, SkillCast cast, List<SkillModifier> modifiers,
                                InputMode input, List<String> tags,
                                Optional<ExpressionCodec.Value> curseRange,
                                Optional<ExpressionCodec.Value> curseDuration) {
         SkillPhase phase = new SkillPhase(Optional.of(delivery), actions, List.of(), Optional.empty());
         SkillPhasePlayer player = new SkillPhasePlayer(Optional.empty(), phase);
-        return new Skill(require, "", Optional.empty(), cast, input, List.of(cost), List.of(player), modifiers, 1, tags,
-                Optional.empty(), Skill.AoeRanges.of(curseRange, curseDuration, Optional.empty(), Optional.empty()), Map.of(),
-                Optional.empty(), Optional.empty());
+        return new Skill(Skill.Identity.of(require, "", Optional.empty(), modifiers, 1, tags, Map.of(), Optional.empty(), Optional.empty(), Optional.empty()),
+                Skill.Usage.of(input, Optional.empty(), cast, List.of(cost), List.of(player), Optional.of(new Skill.AoeRanges(curseRange, curseDuration, Optional.empty(), Optional.empty()))));
     }
 
     // ===================== 形态构造（无自身修正） =====================
 
     /** 法术投射物（智力系）：默认施法时间 20 tick、冷却 0、暴击 5%。 */
-    public static Skill projectileSpell(Require require, ResourceCost cost,
+    public static Skill projectileSpell(Require require, ResourceDecl cost,
                                         String damageType, double dmgBase, double dmgPer, double dmgAdd) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(20.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -492,7 +528,7 @@ public final class SkillFactory {
     }
 
     /** 法术投射物（智力系），伤害按等级查表严格还原（替代线性估算）。 */
-    public static Skill projectileSpell(Require require, ResourceCost cost,
+    public static Skill projectileSpell(Require require, ResourceDecl cost,
                                         String damageType, ExpressionCodec.Value damage) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(20.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -500,7 +536,7 @@ public final class SkillFactory {
     }
 
     /** 法术投射物（智力系）+ 数据驱动异常（如冰冻）：命中时按 {@code ailments} 施加异常。 */
-    public static Skill projectileSpell(Require require, ResourceCost cost,
+    public static Skill projectileSpell(Require require, ResourceDecl cost,
                                         String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                         AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -511,7 +547,7 @@ public final class SkillFactory {
     }
 
     /** 法术投射物（智力系），伤害按等级查表严格还原 + 数据驱动异常。 */
-    public static Skill projectileSpell(Require require, ResourceCost cost,
+    public static Skill projectileSpell(Require require, ResourceDecl cost,
                                         String damageType, ExpressionCodec.Value damage,
                                         AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -531,7 +567,7 @@ public final class SkillFactory {
      * 故同等数值下球的总输出远高于一次性命中的投射物 —— 接技能时必须按 POE2 真值的
      * 「单次伤害低、频率高」配比给值，不可直接沿用投射物的数值。
      */
-    public static Skill ballSpell(Require require, ResourceCost cost,
+    public static Skill ballSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(20.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -545,7 +581,7 @@ public final class SkillFactory {
      * 线性估算的误差会被脉冲次数成倍放大；POE2 球类技能的等级曲线又明显非线性，
      * 故必须逐等级还原，不能用 {@code base + per × level} 近似。
      */
-    public static Skill ballSpell(Require require, ResourceCost cost,
+    public static Skill ballSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(20.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -553,7 +589,7 @@ public final class SkillFactory {
     }
 
     /** 法术球（智力系）+ 数据驱动异常（如点燃），伤害按等级查表：周期脉冲命中时施加异常。 */
-    public static Skill ballSpell(Require require, ResourceCost cost,
+    public static Skill ballSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage,
                                   AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -563,7 +599,7 @@ public final class SkillFactory {
     }
 
     /** 法术球（智力系）+ 投放地面云：球落点留下指定地面云（如点燃地面）。 */
-    public static Skill ballSpell(Require require, ResourceCost cost,
+    public static Skill ballSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage,
                                   CreateGroundAction ground, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -589,7 +625,7 @@ public final class SkillFactory {
      * @param radius        作用半径（格）：~2.0
      * @param lifetimeTicks 存活时长（tick）：~80（4s）
      */
-    public static Skill hazardSpell(Require require, ResourceCost cost, String damageType,
+    public static Skill hazardSpell(Require require, ResourceDecl cost, String damageType,
                                    ExpressionCodec.Value damage, double radius, int lifetimeTicks) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(20.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -616,14 +652,14 @@ public final class SkillFactory {
      * @param pulseIntervalTicks 脉冲间隔（tick）：POE2 真值 每 4 秒 = 80 / 每 1.4 秒 = 28
      * @param critChance        基础暴击率：POE2 真值 风暴漩涡 10% / 日曜球 7%
      */
-    public static Skill orbSpell(Require require, ResourceCost cost, String damageType,
+    public static Skill orbSpell(Require require, ResourceDecl cost, String damageType,
                                  ExpressionCodec.Value damage, double radius,
                                  int lifetimeTicks, int pulseIntervalTicks, double critChance) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(16.0), ExpressionCodec.of(0.0), ExpressionCodec.of(critChance)));
         // ON_PICKUP：球到期留下的残迹被拾取时授予闪电灌入 —— POE2 真值（Orb of Storms）
         // 「The Orb leaves behind a Lightning Infusion Remnant when it expires」。
-        // 残迹由 coe:entity/orb 的 on_expire = Deliver(RemnantDelivery) 生成，拾取时经
+        // 残迹由 coe:entity/orb 的 on_expire = Deliver(统一 AreaDelivery 的 REMNANT 几何) 生成，拾取时经
         // (casterId, phaseId) 反查本阶段实例并点燃 ON_PICKUP（残片形态的拾取通道，与 ON_HIT 分离）。
         // 分离前拾取残迹会误点燃球的 ON_HIT（在玩家脚下再放一次电），既非真值也不合直觉。
         return build(require, cost, orb(damageType, radius, lifetimeTicks, pulseIntervalTicks),
@@ -652,7 +688,7 @@ public final class SkillFactory {
      * @param pulseIntervalTicks 脉冲间隔（tick）：实体形态自带 20（1 次/秒），此处显式注入保持一致
      * @param critChance        基础暴击率
      */
-    public static Skill frostBombSpell(Require require, ResourceCost cost, String damageType,
+    public static Skill frostBombSpell(Require require, ResourceDecl cost, String damageType,
                                        ExpressionCodec.Value pulseDamage, ExpressionCodec.Value detonateDamage,
                                        double radius, int lifetimeTicks, int pulseIntervalTicks, double critChance) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -668,7 +704,7 @@ public final class SkillFactory {
     }
 
     /** 寒霜爆 + 数据驱动异常（如冰缓）：周期脉冲对命中敌人施加异常。 */
-    public static Skill frostBombSpell(Require require, ResourceCost cost, String damageType,
+    public static Skill frostBombSpell(Require require, ResourceDecl cost, String damageType,
                                        ExpressionCodec.Value pulseDamage, ExpressionCodec.Value detonateDamage,
                                        double radius, int lifetimeTicks, int pulseIntervalTicks, double critChance,
                                        AilmentData... ailments) {
@@ -710,7 +746,7 @@ public final class SkillFactory {
      * @param pulseIntervalTicks 脉冲间隔（tick）：实体形态自带 28
      * @param critChance        基础暴击率：0.07
      */
-    public static Skill sunOrbSpell(Require require, ResourceCost cost, String damageType,
+    public static Skill sunOrbSpell(Require require, ResourceDecl cost, String damageType,
                                     ExpressionCodec.Value pulseDamage, ExpressionCodec.Value detonateDamage,
                                     double radius, int lifetimeTicks, int pulseIntervalTicks, double critChance) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -726,7 +762,7 @@ public final class SkillFactory {
     }
 
     /** 日曜球 + 数据驱动异常（如点燃）：脉冲/引爆命中施加异常（光环点燃仍由实体 on_aura 通道处理）。 */
-    public static Skill sunOrbSpell(Require require, ResourceCost cost, String damageType,
+    public static Skill sunOrbSpell(Require require, ResourceDecl cost, String damageType,
                                     ExpressionCodec.Value pulseDamage, ExpressionCodec.Value detonateDamage,
                                     double radius, int lifetimeTicks, int pulseIntervalTicks, double critChance,
                                     AilmentData... ailments) {
@@ -756,7 +792,7 @@ public final class SkillFactory {
      * @param lifetimeTicks 实体存活上限（tick）：须 &gt; 引信(60) + 飞行时间，留余量取 120
      * @param cooldownTicks 技能冷却（tick）：POE2 真值 5s=100 / 4s=80
      */
-    public static Skill thrownAttack(Require require, ResourceCost cost, String damageType,
+    public static Skill thrownAttack(Require require, ResourceDecl cost, String damageType,
                                     double dmgBase, double dmgPer, double dmgAdd,
                                     double radius, int lifetimeTicks, double cooldownTicks) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
@@ -768,7 +804,7 @@ public final class SkillFactory {
     }
 
     /** 投掷攻击（敏捷系）+ 击退：手雷 / 标枪落地爆炸时击退敌人。 */
-    public static Skill thrownAttack(Require require, ResourceCost cost, String damageType,
+    public static Skill thrownAttack(Require require, ResourceDecl cost, String damageType,
                                     double dmgBase, double dmgPer, double dmgAdd,
                                     double radius, int lifetimeTicks, double cooldownTicks, double knockback) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
@@ -780,7 +816,7 @@ public final class SkillFactory {
     }
 
     /** 投掷手雷 + 数据驱动异常（如感电）：引爆范围命中时施加异常。 */
-    public static Skill thrownAttack(Require require, ResourceCost cost, String damageType,
+    public static Skill thrownAttack(Require require, ResourceDecl cost, String damageType,
                                     double dmgBase, double dmgPer, double dmgAdd,
                                     double radius, int lifetimeTicks, double cooldownTicks,
                                     AilmentData... ailments) {
@@ -795,7 +831,7 @@ public final class SkillFactory {
     }
 
     /** 投掷手雷 + 击退 + 数据驱动异常（如感电）：引爆范围命中时击退并施加异常。 */
-    public static Skill thrownAttack(Require require, ResourceCost cost, String damageType,
+    public static Skill thrownAttack(Require require, ResourceDecl cost, String damageType,
                                     double dmgBase, double dmgPer, double dmgAdd,
                                     double radius, int lifetimeTicks, double cooldownTicks,
                                     double knockback, AilmentData... ailments) {
@@ -811,7 +847,7 @@ public final class SkillFactory {
     }
 
     /** 武器投射物（敏捷系攻击）：默认武器攻速、冷却 0。 */
-    public static Skill projectileAttack(Require require, ResourceCost cost,
+    public static Skill projectileAttack(Require require, ResourceDecl cost,
                                          String damageType, double dmgBase, double dmgPer, double dmgAdd) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
                 Either.left(new SkillCast.Attack.WeaponAttack(ExpressionCodec.of(1.0))),
@@ -824,7 +860,7 @@ public final class SkillFactory {
      * （bear/wolf/wyvern），经 {@code SkillInstance} 构造器回调自动 {@code StatusEngine.applyForm}
      * （施放法术则由同回调 {@code clearForms} 变回人类）。近战范围投送、武器攻击（非瞬发）。
      */
-    public static Skill formAttack(Require require, ResourceCost cost, String damageType,
+    public static Skill formAttack(Require require, ResourceDecl cost, String damageType,
                                    double dmgBase, double dmgPer, double dmgAdd, String formTag) {
         return formAttack(require, cost, damageType, dmgBase, dmgPer, dmgAdd, formTag, 0);
     }
@@ -834,7 +870,7 @@ public final class SkillFactory {
      * （POE2 熊形 Maul「Gain 5 Rage on Hit」，经 {@link StatGen} 中 {@code rage_on_hit}
      * 具体条目 → {@code ResourceStatEffect} HEAL 通道落地，遵循「引用侧 Read、条目入 StatGen」）。
      */
-    public static Skill formAttack(Require require, ResourceCost cost, String damageType,
+    public static Skill formAttack(Require require, ResourceDecl cost, String damageType,
                                    double dmgBase, double dmgPer, double dmgAdd, String formTag, int rageOnHit) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
                 Either.left(new SkillCast.Attack.WeaponAttack(ExpressionCodec.of(1.0))),
@@ -851,7 +887,7 @@ public final class SkillFactory {
     }
 
     /** 武器投射物（敏捷系攻击）+ 击退：命中时击退敌人。 */
-    public static Skill projectileAttack(Require require, ResourceCost cost,
+    public static Skill projectileAttack(Require require, ResourceDecl cost,
                                          String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                          double knockback) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
@@ -862,7 +898,7 @@ public final class SkillFactory {
     }
 
     /** 武器投射物（敏捷系攻击），伤害按等级查表严格还原。 */
-    public static Skill projectileAttack(Require require, ResourceCost cost,
+    public static Skill projectileAttack(Require require, ResourceDecl cost,
                                          String damageType, ExpressionCodec.Value damage) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
                 Either.left(new SkillCast.Attack.WeaponAttack(ExpressionCodec.of(1.0))),
@@ -871,7 +907,7 @@ public final class SkillFactory {
     }
 
     /** 武器投射物（敏捷系攻击）+ 数据驱动异常（如中毒）：命中时按 {@code ailments} 施加异常。 */
-    public static Skill projectileAttack(Require require, ResourceCost cost,
+    public static Skill projectileAttack(Require require, ResourceDecl cost,
                                          String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                          AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
@@ -883,7 +919,7 @@ public final class SkillFactory {
     }
 
     /** 武器投射物（敏捷系攻击）+ 投放地面云：落点留下指定地面云（如点燃地面）。 */
-    public static Skill projectileAttack(Require require, ResourceCost cost,
+    public static Skill projectileAttack(Require require, ResourceDecl cost,
                                         String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                         CreateGroundAction ground, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
@@ -897,7 +933,7 @@ public final class SkillFactory {
     }
 
     /** 武器投射物（敏捷系攻击），伤害按等级查表严格还原 + 数据驱动异常。 */
-    public static Skill projectileAttack(Require require, ResourceCost cost,
+    public static Skill projectileAttack(Require require, ResourceDecl cost,
                                          String damageType, ExpressionCodec.Value damage,
                                          AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Attack(
@@ -908,7 +944,7 @@ public final class SkillFactory {
     }
 
     /** 范围/猛击（力量系）：默认施法时间 20 tick、冷却 0、暴击 5%。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd, double radius) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(20.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -921,7 +957,7 @@ public final class SkillFactory {
      * 作用域缩放在此真正生效（见该动作注释）。地面标签已进入 GroundTypes 描述符 的
      * 存在性状态定义，因此节点只需引用对应的 {@code damage_taken_on_*} / {@code chance_aggravate_*} 条目。
      */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd, double radius,
                                   CreateGroundAction ground) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -933,7 +969,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 投放战旗（POE2 Banner 子系统）：在技能落点放置战旗云，对区域内友方刷新增益。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd, double radius,
                                   BannerAction banner) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -945,7 +981,7 @@ public final class SkillFactory {
     }
 
     /** 范围/猛击（力量系），伤害按等级查表严格还原。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage, double radius) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(20.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -955,7 +991,7 @@ public final class SkillFactory {
     // ===================== 形态构造（携带自身修正） =====================
 
     /** 法术投射物（智力系），携带技能自身 modifiers（与辅助宝石共用同一套形状）。 */
-    public static Skill projectileSpell(Require require, ResourceCost cost,
+    public static Skill projectileSpell(Require require, ResourceDecl cost,
                                         String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                         List<SkillModifier> modifiers) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -964,7 +1000,7 @@ public final class SkillFactory {
     }
 
     /** 法术投射物（智力系），携带技能自身 modifiers，伤害按等级查表严格还原。 */
-    public static Skill projectileSpell(Require require, ResourceCost cost,
+    public static Skill projectileSpell(Require require, ResourceDecl cost,
                                         String damageType, ExpressionCodec.Value damage,
                                         List<SkillModifier> modifiers) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -973,7 +1009,7 @@ public final class SkillFactory {
     }
 
     /** 范围/猛击（力量系），携带技能自身 modifiers（与辅助宝石共用同一套形状）。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd, double radius,
                                   List<SkillModifier> modifiers) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -986,7 +1022,7 @@ public final class SkillFactory {
      * （典型为 {@link #consumeAilmentOnHit} 接 Consume Bleeding → 血爆）。
      * 用于把「命中触发」型回报动作挂到范围技能上，而不改其命中伤害形态。
      */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                   double radius, TriggeredAction... extraActions) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -998,7 +1034,7 @@ public final class SkillFactory {
     }
 
     /** 范围/猛击（力量系），携带技能自身 modifiers，伤害按等级查表严格还原。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage, double radius,
                                   List<SkillModifier> modifiers) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1009,7 +1045,7 @@ public final class SkillFactory {
     // ===================== 扩展形态（可完整实现） =====================
 
     /** 范围猛击 + 击退（力量系）。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                   double radius, double knockback) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1019,7 +1055,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 击退（力量系），伤害按等级查表严格还原。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage,
                                   double radius, double knockback) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1029,7 +1065,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 数据驱动异常（力量系）：伤害命中时按 {@code ailments} 施加异常（如击晕 / 重晕）。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                   double radius, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1041,7 +1077,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 数据驱动异常（力量系），伤害按等级查表严格还原：命中时按 {@code ailments} 施加异常。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage,
                                   double radius, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1052,7 +1088,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 击退 + 数据驱动异常（力量系）：落点命中同时击退并施加异常（如冰冻+冻结）。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                   double radius, double knockback, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1065,7 +1101,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 击退 + 数据驱动异常（力量系），伤害按等级查表：命中时击退并施加异常。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage,
                                   double radius, double knockback, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1077,7 +1113,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 数据驱动异常 + 投放地面云：落点命中施加异常并留下指定地面云（如冰缓地面）。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                   double radius, CreateGroundAction ground, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1090,7 +1126,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 投放地面云：落点留下指定地面云（如感电地面），伤害按等级查表（无击退）。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage,
                                   double radius, CreateGroundAction ground, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1102,7 +1138,7 @@ public final class SkillFactory {
     }
 
     /** 范围猛击 + 击退 + 数据驱动异常 + 投放地面云：落点命中击退、施加异常并留下指定地面云。 */
-    public static Skill areaSpell(Require require, ResourceCost cost,
+    public static Skill areaSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage,
                                   double radius, double knockback, CreateGroundAction ground,
                                   AilmentData... ailments) {
@@ -1143,7 +1179,7 @@ public final class SkillFactory {
     }
 
     /** 光束法术（智力系）：沿施法者朝向发射能量束，瞬发命中范围内敌人。 */
-    public static Skill beamSpell(Require require, ResourceCost cost,
+    public static Skill beamSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                   double range, double width) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1153,7 +1189,7 @@ public final class SkillFactory {
     }
 
     /** 光束法术（智力系）+ 数据驱动异常（如感电）：命中时按 {@code ailments} 施加异常。 */
-    public static Skill beamSpell(Require require, ResourceCost cost,
+    public static Skill beamSpell(Require require, ResourceDecl cost,
                                   String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                   double range, double width, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1164,7 +1200,7 @@ public final class SkillFactory {
     }
 
     /** 光束法术（智力系）+ 投放地面云：落点留下指定地面云（如点燃地面）。 */
-    public static Skill beamSpell(Require require, ResourceCost cost,
+    public static Skill beamSpell(Require require, ResourceDecl cost,
                                  String damageType, double dmgBase, double dmgPer, double dmgAdd,
                                  double range, double width, CreateGroundAction ground, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1177,7 +1213,7 @@ public final class SkillFactory {
     }
 
     /** 光束法术（智力系），伤害按等级查表严格还原。 */
-    public static Skill beamSpell(Require require, ResourceCost cost,
+    public static Skill beamSpell(Require require, ResourceDecl cost,
                                   String damageType, ExpressionCodec.Value damage,
                                   double range, double width) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1187,7 +1223,7 @@ public final class SkillFactory {
     }
 
     /** 位移技能（敏捷/力量系）：瞬发位移（冲刺/传送）+ 落点范围伤害。 */
-    public static Skill movementSkill(Require require, ResourceCost cost, MoveAction.MoveType moveType, double force,
+    public static Skill movementSkill(Require require, ResourceDecl cost, MoveAction.MoveType moveType, double force,
                                       String damageType, double dmgBase, double dmgPer, double dmgAdd, double radius) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(10.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -1199,7 +1235,7 @@ public final class SkillFactory {
     }
 
     /** 位移技能（敏捷/力量系），伤害按等级查表严格还原。 */
-    public static Skill movementSkill(Require require, ResourceCost cost, MoveAction.MoveType moveType, double force,
+    public static Skill movementSkill(Require require, ResourceDecl cost, MoveAction.MoveType moveType, double force,
                                       String damageType, ExpressionCodec.Value damage, double radius) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(10.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.05)));
@@ -1211,7 +1247,7 @@ public final class SkillFactory {
     }
 
     /** 位移技能（敏捷/力量系）+ 击退：落点范围命中附带击退。 */
-    public static Skill movementSkill(Require require, ResourceCost cost, MoveAction.MoveType moveType, double force,
+    public static Skill movementSkill(Require require, ResourceDecl cost, MoveAction.MoveType moveType, double force,
                                       String damageType, double dmgBase, double dmgPer, double dmgAdd, double radius,
                                       double knockback) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1224,7 +1260,7 @@ public final class SkillFactory {
     }
 
     /** 位移技能（敏捷/力量系）+ 数据驱动异常：落点范围命中时按 {@code ailments} 施加异常。 */
-    public static Skill movementSkill(Require require, ResourceCost cost, MoveAction.MoveType moveType, double force,
+    public static Skill movementSkill(Require require, ResourceDecl cost, MoveAction.MoveType moveType, double force,
                                       String damageType, double dmgBase, double dmgPer, double dmgAdd, double radius,
                                       AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1238,7 +1274,7 @@ public final class SkillFactory {
     }
 
     /** 位移技能（敏捷/力量系）+ 击退 + 数据驱动异常：落点命中同时击退并施加异常（如晕眩）。 */
-    public static Skill movementSkill(Require require, ResourceCost cost, MoveAction.MoveType moveType, double force,
+    public static Skill movementSkill(Require require, ResourceDecl cost, MoveAction.MoveType moveType, double force,
                                       String damageType, double dmgBase, double dmgPer, double dmgAdd, double radius,
                                       double knockback, AilmentData... ailments) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
@@ -1253,7 +1289,7 @@ public final class SkillFactory {
     }
 
     /** 自身增益技能（守护/捷类）：对自身施加属性修改器（ON_CAST），持续 duration tick。 */
-    public static Skill selfBuff(Require require, ResourceCost cost, List<ModifierAction> mods, double duration) {
+    public static Skill selfBuff(Require require, ResourceDecl cost, List<ModifierAction> mods, double duration) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(0.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.0)));
         List<TriggeredAction> actions = mods.stream()
@@ -1264,11 +1300,11 @@ public final class SkillFactory {
 
     /**
      * 自身增益技能（守护/捷类），经 Stat 引擎节点施加（ON_CAST），持续 duration tick。
-     * 区别于 {@link #selfBuff(Require, ResourceCost, List, double)} 直连 Attribute，本方法走
+     * 区别于 {@link #selfBuff(Require, ResourceDecl, List, double)} 直连 Attribute，本方法走
      * {@link StatAction} -> StatStore 管线（与天赋/精魂同源），幅度由传入的 Stat 节点（如
      * {@code StatGen.ref(StatIds.X, value)}）决定。
      */
-    public static Skill selfStatBuff(Require require, ResourceCost cost, List<StatEntry> stats, double duration) {
+    public static Skill selfStatBuff(Require require, ResourceDecl cost, List<StatEntry> stats, double duration) {
         SkillCast cast = SkillCast.of(new SkillCast.Spell(
                 ExpressionCodec.of(0.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.0)));
         List<TriggeredAction> actions = List.of(
@@ -1284,7 +1320,7 @@ public final class SkillFactory {
      * @param operation 0=加法 / 1=乘算总计 / 2=乘算基础
      * @param value 修改量（乘算时为比例，如 0.20 = +20%）
      */
-    public static Skill selfBuff(Require require, ResourceCost cost, String attrName, int operation, double value) {
+    public static Skill selfBuff(Require require, ResourceDecl cost, String attrName, int operation, double value) {
         List<ModifierAction> mods = List.of(new ModifierAction(
                 Identifier.fromNamespaceAndPath(CraftOfExile.MODID, attrName),
                 ExpressionCodec.of((double) operation),

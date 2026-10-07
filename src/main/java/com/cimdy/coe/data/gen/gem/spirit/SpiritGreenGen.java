@@ -17,8 +17,11 @@ import com.cimdy.coe.data.codec.support.stat.target.StatTargets;
 import com.cimdy.coe.data.codec.support.stat.target.TargetSelector;
 import com.cimdy.coe.data.codec.support.stat.duration.StatDuration;
 import com.cimdy.coe.data.codec.support.status.def.StatusDefs;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.HazardDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry;
+import com.cimdy.coe.data.codec.skill.phase.delivery.area.InstantDuration;
 import com.cimdy.coe.data.codec.skill.phase.delivery.area.SphereShape;
+import java.util.Optional;
 import com.cimdy.coe.data.codec.skill.phase.SkillPhase;
 import com.cimdy.coe.data.codec.skill.helper.cast.SkillCast;
 import com.cimdy.coe.data.codec.entity.EntityRead;
@@ -150,14 +153,17 @@ public class SpiritGreenGen {
     }
 
     /** 铁蒺藜形态：{@code coe:caltrop}（static + contact(enemy)，触发即销毁）；真值 0.5m / 8s / 3 枚 / 上限 20。 */
-    private static HazardDelivery caltropDelivery() {
-        return new HazardDelivery(
+    private static AreaDelivery caltropDelivery() {
+        return new AreaDelivery(
+                AreaGeometry.HAZARD,
                 new SphereShape(ExpressionCodec.of(0.5f)),
-                ExpressionCodec.of(160.0),
+                new InstantDuration(),
                 ExpressionCodec.of(1.0),
-                EntityRead.of(Identifier.parse("coe:caltrop")),
-                ExpressionCodec.of(3.0),
-                ExpressionCodec.of(20.0));
+                Optional.of(EntityRead.of(Identifier.parse("coe:caltrop"))),
+                Optional.of(ExpressionCodec.of(160.0)),
+                Optional.of(ExpressionCodec.of(3.0)),
+                Optional.of(ExpressionCodec.of(20.0)),
+                Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
     }
 
     /**

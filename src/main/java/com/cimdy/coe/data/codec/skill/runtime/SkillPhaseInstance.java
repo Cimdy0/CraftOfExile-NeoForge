@@ -3,7 +3,6 @@ package com.cimdy.coe.data.codec.skill.runtime;
 import com.cimdy.coe.data.codec.skill.context.SkillStatScopes;
 import com.cimdy.coe.data.codec.skill.core.SkillInstance;
 import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.area.AreaDeliveryExecutor;
-import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.HazardDeliveryExecutor;
 import com.cimdy.coe.data.codec.skill.phase.action.combo.DeliveryAction;
 import com.cimdy.coe.data.codec.skill.context.DamageContext;
 import com.cimdy.coe.data.codec.skill.context.SkillContext;
@@ -44,7 +43,7 @@ public class SkillPhaseInstance {
      * 回响重放的<b>范围载荷</b>：{@code echoAreaInc} 为 POE2「increased」项（与 EFFECT_AREA 相加），
      * {@code echoAreaMore} 为「more」项（乘在结果上）。原施放恒为 {@code 0.0 / 1.0}，故不受影响。
      * 由 {@code SkillPhase#repeat} 写入，经 {@code SkillPhase#initialize} 传给整棵子阶段树，
-     * 消费端为 {@code AreaDeliveryExecutor} / {@code HazardDeliveryExecutor}。
+     * 消费端为 {@code AreaDeliveryExecutor}（含范围 / 危害 / 残留 / 光束 / 波 全部几何）。
      */
     private double echoAreaInc = 0.0;
     private double echoAreaMore = 1.0;

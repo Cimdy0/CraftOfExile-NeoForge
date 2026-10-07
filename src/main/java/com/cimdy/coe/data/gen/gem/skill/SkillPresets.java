@@ -12,7 +12,7 @@ import com.cimdy.coe.data.codec.skill.core.Skill;
 import com.cimdy.coe.data.codec.skill.core.SkillEntry;
 import com.cimdy.coe.data.codec.skill.core.SkillRead;
 import com.cimdy.coe.data.codec.skill.SkillIds;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceCost;
+import com.cimdy.coe.data.codec.skill.helper.resource.ResourceDecl;
 import com.cimdy.coe.data.codec.skill.helper.cast.SkillCast;
 import com.cimdy.coe.data.codec.skill.input.Click;
 import com.cimdy.coe.data.codec.skill.phase.SkillPhase;
@@ -27,9 +27,9 @@ import com.cimdy.coe.data.codec.skill.phase.action.charge.ChargeAction;
 import com.cimdy.coe.data.codec.skill.phase.action.charge.ChargeType;
 import com.cimdy.coe.data.codec.skill.phase.action.control.TriggeredAction;
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry;
 import com.cimdy.coe.data.codec.skill.phase.delivery.Delivery;
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.SelfDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.WaveDelivery;
 import com.cimdy.coe.data.codec.skill.phase.delivery.area.InstantDuration;
 import com.cimdy.coe.data.codec.skill.phase.delivery.area.SphereShape;
 import com.cimdy.coe.data.codec.support.require.Require;
@@ -196,16 +196,29 @@ public final class SkillPresets {
     /** 半径走 {@code $槽}（战吼/光环半径随宝石不同）。 */
     private static AreaDelivery area(ExpressionCodec.Value radius) {
         return new AreaDelivery(
+                AreaGeometry.AREA,
                 new SphereShape(radius),
                 new InstantDuration(),
-                ExpressionCodec.of(1.0));
+                ExpressionCodec.of(1.0),
+                Optional.empty(),
+                Optional.empty(), Optional.empty(), Optional.empty(),
+                Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
     }
 
     /** 冲击波投递：沿施法者朝向推出向前推进的球形波前（range 距离内以 speed 格/tick 匀速前进）。 */
-    private static WaveDelivery wave(double range, double radius, double speed) {
-        return new WaveDelivery(
-                ExpressionCodec.of(range), ExpressionCodec.of(radius),
-                ExpressionCodec.of(speed), ExpressionCodec.of(1.0),
+    private static AreaDelivery wave(double range, double radius, double speed) {
+        return new AreaDelivery(
+                AreaGeometry.WAVE,
+                new SphereShape(ExpressionCodec.of(3.0f)),
+                new InstantDuration(),
+                ExpressionCodec.of(1.0),
+                Optional.empty(),
+                Optional.empty(), Optional.empty(), Optional.empty(),
+                Optional.of(ExpressionCodec.of(range)),
+                Optional.empty(),
+                Optional.of(ExpressionCodec.of(radius)),
+                Optional.of(ExpressionCodec.of(speed)),
+                Optional.empty(),
                 Optional.empty());
     }
 
@@ -227,14 +240,12 @@ public final class SkillPresets {
 
     /** 组装一个内联完整技能（与 SkillFactory.build 同形，但数值走 {@code $槽} 参数）。 */
     private static Skill mk(Require require, SkillCast cast, Delivery delivery,
-                            List<TriggeredAction> actions, List<ResourceCost> cost, List<String> tags,
+                            List<TriggeredAction> actions, List<ResourceDecl> cost, List<String> tags,
                             Optional<ExpressionCodec.Value> curseRange, Optional<ExpressionCodec.Value> curseDuration,
                             Optional<ExpressionCodec.Value> markRange, Optional<ExpressionCodec.Value> markDuration,
                             Map<String, ExpressionCodec.Value> params) {
-        return new Skill(require, "", Optional.empty(), cast, new Click(), cost,
-                List.of(phase(delivery, actions)), List.of(), 1, tags,
-                Optional.empty(), Skill.AoeRanges.of(curseRange, curseDuration, markRange, markDuration), params,
-                Optional.empty(), Optional.empty());
+        return new Skill(Skill.Identity.of(require, "", Optional.empty(), List.of(), 1, tags, params, Optional.empty(), Optional.empty(), Optional.empty()),
+                Skill.Usage.of(new Click(), Optional.empty(), cast, cost, List.of(phase(delivery, actions)), Optional.of(new Skill.AoeRanges(curseRange, curseDuration, markRange, markDuration))));
     }
 
     // ============================ 共享通用预设（静态块构造） ============================

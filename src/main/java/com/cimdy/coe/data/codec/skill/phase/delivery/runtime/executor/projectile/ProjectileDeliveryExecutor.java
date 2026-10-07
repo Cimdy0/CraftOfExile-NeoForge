@@ -9,9 +9,9 @@ import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.SkillPhaseInstanceT
 import com.cimdy.coe.registry.AttributeRegistry;
 import com.cimdy.coe.CraftOfExile;
 import com.cimdy.coe.data.codec.entity.EntityDef;
-import com.cimdy.coe.data.codec.entity.EntityDefs;
 import com.cimdy.coe.data.codec.entity.EntityRead;
-import com.cimdy.coe.entity.EntityDefCarrier;
+import com.cimdy.coe.data.codec.entity.EntitySpawns;
+import com.cimdy.coe.data.codec.entity.behavior.EntityBehavior;
 import com.cimdy.coe.data.codec.skill.core.Skill;
 import com.cimdy.coe.data.codec.skill.core.SkillInstance;
 import com.cimdy.coe.data.codec.skill.runtime.SkillPhaseInstance;
@@ -22,10 +22,13 @@ import com.cimdy.coe.data.codec.skill.phase.action.damage.DamageAction;
 import com.cimdy.coe.data.codec.skill.phase.action.control.TriggeredAction;
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.ProjectileDelivery;
 import com.cimdy.coe.data.codec.skill.support.SupportProfile;
+import com.cimdy.coe.data.codec.support.math.ExpressionCodec;
 import com.cimdy.coe.data.codec.support.stat.engine.StatContext;
 import com.cimdy.coe.data.codec.support.stat.engine.StatScopes;
 import com.cimdy.coe.data.codec.support.stat.tag.GateTag;
 import com.cimdy.coe.registry.world.EntityRegistry;
+import com.cimdy.coe.data.helper.status.AilmentHelper;
+import com.cimdy.coe.data.helper.engine.entity.EntityCategoryLimit;
 import com.cimdy.coe.entity.custom.skill.SkillEntity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
@@ -37,8 +40,13 @@ import java.util.Set;
 import java.util.UUID;
 
 /**
- * 投射物执行器 — 生成 SkillArrow 并注册其运行时上下文。
- * 同时应用辅助宝石的投射物修改效果（额外投射物 / 速度倍率 / 穿透 / 连锁 / 分裂 / 圆形发射 / 返回施法者 / 分裂降伤）。
+ * 统一投射物执行器 —— 按 {@link ProjectileDelivery#kind()} 分流到四套运行时行为（D4丙 对称归并）：
+ * <ul>
+ *   <li>{@code PROJECTILE}：生成 SkillArrow 并注册运行时上下文（飞行 + 碰撞 + 命中），含辅助宝石修改；</li>
+ *   <li>{@code THROWN}：生成手雷弹体（抛物线飞出 → 落地 → 引信 → 范围引爆）；</li>
+ *   <li>{@code BALL}：生成缓慢飞行、边飞边周期放能的球；</li>
+ *   <li>{@code ORB}：在目标位置生成原地驻场、按节奏周期放能的球。</li>
+ * </ul>
  */
 public class ProjectileDeliveryExecutor implements DeliveryExecutor<ProjectileDelivery> {
 
@@ -142,6 +150,18 @@ public class ProjectileDeliveryExecutor implements DeliveryExecutor<ProjectileDe
     @Override
     public void execute(ProjectileDelivery delivery, ActionContext context,
                         UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        switch (delivery.kind()) {
+            case PROJECTILE -> executeProjectile(delivery, context, casterId, phaseId, instance);
+            case THROWN -> executeThrown(delivery, context, casterId, phaseId, instance);
+            case BALL -> executeBall(delivery, context, casterId, phaseId, instance);
+            case ORB -> executeOrb(delivery, context, casterId, phaseId, instance);
+        }
+    }
+
+    // ───────────────────────── PROJECTILE ─────────────────────────
+
+    private void executeProjectile(ProjectileDelivery delivery, ActionContext context,
+                                    UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
         if (!(context.caster() instanceof Entity caster)) return;
         if (!(caster.level() instanceof ServerLevel level)) return;
 
@@ -260,37 +280,20 @@ public class ProjectileDeliveryExecutor implements DeliveryExecutor<ProjectileDe
                                              Vec3 origin, Vec3 direction, Entity caster, int depth,
                                              float effectiveSpeed, int supportPierce, int supportChain, int supportFork,
                                              boolean returnToCaster, float damageMultiplier, float splitDamageMultiplier) {
-        // 形态装配（引用 + 覆写渲染 / 名称）：缺失则跳过生成，不静默产出无形态的投射物
+        // 形态装配（引用 + 覆写渲染 / 名称）：缺失 / 非契约载体则跳过生成，不静默产出无形态的投射物
         EntityRead read = delivery.ref();
-        EntityDef def = read.resolve().orElse(null);
-        if (def == null) {
-            CraftOfExile.LOGGER.error("Projectile 投递：未找到实体定义 {}", read.ref());
-            return null;
-        }
-        // 按 EntityDef.type 实例化承载实体 —— 投递不硬编码实体类，换 type 即换载体；
-        // 任意 EntityDefCarrier（如 coe:skill_arrow 指向的 SkillEntity）皆可承载投射物，命中机制由
-        // DeliveryRuntimeContext + SkillEntity 的投射物路径统一驱动，故不再要求具体 SkillArrow 类型。
-        Entity spawned = EntityDefs.create(level, def);
-        if (!(spawned instanceof EntityDefCarrier)) {
-            CraftOfExile.LOGGER.error("Projectile 投递：实体类型 {} 未实现 EntityDefCarrier", def.type());
-            return null;
-        }
+        if (!(caster instanceof LivingEntity livingCaster)) return null;
+        Entity spawned = EntitySpawns.spawn(level, livingCaster, read, 0, 0, origin, casterId, phaseId);
+        if (spawned == null) return null;
         if (!(spawned instanceof SkillEntity projectile)) {
-            CraftOfExile.LOGGER.error("Projectile 投递：实体类型 {} 不是 SkillEntity 载体", def.type());
+            CraftOfExile.LOGGER.error("Projectile 投递：实体类型 {} 不是 SkillEntity 载体", read.ref());
             return null;
         }
-        projectile.setPos(origin.x, origin.y, origin.z);
         projectile.setNoGravity(true); // 由 FlightPattern 控制运动，禁用原版重力
-        if (caster instanceof LivingEntity living) {
-            projectile.configure(living, phaseId, 0, 0, read);
-            // 投射物需物理碰撞（BlockHit 反弹 / 命中墙判定），覆盖 configure 按 motion 推导的 noPhysics
-            projectile.noPhysics = false;
-        }
+        projectile.noPhysics = false;  // 投射物需物理碰撞（BlockHit 反弹 / 命中墙判定），覆盖 configure 按 motion 推导的 noPhysics
 
         Vec3 velocity = delivery.flight().initialVelocity(direction, effectiveSpeed);
         projectile.setDeltaMovement(velocity);
-
-        level.addFreshEntity(projectile);
 
         DeliveryRuntimeContext ctx = new DeliveryRuntimeContext(
                 casterId, phaseId, delivery, origin, direction,
@@ -325,5 +328,181 @@ public class ProjectileDeliveryExecutor implements DeliveryExecutor<ProjectileDe
                     false, childDamage, perSplit);
             SkillPhaseInstanceTracker.retain(casterId, phaseId);
         }
+    }
+
+    // ───────────────────────── THROWN ─────────────────────────
+
+    /** 投掷物（手雷）扇形展开总角度（弧度），与投射物齐射同口径。 */
+    private static final double THROWN_SPREAD_TOTAL = Math.toRadians(20);
+
+    /**
+     * 投掷物执行器：生成手雷弹体（抛物线飞出 → 落地 → 引信 → 范围引爆）。
+     * 本方法只放弹体，不定义任何效果；效果由技能阶段 actions 在引爆时点燃 ON_HIT。
+     */
+    private void executeThrown(ProjectileDelivery delivery, ActionContext context,
+                               UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        if (!(context.caster() instanceof LivingEntity caster)) return;
+        if (!(caster.level() instanceof ServerLevel level)) return;
+
+        SupportProfile profile = SupportProfile.from(context);
+        var skillCtx = context.skill() != null ? context.skill().getContext() : null;
+
+        Vec3 direction = (context.direction() != null && context.direction() != Vec3.ZERO
+                ? context.direction()
+                : caster.getLookAngle()).normalize();
+        Vec3 origin = delivery.origin()
+                .map(v -> caster.getEyePosition().add(direction.scale(v.getValue(skillCtx))))
+                .orElseGet(caster::getEyePosition);
+
+        // 引爆半径：基础半径 × 辅助宝石/技能自身的 grenade 半径倍率
+        double radius = delivery.radius().orElse(ExpressionCodec.of(2.5))
+                .getFloat(skillCtx) * profile.radiusMultiplier("grenade", skillCtx);
+
+        // 手雷范围加成：INC_GRENADE_AREA_OF_EFFECT（标签纯 {grenade}，读 EFFECT_AREA）。
+        double areaMult = AilmentHelper.withScope(caster, Set.of(GateTag.GRENADE), AttributeRegistry.EFFECT_AREA);
+        if (instance != null) {
+            areaMult += instance.echoAreaInc();
+            radius *= instance.echoAreaMore();
+        }
+        radius *= areaMult;
+
+        int lifetimeTicks = Math.max(1, delivery.lifetime().getInt(skillCtx));
+
+        EntityRead read = delivery.ref();
+        EntityDef def = read.resolve().orElse(null);
+        if (def == null) {
+            CraftOfExile.LOGGER.error("Thrown 投递：未找到实体定义 {}", read.ref());
+            return;
+        }
+
+        float speed = (float) delivery.speed().getFloat(skillCtx)
+                * profile.projectileSpeedMultiplier(skillCtx);
+        float arc = (float) delivery.arc().orElse(ExpressionCodec.of(0.35)).getFloat(skillCtx);
+        int count = 1 + profile.additionalProjectiles(skillCtx);
+
+        Vec3 axis = Math.abs(direction.y) > 0.99 ? new Vec3(1, 0, 0) : new Vec3(0, 1, 0);
+        Vec3 perp = axis.cross(direction).normalize();
+        for (int i = 0; i < count; i++) {
+            double angle = count == 1 ? 0.0 : -THROWN_SPREAD_TOTAL / 2 + THROWN_SPREAD_TOTAL * i / (count - 1);
+            spawnThrown(level, caster, casterId, phaseId, origin,
+                    count == 1 ? direction : rotateAround(direction, perp, angle),
+                    (float) radius, lifetimeTicks, speed, arc, read, def);
+        }
+        PersistentDeliveryManager.launchCue(level, origin);
+    }
+
+    /** 生成手雷弹体并装配（owner / 阶段 / 存活上限 / 引爆半径 / 形态）。 */
+    private static void spawnThrown(ServerLevel level, LivingEntity caster, UUID casterId, UUID phaseId,
+                                    Vec3 origin, Vec3 direction, float radius, int lifetimeTicks,
+                                    float speed, float arc, EntityRead read, EntityDef def) {
+        Entity thrown = EntitySpawns.spawn(level, caster, read, lifetimeTicks, radius, origin, casterId, phaseId);
+        if (thrown == null) return;
+        thrown.setDeltaMovement(direction.scale(speed).add(0.0, speed * arc, 0.0));
+    }
+
+    // ───────────────────────── BALL ─────────────────────────
+
+    /**
+     * 球执行器：生成缓慢飞行、本体不命中、周期放能的球。
+     * 本方法只放球，不定义任何效果；效果由技能阶段 actions 经 ON_HIT 点燃。
+     */
+    private void executeBall(ProjectileDelivery delivery, ActionContext context,
+                             UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        if (!(context.caster() instanceof LivingEntity caster)) return;
+        if (!(caster.level() instanceof ServerLevel level)) return;
+
+        SupportProfile profile = SupportProfile.from(context);
+        var skillCtx = context.skill() != null ? context.skill().getContext() : null;
+
+        Vec3 direction = (context.direction() != null && context.direction() != Vec3.ZERO
+                ? context.direction()
+                : caster.getLookAngle()).normalize();
+        Vec3 origin = delivery.origin()
+                .map(v -> caster.getEyePosition().add(direction.scale(v.getValue(skillCtx))))
+                .orElseGet(caster::getEyePosition);
+
+        EntityRead read = delivery.ref();
+        EntityDef def = read.resolve().orElse(null);
+        if (def == null) {
+            CraftOfExile.LOGGER.error("Ball 投递：未找到实体定义 {}", read.ref());
+            return;
+        }
+
+        // 脉冲半径：基础半径 × 辅助宝石的投射物范围倍率，再经 {projectile} 作用域的 EFFECT_AREA 放大。
+        double radius = delivery.radius().orElse(ExpressionCodec.of(1.8)).getFloat(skillCtx)
+                * profile.radiusMultiplier("projectile", skillCtx);
+        double areaMult = AilmentHelper.withScope(caster, Set.of(GateTag.PROJECTILE), AttributeRegistry.EFFECT_AREA);
+        if (instance != null) {
+            areaMult += instance.echoAreaInc();
+            radius *= instance.echoAreaMore();
+        }
+        radius *= areaMult;
+
+        int lifetimeTicks = Math.max(1, delivery.lifetime().getInt(skillCtx));
+        float speed = (float) delivery.speed().getFloat(skillCtx)
+                * profile.projectileSpeedMultiplier(skillCtx);
+
+        spawnBall(level, caster, casterId, phaseId, origin, direction, (float) radius, lifetimeTicks, speed, read, def);
+    }
+
+    /** 生成球并装配（owner / 阶段 / 存活上限 / 脉冲半径 / 形态）。 */
+    private static void spawnBall(ServerLevel level, LivingEntity caster, UUID casterId, UUID phaseId,
+                                  Vec3 origin, Vec3 direction, float radius, int lifetimeTicks,
+                                  float speed, EntityRead read, EntityDef def) {
+        Entity ball = EntitySpawns.spawn(level, caster, read, lifetimeTicks, radius, origin, casterId, phaseId);
+        if (ball == null) return;
+        ball.setDeltaMovement(direction.scale(speed));
+        PersistentDeliveryManager.launchCue(level, origin);
+    }
+
+    // ───────────────────────── ORB ─────────────────────────
+
+    /**
+     * Orb 执行器：在目标位置生成原地驻场、按节奏周期放能的球。
+     * 本方法只放球，不定义任何效果；效果由技能阶段 actions 经 ON_HIT 点燃。
+     */
+    private void executeOrb(ProjectileDelivery delivery, ActionContext context,
+                            UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        if (!(context.caster() instanceof LivingEntity caster)) return;
+        if (!(caster.level() instanceof ServerLevel level)) return;
+
+        SupportProfile profile = SupportProfile.from(context);
+        var skillCtx = context.skill() != null ? context.skill().getContext() : null;
+
+        // 落点：取上下文位置（瞄准点/地面目标），缺省回退施法者位置。
+        Vec3 center = context.position() != null && context.position() != Vec3.ZERO
+                ? context.position() : caster.position();
+
+        // 作用半径：基础半径 × 辅助宝石范围倍率 × {area} 作用域的 EFFECT_AREA × 回响加成
+        double radius = delivery.radius().orElse(ExpressionCodec.of(3.6)).getFloat(skillCtx)
+                * profile.radiusMultiplier("area", skillCtx);
+        double areaMult = AilmentHelper.withScope(caster, Set.of(GateTag.AREA), AttributeRegistry.EFFECT_AREA);
+        if (instance != null) {
+            areaMult += instance.echoAreaInc();
+            radius *= instance.echoAreaMore();
+        }
+        radius *= areaMult;
+
+        // 首类「法术时长」：驻场球存在时长按 SPELL_DURATION_MULT 缩放。
+        double spellDurationMult = AilmentHelper.spellDurationMultiplier(caster);
+        int lifetimeTicks = Math.max(1, (int) (delivery.lifetime().getInt(skillCtx) * spellDurationMult));
+        int pulseTicks = Math.max(0, delivery.pulseInterval().orElse(ExpressionCodec.of(80.0)).getInt(skillCtx));
+
+        EntityRead read = delivery.ref();
+        EntityDef def = read.resolve().orElse(null);
+        if (def == null) {
+            CraftOfExile.LOGGER.error("Orb 投递：未找到实体定义 {}", read.ref());
+            return;
+        }
+
+        // 数量上限走通用设施「按实体类别的数量上限」：以形态 id（def.type()）为类别。
+        if (!EntityCategoryLimit.canSpawn(caster, level, def.type())) return;
+
+        Entity orb = EntitySpawns.spawn(level, caster, read, lifetimeTicks, (float) radius, center, casterId, phaseId);
+        if (orb == null) return;
+        if (orb instanceof SkillEntity entity && pulseTicks > 0) {
+            entity.putParam(EntityBehavior.PARAM_PULSE_INTERVAL, pulseTicks);
+        }
+        PersistentDeliveryManager.launchCue(level, center);
     }
 }

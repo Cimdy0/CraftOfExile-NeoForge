@@ -4,6 +4,8 @@ import com.cimdy.coe.data.codec.skill.context.SkillContext;
 import com.cimdy.coe.data.gen.stat.effect.StatEffectIds;
 import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.DeliveryExecutor;
 import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.LingeringAreaTracker;
+import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.PersistentDeliveryManager;
+import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.SkillPhaseInstanceTracker;
 
 import com.cimdy.coe.data.codec.skill.modifier.impl.control.DeliveryMod;
 import com.cimdy.coe.data.codec.skill.modifier.impl.control.EchoMod;
@@ -22,9 +24,14 @@ import com.cimdy.coe.data.codec.support.stat.engine.StatContext;
 import com.cimdy.coe.data.codec.support.stat.engine.StatScopes;
 import com.cimdy.coe.data.codec.support.stat.tag.GateTag;
 import com.cimdy.coe.data.codec.support.status.runtime.StatusEngine;
+import com.cimdy.coe.data.codec.entity.EntityDef;
+import com.cimdy.coe.entity.EntityDefCarrier;
+import com.cimdy.coe.data.codec.entity.EntityRead;
+import com.cimdy.coe.data.codec.entity.EntitySpawns;
 import com.cimdy.coe.data.helper.status.AilmentHelper;
 import com.cimdy.coe.data.helper.combat.DamageHelper;
 import com.cimdy.coe.data.helper.affix.ModHelper;
+import com.cimdy.coe.entity.custom.skill.SkillEntity;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
@@ -39,14 +46,33 @@ import java.util.Set;
 import java.util.UUID;
 
 /**
- * 范围执行器 — 在目标位置搜索范围内实体并点燃 ON_HIT。
- * 同时应用辅助宝石的范围修改效果（半径倍率 / Nova / Cascade）。
+ * 统一范围执行器 —— 按 {@link AreaDelivery#geometry()} 分流到五套运行时行为（D4丙 对称归并）：
+ * <ul>
+ *   <li>{@code AREA}：在目标位置瞬时扫描命中（可叠加留驻区域）；</li>
+ *   <li>{@code HAZARD}：生成驻场危害物实体，周期触发命中；</li>
+ *   <li>{@code REMNANT}：生成可拾取残片实体；</li>
+ *   <li>{@code BEAM}：沿施法者朝向发射一束能量，持续命中；</li>
+ *   <li>{@code WAVE}：向前推进的球形波前，沿途每实体仅命中一次。</li>
+ * </ul>
  */
 public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
 
     @Override
     public void execute(AreaDelivery delivery, ActionContext context,
                         UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        switch (delivery.geometry()) {
+            case AREA -> executeArea(delivery, context, casterId, phaseId, instance);
+            case HAZARD -> executeHazard(delivery, context, casterId, phaseId, instance);
+            case REMNANT -> executeRemnant(delivery, context, casterId, phaseId, instance);
+            case BEAM -> executeBeam(delivery, context, casterId, phaseId, instance);
+            case WAVE -> executeWave(delivery, context, casterId, phaseId, instance);
+        }
+    }
+
+    // ───────────────────────── AREA ─────────────────────────
+
+    private void executeArea(AreaDelivery delivery, ActionContext context,
+                             UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
         if (!(context.caster() instanceof Entity caster)) return;
         if (!(caster.level() instanceof ServerLevel level)) return;
 
@@ -86,9 +112,6 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
         }
 
         // ---- 客户端同步反馈（服务端广播，零同步负担）----
-        // 范围技此前在客户端完全无可见/可闻反馈（无实体 / 无粒子 / 无音效），与「打击真实感」相悖。
-        // 在落点以半径发射一圈能量环（显示 AoE 范围）+ 命中时播放撞击音，使视觉/听觉与服务端命中时刻
-        // （相位执行即落点时刻，已对齐贯穿时间轴）严格同步。沿用与 Wave 同款的 SOUL_FIRE_FLAME 能量语言。
         spawnAreaBlast(level, center, radius);
         if (!targets.isEmpty()) {
             level.playSound(null, center.x, center.y, center.z,
@@ -96,7 +119,6 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
         }
 
         // 额外目标（Additional Targets）：在范围外、扩展搜索半径内，对最近的 N 个敌人也点燃 ON_HIT。
-        // 对应 PoE2 中「技能可命中额外目标」——技能本身与辅助宝石共用同一 DeliveryMod 形状，二者皆生效。
         int additional = profile.additionalTargets(skillCtx);
         if (additional > 0) {
             double searchR = radius * 3;
@@ -132,14 +154,8 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
             }
         }
 
-        // Lingering 持续时间模式：首脉冲已由上方即时扫描完成，后续脉冲登记到 LingeringAreaTracker，
-        // 由 SkillEvent（ServerTickEvent.Post）按维度驱动，每 interval 重新扫描并点燃 ON_HIT（复用同一伤害管线）。
-        // 注：Cascade / Additional Targets 仅在首脉冲生效（后续脉冲为纯区域重复检测）。
+        // Lingering 持续时间模式：首脉冲已由上方即时扫描完成，后续脉冲登记到 LingeringAreaTracker。
         if (delivery.duration() instanceof LingeringDuration lingering) {
-            // 「Skill Effect Duration」在本引擎统一落到 AILMENT_DURATION（StatEffectIds 设计注释）；
-            // 以 {AILMENT, !TAKEN} 作用域读取，使 inc_skill_effect_duration 族（含 freeze per-enemy）生效。
-            // 首类「法术时长」（SPELL_DURATION_MULT）：额外读取，使 {spell,storm}/{spell,plant} 的
-            // 「X% less Duration」（wildsurge_incantation）在此真实缩短留驻时长（作用域已并入技能标签）。
             double skillEffectDurationMult = 1.0;
             double spellDurationMult = 1.0;
             if (caster instanceof LivingEntity lc) {
@@ -153,14 +169,6 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
         }
 
         // ── 余震（Aftershock）生产者 ──
-        // 数据层（StatGen，标签 aftershock）：chance_aftershock / _mace_slam / _shapeshift_slam
-        //   + inc_aftershock_area（缩放落点脉冲半径）。
-        // 触发：技能带 slam 标签（SkillRedGen.SLAM_SKILLS 数据标记）；
-        //   mace_slam 变体额外要求施法者持锤（ModHelper.currentEquipment "mace"）；
-        //   shapeshift_slam 变体额外要求施法者处于形态（StatusEngine.hasForm）。
-        // 落点按聚合 0~1 几率回放一次延迟二次范围脉冲：
-        //   复用 LingeringAreaTracker（interval<duration → 恰好单次延迟脉冲，不无限递归——
-        //   脉冲经 instance.fireTrigger(ON_HIT) 直接点燃伤害，不再回经本执行器）。
         if (context.skill() != null && caster instanceof LivingEntity lc) {
             Set<String> statTags = context.skill().getSkill()
                     .getStatTags(skillCtx, context.skill().getSkillId());
@@ -168,8 +176,6 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
                 boolean isMace = statTags.contains(GateTag.MACE)
                         || ModHelper.currentEquipment(lc, lc.getMainHandItem(), "mace");
                 boolean inForm = StatusEngine.hasForm(lc);
-                // 归一：base + mace + form 全部收敛到 AFTERSHOCK_CHANCE 单属性，
-                // 按技能实际作用域（{slam} / {mace,slam} / {form,slam}）聚合，等价于原三段相加。
                 Set<String> scope = new HashSet<>(List.of("slam"));
                 if (isMace) scope.add(GateTag.MACE);
                 if (inForm) scope.add(GateTag.FORM);
@@ -177,7 +183,7 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
                 if (chance > 0 && lc.getRandom().nextDouble() < Math.min(chance, 1.0)) {
                     double areaMult = lc.getAttributeValue(AttributeRegistry.AFTERSHOCK_AREA);
                     double ar = radius * areaMult;
-                    int delay = 12; // ~0.6s，对齐 POE2 余震延迟
+                    int delay = 12;
                     LingeringAreaTracker.register(level, caster.getUUID(), center, ar, delay, delay + 2, instance);
                 }
             }
@@ -186,15 +192,6 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
 
     /**
      * EFFECT_AREA（area_of_effect，基 1.0）：读施法者属性缩放范围投递半径。
-     *
-     * <p><b>作用域 = 当前作用域 ∪ 历史缺省集 {AREA,MELEE,MINION}</b>。并入历史缺省集是兼容底线：
-     * 早期全部「范围效果」条目按这三标签聚合登记，去掉会让它们全部失配。
-     * <b>并入当前作用域</b>则使按技能类型细分的范围条目（{@code herald}/{@code grenade}/{@code hazard}/
-     * {@code totem}/{@code banner}/{@code companion}/{@code offering}/{@code spell}/{@code warcry} …）
-     * 得以命中——此前本方法只认硬编码三标签，那批条目虽已接线却<b>永不生效</b>（静默死线）。
-     *
-     * <p>标签表达式为<b>与</b>语义（作用域须含全部叶子标签），故并集只会更宽松：
-     * 既有条目的命中集合只增不减，无回归风险。
      */
     private static double readEffectArea(LivingEntity entity) {
         if (entity == null) return 1.0;
@@ -208,11 +205,6 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
         return 1.0;
     }
 
-    /**
-     * 范围投递的客户端同步反馈：在落点中心以半径发射一圈能量环（直观显示 AoE 范围边界），
-     * 并在中心补一簇粒子强化落点感。由服务端每此广播，所有客户端依自身帧率渲染同一位置 ——
-     * 无需任何自定义位置同步包。粒子语言与 Wave 一致的 {@code SOUL_FIRE_FLAME}，保证整套投递视觉统一。
-     */
     private static void spawnAreaBlast(ServerLevel level, Vec3 center, double radius) {
         final int segments = 16;
         for (int i = 0; i < segments; i++) {
@@ -223,4 +215,182 @@ public class AreaDeliveryExecutor implements DeliveryExecutor<AreaDelivery> {
         level.sendParticles(ParticleTypes.SOUL_FIRE_FLAME, center.x, center.y, center.z, 6,
                 radius * 0.3, 0.4, radius * 0.3, 0.0);
     }
+
+    // ───────────────────────── HAZARD ─────────────────────────
+
+    /**
+     * 危害物执行器：在目标位置生成驻场 Hazard 实体；命中判定由 SkillEntity 周期触发回调 ON_HIT。
+     */
+    private void executeHazard(AreaDelivery delivery, ActionContext context,
+                               UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        if (!(context.caster() instanceof LivingEntity caster)) return;
+        if (!(caster.level() instanceof ServerLevel serverLevel)) return;
+
+        SupportProfile profile = SupportProfile.from(context);
+        var skillCtx = context.skill() != null ? context.skill().getContext() : null;
+
+        Vec3 center = profile.nova(skillCtx) ? caster.position() : (
+                context.position() != null && context.position() != Vec3.ZERO
+                        ? context.position() : caster.position());
+
+        double radius = delivery.shape().sampleRadius(skillCtx) * profile.radiusMultiplier("hazard", skillCtx);
+        double areaMult = AilmentHelper.withScope(caster, Set.of(GateTag.HAZARD), AttributeRegistry.EFFECT_AREA);
+        if (instance != null) {
+            areaMult += instance.echoAreaInc();
+            radius *= instance.echoAreaMore();
+        }
+        radius *= areaMult;
+
+        int lifetimeTicks = Math.max(1, delivery.lifetime().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(100.0)).getInt(skillCtx));
+
+        EntityRead read = delivery.ref().orElse(null);
+        if (read == null) return;
+
+        int total = Math.max(1, delivery.count().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(1.0)).getInt(skillCtx));
+        int maxActive = delivery.maxActive().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(0.0)).getInt(skillCtx);
+        int remaining = total;
+        if (maxActive > 0) {
+            int alive = 0;
+            for (Entity e : serverLevel.getAllEntities()) {
+                if (e instanceof EntityDefCarrier old
+                        && old.entityRead() != null
+                        && read.ref().equals(old.entityRead().ref())
+                        && caster.getUUID().equals(ownerId(old))) {
+                    alive++;
+                }
+            }
+            remaining = Math.min(total, maxActive - alive);
+        }
+        if (remaining <= 0) return;
+
+        double scatter = Math.max(0.5, radius);
+        for (int i = 0; i < remaining; i++) {
+            Vec3 pos = remaining == 1 ? center : center.add(
+                    Math.cos(2 * Math.PI * i / remaining) * scatter, 0,
+                    Math.sin(2 * Math.PI * i / remaining) * scatter);
+            Entity hazard = EntitySpawns.spawn(serverLevel, caster, read, lifetimeTicks, (float) radius, pos, casterId, phaseId);
+            if (hazard == null) return;
+        }
+        PersistentDeliveryManager.launchCue(serverLevel, center);
+    }
+
+    /** 在场危害物的归属者 UUID（无法解析时返回 null，永不匹配）。 */
+    private static java.util.UUID ownerId(EntityDefCarrier carrier) {
+        return carrier instanceof SkillEntity se && se.getOwner() != null
+                ? se.getOwner().getUUID() : null;
+    }
+
+    // ───────────────────────── REMNANT ─────────────────────────
+
+    /**
+     * 残片执行器：在目标位置生成可拾取的驻场 Remnant 实体；拾取时由 SkillEntity 回调 ON_HIT。
+     */
+    private void executeRemnant(AreaDelivery delivery, ActionContext context,
+                                UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        if (!(context.caster() instanceof LivingEntity caster)) return;
+        if (!(caster.level() instanceof ServerLevel serverLevel)) return;
+
+        SupportProfile profile = SupportProfile.from(context);
+        var skillCtx = context.skill() != null ? context.skill().getContext() : null;
+
+        Vec3 center = profile.nova(skillCtx) ? caster.position() : (
+                context.position() != null && context.position() != Vec3.ZERO
+                        ? context.position() : caster.position());
+
+        double radius = delivery.shape().sampleRadius(skillCtx) * profile.radiusMultiplier("remnant", skillCtx);
+        double pickupMult = AilmentHelper.withScope(caster, Set.of(GateTag.REMNANT),
+                AttributeRegistry.REMNANTS_COLLECTED_FURTHER_AWAY);
+        radius *= pickupMult;
+
+        int lifetimeTicks = Math.max(1, delivery.lifetime().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(200.0)).getInt(skillCtx));
+
+        EntityRead read = delivery.ref().orElse(null);
+        if (read == null) return;
+        EntityDef def = read.resolve().orElse(null);
+        if (def == null) {
+            com.cimdy.coe.CraftOfExile.LOGGER.error("Remnant 投递：未找到实体定义 {}", read.ref());
+            return;
+        }
+
+        spawnRemnant(serverLevel, center, caster, casterId, phaseId, lifetimeTicks, (float) radius, read, def);
+        PersistentDeliveryManager.launchCue(serverLevel, center);
+
+        double extraChance = AilmentHelper.withScope(caster, Set.of(GateTag.REMNANT),
+                AttributeRegistry.REMNANT_EXTRA_CHANCE);
+        if (extraChance > 0.0 && caster.getRandom().nextDouble() < extraChance) {
+            double ang = caster.getRandom().nextDouble() * Math.PI * 2.0;
+            double dist = 0.6 + caster.getRandom().nextDouble() * 0.6;
+            Vec3 extraPos = center.add(Math.cos(ang) * dist, 0.0, Math.sin(ang) * dist);
+            spawnRemnant(serverLevel, extraPos, caster, casterId, phaseId, lifetimeTicks, (float) radius, read, def);
+        }
+    }
+
+    private static void spawnRemnant(ServerLevel serverLevel, Vec3 pos, LivingEntity caster,
+                                     UUID casterId, UUID phaseId, int lifetimeTicks, float radius,
+                                     EntityRead read, EntityDef def) {
+        EntitySpawns.spawn(serverLevel, caster, read, lifetimeTicks, radius, pos, casterId, phaseId);
+    }
+
+    // ───────────────────────── BEAM ─────────────────────────
+
+    /**
+     * 光束执行器：沿施法者朝向发射一束能量，在 duration tick 内每 tick 命中光束范围内敌人。
+     * 瞬发光束（duration=0）注册为 1 tick 后自动移除。
+     */
+    private void executeBeam(AreaDelivery delivery, ActionContext context,
+                             UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        if (!(context.caster() instanceof Entity caster)) return;
+        if (!(caster.level() instanceof ServerLevel level)) return;
+
+        Vec3 direction = (context.direction() != null && context.direction() != Vec3.ZERO
+                ? context.direction()
+                : caster.getLookAngle()).normalize();
+
+        SkillPhaseInstanceTracker.register(casterId, phaseId, instance);
+
+        var skillCtx = context.skill() != null ? context.skill().getContext() : null;
+        Vec3 origin = delivery.origin()
+                .map(v -> caster.getEyePosition().add(direction.scale(v.getValue(skillCtx))))
+                .orElseGet(caster::getEyePosition);
+        int baseDuration = (int) delivery.beamDuration().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(0.0)).getFloat(skillCtx);
+        double skillEffectDurationMult = 1.0;
+        double spellDurationMult = 1.0;
+        if (caster instanceof LivingEntity lc) {
+            skillEffectDurationMult = AilmentHelper.withScope(lc, Set.of(GateTag.AILMENT, GateTag.not(GateTag.TAKEN)), AttributeRegistry.GROUND_DURATION);
+            spellDurationMult = AilmentHelper.spellDurationMultiplier(lc);
+        }
+        int remaining = baseDuration <= 0 ? 1 : (int) (baseDuration * skillEffectDurationMult * spellDurationMult);
+        PersistentDeliveryManager.register(new PersistentDeliveryManager.Entry(
+                casterId, phaseId, instance, delivery, origin, direction,
+                1, remaining, level.dimension(), SupportProfile.from(context), 0.0));
+    }
+
+    // ───────────────────────── WAVE ─────────────────────────
+
+    /**
+     * 波前执行器：沿施法者朝向发射一道向前推进的球形波前，沿途每实体仅命中一次。
+     */
+    private void executeWave(AreaDelivery delivery, ActionContext context,
+                             UUID casterId, UUID phaseId, SkillPhaseInstance instance) {
+        if (!(context.caster() instanceof LivingEntity caster)) return;
+        if (!(caster.level() instanceof ServerLevel level)) return;
+
+        Vec3 direction = (context.direction() != null && context.direction() != Vec3.ZERO
+                ? context.direction() : caster.getLookAngle()).normalize();
+
+        SkillPhaseInstanceTracker.register(casterId, phaseId, instance);
+
+        var skillCtx = context.skill() != null ? context.skill().getContext() : null;
+        Vec3 origin = delivery.origin()
+                .map(v -> caster.getEyePosition().add(direction.scale(v.getValue(skillCtx))))
+                .orElseGet(caster::getEyePosition);
+        double range = delivery.range().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(10.0)).getFloat(skillCtx);
+        double speed = Math.max(0.01, delivery.speed().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(0.4)).getFloat(skillCtx));
+        int remaining = (int) Math.ceil(range / speed);
+
+        PersistentDeliveryManager.register(new PersistentDeliveryManager.Entry(
+                casterId, phaseId, instance, delivery, origin, direction,
+                1, remaining, level.dimension(), SupportProfile.from(context), speed));
+    }
+
 }

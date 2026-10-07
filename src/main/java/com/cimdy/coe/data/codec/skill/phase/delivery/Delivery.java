@@ -3,6 +3,7 @@ package com.cimdy.coe.data.codec.skill.phase.delivery;
 import com.cimdy.coe.data.codec.support.math.ExpressionCodec;
 import com.cimdy.coe.data.codec.support.value.Value;
 import com.mojang.serialization.Codec;
+import net.minecraft.resources.Identifier;
 
 import java.util.Map;
 import java.util.Optional;
@@ -23,6 +24,14 @@ public interface Delivery {
             expr -> Map.of(expr.getType(), expr));
 
     Type<?> getType();
+
+    /**
+     * 技能皮肤机制：返回把本投递「外观引用（render）」覆盖为给定技能 id 的副本。
+     * 默认原样返回（自身/生成/范围等无实体形态的投递不覆写）。
+     * 投射物 / 危害物 / 残片一类持有实体引用的投递会覆写其 {@code ref.render}。
+     * 由 {@code Skill.withDeliveryPhase} 在递归重建阶段树时调用。
+     */
+    default Delivery withRender(Identifier skillId) { return this; }
 
     /**
      * 命中过滤条件 — 统一 math 表达式，经 {@code ExpressionContext} 求值；

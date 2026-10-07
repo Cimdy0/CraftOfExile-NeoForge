@@ -25,7 +25,6 @@ import com.cimdy.coe.data.codec.skill.core.SkillEntry;
 import com.cimdy.coe.data.codec.skill.modifier.SkillModifier;
 import com.cimdy.coe.data.codec.skill.phase.action.control.ChanceAction;
 import com.cimdy.coe.data.codec.skill.phase.action.combo.DeliveryAction;import com.cimdy.coe.data.codec.support.stat.effect.resource.ResourceStatEffect;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceType;
 import com.cimdy.coe.data.codec.skill.phase.action.support.InfusionRemnantAction;
 import com.cimdy.coe.data.codec.skill.helper.cast.SkillCast;
 import com.cimdy.coe.data.codec.skill.phase.action.control.LifecycleTrigger;
@@ -33,8 +32,11 @@ import com.cimdy.coe.data.codec.skill.phase.action.movement.MoveAction;
 import com.cimdy.coe.data.codec.skill.phase.action.damage.ModifierAction;
 import com.cimdy.coe.data.codec.skill.phase.action.control.TriggeredAction;
 import com.cimdy.coe.data.codec.skill.phase.event.EventListenPhase;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.RemnantDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry;
+import com.cimdy.coe.data.codec.skill.phase.delivery.area.InstantDuration;
 import com.cimdy.coe.data.codec.skill.phase.delivery.area.SphereShape;
+import java.util.Optional;
 import com.cimdy.coe.data.codec.entity.EntityRead;
 import com.cimdy.coe.data.codec.skill.phase.event.SkillEventType;
 import com.cimdy.coe.data.codec.support.math.ExpressionCodec;
@@ -178,7 +180,7 @@ public class SpiritBlueGen {
         // 机制：两条常驻监听（kill / caused_crit），require_tags=[elemental]——元素异常状态
         // （ignite / chill / freeze / shock）的登记标签自带 elemental，故一条即可覆盖全部元素异常，
         // 无需按异常拆三条（拆开会让「带两种异常」的敌人被掷骰两次，概率被放大，违背真值）。
-        // 产出走 RemnantDelivery（实体残片 coe:remnant，寿命 160 tick = 8 秒）；拾取时由残片形态
+        // 产出走统一 AreaDelivery 的 REMNANT 几何（实体残片 coe:remnant，寿命 160 tick = 8 秒）；拾取时由残片形态
         // 点燃 ON_PICKUP 回复魔力——ON_PICKUP 只在拾取时刻点燃、事件触发时不执行，
         // 真值要求「拾取残片才回魔」，若复用 ON_HIT 会退化为「击杀瞬间即回魔」。
         reg(bootstrap, "blue/mana_remnants",
@@ -270,7 +272,7 @@ public class SpiritBlueGen {
      *
      * <p><b>两个 trigger 的分工</b>：{@code ON_LISTEN} 在事件触发时执行（生成残片），
      * {@code ON_PICKUP} 在残片被拾取时执行（回复魔力）。二者同属一个相位实例——残片由
-     * {@code RemnantDelivery} 生成时 retain 本实例，拾取时经 {@code (casterId, phaseId)} 反查回调。
+     * 统一 AreaDelivery 的 REMNANT 几何生成时 retain 本实例，拾取时经 {@code (casterId, phaseId)} 反查回调。
      * 若都写成 ON_HIT，事件回调会连同回魔一起执行（击杀即回魔），与真值相悖。
      *
      * @param eventName 事件名（{@code kill} / {@code caused_crit}）
@@ -285,11 +287,11 @@ public class SpiritBlueGen {
                 java.util.List.of(
                         new TriggeredAction(LifecycleTrigger.ON_LISTEN,
                                 new ChanceAction(chance,
-                                        java.util.List.of(new DeliveryAction(manaRemnantDelivery())))),
+                                        java.util.List.of(new DeliveryAction(manaRemnantArea())))),
                         new TriggeredAction(LifecycleTrigger.ON_PICKUP,
                                 new StatAction(new StatGroup(java.util.List.of(StatEntry.of(
                                         remnantManaAmount(),
-                                        new ResourceStatEffect(ResourceType.MANA, ResourceStatEffect.Direction.HEAL, true, GateExpr.ALWAYS)))),
+                                        new ResourceStatEffect("mana", ResourceStatEffect.Direction.HEAL, true, GateExpr.ALWAYS)))),
                                         false, java.util.Optional.empty(), ExpressionCodec.of(0.0)))),
                 cooldown,
                 java.util.Optional.empty(),
@@ -298,12 +300,15 @@ public class SpiritBlueGen {
     }
 
     /** 魔力残片形态：通用残片（{@code coe:remnant}），寿命取真值 8 秒 = 160 tick。 */
-    private static RemnantDelivery manaRemnantDelivery() {
-        return new RemnantDelivery(
+    private static AreaDelivery manaRemnantArea() {
+        return new AreaDelivery(
+                AreaGeometry.REMNANT,
                 new SphereShape(ExpressionCodec.of(1.5f)),
-                ExpressionCodec.of(160.0),
+                new InstantDuration(),
                 ExpressionCodec.of(1.0),
-                EntityRead.of(Identifier.parse("coe:remnant")));
+                Optional.of(EntityRead.of(Identifier.parse("coe:remnant"))),
+                Optional.of(ExpressionCodec.of(160.0)),
+                Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
     }
 
     /** 每枚残片回复魔力：真值 «(28—281)» —— Lv1 = 28、Lv20 = 281，线性插值。 */

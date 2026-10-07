@@ -1,5 +1,5 @@
 package com.cimdy.coe.data.codec.skill.phase.action.support;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.RemnantDelivery;
+
 import com.cimdy.coe.data.codec.skill.phase.action.Action;
 import com.cimdy.coe.data.codec.skill.phase.action.ActionContext;
 import com.cimdy.coe.data.codec.skill.phase.action.ActionTypes;
@@ -18,9 +18,9 @@ import com.cimdy.coe.data.helper.hub.ResourceRegistry;
 /**
  * 灌入残迹生成动作 — 在施法者处留下一枚指定元素的<b>灌入残迹</b>（Infusion Remnant）。
  *
- * <p><b>与 {@code RemnantDelivery} 的分工</b>：二者是<b>两套并存的残片体系</b>，不可混用——
+ * <p><b>与「实体残片投递（统一 {@code AreaDelivery} 的 {@code REMNANT} 几何）」的分工</b>：二者是<b>两套并存的残片体系</b>，不可混用——
  * <ul>
- *   <li>{@code RemnantDelivery}：投递形态，产出<b>实体残片</b>（{@code coe:remnant} 落世界、
+ *   <li>实体残片投递：投递形态，产出<b>实体残片</b>（{@code coe:remnant} 落世界、
  *       由施法者走过拾取、经 {@code ON_HIT} 回调阶段 actions 产生效果），用于「残片作为技能载体」的技能
  *       （如 Mana Remnants 类）。</li>
  *   <li>本动作：产出<b>灌入残迹</b>（{@link ResourceRegistry} 的瞬态标记），拾取即回补对应元素灌入

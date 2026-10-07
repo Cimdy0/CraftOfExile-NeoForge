@@ -5,8 +5,7 @@ import com.cimdy.coe.data.codec.skill.context.SkillContext.HitContext;
 import com.cimdy.coe.data.codec.skill.core.SkillInstance;
 import com.cimdy.coe.data.codec.skill.phase.action.control.LifecycleTrigger;
 import com.cimdy.coe.data.codec.skill.phase.delivery.Delivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.BeamDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.WaveDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaDelivery;
 import com.cimdy.coe.data.codec.skill.runtime.SkillPhaseInstance;
 import com.cimdy.coe.data.codec.skill.runtime.SkillTimeline;
 import com.cimdy.coe.data.codec.skill.support.SupportProfile;
@@ -114,18 +113,18 @@ public class PersistentDeliveryManager {
             float castProgress = (tl != null) ? tl.progress(level.getGameTime()) : 1f;
 
             // ---- Wave：向前推进的球形波前（服务端权威、客户端零同步负担）----
-            if (e.delivery instanceof WaveDelivery wave) {
+            if (e.delivery instanceof AreaDelivery a && a.geometry() == com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry.WAVE) {
                 Vec3 front = e.origin.add(e.direction.scale(e.tickCounter * e.speed));
                 SkillContext skillCtx = e.instance.skillContext();
                 // hit_test 为 0 时本 tick 波前不命中任何目标（统一 math 表达式门控）
-                if (eval(wave.hitTest(), skillCtx) != 0.0) {
+                if (eval(a.hitTest(), skillCtx) != 0.0) {
                 Entity caster = level.getEntity(e.casterId);
                 LivingEntity casterLiving = (caster instanceof LivingEntity le) ? le : null;
                 // 波前厚度经「范围属性」作用域注入：半径 × EFFECT_AREA（{area} 作用域），
                 // 与 Orb/Ball/Wave 等技能投递同源，非存在范围统一走范围属性作用域。
                 double areaMult = casterLiving != null
                         ? AilmentHelper.withScope(casterLiving, Set.of(GateTag.AREA), AttributeRegistry.EFFECT_AREA) : 1.0;
-                double radius = eval(wave.radius(), skillCtx)
+                double radius = eval(a.radius().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(2.0)), skillCtx)
                         * e.profile.radiusMultiplier("wave", skillCtx) * areaMult;
                     List<LivingEntity> targets = ExpressionContext.of(level, caster)
                             .queryEntities(EntityQuery.sphere(front, radius)
@@ -166,8 +165,8 @@ public class PersistentDeliveryManager {
             }
             // Beam：沿光束线段发射粒子，使此前完全不可见的 Beam 投递（arc / incinerate）在客户端可见；
             // 命中时播放撞击音。服务端广播、客户端零同步负担（沿用 Wave/Area 同款能量语言）。
-            if (e.delivery instanceof BeamDelivery beam) {
-                double range = eval(beam.range(), e.instance.skillContext());
+            if (e.delivery instanceof AreaDelivery a && a.geometry() == com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry.BEAM) {
+                double range = eval(a.range().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(10.0)), e.instance.skillContext());
                 spawnBeamLine(level, e.origin, e.direction, range, castProgress);
                 if (hits > 0) {
                     level.playSound(null, e.origin.x, e.origin.y, e.origin.z,
@@ -244,15 +243,15 @@ public class PersistentDeliveryManager {
         // 常驻投递跨 tick 求值必须带技能上下文：否则预设声明的 $radius / $range / $width
         // 参数槽（由 SkillRead.vars 注入）读不到，通用光环/光束预设整条为死线。
         SkillContext skillCtx = e.instance.skillContext();
-        if (e.delivery instanceof BeamDelivery beam) {
+        if (e.delivery instanceof AreaDelivery a && a.geometry() == com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry.BEAM) {
             // 沿光束线段（origin → origin+dir*range）找 width 范围内的实体。宽度受辅助宝石“范围扩大”影响。
-            double range = eval(beam.range(), skillCtx);
+            double range = eval(a.range().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(10.0)), skillCtx);
             LivingEntity casterLiving = (caster instanceof LivingEntity le) ? le : null;
             // 光束宽度经「范围属性」作用域注入：宽度 × EFFECT_AREA（{area} 作用域），
             // 与 Wave/Orb/Ball 等技能投递同源，非存在范围统一走范围属性作用域。
             double areaMult = casterLiving != null
                     ? AilmentHelper.withScope(casterLiving, Set.of(GateTag.AREA), AttributeRegistry.EFFECT_AREA) : 1.0;
-            double width = eval(beam.width(), skillCtx) * e.profile.radiusMultiplier("beam", null) * areaMult;
+            double width = eval(a.width().orElse(com.cimdy.coe.data.codec.support.math.ExpressionCodec.of(0.5)), skillCtx) * e.profile.radiusMultiplier("beam", null) * areaMult;
             return base.queryEntities(EntityQuery.beam(e.origin, e.direction, range, width)
                     .aliveOnly().filter(ent -> !ent.getUUID().equals(e.casterId)));
         }

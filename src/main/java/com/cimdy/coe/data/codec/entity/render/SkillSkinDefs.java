@@ -5,12 +5,8 @@ import com.cimdy.coe.data.codec.skill.core.Skill;
 import com.cimdy.coe.data.codec.skill.phase.SkillPhase;
 import com.cimdy.coe.data.codec.skill.phase.SkillPhasePlayer;
 import com.cimdy.coe.data.codec.skill.phase.delivery.Delivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.HazardDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.RemnantDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.BallDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.OrbDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaDelivery;
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.ProjectileDelivery;
-import com.cimdy.coe.data.codec.skill.phase.delivery.impl.projectile.ThrownDelivery;
 import com.cimdy.coe.CraftOfExile;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
@@ -150,11 +146,7 @@ public final class SkillSkinDefs {
     private static Optional<Identifier> deliveryRender(Delivery d) {
         EntityRead ref = switch (d) {
             case ProjectileDelivery p -> p.ref();
-            case BallDelivery b -> b.ref();
-            case OrbDelivery o -> o.ref();
-            case ThrownDelivery t -> t.ref();
-            case HazardDelivery h -> h.ref();
-            case RemnantDelivery r -> r.ref();
+            case AreaDelivery a -> a.ref().orElse(null);
             default -> null;
         };
         if (ref == null) return Optional.empty();

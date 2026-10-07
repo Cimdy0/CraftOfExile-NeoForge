@@ -1,7 +1,5 @@
 package com.cimdy.coe.data.helper.status;
 import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.area.AreaDeliveryExecutor;
-import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.area.BeamDeliveryExecutor;
-import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.projectile.OrbDeliveryExecutor;
 import com.cimdy.coe.data.codec.skill.modifier.impl.damage.Exposure;
 import com.cimdy.coe.data.codec.skill.modifier.impl.control.Slow;
 import com.cimdy.coe.data.codec.skill.phase.action.damage.DamageAction;
@@ -547,7 +545,7 @@ public class AilmentHelper {
      * （默认 1.0，ADD_MULTIPLIED_TOTAL 累积），承载语料 STORM|PLANT_SPELLS_HAVE_75_PERCENT_LESS_DURATION
      * （作用域 {spell,storm}/{spell,plant}）。
      * <p>在<b>当前（已并入技能标签的）作用域</b>内读取：投递时长计算（{@code AreaDeliveryExecutor} /
-     * {@code BeamDeliveryExecutor} / {@code OrbDeliveryExecutor}）运行于 {@code SkillStatScopes.enterAction}，
+     * 统一 {@code ProjectileDeliveryExecutor} 的 ORB 分支等）运行于 {@code SkillStatScopes.enterAction}，
      * 栈顶携带 spell / storm / plant 等技能标签，故对应条目即时折叠；非施法场景下恒为 1.0（无副作用）。
      */
     public static double spellDurationMultiplier(LivingEntity caster) {

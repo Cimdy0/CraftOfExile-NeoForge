@@ -5,8 +5,7 @@ import com.cimdy.coe.data.helper.hub.ReservationManager;
 import com.cimdy.coe.data.helper.hub.SpiritManager;
 import com.cimdy.coe.CraftOfExile;
 import com.cimdy.coe.data.codec.skill.core.Skill;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceCost;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceType;
+import com.cimdy.coe.data.codec.skill.helper.resource.ResourceDecl;
 import com.cimdy.coe.data.codec.skill.helper.resource.ResourceUsage;
 import com.cimdy.coe.data.codec.skill.helper.cast.SkillCast;
 import com.cimdy.coe.data.codec.skill.input.Click;
@@ -20,6 +19,7 @@ import com.cimdy.coe.data.codec.skill.phase.action.damage.ModifierAction;import 
 import com.cimdy.coe.data.codec.support.stat.entry.StatGroup;
 import com.cimdy.coe.data.codec.skill.phase.action.control.TriggeredAction;
 import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaDelivery;
+import com.cimdy.coe.data.codec.skill.phase.delivery.impl.area.AreaGeometry;
 import com.cimdy.coe.data.codec.skill.phase.delivery.area.InstantDuration;
 import com.cimdy.coe.data.codec.skill.phase.delivery.area.SphereShape;
 import com.cimdy.coe.data.codec.support.require.Require;
@@ -40,7 +40,7 @@ import java.util.Optional;
  * <p>PoE2 对应：一颗 Spirit Gem 占用一部分灵魂值（Reservation），激活后持续提供增益。
  * 本模型中：
  * <ul>
- *   <li>消耗用 {@link #spirit(double)} 构造 {@code ResourceCost(SPIRIT, PRESERVE, value)}，
+ *   <li>消耗用 {@link #spirit(double)} 构造 {@code ResourceDecl(SPIRIT, PRESERVE, value)}，
  *       施放时由 {@code ReservationManager} 登记保留，技能停止时释放；</li>
  *   <li>增益通过自施放范围相位（命中自身）上的 {@link ModifierAction} 落地，
  *       对施法者的属性（如火焰伤害、闪避）施加持续修改器（duration<=0 视为常驻）；</li>
@@ -55,13 +55,13 @@ public final class SpiritGemFactory {
     private SpiritGemFactory() {}
 
     /** 精魂预留消耗（PRESERVE）：施放时登记保留，停止时释放。 */
-    public static ResourceCost spirit(double amount) {
-        return new ResourceCost(ResourceType.SPIRIT, ResourceUsage.PRESERVE, ExpressionCodec.of(amount));
+    public static ResourceDecl spirit(double amount) {
+        return new ResourceDecl("spirit", ResourceUsage.PRESERVE, ExpressionCodec.of(amount));
     }
 
     /** 生命预留消耗（PRESERVE）：施放时登记 health 预留，停止时释放（生命预留源）。 */
-    public static ResourceCost life(double amount) {
-        return new ResourceCost(ResourceType.HEALTH, ResourceUsage.PRESERVE, ExpressionCodec.of(amount));
+    public static ResourceDecl life(double amount) {
+        return new ResourceDecl("health", ResourceUsage.PRESERVE, ExpressionCodec.of(amount));
     }
 
     /**
@@ -95,9 +95,13 @@ public final class SpiritGemFactory {
     /** 自施放范围相位：在施法者自身触发属性增益动作（ON_CAST）。 */
     public static SkillPhase selfBuffPhase(ModifierAction... actions) {
         AreaDelivery delivery = new AreaDelivery(
+                AreaGeometry.AREA,
                 new SphereShape(ExpressionCodec.of(1.0f)),
                 new InstantDuration(),
-                ExpressionCodec.of(1.0));
+                ExpressionCodec.of(1.0),
+                Optional.empty(),
+                Optional.empty(), Optional.empty(), Optional.empty(),
+                Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
         List<TriggeredAction> tas = Arrays.stream(actions)
                 .map(a -> new TriggeredAction(LifecycleTrigger.ON_CAST, a))
                 .toList();
@@ -105,22 +109,19 @@ public final class SpiritGemFactory {
     }
 
     /** 组装一颗精魂宝石（光环）。phases 为空时退化为仅预留精魂的无动作光环。所有精魂宝石默认带 {@code aura} 标签。 */
-    public static Skill of(Require require, ResourceCost spirit, List<SkillModifier> modifiers,
+    public static Skill of(Require require, ResourceDecl spirit, List<SkillModifier> modifiers,
                            SkillPhase... phases) {
         return of(require, spirit, List.of(GateTag.AURA), modifiers, phases);
     }
 
     /** 组装一颗精魂宝石，并附加额外的技能类型标签（如 {@code herald} 捷类）。所有精魂宝石默认带 {@code aura} 标签。 */
-    public static Skill of(Require require, ResourceCost spirit, List<String> tags,
+    public static Skill of(Require require, ResourceDecl spirit, List<String> tags,
                            List<SkillModifier> modifiers, SkillPhase... phases) {
         SkillPhase phase = phases.length > 0 ? phases[0] : selfBuffPhase();
         SkillPhasePlayer player = new SkillPhasePlayer(Optional.empty(), phase);
-        return new Skill(require, "", Optional.empty(),
-                SkillCast.of(new SkillCast.Spell(
-                        ExpressionCodec.of(0.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.0))),
-                new Click(), List.of(spirit), List.of(player), modifiers, 1, tags,
-                Optional.empty(), Optional.empty(), Map.of(),
-                Optional.empty(), Optional.empty());
+        return new Skill(Skill.Identity.of(require, "", Optional.empty(), modifiers, 1, tags, Map.of(), Optional.empty(), Optional.empty(), Optional.empty()),
+                Skill.Usage.of(new Click(), Optional.empty(), SkillCast.of(new SkillCast.Spell(
+                        ExpressionCodec.of(0.0), ExpressionCodec.of(0.0), ExpressionCodec.of(0.0))), List.of(spirit), List.of(player), Optional.empty()));
     }
 
     /**
@@ -128,13 +129,11 @@ public final class SpiritGemFactory {
      * （Blink 由翻滚键）瞬时触发，须自带真实冷却与施法时间，故允许显式指定 {@link SkillCast}
      * （通用 {@link #of} 的 cast 恒为 0/0/0，被触发时冷却无从表达）。
      */
-    public static Skill of(Require require, ResourceCost spirit, SkillCast cast, List<String> tags,
+    public static Skill of(Require require, ResourceDecl spirit, SkillCast cast, List<String> tags,
                            List<SkillModifier> modifiers, SkillPhase phase) {
         SkillPhasePlayer player = new SkillPhasePlayer(Optional.empty(), phase);
-        return new Skill(require, "", Optional.empty(), cast,
-                new Click(), List.of(spirit), List.of(player), modifiers, 1, tags,
-                Optional.empty(), Optional.empty(), Map.of(),
-                Optional.empty(), Optional.empty());
+        return new Skill(Skill.Identity.of(require, "", Optional.empty(), modifiers, 1, tags, Map.of(), Optional.empty(), Optional.empty(), Optional.empty()),
+                Skill.Usage.of(new Click(), Optional.empty(), cast, List.of(spirit), List.of(player), Optional.empty()));
     }
 
     /** 位移相位（<b>无投递</b>）：ON_CAST 直接执行位移动作，不生成任何投递物。 */
@@ -166,9 +165,13 @@ public final class SpiritGemFactory {
      */
     public static SkillPhase heraldProcPhase(String damageType, double amount, double radius) {
         AreaDelivery delivery = new AreaDelivery(
+                AreaGeometry.AREA,
                 new SphereShape(ExpressionCodec.of((float) radius)),
                 new InstantDuration(),
-                ExpressionCodec.of(1.0));
+                ExpressionCodec.of(1.0),
+                Optional.empty(),
+                Optional.empty(), Optional.empty(), Optional.empty(),
+                Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
         DamageAction hit = new DamageAction(damageType, ExpressionCodec.of(amount),
                 Optional.empty(), ExpressionCodec.of(1.0));
         List<TriggeredAction> tas = List.of(new TriggeredAction(LifecycleTrigger.ON_HIT, hit));
@@ -185,13 +188,13 @@ public final class SpiritGemFactory {
      *
      * @param proc 击杀爆发相位（可为 null = 该捷无爆发）；经 {@link #heraldProcPhase} 构造。
      */
-    public static Skill herald(Require require, ResourceCost spirit, StatusType marker,
+    public static Skill herald(Require require, ResourceDecl spirit, StatusType marker,
                                SkillPhase proc, List<SkillModifier> modifiers, SkillPhase... phases) {
         return herald(require, spirit, marker, proc, List.of(GateTag.AURA, GateTag.HERALD), modifiers, phases);
     }
 
     /** 捷（带完整分类标签）：{@code tags} 覆盖默认的 {@code aura}/{@code herald}，须自带二者再加真值标签。 */
-    public static Skill herald(Require require, ResourceCost spirit, StatusType marker,
+    public static Skill herald(Require require, ResourceDecl spirit, StatusType marker,
                                SkillPhase proc, List<String> tags,
                                List<SkillModifier> modifiers, SkillPhase... phases) {
         SkillPhase base = withMarker(phases.length > 0 ? phases[0] : selfBuffPhase(), marker);

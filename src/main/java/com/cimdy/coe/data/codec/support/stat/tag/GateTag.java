@@ -1,7 +1,5 @@
 package com.cimdy.coe.data.codec.support.stat.tag;
 
-import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.projectile.RemnantDeliveryExecutor;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceType;
 import com.cimdy.coe.data.gen.provider.GateTagCategoryProvider;
 import com.cimdy.coe.data.codec.support.stat.effect.marker.MarkerStatEffect;
 import com.cimdy.coe.data.codec.support.stat.effect.modifier.ModifierStatEffect;
@@ -192,23 +190,23 @@ public final class GateTag {
     public static final String POWER = "power";
     public static final String RAGE = "rage";
     public static final String SPIRIT = "spirit";
-    /** 荣耀（Glory）资源作用域标签：对应 ResourceType.GLORY（name="glory"）。 */
+    /** 荣耀（Glory）资源作用域标签：对应 glory（name="glory"）。 */
     public static final String GLORY = "glory";
-    /** 连击（Combo）作用域标签：对应 ResourceType.COMBO（name="combo"，ResourceType.java:31），
+    /** 连击（Combo）作用域标签：对应 资源类型.COMBO（name="combo"，资源类型.java:31），
      *  字面量与资源类型同源、不另起别名，避免两端改名静默失配。
      *  用于 {@code EventName.COMBO_SPENT} 发射端的 tags，使数据侧可按 {@code {combo}} 作用域匹配。 */
     public static final String COMBO = "combo";
-    /** 波动（Volatility）资源作用域标签：对应 ResourceType.VOLATILITY（name="volatility"）。击杀/被眩晕获取，积攒至上限触发爆炸。 */
+    /** 波动（Volatility）资源作用域标签：对应 资源类型.VOLATILITY（name="volatility"）。击杀/被眩晕获取，积攒至上限触发爆炸。 */
     public static final String VOLATILITY = "volatility";
     /** 急攻（Onslaught）Buff 作用域标签（「X% chance to gain Onslaught on Killing Blow」族）。 */
     public static final String ONSLAUGHT = "onslaught";
-    /** 元素灌入（Elemental Infusion）资源作用域标签：对应 ResourceType.INFUSION（name="infusion"）。灌入期间强化元素伤害。 */
+    /** 元素灌入（Elemental Infusion）资源作用域标签：对应 资源类型.INFUSION（name="infusion"）。灌入期间强化元素伤害。 */
     public static final String INFUSION = "infusion";
     /**
      * 灌入残迹（Infusion Remnant）作用域标签：POE2 中消耗灌入层数时于地面留下的残迹，
      * 拾取者获得对应元素强化。天赋语料「Remnants you create have X% increased effect」
      * 即作用于此作用域（读 {@code AILMENT_MAGNITUDE}）。
-     * <p><b>生产者</b>：{@code RemnantDeliveryExecutor.spawnRemnant} 生成 {@code coe:remnant} 载体，
+     * <p><b>生产者</b>：统一 {@code AreaDelivery} 的 {@code REMNANT} 几何（{@code spawnRemnant} 逻辑）生成 {@code coe:remnant} 载体，
      * 本标签为真实可消费的残迹作用域。
      * 仍须注意：错接到 {@code AILMENT}（通用异常）会越界放大全部异常，残迹效果应严格限定在 {@code remnant} 作用域。
      */

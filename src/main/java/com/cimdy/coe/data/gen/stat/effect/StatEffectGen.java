@@ -19,10 +19,7 @@ import com.cimdy.coe.entity.custom.skill.visual.SkillBanner;
 import com.cimdy.coe.data.gen.stat.StatConditionGen;
 import com.cimdy.coe.data.gen.stat.wirings.wire.resource.WireResource;
 import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.area.AreaDeliveryExecutor;
-import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.area.BeamDeliveryExecutor;
-import com.cimdy.coe.data.codec.skill.phase.delivery.runtime.executor.projectile.OrbDeliveryExecutor;
 import com.cimdy.coe.data.codec.skill.helper.cast.ProjectileHelper;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceCost;
 import com.cimdy.coe.data.codec.skill.phase.action.damage.DamageAction;
 import com.cimdy.coe.data.gen.provider.StatEffectProvider;
 import com.cimdy.coe.data.helper.stat.AccessoryStatHelper;
@@ -38,7 +35,6 @@ import com.cimdy.coe.data.helper.engine.EquipRules;
 
 import com.cimdy.coe.event.combat.GameEvent;
 import com.cimdy.coe.registry.AttributeRegistry;
-import com.cimdy.coe.data.codec.skill.helper.resource.ResourceType;
 import com.cimdy.coe.data.codec.skill.phase.action.charge.ChargeType;
 import com.cimdy.coe.data.codec.support.attribute.AttributeLimiters;
 import com.cimdy.coe.data.codec.support.math.ExpressionCodec;
@@ -635,8 +631,8 @@ public final class StatEffectGen {
         m.put(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_DEFLECTED_CANNOT_INFLICT_BLEEDING, new MarkerStatEffect("deflected_cannot_inflict", MarkerStatEffect.Variant.GATE, Set.of("bleed")));
         m.put(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_DEFLECTED_CANNOT_INFLICT_MAIM, new MarkerStatEffect("deflected_cannot_inflict", MarkerStatEffect.Variant.GATE, Set.of("maim")));
         m.put(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_ADD_A_CURSE_AFTER_CHANNELLING_FOR_SECONDS, new ModifierStatEffect(AttributeRegistry.ADD_A_CURSE_AFTER_CHANNELLING_FOR_SECONDS, Either.left(AttributeModifier.Operation.ADD_VALUE), ModifierStatEffect.Mode.GAIN));
-        m.put(StatEffectIds.EFF_HEALTH_ENERGY_SHIELD_EXCESS_RESOURCE_CONVERT, new ResourceConvertStatEffect(ResourceType.HEALTH, ResourceType.ENERGY_SHIELD, ResourceConvertStatEffect.Mode.EXCESS, Set.of("regen")));
-        m.put(StatEffectIds.EFF_ENERGY_SHIELD_HEALTH_RECHARGE_RESOURCE_CONVERT, new ResourceConvertStatEffect(ResourceType.ENERGY_SHIELD, ResourceType.HEALTH, ResourceConvertStatEffect.Mode.REPLACE, Set.of("recharge")));
+        m.put(StatEffectIds.EFF_HEALTH_ENERGY_SHIELD_EXCESS_RESOURCE_CONVERT, new ResourceConvertStatEffect("health", "energy_shield", ResourceConvertStatEffect.Mode.EXCESS, Set.of("regen")));
+        m.put(StatEffectIds.EFF_ENERGY_SHIELD_HEALTH_RECHARGE_RESOURCE_CONVERT, new ResourceConvertStatEffect("energy_shield", "health", ResourceConvertStatEffect.Mode.REPLACE, Set.of("recharge")));
         m.put(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_ENERGY_SHIELD, new ModifierStatEffect(AttributeRegistry.MAX_ENERGY_SHIELD, Either.left(AttributeModifier.Operation.ADD_VALUE), ModifierStatEffect.Mode.GAIN));
         m.put(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_FRENZY_CHARGES_FRENZY, new ModifierStatEffect(AttributeRegistry.MAX_FRENZY_CHARGES, Either.left(AttributeModifier.Operation.ADD_VALUE), ModifierStatEffect.Mode.GAIN, GateExpr.of(Set.of("frenzy"))));
         m.put(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_MAX_MANA, new ModifierStatEffect(AttributeRegistry.MAX_MANA, Either.left(AttributeModifier.Operation.ADD_VALUE), ModifierStatEffect.Mode.GAIN));
@@ -738,8 +734,8 @@ public final class StatEffectGen {
         m.put(StatEffectIds.EFF_ATTRIBUTE_COE_CRIT_CHANCE_SET_VALUE, new ModifierStatEffect(AttributeRegistry.CRIT_CHANCE, Either.right(AttributeLimiters.Operation.SET_VALUE), ModifierStatEffect.Mode.GAIN));
         m.put(StatEffectIds.EFF_BLEED_IMMUNE, new ImmuneStatEffect(Set.of(StatusDefs.BLEED)));
         m.put(StatEffectIds.EFF_BLIND_IMMUNE, new ImmuneStatEffect(Set.of(StatusDefs.BLIND)));
-        m.put(StatEffectIds.EFF_BLOCK_CAUSED_BLOCK_HEAL_HEALTH, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_block"))));
-        m.put(StatEffectIds.EFF_CAUSED_AILMENT_HEAL_HEALTH_HEAVY_STUN, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_ailment", "heavy_stun"))));
+        m.put(StatEffectIds.EFF_BLOCK_CAUSED_BLOCK_HEAL_HEALTH, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_block"))));
+        m.put(StatEffectIds.EFF_CAUSED_AILMENT_HEAL_HEALTH_HEAVY_STUN, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_ailment", "heavy_stun"))));
         // 电击回响：造成电击时（caused_ailment + shock 火驱动，owner=攻击者）按概率对邻域其他敌人补加 SHOCK（$value = 触发概率；单环，回响自身不再扩散）。
         m.put(StatEffectIds.EFF_SHOCKING_HIT_DAMAGE_HAVE_A_CHANCE_TO_ALSO_SHOCK_ENEMIES_IN_A_METRE_RADIUS, new ShockEchoStatEffect(GateExpr.of(Set.of("caused_ailment", "shock"))));
         m.put(StatEffectIds.EFF_CAUSED_HIT_CHARGE_FRENZY_GRANT_ON_EVENT, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.CHARGE, ChargeType.FRENZY.getSerializedName(), GateExpr.of(Set.of("caused_hit")), null, 100.0, null, null));
@@ -762,12 +758,12 @@ public final class StatEffectGen {
         m.put(StatEffectIds.EFF_CAUSED_HIT_GRANT_ON_EVENT_INCISION_TEN_STATUS, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.STATUS, StatusDefs.INCISION.id, GateExpr.of(Set.of("caused_hit")), 10));
         m.put(StatEffectIds.EFF_CAUSED_HIT_GRANT_ON_EVENT_INTIMIDATE_STATUS, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.STATUS, StatusDefs.INTIMIDATE.id, GateExpr.of(Set.of("caused_hit")), null, 100.0, null, null, false, 1, 10.0, false));
         m.put(StatEffectIds.EFF_CAUSED_HIT_GRANT_ON_EVENT_INTIMIDATE_STATUS_SECONDS, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.STATUS, StatusDefs.INTIMIDATE.id, GateExpr.of(Set.of("caused_hit")), null, 100.0, null, null, false, 1, 10.0, true));
-        m.put(StatEffectIds.EFF_CAUSED_HIT_HEAL_RAGE, new ResourceStatEffect(ResourceType.RAGE, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_hit"))));
+        m.put(StatEffectIds.EFF_CAUSED_HIT_HEAL_RAGE, new ResourceStatEffect("rage", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_hit"))));
         m.put(StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_RAGE_REGEN_PER_RAGE_SPENT_RECENTLY, new ModifierStatEffect(AttributeRegistry.RAGE_REGEN_PER_RAGE_SPENT, Either.left(AttributeModifier.Operation.ADD_VALUE), ModifierStatEffect.Mode.GAIN));
         m.put(StatEffectIds.EFF_CAUSED_HIT_GRANT_ON_EVENT_RAGE_MAX, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, "rage_max", GateExpr.of(Set.of("caused_hit")), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_CAUSED_HIT_MELEE_HEAL_RAGE, new ResourceStatEffect(ResourceType.RAGE, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_hit", "melee"))));
+        m.put(StatEffectIds.EFF_CAUSED_HIT_MELEE_HEAL_RAGE, new ResourceStatEffect("rage", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_hit", "melee"))));
         m.put(StatEffectIds.EFF_CAUSED_HIT_LEECH, new LeechStatEffect(GateExpr.of(Set.of("caused_hit"))));
-        m.put(StatEffectIds.EFF_CAUSED_META_ENERGY_ENERGY_GRANT_ON_EVENT_RESOURCE, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, ResourceType.ENERGY.getSerializedName(), GateExpr.of(Set.of("caused_meta_energy")), null, 100.0, null, null));
+        m.put(StatEffectIds.EFF_CAUSED_META_ENERGY_ENERGY_GRANT_ON_EVENT_RESOURCE, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, "energy", GateExpr.of(Set.of("caused_meta_energy")), null, 100.0, null, null));
         m.put(StatEffectIds.EFF_CONSUME_INFUSION_CHARGE_POWER_GRANT_ON_EVENT, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.CHARGE, ChargeType.POWER.getSerializedName(), GateExpr.of(Set.of("consume_infusion")), null, 100.0, null, null));
         m.put(StatEffectIds.EFF_CHAOS_COLD_DAMAGE_CONVERT_FIRE_GAIN_LIGHTNING_PHYSICAL, new DamageConvertStatEffect(Set.of("physical", "fire", "chaos", "cold", "lightning"), "cold", DamageConvertStatEffect.Mode.GAIN, false, DamageConvertStatEffect.ToMode.FIXED, List.of()));
         m.put(StatEffectIds.EFF_CHAOS_COLD_DAMAGE_CONVERT_FIRE_GAIN_LIGHTNING_PHYSICAL_2, new DamageConvertStatEffect(Set.of("physical", "fire", "chaos", "cold", "lightning"), "fire", DamageConvertStatEffect.Mode.GAIN, false, DamageConvertStatEffect.ToMode.FIXED, List.of()));
@@ -828,10 +824,10 @@ public final class StatEffectGen {
         m.put(StatEffectIds.EFF_CHARGE_ENDURANCE_GAIN_ENDURANCE_GRANT_ON_EVENT, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.CHARGE, ChargeType.ENDURANCE.getSerializedName(), GateExpr.of(Set.of(EventName.gainCharge(ChargeType.ENDURANCE.getSerializedName()))), null, 100.0, null, null));
         m.put(StatEffectIds.EFF_CHARGE_FRENZY_GAIN_FRENZY_GRANT_ON_EVENT, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.CHARGE, ChargeType.FRENZY.getSerializedName(), GateExpr.of(Set.of(EventName.gainCharge(ChargeType.FRENZY.getSerializedName()))), null, 100.0, null, null));
         m.put(StatEffectIds.EFF_CHARGE_GAIN_POWER_GRANT_ON_EVENT_POWER, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.CHARGE, ChargeType.POWER.getSerializedName(), GateExpr.of(Set.of(EventName.gainCharge(ChargeType.POWER.getSerializedName()))), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_CHARM_HEAL_MANA_USE_CHARM, new ResourceStatEffect(ResourceType.MANA, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_charm", "charm"))));
+        m.put(StatEffectIds.EFF_CHARM_HEAL_MANA_USE_CHARM, new ResourceStatEffect("mana", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_charm", "charm"))));
         // 护符使用即时回血（#215 词缀「Recover # Life when Used」，charm 池）：复用 CHARM 作用域即时回复通道，
         // 与 EFF_CHARM_HEAL_MANA_USE_CHARM 同源（仅资源不同），CharmEngine.drink 发射 USE_CHARM 事件驱动。
-        m.put(StatEffectIds.EFF_CHARM_HEAL_HEALTH_USE_CHARM, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_charm", "charm"))));
+        m.put(StatEffectIds.EFF_CHARM_HEAL_HEALTH_USE_CHARM, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_charm", "charm"))));
         m.put(StatEffectIds.EFF_CHILL_ELECTROCUTE_FREEZE_IMMUNE_PIN, new ImmuneStatEffect(Set.of(StatusDefs.FREEZE, StatusDefs.ELECTROCUTE, StatusDefs.PIN, StatusDefs.CHILL)));
         m.put(StatEffectIds.EFF_CHILL_FREEZE_IMMUNE, new ImmuneStatEffect(Set.of(StatusDefs.FREEZE, StatusDefs.CHILL)));
         m.put(StatEffectIds.EFF_CHILL_IMMUNE, new ImmuneStatEffect(Set.of(StatusDefs.CHILL)));
@@ -847,11 +843,11 @@ public final class StatEffectGen {
         m.put(StatEffectIds.EFF_COLD_DAMAGE_CONVERT_GAIN_TRUE, new DamageConvertStatEffect(Set.of("cold"), "cold", DamageConvertStatEffect.Mode.GAIN, true, DamageConvertStatEffect.ToMode.FIXED, List.of()));
         m.put(StatEffectIds.EFF_COLD_DAMAGE_TAKEN_CONVERT_FIRE_LIGHTNING_RANDOM_REROUTE, new DamageTakenConvertStatEffect("", DamageTakenConvertStatEffect.Mode.REROUTE, DamageConvertStatEffect.ToMode.RANDOM, List.of("fire", "cold", "lightning")));
         m.put(StatEffectIds.EFF_COLD_DAMAGE_TAKEN_CONVERT_PHYSICAL_REROUTE, new DamageTakenConvertStatEffect("cold", DamageTakenConvertStatEffect.Mode.REROUTE, DamageConvertStatEffect.ToMode.FIXED, List.of(), GateExpr.of(Set.of("physical"))));
-        m.put(StatEffectIds.EFF_COLLECT_REMNANT_HEAL_HEALTH_REMNANT, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("collect_remnant", "remnant"))));
-        m.put(StatEffectIds.EFF_COLLECT_REMNANT_HEAL_MANA_REMNANT, new ResourceStatEffect(ResourceType.MANA, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("collect_remnant", "remnant"))));
-        m.put(StatEffectIds.EFF_CONSUME_ENDURANCE_HEAL_HEALTH, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of(EventName.consumeCharge(ChargeType.ENDURANCE.getSerializedName())))));
-        m.put(StatEffectIds.EFF_CONSUME_GLORY_GLORY_HEAL_HEALTH, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("consume_glory", "glory"))));
-        m.put(StatEffectIds.EFF_CONSUME_POWER_HEAL_MANA, new ResourceStatEffect(ResourceType.MANA, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of(EventName.consumeCharge(ChargeType.POWER.getSerializedName())))));
+        m.put(StatEffectIds.EFF_COLLECT_REMNANT_HEAL_HEALTH_REMNANT, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("collect_remnant", "remnant"))));
+        m.put(StatEffectIds.EFF_COLLECT_REMNANT_HEAL_MANA_REMNANT, new ResourceStatEffect("mana", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("collect_remnant", "remnant"))));
+        m.put(StatEffectIds.EFF_CONSUME_ENDURANCE_HEAL_HEALTH, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of(EventName.consumeCharge(ChargeType.ENDURANCE.getSerializedName())))));
+        m.put(StatEffectIds.EFF_CONSUME_GLORY_GLORY_HEAL_HEALTH, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("consume_glory", "glory"))));
+        m.put(StatEffectIds.EFF_CONSUME_POWER_HEAL_MANA, new ResourceStatEffect("mana", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of(EventName.consumeCharge(ChargeType.POWER.getSerializedName())))));
         m.put(StatEffectIds.EFF_CORRUPTED_BLOOD_IMMUNE, new ImmuneStatEffect(Set.of(StatusDefs.CORRUPTED_BLOOD)));
         m.put(StatEffectIds.EFF_CHANCE_DEFEND, new MarkerStatEffect(MarkerStatEffect.Kind.CHANCE_DEFEND, List.of()));
         m.put(StatEffectIds.EFF_CRIT_DEFEND, new MarkerStatEffect(MarkerStatEffect.Kind.DEFEND, List.of("crit")));
@@ -884,10 +880,10 @@ public final class StatEffectGen {
         m.put(StatEffectIds.EFF_DELIVERY_PROJECTILE_VALUE_2, new DeliveryStatEffect("projectile", Map.of("additional_projectiles", ExpressionCodec.VALUE)));
         m.put(StatEffectIds.EFF_DELIVERY_PROJECTILE_VALUE_3, new DeliveryStatEffect("projectile", Map.of("fork_count", ExpressionCodec.VALUE)));
         m.put(StatEffectIds.EFF_ELECTROCUTE_IMMUNE, new ImmuneStatEffect(Set.of(StatusDefs.ELECTROCUTE)));
-        m.put(StatEffectIds.EFF_ENERGY_GRANT_ON_EVENT_RESOURCE_VOLATILITY_DETONATED, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, ResourceType.ENERGY.getSerializedName(), GateExpr.of(Set.of("volatility_detonated")), null, 100.0, null, null));
+        m.put(StatEffectIds.EFF_ENERGY_GRANT_ON_EVENT_RESOURCE_VOLATILITY_DETONATED, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, "energy", GateExpr.of(Set.of("volatility_detonated")), null, 100.0, null, null));
         m.put(StatEffectIds.EFF_GRANT_ON_EVENT_RESOURCE_VOLATILITY_MAX_VOLATILITY_DETONATED, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, "volatility_max", GateExpr.of(Set.of("volatility_detonated")), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_ENERGY_HEAL_SHIELD_BLOCK, new ResourceStatEffect(ResourceType.ENERGY, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_shield_raise"))));
-        m.put(StatEffectIds.EFF_ENERGY_HEALTH_REPLACE_RESOURCE_CONVERT, new ResourceConvertStatEffect(ResourceType.ENERGY, ResourceType.HEALTH, ResourceConvertStatEffect.Mode.REPLACE, Set.of()));
+        m.put(StatEffectIds.EFF_ENERGY_HEAL_SHIELD_BLOCK, new ResourceStatEffect("energy", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_shield_raise"))));
+        m.put(StatEffectIds.EFF_ENERGY_HEALTH_REPLACE_RESOURCE_CONVERT, new ResourceConvertStatEffect("energy", "health", ResourceConvertStatEffect.Mode.REPLACE, Set.of()));
         m.put(StatEffectIds.EFF_ENERGY_PHYSICAL_RECOUP, new RecoupStatEffect(Set.of("energy"), GateExpr.of(Set.of("physical"))));
         m.put(StatEffectIds.EFF_ENERGY_RECOUP, new RecoupStatEffect(Set.of("energy")));
         m.put(StatEffectIds.EFF_EVADE_LUCKY_UNLUCKY, new LuckyStatEffect(LuckyStatEffect.RollSubject.EVADE, LuckyStatEffect.RollMode.UNLUCKY));
@@ -898,26 +894,26 @@ public final class StatEffectGen {
         // 第 8/9 参 amountIsMagnitude=false, baseStacks=20 ⇒ 击杀授予 20 层（= 双速 +20% / 移速 +10%）。
         m.put(StatEffectIds.EFF_GRANT_ON_EVENT_KILL_ONSLAUGHT_STATUS, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.STATUS, StatusDefs.ONSLAUGHT.id, GateExpr.of(Set.of("kill")), null, 100.0, null, null, false, 20));
         m.put(StatEffectIds.EFF_CHANCE_TO_GAIN_ARCANE_SURGE_ON_CRIT, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.STATUS, StatusDefs.ARCANE_SURGE.id, GateExpr.of(Set.of("caused_crit")), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_GRANT_ON_EVENT_KILL_RESOURCE_VOLATILITY, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, ResourceType.VOLATILITY.getSerializedName(), GateExpr.of(Set.of("kill")), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_GRANT_ON_EVENT_RESOURCE_TAKEN_STUN_VOLATILITY, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, ResourceType.VOLATILITY.getSerializedName(), GateExpr.of(Set.of("taken_stun")), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_GRANT_ON_EVENT_RESOURCE_MINION_DEATH_VOLATILITY, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, ResourceType.VOLATILITY.getSerializedName(), GateExpr.of(Set.of("minion_death")), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_HEAL_HEALTH, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL));
-        m.put(StatEffectIds.EFF_HEAL_HEALTH_KILL, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("kill"))));
+        m.put(StatEffectIds.EFF_GRANT_ON_EVENT_KILL_RESOURCE_VOLATILITY, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, "volatility", GateExpr.of(Set.of("kill")), null, 100.0, null, null));
+        m.put(StatEffectIds.EFF_GRANT_ON_EVENT_RESOURCE_TAKEN_STUN_VOLATILITY, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, "volatility", GateExpr.of(Set.of("taken_stun")), null, 100.0, null, null));
+        m.put(StatEffectIds.EFF_GRANT_ON_EVENT_RESOURCE_MINION_DEATH_VOLATILITY, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, "volatility", GateExpr.of(Set.of("minion_death")), null, 100.0, null, null));
+        m.put(StatEffectIds.EFF_HEAL_HEALTH, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL));
+        m.put(StatEffectIds.EFF_HEAL_HEALTH_KILL, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("kill"))));
         m.put(StatEffectIds.EFF_GRANT_ON_EVENT_RESOURCE_HEALTH_MAX_KILL, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.RESOURCE, "health_max", GateExpr.of(Set.of("kill")), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_HEAL_HEALTH_KILL_POISON, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("kill", "poison"))));
-        m.put(StatEffectIds.EFF_HEAL_HEALTH_MANA_USE_FLASK, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_flask", "mana"))));
-        m.put(StatEffectIds.EFF_USE_HEALTH_FLASK_HEAL_RAGE, new ResourceStatEffect(ResourceType.RAGE, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_flask", "health"))));
-        m.put(StatEffectIds.EFF_HEAL_HEALTH_MINION_MINION_REVIVED, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("minion_revived", "minion"))));
-        m.put(StatEffectIds.EFF_HEAL_HEALTH_SHIELD_BLOCK, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_shield_raise"))));
-        m.put(StatEffectIds.EFF_HEAL_HEALTH_USE_WARCRY_WARCRY, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_warcry", "warcry"))));
+        m.put(StatEffectIds.EFF_HEAL_HEALTH_KILL_POISON, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("kill", "poison"))));
+        m.put(StatEffectIds.EFF_HEAL_HEALTH_MANA_USE_FLASK, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_flask", "mana"))));
+        m.put(StatEffectIds.EFF_USE_HEALTH_FLASK_HEAL_RAGE, new ResourceStatEffect("rage", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_flask", "health"))));
+        m.put(StatEffectIds.EFF_HEAL_HEALTH_MINION_MINION_REVIVED, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("minion_revived", "minion"))));
+        m.put(StatEffectIds.EFF_HEAL_HEALTH_SHIELD_BLOCK, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_shield_raise"))));
+        m.put(StatEffectIds.EFF_HEAL_HEALTH_USE_WARCRY_WARCRY, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("use_warcry", "warcry"))));
         m.put(StatEffectIds.EFF_USE_WARCRY_GRANT_ON_EVENT_IGNITE_STATUS, new GrantOnEventStatEffect(GrantOnEventStatEffect.GrantTarget.STATUS, StatusDefs.IGNITE.id, GateExpr.of(Set.of("use_warcry_enemy")), null, 100.0, null, null));
-        m.put(StatEffectIds.EFF_HEAL_IGNITE_RAGE, new ResourceStatEffect(ResourceType.RAGE, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("ignite"))));
-        m.put(StatEffectIds.EFF_HEAL_KILL_MANA, new ResourceStatEffect(ResourceType.MANA, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("kill"))));
-        m.put(StatEffectIds.EFF_HEAL_MANA, new ResourceStatEffect(ResourceType.MANA, ResourceStatEffect.Direction.HEAL));
-        m.put(StatEffectIds.EFF_HEAL_MANA_SHIELD_BLOCK, new ResourceStatEffect(ResourceType.MANA, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_shield_raise"))));
-        m.put(StatEffectIds.EFF_HEAL_RAGE, new ResourceStatEffect(ResourceType.RAGE, ResourceStatEffect.Direction.HEAL));
-        m.put(StatEffectIds.EFF_HEAL_RAGE_TAKEN_HIT, new ResourceStatEffect(ResourceType.RAGE, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("taken_hit"))));
-        m.put(StatEffectIds.EFF_HEALTH_MANA_REPLACE_RESOURCE_CONVERT, new ResourceConvertStatEffect(ResourceType.MANA, ResourceType.HEALTH, ResourceConvertStatEffect.Mode.REPLACE, Set.of()));
+        m.put(StatEffectIds.EFF_HEAL_IGNITE_RAGE, new ResourceStatEffect("rage", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("ignite"))));
+        m.put(StatEffectIds.EFF_HEAL_KILL_MANA, new ResourceStatEffect("mana", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("kill"))));
+        m.put(StatEffectIds.EFF_HEAL_MANA, new ResourceStatEffect("mana", ResourceStatEffect.Direction.HEAL));
+        m.put(StatEffectIds.EFF_HEAL_MANA_SHIELD_BLOCK, new ResourceStatEffect("mana", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_shield_raise"))));
+        m.put(StatEffectIds.EFF_HEAL_RAGE, new ResourceStatEffect("rage", ResourceStatEffect.Direction.HEAL));
+        m.put(StatEffectIds.EFF_HEAL_RAGE_TAKEN_HIT, new ResourceStatEffect("rage", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("taken_hit"))));
+        m.put(StatEffectIds.EFF_HEALTH_MANA_REPLACE_RESOURCE_CONVERT, new ResourceConvertStatEffect("mana", "health", ResourceConvertStatEffect.Mode.REPLACE, Set.of()));
         m.put(StatEffectIds.EFF_HEALTH_RECOUP, new RecoupStatEffect(Set.of("health")));
         m.put(StatEffectIds.EFF_HEAVY_STUN_IMMUNE_STUN, new ImmuneStatEffect(Set.of(StatusDefs.STUN)));
         m.put(StatEffectIds.EFF_HINDER_IMMUNE, new ImmuneStatEffect(Set.of(StatusDefs.HINDER)));
@@ -1085,16 +1081,16 @@ public final class StatEffectGen {
         // 变回人形时消耗全部怒气并按「每点怒气恢复 X% 最大生命」回血：复用 FORM_CLEARED 火（owner=玩家），RageConsumeHealStatEffect 取 RageHelper 真实读点；条目 amount = X（%）经 self 以 $value 透传。
         m.put(StatEffectIds.EFF_CONSUME_ALL_RAGE_WHEN_SHAPESHIFTING_TO_HUMAN_FORM_TO_RECOVER_OF_MAX_HEALTH_PER_RAGE_CONSUMED, new RageConsumeHealStatEffect(GateExpr.of(Set.of("form_cleared"))));
         // ── wildsurge_incantation 风暴/植物法术：消耗/持续时间（节点值驱动幅度；value-driven）──
-        // cost：COST_EFFICIENCY（ADD_VALUE，base=0），{mana, spell, storm}/{mana, spell, plant} 作用域（ResourceCost 按 (1-eff) 缩放）。
+        // cost：COST_EFFICIENCY（ADD_VALUE，base=0），{mana, spell, storm}/{mana, spell, plant} 作用域（资源消耗按 (1-eff) 缩放）。
         // duration：SPELL_DURATION_MULT（首类法术/技能效果时长倍率，ADD_MULTIPLIED_TOTAL，base=1.0）——
-        //   读点 AreaDeliveryExecutor / BeamDeliveryExecutor / OrbDeliveryExecutor（时长计算处），
+        //   读点 AreaDeliveryExecutor（含光束 / 原地脉冲等几何，时长计算处），
         //   其作用域已并入技能标签（{spell,storm}/{spell,plant} 即时折叠）；节点值 -0.75 ⇒ 时长 ×0.25（75% less）。
         m.put(StatEffectIds.EFF_STORM_SPELLS_HAVE_50_PERCENT_LESS_COST, new ModifierStatEffect(AttributeRegistry.COST_EFFICIENCY, Either.left(AttributeModifier.Operation.ADD_VALUE), ModifierStatEffect.Mode.GAIN, GateExpr.of(List.of(GateTag.MANA, "spell", "storm"))));
         m.put(StatEffectIds.EFF_PLANT_SPELLS_HAVE_50_PERCENT_LESS_COST, new ModifierStatEffect(AttributeRegistry.COST_EFFICIENCY, Either.left(AttributeModifier.Operation.ADD_VALUE), ModifierStatEffect.Mode.GAIN, GateExpr.of(List.of(GateTag.MANA, "spell", "plant"))));
         m.put(StatEffectIds.EFF_STORM_SPELLS_HAVE_75_PERCENT_LESS_DURATION, new ModifierStatEffect(AttributeRegistry.DURATION_MULT, Either.left(AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL), ModifierStatEffect.Mode.GAIN, GateExpr.of(List.of("spell", "storm"))));
         m.put(StatEffectIds.EFF_PLANT_SPELLS_HAVE_75_PERCENT_LESS_DURATION, new ModifierStatEffect(AttributeRegistry.DURATION_MULT, Either.left(AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL), ModifierStatEffect.Mode.GAIN, GateExpr.of(List.of("spell", "plant"))));
         // #241：「Grants # Life per Enemy Hit」——造成命中即时回血（EventName.CAUSED_HIT，与 CAUSED_HIT_HEAL_RAGE 同通道）。
-        m.put(StatEffectIds.EFF_CAUSED_HIT_HEAL_HEALTH, new ResourceStatEffect(ResourceType.HEALTH, ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_hit"))));
+        m.put(StatEffectIds.EFF_CAUSED_HIT_HEAL_HEALTH, new ResourceStatEffect("health", ResourceStatEffect.Direction.HEAL, GateExpr.of(Set.of("caused_hit"))));
         return m;
     }
 
