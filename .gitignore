@@ -1,9 +1,11 @@
 ### 项目参考数据 —— 禁止删除！ ###
 # ⛔ 以下文件为 POE2 技能数据的参考文档和缓存数据，禁止删除！
-!docs/POE2技能数据获取方法.md
-!docs/POE2技能数据.md
+# 默认忽略 docs/ 内全部内容，但强制保留以下参考文档（即便父目录被忽略，用 /docs/* 而非 /docs/ 以便反包含生效）
+/docs/*
+!/docs/POE2技能数据获取方法.md
+!/docs/POE2技能数据.md
+!/docs/poe2_gem_data.json
 !poe2_levels.json
-!docs/poe2_gem_data.json
 
 ### Gradle ###
 .gradle
@@ -46,5 +48,10 @@ run/
 repo/
 !**/src/**/repo/
 
-# Windows del 重定向误产物（内容是"系统找不到文件"乱码消息，与项目无关且git 无法索引）
-nul
+### 本地/工具目录 —— 不纳入版本控制（排除出 git 推送） ###
+# 这些目录体积大或仅本地相关，不进仓库。本地文件均保留，仅从 git 索引移除。
+/_tools/
+/scripts/
+/design/
+/.workbuddy/
+/poe2_assets/
