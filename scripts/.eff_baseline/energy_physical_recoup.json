@@ -1,9 +1,0 @@
-{
-  "type": "recoup",
-  "from_type": [
-    "physical"
-  ],
-  "resources": [
-    "energy"
-  ]
-}

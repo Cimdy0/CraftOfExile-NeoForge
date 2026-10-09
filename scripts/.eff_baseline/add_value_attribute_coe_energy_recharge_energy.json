@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:energy_recharge",
-  "operation": "add_value",
-  "tags": [
-    "energy"
-  ]
-}

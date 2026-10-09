@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "minecraft:attack_damage",
-  "operation": "add_value",
-  "tags": [
-    "cold"
-  ]
-}

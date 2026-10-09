@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:charm_charges_gained",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "charm"
-  ]
-}

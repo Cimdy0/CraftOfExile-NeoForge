@@ -1,9 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:regeneration_rate",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "energy",
-    "regen"
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:taken_damage",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "physical"
-  ]
-}

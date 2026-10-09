@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:strength",
-  "operation": "add_multiplied_total",
-  "tags": [
-    "companion"
-  ]
-}

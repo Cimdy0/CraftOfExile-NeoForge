@@ -1,8 +1,0 @@
-{
-  "type": "heal",
-  "resource": "health",
-  "tags": [
-    "collect_remnant",
-    "remnant"
-  ]
-}

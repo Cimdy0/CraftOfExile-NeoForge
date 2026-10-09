@@ -1,7 +1,0 @@
-{
-  "type": "heal",
-  "resource": "mana",
-  "tags": [
-    "shield_block"
-  ]
-}

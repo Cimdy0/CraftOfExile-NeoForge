@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:max_frenzy_charges",
-  "operation": "add_value",
-  "tags": [
-    "frenzy"
-  ]
-}

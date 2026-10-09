@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:max_power_charges",
-  "operation": "add_value",
-  "tags": [
-    "power"
-  ]
-}

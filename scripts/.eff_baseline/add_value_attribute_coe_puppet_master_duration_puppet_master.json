@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:puppet_master_duration",
-  "operation": "add_value",
-  "tags": [
-    "puppet_master"
-  ]
-}

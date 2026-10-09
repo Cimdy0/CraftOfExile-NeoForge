@@ -1,9 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:aftershock_chance",
-  "operation": "add_value",
-  "tags": [
-    "mace",
-    "slam"
-  ]
-}

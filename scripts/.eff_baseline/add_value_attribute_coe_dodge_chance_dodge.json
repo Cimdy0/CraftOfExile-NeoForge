@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:dodge_chance",
-  "operation": "add_value",
-  "tags": [
-    "dodge"
-  ]
-}

@@ -55,3 +55,10 @@ repo/
 /design/
 /.workbuddy/
 /poe2_assets/
+# 项目内 Gradle 缓存/属性目录（原本就不该入库）
+/.gradle-pd-1/
+# 本地日志与临时修复脚本
+/logs
+/_fixecho.py
+/_scan_blockcomment.py
+/fix_tmp2.py

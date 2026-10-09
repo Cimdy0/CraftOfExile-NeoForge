@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:volatility_detonation_time",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "volatility"
-  ]
-}

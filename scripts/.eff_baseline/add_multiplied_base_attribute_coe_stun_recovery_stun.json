@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:stun_recovery",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "stun"
-  ]
-}

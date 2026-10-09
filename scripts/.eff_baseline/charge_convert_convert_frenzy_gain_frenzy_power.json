@@ -1,9 +1,0 @@
-{
-  "type": "charge_convert",
-  "from": "frenzy",
-  "mode": "convert",
-  "tags": [
-    "gain_frenzy"
-  ],
-  "to": "power"
-}

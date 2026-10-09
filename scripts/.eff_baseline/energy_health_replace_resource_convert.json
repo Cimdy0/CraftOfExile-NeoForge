@@ -1,6 +1,0 @@
-{
-  "type": "resource_convert",
-  "from": "energy",
-  "mode": "replace",
-  "to": "health"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "damage_taken_convert",
-  "mode": "reroute",
-  "reduction": "fire",
-  "tags": [
-    "physical"
-  ]
-}

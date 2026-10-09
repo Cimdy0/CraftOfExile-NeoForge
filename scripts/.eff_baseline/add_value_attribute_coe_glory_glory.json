@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:glory",
-  "operation": "add_value",
-  "tags": [
-    "glory"
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:leech_rate",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "leeching"
-  ]
-}

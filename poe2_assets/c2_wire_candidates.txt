@@ -1,4 +1,0 @@
-        // === C2 规模化：短语匹配式安全接线（SEG 源自已接线条目注释 + 保守同义词桥接，零新增 effect 注册） ===
-        map.put(StatIds.TO_EVASION, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_EVASION));
-        map.put(StatIds.TO_ARMOR, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_MINECRAFT_ARMOR));
-        map.put(StatIds.TO_ACCURACY, stat(StatTargetIds.TGT_SELF_ONLY, StatEffectIds.EFF_ADD_VALUE_ATTRIBUTE_COE_ACCURACY));

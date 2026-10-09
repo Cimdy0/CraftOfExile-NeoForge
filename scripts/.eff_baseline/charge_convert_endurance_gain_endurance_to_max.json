@@ -1,8 +1,0 @@
-{
-  "type": "charge_convert",
-  "mode": "to_max",
-  "tags": [
-    "gain_endurance"
-  ],
-  "to": "endurance"
-}

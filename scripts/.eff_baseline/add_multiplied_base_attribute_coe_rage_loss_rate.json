@@ -1,5 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:rage_loss_rate",
-  "operation": "add_multiplied_base"
-}

@@ -1,9 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:amount_leeched",
-  "operation": "add_multiplied_total",
-  "tags": [
-    "leeching",
-    "amount"
-  ]
-}

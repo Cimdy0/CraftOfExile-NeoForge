@@ -1,8 +1,0 @@
-{
-  "type": "grant_on_event",
-  "param": "debilitate",
-  "tags": [
-    "caused_hit"
-  ],
-  "target": "status"
-}

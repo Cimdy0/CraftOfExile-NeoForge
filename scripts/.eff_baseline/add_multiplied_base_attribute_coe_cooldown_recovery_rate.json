@@ -1,5 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:cooldown_recovery_rate",
-  "operation": "add_multiplied_base"
-}

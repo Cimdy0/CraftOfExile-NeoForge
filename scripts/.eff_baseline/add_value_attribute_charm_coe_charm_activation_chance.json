@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:charm_activation_chance",
-  "operation": "add_value",
-  "tags": [
-    "charm"
-  ]
-}

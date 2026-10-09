@@ -1,7 +1,0 @@
-{
-  "type": "defend",
-  "condition_tags": [
-    "projectile"
-  ],
-  "kind": "defend"
-}

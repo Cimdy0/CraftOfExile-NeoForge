@@ -1,5 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:crit_chance",
-  "operation": "set_value"
-}

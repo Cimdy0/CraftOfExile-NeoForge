@@ -1,5 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "minecraft:sneaking_speed",
-  "operation": "add_multiplied_base"
-}

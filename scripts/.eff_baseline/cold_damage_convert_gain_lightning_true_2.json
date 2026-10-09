@@ -1,9 +1,0 @@
-{
-  "type": "damage_convert",
-  "from": [
-    "cold"
-  ],
-  "hits_only": true,
-  "mode": "gain",
-  "to": "lightning"
-}

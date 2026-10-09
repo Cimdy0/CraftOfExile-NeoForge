@@ -1,8 +1,0 @@
-{
-  "type": "grant_on_event",
-  "param": "power",
-  "tags": [
-    "gain_power"
-  ],
-  "target": "charge"
-}

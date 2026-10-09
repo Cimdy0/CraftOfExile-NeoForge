@@ -1,5 +1,0 @@
-{
-  "type": "inline",
-  "condition": "trigger_target",
-  "target": "trigger_target"
-}

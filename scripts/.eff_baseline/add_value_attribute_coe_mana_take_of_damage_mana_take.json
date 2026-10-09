@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:mana_take_of_damage",
-  "operation": "add_value",
-  "tags": [
-    "mana_take"
-  ]
-}

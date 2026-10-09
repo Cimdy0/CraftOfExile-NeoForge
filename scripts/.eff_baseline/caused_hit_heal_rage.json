@@ -1,7 +1,0 @@
-{
-  "type": "heal",
-  "resource": "rage",
-  "tags": [
-    "caused_hit"
-  ]
-}

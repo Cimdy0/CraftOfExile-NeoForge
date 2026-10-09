@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:volatility_generation",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "volatility"
-  ]
-}

@@ -1,7 +1,0 @@
-{
-  "type": "delivery",
-  "delivery": "projectile",
-  "params": {
-    "fork_count": "$value"
-  }
-}

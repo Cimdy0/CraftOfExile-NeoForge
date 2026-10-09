@@ -1,5 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:max_mana",
-  "operation": "add_multiplied_base"
-}

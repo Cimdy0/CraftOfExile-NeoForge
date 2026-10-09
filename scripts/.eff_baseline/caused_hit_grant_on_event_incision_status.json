@@ -1,8 +1,0 @@
-{
-  "type": "grant_on_event",
-  "param": "incision",
-  "tags": [
-    "caused_hit"
-  ],
-  "target": "status"
-}

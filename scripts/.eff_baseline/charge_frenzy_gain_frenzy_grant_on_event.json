@@ -1,8 +1,0 @@
-{
-  "type": "grant_on_event",
-  "param": "frenzy",
-  "tags": [
-    "gain_frenzy"
-  ],
-  "target": "charge"
-}

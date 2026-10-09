@@ -1,7 +1,0 @@
-{
-  "type": "heal",
-  "resource": "health",
-  "tags": [
-    "shield_block"
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:crit_chance",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "minion"
-  ]
-}

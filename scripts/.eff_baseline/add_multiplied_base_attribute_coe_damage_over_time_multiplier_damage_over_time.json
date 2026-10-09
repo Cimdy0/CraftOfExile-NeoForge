@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:damage_over_time_multiplier",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "damage_over_time"
-  ]
-}

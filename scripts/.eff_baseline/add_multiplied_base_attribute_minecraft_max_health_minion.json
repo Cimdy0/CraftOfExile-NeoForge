@@ -1,8 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "minecraft:max_health",
-  "operation": "add_multiplied_base",
-  "tags": [
-    "minion"
-  ]
-}

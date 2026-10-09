@@ -1,9 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:banner_linger",
-  "operation": "add_value",
-  "tags": [
-    "banner",
-    "!taken"
-  ]
-}

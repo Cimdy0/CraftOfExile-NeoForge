@@ -1,5 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:dexterity",
-  "operation": "add_multiplied_total"
-}

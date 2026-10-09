@@ -1,9 +1,0 @@
-{
-  "type": "damage_convert",
-  "from": [
-    "chaos"
-  ],
-  "hits_only": true,
-  "mode": "gain",
-  "to": "chaos"
-}

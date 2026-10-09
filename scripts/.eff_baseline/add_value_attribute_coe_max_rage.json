@@ -1,5 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:max_rage",
-  "operation": "add_value"
-}

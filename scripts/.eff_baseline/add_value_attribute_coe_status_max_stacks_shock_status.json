@@ -1,9 +1,0 @@
-{
-  "type": "attribute",
-  "attribute": "coe:status_max_stacks",
-  "operation": "add_value",
-  "tags": [
-    "status",
-    "shock"
-  ]
-}

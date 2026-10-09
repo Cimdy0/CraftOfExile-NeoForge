@@ -1,8 +1,0 @@
-{
-  "type": "grant_on_event",
-  "param": "daze",
-  "tags": [
-    "caused_hit"
-  ],
-  "target": "status"
-}

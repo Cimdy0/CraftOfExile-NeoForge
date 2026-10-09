@@ -1,8 +1,0 @@
-{
-  "type": "grant_on_event",
-  "param": "volatility",
-  "tags": [
-    "taken_stun"
-  ],
-  "target": "resource"
-}
